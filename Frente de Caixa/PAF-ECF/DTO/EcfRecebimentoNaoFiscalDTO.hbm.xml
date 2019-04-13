@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfRecebimentoNaoFiscalDTO" table="ecf_recebimento_nao_fiscal" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_recebimento_nao_fiscal</param>
+      </generator>
+    </id>
+
+
+    <property name="IdEcfMovimento" column="ID_ECF_MOVIMENTO" />
+    <property name="DataRecebimento" column="DATA_RECEBIMENTO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

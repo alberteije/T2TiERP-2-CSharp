@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ComprasService" namespace="ComprasService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CompraCotacaoDetalheDTO" table="compra_cotacao_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="IdCompraFornecedorCotacao" column="ID_COMPRA_FORNECEDOR_COTACAO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="QuantidadePedida" column="QUANTIDADE_PEDIDA" />
+    <property name="ValorUnitario" column="VALOR_UNITARIO" />
+    <property name="ValorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+  </class>
+</hibernate-mapping>

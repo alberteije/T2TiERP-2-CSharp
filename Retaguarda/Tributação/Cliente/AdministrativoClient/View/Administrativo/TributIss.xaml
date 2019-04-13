@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="AdministrativoClient.View.Administrativo.TributIss" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding TributIssSelected.TributOperacaoFiscal.Descricao}" Height="23" Width="652" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarTributOperacaoFiscal" Click="btPesquisarTributOperacaoFiscal_Click" Margin="664,25,0,0"  />
+			<Label Content="Operacao Fiscal:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="208" SelectedValue="{Binding TributIssSelected.ModalidadeBaseCalculo}" SelectedValuePath="Tag" Margin="6,79,0,0" >
+				<ComboBoxItem Content="Valor da Operação" Tag="0" />
+				<ComboBoxItem Content="Outros" Tag="9" />
+			</ComboBox>
+			<Label Content="Modalidade Base Calculo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,60,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIssSelected.PorcentoBaseCalculo}" Height="23" Width="120" Margin="6,129,0,0"  />
+			<Label Content="Porcento Base Calculo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIssSelected.AliquotaPorcento}" Height="23" Width="120" Margin="132,129,0,0"  />
+			<Label Content="Aliquota Porcento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIssSelected.AliquotaUnidade}" Height="23" Width="120" Margin="258,129,0,0"  />
+			<Label Content="Aliquota Unidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="258,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIssSelected.ValorPrecoMaximo}" Height="23" Width="120" Margin="384,129,0,0"  />
+			<Label Content="Valor Preco Maximo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="384,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIssSelected.ValorPautaFiscal}" Height="23" Width="120" Margin="510,129,0,0"  />
+			<Label Content="Valor Pauta Fiscal:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIssSelected.ItemListaServico}" Height="23" Width="142" Margin="413,79,0,0"  />
+			<Label Content="Item Lista Servico:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="413,60,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="187" SelectedValue="{Binding TributIssSelected.CodigoTributacao}" SelectedValuePath="Tag" Margin="220,79,0,0" >
+				<ComboBoxItem Content="Normal" Tag="N" />
+				<ComboBoxItem Content="Retida" Tag="R" />
+                <ComboBoxItem Content="Substituta" Tag="S" />
+                <ComboBoxItem Content="Isenta" Tag="I" />
+            </ComboBox>
+			<Label Content="Codigo Tributacao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,60,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

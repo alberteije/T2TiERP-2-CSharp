@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="TesourariaService"
+                   namespace="TesourariaService.Model" default-lazy="false">
+  <class name="FechamentoCaixaBancoDTO" table="fin_fechamento_caixa_banco">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="dataFechamento" column="DATA_FECHAMENTO" />
+    <property name="mes" column="MES" />
+    <property name="ano" column="ANO" />
+    <property name="saldoAnterior" column="SALDO_ANTERIOR" />
+    <property name="recebimentos" column="RECEBIMENTOS" />
+    <property name="pagamentos" column="PAGAMENTOS" />
+    <property name="saldoConta" column="SALDO_CONTA" />
+    <property name="chequeNaoCompensado" column="CHEQUE_NAO_COMPENSADO" />
+    <property name="saldoDisponivel" column="SALDO_DISPONIVEL" />
+  </class>
+</hibernate-mapping>

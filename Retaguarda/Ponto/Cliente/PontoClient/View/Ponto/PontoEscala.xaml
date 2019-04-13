@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PontoClient.View.Ponto.PontoEscala" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:view="clr-namespace:PontoClient.View.Ponto"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="800">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+        <DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Top" Height="120">
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.Nome}" Height="23" Width="495" Margin="6,25,0,0"  />
+			    <Label Content="Nome:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.DescontoHoraDia}" Height="23" Width="135" Margin="507,25,0,0"  />
+			    <Label Content="Falta Desconta Horas Dia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="507,6,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.DescontoDsr}" Height="23" Width="135" Margin="648,25,0,0"  />
+                <Label Content="Falta Desconta Horas DSR" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="648,6,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioDomingo}" Height="23" Width="100" Margin="6,73,0,0"  />
+			    <Label Content="Codigo Domingo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioSegunda}" Height="23" Width="100" Margin="112,73,0,0"  />
+			    <Label Content="Codigo Segunda:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioTerca}" Height="23" Width="100" Margin="218,73,0,0"  />
+			    <Label Content="Codigo Terca:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioQuarta}" Height="23" Width="100" Margin="325,73,0,0"  />
+			    <Label Content="Codigo Quarta:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="325,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioQuinta}" Height="23" Width="100" Margin="430,73,0,0"  />
+			    <Label Content="Codigo Quinta:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioSexta}" Height="23" Width="100" Margin="536,73,0,0"  />
+			    <Label Content="Codigo Sexta:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoEscalaSelected.CodigoHorarioSabado}" Height="23" Width="100" Margin="642,73,0,0"  />
+			    <Label Content="Codigo Sabado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="642,54,0,0"  />
+		    </Grid>
+            <view:PontoTurmaPrincipal></view:PontoTurmaPrincipal>
+        </DockPanel>
+    </DockPanel>
+</UserControl>

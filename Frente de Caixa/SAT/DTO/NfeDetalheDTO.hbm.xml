@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetalheDTO" table="nfe_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <one-to-one name="NfeDetalheImpostoIcms" class="NfeDetalheImpostoIcmsDTO" />
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="NumeroItem" column="NUMERO_ITEM" />
+    <property name="CodigoProduto" column="CODIGO_PRODUTO" />
+    <property name="Gtin" column="GTIN" />
+    <property name="NomeProduto" column="NOME_PRODUTO" />
+    <property name="Ncm" column="NCM" />
+    <property name="Nve" column="NVE" />
+    <property name="ExTipi" column="EX_TIPI" />
+    <property name="Cfop" column="CFOP" />
+    <property name="UnidadeComercial" column="UNIDADE_COMERCIAL" />
+    <property name="QuantidadeComercial" column="QUANTIDADE_COMERCIAL" />
+    <property name="ValorUnitarioComercial" column="VALOR_UNITARIO_COMERCIAL" />
+    <property name="ValorBrutoProduto" column="VALOR_BRUTO_PRODUTO" />
+    <property name="GtinUnidadeTributavel" column="GTIN_UNIDADE_TRIBUTAVEL" />
+    <property name="UnidadeTributavel" column="UNIDADE_TRIBUTAVEL" />
+    <property name="QuantidadeTributavel" column="QUANTIDADE_TRIBUTAVEL" />
+    <property name="ValorUnitarioTributavel" column="VALOR_UNITARIO_TRIBUTAVEL" />
+    <property name="ValorFrete" column="VALOR_FRETE" />
+    <property name="ValorSeguro" column="VALOR_SEGURO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorOutrasDespesas" column="VALOR_OUTRAS_DESPESAS" />
+    <property name="EntraTotal" column="ENTRA_TOTAL" />
+    <property name="ValorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="NumeroPedidoCompra" column="NUMERO_PEDIDO_COMPRA" />
+    <property name="ItemPedidoCompra" column="ITEM_PEDIDO_COMPRA" />
+    <property name="InformacoesAdicionais" column="INFORMACOES_ADICIONAIS" />
+    <property name="NumeroFci" column="NUMERO_FCI" />
+    <property name="NumeroRecopi" column="NUMERO_RECOPI" />
+    <property name="ValorTotalTributos" column="VALOR_TOTAL_TRIBUTOS" />
+    <property name="PercentualDevolvido" column="PERCENTUAL_DEVOLVIDO" />
+    <property name="ValorIpiDevolvido" column="VALOR_IPI_DEVOLVIDO" />
+  </class>
+</hibernate-mapping>

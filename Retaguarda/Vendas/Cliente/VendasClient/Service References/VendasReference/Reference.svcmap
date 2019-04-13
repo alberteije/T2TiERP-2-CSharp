@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2317f8c6-676f-4b0a-84b2-f81aca6970b3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2677/ServicoVendas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoVendas3.xsd" MetadataType="Schema" ID="3837c7c6-b131-48b6-8986-a80012c0a2b5" SourceId="1" SourceUrl="http://localhost:2677/ServicoVendas.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoVendas31.xsd" MetadataType="Schema" ID="b5d34e25-2c71-44dc-a372-eea1d005e2b0" SourceId="1" SourceUrl="http://localhost:2677/ServicoVendas.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoVendas32.xsd" MetadataType="Schema" ID="0edb1d88-70c7-403c-92d4-01985ab7b048" SourceId="1" SourceUrl="http://localhost:2677/ServicoVendas.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoVendas1.disco" MetadataType="Disco" ID="39372bd0-e57c-4088-88ef-fdbf9f293d19" SourceId="1" SourceUrl="http://localhost:2677/ServicoVendas.svc?disco" />
+    <MetadataFile FileName="ServicoVendas1.wsdl" MetadataType="Wsdl" ID="c2900cc8-e8b0-4625-913a-aa6e73fd1a54" SourceId="1" SourceUrl="http://localhost:2677/ServicoVendas.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

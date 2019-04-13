@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2671/ContasReceberService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" />
+  <xs:element name="gerarBoleto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="parcelaReceber" nillable="true" type="q1:FinParcelaReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gerarBoletoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="gerarBoletoResult" nillable="true" type="q2:FinParcelaReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePlanoNaturezaFinanceira">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="planoNaturezaFinanceira" nillable="true" type="q3:PlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePlanoNaturezaFinanceiraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePlanoNaturezaFinanceiraResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPlanoNaturezaFinanceira">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="planoNaturezaFinanceira" nillable="true" type="q4:PlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPlanoNaturezaFinanceiraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarPlanoNaturezaFinanceiraResult" nillable="true" type="q5:PlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoNaturezaFinanceira">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="planoNaturezaFinanceira" nillable="true" type="q6:PlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoNaturezaFinanceiraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectPlanoNaturezaFinanceiraResult" nillable="true" type="q7:ArrayOfPlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoNaturezaFinanceiraPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="planoNaturezaFinanceira" nillable="true" type="q8:PlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoNaturezaFinanceiraPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectPlanoNaturezaFinanceiraPaginaResult" nillable="true" type="q9:ArrayOfPlanoNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteNaturezaFinanceira">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="naturezaFinanceira" nillable="true" type="q10:NaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteNaturezaFinanceiraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteNaturezaFinanceiraResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarNaturezaFinanceira">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="naturezaFinanceira" nillable="true" type="q11:NaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarNaturezaFinanceiraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarNaturezaFinanceiraResult" nillable="true" type="q12:NaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectNaturezaFinanceira">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="naturezaFinanceira" nillable="true" type="q13:NaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectNaturezaFinanceiraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectNaturezaFinanceiraResult" nillable="true" type="q14:ArrayOfNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectNaturezaFinanceiraPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="naturezaFinanceira" nillable="true" type="q15:NaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectNaturezaFinanceiraPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectNaturezaFinanceiraPaginaResult" nillable="true" type="q16:ArrayOfNaturezaFinanceiraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinStatusParcela">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finStatusParcela" nillable="true" type="q17:FinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinStatusParcelaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFinStatusParcelaResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinStatusParcela">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finStatusParcela" nillable="true" type="q18:FinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinStatusParcelaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarFinStatusParcelaResult" nillable="true" type="q19:FinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinStatusParcela">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finStatusParcela" nillable="true" type="q20:FinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinStatusParcelaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinStatusParcelaResult" nillable="true" type="q21:ArrayOfFinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinStatusParcelaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finStatusParcela" nillable="true" type="q22:FinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinStatusParcelaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinStatusParcelaPaginaResult" nillable="true" type="q23:ArrayOfFinStatusParcelaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinTipoRecebimento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finTipoRecebimento" nillable="true" type="q24:FinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinTipoRecebimentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFinTipoRecebimentoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinTipoRecebimento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finTipoRecebimento" nillable="true" type="q25:FinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinTipoRecebimentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarFinTipoRecebimentoResult" nillable="true" type="q26:FinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinTipoRecebimento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finTipoRecebimento" nillable="true" type="q27:FinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinTipoRecebimentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinTipoRecebimentoResult" nillable="true" type="q28:ArrayOfFinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinTipoRecebimentoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finTipoRecebimento" nillable="true" type="q29:FinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinTipoRecebimentoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinTipoRecebimentoPaginaResult" nillable="true" type="q30:ArrayOfFinTipoRecebimentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinConfiguracaoBoleto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finConfiguracaoBoleto" nillable="true" type="q31:FinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinConfiguracaoBoletoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFinConfiguracaoBoletoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinConfiguracaoBoleto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finConfiguracaoBoleto" nillable="true" type="q32:FinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinConfiguracaoBoletoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarFinConfiguracaoBoletoResult" nillable="true" type="q33:FinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinConfiguracaoBoleto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finConfiguracaoBoleto" nillable="true" type="q34:FinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinConfiguracaoBoletoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinConfiguracaoBoletoResult" nillable="true" type="q35:ArrayOfFinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinConfiguracaoBoletoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finConfiguracaoBoleto" nillable="true" type="q36:FinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinConfiguracaoBoletoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinConfiguracaoBoletoPaginaResult" nillable="true" type="q37:ArrayOfFinConfiguracaoBoletoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinDocumentoOrigem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finDocumentoOrigem" nillable="true" type="q38:FinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinDocumentoOrigemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFinDocumentoOrigemResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinDocumentoOrigem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finDocumentoOrigem" nillable="true" type="q39:FinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinDocumentoOrigemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarFinDocumentoOrigemResult" nillable="true" type="q40:FinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinDocumentoOrigem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finDocumentoOrigem" nillable="true" type="q41:FinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinDocumentoOrigemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinDocumentoOrigemResult" nillable="true" type="q42:ArrayOfFinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinDocumentoOrigemPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finDocumentoOrigem" nillable="true" type="q43:FinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinDocumentoOrigemPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinDocumentoOrigemPaginaResult" nillable="true" type="q44:ArrayOfFinDocumentoOrigemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinLancamentoReceber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finLancamentoReceber" nillable="true" type="q45:FinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinLancamentoReceberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFinLancamentoReceberResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinLancamentoReceber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finLancamentoReceber" nillable="true" type="q46:FinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinLancamentoReceberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarFinLancamentoReceberResult" nillable="true" type="q47:FinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinLancamentoReceber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finLancamentoReceber" nillable="true" type="q48:FinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinLancamentoReceberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinLancamentoReceberResult" nillable="true" type="q49:ArrayOfFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinLancamentoReceberPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="finLancamentoReceber" nillable="true" type="q50:FinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinLancamentoReceberPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectFinLancamentoReceberPaginaResult" nillable="true" type="q51:ArrayOfFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarViewFinLancamentoReceber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="viewFinLancamentoReceber" nillable="true" type="q52:ViewFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarViewFinLancamentoReceberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="salvarAtualizarViewFinLancamentoReceberResult" nillable="true" type="q53:ViewFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinLancamentoReceber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="viewFinLancamentoReceber" nillable="true" type="q54:ViewFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinLancamentoReceberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectViewFinLancamentoReceberResult" nillable="true" type="q55:ArrayOfViewFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinLancamentoReceberPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="viewFinLancamentoReceber" nillable="true" type="q56:ViewFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinLancamentoReceberPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectViewFinLancamentoReceberPaginaResult" nillable="true" type="q57:ArrayOfViewFinLancamentoReceberDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="contaCaixa" nillable="true" type="q58:ContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectContaCaixaResult" nillable="true" type="q59:ArrayOfContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="contaCaixa" nillable="true" type="q60:ContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectContaCaixaPaginaResult" nillable="true" type="q61:ArrayOfContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q62:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectContabilContaResult" nillable="true" type="q63:ArrayOfContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q64:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectContabilContaPaginaResult" nillable="true" type="q65:ArrayOfContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectUsuarioResult" nillable="true" type="q66:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcesso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="viewControleAcesso" nillable="true" type="q67:ViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectControleAcessoResult" nillable="true" type="q68:ArrayOfViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewPessoaCliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="viewPessoaCliente" nillable="true" type="q69:ViewPessoaClienteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewPessoaClienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectViewPessoaClienteResult" nillable="true" type="q70:ArrayOfViewPessoaClienteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewPessoaClientePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="viewPessoaCliente" nillable="true" type="q71:ViewPessoaClienteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewPessoaClientePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" minOccurs="0" name="selectViewPessoaClientePaginaResult" nillable="true" type="q72:ArrayOfViewPessoaClienteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

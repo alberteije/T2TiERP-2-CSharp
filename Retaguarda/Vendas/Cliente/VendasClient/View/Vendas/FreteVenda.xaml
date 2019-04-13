@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="VendasClient.View.Vendas.FreteVenda" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.Id}" Height="23" Width="23" Margin="6,25,0,0" IsReadOnly="True" IsEnabled="False" />
+			<Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FreteVendaSelected.Transportadora.Pessoa.Nome}" Height="23" Width="136" Margin="38,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarTransportadora" Click="btPesquisarTransportadora_Click" Margin="182,24,0,0"  />
+			<Label Content="Transportadora" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FreteVendaSelected.VendaCabecalho.NumeroFatura}" Height="23" Width="68" Margin="218,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarVendaCabecalho" Click="btPesquisarVendaCabecalho_Click" Margin="292,24,0,0"  />
+			<Label Content="Nr. Fatura" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="96" Margin="328,25,0,0" 
+                      SelectedValue="{Binding FreteVendaSelected.Conhecimento}" SelectedValuePath="Tag">
+                <ComboBoxItem Tag="1" Content="CIF"/>
+                <ComboBoxItem Tag="2" Content="FOB"/>
+            </ComboBox>
+            <Label Content="Conhecimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="332,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FreteVendaSelected.Responsavel}" SelectedValuePath="Tag" Margin="430,25,0,0" >
+				<ComboBoxItem Content="Emitente" Tag="E" />
+				<ComboBoxItem Content="Destinatário" Tag="D" />
+			</ComboBox>
+			<Label Content="Responsavel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.Placa}" Height="23" Width="100" Margin="536,25,0,0"  />
+			<Label Content="Placa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Text="{Binding FreteVendaSelected.UfPlaca}" Margin="6,73,0,0" />
+			<Label Content="UF Placa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.SeloFiscal}" Height="23" Width="100" Margin="112,73,0,0"  />
+			<Label Content="Selo Fiscal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.QuantidadeVolume}" Height="23" Width="100" Margin="218,73,0,0"  />
+			<Label Content="Qtd. Volume" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.MarcaVolume}" Height="23" Width="100" Margin="324,73,0,0"  />
+			<Label Content="Marca Volume" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.EspecieVolume}" Height="23" Width="100" Margin="430,73,0,0"  />
+			<Label Content="Especie Volume" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.PesoBruto}" Height="23" Width="100" Margin="536,73,0,0"  />
+			<Label Content="Peso Bruto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FreteVendaSelected.PesoLiquido}" Height="23" Width="100" Margin="6,121,0,0"  />
+			<Label Content="Peso Líquido" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,20 @@
+﻿ContasReceberClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\
+ContasReceberClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\App.xaml
+35-440676056
+
+57863497560
+22-553203650
+themes\generic.xaml;View\ContasReceber\ContasReceberPrincipal.xaml;View\ContasReceber\FinConfiguracaoBoleto.xaml;View\ContasReceber\FinConfiguracaoBoletoLista.xaml;View\ContasReceber\FinConfiguracaoBoletoPrincipal.xaml;View\ContasReceber\FinLancamentoReceber.xaml;View\ContasReceber\FinLancamentoReceberLista.xaml;View\ContasReceber\FinLancamentoReceberPrincipal.xaml;View\ContasReceber\FinLctoReceberNtFinanceira.xaml;View\ContasReceber\FinLctoReceberNtFinanceiraLista.xaml;View\ContasReceber\FinLctoReceberNtFinanceiraPrincipal.xaml;View\ContasReceber\FinParcelaRecebimento.xaml;View\ContasReceber\FinParcelaRecebimentoLista.xaml;View\ContasReceber\FinParcelaRecebimentoPrincipal.xaml;View\ContasReceber\FinParcelaReceber.xaml;View\ContasReceber\FinParcelaReceberLista.xaml;View\ContasReceber\FinParcelaReceberPrincipal.xaml;View\ContasReceber\FinStatusParcela.xaml;View\ContasReceber\FinStatusParcelaLista.xaml;View\ContasReceber\FinStatusParcelaPrincipal.xaml;View\ContasReceber\FinTipoRecebimento.xaml;View\ContasReceber\FinTipoRecebimentoLista.xaml;View\ContasReceber\FinTipoRecebimentoPrincipal.xaml;View\ContasReceber\Login.xaml;View\ContasReceber\NaturezaFinanceira.xaml;View\ContasReceber\NaturezaFinanceiraLista.xaml;View\ContasReceber\NaturezaFinanceiraPrincipal.xaml;View\ContasReceber\PlanoNaturezaFinanceira.xaml;View\ContasReceber\PlanoNaturezaFinanceiraLista.xaml;View\ContasReceber\PlanoNaturezaFinanceiraPrincipal.xaml;View\ContasReceber\EdiPrincipal.xaml;View\ContasReceber\ViewFinLancamentoReceber.xaml;View\ContasReceber\ViewFinLancamentoReceberLista.xaml;View\ContasReceber\ViewFinLancamentoReceberPrincipal.xaml;View\ERPClient.xaml;
+
+False
+

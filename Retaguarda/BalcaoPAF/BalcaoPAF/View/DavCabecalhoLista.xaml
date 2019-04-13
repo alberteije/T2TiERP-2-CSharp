@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="BalcaoPAF.View.DavCabecalhoLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:BalcaoPAF.View.Botoes" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:BalcaoPAF.Util" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+	</UserControl.Resources>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Top" Grid.Column="0">
+				<viewBotoes:BarraExterna></viewBotoes:BarraExterna>
+			</StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaDavCabecalho}" SelectedItem="{Binding DavCabecalhoSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+                    <DataGridTextColumn Header="IdEmpresa" Binding="{Binding Path=Empresa.Id}"  />
+                    <DataGridTextColumn Header="IdPessoa" Binding="{Binding Path=Pessoa.Id}"  />
+					<DataGridTextColumn Header="NumeroDav" Binding="{Binding Path=NumeroDav}"  />
+					<DataGridTextColumn Header="NumeroEcf" Binding="{Binding Path=NumeroEcf}"  />
+					<DataGridTextColumn Header="Ccf" Binding="{Binding Path=Ccf}"  />
+					<DataGridTextColumn Header="Coo" Binding="{Binding Path=Coo}"  />
+					<DataGridTextColumn Header="NomeDestinatario" Binding="{Binding Path=NomeDestinatario}"  />
+					<DataGridTextColumn Header="CpfCnpjDestinatario" Binding="{Binding Path=CpfCnpjDestinatario}"  />
+					<DataGridTextColumn Header="DataEmissao" Binding="{Binding Path=DataEmissao,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="HoraEmissao" Binding="{Binding Path=HoraEmissao}"  />
+					<DataGridTextColumn Header="Situacao" Binding="{Binding Path=Situacao}"  />
+					<DataGridTextColumn Header="TaxaAcrescimo" Binding="{Binding Path=TaxaAcrescimo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Acrescimo" Binding="{Binding Path=Acrescimo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="TaxaDesconto" Binding="{Binding Path=TaxaDesconto,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Desconto" Binding="{Binding Path=Desconto,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Subtotal" Binding="{Binding Path=Subtotal,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Valor" Binding="{Binding Path=Valor,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Impresso" Binding="{Binding Path=Impresso}"  />
+					<DataGridTextColumn Header="Logss" Binding="{Binding Path=Logss}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</Grid>
+</UserControl>

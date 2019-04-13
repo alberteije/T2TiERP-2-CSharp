@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeFormaPagamentoDTO" table="nfe_forma_pagamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <many-to-one name="NfceTipoPagamento" column="ID_NFCE_TIPO_PAGAMENTO" />
+    <property name="Forma" column="FORMA" />
+    <property name="Valor" column="VALOR" />
+    <property name="CnpjOperadoraCartao" column="CNPJ_OPERADORA_CARTAO" />
+    <property name="Bandeira" column="BANDEIRA" />
+    <property name="NumeroAutorizacao" column="NUMERO_AUTORIZACAO" />
+    <property name="Estorno" column="ESTORNO" />
+  </class>
+</hibernate-mapping>

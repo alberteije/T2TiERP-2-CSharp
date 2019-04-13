@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="EscritaFiscalClient.View.EscritaFiscal.FiscalTermoLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:EscritaFiscalClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+				<Button Margin="4,0" Content="&lt;" Command="{Binding paginaAnteriorCommand}" />
+				<Button Margin="4,0" Content="&gt;" Command="{Binding paginaSeguinteCommand}" />
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+				<ComboBox Name="comboExp" SelectedIndex="0" Width="60" ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"></ComboBox>
+				<exp:ButtonExport ExportDataGridSource="{Binding ElementName=dataGrid}" ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}" Click="ButtonExport_Click">
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Imagem/documento32.png" Height="20"></Image>
+					</StackPanel>
+				</exp:ButtonExport>
+			</StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding FiscalLivroSelected.ListaFiscalTermo}" SelectedItem="{Binding FiscalTermoSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Abertura/Encerramento" Binding="{Binding Path=AberturaEncerramento}"  />
+					<DataGridTextColumn Header="Numero" Binding="{Binding Path=Numero}"  />
+					<DataGridTextColumn Header="Pagina Inicial" Binding="{Binding Path=PaginaInicial}"  />
+					<DataGridTextColumn Header="Pagina Final" Binding="{Binding Path=PaginaFinal}"  />
+					<DataGridTextColumn Header="Registrado" Binding="{Binding Path=Registrado}"  />
+					<DataGridTextColumn Header="Numero Registro" Binding="{Binding Path=NumeroRegistro}"  />
+					<DataGridTextColumn Header="Data Despacho" Binding="{Binding Path=DataDespacho,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Data Abertura" Binding="{Binding Path=DataAbertura,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Data Encerramento" Binding="{Binding Path=DataEncerramento,StringFormat=dd/MM/yyyy}"  />
+                    <DataGridTextColumn Header="Inicio Escrituracao" Binding="{Binding Path=EscrituracaoInicio,StringFormat=dd/MM/yyyy}"  />
+                    <DataGridTextColumn Header="Fim Escrituracao" Binding="{Binding Path=EscrituracaoFim,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Texto" Binding="{Binding Path=Texto}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

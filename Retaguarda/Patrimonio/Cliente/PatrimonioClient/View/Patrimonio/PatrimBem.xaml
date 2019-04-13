@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PatrimonioClient.View.Patrimonio.PatrimBem" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view ="clr-namespace:PatrimonioClient.View.Patrimonio"
+             mc:Ignorable="d" d:DesignHeight="580" d:DesignWidth="900">
+    <TabControl>
+        <TabItem Header="Bem Patrimonial">
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                    <Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                            <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                            <TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                    <Button Name="btSair" Width="100" Click="btSair_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+                            <TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+				<Grid DockPanel.Dock="Top" Height="160">
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PatrimBemSelected.PatrimTipoAquisicaoBem.Nome}" Height="23" Width="68" Margin="510,25,0,0"  />
+					<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPatrimTipoAquisicaoBem" Click="btPesquisarPatrimTipoAquisicaoBem_Click" Margin="578,25,0,0"  />
+					<Label Content="Tipo Aquisição" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,6,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PatrimBemSelected.PatrimEstadoConservacao.Nome}" Height="23" Width="68" Margin="616,26,0,0"  />
+					<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPatrimEstadoConservacao" Click="btPesquisarPatrimEstadoConservacao_Click" Margin="684,26,0,0"  />
+					<Label Content="Est. Conservação" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="616,7,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PatrimBemSelected.PatrimGrupoBem.Nome}" Height="23" Width="68" Margin="6,76,0,0"  />
+					<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPatrimGrupoBem" Click="btPesquisarPatrimGrupoBem_Click" Margin="74,76,0,0"  />
+					<Label Content="Grupo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,57,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PatrimBemSelected.Setor.Nome}" Height="23" Width="68" Margin="218,76,0,0"  />
+					<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarSetor" Click="btPesquisarSetor_Click" Margin="286,76,0,0"  />
+					<Label Content="Setor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,57,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PatrimBemSelected.Fornecedor.Pessoa.Nome}" Height="23" Width="119" Margin="721,27,0,0"  />
+					<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarFornecedor" Click="btPesquisarFornecedor_Click" Margin="846,26,0,0"  />
+					<Label Content="Fornecedor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="721,8,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PatrimBemSelected.Colaborador.Pessoa.Nome}" Height="23" Width="68" Margin="112,76,0,0"  />
+					<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarColaborador" Click="btPesquisarColaborador_Click" Margin="180,76,0,0"  />
+					<Label Content="Colaborador" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,57,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.NumeroNb}" Height="23" Width="100" Margin="324,77,0,0"  />
+					<Label Content="Num. Bem" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,58,0,0"  />
+					<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.Nome}" Height="23" Width="493" Margin="6,25,0,0"  />
+					<Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.NumeroSerie}" Height="23" Width="100" Margin="430,77,0,0"  />
+					<Label Content="Num. de Série" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,57,0,0"  />
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.Funcao}" Height="23" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="677" Margin="6,123,0,0" />
+					<Label Content="Função" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,104,0,0" />
+				</Grid>
+
+				<DockPanel>
+					<TabControl>
+						<TabItem Header="Dados Complementares">
+                            <DockPanel>
+                                <Grid  DockPanel.Dock="Top"  Height="180">
+                                    <TextBox Height="23" HorizontalAlignment="Left" Margin="118,137,0,0" Text="{Binding PatrimBemSelected.ChaveNfe}" VerticalAlignment="Top" Width="312" />
+                                    <Label Content="Chave NF-e" HorizontalAlignment="Left" Margin="118,118,0,0" VerticalAlignment="Top" />
+                                    <TextBox AcceptsReturn="True" Height="23" HorizontalAlignment="Left" Margin="10,29,0,0" Text="{Binding PatrimBemSelected.Descricao}" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Top" Width="861" />
+                                    <Label Content="Descricao" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="10,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataAquisicao}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Data de Aquisição" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="116,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataAceite}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Dt. Aceite" HorizontalAlignment="Left" Margin="116,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="222,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataCadastro}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Dt. Cadastro" HorizontalAlignment="Left" Margin="222,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="328,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataContabilizado}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Dt. Contabilizado" HorizontalAlignment="Left" Margin="328,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="434,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataVistoria}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Dt. Vistoria" HorizontalAlignment="Left" Margin="434,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="540,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataMarcacao}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Dt. Marcação" HorizontalAlignment="Left" Margin="540,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="646,85,0,0" SelectedDate="{Binding PatrimBemSelected.DataBaixa}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Dt. Baixa" HorizontalAlignment="Left" Margin="646,66,0,0" VerticalAlignment="Top" />
+                                    <DatePicker Height="23" HorizontalAlignment="Left" Margin="752,85,0,0" SelectedDate="{Binding PatrimBemSelected.VencimentoGarantia}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Venc. Garantia" HorizontalAlignment="Left" Margin="752,66,0,0" VerticalAlignment="Top" />
+                                    <TextBox Height="23" HorizontalAlignment="Left" Margin="12,137,0,0" Text="{Binding PatrimBemSelected.NumeroNotaFiscal}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Num. NF" HorizontalAlignment="Left" Margin="12,118,0,0" VerticalAlignment="Top" />
+                                    <TextBox Height="23" HorizontalAlignment="Left" Margin="436,137,0,0" Text="{Binding PatrimBemSelected.ValorOriginal}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Valor Original" HorizontalAlignment="Left" Margin="436,118,0,0" VerticalAlignment="Top" />
+                                    <TextBox Height="23" HorizontalAlignment="Left" Margin="542,137,0,0" Text="{Binding PatrimBemSelected.ValorCompra}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Valor Compra" HorizontalAlignment="Left" Margin="542,118,0,0" VerticalAlignment="Top" />
+                                    <TextBox Height="23" HorizontalAlignment="Left" Margin="648,137,0,0" Text="{Binding PatrimBemSelected.ValorAtualizado}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Valor Atualizado" HorizontalAlignment="Left" Margin="648,118,0,0" VerticalAlignment="Top" />
+                                    <TextBox Height="23" HorizontalAlignment="Left" Margin="754,137,0,0" Text="{Binding PatrimBemSelected.ValorBaixa}" VerticalAlignment="Top" Width="100" />
+                                    <Label Content="Valor Baixa" HorizontalAlignment="Left" Margin="754,118,0,0" VerticalAlignment="Top" />
+                                </Grid>
+
+                            <GroupBox Header="Depreciação">
+								<Grid>
+									<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PatrimBemSelected.Deprecia}" SelectedValuePath="Tag" Margin="6,35,0,0" >
+										<ComboBoxItem Content="Sim" Tag="S" />
+										<ComboBoxItem Content="Não" Tag="N" />
+									</ComboBox>
+									<Label Content="Deprecia" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,16,0,0"  />
+									<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PatrimBemSelected.MetodoDepreciacao}" SelectedValuePath="Tag" Margin="112,35,0,0" >
+										<ComboBoxItem Content="Linear" Tag="1" />
+										<ComboBoxItem Content="Soma dos Anos" Tag="2" />
+										<ComboBoxItem Content="Horas de Trabalho" Tag="3" />
+										<ComboBoxItem Content="Unidades Produzidas" Tag="3" />
+									</ComboBox>
+									<Label Content="Método" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="113,16,0,0"  />
+									<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PatrimBemSelected.InicioDepreciacao}" Margin="218,35,0,0"  />
+									<Label Content="Data de Início" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,16,0,0"  />
+									<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PatrimBemSelected.UltimaDepreciacao}" Margin="324,35,0,0"  />
+									<Label Content="Data Última" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,16,0,0"  />
+									<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PatrimBemSelected.TipoDepreciacao}" SelectedValuePath="Tag" Margin="430,35,0,0" >
+										<ComboBoxItem Content="Normal" Tag="N" />
+										<ComboBoxItem Content="Acelerada" Tag="A" />
+										<ComboBoxItem Content="Incentivada" Tag="I" />
+									</ComboBox>
+									<Label Content="Tipo Depreciação" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,16,0,0"  />
+									<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.TaxaAnualDepreciacao}" Height="23" Width="98" Margin="8,83,0,0"  />
+									<Label Content="Tx. Anual" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,64,0,0"  />
+									<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.TaxaMensalDepreciacao}" Height="23" Width="100" Margin="113,83,0,0"  />
+									<Label Content="Taxa Mensal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="114,64,0,0"  />
+									<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.TaxaDepreciacaoAcelerada}" Height="23" Width="100" Margin="218,83,0,0"  />
+									<Label Content="Taxa Acelerada" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,64,0,0"  />
+									<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimBemSelected.TaxaDepreciacaoIncentivada}" Height="23" Width="100" Margin="324,83,0,0"  />
+									<Label Content="Taxa Incentivada" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,64,0,0"  />
+                                    </Grid>
+							</GroupBox>
+                            </DockPanel>
+
+                        </TabItem>
+						<TabItem Header="Depreciação">
+							<view:PatrimDepreciacaoBemPrincipal></view:PatrimDepreciacaoBemPrincipal>
+						</TabItem>
+						<TabItem Header="Movimentação">
+							<view:PatrimMovimentacaoBemPrincipal></view:PatrimMovimentacaoBemPrincipal>
+						</TabItem>
+						<TabItem Header="Documento">
+							<view:PatrimDocumentoBemPrincipal></view:PatrimDocumentoBemPrincipal>
+						</TabItem>
+					</TabControl>
+				</DockPanel>
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="AdministrativoService" namespace="AdministrativoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TributIssDTO" table="tribut_iss" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="TributOperacaoFiscal" column="ID_TRIBUT_OPERACAO_FISCAL" />
+    <property name="ModalidadeBaseCalculo" column="MODALIDADE_BASE_CALCULO" />
+    <property name="PorcentoBaseCalculo" column="PORCENTO_BASE_CALCULO" />
+    <property name="AliquotaPorcento" column="ALIQUOTA_PORCENTO" />
+    <property name="AliquotaUnidade" column="ALIQUOTA_UNIDADE" />
+    <property name="ValorPrecoMaximo" column="VALOR_PRECO_MAXIMO" />
+    <property name="ValorPautaFiscal" column="VALOR_PAUTA_FISCAL" />
+    <property name="ItemListaServico" column="ITEM_LISTA_SERVICO" />
+    <property name="CodigoTributacao" column="CODIGO_TRIBUTACAO" />
+  </class>
+</hibernate-mapping>

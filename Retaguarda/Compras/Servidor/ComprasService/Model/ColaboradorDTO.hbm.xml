@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ComprasService" namespace="ComprasService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ColaboradorDTO" table="colaborador" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Pessoa" column="ID_PESSOA" />
+    <property name="Matricula" column="MATRICULA" />
+    <property name="Foto34" column="FOTO_34" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="DataAdmissao" column="DATA_ADMISSAO" />
+    <property name="VencimentoFerias" column="VENCIMENTO_FERIAS" />
+    <property name="DataTransferencia" column="DATA_TRANSFERENCIA" />
+    <property name="FgtsOptante" column="FGTS_OPTANTE" />
+    <property name="FgtsDataOpcao" column="FGTS_DATA_OPCAO" />
+    <property name="FgtsConta" column="FGTS_CONTA" />
+    <property name="PagamentoForma" column="PAGAMENTO_FORMA" />
+    <property name="PagamentoBanco" column="PAGAMENTO_BANCO" />
+    <property name="PagamentoAgencia" column="PAGAMENTO_AGENCIA" />
+    <property name="PagamentoAgenciaDigito" column="PAGAMENTO_AGENCIA_DIGITO" />
+    <property name="PagamentoConta" column="PAGAMENTO_CONTA" />
+    <property name="PagamentoContaDigito" column="PAGAMENTO_CONTA_DIGITO" />
+    <property name="ExameMedicoUltimo" column="EXAME_MEDICO_ULTIMO" />
+    <property name="ExameMedicoVencimento" column="EXAME_MEDICO_VENCIMENTO" />
+    <property name="PisDataCadastro" column="PIS_DATA_CADASTRO" />
+    <property name="PisNumero" column="PIS_NUMERO" />
+    <property name="PisBanco" column="PIS_BANCO" />
+    <property name="PisAgencia" column="PIS_AGENCIA" />
+    <property name="PisAgenciaDigito" column="PIS_AGENCIA_DIGITO" />
+    <property name="CtpsNumero" column="CTPS_NUMERO" />
+    <property name="CtpsSerie" column="CTPS_SERIE" />
+    <property name="CtpsDataExpedicao" column="CTPS_DATA_EXPEDICAO" />
+    <property name="CtpsUf" column="CTPS_UF" />
+    <property name="DescontoPlanoSaude" column="DESCONTO_PLANO_SAUDE" />
+    <property name="SaiNaRais" column="SAI_NA_RAIS" />
+    <property name="CategoriaSefip" column="CATEGORIA_SEFIP" />
+    <property name="Observacao" column="OBSERVACAO" />
+    <property name="OcorrenciaSefip" column="OCORRENCIA_SEFIP" />
+    <property name="CodigoAdmissaoCaged" column="CODIGO_ADMISSAO_CAGED" />
+    <property name="CodigoDemissaoCaged" column="CODIGO_DEMISSAO_CAGED" />
+    <property name="CodigoDemissaoSefip" column="CODIGO_DEMISSAO_SEFIP" />
+    <property name="DataDemissao" column="DATA_DEMISSAO" />
+    <property name="CodigoTurmaPonto" column="CODIGO_TURMA_PONTO" />
+    <property name="CagedAprendiz" column="CAGED_APRENDIZ" />
+    <property name="CagedDeficiencia" column="CAGED_DEFICIENCIA" />
+    <property name="ClassificacaoContabilConta" column="CLASSIFICACAO_CONTABIL_CONTA" />
+  </class>
+</hibernate-mapping>

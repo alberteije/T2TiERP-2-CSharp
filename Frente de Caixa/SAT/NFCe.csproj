@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED1E72B9-DC9E-4938-B580-67C42D8B3D3F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>NFCe</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NFCe</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>NFCe.tsProgram</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\libs\NHibernate\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2016.1.1.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\FastReport\v4.0_2016.1.1.0__db7e5ce63278458c\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\libs\NHibernate\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\..\libs\NHibernate\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\libs\MySQL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Classes">
+      <HintPath>..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Servicos">
+      <HintPath>..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Servicos.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Utils">
+      <HintPath>..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Wsdl">
+      <HintPath>..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Wsdl.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\libs\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\libs\NHibernate\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Compile Include="Controller\NfeNumeroController.cs" />
+    <Compile Include="Controller\VendedorController.cs" />
+    <Compile Include="Controller\DavController.cs" />
+    <Compile Include="Controller\FinLancamentoReceberController.cs" />
+    <Compile Include="Controller\NfeConfiguracaoController.cs" />
+    <Compile Include="Controller\NfceMovimentoController.cs" />
+    <Compile Include="Controller\VendaController.cs" />
+    <Compile Include="Controller\NfceSuprimentoController.cs" />
+    <Compile Include="Controller\NfceSangriaController.cs" />
+    <Compile Include="Controller\NfceOperadorController.cs" />
+    <Compile Include="Controller\NfceConfiguracaoController.cs" />
+    <Compile Include="DTO\CfopDTO.cs" />
+    <Compile Include="DTO\DavCabecalhoDTO.cs" />
+    <Compile Include="DTO\DavDetalheDTO.cs" />
+    <Compile Include="DTO\EmpresaDTO.cs" />
+    <Compile Include="DTO\EmpresaEnderecoDTO.cs" />
+    <Compile Include="DTO\FinLancamentoReceberDTO.cs" />
+    <Compile Include="DTO\FinParcelaReceberDTO.cs" />
+    <Compile Include="DTO\NfceCaixaDTO.cs" />
+    <Compile Include="DTO\NfceConfiguracaoBalancaDTO.cs" />
+    <Compile Include="DTO\NfceConfiguracaoDTO.cs" />
+    <Compile Include="DTO\NfceConfiguracaoLeitorSerDTO.cs" />
+    <Compile Include="DTO\NfceFechamentoDTO.cs" />
+    <Compile Include="DTO\NfceMovimentoDTO.cs" />
+    <Compile Include="DTO\NfceOperadorDTO.cs" />
+    <Compile Include="DTO\NfcePosicaoComponentesDTO.cs" />
+    <Compile Include="DTO\NfceResolucaoDTO.cs" />
+    <Compile Include="DTO\NfceSangriaDTO.cs" />
+    <Compile Include="DTO\NfceSuprimentoDTO.cs" />
+    <Compile Include="DTO\NfceTipoPagamentoDTO.cs" />
+    <Compile Include="DTO\NfceTurnoDTO.cs" />
+    <Compile Include="DTO\NfeCabecalhoDTO.cs" />
+    <Compile Include="DTO\NfeConfiguracaoDTO.cs" />
+    <Compile Include="DTO\NfeDestinatarioDTO.cs" />
+    <Compile Include="DTO\NfeDetalheDTO.cs" />
+    <Compile Include="DTO\NfeDetalheImpostoIcmsDTO.cs" />
+    <Compile Include="DTO\NfeFormaPagamentoDTO.cs" />
+    <Compile Include="DTO\NfeNumeroDTO.cs" />
+    <Compile Include="DTO\ProdutoDTO.cs" />
+    <Compile Include="DTO\TributOperacaoFiscalDTO.cs" />
+    <Compile Include="DTO\UnidadeProdutoDTO.cs" />
+    <Compile Include="DTO\VendedorDTO.cs" />
+    <Compile Include="DTO\ViewNfceClienteDTO.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="NHibernate\IDAL.cs" />
+    <Compile Include="NHibernate\NHibernateDAL.cs" />
+    <Compile Include="NHibernate\NHibernateHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SAT\ComunicacaoSAT.cs" />
+    <Compile Include="SAT\SATConfiguracaoDTO.cs" />
+    <Compile Include="SAT\SAT_MIAU.cs" />
+    <Compile Include="SAT\TratarRetornoSAT.cs" />
+    <Compile Include="tsProgram.cs" />
+    <Compile Include="Util\ConfiguracaoApp.cs" />
+    <Compile Include="Util\Funcoes.cs" />
+    <Compile Include="Util\Log.cs" />
+    <Compile Include="Util\Sessao.cs" />
+    <Compile Include="Util\Tipos.cs" />
+    <Compile Include="View\DescontoAcrescimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DescontoAcrescimo.Designer.cs">
+      <DependentUpon>DescontoAcrescimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EfetuaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EfetuaPagamento.Designer.cs">
+      <DependentUpon>EfetuaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EncerraMovimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EncerraMovimento.Designer.cs">
+      <DependentUpon>EncerraMovimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FechaEfetuaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FechaEfetuaPagamento.Designer.cs">
+      <DependentUpon>FechaEfetuaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\IdentificaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\IdentificaCliente.Designer.cs">
+      <DependentUpon>IdentificaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ImportaCliente.Designer.cs">
+      <DependentUpon>ImportaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportaNumero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ImportaNumero.Designer.cs">
+      <DependentUpon>ImportaNumero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ImportaProduto.Designer.cs">
+      <DependentUpon>ImportaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\IniciaMovimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\IniciaMovimento.Designer.cs">
+      <DependentUpon>IniciaMovimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StatusOperacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\StatusOperacional.Designer.cs">
+      <DependentUpon>StatusOperacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListaNfce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ListaNfce.Designer.cs">
+      <DependentUpon>ListaNfce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginGerenteSupervisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LoginGerenteSupervisor.Designer.cs">
+      <DependentUpon>LoginGerenteSupervisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuOperacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuOperacoes.Designer.cs">
+      <DependentUpon>MenuOperacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MovimentoAberto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MovimentoAberto.Designer.cs">
+      <DependentUpon>MovimentoAberto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Parcelamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Parcelamento.Designer.cs">
+      <DependentUpon>Parcelamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SubMenuGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SubMenuGerente.Designer.cs">
+      <DependentUpon>SubMenuGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SubMenuSupervisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SubMenuSupervisor.Designer.cs">
+      <DependentUpon>SubMenuSupervisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ValorReal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ValorReal.Designer.cs">
+      <DependentUpon>ValorReal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\ProdutoController.cs" />
+    <Compile Include="Controller\NfceTipoPagamentoController.cs" />
+    <Compile Include="Controller\NfeFormaPagamentoController.cs" />
+    <Compile Include="View\Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Caixa.Designer.cs">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Biblioteca.cs" />
+    <Compile Include="Controller\ViewNfceClienteController.cs" />
+    <Compile Include="Util\Constantes.cs" />
+    <Compile Include="Controller\NfceFechamentoController.cs" />
+    <Compile Include="Controller\NfceTurnoController.cs" />
+    <EmbeddedResource Include="DTO\CfopDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ProdutoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\UnidadeProdutoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\DavCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\DavDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EmpresaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EmpresaEnderecoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\FinLancamentoReceberDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\FinParcelaReceberDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceCaixaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceConfiguracaoBalancaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceConfiguracaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceConfiguracaoLeitorSerDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceFechamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceMovimentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceOperadorDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfcePosicaoComponentesDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceResolucaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceSangriaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceSuprimentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceTipoPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfceTurnoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeConfiguracaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeDestinatarioDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeDetalheImpostoIcmsDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeFormaPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NfeNumeroDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\TributOperacaoFiscalDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\VendedorDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ViewNfceClienteDTO.hbm.xml" />
+    <Content Include="Imagens\imgBotoes\21botaoAjuda.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCalculadora.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCancelaCupom.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCancelaItem.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCliente.png" />
+    <Content Include="Imagens\imgBotoes\21botaoDesconto.png" />
+    <Content Include="Imagens\imgBotoes\21botaoEncerraVenda.png" />
+    <Content Include="Imagens\imgBotoes\21botaoGaveta.png" />
+    <Content Include="Imagens\imgBotoes\21botaoMenuFiscal.png" />
+    <Content Include="Imagens\imgBotoes\21botaoMenuOperacoes.png" />
+    <Content Include="Imagens\imgBotoes\21botaoMenuPrincipal.png" />
+    <Content Include="Imagens\imgBotoes\21botaoPesquisa.png" />
+    <Content Include="Imagens\imgBotoes\21botaoSair.png" />
+    <Content Include="Imagens\imgBotoes\botaoAjuda.png" />
+    <Content Include="Imagens\imgBotoes\botaoCalculadora.png" />
+    <Content Include="Imagens\imgBotoes\botaoCancelaCupom.png" />
+    <Content Include="Imagens\imgBotoes\botaoCancelaItem.png" />
+    <Content Include="Imagens\imgBotoes\botaoCliente.png" />
+    <Content Include="Imagens\imgBotoes\botaoDesconto.png" />
+    <Content Include="Imagens\imgBotoes\botaoEncerraVenda.png" />
+    <Content Include="Imagens\imgBotoes\botaoGaveta.png" />
+    <Content Include="Imagens\imgBotoes\botaoMenuFiscal.png" />
+    <Content Include="Imagens\imgBotoes\botaoMenuOperacoes.png" />
+    <Content Include="Imagens\imgBotoes\botaoMenuPrincipal.png" />
+    <Content Include="Imagens\imgBotoes\botaoPesquisa.png" />
+    <Content Include="Imagens\imgBotoes\botaoSair.png" />
+    <Content Include="Imagens\imgBotoes\cancelar16.png" />
+    <Content Include="Imagens\imgBotoes\confirmar16.png" />
+    <None Include="Imagens\imgLayout\body.jpg" />
+    <Content Include="Imagens\imgLayout\Envelope.gif" />
+    <Content Include="Imagens\imgLayout\Menu.jpg" />
+    <Content Include="Imagens\imgLayout\Menu.png" />
+    <Content Include="Imagens\imgLayout\padrao.png" />
+    <Content Include="Imagens\imgLayout\PenDrive.jpg" />
+    <Content Include="Imagens\imgLayout\SubMenu.png" />
+    <Content Include="Imagens\imgLayout\Tela1024x768.jpg" />
+    <Content Include="Imagens\imgLayout\Tela800x600.jpg" />
+    <Content Include="Imagens\imgProdutos\0001170000005.jpg" />
+    <Content Include="Imagens\imgProdutos\0001190000009.jpg" />
+    <Content Include="Imagens\imgProdutos\0001234567898.jpg" />
+    <Content Include="Imagens\imgProdutos\0012354600333.jpg" />
+    <Content Include="Imagens\imgProdutos\0013253095907.jpg" />
+    <Content Include="Imagens\imgProdutos\0312011604499.jpg" />
+    <Content Include="Imagens\imgProdutos\0407011150500.jpg" />
+    <Content Include="Imagens\imgProdutos\0507021132142.jpg" />
+    <Content Include="Imagens\imgProdutos\0605021008457.jpg" />
+    <Content Include="Imagens\imgProdutos\0706031233270.jpg" />
+    <Content Include="Imagens\imgProdutos\1603041234428.jpg" />
+    <Content Include="Imagens\imgProdutos\2106021651318.jpg" />
+    <Content Include="Imagens\imgProdutos\2608021837544.jpg" />
+    <Content Include="Imagens\imgProdutos\3011010827133.jpg" />
+    <Content Include="Imagens\imgProdutos\7896572014056.jpg" />
+    <Content Include="Imagens\imgProdutos\padrao.png" />
+    <Content Include="Imagens\imgSplash\imgBanco.jpg" />
+    <Content Include="Imagens\imgSplash\imgECF.jpg" />
+    <Content Include="Imagens\imgSplash\imgOperadoras.jpg" />
+    <Content Include="Imagens\imgSplash\imgPrincipal.jpg" />
+    <Content Include="Imagens\imgSplash\imgTEF.jpg" />
+    <Content Include="Imagens\imgTelas\arrowleft_green16.png" />
+    <Content Include="Imagens\imgTelas\arrowright_green16.png" />
+    <Content Include="Imagens\imgTelas\btnLocalizar05.gif" />
+    <Content Include="Imagens\imgTelas\Login2.jpg" />
+    <Content Include="Imagens\imgTelas\telaCadeadoFechado01.png" />
+    <Content Include="Imagens\imgTelas\telaCarrinho02.png" />
+    <Content Include="Imagens\imgTelas\telaChave06.png" />
+    <Content Include="Imagens\imgTelas\telaDinheiro01.png" />
+    <Content Include="Imagens\imgTelas\telaDinheiro03.png" />
+    <Content Include="Imagens\imgTelas\telaDinheiro05.png" />
+    <Content Include="Imagens\imgTelas\telaDocumento04.png" />
+    <Content Include="Imagens\imgTelas\telaDocumento07.png" />
+    <Content Include="Imagens\imgTelas\telaExcluirProduto.png" />
+    <Content Include="Imagens\imgTelas\telaHomem09.png" />
+    <Content Include="Imagens\imgTelas\telaLupa06.png" />
+    <Content Include="Imagens\imgTelas\telaMesclar01.png" />
+    <Content Include="Imagens\imgTelas\telaMonitor04.png" />
+    <Content Include="Imagens\imgTelas\telaNotaFiscal.png" />
+    <Content Include="Imagens\imgTelas\telaPrint09.png" />
+    <Content Include="Imagens\imgTelas\telaRegistradora01.png" />
+    <Content Include="Imagens\imgTelas\telaRelatorio01.png" />
+    <Content Include="Imagens\imgTelas\telaRelatorio02.png" />
+    <Content Include="Imagens\imgTelas\telaSair01.png" />
+    <Content Include="Imagens\imgTelas\telaUsuarioSenha01.png" />
+    <None Include="app.config" />
+    <None Include="Imagens\imgBotoes\Thumbs.db" />
+    <None Include="Imagens\imgLayout\Thumbs.db" />
+    <None Include="Imagens\imgProdutos\Thumbs.db" />
+    <None Include="Imagens\imgSplash\Thumbs.db" />
+    <None Include="Imagens\imgTelas\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Caixa.resx">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DescontoAcrescimo.resx">
+      <DependentUpon>DescontoAcrescimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EfetuaPagamento.resx">
+      <DependentUpon>EfetuaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EncerraMovimento.resx">
+      <DependentUpon>EncerraMovimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FechaEfetuaPagamento.resx">
+      <DependentUpon>FechaEfetuaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\IdentificaCliente.resx">
+      <DependentUpon>IdentificaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ImportaCliente.resx">
+      <DependentUpon>ImportaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ImportaNumero.resx">
+      <DependentUpon>ImportaNumero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ImportaProduto.resx">
+      <DependentUpon>ImportaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\IniciaMovimento.resx">
+      <DependentUpon>IniciaMovimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StatusOperacional.resx">
+      <DependentUpon>StatusOperacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ListaNfce.resx">
+      <DependentUpon>ListaNfce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LoginGerenteSupervisor.resx">
+      <DependentUpon>LoginGerenteSupervisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuOperacoes.resx">
+      <DependentUpon>MenuOperacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MovimentoAberto.resx">
+      <DependentUpon>MovimentoAberto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Parcelamento.resx">
+      <DependentUpon>Parcelamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SubMenuGerente.resx">
+      <DependentUpon>SubMenuGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SubMenuSupervisor.resx">
+      <DependentUpon>SubMenuSupervisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ValorReal.resx">
+      <DependentUpon>ValorReal.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagens\imgMarketing\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Componentes\C#\Zeus-SAT\Nfe.Impressao\NFe.Impressao.csproj">
+      <Project>{b7f6a2ff-fd0e-4b44-82b3-371605cd0510}</Project>
+      <Name>NFe.Impressao</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

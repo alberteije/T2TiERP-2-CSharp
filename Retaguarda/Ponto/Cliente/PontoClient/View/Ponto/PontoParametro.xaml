@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PontoClient.View.Ponto.PontoParametro" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="900">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.MesAno}" Height="23" Width="74" Margin="6,25,0,0"  />
+			<Label Content="Mes/Ano:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.DiaInicialApuracao}" Height="23" Width="100" Margin="86,25,0,0"  />
+			<Label Content="Dia Inicial Apuracao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="86,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.HoraNoturnaInicio}" Height="23" Width="100" Margin="192,25,0,0"  />
+            <Label Content="Inicio Hora Noturna:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="192,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.HoraNoturnaFim}" Height="23" Width="100" Margin="298,25,0,0"  />
+            <Label Content="Fim Hora Noturna:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="298,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.PeriodoMinimoInterjornada}" Height="23" Width="100" Margin="404,25,0,0"  />
+			<Label Content="Minimo Interjornada:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="404,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.PercentualHeDiurna}" Height="23" Width="120" Margin="510,25,0,0"  />
+			<Label Content="Percentual HE Diurna:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.PercentualHeNoturna}" Height="23" Width="120" Margin="636,25,0,0"  />
+			<Label Content="Percentual HE Noturna:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="636,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoParametroSelected.DuracaoHoraNoturna}" Height="23" Width="120" Margin="761,25,0,0"  />
+			<Label Content="Duracao Hora Noturna:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="761,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="875" SelectedValue="{Binding PontoParametroSelected.TratamentoHoraMais}" SelectedValuePath="Tag" Margin="6,80,0,0" >
+				<ComboBoxItem Content="Hora Extra" Tag="E" />
+				<ComboBoxItem Content="Banco de Horas" Tag="B" />
+			</ComboBox>
+			<Label Content="Tratamento dado para horas trabalhadas a mais na jornada de trabalho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,61,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="875" SelectedValue="{Binding PontoParametroSelected.TratamentoHoraMenos}" SelectedValuePath="Tag" Margin="6,133,0,0" >
+                <ComboBoxItem Content="Falta" Tag="F" />
+                <ComboBoxItem Content="Banco de Horas" Tag="B" />
+            </ComboBox>
+            <Label Content="Tratamento dado para horas trabalhadas a menos na jornada de trabalho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,114,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

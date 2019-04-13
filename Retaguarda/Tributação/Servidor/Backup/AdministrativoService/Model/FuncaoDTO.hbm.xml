@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="AdministrativoService" namespace="AdministrativoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FuncaoDTO" table="funcao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="DescricaoMenu" column="DESCRICAO_MENU" />
+    <property name="ImagemMenu" column="IMAGEM_MENU" />
+    <property name="Metodo" column="METODO" />
+    <property name="Nome" column="NOME" />
+    <property name="Formulario" column="FORMULARIO" />
+  </class>
+</hibernate-mapping>

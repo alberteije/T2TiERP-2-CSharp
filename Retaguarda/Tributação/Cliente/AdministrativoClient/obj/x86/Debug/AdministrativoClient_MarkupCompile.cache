@@ -1,0 +1,20 @@
+﻿AdministrativoClient
+
+
+winexe
+C#
+.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Debug\
+AdministrativoClient
+none
+false
+DEBUG;TRACE
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\App.xaml
+411211596485
+
+611550062915
+19847779714
+themes\generic.xaml;View\Administrativo\AdministrativoPrincipal.xaml;View\Administrativo\Login.xaml;View\Administrativo\AtualizaBanco.xaml;View\Administrativo\Papel.xaml;View\Administrativo\PapelLista.xaml;View\Administrativo\PapelPrincipal.xaml;View\Administrativo\TributCofinsCodApuracao.xaml;View\Administrativo\TributCofinsCodApuracaoLista.xaml;View\Administrativo\TributCofinsCodApuracaoPrincipal.xaml;View\Administrativo\TributConfiguraOfGt.xaml;View\Administrativo\TributConfiguraOfGtLista.xaml;View\Administrativo\TributConfiguraOfGtPrincipal.xaml;View\Administrativo\TributGrupoTributario.xaml;View\Administrativo\TributGrupoTributarioLista.xaml;View\Administrativo\TributGrupoTributarioPrincipal.xaml;View\Administrativo\TributIcmsCustomCab.xaml;View\Administrativo\TributIcmsCustomCabLista.xaml;View\Administrativo\TributIcmsCustomCabPrincipal.xaml;View\Administrativo\TributIcmsCustomDet.xaml;View\Administrativo\TributIcmsCustomDetLista.xaml;View\Administrativo\TributIcmsCustomDetPrincipal.xaml;View\Administrativo\TributIcmsUf.xaml;View\Administrativo\TributIcmsUfLista.xaml;View\Administrativo\TributIcmsUfPrincipal.xaml;View\Administrativo\TributIpiDipi.xaml;View\Administrativo\TributIpiDipiLista.xaml;View\Administrativo\TributIpiDipiPrincipal.xaml;View\Administrativo\TributIss.xaml;View\Administrativo\TributIssLista.xaml;View\Administrativo\TributIssPrincipal.xaml;View\Administrativo\TributOperacaoFiscal.xaml;View\Administrativo\TributOperacaoFiscalLista.xaml;View\Administrativo\TributOperacaoFiscalPrincipal.xaml;View\Administrativo\TributPisCodApuracao.xaml;View\Administrativo\TributPisCodApuracaoLista.xaml;View\Administrativo\TributPisCodApuracaoPrincipal.xaml;View\Administrativo\Usuario.xaml;View\Administrativo\UsuarioLista.xaml;View\Administrativo\UsuarioPrincipal.xaml;View\ERPClient.xaml;
+
+False
+

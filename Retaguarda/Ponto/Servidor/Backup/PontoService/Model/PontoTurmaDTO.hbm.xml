@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PontoService" namespace="PontoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PontoTurmaDTO" table="ponto_turma" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdPontoEscala" column="ID_PONTO_ESCALA" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Nome" column="NOME" />
+  </class>
+</hibernate-mapping>

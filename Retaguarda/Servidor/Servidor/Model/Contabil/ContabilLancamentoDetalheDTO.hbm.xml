@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilLancamentoDetalheDTO" table="contabil_lancamento_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="ContabilConta" column="ID_CONTABIL_CONTA" />
+    <many-to-one name="ContabilHistorico" column="ID_CONTABIL_HISTORICO" />
+    <many-to-one name="ContabilLancamentoCabecalho" column="ID_CONTABIL_LANCAMENTO_CAB" />
+    <property name="Historico" column="HISTORICO" />
+    <property name="Valor" column="VALOR" />
+    <property name="Tipo" column="TIPO" />
+  </class>
+</hibernate-mapping>

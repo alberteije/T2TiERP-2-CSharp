@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContabilidadeClient.View.Contabilidade.ContabilLancamentoOrcado" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ContabilLancamentoOrcadoSelected.ContabilConta.Descricao}" Height="23" Width="539" Margin="6,25,0,0"  />
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContabilConta" Click="btPesquisarContabilConta_Click" Margin="551,25,0,0"  />
+            <Label Content="Conta Contabil:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ContabilLancamentoOrcadoSelected.Ano}" SelectedValuePath="Tag" Margin="594,25,0,0" >
+				<ComboBoxItem Content="2013" Tag="2013" />
+                <ComboBoxItem Content="2014" Tag="2014" />
+                <ComboBoxItem Content="2015" Tag="2015" />
+                <ComboBoxItem Content="2016" Tag="2016" />
+                <ComboBoxItem Content="2017" Tag="2017" />
+                <ComboBoxItem Content="2018" Tag="2018" />
+                <ComboBoxItem Content="2019" Tag="2019" />
+                <ComboBoxItem Content="2020" Tag="2020" />
+            </ComboBox>
+			<Label Content="Ano:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Janeiro}" Height="23" Width="100" Margin="6,89,0,0"  />
+			<Label Content="Janeiro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,70,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Fevereiro}" Height="23" Width="100" Margin="112,89,0,0"  />
+			<Label Content="Fevereiro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,70,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Marco}" Height="23" Width="100" Margin="218,89,0,0"  />
+			<Label Content="Marco:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,70,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Abril}" Height="23" Width="100" Margin="324,89,0,0"  />
+			<Label Content="Abril:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,70,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Maio}" Height="23" Width="100" Margin="430,89,0,0"  />
+			<Label Content="Maio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,70,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Junho}" Height="23" Width="100" Margin="536,89,0,0"  />
+			<Label Content="Junho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,70,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Julho}" Height="23" Width="100" Margin="6,146,0,0"  />
+			<Label Content="Julho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,127,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Agosto}" Height="23" Width="100" Margin="112,146,0,0"  />
+			<Label Content="Agosto:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,127,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Setembro}" Height="23" Width="100" Margin="218,146,0,0"  />
+			<Label Content="Setembro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,127,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Outubro}" Height="23" Width="100" Margin="324,146,0,0"  />
+			<Label Content="Outubro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,127,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Novembro}" Height="23" Width="100" Margin="430,146,0,0"  />
+			<Label Content="Novembro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,127,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLancamentoOrcadoSelected.Dezembro}" Height="23" Width="100" Margin="536,146,0,0"  />
+			<Label Content="Dezembro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,127,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

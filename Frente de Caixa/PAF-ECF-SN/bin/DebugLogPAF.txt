@@ -1,0 +1,142 @@
+17/09/2014 03:54:20:	System.Exception: Conversão especificada não é válida.
+   em PafEcf.Controller.LogssController.AtualizarQuantidades() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Controller\LogssController.cs:linha 156
+   em PafEcf.Util.PAFUtil.GravarR06(String pSimbolo) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1141
+18/09/2014 00:40:24:	ACBrFramework.ACBrException: Unable to open file "C:\Arquivos de programas\Microsoft Visual Studio 10.0\Common7\IDE\TEF\ACBr_TEF_DIAL_001.tef"
+   em ACBrFramework.TEFD.ACBrTEFD.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 717
+   em ACBrFramework.TEFD.ACBrTEFD.CRT(Decimal valor, String indiceFPG_ECF, String documentoVinculado, Int32 moeda) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 625
+   em PafEcf.View.EfetuaPagamento.botaoSim_Click(Object sender, EventArgs e) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\EfetuaPagamento.cs:linha 423
+19/09/2014 00:40:48:	System.Exception: Conversão especificada não é válida.
+   em PafEcf.Controller.LogssController.AtualizarQuantidades() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Controller\LogssController.cs:linha 156
+   em PafEcf.Util.PAFUtil.GravarR06(String pSimbolo) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1141
+19/09/2014 00:49:58:	System.InvalidOperationException: O objeto nulo deve ter um valor.
+   em System.Nullable`1.get_Value()
+   em PafEcf.View.EncerraMovimento.ImprimeFechamento() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\EncerraMovimento.cs:linha 317
+19/09/2014 00:52:33:	System.Exception: Conversão especificada não é válida.
+   em PafEcf.Controller.LogssController.AtualizarQuantidades() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Controller\LogssController.cs:linha 156
+   em PafEcf.Util.PAFUtil.GravarR06(String pSimbolo) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1141
+19/09/2014 01:37:38:	System.InvalidOperationException: O objeto nulo deve ter um valor.
+   em System.Nullable`1.get_Value()
+   em PafEcf.View.Caixa.Sangria() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\Caixa.cs:linha 707
+21/11/2014 01:03:50:	ACBrFramework.ACBrException: Communication error 2: O sistema n�o pode encontrar o arquivo especificado.
+
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ECF.ACBrECF.Ativar() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3979
+   em PafEcf.View.Caixa.ConfiguraACBr() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\Caixa.cs:linha 316
+21/11/2014 01:03:54:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1305
+21/11/2014 01:03:59:	ACBrFramework.ACBrException: Componente ACBrECF não está Ativo
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ACBrInteropBase.GetString(GetStringEntryPointDelegate entryPoint, Int32 bufferLen) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 134
+   em ACBrFramework.ACBrInteropBase.GetString(GetStringEntryPointDelegate entryPoint) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 126
+   em ACBrFramework.ECF.ACBrECF.get_NumSerie() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3311
+   em PafEcf.Util.PAFUtil.ECFAutorizado() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1173
+21/11/2014 01:04:01:	ACBrFramework.ACBrException: Componente ACBrECF não está Ativo
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ACBrInteropBase.GetDecimal(GetDoubleEntryPointDelegate entryPoint) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 222
+   em ACBrFramework.ECF.ACBrECF.get_GrandeTotal() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3525
+   em PafEcf.Util.PAFUtil.ConfereGT() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1207
+21/11/2014 01:04:02:	ACBrFramework.ACBrException: Componente ACBrECF não está Ativo
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ACBrInteropBase.GetDateTime(GetDoubleEntryPointDelegate entryPoint) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 206
+   em ACBrFramework.ECF.ACBrECF.get_DataHora() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3266
+   em PafEcf.View.Caixa.ExecutaOutrosProcedimentosDeAbertura() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\Caixa.cs:linha 227
+21/11/2014 01:04:29:	ACBrFramework.ACBrException: Communication error 2: O sistema n�o pode encontrar o arquivo especificado.
+
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ECF.ACBrECF.Ativar() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3979
+   em PafEcf.View.Caixa.ConfiguraACBr() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\Caixa.cs:linha 316
+21/11/2014 01:04:32:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1305
+21/11/2014 01:04:33:	ACBrFramework.ACBrException: Componente ACBrECF não está Ativo
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ACBrInteropBase.GetString(GetStringEntryPointDelegate entryPoint, Int32 bufferLen) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 134
+   em ACBrFramework.ACBrInteropBase.GetString(GetStringEntryPointDelegate entryPoint) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 126
+   em ACBrFramework.ECF.ACBrECF.get_NumSerie() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3311
+   em PafEcf.Util.PAFUtil.ECFAutorizado() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1173
+21/11/2014 01:04:34:	ACBrFramework.ACBrException: Componente ACBrECF não está Ativo
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ACBrInteropBase.GetDecimal(GetDoubleEntryPointDelegate entryPoint) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 222
+   em ACBrFramework.ECF.ACBrECF.get_GrandeTotal() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3525
+   em PafEcf.Util.PAFUtil.ConfereGT() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1207
+21/11/2014 01:04:34:	ACBrFramework.ACBrException: Componente ACBrECF não está Ativo
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ACBrInteropBase.GetDateTime(GetDoubleEntryPointDelegate entryPoint) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\ACBrFramework\ACBrInteropBase.cs:linha 206
+   em ACBrFramework.ECF.ACBrECF.get_DataHora() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3266
+   em PafEcf.View.Caixa.ExecutaOutrosProcedimentosDeAbertura() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\Caixa.cs:linha 227
+21/11/2014 01:34:45:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1305
+21/11/2014 02:12:33:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1305
+21/11/2014 02:14:48:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1305
+09/10/2016 14:39:44:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\PAFUtil.cs:linha 1305
+09/10/2016 14:42:22:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\PAFUtil.cs:linha 1305
+09/10/2016 14:46:19:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\PAFUtil.cs:linha 1305
+09/10/2016 14:54:44:	System.IO.FileNotFoundException: Não foi possível localizar o arquivo 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'.
+Nome do arquivo: 'C:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\bin\Debug\Balcao.exe'
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   em System.IO.File.OpenRead(String path)
+   em PafEcf.Util.Biblioteca.MD5File(String file) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\Biblioteca.cs:linha 200
+   em PafEcf.Util.PAFUtil.GeraMD5() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF-SN\Util\PAFUtil.cs:linha 1311

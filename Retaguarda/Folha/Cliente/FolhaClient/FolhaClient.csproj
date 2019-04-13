@@ -1,0 +1,1121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C319FB2-151D-45F1-82F6-DB41D79714DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FolhaClient</RootNamespace>
+    <AssemblyName>FolhaClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExportarParaArquivo">
+      <HintPath>..\..\libs\ButtonExport\ExportarParaArquivo.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\libs\ReportManager C\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\libs\ButtonExport\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NRtfTree">
+      <HintPath>..\..\libs\ButtonExport\NRtfTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Drawing">
+      <HintPath>..\..\libs\ReportManager C\Reportman.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Drawing.Forms">
+      <HintPath>..\..\libs\ReportManager C\Reportman.Drawing.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Reporting">
+      <HintPath>..\..\libs\ReportManager C\Reportman.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Reporting.Forms">
+      <HintPath>..\..\libs\ReportManager C\Reportman.Reporting.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SearchWindow">
+      <HintPath>..\..\SearchWindow\SearchWindow\bin\Release\SearchWindow.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="ComponenteFolha\FolhaSefipRegistroTipo30.cs" />
+    <Compile Include="ComponenteFolha\FolhaCagedRegistroTipoA.cs" />
+    <Compile Include="ComponenteFolha\FolhaCagedRegistroTipoB.cs" />
+    <Compile Include="ComponenteFolha\FolhaCagedRegistroTipoC.cs" />
+    <Compile Include="ComponenteFolha\FolhaSefipRegistroTipo00.cs" />
+    <Compile Include="ComponenteFolha\FolhaSefipRegistroTipo10.cs" />
+    <Compile Include="ComponenteFolha\FolhaSefipRegistroTipo90.cs" />
+    <Compile Include="ComponenteFolha\ComponenteFolha.cs" />
+    <Compile Include="ComponenteFolha\Funcoes.cs" />
+    <Compile Include="Model\ServicoFolha.cs" />
+    <Compile Include="Service References\ServicoFolhaReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Util\BooleanCharConverter.cs" />
+    <Compile Include="Util\CloseableTabItem.cs" />
+    <Compile Include="Util\MoedaFormat.cs" />
+    <Compile Include="Util\RadioStringConverter.cs" />
+    <Compile Include="ViewModel\ERPClientViewModel.cs" />
+    <Compile Include="ViewModel\ERPViewModelBase.cs" />
+    <Compile Include="ViewModel\Folha\FeriasPeriodoAquisitivoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaAfastamentoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaEventoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaFechamentoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaFeriasColetivasViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaHistoricoSalarialViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaInssServicoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaInssViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaLancamentoCabecalhoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaParametrosViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaPlanoSaudeViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaPppViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaRescisaoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaTipoAfastamentoViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaValeTransporteViewModel.cs" />
+    <Compile Include="ViewModel\Folha\FolhaViewModel.cs" />
+    <Compile Include="ViewModel\Folha\GuiasAcumuladasViewModel.cs" />
+    <Compile Include="ViewModel\Folha\UsuarioViewModel.cs" />
+    <Compile Include="View\ERPClient.xaml.cs">
+      <DependentUpon>ERPClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FeriasPeriodoAquisitivo.xaml.cs">
+      <DependentUpon>FeriasPeriodoAquisitivo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FeriasPeriodoAquisitivoLista.xaml.cs">
+      <DependentUpon>FeriasPeriodoAquisitivoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FeriasPeriodoAquisitivoPrincipal.xaml.cs">
+      <DependentUpon>FeriasPeriodoAquisitivoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaAfastamento.xaml.cs">
+      <DependentUpon>FolhaAfastamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaAfastamentoLista.xaml.cs">
+      <DependentUpon>FolhaAfastamentoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaAfastamentoPrincipal.xaml.cs">
+      <DependentUpon>FolhaAfastamentoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaEvento.xaml.cs">
+      <DependentUpon>FolhaEvento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaEventoLista.xaml.cs">
+      <DependentUpon>FolhaEventoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaEventoPrincipal.xaml.cs">
+      <DependentUpon>FolhaEventoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaFechamento.xaml.cs">
+      <DependentUpon>FolhaFechamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaFechamentoLista.xaml.cs">
+      <DependentUpon>FolhaFechamentoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaFechamentoPrincipal.xaml.cs">
+      <DependentUpon>FolhaFechamentoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaFeriasColetivas.xaml.cs">
+      <DependentUpon>FolhaFeriasColetivas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaFeriasColetivasLista.xaml.cs">
+      <DependentUpon>FolhaFeriasColetivasLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaFeriasColetivasPrincipal.xaml.cs">
+      <DependentUpon>FolhaFeriasColetivasPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaHistoricoSalarial.xaml.cs">
+      <DependentUpon>FolhaHistoricoSalarial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaHistoricoSalarialLista.xaml.cs">
+      <DependentUpon>FolhaHistoricoSalarialLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaHistoricoSalarialPrincipal.xaml.cs">
+      <DependentUpon>FolhaHistoricoSalarialPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInss.xaml.cs">
+      <DependentUpon>FolhaInss.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssLista.xaml.cs">
+      <DependentUpon>FolhaInssLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssPrincipal.xaml.cs">
+      <DependentUpon>FolhaInssPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssRetencao.xaml.cs">
+      <DependentUpon>FolhaInssRetencao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssRetencaoLista.xaml.cs">
+      <DependentUpon>FolhaInssRetencaoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssRetencaoPrincipal.xaml.cs">
+      <DependentUpon>FolhaInssRetencaoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssServico.xaml.cs">
+      <DependentUpon>FolhaInssServico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssServicoLista.xaml.cs">
+      <DependentUpon>FolhaInssServicoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaInssServicoPrincipal.xaml.cs">
+      <DependentUpon>FolhaInssServicoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaLancamentoCabecalho.xaml.cs">
+      <DependentUpon>FolhaLancamentoCabecalho.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaLancamentoCabecalhoLista.xaml.cs">
+      <DependentUpon>FolhaLancamentoCabecalhoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaLancamentoCabecalhoPrincipal.xaml.cs">
+      <DependentUpon>FolhaLancamentoCabecalhoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaLancamentoDetalhe.xaml.cs">
+      <DependentUpon>FolhaLancamentoDetalhe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaLancamentoDetalheLista.xaml.cs">
+      <DependentUpon>FolhaLancamentoDetalheLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaLancamentoDetalhePrincipal.xaml.cs">
+      <DependentUpon>FolhaLancamentoDetalhePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaParametros.xaml.cs">
+      <DependentUpon>FolhaParametros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaParametrosLista.xaml.cs">
+      <DependentUpon>FolhaParametrosLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaParametrosPrincipal.xaml.cs">
+      <DependentUpon>FolhaParametrosPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPlanoSaude.xaml.cs">
+      <DependentUpon>FolhaPlanoSaude.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPlanoSaudeLista.xaml.cs">
+      <DependentUpon>FolhaPlanoSaudeLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPlanoSaudePrincipal.xaml.cs">
+      <DependentUpon>FolhaPlanoSaudePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPpp.xaml.cs">
+      <DependentUpon>FolhaPpp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppAtividade.xaml.cs">
+      <DependentUpon>FolhaPppAtividade.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppAtividadeLista.xaml.cs">
+      <DependentUpon>FolhaPppAtividadeLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppAtividadePrincipal.xaml.cs">
+      <DependentUpon>FolhaPppAtividadePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppCat.xaml.cs">
+      <DependentUpon>FolhaPppCat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppCatLista.xaml.cs">
+      <DependentUpon>FolhaPppCatLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppCatPrincipal.xaml.cs">
+      <DependentUpon>FolhaPppCatPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppExameMedico.xaml.cs">
+      <DependentUpon>FolhaPppExameMedico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppExameMedicoLista.xaml.cs">
+      <DependentUpon>FolhaPppExameMedicoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppExameMedicoPrincipal.xaml.cs">
+      <DependentUpon>FolhaPppExameMedicoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppFatorRisco.xaml.cs">
+      <DependentUpon>FolhaPppFatorRisco.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppFatorRiscoLista.xaml.cs">
+      <DependentUpon>FolhaPppFatorRiscoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppFatorRiscoPrincipal.xaml.cs">
+      <DependentUpon>FolhaPppFatorRiscoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppLista.xaml.cs">
+      <DependentUpon>FolhaPppLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPppPrincipal.xaml.cs">
+      <DependentUpon>FolhaPppPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaPrincipal.xaml.cs">
+      <DependentUpon>FolhaPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaRescisao.xaml.cs">
+      <DependentUpon>FolhaRescisao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaRescisaoLista.xaml.cs">
+      <DependentUpon>FolhaRescisaoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaRescisaoPrincipal.xaml.cs">
+      <DependentUpon>FolhaRescisaoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaTipoAfastamento.xaml.cs">
+      <DependentUpon>FolhaTipoAfastamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaTipoAfastamentoLista.xaml.cs">
+      <DependentUpon>FolhaTipoAfastamentoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaTipoAfastamentoPrincipal.xaml.cs">
+      <DependentUpon>FolhaTipoAfastamentoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaValeTransporte.xaml.cs">
+      <DependentUpon>FolhaValeTransporte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaValeTransporteLista.xaml.cs">
+      <DependentUpon>FolhaValeTransporteLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\FolhaValeTransportePrincipal.xaml.cs">
+      <DependentUpon>FolhaValeTransportePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\GuiasAcumuladas.xaml.cs">
+      <DependentUpon>GuiasAcumuladas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\GuiasAcumuladasLista.xaml.cs">
+      <DependentUpon>GuiasAcumuladasLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\GuiasAcumuladasPrincipal.xaml.cs">
+      <DependentUpon>GuiasAcumuladasPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\InformativosGuiasPrincipal.xaml.cs">
+      <DependentUpon>InformativosGuiasPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Folha\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Imagem\Thumbs.db" />
+    <None Include="Imagens\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.ColaboradorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.EmpresaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.EmpresaTransporteItinerarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FeriasPeriodoAquisitivoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaAfastamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaEventoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaFechamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaFeriasColetivasDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaHistoricoSalarialDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaInssDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaInssServicoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaLancamentoCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaParametrosDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaPlanoSaudeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaPppDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaRescisaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaTipoAfastamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.FolhaValeTransporteDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.GuiasAcumuladasDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.OperadoraPlanoSaudeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\FolhaClient.ServicoFolhaReference.ViewControleAcessoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoFolhaReference\ServicoFolha1.wsdl" />
+    <None Include="Service References\ServicoFolhaReference\ServicoFolha3.xsd" />
+    <None Include="Service References\ServicoFolhaReference\ServicoFolha31.xsd" />
+    <None Include="Service References\ServicoFolhaReference\ServicoFolha32.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicoFolhaReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoFolhaReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoFolhaReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoFolhaReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ERPClient.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FeriasPeriodoAquisitivo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FeriasPeriodoAquisitivoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FeriasPeriodoAquisitivoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaAfastamento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaAfastamentoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaAfastamentoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaEvento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaEventoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaEventoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaFechamento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaFechamentoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaFechamentoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaFeriasColetivas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaFeriasColetivasLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaFeriasColetivasPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaHistoricoSalarial.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaHistoricoSalarialLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaHistoricoSalarialPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInss.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssRetencao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssRetencaoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssRetencaoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssServico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssServicoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaInssServicoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaLancamentoCabecalho.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaLancamentoCabecalhoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaLancamentoCabecalhoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaLancamentoDetalhe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaLancamentoDetalheLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaLancamentoDetalhePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaParametros.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaParametrosLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaParametrosPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPlanoSaude.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPlanoSaudeLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPlanoSaudePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPpp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppAtividade.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppAtividadeLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppAtividadePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppCat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppCatLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppCatPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppExameMedico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppExameMedicoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppExameMedicoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppFatorRisco.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppFatorRiscoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppFatorRiscoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPppPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaRescisao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaRescisaoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaRescisaoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaTipoAfastamento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaTipoAfastamentoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaTipoAfastamentoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaValeTransporte.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaValeTransporteLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\FolhaValeTransportePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\GuiasAcumuladas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\GuiasAcumuladasLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\GuiasAcumuladasPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\InformativosGuiasPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Folha\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagem\21botaoAjuda.png" />
+    <Resource Include="Imagem\21botaoCalculadora.png" />
+    <Resource Include="Imagem\21botaoCancelaCupom.png" />
+    <Resource Include="Imagem\21botaoCancelaItem.png" />
+    <Resource Include="Imagem\21botaoCliente.png" />
+    <Resource Include="Imagem\21botaoDesconto.png" />
+    <Resource Include="Imagem\21botaoEncerraVenda.png" />
+    <Resource Include="Imagem\21botaoGaveta.png" />
+    <Resource Include="Imagem\21botaoMenuFiscal.png" />
+    <Resource Include="Imagem\21botaoMenuOperacoes.png" />
+    <Resource Include="Imagem\21botaoMenuPrincipal.png" />
+    <Resource Include="Imagem\21botaoPesquisa.png" />
+    <Resource Include="Imagem\21botaoSair.png" />
+    <Resource Include="Imagem\agencia_banco16.png" />
+    <Resource Include="Imagem\agencia_banco32.png" />
+    <Resource Include="Imagem\agencia_banco48.png" />
+    <Resource Include="Imagem\almoxarifado16.png" />
+    <Resource Include="Imagem\almoxarifado32.png" />
+    <Resource Include="Imagem\almoxarifado48.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario16.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario32.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario48.png" />
+    <Resource Include="Imagem\atividade_for_cli16.png" />
+    <Resource Include="Imagem\atividade_for_cli32.png" />
+    <Resource Include="Imagem\atividade_for_cli48.png" />
+    <Resource Include="Imagem\bairro16.png" />
+    <Resource Include="Imagem\bairro32.png" />
+    <Resource Include="Imagem\bairro48.png" />
+    <Resource Include="Imagem\banco16.png" />
+    <Resource Include="Imagem\banco32.png" />
+    <Resource Include="Imagem\banco48.png" />
+    <Resource Include="Imagem\botaoAjuda.png" />
+    <Resource Include="Imagem\botaoCalculadora.png" />
+    <Resource Include="Imagem\botaoCancelaCupom.png" />
+    <Resource Include="Imagem\botaoCancelaItem.png" />
+    <Resource Include="Imagem\botaoCancelar.png" />
+    <Resource Include="Imagem\botaoCliente.png" />
+    <Resource Include="Imagem\botaoConfirmar.png" />
+    <Resource Include="Imagem\botaoDesconto.png" />
+    <Resource Include="Imagem\botaoEncerraVenda.png" />
+    <Resource Include="Imagem\botaoGaveta.png" />
+    <Resource Include="Imagem\botaoLocalizar.png" />
+    <Resource Include="Imagem\botaoMenuFiscal.png" />
+    <Resource Include="Imagem\botaoMenuOperacoes.png" />
+    <Resource Include="Imagem\botaoMenuPrincipal.png" />
+    <Resource Include="Imagem\botaoPesquisa.png" />
+    <Resource Include="Imagem\botaoSair.png" />
+    <Resource Include="Imagem\cargo16.png" />
+    <Resource Include="Imagem\cargo32.png" />
+    <Resource Include="Imagem\cargo48.png" />
+    <Resource Include="Imagem\centroResultado16.png" />
+    <Resource Include="Imagem\centroResultado32.png" />
+    <Resource Include="Imagem\centroResultado48.png" />
+    <Resource Include="Imagem\cep16.png" />
+    <Resource Include="Imagem\cep32.png" />
+    <Resource Include="Imagem\cep48.png" />
+    <Resource Include="Imagem\cfop16.png" />
+    <Resource Include="Imagem\cfop32.png" />
+    <Resource Include="Imagem\cfop48.png" />
+    <Resource Include="Imagem\cheque16.png" />
+    <Resource Include="Imagem\cheque32.png" />
+    <Resource Include="Imagem\cheque48.png" />
+    <Resource Include="Imagem\cliente16.png" />
+    <Resource Include="Imagem\cliente32.png" />
+    <Resource Include="Imagem\cliente48.png" />
+    <Resource Include="Imagem\colaborador16.png" />
+    <Resource Include="Imagem\colaborador32.png" />
+    <Resource Include="Imagem\colaborador48.png" />
+    <Resource Include="Imagem\compraSugerida16.png" />
+    <Resource Include="Imagem\compraSugerida32.png" />
+    <Resource Include="Imagem\compraSugerida48.png" />
+    <Resource Include="Imagem\ConciliarCheque16.png" />
+    <Resource Include="Imagem\ConciliarCheque32.png" />
+    <Resource Include="Imagem\ConciliarCheque48.png" />
+    <Resource Include="Imagem\ConciliarLancamento16.png" />
+    <Resource Include="Imagem\ConciliarLancamento32.png" />
+    <Resource Include="Imagem\ConciliarLancamento48.png" />
+    <Resource Include="Imagem\condicoesPagamento128.png" />
+    <Resource Include="Imagem\condicoesPagamento16.png" />
+    <Resource Include="Imagem\condicoesPagamento32.png" />
+    <Resource Include="Imagem\condicoesPagamento48.png" />
+    <Resource Include="Imagem\contador16.png" />
+    <Resource Include="Imagem\contador32.png" />
+    <Resource Include="Imagem\contador48.png" />
+    <Resource Include="Imagem\conta_caixa16.png" />
+    <Resource Include="Imagem\conta_caixa32.png" />
+    <Resource Include="Imagem\conta_caixa48.png" />
+    <Resource Include="Imagem\convenio16.png" />
+    <Resource Include="Imagem\convenio32.png" />
+    <Resource Include="Imagem\convenio48.png" />
+    <Resource Include="Imagem\cotacaoCompra16.png" />
+    <Resource Include="Imagem\cotacaoCompra32.png" />
+    <Resource Include="Imagem\cotacaoCompra48.png" />
+    <Resource Include="Imagem\document-icon128.ico" />
+    <Resource Include="Imagem\document-icon128.png" />
+    <Resource Include="Imagem\document-icon16.png" />
+    <Resource Include="Imagem\document-icon32.png" />
+    <Resource Include="Imagem\document-icon48.png" />
+    <Resource Include="Imagem\documento16.png" />
+    <Resource Include="Imagem\documento32.png" />
+    <Resource Include="Imagem\documento48.png" />
+    <Resource Include="Imagem\documentoOrigem16.png" />
+    <Resource Include="Imagem\documentoOrigem32.png" />
+    <Resource Include="Imagem\documentoOrigem48.png" />
+    <Resource Include="Imagem\download-box-icon128.ico" />
+    <Resource Include="Imagem\download-box-icon128.png" />
+    <Resource Include="Imagem\download-box-icon16.png" />
+    <Resource Include="Imagem\download-box-icon32.png" />
+    <Resource Include="Imagem\download-box-icon48.png" />
+    <Resource Include="Imagem\enderecos16.png" />
+    <Resource Include="Imagem\enderecos32.png" />
+    <Resource Include="Imagem\enderecos48.png" />
+    <Resource Include="Imagem\estado_civil16.png" />
+    <Resource Include="Imagem\estado_civil32.png" />
+    <Resource Include="Imagem\estado_civil48.png" />
+    <Resource Include="Imagem\excel16.png" />
+    <Resource Include="Imagem\excel16d.png" />
+    <Resource Include="Imagem\first16.png" />
+    <Resource Include="Imagem\first16d.png" />
+    <Resource Include="Imagem\fluxoCaixa16.png" />
+    <Resource Include="Imagem\fluxoCaixa32.png" />
+    <Resource Include="Imagem\fluxoCaixa48.png" />
+    <Resource Include="Imagem\fornecedor16.png" />
+    <Resource Include="Imagem\fornecedor32.png" />
+    <Resource Include="Imagem\fornecedor48.png" />
+    <Resource Include="Imagem\frete128.png" />
+    <Resource Include="Imagem\frete16.png" />
+    <Resource Include="Imagem\frete32.png" />
+    <Resource Include="Imagem\frete48.png" />
+    <Resource Include="Imagem\html16.png" />
+    <Resource Include="Imagem\html16d.png" />
+    <Resource Include="Imagem\importaCotacaoCompra16.png" />
+    <Resource Include="Imagem\importaCotacaoCompra32.png" />
+    <Resource Include="Imagem\importaCotacaoCompra48.png" />
+    <Resource Include="Imagem\indice_economico16.png" />
+    <Resource Include="Imagem\indice_economico32.png" />
+    <Resource Include="Imagem\indice_economico48.png" />
+    <Resource Include="Imagem\lancamentoPagar16.png" />
+    <Resource Include="Imagem\lancamentoPagar32.png" />
+    <Resource Include="Imagem\lancamentoPagar48.png" />
+    <Resource Include="Imagem\lancamentoReceber16.png" />
+    <Resource Include="Imagem\lancamentoReceber32.png" />
+    <Resource Include="Imagem\lancamentoReceber48.png" />
+    <Resource Include="Imagem\last16.png" />
+    <Resource Include="Imagem\last16d.png" />
+    <Resource Include="Imagem\mapa16.png" />
+    <Resource Include="Imagem\mapa32.png" />
+    <Resource Include="Imagem\mapa48.png" />
+    <Resource Include="Imagem\mapaComparativo16.png" />
+    <Resource Include="Imagem\mapaComparativo32.png" />
+    <Resource Include="Imagem\mapaComparativo48.png" />
+    <Resource Include="Imagem\marca16.png" />
+    <Resource Include="Imagem\marca32.png" />
+    <Resource Include="Imagem\marca48.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco16.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco32.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco48.png" />
+    <Resource Include="Imagem\municipio16.png" />
+    <Resource Include="Imagem\municipio32.png" />
+    <Resource Include="Imagem\municipio48.png" />
+    <Resource Include="Imagem\naturezaFinanceira16.png" />
+    <Resource Include="Imagem\naturezaFinanceira32.png" />
+    <Resource Include="Imagem\naturezaFinanceira48.png" />
+    <Resource Include="Imagem\ncm16.png" />
+    <Resource Include="Imagem\ncm32.png" />
+    <Resource Include="Imagem\ncm48.png" />
+    <Resource Include="Imagem\next16.png" />
+    <Resource Include="Imagem\next16d.png" />
+    <Resource Include="Imagem\nfe128.png" />
+    <Resource Include="Imagem\nfe16.png" />
+    <Resource Include="Imagem\nfe32.png" />
+    <Resource Include="Imagem\nfe48.png" />
+    <Resource Include="Imagem\nivel_formacao16.png" />
+    <Resource Include="Imagem\nivel_formacao32.png" />
+    <Resource Include="Imagem\nivel_formacao48.png" />
+    <Resource Include="Imagem\operadora_cartao16.png" />
+    <Resource Include="Imagem\operadora_cartao32.png" />
+    <Resource Include="Imagem\operadora_cartao48.png" />
+    <Resource Include="Imagem\orcamento16.png" />
+    <Resource Include="Imagem\orcamento32.png" />
+    <Resource Include="Imagem\orcamento48.png" />
+    <Resource Include="Imagem\orcamentoVenda128.png" />
+    <Resource Include="Imagem\orcamentoVenda16.png" />
+    <Resource Include="Imagem\orcamentoVenda32.png" />
+    <Resource Include="Imagem\orcamentoVenda48.png" />
+    <Resource Include="Imagem\outroPedido16.png" />
+    <Resource Include="Imagem\outroPedido32.png" />
+    <Resource Include="Imagem\outroPedido48.png" />
+    <Resource Include="Imagem\pagamentoParcela16.png" />
+    <Resource Include="Imagem\pagamentoParcela32.png" />
+    <Resource Include="Imagem\pagamentoParcela48.png" />
+    <Resource Include="Imagem\page-next16.png" />
+    <Resource Include="Imagem\page-next16d.png" />
+    <Resource Include="Imagem\page-prior16.png" />
+    <Resource Include="Imagem\page-prior16d.png" />
+    <Resource Include="Imagem\pais16.png" />
+    <Resource Include="Imagem\pais32.png" />
+    <Resource Include="Imagem\pais48.png" />
+    <Resource Include="Imagem\pedidoCompra16.png" />
+    <Resource Include="Imagem\pedidoCompra32.png" />
+    <Resource Include="Imagem\pedidoCompra48.png" />
+    <Resource Include="Imagem\pessoa16.png" />
+    <Resource Include="Imagem\pessoa32.png" />
+    <Resource Include="Imagem\pessoa48.png" />
+    <Resource Include="Imagem\porta16.png" />
+    <Resource Include="Imagem\porta32.png" />
+    <Resource Include="Imagem\porta48.png" />
+    <Resource Include="Imagem\prior16.png" />
+    <Resource Include="Imagem\prior16d.png" />
+    <Resource Include="Imagem\produto16.png" />
+    <Resource Include="Imagem\produto32.png" />
+    <Resource Include="Imagem\produto48.png" />
+    <Resource Include="Imagem\Recebimento16.png" />
+    <Resource Include="Imagem\Recebimento32.png" />
+    <Resource Include="Imagem\Recebimento48.png" />
+    <Resource Include="Imagem\requisicaoCompra16.png" />
+    <Resource Include="Imagem\requisicaoCompra32.png" />
+    <Resource Include="Imagem\requisicaoCompra48.png" />
+    <Resource Include="Imagem\ResumoTesouraria16.png" />
+    <Resource Include="Imagem\ResumoTesouraria32.png" />
+    <Resource Include="Imagem\ResumoTesouraria48.png" />
+    <Resource Include="Imagem\setor16.png" />
+    <Resource Include="Imagem\setor32.png" />
+    <Resource Include="Imagem\setor48.png" />
+    <Resource Include="Imagem\situacao16.png" />
+    <Resource Include="Imagem\situacao32.png" />
+    <Resource Include="Imagem\situacao48.png" />
+    <Resource Include="Imagem\statusParcela16.png" />
+    <Resource Include="Imagem\statusParcela32.png" />
+    <Resource Include="Imagem\statusParcela48.png" />
+    <Resource Include="Imagem\talonario16.png" />
+    <Resource Include="Imagem\talonario32.png" />
+    <Resource Include="Imagem\talonario48.png" />
+    <Resource Include="Imagem\tipoDocumento16.png" />
+    <Resource Include="Imagem\tipoDocumento32.png" />
+    <Resource Include="Imagem\tipoDocumento48.png" />
+    <Resource Include="Imagem\tipoNotaFiscal128.png" />
+    <Resource Include="Imagem\tipoNotaFiscal16.png" />
+    <Resource Include="Imagem\tipoNotaFiscal32.png" />
+    <Resource Include="Imagem\tipoNotaFiscal48.png" />
+    <Resource Include="Imagem\tipoPagamento16.png" />
+    <Resource Include="Imagem\tipoPagamento32.png" />
+    <Resource Include="Imagem\tipoPagamento48.png" />
+    <Resource Include="Imagem\tipoRequisicao16.png" />
+    <Resource Include="Imagem\tipoRequisicao32.png" />
+    <Resource Include="Imagem\tipoRequisicao48.png" />
+    <Resource Include="Imagem\tipo_colaborador16.png" />
+    <Resource Include="Imagem\tipo_colaborador32.png" />
+    <Resource Include="Imagem\tipo_colaborador48.png" />
+    <Resource Include="Imagem\transportadora16.png" />
+    <Resource Include="Imagem\transportadora32.png" />
+    <Resource Include="Imagem\transportadora48.png" />
+    <Resource Include="Imagem\txt16.png" />
+    <Resource Include="Imagem\txt16d.png" />
+    <Resource Include="Imagem\uf16.png" />
+    <Resource Include="Imagem\uf32.png" />
+    <Resource Include="Imagem\uf48.png" />
+    <Resource Include="Imagem\unidade16.png" />
+    <Resource Include="Imagem\unidade32.png" />
+    <Resource Include="Imagem\unidade48.png" />
+    <Resource Include="Imagem\venda128.png" />
+    <Resource Include="Imagem\venda16.png" />
+    <Resource Include="Imagem\venda32.png" />
+    <Resource Include="Imagem\venda48.png" />
+    <Resource Include="Imagem\word16.png" />
+    <Resource Include="Imagem\word16d.png" />
+    <Resource Include="Imagem\xml16.png" />
+    <Resource Include="Imagem\xml16d.png" />
+    <Resource Include="Imagens\porta16.png" />
+    <Resource Include="Imagens\porta32.png" />
+    <Resource Include="Imagens\porta48.png" />
+    <Resource Include="Imagens\t2ti32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\folhaAfastamento-128.png" />
+    <Resource Include="Imagens\folhaAfastamento-16.png" />
+    <Resource Include="Imagens\folhaAfastamento-256.png" />
+    <Resource Include="Imagens\folhaAfastamento-32.png" />
+    <Resource Include="Imagens\folhaAfastamento-48.png" />
+    <Resource Include="Imagens\folhaAfastamento-64.png" />
+    <Resource Include="Imagens\folhaEvento16.png" />
+    <Resource Include="Imagens\folhaEvento32.png" />
+    <Resource Include="Imagens\folhaEvento48.png" />
+    <Resource Include="Imagens\folhaFechamento16.png" />
+    <Resource Include="Imagens\folhaFechamento32.png" />
+    <Resource Include="Imagens\folhaFechamento48.png" />
+    <Resource Include="Imagens\folhaFeriasColetivas128.png" />
+    <Resource Include="Imagens\folhaFeriasColetivas16.png" />
+    <Resource Include="Imagens\folhaFeriasColetivas256.png" />
+    <Resource Include="Imagens\folhaFeriasColetivas32.png" />
+    <Resource Include="Imagens\folhaFeriasColetivas48.png" />
+    <Resource Include="Imagens\folhaFeriasColetivas64.png" />
+    <Resource Include="Imagens\folhaFeriasPeriodosAquisitivos16.png" />
+    <Resource Include="Imagens\folhaFeriasPeriodosAquisitivos32.png" />
+    <Resource Include="Imagens\folhaFeriasPeriodosAquisitivos48.png" />
+    <Resource Include="Imagens\folhaGuiasAcumuladas16.png" />
+    <Resource Include="Imagens\folhaGuiasAcumuladas32.png" />
+    <Resource Include="Imagens\folhaGuiasAcumuladas48.png" />
+    <Resource Include="Imagens\folhaHistoricoSalarial16.png" />
+    <Resource Include="Imagens\folhaHistoricoSalarial32.png" />
+    <Resource Include="Imagens\folhaHistoricoSalarial48.png" />
+    <Resource Include="Imagens\folhaInformativos16.png" />
+    <Resource Include="Imagens\folhaInformativos32.png" />
+    <Resource Include="Imagens\folhaInformativos48.png" />
+    <Resource Include="Imagens\folhaInssRetencao16.png" />
+    <Resource Include="Imagens\folhaInssRetencao32.png" />
+    <Resource Include="Imagens\folhaInssRetencao48.png" />
+    <Resource Include="Imagens\folhaInssServico16.png" />
+    <Resource Include="Imagens\folhaInssServico32.png" />
+    <Resource Include="Imagens\folhaInssServico48.png" />
+    <Resource Include="Imagens\folhaLancamento128.png" />
+    <Resource Include="Imagens\folhaLancamento16.png" />
+    <Resource Include="Imagens\folhaLancamento32.png" />
+    <Resource Include="Imagens\folhaLancamento48.png" />
+    <Resource Include="Imagens\folhaParametro128.png" />
+    <Resource Include="Imagens\folhaParametro16.png" />
+    <Resource Include="Imagens\folhaParametro32.png" />
+    <Resource Include="Imagens\folhaParametro48.png" />
+    <Resource Include="Imagens\folhaPlanoSaude-128.png" />
+    <Resource Include="Imagens\folhaPlanoSaude-16.png" />
+    <Resource Include="Imagens\folhaPlanoSaude-32.png" />
+    <Resource Include="Imagens\folhaPlanoSaude-48.png" />
+    <Resource Include="Imagens\folhaPlanoSaude-64.png" />
+    <Resource Include="Imagens\folhaPPP16.png" />
+    <Resource Include="Imagens\folhaPPP32.png" />
+    <Resource Include="Imagens\folhaPPP48.png" />
+    <Resource Include="Imagens\folhaRescisao16.png" />
+    <Resource Include="Imagens\folhaRescisao32.png" />
+    <Resource Include="Imagens\folhaRescisao48.png" />
+    <Resource Include="Imagens\folhaTipoAfastamento16.png" />
+    <Resource Include="Imagens\folhaTipoAfastamento32.png" />
+    <Resource Include="Imagens\folhaTipoAfastamento48.png" />
+    <Resource Include="Imagens\folhaValeTransporte-128.png" />
+    <Resource Include="Imagens\folhaValeTransporte-16.png" />
+    <Resource Include="Imagens\folhaValeTransporte-256.png" />
+    <Resource Include="Imagens\folhaValeTransporte-32.png" />
+    <Resource Include="Imagens\folhaValeTransporte-48.png" />
+    <Resource Include="Imagens\folhaValeTransporte-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="reportman">
+      <Guid>{D4D26F6B-6564-44F4-A913-03C91CE37740}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\relatorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoFolhaReference\ServicoFolha1.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

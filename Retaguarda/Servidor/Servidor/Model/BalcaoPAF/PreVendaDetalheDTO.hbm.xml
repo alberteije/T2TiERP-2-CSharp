@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PreVendaDetalheDTO" table="pre_venda_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="IdPreVendaCabecalho" column="ID_PRE_VENDA_CABECALHO" />
+    <property name="Item" column="ITEM" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="ValorUnitario" column="VALOR_UNITARIO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="Cancelado" column="CANCELADO" />
+    <property name="GtinProduto" column="GTIN_PRODUTO" />
+    <property name="NomeProduto" column="NOME_PRODUTO" />
+    <property name="UnidadeProduto" column="UNIDADE_PRODUTO" />
+    <property name="EcfIcmsSt" column="ECF_ICMS_ST" />
+  </class>
+</hibernate-mapping>

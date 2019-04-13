@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoVendas" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2677/ServicoVendas.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2677/ServicoVendas.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2677/ServicoVendas.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/VendasService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoVendas_deleteTipoNotaFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTipoNotaFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteTipoNotaFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTipoNotaFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarTipoNotaFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTipoNotaFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarTipoNotaFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTipoNotaFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTipoNotaFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTipoNotaFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTipoNotaFiscalPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscalPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTipoNotaFiscalPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscalPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteCondicoesPagamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCondicoesPagamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteCondicoesPagamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCondicoesPagamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarCondicoesPagamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCondicoesPagamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarCondicoesPagamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCondicoesPagamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectCondicoesPagamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCondicoesPagamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectCondicoesPagamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCondicoesPagamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectCondicoesPagamentoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCondicoesPagamentoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectCondicoesPagamentoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCondicoesPagamentoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteOrcamentoPedidoVendaCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteOrcamentoPedidoVendaCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteOrcamentoPedidoVendaCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteOrcamentoPedidoVendaCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarOrcamentoPedidoVendaCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarOrcamentoPedidoVendaCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarOrcamentoPedidoVendaCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarOrcamentoPedidoVendaCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectOrcamentoPedidoVendaCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoPedidoVendaCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectOrcamentoPedidoVendaCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoPedidoVendaCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectOrcamentoPedidoVendaCabPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoPedidoVendaCabPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectOrcamentoPedidoVendaCabPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoPedidoVendaCabPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteVendaCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteVendaCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteVendaCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteVendaCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarVendaCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarVendaCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarVendaCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarVendaCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendaCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendaCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendaCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendaCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendaCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendaCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendaCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendaCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteFreteVenda_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFreteVenda" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_deleteFreteVenda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFreteVendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarFreteVenda_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFreteVenda" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_salvarAtualizarFreteVenda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFreteVendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectFreteVenda_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFreteVenda" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectFreteVenda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFreteVendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectFreteVendaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFreteVendaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectFreteVendaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFreteVendaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCliente" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectClientePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectClientePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectClientePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectClientePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectVendedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectVendedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTransportadora_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTransportadora" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTransportadora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTransportadoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTransportadoraPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTransportadoraPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectTransportadoraPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTransportadoraPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectProdutoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectProdutoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoVendas_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoVendas">
+    <wsdl:operation name="deleteTipoNotaFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/deleteTipoNotaFiscal" message="tns:IServicoVendas_deleteTipoNotaFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/deleteTipoNotaFiscalResponse" message="tns:IServicoVendas_deleteTipoNotaFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTipoNotaFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarTipoNotaFiscal" message="tns:IServicoVendas_salvarAtualizarTipoNotaFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarTipoNotaFiscalResponse" message="tns:IServicoVendas_salvarAtualizarTipoNotaFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectTipoNotaFiscal" message="tns:IServicoVendas_selectTipoNotaFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectTipoNotaFiscalResponse" message="tns:IServicoVendas_selectTipoNotaFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscalPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectTipoNotaFiscalPagina" message="tns:IServicoVendas_selectTipoNotaFiscalPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectTipoNotaFiscalPaginaResponse" message="tns:IServicoVendas_selectTipoNotaFiscalPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCondicoesPagamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/deleteCondicoesPagamento" message="tns:IServicoVendas_deleteCondicoesPagamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/deleteCondicoesPagamentoResponse" message="tns:IServicoVendas_deleteCondicoesPagamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCondicoesPagamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarCondicoesPagamento" message="tns:IServicoVendas_salvarAtualizarCondicoesPagamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarCondicoesPagamentoResponse" message="tns:IServicoVendas_salvarAtualizarCondicoesPagamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCondicoesPagamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectCondicoesPagamento" message="tns:IServicoVendas_selectCondicoesPagamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectCondicoesPagamentoResponse" message="tns:IServicoVendas_selectCondicoesPagamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCondicoesPagamentoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectCondicoesPagamentoPagina" message="tns:IServicoVendas_selectCondicoesPagamentoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectCondicoesPagamentoPaginaResponse" message="tns:IServicoVendas_selectCondicoesPagamentoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteOrcamentoPedidoVendaCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/deleteOrcamentoPedidoVendaCab" message="tns:IServicoVendas_deleteOrcamentoPedidoVendaCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/deleteOrcamentoPedidoVendaCabResponse" message="tns:IServicoVendas_deleteOrcamentoPedidoVendaCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarOrcamentoPedidoVendaCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarOrcamentoPedidoVendaCab" message="tns:IServicoVendas_salvarAtualizarOrcamentoPedidoVendaCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarOrcamentoPedidoVendaCabResponse" message="tns:IServicoVendas_salvarAtualizarOrcamentoPedidoVendaCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamentoPedidoVendaCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectOrcamentoPedidoVendaCab" message="tns:IServicoVendas_selectOrcamentoPedidoVendaCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectOrcamentoPedidoVendaCabResponse" message="tns:IServicoVendas_selectOrcamentoPedidoVendaCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamentoPedidoVendaCabPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectOrcamentoPedidoVendaCabPagina" message="tns:IServicoVendas_selectOrcamentoPedidoVendaCabPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectOrcamentoPedidoVendaCabPaginaResponse" message="tns:IServicoVendas_selectOrcamentoPedidoVendaCabPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteVendaCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/deleteVendaCabecalho" message="tns:IServicoVendas_deleteVendaCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/deleteVendaCabecalhoResponse" message="tns:IServicoVendas_deleteVendaCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarVendaCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarVendaCabecalho" message="tns:IServicoVendas_salvarAtualizarVendaCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarVendaCabecalhoResponse" message="tns:IServicoVendas_salvarAtualizarVendaCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectVendaCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectVendaCabecalho" message="tns:IServicoVendas_selectVendaCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectVendaCabecalhoResponse" message="tns:IServicoVendas_selectVendaCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectVendaCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectVendaCabecalhoPagina" message="tns:IServicoVendas_selectVendaCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectVendaCabecalhoPaginaResponse" message="tns:IServicoVendas_selectVendaCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFreteVenda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/deleteFreteVenda" message="tns:IServicoVendas_deleteFreteVenda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/deleteFreteVendaResponse" message="tns:IServicoVendas_deleteFreteVenda_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFreteVenda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarFreteVenda" message="tns:IServicoVendas_salvarAtualizarFreteVenda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/salvarAtualizarFreteVendaResponse" message="tns:IServicoVendas_salvarAtualizarFreteVenda_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFreteVenda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectFreteVenda" message="tns:IServicoVendas_selectFreteVenda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectFreteVendaResponse" message="tns:IServicoVendas_selectFreteVenda_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFreteVendaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectFreteVendaPagina" message="tns:IServicoVendas_selectFreteVendaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectFreteVendaPaginaResponse" message="tns:IServicoVendas_selectFreteVendaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectCliente" message="tns:IServicoVendas_selectCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectClienteResponse" message="tns:IServicoVendas_selectCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectClientePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectClientePagina" message="tns:IServicoVendas_selectClientePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectClientePaginaResponse" message="tns:IServicoVendas_selectClientePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectVendedor" message="tns:IServicoVendas_selectVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectVendedorResponse" message="tns:IServicoVendas_selectVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectVendedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectVendedorPagina" message="tns:IServicoVendas_selectVendedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectVendedorPaginaResponse" message="tns:IServicoVendas_selectVendedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTransportadora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectTransportadora" message="tns:IServicoVendas_selectTransportadora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectTransportadoraResponse" message="tns:IServicoVendas_selectTransportadora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTransportadoraPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectTransportadoraPagina" message="tns:IServicoVendas_selectTransportadoraPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectTransportadoraPaginaResponse" message="tns:IServicoVendas_selectTransportadoraPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectProduto" message="tns:IServicoVendas_selectProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectProdutoResponse" message="tns:IServicoVendas_selectProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectProdutoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectProdutoPagina" message="tns:IServicoVendas_selectProdutoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectProdutoPaginaResponse" message="tns:IServicoVendas_selectProdutoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectUsuario" message="tns:IServicoVendas_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectUsuarioResponse" message="tns:IServicoVendas_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoVendas/selectControleAcesso" message="tns:IServicoVendas_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoVendas/selectControleAcessoResponse" message="tns:IServicoVendas_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoVendas" type="tns:IServicoVendas">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteTipoNotaFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/deleteTipoNotaFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTipoNotaFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/salvarAtualizarTipoNotaFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectTipoNotaFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscalPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectTipoNotaFiscalPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCondicoesPagamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/deleteCondicoesPagamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCondicoesPagamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/salvarAtualizarCondicoesPagamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCondicoesPagamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectCondicoesPagamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCondicoesPagamentoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectCondicoesPagamentoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteOrcamentoPedidoVendaCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/deleteOrcamentoPedidoVendaCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarOrcamentoPedidoVendaCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/salvarAtualizarOrcamentoPedidoVendaCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamentoPedidoVendaCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectOrcamentoPedidoVendaCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamentoPedidoVendaCabPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectOrcamentoPedidoVendaCabPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteVendaCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/deleteVendaCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarVendaCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/salvarAtualizarVendaCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectVendaCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectVendaCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectVendaCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectVendaCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFreteVenda">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/deleteFreteVenda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFreteVenda">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/salvarAtualizarFreteVenda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFreteVenda">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectFreteVenda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFreteVendaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectFreteVendaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCliente">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectClientePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectClientePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectVendedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectVendedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTransportadora">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectTransportadora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTransportadoraPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectTransportadoraPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectProdutoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectProdutoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoVendas/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoVendas">
+    <wsdl:port name="BasicHttpBinding_IServicoVendas" binding="tns:BasicHttpBinding_IServicoVendas">
+      <soap:address location="http://localhost:2677/ServicoVendas.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

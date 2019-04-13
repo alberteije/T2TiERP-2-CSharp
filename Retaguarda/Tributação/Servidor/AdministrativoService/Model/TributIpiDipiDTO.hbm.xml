@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="AdministrativoService" namespace="AdministrativoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TributIpiDipiDTO" table="tribut_ipi_dipi" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="TipoReceitaDipi" column="ID_TIPO_RECEITA_DIPI" />
+    <property name="IdTributConfiguraOfGt" column="ID_TRIBUT_CONFIGURA_OF_GT" />
+    <property name="CstIpi" column="CST_IPI" />
+    <property name="ModalidadeBaseCalculo" column="MODALIDADE_BASE_CALCULO" />
+    <property name="PorcentoBaseCalculo" column="PORCENTO_BASE_CALCULO" />
+    <property name="AliquotaPorcento" column="ALIQUOTA_PORCENTO" />
+    <property name="AliquotaUnidade" column="ALIQUOTA_UNIDADE" />
+    <property name="ValorPrecoMaximo" column="VALOR_PRECO_MAXIMO" />
+    <property name="ValorPautaFiscal" column="VALOR_PAUTA_FISCAL" />
+  </class>
+</hibernate-mapping>

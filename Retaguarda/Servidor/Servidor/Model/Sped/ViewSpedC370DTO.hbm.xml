@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewSpedC370DTO" table="view_sped_c370" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfCabecalho" column="ID_NF_CABECALHO" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="IdProduto" column="ID_PRODUTO" />
+    <property name="Item" column="ITEM" />
+    <property name="IdUnidadeProduto" column="ID_UNIDADE_PRODUTO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="Cst" column="CST" />
+    <property name="Desconto" column="DESCONTO" />
+  </class>
+</hibernate-mapping>

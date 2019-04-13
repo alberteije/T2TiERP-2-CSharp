@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasReceberClient.View.ContasReceber.ViewFinLancamentoReceber" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view ="clr-namespace:ContasReceberClient.View.ContasReceber"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="713">
+
+    <TabControl>
+        <TabItem >
+
+            <DockPanel LastChildFill="True">
+		    <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			    <Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					    <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					    <TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				    </StackPanel>
+			    </Button>
+			    <Button Name="btSair" Width="100" Click="btSair_Click">
+				    <StackPanel Orientation="Horizontal">
+					    <Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					    <TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				    </StackPanel>
+			    </Button>
+		    </StackPanel>
+
+                <Grid DockPanel.Dock="Top" Height="160">
+                    <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="158" SelectedValue="{Binding ViewFinLancamentoReceberSelected.IdStatusParcela}" SelectedValuePath="Tag" Margin="6,25,0,0" >
+                    <ComboBoxItem Content="01 = Aberto" Tag="1" />
+                    <ComboBoxItem Content="02 = Quitado" Tag="2" />
+                    <ComboBoxItem Content="03 = Quitado Parcial" Tag="3" />
+                    <ComboBoxItem Content="04 = Vencido" Tag="7" />
+                </ComboBox>
+                <Label Content="Situação Parcela" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.QuantidadeParcela}" Height="23" Width="100" Margin="594,25,0,0" IsReadOnly="True" />
+			    <Label Content="Qtde. Parcelas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,6,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.ValorLancamento}" Height="23" Width="100" Margin="488,74,0,0" IsReadOnly="True" />
+			    <Label Content="Valor Lancamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="488,55,0,0"  />
+			    <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ViewFinLancamentoReceberSelected.DataLancamento}" Margin="170,25,0,0" IsEnabled="False" />
+			    <Label Content="Data Lancamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,6,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.NumeroDocumento}" Height="23" Width="100" Margin="488,25,0,0" IsReadOnly="True" />
+			    <Label Content="Nº Documento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="488,6,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.NumeroParcela}" Height="23" Width="100" Margin="383,25,0,0" IsReadOnly="True" />
+			    <Label Content="Numero Parcela" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="383,6,0,0"  />
+			    <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ViewFinLancamentoReceberSelected.DataVencimento}" Margin="276,25,0,0" IsEnabled="False" />
+			    <Label Content="Data Vencimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="276,6,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.ValorParcela}" Height="23" Width="100" Margin="594,74,0,0" IsReadOnly="True" />
+			    <Label Content="Valor Parcela" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,55,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.TaxaJuro}" Height="23" Width="100" Margin="6,124,0,0" IsReadOnly="True" />
+			    <Label Content="Taxa Juro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,105,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.ValorJuro}" Height="23" Width="100" Margin="112,124,0,0" IsReadOnly="True" />
+			    <Label Content="Valor Juro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,105,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.TaxaMulta}" Height="23" Width="100" Margin="218,124,0,0" IsReadOnly="True" />
+			    <Label Content="Taxa Multa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,105,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.ValorMulta}" Height="23" Width="100" Margin="324,124,0,0" IsReadOnly="True" />
+			    <Label Content="Valor Multa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,105,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.TaxaDesconto}" Height="23" Width="100" Margin="430,124,0,0" IsReadOnly="True" />
+			    <Label Content="Taxa Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,105,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.ValorDesconto}" Height="23" Width="100" Margin="536,124,0,0" IsReadOnly="True" />
+			    <Label Content="Valor Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,105,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ViewFinLancamentoReceberSelected.NomeCliente}" Height="23" Width="477" Margin="6,74,0,0" IsReadOnly="True" />
+			    <Label Content="Cliente" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,55,0,0"  />
+            </Grid>
+                <DockPanel>
+                    <TabControl>
+                        <TabItem Header="Parcelas">
+                            <view:FinParcelaRecebimentoPrincipal></view:FinParcelaRecebimentoPrincipal>
+                        </TabItem>
+                    </TabControl>
+                </DockPanel>
+            </DockPanel>
+    </TabItem>
+</TabControl>
+
+</UserControl>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaParametroDTO" table="folha_parametro" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Competencia" column="COMPETENCIA" />
+    <property name="ContribuiPis" column="CONTRIBUI_PIS" />
+    <property name="AliquotaPis" column="ALIQUOTA_PIS" />
+    <property name="DiscriminarDsr" column="DISCRIMINAR_DSR" />
+    <property name="DiaPagamento" column="DIA_PAGAMENTO" />
+    <property name="CalculoProporcionalidade" column="CALCULO_PROPORCIONALIDADE" />
+    <property name="DescontarFaltas13" column="DESCONTAR_FALTAS_13" />
+    <property name="PagarAdicionais13" column="PAGAR_ADICIONAIS_13" />
+    <property name="PagarEstagiarios13" column="PAGAR_ESTAGIARIOS_13" />
+    <property name="MesAdiantamento13" column="MES_ADIANTAMENTO_13" />
+    <property name="PercentualAdiantam13" column="PERCENTUAL_ADIANTAM_13" />
+    <property name="FeriasDescontarFaltas" column="FERIAS_DESCONTAR_FALTAS" />
+    <property name="FeriasPagarAdicionais" column="FERIAS_PAGAR_ADICIONAIS" />
+    <property name="FeriasAdiantar13" column="FERIAS_ADIANTAR_13" />
+    <property name="FeriasPagarEstagiarios" column="FERIAS_PAGAR_ESTAGIARIOS" />
+    <property name="FeriasCalcJustaCausa" column="FERIAS_CALC_JUSTA_CAUSA" />
+    <property name="FeriasMovimentoMensal" column="FERIAS_MOVIMENTO_MENSAL" />
+  </class>
+</hibernate-mapping>

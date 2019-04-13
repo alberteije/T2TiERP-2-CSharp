@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeAcessoXmlDTO" table="nfe_acesso_xml" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="Cnpj" column="CNPJ" />
+    <property name="Cpf" column="CPF" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Sintegra60mDTO" table="sintegra_60m" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">sintegra_60m</param>
+      </generator>
+    </id>
+
+
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="NumeroSerieEcf" column="NUMERO_SERIE_ECF" />
+    <property name="NumeroEquipamento" column="NUMERO_EQUIPAMENTO" />
+    <property name="ModeloDocumentoFiscal" column="MODELO_DOCUMENTO_FISCAL" />
+    <property name="CooInicial" column="COO_INICIAL" />
+    <property name="CooFinal" column="COO_FINAL" />
+    <property name="Crz" column="CRZ" />
+    <property name="Cro" column="CRO" />
+    <property name="ValorVendaBruta" column="VALOR_VENDA_BRUTA" />
+    <property name="ValorGrandeTotal" column="VALOR_GRANDE_TOTAL" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="EstoqueService"
+                   namespace="EstoqueService.Model" default-lazy="false">
+  <class name="NFeLocalRetiradaDTO" table="nfe_local_retirada">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="cpfCnpj" column="CPF_CNPJ" />
+    <property name="logradouro" column="LOGRADOURO" />
+    <property name="numero" column="NUMERO" />
+    <property name="complemento" column="COMPLEMENTO" />
+    <property name="bairro" column="BAIRRO" />
+    <property name="codigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="nomeMunicipio" column="NOME_MUNICIPIO" />
+    <property name="uf" column="UF" />
+    <!--
+    <many-to-one class="NaturezaFinanceiraDTO" name="naturezaFinanceira" column="ID_NATUREZA_FINANCEIRA"/>
+    <many-to-one class="DocumentoOrigemDTO" name="documentoOrigem" column="ID_DOCUMENTO_ORIGEM"/>
+    -->
+  </class>
+</hibernate-mapping>

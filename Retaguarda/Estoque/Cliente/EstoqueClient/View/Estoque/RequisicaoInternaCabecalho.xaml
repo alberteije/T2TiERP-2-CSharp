@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="EstoqueClient.View.Estoque.RequisicaoInternaCabecalho" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:EstoqueClient.View.Estoque"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+        <DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Top" Height="80">
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding RequisicaoInternaCabecalhoSelected.Colaborador.pessoa.Nome}" Height="23" Width="535" Margin="6,25,0,0"  />
+			    <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarColaborador" Click="btPesquisarColaborador_Click" Margin="545,25,0,0"  />
+			    <Label Content="Colaborador" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			    <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding RequisicaoInternaCabecalhoSelected.DataRequisicao}" Margin="594,25,0,0"  />
+			    <Label Content="Data Requisicao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,6,0,0"  />
+            </Grid>
+            <view:RequisicaoInternaDetalhePrincipal></view:RequisicaoInternaDetalhePrincipal>
+
+        </DockPanel>
+    </DockPanel>
+</UserControl>

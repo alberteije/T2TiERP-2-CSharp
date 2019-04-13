@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContabilidadeClient.View.Contabilidade.ContabilLivro" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:ContabilidadeClient.View.Contabilidade"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+        <DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Top" Height="70">
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLivroSelected.Descricao}" Height="23" Width="312" Margin="6,25,0,0"  />
+			    <Label Content="Descricao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilLivroSelected.Competencia}" Height="23" Width="100" Margin="324,25,0,0"  />
+			    <Label Content="Competencia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+			    <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="264" SelectedValue="{Binding ContabilLivroSelected.FormaEscrituracao}" SelectedValuePath="Tag" Margin="430,25,0,0" >
+				    <ComboBoxItem Content="Diário Geral" Tag="G" />
+				    <ComboBoxItem Content="Diário com Escrituração Resumida" Tag="R" />
+                    <ComboBoxItem Content="Diário Auxiliar" Tag="A" />
+                    <ComboBoxItem Content="Razão Auxiliar" Tag="Z" />
+                </ComboBox>
+			    <Label Content="Forma Escrituracao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+		    </Grid>
+            <view:ContabilTermoPrincipal></view:ContabilTermoPrincipal>
+        </DockPanel>
+    </DockPanel>
+</UserControl>

@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED1E72B9-DC9E-4938-B580-67C42D8B3D3F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PafEcf</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PafEcf</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>PafEcf.tsProgram</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ACBrFramework.Net, Version=0.9.5.6, Culture=neutral, PublicKeyToken=4ca716d5e1bd4ba3, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\bin\x64\Debug\ACBrFramework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\libs\NHibernate\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=4.1.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\FirebirdClient\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\libs\NHibernate\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\..\libs\NHibernate\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\libs\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\libs\NHibernate\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\RegistrosPAF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RegistrosPAF.designer.cs">
+      <DependentUpon>RegistrosPAF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ServidorReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Content Include="App.ico" />
+    <Compile Include="Controller\ViewTotalPagamentoMovimentoController.cs" />
+    <Compile Include="Controller\BancoController.cs" />
+    <Compile Include="Controller\VendaController.cs" />
+    <Compile Include="Controller\Sintegra60MController.cs" />
+    <Compile Include="Controller\R06Controller.cs" />
+    <Compile Include="Controller\R02Controller.cs" />
+    <Compile Include="Controller\R01Controller.cs" />
+    <Compile Include="Controller\EcfSuprimentoController.cs" />
+    <Compile Include="Controller\EcfSangriaController.cs" />
+    <Compile Include="Controller\EcfFuncionarioController.cs" />
+    <Compile Include="Controller\EcfE3Controller.cs" />
+    <Compile Include="Controller\EcfContadorController.cs" />
+    <Compile Include="Controller\EcfConfiguracaoController.cs" />
+    <Compile Include="Controller\EcfChequeCliente.cs" />
+    <Compile Include="Controller\EcfAliquotas.cs" />
+    <Compile Include="DTO\BancoDTO.cs" />
+    <Compile Include="DTO\CfopDTO.cs" />
+    <Compile Include="DTO\ClienteDTO.cs" />
+    <Compile Include="DTO\ContasPagarReceberDTO.cs" />
+    <Compile Include="DTO\ContasParcelasDTO.cs" />
+    <Compile Include="DTO\EcfAliquotasDTO.cs" />
+    <Compile Include="DTO\EcfCaixaDTO.cs" />
+    <Compile Include="DTO\EcfChequeClienteDTO.cs" />
+    <Compile Include="DTO\EcfConfiguracaoBalancaDTO.cs" />
+    <Compile Include="DTO\EcfConfiguracaoDTO.cs" />
+    <Compile Include="DTO\EcfConfiguracaoLeitorSerDTO.cs" />
+    <Compile Include="DTO\EcfContadorDTO.cs" />
+    <Compile Include="DTO\EcfDocumentosEmitidosDTO.cs" />
+    <Compile Include="DTO\EcfE3DTO.cs" />
+    <Compile Include="DTO\EcfEmpresaDTO.cs" />
+    <Compile Include="DTO\EcfFechamentoDTO.cs" />
+    <Compile Include="DTO\EcfFuncionarioDTO.cs" />
+    <Compile Include="DTO\EcfImpressoraDTO.cs" />
+    <Compile Include="DTO\EcfMovimentoDTO.cs" />
+    <Compile Include="DTO\EcfOperadorDTO.cs" />
+    <Compile Include="DTO\EcfPosicaoComponentesDTO.cs" />
+    <Compile Include="DTO\EcfRecebimentoNaoFiscalDTO.cs" />
+    <Compile Include="DTO\EcfRelatorioGerencialDTO.cs" />
+    <Compile Include="DTO\EcfResolucaoDTO.cs" />
+    <Compile Include="DTO\EcfSangriaDTO.cs" />
+    <Compile Include="DTO\EcfSuprimentoDTO.cs" />
+    <Compile Include="DTO\EcfTipoPagamentoDTO.cs" />
+    <Compile Include="DTO\EcfTotalTipoPagamentoDTO.cs" />
+    <Compile Include="DTO\EcfTurnoDTO.cs" />
+    <Compile Include="DTO\EcfVendaCabecalhoDTO.cs" />
+    <Compile Include="DTO\EcfVendaDetalheDTO.cs" />
+    <Compile Include="DTO\FichaTecnicaDTO.cs" />
+    <Compile Include="DTO\LogImportacaoDTO.cs" />
+    <Compile Include="DTO\LogssDTO.cs" />
+    <Compile Include="DTO\NotaFiscalCabecalhoDTO.cs" />
+    <Compile Include="DTO\NotaFiscalDetalheDTO.cs" />
+    <Compile Include="DTO\ProdutoDTO.cs" />
+    <Compile Include="DTO\ProdutoPromocaoDTO.cs" />
+    <Compile Include="DTO\R01DTO.cs" />
+    <Compile Include="DTO\R02DTO.cs" />
+    <Compile Include="DTO\R03DTO.cs" />
+    <Compile Include="DTO\R06DTO.cs" />
+    <Compile Include="DTO\R07DTO.cs" />
+    <Compile Include="DTO\Sintegra60aDTO.cs" />
+    <Compile Include="DTO\Sintegra60mDTO.cs" />
+    <Compile Include="DTO\SituacaoClienteDTO.cs" />
+    <Compile Include="DTO\UnidadeProdutoDTO.cs" />
+    <Compile Include="DTO\ViewTotalPagamentoDataDTO.cs" />
+    <Compile Include="DTO\ViewTotalPagamentoMovimentoDTO.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Util\ECFUtil.cs" />
+    <Compile Include="Util\PAFUtil.cs" />
+    <Compile Include="NHibernate\IDAL.cs" />
+    <Compile Include="NHibernate\NHibernateDAL.cs" />
+    <Compile Include="NHibernate\NHibernateHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="tsProgram.cs" />
+    <Compile Include="Util\Log.cs" />
+    <Compile Include="Util\Sessao.cs" />
+    <Compile Include="Util\Tipos.cs" />
+    <Compile Include="View\LMF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LMF.Designer.cs">
+      <DependentUpon>LMF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CargaPDV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CargaPDV.Designer.cs">
+      <DependentUpon>CargaPDV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cheques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Cheques.Designer.cs">
+      <DependentUpon>Cheques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DataModule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\DataModule.Designer.cs">
+      <DependentUpon>DataModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DescontoAcrescimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DescontoAcrescimo.Designer.cs">
+      <DependentUpon>DescontoAcrescimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EfetuaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EfetuaPagamento.Designer.cs">
+      <DependentUpon>EfetuaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EncerraMovimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EncerraMovimento.Designer.cs">
+      <DependentUpon>EncerraMovimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FechaEfetuaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FechaEfetuaPagamento.Designer.cs">
+      <DependentUpon>FechaEfetuaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FichaTecnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FichaTecnica.Designer.cs">
+      <DependentUpon>FichaTecnica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\IdentificaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\IdentificaCliente.Designer.cs">
+      <DependentUpon>IdentificaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ImportaCliente.Designer.cs">
+      <DependentUpon>ImportaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportaNumero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ImportaNumero.Designer.cs">
+      <DependentUpon>ImportaNumero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImportaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ImportaProduto.Designer.cs">
+      <DependentUpon>ImportaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\IniciaMovimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\IniciaMovimento.Designer.cs">
+      <DependentUpon>IniciaMovimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginGerenteSupervisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LoginGerenteSupervisor.Designer.cs">
+      <DependentUpon>LoginGerenteSupervisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuFiscal.Designer.cs">
+      <DependentUpon>MenuFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuOperacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuOperacoes.Designer.cs">
+      <DependentUpon>MenuOperacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MovimentoAberto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MovimentoAberto.Designer.cs">
+      <DependentUpon>MovimentoAberto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NotaFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NotaFiscal.Designer.cs">
+      <DependentUpon>NotaFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Parcelamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Parcelamento.Designer.cs">
+      <DependentUpon>Parcelamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PenDrive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PenDrive.Designer.cs">
+      <DependentUpon>PenDrive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SubMenuGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SubMenuGerente.Designer.cs">
+      <DependentUpon>SubMenuGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SubMenuSupervisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SubMenuSupervisor.Designer.cs">
+      <DependentUpon>SubMenuSupervisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ValorReal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ValorReal.Designer.cs">
+      <DependentUpon>ValorReal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\VendasPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VendasPeriodo.Designer.cs">
+      <DependentUpon>VendasPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\EcfMovimentoController.cs" />
+    <Compile Include="Controller\ProdutoController.cs" />
+    <Compile Include="Controller\EcfTipoPagamentoController.cs" />
+    <Compile Include="Controller\EcfTotalTipoPagamentoController.cs" />
+    <Compile Include="View\Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Caixa.Designer.cs">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Biblioteca.cs" />
+    <Compile Include="Controller\ClienteController.cs" />
+    <Compile Include="Controller\EcfImpressoraController.cs" />
+    <Compile Include="Util\Constantes.cs" />
+    <Compile Include="Controller\FichaTecnicaController.cs" />
+    <Compile Include="Controller\EcfFechamentoController.cs" />
+    <Compile Include="Controller\ViewTotalPagamentoDataController.cs" />
+    <Compile Include="Controller\EcfTurnoController.cs" />
+    <Compile Include="Controller\LogssController.cs" />
+    <Compile Include="Controller\NotaFiscalController.cs" />
+    <Content Include="DLLs\ACBr.Net.dll" />
+    <Content Include="DLLs\ACBr32.dll" />
+    <Content Include="DLLs\BemaFI32.dll" />
+    <Content Include="DLLs\BemaMFD.dll" />
+    <Content Include="DLLs\BemaMFD2.dll" />
+    <Content Include="DLLs\capicom.dll" />
+    <Content Include="DLLs\CONVECF.dll" />
+    <Content Include="DLLs\CONVECF95.dll" />
+    <Content Include="DLLs\CONVECF98.dll" />
+    <Content Include="DLLs\DarumaFrameWork.dll" />
+    <Content Include="DLLs\dbxfb.dll" />
+    <Content Include="DLLs\dbxmys.dll" />
+    <Content Include="DLLs\DLLG2.dll" />
+    <Content Include="DLLs\elgin.dll" />
+    <Content Include="DLLs\fbclient.dll" />
+    <Content Include="DLLs\InterfaceEpson.dll" />
+    <Content Include="DLLs\lebin.dll" />
+    <Content Include="DLLs\LeituraMFDBin.dll" />
+    <Content Include="DLLs\libeay32.dll" />
+    <Content Include="DLLs\libmySQL.dll" />
+    <Content Include="DLLs\midas.dll" />
+    <Content Include="DLLs\msxml5.dll" />
+    <Content Include="DLLs\msxml5r.dll" />
+    <Content Include="DLLs\SerialMFD.dll" />
+    <Content Include="DLLs\SERSWEDA.dll" />
+    <Content Include="DLLs\sign_bema.dll" />
+    <Content Include="DLLs\ssleay32.dll" />
+    <Content Include="DLLs\SWecf.dll" />
+    <Content Include="DLLs\swmfd.dll" />
+    <EmbeddedResource Include="DTO\BancoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\CfopDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ClienteDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ContasPagarReceberDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ContasParcelasDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfAliquotasDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfCaixaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfChequeClienteDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfConfiguracaoBalancaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfConfiguracaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfConfiguracaoLeitorSerDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfContadorDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfDocumentosEmitidosDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfE3DTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfEmpresaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfFechamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfFuncionarioDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfImpressoraDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfMovimentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfOperadorDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfPosicaoComponentesDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfRecebimentoNaoFiscalDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfRelatorioGerencialDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfResolucaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfSangriaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfSuprimentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfTipoPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfTotalTipoPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfTurnoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfVendaCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\EcfVendaDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\FichaTecnicaDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\LogImportacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\LogssDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NotaFiscalCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\NotaFiscalDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ProdutoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ProdutoPromocaoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\R01DTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\R02DTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\R03DTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\R06DTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\R07DTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\Sintegra60aDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\Sintegra60mDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\SituacaoClienteDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\UnidadeProdutoDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ViewTotalPagamentoDataDTO.hbm.xml" />
+    <EmbeddedResource Include="DTO\ViewTotalPagamentoMovimentoDTO.hbm.xml" />
+    <Content Include="Imagens\imgBotoes\21botaoAjuda.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCalculadora.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCancelaCupom.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCancelaItem.png" />
+    <Content Include="Imagens\imgBotoes\21botaoCliente.png" />
+    <Content Include="Imagens\imgBotoes\21botaoDesconto.png" />
+    <Content Include="Imagens\imgBotoes\21botaoEncerraVenda.png" />
+    <Content Include="Imagens\imgBotoes\21botaoGaveta.png" />
+    <Content Include="Imagens\imgBotoes\21botaoMenuFiscal.png" />
+    <Content Include="Imagens\imgBotoes\21botaoMenuOperacoes.png" />
+    <Content Include="Imagens\imgBotoes\21botaoMenuPrincipal.png" />
+    <Content Include="Imagens\imgBotoes\21botaoPesquisa.png" />
+    <Content Include="Imagens\imgBotoes\21botaoSair.png" />
+    <Content Include="Imagens\imgBotoes\botaoAjuda.png" />
+    <Content Include="Imagens\imgBotoes\botaoCalculadora.png" />
+    <Content Include="Imagens\imgBotoes\botaoCancelaCupom.png" />
+    <Content Include="Imagens\imgBotoes\botaoCancelaItem.png" />
+    <Content Include="Imagens\imgBotoes\botaoCliente.png" />
+    <Content Include="Imagens\imgBotoes\botaoDesconto.png" />
+    <Content Include="Imagens\imgBotoes\botaoEncerraVenda.png" />
+    <Content Include="Imagens\imgBotoes\botaoGaveta.png" />
+    <Content Include="Imagens\imgBotoes\botaoMenuFiscal.png" />
+    <Content Include="Imagens\imgBotoes\botaoMenuOperacoes.png" />
+    <Content Include="Imagens\imgBotoes\botaoMenuPrincipal.png" />
+    <Content Include="Imagens\imgBotoes\botaoPesquisa.png" />
+    <Content Include="Imagens\imgBotoes\botaoSair.png" />
+    <Content Include="Imagens\imgBotoes\cancelar16.png" />
+    <Content Include="Imagens\imgBotoes\confirmar16.png" />
+    <Content Include="Imagens\imgLayout\Envelope.gif" />
+    <Content Include="Imagens\imgLayout\Menu.jpg" />
+    <Content Include="Imagens\imgLayout\Menu.png" />
+    <Content Include="Imagens\imgLayout\padrao.png" />
+    <Content Include="Imagens\imgLayout\PenDrive.jpg" />
+    <Content Include="Imagens\imgLayout\SubMenu.png" />
+    <Content Include="Imagens\imgLayout\Tela1024x768.jpg" />
+    <Content Include="Imagens\imgLayout\Tela800x600.jpg" />
+    <Content Include="Imagens\imgProdutos\0001170000005.jpg" />
+    <Content Include="Imagens\imgProdutos\0001190000009.jpg" />
+    <Content Include="Imagens\imgProdutos\0001234567898.jpg" />
+    <Content Include="Imagens\imgProdutos\0012354600333.jpg" />
+    <Content Include="Imagens\imgProdutos\0013253095907.jpg" />
+    <Content Include="Imagens\imgProdutos\0312011604499.jpg" />
+    <Content Include="Imagens\imgProdutos\0407011150500.jpg" />
+    <Content Include="Imagens\imgProdutos\0507021132142.jpg" />
+    <Content Include="Imagens\imgProdutos\0605021008457.jpg" />
+    <Content Include="Imagens\imgProdutos\0706031233270.jpg" />
+    <Content Include="Imagens\imgProdutos\1603041234428.jpg" />
+    <Content Include="Imagens\imgProdutos\2106021651318.jpg" />
+    <Content Include="Imagens\imgProdutos\2608021837544.jpg" />
+    <Content Include="Imagens\imgProdutos\3011010827133.jpg" />
+    <Content Include="Imagens\imgProdutos\7896572014056.jpg" />
+    <Content Include="Imagens\imgProdutos\padrao.png" />
+    <Content Include="Imagens\imgSplash\imgBanco.jpg" />
+    <Content Include="Imagens\imgSplash\imgECF.jpg" />
+    <Content Include="Imagens\imgSplash\imgOperadoras.jpg" />
+    <Content Include="Imagens\imgSplash\imgPrincipal.jpg" />
+    <Content Include="Imagens\imgSplash\imgTEF.jpg" />
+    <Content Include="Imagens\imgTelas\arrowleft_green16.png" />
+    <Content Include="Imagens\imgTelas\arrowright_green16.png" />
+    <Content Include="Imagens\imgTelas\btnLocalizar05.gif" />
+    <Content Include="Imagens\imgTelas\Login2.jpg" />
+    <Content Include="Imagens\imgTelas\telaCadeadoFechado01.png" />
+    <Content Include="Imagens\imgTelas\telaCarrinho02.png" />
+    <Content Include="Imagens\imgTelas\telaChave06.png" />
+    <Content Include="Imagens\imgTelas\telaDinheiro01.png" />
+    <Content Include="Imagens\imgTelas\telaDinheiro03.png" />
+    <Content Include="Imagens\imgTelas\telaDinheiro05.png" />
+    <Content Include="Imagens\imgTelas\telaDocumento04.png" />
+    <Content Include="Imagens\imgTelas\telaDocumento07.png" />
+    <Content Include="Imagens\imgTelas\telaExcluirProduto.png" />
+    <Content Include="Imagens\imgTelas\telaHomem09.png" />
+    <Content Include="Imagens\imgTelas\telaLupa06.png" />
+    <Content Include="Imagens\imgTelas\telaMesclar01.png" />
+    <Content Include="Imagens\imgTelas\telaMonitor04.png" />
+    <Content Include="Imagens\imgTelas\telaNotaFiscal.png" />
+    <Content Include="Imagens\imgTelas\telaPrint09.png" />
+    <Content Include="Imagens\imgTelas\telaRegistradora01.png" />
+    <Content Include="Imagens\imgTelas\telaRelatorio01.png" />
+    <Content Include="Imagens\imgTelas\telaRelatorio02.png" />
+    <Content Include="Imagens\imgTelas\telaSair01.png" />
+    <Content Include="Imagens\imgTelas\telaUsuarioSenha01.png" />
+    <None Include="app.config" />
+    <None Include="Imagens\imgBotoes\Thumbs.db" />
+    <None Include="Imagens\imgLayout\Thumbs.db" />
+    <None Include="Imagens\imgProdutos\Thumbs.db" />
+    <None Include="Imagens\imgSplash\Thumbs.db" />
+    <None Include="Imagens\imgTelas\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ServidorReference\ArquivoDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\ContadorDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\DavCabecalhoDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\EmpresaDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\NfeCabecalhoDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\PreVendaCabecalhoDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\ProdutoDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ServidorReference\ServiceServidor.wsdl" />
+    <None Include="Web References\ServidorReference\Servidor.xsd" />
+    <None Include="Web References\ServidorReference\Servidor0.xsd" />
+    <None Include="Web References\ServidorReference\Servidor1.xsd" />
+    <None Include="Web References\ServidorReference\Servidor2.xsd" />
+    <None Include="Web References\ServidorReference\Servidor3.xsd" />
+    <None Include="Web References\ServidorReference\UnidadeProdutoDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServidorReference\UsuarioDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLLs\CONVECF.lib" />
+    <None Include="DLLs\hwinterface.sys" />
+    <None Include="DLLs\InterfaceEpson.lib" />
+    <None Include="DLLs\RSA.BIN" />
+    <None Include="DLLs\SWecf.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LMF.resx">
+      <DependentUpon>LMF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Caixa.resx">
+      <DependentUpon>Caixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CargaPDV.resx">
+      <DependentUpon>CargaPDV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Cheques.resx">
+      <DependentUpon>Cheques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DataModule.resx">
+      <DependentUpon>DataModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DescontoAcrescimo.resx">
+      <DependentUpon>DescontoAcrescimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EfetuaPagamento.resx">
+      <DependentUpon>EfetuaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EncerraMovimento.resx">
+      <DependentUpon>EncerraMovimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FechaEfetuaPagamento.resx">
+      <DependentUpon>FechaEfetuaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FichaTecnica.resx">
+      <DependentUpon>FichaTecnica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\IdentificaCliente.resx">
+      <DependentUpon>IdentificaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ImportaCliente.resx">
+      <DependentUpon>ImportaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ImportaNumero.resx">
+      <DependentUpon>ImportaNumero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ImportaProduto.resx">
+      <DependentUpon>ImportaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\IniciaMovimento.resx">
+      <DependentUpon>IniciaMovimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LoginGerenteSupervisor.resx">
+      <DependentUpon>LoginGerenteSupervisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuFiscal.resx">
+      <DependentUpon>MenuFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuOperacoes.resx">
+      <DependentUpon>MenuOperacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MovimentoAberto.resx">
+      <DependentUpon>MovimentoAberto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NotaFiscal.resx">
+      <DependentUpon>NotaFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Parcelamento.resx">
+      <DependentUpon>Parcelamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PenDrive.resx">
+      <DependentUpon>PenDrive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SubMenuGerente.resx">
+      <DependentUpon>SubMenuGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SubMenuSupervisor.resx">
+      <DependentUpon>SubMenuSupervisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RegistrosPAF.resx">
+      <DependentUpon>RegistrosPAF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ValorReal.resx">
+      <DependentUpon>ValorReal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VendasPeriodo.resx">
+      <DependentUpon>VendasPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagens\imgMarketing\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:2666/Servidor.svc%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ServidorReference\</RelPath>
+      <UpdateFromURL>http://localhost:2666/Servidor.svc%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PafEcf_ServidorReference_ServiceServidor</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+21/11/2014 12:30:52:	ACBrFramework.ACBrException: Communication error 2: O sistema n�o pode encontrar o arquivo especificado.
+
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ECF.ACBrECF.Ativar() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3979
+   em ConfiguraPAFECF.View.FConfiguracao.ConfiguraACBr() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\View\UConfiguracao.cs:linha 275
+18/10/2016 18:11:32:	ACBrFramework.ACBrException: Communication error 5: Acesso negado.
+
+   em ACBrFramework.ECF.ACBrECF.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 5206
+   em ACBrFramework.ECF.ACBrECF.Ativar() na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\Serial\ECF\ACBrECF.cs:linha 3979
+   em ConfiguraPAFECF.View.FConfiguracao.ConfiguraACBr() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\View\UConfiguracao.cs:linha 275

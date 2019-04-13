@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ConciliacaoContabilService" namespace="ConciliacaoContabilService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinExtratoContaBancoDTO" table="fin_extrato_conta_banco" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="ContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="MesAno" column="MES_ANO" />
+    <property name="Mes" column="MES" />
+    <property name="Ano" column="ANO" />
+    <property name="DataMovimento" column="DATA_MOVIMENTO" />
+    <property name="DataBalancete" column="DATA_BALANCETE" />
+    <property name="Historico" column="HISTORICO" />
+    <property name="Documento" column="DOCUMENTO" />
+    <property name="Valor" column="VALOR" />
+    <property name="Conciliado" column="CONCILIADO" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

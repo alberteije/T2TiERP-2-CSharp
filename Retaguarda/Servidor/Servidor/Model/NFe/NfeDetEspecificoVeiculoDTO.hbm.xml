@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetEspecificoVeiculoDTO" table="nfe_det_especifico_veiculo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="TipoOperacao" column="TIPO_OPERACAO" />
+    <property name="Chassi" column="CHASSI" />
+    <property name="Cor" column="COR" />
+    <property name="DescricaoCor" column="DESCRICAO_COR" />
+    <property name="PotenciaMotor" column="POTENCIA_MOTOR" />
+    <property name="Cilindradas" column="CILINDRADAS" />
+    <property name="PesoLiquido" column="PESO_LIQUIDO" />
+    <property name="PesoBruto" column="PESO_BRUTO" />
+    <property name="NumeroSerie" column="NUMERO_SERIE" />
+    <property name="TipoCombustivel" column="TIPO_COMBUSTIVEL" />
+    <property name="NumeroMotor" column="NUMERO_MOTOR" />
+    <property name="CapacidadeMaximaTracao" column="CAPACIDADE_MAXIMA_TRACAO" />
+    <property name="DistanciaEixos" column="DISTANCIA_EIXOS" />
+    <property name="AnoModelo" column="ANO_MODELO" />
+    <property name="AnoFabricacao" column="ANO_FABRICACAO" />
+    <property name="TipoPintura" column="TIPO_PINTURA" />
+    <property name="TipoVeiculo" column="TIPO_VEICULO" />
+    <property name="EspecieVeiculo" column="ESPECIE_VEICULO" />
+    <property name="CondicaoVin" column="CONDICAO_VIN" />
+    <property name="CondicaoVeiculo" column="CONDICAO_VEICULO" />
+    <property name="CodigoMarcaModelo" column="CODIGO_MARCA_MODELO" />
+    <property name="CodigoCor" column="CODIGO_COR" />
+    <property name="Lotacao" column="LOTACAO" />
+    <property name="Restricao" column="RESTRICAO" />
+  </class>
+</hibernate-mapping>

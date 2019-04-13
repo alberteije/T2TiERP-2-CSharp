@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="VendaRomaneioEntregaDTO" table="venda_romaneio_entrega" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="DataPrevista" column="DATA_PREVISTA" />
+    <property name="DataSaida" column="DATA_SAIDA" />
+    <property name="Situacao" column="SITUACAO" />
+    <property name="DataEncerramento" column="DATA_ENCERRAMENTO" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

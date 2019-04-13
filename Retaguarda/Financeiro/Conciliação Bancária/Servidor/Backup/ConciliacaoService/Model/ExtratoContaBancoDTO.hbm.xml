@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ConciliacaoService"
+                   namespace="ConciliacaoService.Model" default-lazy="false">
+  <class name="ExtratoContaBancoDTO" table="fin_extrato_conta_banco">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+   <property name="idContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="mes" column="MES" />
+    <property name="ano" column="ANO" />
+    <property name="dataMovimento" column="DATA_MOVIMENTO" />
+    <property name="dataBalancete" column="DATA_BALANCETE" />
+    <property name="historico" column="HISTORICO" />
+    <property name="documento" column="DOCUMENTO" />
+    <property name="valor" column="VALOR" />
+    <property name="conciliado" column="CONCILIADO" />
+    <property name="observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

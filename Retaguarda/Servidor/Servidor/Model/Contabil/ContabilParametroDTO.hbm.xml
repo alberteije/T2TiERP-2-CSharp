@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilParametroDTO" table="contabil_parametro" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Mascara" column="MASCARA" />
+    <property name="Niveis" column="NIVEIS" />
+    <property name="InformarContaPor" column="INFORMAR_CONTA_POR" />
+    <property name="CompartilhaPlanoConta" column="COMPARTILHA_PLANO_CONTA" />
+    <property name="CompartilhaHistoricos" column="COMPARTILHA_HISTORICOS" />
+    <property name="AlteraLancamentoOutro" column="ALTERA_LANCAMENTO_OUTRO" />
+    <property name="HistoricoObrigatorio" column="HISTORICO_OBRIGATORIO" />
+    <property name="PermiteLancamentoZerado" column="PERMITE_LANCAMENTO_ZERADO" />
+    <property name="GeraInformativoSped" column="GERA_INFORMATIVO_SPED" />
+    <property name="SpedFormaEscritDiario" column="SPED_FORMA_ESCRIT_DIARIO" />
+    <property name="SpedNomeLivroDiario" column="SPED_NOME_LIVRO_DIARIO" />
+    <property name="AssinaturaDireita" column="ASSINATURA_DIREITA" />
+    <property name="AssinaturaEsquerda" column="ASSINATURA_ESQUERDA" />
+    <property name="ContaAtivo" column="CONTA_ATIVO" />
+    <property name="ContaPassivo" column="CONTA_PASSIVO" />
+    <property name="ContaPatrimonioLiquido" column="CONTA_PATRIMONIO_LIQUIDO" />
+    <property name="ContaDepreciacaoAcumulada" column="CONTA_DEPRECIACAO_ACUMULADA" />
+    <property name="ContaCapitalSocial" column="CONTA_CAPITAL_SOCIAL" />
+    <property name="ContaResultadoExercicio" column="CONTA_RESULTADO_EXERCICIO" />
+    <property name="ContaPrejuizoAcumulado" column="CONTA_PREJUIZO_ACUMULADO" />
+    <property name="ContaLucroAcumulado" column="CONTA_LUCRO_ACUMULADO" />
+    <property name="ContaTituloPagar" column="CONTA_TITULO_PAGAR" />
+    <property name="ContaTituloReceber" column="CONTA_TITULO_RECEBER" />
+    <property name="ContaJurosPassivo" column="CONTA_JUROS_PASSIVO" />
+    <property name="ContaJurosAtivo" column="CONTA_JUROS_ATIVO" />
+    <property name="ContaDescontoObtido" column="CONTA_DESCONTO_OBTIDO" />
+    <property name="ContaDescontoConcedido" column="CONTA_DESCONTO_CONCEDIDO" />
+    <property name="ContaCmv" column="CONTA_CMV" />
+    <property name="ContaVenda" column="CONTA_VENDA" />
+    <property name="ContaVendaServico" column="CONTA_VENDA_SERVICO" />
+    <property name="ContaEstoque" column="CONTA_ESTOQUE" />
+    <property name="ContaApuraResultado" column="CONTA_APURA_RESULTADO" />
+    <property name="ContaJurosApropriar" column="CONTA_JUROS_APROPRIAR" />
+    <property name="IdHistPadraoResultado" column="ID_HIST_PADRAO_RESULTADO" />
+    <property name="IdHistPadraoLucro" column="ID_HIST_PADRAO_LUCRO" />
+    <property name="IdHistPadraoPrejuizo" column="ID_HIST_PADRAO_PREJUIZO" />
+  </class>
+</hibernate-mapping>

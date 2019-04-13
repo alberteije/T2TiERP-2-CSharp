@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CompraRequisicaoDTO" table="compra_requisicao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="CompraTipoRequisicao" column="ID_COMPRA_TIPO_REQUISICAO" />
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="DataRequisicao" column="DATA_REQUISICAO" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

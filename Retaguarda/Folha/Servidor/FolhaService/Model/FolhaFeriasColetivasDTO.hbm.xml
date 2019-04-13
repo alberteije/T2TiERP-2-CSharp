@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaFeriasColetivasDTO" table="folha_ferias_coletivas" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="DataInicio" column="DATA_INICIO" />
+    <property name="DataFim" column="DATA_FIM" />
+    <property name="DiasGozo" column="DIAS_GOZO" />
+    <property name="AbonoPecuniarioInicio" column="ABONO_PECUNIARIO_INICIO" />
+    <property name="AbonoPecuniarioFim" column="ABONO_PECUNIARIO_FIM" />
+    <property name="DiasAbono" column="DIAS_ABONO" />
+    <property name="DataPagamento" column="DATA_PAGAMENTO" />
+  </class>
+</hibernate-mapping>

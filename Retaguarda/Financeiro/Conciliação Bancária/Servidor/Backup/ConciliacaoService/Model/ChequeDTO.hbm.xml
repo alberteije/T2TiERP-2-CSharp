@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ConciliacaoService"
+                   namespace="ConciliacaoService.Model" default-lazy="false">
+  <class name="ChequeDTO" table="cheque">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idTalonarioCheque" column="ID_TALONARIO_CHEQUE" />
+    <property name="numero" column="NUMERO" />
+    <property name="statusCheque" column="STATUS_CHEQUE" />
+    <property name="dataStatus" column="DATA_STATUS" />
+  </class>
+</hibernate-mapping>

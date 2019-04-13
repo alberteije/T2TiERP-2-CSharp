@@ -1,0 +1,99 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\GEDClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\GEDClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\GEDClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\GEDClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.Interactivity.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.MefExtensions.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Unity.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.Interactivity.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Unity.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloIncluirDocumentoView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloVisualizarDocumentoView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloIncluirDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloVisualizarDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\GEDClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloIncluirDocumentoView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloVisualizarDocumentoView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\DocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\GEDClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloIncluirDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\ModuloVisualizarDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\GED\TipoDocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\GEDClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\GEDClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.Interactivity.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Release\Microsoft.Practices.Unity.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Release\GEDClient.pdb

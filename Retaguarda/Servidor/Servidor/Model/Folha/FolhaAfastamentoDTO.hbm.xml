@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaAfastamentoDTO" table="folha_afastamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <many-to-one name="FolhaTipoAfastamento" column="ID_FOLHA_TIPO_AFASTAMENTO" />
+    <property name="DataInicio" column="DATA_INICIO" />
+    <property name="DataFim" column="DATA_FIM" />
+    <property name="DiasAfastado" column="DIAS_AFASTADO" />
+  </class>
+</hibernate-mapping>

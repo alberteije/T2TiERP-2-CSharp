@@ -1,0 +1,18 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\AdministrativoService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\AdministrativoService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\obj\Debug\AdministrativoService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoService\AdministrativoService\obj\Debug\AdministrativoService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\bin\AdministrativoService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\bin\AdministrativoService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\bin\AdministrativoService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\obj\Debug\AdministrativoService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\obj\Debug\AdministrativoService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Servidor\AdministrativoService\obj\Debug\AdministrativoService.pdb

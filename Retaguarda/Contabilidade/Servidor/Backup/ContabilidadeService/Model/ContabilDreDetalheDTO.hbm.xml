@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilDreDetalheDTO" table="contabil_dre_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdContabilDreCabecalho" column="ID_CONTABIL_DRE_CABECALHO" />
+    <property name="Classificacao" column="CLASSIFICACAO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="FormaCalculo" column="FORMA_CALCULO" />
+    <property name="Sinal" column="SINAL" />
+    <property name="Natureza" column="NATUREZA" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

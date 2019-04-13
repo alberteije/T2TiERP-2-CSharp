@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2672/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2672/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2672/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FluxoCaixaService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_selectFluxoCaixa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFluxoCaixa" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectFluxoCaixa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFluxoCaixaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectFluxoCaixaMes_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFluxoCaixaMes" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectFluxoCaixaMes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFluxoCaixaMesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectContaCaixa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixa" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectContaCaixa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectEmpresa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectEmpresa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="selectFluxoCaixa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectFluxoCaixa" message="tns:IService_selectFluxoCaixa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectFluxoCaixaResponse" message="tns:IService_selectFluxoCaixa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFluxoCaixaMes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectFluxoCaixaMes" message="tns:IService_selectFluxoCaixaMes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectFluxoCaixaMesResponse" message="tns:IService_selectFluxoCaixaMes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectContaCaixa" message="tns:IService_selectContaCaixa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectContaCaixaResponse" message="tns:IService_selectContaCaixa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectUsuario" message="tns:IService_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectUsuarioResponse" message="tns:IService_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectControleAcesso" message="tns:IService_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectControleAcessoResponse" message="tns:IService_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectEmpresa" message="tns:IService_selectEmpresa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectEmpresaResponse" message="tns:IService_selectEmpresa_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="selectFluxoCaixa">
+      <soap:operation soapAction="http://tempuri.org/IService/selectFluxoCaixa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFluxoCaixaMes">
+      <soap:operation soapAction="http://tempuri.org/IService/selectFluxoCaixaMes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <soap:operation soapAction="http://tempuri.org/IService/selectContaCaixa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IService/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresa">
+      <soap:operation soapAction="http://tempuri.org/IService/selectEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://localhost:2672/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

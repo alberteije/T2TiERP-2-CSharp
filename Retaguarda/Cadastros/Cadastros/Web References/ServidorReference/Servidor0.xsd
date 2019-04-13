@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2666/Servidor.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Servidor.Model" />
+  <xs:element name="SalvarAtualizarTributIcmsCustomCab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributIcmsCustomCab" nillable="true" type="q1:TributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarTributIcmsCustomCabResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarTributIcmsCustomCabResult" nillable="true" type="q2:TributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributIcmsCustomCab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributIcmsCustomCab" nillable="true" type="q3:TributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributIcmsCustomCabResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectTributIcmsCustomCabResult" nillable="true" type="q4:ArrayOfTributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributIcmsCustomCabPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributIcmsCustomCab" nillable="true" type="q5:TributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributIcmsCustomCabPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectTributIcmsCustomCabPaginaResult" nillable="true" type="q6:ArrayOfTributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarSintegra">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pDataIni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pDataFim" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pCodigoConvenio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pFinalidade" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pNaturezaInformacao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pIdEmpresa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pInventario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pIdContador" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarSintegraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GerarSintegraResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarSped">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pDataIni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pDataFim" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pVersao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pFinalidade" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pPerfil" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pIdEmpresa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pInventario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pIdContador" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarSpedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GerarSpedResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarSpedContribuicoes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pDataIni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pDataFim" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pVersao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pTipoEscrituracao" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pIdEmpresa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pIdContador" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GerarSpedContribuicoesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GerarSpedContribuicoesResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDavCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="davCabecalho" nillable="true" type="q7:DavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDavCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarDavCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="davCabecalho" nillable="true" type="q8:DavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarDavCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarDavCabecalhoResult" nillable="true" type="q9:DavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectDavCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="davCabecalho" nillable="true" type="q10:DavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectDavCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectDavCabecalhoResult" nillable="true" type="q11:ArrayOfDavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectDavCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="davCabecalho" nillable="true" type="q12:DavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectDavCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectDavCabecalhoPaginaResult" nillable="true" type="q13:ArrayOfDavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectObjetoDavCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pFiltro" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectObjetoDavCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectObjetoDavCabecalhoResult" nillable="true" type="q14:DavCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePreVendaCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="preVendaCabecalho" nillable="true" type="q15:PreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePreVendaCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarPreVendaCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="preVendaCabecalho" nillable="true" type="q16:PreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarPreVendaCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarPreVendaCabecalhoResult" nillable="true" type="q17:PreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPreVendaCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="preVendaCabecalho" nillable="true" type="q18:PreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPreVendaCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectPreVendaCabecalhoResult" nillable="true" type="q19:ArrayOfPreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPreVendaCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="preVendaCabecalho" nillable="true" type="q20:PreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPreVendaCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectPreVendaCabecalhoPaginaResult" nillable="true" type="q21:ArrayOfPreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectObjetoPreVendaCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pFiltro" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectObjetoPreVendaCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectObjetoPreVendaCabecalhoResult" nillable="true" type="q22:PreVendaCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectUsuarioResult" nillable="true" type="q23:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEmpresa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="empresa" nillable="true" type="q24:EmpresaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEmpresaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectEmpresaResult" nillable="true" type="q25:ArrayOfEmpresaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEmpresaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="empresa" nillable="true" type="q26:EmpresaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEmpresaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectEmpresaPaginaResult" nillable="true" type="q27:ArrayOfEmpresaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteEstadoCivil">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="estadoCivil" nillable="true" type="q28:EstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteEstadoCivilResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarEstadoCivil">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="estadoCivil" nillable="true" type="q29:EstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarEstadoCivilResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarEstadoCivilResult" nillable="true" type="q30:EstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEstadoCivil">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="estadoCivil" nillable="true" type="q31:EstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEstadoCivilResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectEstadoCivilResult" nillable="true" type="q32:ArrayOfEstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEstadoCivilPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="estadoCivil" nillable="true" type="q33:EstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectEstadoCivilPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectEstadoCivilPaginaResult" nillable="true" type="q34:ArrayOfEstadoCivilDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAtividadeForCli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="atividadeForCli" nillable="true" type="q35:AtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAtividadeForCliResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarAtividadeForCli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="atividadeForCli" nillable="true" type="q36:AtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarAtividadeForCliResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarAtividadeForCliResult" nillable="true" type="q37:AtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAtividadeForCli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="atividadeForCli" nillable="true" type="q38:AtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAtividadeForCliResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectAtividadeForCliResult" nillable="true" type="q39:ArrayOfAtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAtividadeForCliPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="atividadeForCli" nillable="true" type="q40:AtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAtividadeForCliPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectAtividadeForCliPaginaResult" nillable="true" type="q41:ArrayOfAtividadeForCliDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCargo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cargo" nillable="true" type="q42:CargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCargoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarCargo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cargo" nillable="true" type="q43:CargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarCargoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarCargoResult" nillable="true" type="q44:CargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCargo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cargo" nillable="true" type="q45:CargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCargoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectCargoResult" nillable="true" type="q46:ArrayOfCargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCargoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cargo" nillable="true" type="q47:CargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCargoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectCargoPaginaResult" nillable="true" type="q48:ArrayOfCargoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCbo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cbo" nillable="true" type="q49:CboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCboResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarCbo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cbo" nillable="true" type="q50:CboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarCboResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarCboResult" nillable="true" type="q51:CboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCbo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cbo" nillable="true" type="q52:CboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCboResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectCboResult" nillable="true" type="q53:ArrayOfCboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCboPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="cbo" nillable="true" type="q54:CboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectCboPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectCboPaginaResult" nillable="true" type="q55:ArrayOfCboDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteOperadoraPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="operadoraPlanoSaude" nillable="true" type="q56:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteOperadoraPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarOperadoraPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="operadoraPlanoSaude" nillable="true" type="q57:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarOperadoraPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarOperadoraPlanoSaudeResult" nillable="true" type="q58:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectOperadoraPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="operadoraPlanoSaude" nillable="true" type="q59:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectOperadoraPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectOperadoraPlanoSaudeResult" nillable="true" type="q60:ArrayOfOperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectOperadoraPlanoSaudePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="operadoraPlanoSaude" nillable="true" type="q61:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectOperadoraPlanoSaudePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectOperadoraPlanoSaudePaginaResult" nillable="true" type="q62:ArrayOfOperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pais" nillable="true" type="q63:PaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePaisResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarPais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pais" nillable="true" type="q64:PaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarPaisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarPaisResult" nillable="true" type="q65:PaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pais" nillable="true" type="q66:PaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPaisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectPaisResult" nillable="true" type="q67:ArrayOfPaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPaisPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pais" nillable="true" type="q68:PaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPaisPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectPaisPaginaResult" nillable="true" type="q69:ArrayOfPaisDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProduto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produto" nillable="true" type="q70:ProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProdutoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarProduto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produto" nillable="true" type="q71:ProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarProdutoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarProdutoResult" nillable="true" type="q72:ProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProduto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produto" nillable="true" type="q73:ProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectProdutoResult" nillable="true" type="q74:ArrayOfProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produto" nillable="true" type="q75:ProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectProdutoPaginaResult" nillable="true" type="q76:ArrayOfProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProdutoSubGrupo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoSubGrupo" nillable="true" type="q77:ProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProdutoSubGrupoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarProdutoSubGrupo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoSubGrupo" nillable="true" type="q78:ProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarProdutoSubGrupoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarProdutoSubGrupoResult" nillable="true" type="q79:ProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoSubGrupo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoSubGrupo" nillable="true" type="q80:ProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoSubGrupoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectProdutoSubGrupoResult" nillable="true" type="q81:ArrayOfProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoSubGrupoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoSubGrupo" nillable="true" type="q82:ProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoSubGrupoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectProdutoSubGrupoPaginaResult" nillable="true" type="q83:ArrayOfProdutoSubGrupoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProdutoMarca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoMarca" nillable="true" type="q84:ProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProdutoMarcaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarProdutoMarca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoMarca" nillable="true" type="q85:ProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarProdutoMarcaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarProdutoMarcaResult" nillable="true" type="q86:ProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoMarca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoMarca" nillable="true" type="q87:ProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoMarcaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectProdutoMarcaResult" nillable="true" type="q88:ArrayOfProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoMarcaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="produtoMarca" nillable="true" type="q89:ProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectProdutoMarcaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectProdutoMarcaPaginaResult" nillable="true" type="q90:ArrayOfProdutoMarcaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAlmoxarifado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="almoxarifado" nillable="true" type="q91:AlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAlmoxarifadoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarAlmoxarifado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="almoxarifado" nillable="true" type="q92:AlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarAlmoxarifadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarAlmoxarifadoResult" nillable="true" type="q93:AlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAlmoxarifado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="almoxarifado" nillable="true" type="q94:AlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAlmoxarifadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectAlmoxarifadoResult" nillable="true" type="q95:ArrayOfAlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAlmoxarifadoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="almoxarifado" nillable="true" type="q96:AlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectAlmoxarifadoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectAlmoxarifadoPaginaResult" nillable="true" type="q97:ArrayOfAlmoxarifadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePessoa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pessoa" nillable="true" type="q98:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePessoaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarPessoa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pessoa" nillable="true" type="q99:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarPessoaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarPessoaResult" nillable="true" type="q100:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPessoa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pessoa" nillable="true" type="q101:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPessoaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectPessoaResult" nillable="true" type="q102:ArrayOfPessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPessoaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="pessoa" nillable="true" type="q103:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectPessoaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectPessoaPaginaResult" nillable="true" type="q104:ArrayOfPessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="banco" nillable="true" type="q105:BancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBancoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="banco" nillable="true" type="q106:BancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarBancoResult" nillable="true" type="q107:BancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="banco" nillable="true" type="q108:BancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectBancoResult" nillable="true" type="q109:ArrayOfBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectBancoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="banco" nillable="true" type="q110:BancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectBancoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectBancoPaginaResult" nillable="true" type="q111:ArrayOfBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectContador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="contador" nillable="true" type="q112:ContadorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectContadorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q113="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectContadorResult" nillable="true" type="q113:ArrayOfContadorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectContadorPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="contador" nillable="true" type="q114:ContadorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectContadorPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectContadorPaginaResult" nillable="true" type="q115:ArrayOfContadorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUnidadeProduto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="unidadeProduto" nillable="true" type="q116:UnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUnidadeProdutoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarUnidadeProduto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="unidadeProduto" nillable="true" type="q117:UnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarUnidadeProdutoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q118="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarUnidadeProdutoResult" nillable="true" type="q118:UnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectUnidadeProduto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q119="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="unidadeProduto" nillable="true" type="q119:UnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectUnidadeProdutoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q120="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectUnidadeProdutoResult" nillable="true" type="q120:ArrayOfUnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectUnidadeProdutoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q121="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="unidadeProduto" nillable="true" type="q121:UnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectUnidadeProdutoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q122="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectUnidadeProdutoPaginaResult" nillable="true" type="q122:ArrayOfUnidadeProdutoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectNfeCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q123="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="nfeCabecalho" nillable="true" type="q123:NfeCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectNfeCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q124="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectNfeCabecalhoResult" nillable="true" type="q124:ArrayOfNfeCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectNfeCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q125="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="nfeCabecalho" nillable="true" type="q125:NfeCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectNfeCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q126="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectNfeCabecalhoPaginaResult" nillable="true" type="q126:ArrayOfNfeCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteTributGrupoTributario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q127="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributGrupoTributario" nillable="true" type="q127:TributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteTributGrupoTributarioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarTributGrupoTributario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q128="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributGrupoTributario" nillable="true" type="q128:TributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SalvarAtualizarTributGrupoTributarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q129="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SalvarAtualizarTributGrupoTributarioResult" nillable="true" type="q129:TributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributGrupoTributario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q130="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributGrupoTributario" nillable="true" type="q130:TributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributGrupoTributarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q131="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectTributGrupoTributarioResult" nillable="true" type="q131:ArrayOfTributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributGrupoTributarioPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q132="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributGrupoTributario" nillable="true" type="q132:TributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTributGrupoTributarioPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q133="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="SelectTributGrupoTributarioPaginaResult" nillable="true" type="q133:ArrayOfTributGrupoTributarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteTributIcmsCustomCab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q134="http://schemas.datacontract.org/2004/07/Servidor.Model" minOccurs="0" name="tributIcmsCustomCab" nillable="true" type="q134:TributIcmsCustomCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteTributIcmsCustomCabResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

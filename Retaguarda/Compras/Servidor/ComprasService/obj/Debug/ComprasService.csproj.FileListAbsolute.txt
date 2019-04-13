@@ -1,0 +1,24 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\ComprasService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\ComprasService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\obj\Debug\ComprasService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasService\ComprasService\obj\Debug\ComprasService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\bin\ComprasService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\bin\ComprasService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\bin\ComprasService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\obj\Debug\ComprasService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\obj\Debug\ComprasService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\obj\Debug\ComprasService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasService\ComprasService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\bin\ComprasService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\bin\ComprasService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\bin\ComprasService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\obj\Debug\ComprasService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\obj\Debug\ComprasService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Servidor\ComprasService\obj\Debug\ComprasService.pdb

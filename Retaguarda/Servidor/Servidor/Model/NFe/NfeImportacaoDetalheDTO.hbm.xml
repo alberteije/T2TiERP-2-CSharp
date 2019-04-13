@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeImportacaoDetalheDTO" table="nfe_importacao_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="NfeDeclaracaoImportacao" column="ID_NFE_DECLARACAO_IMPORTACAO" />
+    <property name="NumeroAdicao" column="NUMERO_ADICAO" />
+    <property name="NumeroSequencial" column="NUMERO_SEQUENCIAL" />
+    <property name="CodigoFabricanteEstrangeiro" column="CODIGO_FABRICANTE_ESTRANGEIRO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="Drawback" column="DRAWBACK" />
+  </class>
+</hibernate-mapping>

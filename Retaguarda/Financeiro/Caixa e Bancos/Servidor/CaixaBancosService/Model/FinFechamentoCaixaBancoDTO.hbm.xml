@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="CaixaBancosService" namespace="CaixaBancosService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinFechamentoCaixaBancoDTO" table="fin_fechamento_caixa_banco" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="DataFechamento" column="DATA_FECHAMENTO" />
+    <property name="MesAno" column="MES_ANO" />
+    <property name="Mes" column="MES" />
+    <property name="Ano" column="ANO" />
+    <property name="SaldoAnterior" column="SALDO_ANTERIOR" />
+    <property name="Recebimentos" column="RECEBIMENTOS" />
+    <property name="Pagamentos" column="PAGAMENTOS" />
+    <property name="SaldoConta" column="SALDO_CONTA" />
+    <property name="ChequeNaoCompensado" column="CHEQUE_NAO_COMPENSADO" />
+    <property name="SaldoDisponivel" column="SALDO_DISPONIVEL" />
+  </class>
+</hibernate-mapping>

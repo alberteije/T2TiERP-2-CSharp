@@ -1,0 +1,21 @@
+<UserControl x:Class="OrdemServico.View.OsAberturaPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:OrdemServico.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="700">
+    <TabControl>
+        <TabItem Name="tabOsAberturaLista" Visibility="Collapsed" IsSelected="{Binding IsListar}">
+            <TabItem.Content>
+                <DockPanel LastChildFill="True">
+                    <view:OsAberturaLista></view:OsAberturaLista>
+                </DockPanel>
+            </TabItem.Content>
+        </TabItem>
+        <TabItem Name="tabOsAbertura" Visibility="Collapsed" IsSelected="{Binding IsEditar}">
+            <view:OsAbertura></view:OsAbertura>
+        </TabItem>
+    </TabControl>
+</UserControl>

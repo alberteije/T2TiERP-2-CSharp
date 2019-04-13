@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="GuiasAcumuladasDTO" table="guias_acumuladas" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="GpsTipo" column="GPS_TIPO" />
+    <property name="GpsCompetencia" column="GPS_COMPETENCIA" />
+    <property name="GpsValorInss" column="GPS_VALOR_INSS" />
+    <property name="GpsValorOutrasEnt" column="GPS_VALOR_OUTRAS_ENT" />
+    <property name="GpsDataPagamento" column="GPS_DATA_PAGAMENTO" />
+    <property name="IrrfCompetencia" column="IRRF_COMPETENCIA" />
+    <property name="IrrfCodigoRecolhimento" column="IRRF_CODIGO_RECOLHIMENTO" />
+    <property name="IrrfValorAcumulado" column="IRRF_VALOR_ACUMULADO" />
+    <property name="IrrfDataPagamento" column="IRRF_DATA_PAGAMENTO" />
+    <property name="PisCompetencia" column="PIS_COMPETENCIA" />
+    <property name="PisValorAcumulado" column="PIS_VALOR_ACUMULADO" />
+    <property name="PisDataPagamento" column="PIS_DATA_PAGAMENTO" />
+  </class>
+</hibernate-mapping>

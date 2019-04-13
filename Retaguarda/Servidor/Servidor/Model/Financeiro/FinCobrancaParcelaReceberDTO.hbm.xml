@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinCobrancaParcelaReceberDTO" table="fin_cobranca_parcela_receber" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdFinLancamentoReceber" column="ID_FIN_LANCAMENTO_RECEBER" />
+    <property name="IdFinParcelaReceber" column="ID_FIN_PARCELA_RECEBER" />
+    <property name="DataVencimento" column="DATA_VENCIMENTO" />
+    <property name="ValorParcela" column="VALOR_PARCELA" />
+    <property name="ValorJuroSimulado" column="VALOR_JURO_SIMULADO" />
+    <property name="ValorMultaSimulado" column="VALOR_MULTA_SIMULADO" />
+    <property name="ValorReceberSimulado" column="VALOR_RECEBER_SIMULADO" />
+    <property name="ValorJuroAcordo" column="VALOR_JURO_ACORDO" />
+    <property name="ValorMultaAcordo" column="VALOR_MULTA_ACORDO" />
+    <property name="ValorReceberAcordo" column="VALOR_RECEBER_ACORDO" />
+  </class>
+</hibernate-mapping>

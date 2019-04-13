@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EscritaFiscalService" namespace="EscritaFiscalService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TipoNotaFiscalDTO" table="nota_fiscal_tipo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Modelo" column="MODELO" />
+    <property name="Serie" column="SERIE" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Template" column="TEMPLATE" />
+    <property name="NumeroItens" column="NUMERO_ITENS" />
+    <property name="UltimoImpresso" column="ULTIMO_IMPRESSO" />
+  </class>
+</hibernate-mapping>

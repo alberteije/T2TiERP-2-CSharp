@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="NFe.View.NFeDadosBasicos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"                          
+             xmlns:local="clr-namespace:NFe.View"             
+             xmlns:util="clr-namespace:NFe.Util"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid Background="#FFADADA4" Margin="12,252,12,0" Height="128" VerticalAlignment="Top">
+            <TextBox Text="{Binding NFeSelected.BaseCalculoIcms,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="6,34,0,0" Name="tbBaseCalculoICMS" VerticalAlignment="Top" Width="109" HorizontalContentAlignment="Right" />
+            <TextBox Text="{Binding NFeSelected.ValorIcms,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="121,34,0,0" Name="tbValorICMS" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Valor ICMS" Height="22" HorizontalAlignment="Left" Margin="121,6,0,0" Name="label16" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.BaseCalculoIcmsSt,Converter={StaticResource moedaFormat}}" Height="23" Margin="247,34,0,0" Name="tbBaseCalculoICMSST" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Base Calc. ICMS ST" Height="22" HorizontalAlignment="Left" Margin="247,6,0,0" Name="label17" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorIcmsSt,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="373,34,0,0" Name="tbValorICMSST" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Valor ICMS ST" Height="22" HorizontalAlignment="Left" Margin="373,6,0,0" Name="label18" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorCofins,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="499,34,0,0" Name="tbValorTotalCOFINS" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Valor Total COFINS" Height="22" HorizontalAlignment="Left" Margin="499,6,0,0" Name="label19" VerticalAlignment="Top" Width="134" Padding="0" VerticalContentAlignment="Center" />
+            <Label Content="Base Calc. ICMS" Height="22" HorizontalAlignment="Left" Margin="6,6,0,0" Name="label15" VerticalAlignment="Top" Width="109" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorTotalProdutos,Converter={StaticResource moedaFormat}}" Height="23" Margin="0,34,8,0" Name="tbTotalProdutos" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Total Produtos" Height="22" HorizontalAlignment="Right" Margin="0,6,8,0" Name="label20" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorFrete,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="6,91,0,0" Name="tbValorFrete" VerticalAlignment="Top" Width="109" HorizontalContentAlignment="Right" />
+            <Label Content="Valor do Frete" Height="22" HorizontalAlignment="Left" Margin="6,63,0,0" Name="label21" VerticalAlignment="Top" Width="109" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorSeguro,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="121,91,0,0" Name="tbValorSeguro" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Valor do Seguro" Height="22" HorizontalAlignment="Left" Margin="121,63,0,0" Name="label22" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorDespesasAcessorias,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="247,91,0,0" Name="tbDespesasAcessorias" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Desp. Acessórias" Height="22" Margin="247,63,0,0" Name="label23" VerticalAlignment="Top" Padding="0" HorizontalAlignment="Left" Width="120" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorPis,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="373,91,0,0" Name="tbValorTotalPIS" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Valor Total PIS" Height="22" HorizontalAlignment="Left" Margin="373,63,0,0" Name="label24" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorDesconto,Converter={StaticResource moedaFormat}}" Height="23" HorizontalAlignment="Left" Margin="499,91,0,0" Name="tbDesconto" VerticalAlignment="Top" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Desconto" Height="22" HorizontalAlignment="Left" Margin="499,63,0,0" Name="label25" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+            <TextBox Text="{Binding NFeSelected.ValorTotal,Converter={StaticResource moedaFormat}}" Height="23" Margin="0,91,6,0" Name="tbTotalNota" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120" HorizontalContentAlignment="Right" />
+            <Label Content="Total Nota" Height="22" HorizontalAlignment="Right" Margin="0,63,8,0" Name="label26" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+        </Grid>
+        <GroupBox Header="Dados básicos" Height="227" Margin="12,12,12,0" Name="groupBox1" VerticalAlignment="Top" FontSize="11">
+            <Grid>
+                <TextBox Text="{Binding NFeSelected.TributOperacaoFiscal.Descricao}" Height="23" HorizontalAlignment="Left" Margin="10,38,0,0" Name="cbStatus" VerticalAlignment="Top" Width="477" />
+                <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="493,38,0,0" Name="btPesquisarProduto" VerticalAlignment="Top" Width="33" Click="btPesquisarProduto_Click" />
+                <Label Content="Operação Fiscal" Height="22" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" Padding="0" VerticalContentAlignment="Center" />
+                <TextBox Height="23" Margin="533,38,129,0" Name="tbChaveAcesso" VerticalAlignment="Top" Text="{Binding NFeSelected.ChaveAcesso}" />
+                <TextBox Text="{Binding NFeSelected.Numero}" Height="23" HorizontalAlignment="Right" Margin="0,38,6,0" Name="tbNumero" VerticalAlignment="Top" Width="117" />
+                <Label Content="Chave de Acesso" Height="22" HorizontalAlignment="Left" Margin="533,10,0,0" Name="label2" VerticalAlignment="Top" Padding="0" VerticalContentAlignment="Center" />
+                <Label Content="Número" Height="22" HorizontalAlignment="Right" Margin="0,10,79,0" Name="label3" VerticalAlignment="Top" Padding="0" VerticalContentAlignment="Center" />
+                <TextBox Text="{Binding NFeSelected.CodigoModelo}" Height="23" HorizontalAlignment="Left" Margin="10,101,0,0" Name="tbModelo" VerticalAlignment="Top" Width="81" />
+                <Label Content="Modelo" Height="22" HorizontalAlignment="Left" Margin="10,73,0,0" Name="label4" VerticalAlignment="Top" Width="81" Padding="0" VerticalContentAlignment="Center" />
+                <TextBox Text="{Binding NFeSelected.Serie}" Height="23" HorizontalAlignment="Left" Margin="97,101,0,0" Name="tbSerie" VerticalAlignment="Top" Width="72" />
+                <Label Content="Série" Height="22" HorizontalAlignment="Left" Margin="97,73,0,0" Name="label5" VerticalAlignment="Top" Width="63" Padding="0" VerticalContentAlignment="Center" />
+                <DatePicker SelectedDate="{Binding NFeSelected.DataHoraEmissao}" Height="25" HorizontalAlignment="Left" Margin="175,99,0,0" Name="dpEmissao" VerticalAlignment="Top" Width="115" />
+                <DatePicker SelectedDate="{Binding NFeSelected.DataHoraEntradaSaida}" Height="25" HorizontalAlignment="Left" Margin="296,99,0,0" Name="dpEntradaSaida" VerticalAlignment="Top" Width="142" />
+                <Label Content="Data de emissão" Height="22" HorizontalAlignment="Left" Margin="175,73,0,0" Name="label6" VerticalAlignment="Top" Width="104" Padding="0" VerticalContentAlignment="Center" />
+                <Label Content="Data Entrada/Saída" Height="22" HorizontalAlignment="Left" Margin="296,73,0,0" Name="label7" VerticalAlignment="Top" Width="142" Padding="0" VerticalContentAlignment="Center" />
+                <TextBox Text="{Binding NFeSelected.DataHoraEntradaSaida}" Height="23" HorizontalAlignment="Left" Margin="444,101,0,0" Name="tbHoraEntradaSaida" VerticalAlignment="Top" Width="136" />
+                <Label Content="Hora de Entrada/Saída" Height="22" HorizontalAlignment="Left" Margin="444,73,0,0" Name="label8" VerticalAlignment="Top" Width="136" Padding="0" VerticalContentAlignment="Center" />
+                <ComboBox SelectedValuePath="Tag" SelectedValue="{Binding NFeSelected.TipoOperacao}" Height="23" HorizontalAlignment="Left" Margin="586,99,0,0" Name="cbTipoOperacao" VerticalAlignment="Top" Width="120" >
+                    <ComboBoxItem Content="0 - Entrada" Tag="0"/>
+                    <ComboBoxItem Content="1 - Saída" Tag="1"/>
+                </ComboBox>
+                <Label Content="Tipo de Operação" Height="22" HorizontalAlignment="Left" Margin="586,73,0,0" Name="label9" VerticalAlignment="Top" Width="120" Padding="0" VerticalContentAlignment="Center" />
+                <ComboBox SelectedValuePath="Tag" SelectedValue="{Binding NFeSelected.IndicadorFormaPagamento}" Height="23" HorizontalAlignment="Left" Margin="10,170,0,0" Name="cbFormaPagamento" VerticalAlignment="Top" Width="131">
+                    <ComboBoxItem Content="0 - À vista" Tag="0"/>
+                    <ComboBoxItem Content="1 - A prazo" Tag="1"/>
+                    <ComboBoxItem Content="2 - Outros" Tag="2"/>
+                </ComboBox>
+                <Label Content="Forma de Pagamento" Height="22" HorizontalAlignment="Left" Margin="10,141,0,0" Name="label10" VerticalAlignment="Top" Width="131" Padding="0" VerticalContentAlignment="Center" />
+                <ComboBox SelectedValuePath="Tag" SelectedValue="{Binding NFeSelected.TipoEmissao}" Height="23" HorizontalAlignment="Left" Margin="148,169,0,0" Name="cbFormaEmissao" VerticalAlignment="Top" Width="131" >
+                    <ComboBoxItem Content="1 - Normal" Tag="1"/>
+                    <ComboBoxItem Content="2 - Contingência FS" Tag="2"/>
+                    <ComboBoxItem Content="3 - Contingência SCAN" Tag="3"/>
+                    <ComboBoxItem Content="4 - Contingência DPEC" Tag="4"/>
+                    <ComboBoxItem Content="5 - Contingência FS-DA" Tag="5"/>
+                    <ComboBoxItem Content="6 - Contingência SVC-AN" Tag="6"/>
+                    <ComboBoxItem Content="7 - Contingência SVC-RS" Tag="7"/>
+                </ComboBox>
+                <Label Content="Forma de Emissão" Height="22" HorizontalAlignment="Left" Margin="148,141,0,0" Name="label11" VerticalAlignment="Top" Width="121" Padding="0" VerticalContentAlignment="Center" />
+                <ComboBox SelectedValuePath="Tag" SelectedValue="{Binding NFeSelected.FinalidadeEmissao}" Height="23" HorizontalAlignment="Left" Margin="285,169,0,0" Name="cbFinalidadeEmissao" VerticalAlignment="Top" Width="143" >
+                    <ComboBoxItem Content="1 - NF-e Normal" Tag="1"/>
+                    <ComboBoxItem Content="2 - NF-e Complementar" Tag="2"/>
+                    <ComboBoxItem Content="3 - NF-e Ajuste" Tag="3"/>
+                </ComboBox>
+                <Label Content="Finalidade de Emissão" Height="22" HorizontalAlignment="Left" Margin="285,141,0,0" Name="label12" VerticalAlignment="Top" Width="143" Padding="0" VerticalContentAlignment="Center" />
+                <ComboBox SelectedValuePath="Tag" SelectedValue="{Binding NFeSelected.FormatoImpressaoDanfe}" Height="23" HorizontalAlignment="Left" Margin="434,169,0,0" Name="cbTipoImpressaoDANFE" VerticalAlignment="Top" Width="131" >
+                    <ComboBoxItem Content="1 - Retrato" Tag="1"/>
+                    <ComboBoxItem Content="2 - Paisagem" Tag="2"/>
+                </ComboBox>
+                <Label Content="Impressão DANFE" Height="22" HorizontalAlignment="Left" Margin="434,141,0,0" Name="label13" VerticalAlignment="Top" Width="131" Padding="0" VerticalContentAlignment="Center" />
+                <TextBox Text="{Binding NFeSelected.NaturezaOperacao}" Height="23" Margin="571,169,6,0" Name="tbNaturezaOperacao" VerticalAlignment="Top" />
+                <Label Content="Natureza da Operação" Height="22" HorizontalAlignment="Left" Margin="571,141,0,0" Name="label14" VerticalAlignment="Top" Width="180" Padding="0" VerticalContentAlignment="Center" />
+            </Grid>
+        </GroupBox>
+        <Grid Margin="12,386,12,12" Name="grid1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*" />
+                <RowDefinition Height="50*" />
+            </Grid.RowDefinitions>
+            <TextBox Text="{Binding NFeSelected.InformacoesAddFisco}" AcceptsReturn="True" Margin="0,31,0,10" Name="tbInformacoesFisco" VerticalContentAlignment="Top" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.RowSpan="2" HorizontalAlignment="Left" Width="451" />
+            <TextBox Text="{Binding NFeSelected.InformacoesAddContribuinte}" AcceptsReturn="True" Margin="456,31,10,10" Name="tbInformacoesContribuinte" VerticalContentAlignment="Top" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.RowSpan="2" />
+            <Label Content="Informações adicionais de interesse do FISCO" Height="22" HorizontalAlignment="Left" Margin="0,6,0,0" Name="label27" VerticalAlignment="Top" Width="273" Padding="0" VerticalContentAlignment="Center" />
+            <Label Content="Informações adicionais de interesse do contribuinte" Height="24" HorizontalAlignment="Left" Name="label28" VerticalAlignment="Top" Width="306" Padding="0" VerticalContentAlignment="Center" Margin="456,4,0,0" />
+        </Grid>
+    </Grid>
+</UserControl>

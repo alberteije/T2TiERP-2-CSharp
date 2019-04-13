@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/System.IO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System.IO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2666/Servidor.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:2666/Servidor.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System" />
+  <xs:complexType name="FileInfo">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:FileSystemInfo" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FileInfo" nillable="true" type="tns:FileInfo" />
+  <xs:complexType name="FileSystemInfo">
+    <xs:sequence>
+      <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##local" processContents="skip" />
+    </xs:sequence>
+    <xs:attribute ref="ser:FactoryType" />
+  </xs:complexType>
+  <xs:element name="FileSystemInfo" nillable="true" type="tns:FileSystemInfo" />
+  <xs:complexType name="MemoryStream">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Stream">
+        <xs:sequence>
+          <xs:element name="_buffer" nillable="true" type="xs:base64Binary" />
+          <xs:element name="_capacity" type="xs:int" />
+          <xs:element name="_expandable" type="xs:boolean" />
+          <xs:element name="_exposable" type="xs:boolean" />
+          <xs:element name="_isOpen" type="xs:boolean" />
+          <xs:element name="_length" type="xs:int" />
+          <xs:element name="_origin" type="xs:int" />
+          <xs:element name="_position" type="xs:int" />
+          <xs:element name="_writable" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MemoryStream" nillable="true" type="tns:MemoryStream" />
+  <xs:complexType name="Stream">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System" base="q1:MarshalByRefObject">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Stream" nillable="true" type="tns:Stream" />
+</xs:schema>

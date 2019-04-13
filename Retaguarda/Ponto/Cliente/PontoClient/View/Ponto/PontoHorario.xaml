@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PontoClient.View.Ponto.PontoHorario" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PontoHorarioSelected.Tipo}" SelectedValuePath="Tag" Margin="6,25,0,0" >
+				<ComboBoxItem Content="Fixo" Tag="F" />
+				<ComboBoxItem Content="Diário" Tag="D" />
+                <ComboBoxItem Content="Semanal" Tag="S" />
+                <ComboBoxItem Content="Mensal" Tag="M" />
+            </ComboBox>
+			<Label Content="Tipo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Codigo}" Height="23" Width="100" Margin="112,25,0,0"  />
+			<Label Content="Codigo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Nome}" Height="23" Width="312" Margin="218,25,0,0"  />
+			<Label Content="Nome:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="158" SelectedValue="{Binding PontoHorarioSelected.TipoTrabalho}" SelectedValuePath="Tag" Margin="536,25,0,0" >
+				<ComboBoxItem Content="Normal" Tag="N" />
+				<ComboBoxItem Content="Compensação" Tag="C" />
+                <ComboBoxItem Content="Folga" Tag="F" />
+            </ComboBox>
+			<Label Content="Tipo Trabalho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.CargaHoraria}" Height="23" Width="100" Margin="6,73,0,0"  />
+			<Label Content="Carga Horaria:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Entrada01}" Height="23" Width="100" Margin="6,133,0,0"  />
+			<Label Content="Entrada 01:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,114,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Saida01}" Height="23" Width="100" Margin="112,133,0,0"  />
+			<Label Content="Saida 01:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,114,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Entrada02}" Height="23" Width="100" Margin="218,133,0,0"  />
+			<Label Content="Entrada 02:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,114,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Saida02}" Height="23" Width="100" Margin="324,133,0,0"  />
+			<Label Content="Saida 02:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,114,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Entrada03}" Height="23" Width="100" Margin="6,186,0,0"  />
+			<Label Content="Entrada 03:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,167,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Saida03}" Height="23" Width="100" Margin="112,186,0,0"  />
+			<Label Content="Saida 03:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,167,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Entrada04}" Height="23" Width="100" Margin="218,186,0,0"  />
+			<Label Content="Entrada 04:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,167,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Saida04}" Height="23" Width="100" Margin="324,186,0,0"  />
+			<Label Content="Saida 04:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,167,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Entrada05}" Height="23" Width="100" Margin="6,241,0,0"  />
+			<Label Content="Entrada 05:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,222,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.Saida05}" Height="23" Width="100" Margin="112,241,0,0"  />
+			<Label Content="Saida 05:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,222,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.HoraInicioJornada}" Height="23" Width="100" Margin="112,73,0,0"  />
+			<Label Content="Inicio Jornada:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoHorarioSelected.HoraFimJornada}" Height="23" Width="100" Margin="218,73,0,0"  />
+			<Label Content="Fim Jornada:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

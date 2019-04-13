@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewSpedNfeItemDTO" table="view_sped_nfe_item" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="Gtin" column="GTIN" />
+    <property name="IdUnidadeProduto" column="ID_UNIDADE_PRODUTO" />
+    <property name="Sigla" column="SIGLA" />
+    <property name="TipoItemSped" column="TIPO_ITEM_SPED" />
+    <property name="Ncm" column="NCM" />
+    <property name="ExTipi" column="EX_TIPI" />
+    <property name="CodigoLst" column="CODIGO_LST" />
+    <property name="AliquotaIcmsPaf" column="ALIQUOTA_ICMS_PAF" />
+  </class>
+</hibernate-mapping>

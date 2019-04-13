@@ -1,0 +1,11 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\PatrimonioService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\PatrimonioService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\obj\Release\PatrimonioService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\obj\Release\PatrimonioService.pdb

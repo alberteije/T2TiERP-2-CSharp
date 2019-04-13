@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="NFe.View.NFeDestinatario"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"                          
+             xmlns:local="clr-namespace:NFe.View"             
+             xmlns:util="clr-namespace:NFe.Util"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+    </UserControl.Resources>
+    <Grid>
+        <TextBox Height="23" Margin="12,40,566,0" Name="tbNomeRazaoSocial" Text="{Binding NFeSelected.NfeDestinatario.Nome}" VerticalAlignment="Top" />
+        <Label Content="Nome/Razão Social" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label4" Padding="0" VerticalContentAlignment="Center" Width="117" Height="22" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,40,196,0" Name="tbFantasia" Text="{Binding NFeSelected.NfeDestinatario.Fantasia}" VerticalAlignment="Top" Width="364" />
+        <Label Content="Fantasia" Height="22" HorizontalAlignment="Right" Margin="0,12,479,0" Name="label5" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,40,12,0" Name="tbCpfCnpj" Text="{Binding NFeSelected.NfeDestinatario.CpfCnpj}" VerticalAlignment="Top" Width="178" />
+        <Label Content="CPF/CNPJ" Height="22" HorizontalAlignment="Right" Margin="0,12,109,0" Name="label1" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,100,0,0" Name="tbCEP" Text="{Binding NFeSelected.NfeDestinatario.Cep}" VerticalAlignment="Top" Width="102" />
+        <Label Content="CEP" Height="22" HorizontalAlignment="Left" Margin="12,72,0,0" Name="label2" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="60" />
+        <TextBox Height="23" Margin="122,100,566,0" Name="tbLogradouro" Text="{Binding NFeSelected.NfeDestinatario.Logradouro}" VerticalAlignment="Top" />
+        <Label Content="Logradouro" Height="22" HorizontalAlignment="Left" Margin="122,72,0,0" Name="label3" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="117" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,100,500,0" Name="tbNumero" Text="{Binding NFeSelected.NfeDestinatario.Numero}" VerticalAlignment="Top" Width="60" />
+        <Label Content="Número" Height="22" HorizontalAlignment="Right" Margin="0,72,500,0" Name="label6" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="60" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,100,257,0" Name="tbComplemento" Text="{Binding NFeSelected.NfeDestinatario.Complemento}" VerticalAlignment="Top" Width="237" />
+        <Label Content="Complemento" Height="22" HorizontalAlignment="Right" Margin="0,72,378,0" Name="label7" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="116" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,100,12,0" Name="textBox1" Text="{Binding NFeSelected.NfeDestinatario.Bairro}" VerticalAlignment="Top" Width="239" />
+        <Label Content="Bairro" Height="22" HorizontalAlignment="Right" Margin="0,72,170,0" Name="label8" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,165,0,0" Name="tbIBGE" Text="{Binding NFeSelected.NfeDestinatario.CodigoMunicipio}" VerticalAlignment="Top" Width="102" />
+        <Label Content="Cód. IBGE" Height="22" HorizontalAlignment="Left" Margin="12,137,0,0" Name="label9" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="60" />
+        <TextBox Height="23" Margin="122,165,0,0" Name="tbMunicipio" Text="{Binding NFeSelected.NfeDestinatario.NomeMunicipio}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="237" />
+        <Label Content="Município" Height="22" HorizontalAlignment="Left" Margin="122,137,0,0" Name="label10" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="365,165,0,0" Name="tbUF" Text="{Binding NFeSelected.NfeDestinatario.Uf}" VerticalAlignment="Top" Width="41" />
+        <Label Content="UF" Height="22" HorizontalAlignment="Left" Margin="365,137,0,0" Name="label11" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="27" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="412,165,0,0" Name="tbInscricaoEstadual" Text="{Binding NFeSelected.NfeDestinatario.Iest}" VerticalAlignment="Top" Width="109" />
+        <Label Content="Inscrição Estadual" Height="22" HorizontalAlignment="Left" Margin="412,137,0,0" Name="label12" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="118" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="527,165,0,0" Name="tbTelefone" Text="{Binding NFeSelected.NfeDestinatario.Telefone}" VerticalAlignment="Top" Width="87" />
+        <Label Content="Telefone" Height="22" HorizontalAlignment="Left" Margin="527,137,0,0" Name="label13" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="60" />
+        <TextBox Height="23" Margin="620,165,12,0" Name="textBox2" Text="{Binding NFeSelected.NfeDestinatario.Email}" VerticalAlignment="Top" />
+        <Label Content="Email" Height="22" Margin="620,137,320,0" Name="label14" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" />
+    </Grid>
+</UserControl>

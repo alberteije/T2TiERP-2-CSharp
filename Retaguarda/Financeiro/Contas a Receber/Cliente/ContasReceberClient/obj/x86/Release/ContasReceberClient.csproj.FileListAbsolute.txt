@@ -1,0 +1,92 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\ContasReceberClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoRecebimentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\RecebimentoParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoRecebimentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\RecebimentoParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\ContasReceberClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\ContasReceberClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\ContasReceberClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoRecebimentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\ContasReceberClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\DocumentoOrigemIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\RecebimentoParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\StatusParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\TipoRecebimentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\ContasReceberClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\LancamentoReceberIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ContasReceber\RecebimentoParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Release\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Release\Boleto.Net.pdb

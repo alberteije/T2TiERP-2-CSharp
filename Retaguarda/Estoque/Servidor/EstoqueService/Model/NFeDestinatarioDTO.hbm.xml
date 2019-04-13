@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NFeDestinatarioDTO" table="nfe_destinatario" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="cpfCnpj" column="CPF_CNPJ" />
+    <property name="razaoSocial" column="NOME" />
+    <property name="logradouro" column="LOGRADOURO" />
+    <property name="numero" column="NUMERO" />
+    <property name="complemento" column="COMPLEMENTO" />
+    <property name="bairro" column="BAIRRO" />
+    <property name="codigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="nomeMunicipio" column="NOME_MUNICIPIO" />
+    <property name="uf" column="UF" />
+    <property name="cep" column="CEP" />
+    <property name="codigoPais" column="CODIGO_PAIS" />
+    <property name="nomePais" column="NOME_PAIS" />
+    <property name="telefone" column="TELEFONE" />
+    <property name="inscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="suframa" column="SUFRAMA" />
+    <property name="email" column="EMAIL" />
+  </class>
+</hibernate-mapping>

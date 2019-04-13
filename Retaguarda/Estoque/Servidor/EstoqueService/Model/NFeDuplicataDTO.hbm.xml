@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NFeDuplicataDTO" table="nfe_duplicata" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="numero" column="NUMERO" />
+    <property name="dataVencimento" column="DATA_VENCIMENTO" />
+    <property name="valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

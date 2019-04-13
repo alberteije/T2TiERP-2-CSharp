@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Cadastros.View.ProdutoLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:Cadastros.View.Botoes" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:Cadastros.Util" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+	</UserControl.Resources>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Top" Grid.Column="0">
+				<viewBotoes:BarraExterna></viewBotoes:BarraExterna>
+			</StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaProduto}" SelectedItem="{Binding ProdutoSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+					<DataGridTextColumn Header="IdTributIcmsCustomCab" Binding="{Binding Path=IdTributIcmsCustomCab}"  />
+					<DataGridTextColumn Header="IdUnidadeProduto" Binding="{Binding Path=IdUnidadeProduto}"  />
+					<DataGridTextColumn Header="IdAlmoxarifado" Binding="{Binding Path=IdAlmoxarifado}"  />
+					<DataGridTextColumn Header="IdGrupoTributario" Binding="{Binding Path=IdGrupoTributario}"  />
+					<DataGridTextColumn Header="IdMarcaProduto" Binding="{Binding Path=IdMarcaProduto}"  />
+					<DataGridTextColumn Header="IdSubGrupo" Binding="{Binding Path=IdSubGrupo}"  />
+					<DataGridTextColumn Header="Gtin" Binding="{Binding Path=Gtin}"  />
+					<DataGridTextColumn Header="CodigoInterno" Binding="{Binding Path=CodigoInterno}"  />
+					<DataGridTextColumn Header="Ncm" Binding="{Binding Path=Ncm}"  />
+					<DataGridTextColumn Header="Nome" Binding="{Binding Path=Nome}"  />
+					<DataGridTextColumn Header="Descricao" Binding="{Binding Path=Descricao}"  />
+					<DataGridTextColumn Header="DescricaoPdv" Binding="{Binding Path=DescricaoPdv}"  />
+					<DataGridTextColumn Header="ValorCompra" Binding="{Binding Path=ValorCompra,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="ValorVenda" Binding="{Binding Path=ValorVenda,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PrecoVendaMinimo" Binding="{Binding Path=PrecoVendaMinimo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PrecoSugerido" Binding="{Binding Path=PrecoSugerido,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="CustoMedioLiquido" Binding="{Binding Path=CustoMedioLiquido,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PrecoLucroZero" Binding="{Binding Path=PrecoLucroZero,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PrecoLucroMinimo" Binding="{Binding Path=PrecoLucroMinimo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PrecoLucroMaximo" Binding="{Binding Path=PrecoLucroMaximo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Markup" Binding="{Binding Path=Markup,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="QuantidadeEstoque" Binding="{Binding Path=QuantidadeEstoque,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="QuantidadeEstoqueAnterior" Binding="{Binding Path=QuantidadeEstoqueAnterior,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="EstoqueMinimo" Binding="{Binding Path=EstoqueMinimo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="EstoqueMaximo" Binding="{Binding Path=EstoqueMaximo,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="EstoqueIdeal" Binding="{Binding Path=EstoqueIdeal,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Excluido" Binding="{Binding Path=Excluido}"  />
+					<DataGridTextColumn Header="Inativo" Binding="{Binding Path=Inativo}"  />
+					<DataGridTextColumn Header="DataCadastro" Binding="{Binding Path=DataCadastro,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="FotoProduto" Binding="{Binding Path=FotoProduto}"  />
+					<DataGridTextColumn Header="ExTipi" Binding="{Binding Path=ExTipi}"  />
+					<DataGridTextColumn Header="CodigoLst" Binding="{Binding Path=CodigoLst}"  />
+					<DataGridTextColumn Header="ClasseAbc" Binding="{Binding Path=ClasseAbc}"  />
+					<DataGridTextColumn Header="Iat" Binding="{Binding Path=Iat}"  />
+					<DataGridTextColumn Header="Ippt" Binding="{Binding Path=Ippt}"  />
+					<DataGridTextColumn Header="TipoItemSped" Binding="{Binding Path=TipoItemSped}"  />
+					<DataGridTextColumn Header="Peso" Binding="{Binding Path=Peso,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PorcentoComissao" Binding="{Binding Path=PorcentoComissao,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="PontoPedido" Binding="{Binding Path=PontoPedido,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="LoteEconomicoCompra" Binding="{Binding Path=LoteEconomicoCompra,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="AliquotaIcmsPaf" Binding="{Binding Path=AliquotaIcmsPaf,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="AliquotaIssqnPaf" Binding="{Binding Path=AliquotaIssqnPaf,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="TotalizadorParcial" Binding="{Binding Path=TotalizadorParcial}"  />
+					<DataGridTextColumn Header="CodigoBalanca" Binding="{Binding Path=CodigoBalanca}"  />
+					<DataGridTextColumn Header="DataAlteracao" Binding="{Binding Path=DataAlteracao,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Tipo" Binding="{Binding Path=Tipo}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</Grid>
+</UserControl>

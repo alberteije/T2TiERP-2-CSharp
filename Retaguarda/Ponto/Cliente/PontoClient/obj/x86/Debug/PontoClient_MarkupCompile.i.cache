@@ -1,0 +1,20 @@
+﻿PontoClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Cliente\PontoClient\obj\x86\Debug\
+PontoClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Cliente\PontoClient\App.xaml
+341572437492
+
+75-279966604
+22569335853
+themes\generic.xaml;View\ERPClient.xaml;View\Ponto\Login.xaml;View\Ponto\PontoRegistroPrincipal.xaml;View\Ponto\PontoGeracaoArquivosPrincipal.xaml;View\Ponto\PontoAbono.xaml;View\Ponto\PontoAbonoLista.xaml;View\Ponto\PontoAbonoPrincipal.xaml;View\Ponto\PontoBancoHoras.xaml;View\Ponto\PontoBancoHorasLista.xaml;View\Ponto\PontoBancoHorasPrincipal.xaml;View\Ponto\PontoClassificacaoJornada.xaml;View\Ponto\PontoClassificacaoJornadaLista.xaml;View\Ponto\PontoClassificacaoJornadaPrincipal.xaml;View\Ponto\PontoEscala.xaml;View\Ponto\PontoEscalaLista.xaml;View\Ponto\PontoEscalaPrincipal.xaml;View\Ponto\PontoFechamentoJornadaLista.xaml;View\Ponto\PontoFechamentoJornadaPrincipal.xaml;View\Ponto\PontoHorario.xaml;View\Ponto\PontoHorarioLista.xaml;View\Ponto\PontoHorarioPrincipal.xaml;View\Ponto\PontoMarcacaoLista.xaml;View\Ponto\PontoMarcacaoPrincipal.xaml;View\Ponto\PontoParametro.xaml;View\Ponto\PontoParametroLista.xaml;View\Ponto\PontoParametroPrincipal.xaml;View\Ponto\PontoPrincipal.xaml;View\Ponto\PontoRelogio.xaml;View\Ponto\PontoRelogioLista.xaml;View\Ponto\PontoRelogioPrincipal.xaml;View\Ponto\PontoTurma.xaml;View\Ponto\PontoTurmaLista.xaml;View\Ponto\PontoTurmaPrincipal.xaml;
+
+False
+

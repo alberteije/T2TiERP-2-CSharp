@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="RequisicaoInternaDetalheDTO" table="requisicao_interna_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="IdRequisicaoInternaCabecalho" column="ID_REQ_INTERNA_CABECALHO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+  </class>
+</hibernate-mapping>

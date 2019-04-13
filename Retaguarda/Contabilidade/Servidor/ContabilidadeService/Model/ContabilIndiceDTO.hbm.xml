@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilIndiceDTO" table="contabil_indice" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="IndiceEconomico" column="ID_INDICE_ECONOMICO" />
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Periodicidade" column="PERIODICIDADE" />
+    <property name="DiarioAPartirDe" column="DIARIO_A_PARTIR_DE" />
+    <property name="MensalMesAno" column="MENSAL_MES_ANO" />
+  </class>
+</hibernate-mapping>

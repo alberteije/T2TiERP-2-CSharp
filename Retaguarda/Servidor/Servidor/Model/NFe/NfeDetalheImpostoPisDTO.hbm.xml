@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetalheImpostoPisDTO" table="nfe_detalhe_imposto_pis" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="CstPis" column="CST_PIS" />
+    <property name="QuantidadeVendida" column="QUANTIDADE_VENDIDA" />
+    <property name="ValorBaseCalculoPis" column="VALOR_BASE_CALCULO_PIS" />
+    <property name="AliquotaPisPercentual" column="ALIQUOTA_PIS_PERCENTUAL" />
+    <property name="AliquotaPisReais" column="ALIQUOTA_PIS_REAIS" />
+    <property name="ValorPis" column="VALOR_PIS" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PatrimonioService" namespace="PatrimonioService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PatrimGrupoBemDTO" table="patrim_grupo_bem" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="ContaAtivoImobilizado" column="CONTA_ATIVO_IMOBILIZADO" />
+    <property name="ContaDepreciacaoAcumulada" column="CONTA_DEPRECIACAO_ACUMULADA" />
+    <property name="ContaDespesaDepreciacao" column="CONTA_DESPESA_DEPRECIACAO" />
+    <property name="CodigoHistorico" column="CODIGO_HISTORICO" />
+  </class>
+</hibernate-mapping>

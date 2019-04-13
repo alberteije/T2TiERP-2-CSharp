@@ -1,0 +1,37 @@
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\ConfiguraPAFECF.Properties.Resources.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\ConfiguraPAFECF.View.FDataModule.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\GenerateResource.read.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\GenerateResource.write.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\bin\Debug\ConfiguraPAFECF.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\bin\Debug\ConfiguraPAFECF.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\bin\Debug\ACBrFramework.Net.dll
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\ConfiguraPAFECF.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\ConfiguraPAFECF.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\Configurador\obj\Debug\ConfiguraPAFECF.View.FConfiguracao.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ConfiguraPAFECF.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ConfiguraPAFECF.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\bin\Debug\ConfiguraPAFECF.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\bin\Debug\ConfiguraPAFECF.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ConfiguraPAFECF.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ConfiguraPAFECF.View.FConfiguracao.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ConfiguraPAFECF.View.FDataModule.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\PafEcf.View.FCaixa.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP\PAF\C#\Configurador\obj\Debug\ConfiguraPAFECF.View.FPropriedades.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.exe
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.View.FPropriedades.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\PafEcf.View.FCaixa.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.View.FConfiguracao.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.View.FDataModule.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\obj\Debug\ConfiguraPAFECF.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\bin\Debug\ConfiguraPAFECF.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\bin\Debug\ConfiguraPAFECF.exe
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\bin\Debug\ConfiguraPAFECF.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\bin\Debug\ACBrFramework.Net.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\Configurador\bin\Debug\ACBrFramework.Net.pdb

@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="EscritaFiscalClient.View.EscritaFiscal.InformativosGuiasPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="220" d:DesignWidth="700">
+
+    <StackPanel Height="220" Name="stackPanel1" Width="700">
+
+        <DockPanel Height="180" Width="700" LastChildFill="False" VerticalAlignment="Top">
+            <Grid Height="60" Width="700" DockPanel.Dock="Top" Background="#FFEBEBEB">
+                <Image Height="48" Name="image1" Stretch="Fill" Width="48" HorizontalAlignment="Left" Source="/EscritaFiscalClient;component/Imagem/tipoRequisicao48.png" />
+                <Label Content="Informativos e Guias" Height="28" HorizontalAlignment="Left" Margin="54,18,0,0" Name="label3" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+                <Border BorderBrush="Silver" BorderThickness="1" Height="5" HorizontalAlignment="Left" Margin="54,45,0,0" Name="border1" VerticalAlignment="Top" Width="640" />
+            </Grid>
+            <Grid Height="120" Width="700">
+                <DatePicker Height="25" HorizontalAlignment="Left" Margin="6,36,0,0" Name="dpPeriodoApuracao" VerticalAlignment="Top" Width="115"  />
+                <Label Content="Período Apuração:" Height="20" HorizontalAlignment="Left" Margin="6,16,0,0" Name="label4" VerticalAlignment="Top" />
+                <DatePicker Height="25" HorizontalAlignment="Left" Margin="127,36,0,0" Name="dpVencimento" VerticalAlignment="Top" Width="115"  />
+				<Label Content="Data Vencimento:" Height="20" HorizontalAlignment="Left" Margin="127,16,0,0" Name="label2" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="253,36,0,0" Name="textBoxCodReceita" VerticalAlignment="Top" Width="91" />
+                <Label Content="Código da Receita:" Height="20" HorizontalAlignment="Left" Margin="253,16,0,0" Name="labelCodReceita" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,36,0,0" Name="textBoxNumRef" VerticalAlignment="Top" Width="340" />
+                <Label Content="Número Referência:" Height="20" HorizontalAlignment="Left" Margin="353,16,0,0" Name="labelNumRef" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="6,91,0,0" Name="textBoxVlrPrincipal" VerticalAlignment="Top" Width="113" />
+                <Label Content="Valor Principal:" Height="20" HorizontalAlignment="Left" Margin="6,71,0,0" Name="labelVlrPrincipal" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="127,91,0,0" Name="textBoxMulta" VerticalAlignment="Top" Width="113" />
+				<Label Content="Multa:" Height="20" HorizontalAlignment="Left" Margin="127,71,0,0" Name="label5" VerticalAlignment="Top" />
+				<TextBox Height="23" HorizontalAlignment="Left" Margin="246,91,0,0" Name="textBoxJuros" VerticalAlignment="Top" Width="113" />
+				<Label Content="Juros:" Height="20" HorizontalAlignment="Left" Margin="246,71,0,0" Name="label6" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="365,91,0,0" Name="textBoxTotal" VerticalAlignment="Top" Width="113" />
+                <Label Content="Valor Total:" Height="20" HorizontalAlignment="Left" Margin="365,71,0,0" Name="labelTotal" VerticalAlignment="Top" />
+            </Grid>
+        </DockPanel>
+        <DockPanel Height="40" Width="700" LastChildFill="True" VerticalAlignment="Bottom">
+            <Grid Height="40" Width="700" DockPanel.Dock="Bottom" Background="#FFEBEBEB" VerticalAlignment="Bottom">
+                    <Button Name="btGerar" Height="30" Width="117" Margin="0,6,130,0" Click="btGerar_Click" VerticalAlignment="Top" HorizontalAlignment="Right">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                            <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                            <TextBlock Text="Gerar DARF" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                <Button Margin="576,6,7,4" Name="btSair" Height="30" Width="117" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="23" Source="/Imagem/21botaoSair.png" />
+                        <TextBlock Margin="3,0,0,0" Text="Sair" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+            </DockPanel>
+
+    </StackPanel>
+
+
+</UserControl>

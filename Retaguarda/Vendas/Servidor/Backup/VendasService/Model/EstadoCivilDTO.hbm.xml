@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="VendasService" namespace="VendasService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EstadoCivilDTO" table="estado_civil" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+  </class>
+</hibernate-mapping>

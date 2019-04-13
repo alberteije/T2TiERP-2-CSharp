@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PontoHorarioAutorizadoDTO" table="ponto_horario_autorizado" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="DataHorario" column="DATA_HORARIO" />
+    <property name="Tipo" column="TIPO" />
+    <property name="CargaHoraria" column="CARGA_HORARIA" />
+    <property name="Entrada01" column="ENTRADA01" />
+    <property name="Saida01" column="SAIDA01" />
+    <property name="Entrada02" column="ENTRADA02" />
+    <property name="Saida02" column="SAIDA02" />
+    <property name="Entrada03" column="ENTRADA03" />
+    <property name="Saida03" column="SAIDA03" />
+    <property name="Entrada04" column="ENTRADA04" />
+    <property name="Saida04" column="SAIDA04" />
+    <property name="Entrada05" column="ENTRADA05" />
+    <property name="Saida05" column="SAIDA05" />
+    <property name="HoraFechamentoDia" column="HORA_FECHAMENTO_DIA" />
+  </class>
+</hibernate-mapping>

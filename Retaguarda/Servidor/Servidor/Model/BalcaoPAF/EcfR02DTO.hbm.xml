@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfR02DTO" table="ecf_r02" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="NomeCaixa" column="NOME_CAIXA" />
+    <property name="IdGeradoCaixa" column="ID_GERADO_CAIXA" />
+    <property name="IdEmpresa" column="ID_EMPRESA" />
+    <property name="IdOperador" column="ID_OPERADOR" />
+    <property name="IdImpressora" column="ID_IMPRESSORA" />
+    <property name="IdEcfCaixa" column="ID_ECF_CAIXA" />
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="Crz" column="CRZ" />
+    <property name="Coo" column="COO" />
+    <property name="Cro" column="CRO" />
+    <property name="DataMovimento" column="DATA_MOVIMENTO" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="HoraEmissao" column="HORA_EMISSAO" />
+    <property name="VendaBruta" column="VENDA_BRUTA" />
+    <property name="GrandeTotal" column="GRANDE_TOTAL" />
+    <property name="Logss" column="LOGSS" />
+    <property name="DataSincronizacao" column="DATA_SINCRONIZACAO" />
+    <property name="HoraSincronizacao" column="HORA_SINCRONIZACAO" />
+  </class>
+</hibernate-mapping>

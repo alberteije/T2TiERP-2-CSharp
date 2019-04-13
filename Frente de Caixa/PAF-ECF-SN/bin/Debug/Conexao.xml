@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<conexao>
+	<sgbd>
+	  <bd>Firebird</bd>
+	</sgbd>
+	<integracao>
+	  <remoteApp>C:\\PAFECF\\</remoteApp>
+	</integracao>
+</conexao>

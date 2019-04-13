@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FeriasPeriodoAquisitivo" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FeriasPeriodoAquisitivoSelected.Colaborador.Pessoa.Nome}" Height="23" Width="652" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarColaborador" Click="btPesquisarColaborador_Click" Margin="664,25,0,0"  />
+			<Label Content="Colaborador:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FeriasPeriodoAquisitivoSelected.DataInicio}" Margin="6,76,0,0"  />
+			<Label Content="Data Inicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,57,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FeriasPeriodoAquisitivoSelected.DataFim}" Margin="112,76,0,0"  />
+			<Label Content="Data Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,57,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="371" SelectedValue="{Binding FeriasPeriodoAquisitivoSelected.Situacao}" SelectedValuePath="Tag" Margin="218,76,0,0" >
+                <ComboBoxItem Content="Em Aberto" Tag="0" />
+                <ComboBoxItem Content="Gozado" Tag="1" />
+                <ComboBoxItem Content="Parcialmente gozado" Tag="2" />
+                <ComboBoxItem Content="Perda por Afastamento" Tag="3" />
+                <ComboBoxItem Content="Perda por Falta" Tag="4" />
+                <ComboBoxItem Content="Cancelado" Tag="5" />
+			</ComboBox>
+			<Label Content="Situacao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,57,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FeriasPeriodoAquisitivoSelected.LimiteParaGozo}" Margin="594,76,0,0"  />
+			<Label Content="Limite Para Gozo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,57,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FeriasPeriodoAquisitivoSelected.DescontarFaltas}" SelectedValuePath="Tag" Margin="6,126,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Descontar Faltas:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,107,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="147" SelectedValue="{Binding FeriasPeriodoAquisitivoSelected.DesconsiderarAfastamento}" SelectedValuePath="Tag" Margin="112,126,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Desconsiderar Afastamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,107,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.AfastamentoPrevidencia}" Height="23" Width="134" Margin="265,126,0,0"  />
+			<Label Content="Afastamento Previdencia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,107,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.AfastamentoSemRemun}" Height="23" Width="137" Margin="405,126,0,0"  />
+			<Label Content="Afast S/ Remuneração:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="405,107,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.AfastamentoComRemun}" Height="23" Width="145" Margin="549,126,0,0"  />
+            <Label Content="Afast C/ Remuneração:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="549,107,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.DiasDireito}" Height="23" Width="100" Margin="6,180,0,0"  />
+			<Label Content="Dias Direito:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,161,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.DiasGozados}" Height="23" Width="100" Margin="112,180,0,0"  />
+			<Label Content="Dias Gozados:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,161,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.DiasFaltas}" Height="23" Width="100" Margin="218,180,0,0"  />
+			<Label Content="Dias Faltas:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,161,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FeriasPeriodoAquisitivoSelected.DiasRestantes}" Height="23" Width="100" Margin="324,180,0,0"  />
+			<Label Content="Dias Restantes:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,161,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

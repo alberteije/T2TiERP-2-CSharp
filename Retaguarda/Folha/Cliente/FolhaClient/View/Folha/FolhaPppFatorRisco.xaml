@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaPppFatorRisco" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaPppFatorRiscoSelected.DataInicio}" Margin="6,25,0,0"  />
+            <Label Content="Data Inicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaPppFatorRiscoSelected.DataFim}" Margin="112,25,0,0"  />
+            <Label Content="Data Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="149" SelectedValue="{Binding FolhaPppFatorRiscoSelected.Tipo}" SelectedValuePath="Tag" Margin="218,25,0,0" >
+				<ComboBoxItem Content="Físico" Tag="F" />
+				<ComboBoxItem Content="Químico" Tag="Q" />
+                <ComboBoxItem Content="Biológico" Tag="B" />
+                <ComboBoxItem Content="Ergonômico" Tag="E" />
+                <ComboBoxItem Content="Mecânico/Acidente" Tag="M" />
+            </ComboBox>
+			<Label Content="Tipo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaPppFatorRiscoSelected.FatorRisco}" Height="23" Width="100" Margin="373,25,0,0"  />
+			<Label Content="Fator Risco:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaPppFatorRiscoSelected.Intensidade}" Height="23" Width="100" Margin="479,25,0,0"  />
+			<Label Content="Intensidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="479,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaPppFatorRiscoSelected.TecnicaUtilizada}" Height="23" Width="100" Margin="585,23,0,0"  />
+			<Label Content="Tecnica Utilizada:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="585,4,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaPppFatorRiscoSelected.EpcEficaz}" SelectedValuePath="Tag" Margin="6,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Epc Eficaz:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaPppFatorRiscoSelected.EpiEficaz}" SelectedValuePath="Tag" Margin="112,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Epi Eficaz:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaPppFatorRiscoSelected.CaEpi}" Height="23" Width="100" Margin="218,73,0,0"  />
+			<Label Content="CA Epi:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="120" SelectedValue="{Binding FolhaPppFatorRiscoSelected.AtendimentoNr061}" SelectedValuePath="Tag" Margin="6,125,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Atendimento Nr 061:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,106,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="120" SelectedValue="{Binding FolhaPppFatorRiscoSelected.AtendimentoNr062}" SelectedValuePath="Tag" Margin="132,125,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Atendimento Nr 062:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,106,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="120" SelectedValue="{Binding FolhaPppFatorRiscoSelected.AtendimentoNr063}" SelectedValuePath="Tag" Margin="258,125,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Atendimento Nr 063:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="258,106,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="120" SelectedValue="{Binding FolhaPppFatorRiscoSelected.AtendimentoNr064}" SelectedValuePath="Tag" Margin="384,125,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Atendimento Nr 064:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="384,106,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="120" SelectedValue="{Binding FolhaPppFatorRiscoSelected.AtendimentoNr065}" SelectedValuePath="Tag" Margin="510,125,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Atendimento Nr 065:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,106,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

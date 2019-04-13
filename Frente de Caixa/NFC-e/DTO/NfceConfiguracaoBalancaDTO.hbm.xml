@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfceConfiguracaoBalancaDTO" table="nfce_configuracao_balanca" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Modelo" column="MODELO" />
+    <property name="Identificador" column="IDENTIFICADOR" />
+    <property name="HandShake" column="HAND_SHAKE" />
+    <property name="Parity" column="PARITY" />
+    <property name="StopBits" column="STOP_BITS" />
+    <property name="DataBits" column="DATA_BITS" />
+    <property name="BaudRate" column="BAUD_RATE" />
+    <property name="Porta" column="PORTA" />
+    <property name="Timeout" column="TIMEOUT" />
+    <property name="TipoConfiguracao" column="TIPO_CONFIGURACAO" />
+  </class>
+</hibernate-mapping>

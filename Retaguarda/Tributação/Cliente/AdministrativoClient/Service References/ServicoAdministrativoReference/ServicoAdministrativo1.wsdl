@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoAdministrativo" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2678/ServicoAdministrativo.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2678/ServicoAdministrativo.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2678/ServicoAdministrativo.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AdministrativoService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoAdministrativo_deleteTributOperacaoFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributOperacaoFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributOperacaoFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributOperacaoFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributOperacaoFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributOperacaoFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributOperacaoFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributOperacaoFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributOperacaoFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributOperacaoFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributOperacaoFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributOperacaoFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributOperacaoFiscalPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributOperacaoFiscalPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributOperacaoFiscalPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributOperacaoFiscalPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributGrupoTributario_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributGrupoTributario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributGrupoTributario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributGrupoTributarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributGrupoTributario_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributGrupoTributario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributGrupoTributario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributGrupoTributarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributGrupoTributario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributGrupoTributario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributGrupoTributario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributGrupoTributarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributGrupoTributarioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributGrupoTributarioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributGrupoTributarioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributGrupoTributarioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributIss_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributIss" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributIss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributIssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributIss_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributIss" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributIss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributIssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIss_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIss" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIssPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIssPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIssPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIssPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributIcmsCustomCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributIcmsCustomCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributIcmsCustomCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributIcmsCustomCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributIcmsCustomCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributIcmsCustomCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributIcmsCustomCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributIcmsCustomCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIcmsCustomCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIcmsCustomCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIcmsCustomCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIcmsCustomCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIcmsCustomCabPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIcmsCustomCabPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributIcmsCustomCabPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributIcmsCustomCabPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributConfiguraOfGt_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributConfiguraOfGt" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteTributConfiguraOfGt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTributConfiguraOfGtResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributConfiguraOfGt_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributConfiguraOfGt" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarTributConfiguraOfGt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTributConfiguraOfGtResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributConfiguraOfGt_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributConfiguraOfGt" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributConfiguraOfGt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributConfiguraOfGtResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributConfiguraOfGtPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributConfiguraOfGtPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTributConfiguraOfGtPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributConfiguraOfGtPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTipoReceitaDipi_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoReceitaDipi" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectTipoReceitaDipi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoReceitaDipiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectUsuarioDto_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioDto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectUsuarioDto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioDtoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectUsuarioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectUsuarioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectControleAcessoId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoId" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectControleAcessoId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deletePapel_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePapel" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deletePapel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePapelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarPapel_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPapel" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarPapel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPapelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapel_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapel" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapelPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapelPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectColaboradorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectColaboradorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deletePapelFuncao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePapelFuncao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deletePapelFuncao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePapelFuncaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarPapelFuncao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPapelFuncao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarPapelFuncao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPapelFuncaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapelFuncao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelFuncao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapelFuncao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelFuncaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapelFuncaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelFuncaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectPapelFuncaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPapelFuncaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteFuncao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFuncao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_deleteFuncao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFuncaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarFuncao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFuncao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_salvarAtualizarFuncao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFuncaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectFuncao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFuncao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectFuncao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFuncaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectFuncaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFuncaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoAdministrativo_selectFuncaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFuncaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoAdministrativo">
+    <wsdl:operation name="deleteTributOperacaoFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributOperacaoFiscal" message="tns:IServicoAdministrativo_deleteTributOperacaoFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributOperacaoFiscalResponse" message="tns:IServicoAdministrativo_deleteTributOperacaoFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributOperacaoFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributOperacaoFiscal" message="tns:IServicoAdministrativo_salvarAtualizarTributOperacaoFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributOperacaoFiscalResponse" message="tns:IServicoAdministrativo_salvarAtualizarTributOperacaoFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributOperacaoFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributOperacaoFiscal" message="tns:IServicoAdministrativo_selectTributOperacaoFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributOperacaoFiscalResponse" message="tns:IServicoAdministrativo_selectTributOperacaoFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributOperacaoFiscalPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributOperacaoFiscalPagina" message="tns:IServicoAdministrativo_selectTributOperacaoFiscalPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributOperacaoFiscalPaginaResponse" message="tns:IServicoAdministrativo_selectTributOperacaoFiscalPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributGrupoTributario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributGrupoTributario" message="tns:IServicoAdministrativo_deleteTributGrupoTributario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributGrupoTributarioResponse" message="tns:IServicoAdministrativo_deleteTributGrupoTributario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributGrupoTributario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributGrupoTributario" message="tns:IServicoAdministrativo_salvarAtualizarTributGrupoTributario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributGrupoTributarioResponse" message="tns:IServicoAdministrativo_salvarAtualizarTributGrupoTributario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributGrupoTributario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributGrupoTributario" message="tns:IServicoAdministrativo_selectTributGrupoTributario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributGrupoTributarioResponse" message="tns:IServicoAdministrativo_selectTributGrupoTributario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributGrupoTributarioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributGrupoTributarioPagina" message="tns:IServicoAdministrativo_selectTributGrupoTributarioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributGrupoTributarioPaginaResponse" message="tns:IServicoAdministrativo_selectTributGrupoTributarioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributIss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributIss" message="tns:IServicoAdministrativo_deleteTributIss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributIssResponse" message="tns:IServicoAdministrativo_deleteTributIss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributIss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributIss" message="tns:IServicoAdministrativo_salvarAtualizarTributIss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributIssResponse" message="tns:IServicoAdministrativo_salvarAtualizarTributIss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIss" message="tns:IServicoAdministrativo_selectTributIss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIssResponse" message="tns:IServicoAdministrativo_selectTributIss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIssPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIssPagina" message="tns:IServicoAdministrativo_selectTributIssPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIssPaginaResponse" message="tns:IServicoAdministrativo_selectTributIssPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributIcmsCustomCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributIcmsCustomCab" message="tns:IServicoAdministrativo_deleteTributIcmsCustomCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributIcmsCustomCabResponse" message="tns:IServicoAdministrativo_deleteTributIcmsCustomCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributIcmsCustomCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributIcmsCustomCab" message="tns:IServicoAdministrativo_salvarAtualizarTributIcmsCustomCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributIcmsCustomCabResponse" message="tns:IServicoAdministrativo_salvarAtualizarTributIcmsCustomCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIcmsCustomCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIcmsCustomCab" message="tns:IServicoAdministrativo_selectTributIcmsCustomCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIcmsCustomCabResponse" message="tns:IServicoAdministrativo_selectTributIcmsCustomCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIcmsCustomCabPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIcmsCustomCabPagina" message="tns:IServicoAdministrativo_selectTributIcmsCustomCabPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributIcmsCustomCabPaginaResponse" message="tns:IServicoAdministrativo_selectTributIcmsCustomCabPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributConfiguraOfGt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributConfiguraOfGt" message="tns:IServicoAdministrativo_deleteTributConfiguraOfGt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteTributConfiguraOfGtResponse" message="tns:IServicoAdministrativo_deleteTributConfiguraOfGt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributConfiguraOfGt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributConfiguraOfGt" message="tns:IServicoAdministrativo_salvarAtualizarTributConfiguraOfGt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributConfiguraOfGtResponse" message="tns:IServicoAdministrativo_salvarAtualizarTributConfiguraOfGt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributConfiguraOfGt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributConfiguraOfGt" message="tns:IServicoAdministrativo_selectTributConfiguraOfGt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributConfiguraOfGtResponse" message="tns:IServicoAdministrativo_selectTributConfiguraOfGt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributConfiguraOfGtPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributConfiguraOfGtPagina" message="tns:IServicoAdministrativo_selectTributConfiguraOfGtPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTributConfiguraOfGtPaginaResponse" message="tns:IServicoAdministrativo_selectTributConfiguraOfGtPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoReceitaDipi">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTipoReceitaDipi" message="tns:IServicoAdministrativo_selectTipoReceitaDipi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectTipoReceitaDipiResponse" message="tns:IServicoAdministrativo_selectTipoReceitaDipi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectUsuario" message="tns:IServicoAdministrativo_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectUsuarioResponse" message="tns:IServicoAdministrativo_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteUsuario" message="tns:IServicoAdministrativo_deleteUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteUsuarioResponse" message="tns:IServicoAdministrativo_deleteUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarUsuario" message="tns:IServicoAdministrativo_salvarAtualizarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarUsuarioResponse" message="tns:IServicoAdministrativo_salvarAtualizarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuarioDto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectUsuarioDto" message="tns:IServicoAdministrativo_selectUsuarioDto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectUsuarioDtoResponse" message="tns:IServicoAdministrativo_selectUsuarioDto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuarioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectUsuarioPagina" message="tns:IServicoAdministrativo_selectUsuarioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectUsuarioPaginaResponse" message="tns:IServicoAdministrativo_selectUsuarioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectControleAcesso" message="tns:IServicoAdministrativo_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectControleAcessoResponse" message="tns:IServicoAdministrativo_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcessoId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectControleAcessoId" message="tns:IServicoAdministrativo_selectControleAcessoId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectControleAcessoIdResponse" message="tns:IServicoAdministrativo_selectControleAcessoId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePapel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deletePapel" message="tns:IServicoAdministrativo_deletePapel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deletePapelResponse" message="tns:IServicoAdministrativo_deletePapel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPapel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarPapel" message="tns:IServicoAdministrativo_salvarAtualizarPapel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarPapelResponse" message="tns:IServicoAdministrativo_salvarAtualizarPapel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPapel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapel" message="tns:IServicoAdministrativo_selectPapel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelResponse" message="tns:IServicoAdministrativo_selectPapel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPapelPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelPagina" message="tns:IServicoAdministrativo_selectPapelPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelPaginaResponse" message="tns:IServicoAdministrativo_selectPapelPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectColaborador" message="tns:IServicoAdministrativo_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectColaboradorResponse" message="tns:IServicoAdministrativo_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectColaboradorPagina" message="tns:IServicoAdministrativo_selectColaboradorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectColaboradorPaginaResponse" message="tns:IServicoAdministrativo_selectColaboradorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePapelFuncao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deletePapelFuncao" message="tns:IServicoAdministrativo_deletePapelFuncao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deletePapelFuncaoResponse" message="tns:IServicoAdministrativo_deletePapelFuncao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPapelFuncao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarPapelFuncao" message="tns:IServicoAdministrativo_salvarAtualizarPapelFuncao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarPapelFuncaoResponse" message="tns:IServicoAdministrativo_salvarAtualizarPapelFuncao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPapelFuncao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelFuncao" message="tns:IServicoAdministrativo_selectPapelFuncao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelFuncaoResponse" message="tns:IServicoAdministrativo_selectPapelFuncao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPapelFuncaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelFuncaoPagina" message="tns:IServicoAdministrativo_selectPapelFuncaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectPapelFuncaoPaginaResponse" message="tns:IServicoAdministrativo_selectPapelFuncaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFuncao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteFuncao" message="tns:IServicoAdministrativo_deleteFuncao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/deleteFuncaoResponse" message="tns:IServicoAdministrativo_deleteFuncao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFuncao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarFuncao" message="tns:IServicoAdministrativo_salvarAtualizarFuncao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/salvarAtualizarFuncaoResponse" message="tns:IServicoAdministrativo_salvarAtualizarFuncao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFuncao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectFuncao" message="tns:IServicoAdministrativo_selectFuncao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectFuncaoResponse" message="tns:IServicoAdministrativo_selectFuncao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFuncaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectFuncaoPagina" message="tns:IServicoAdministrativo_selectFuncaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoAdministrativo/selectFuncaoPaginaResponse" message="tns:IServicoAdministrativo_selectFuncaoPagina_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoAdministrativo" type="tns:IServicoAdministrativo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteTributOperacaoFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteTributOperacaoFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributOperacaoFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributOperacaoFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributOperacaoFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributOperacaoFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributOperacaoFiscalPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributOperacaoFiscalPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributGrupoTributario">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteTributGrupoTributario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributGrupoTributario">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributGrupoTributario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributGrupoTributario">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributGrupoTributario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributGrupoTributarioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributGrupoTributarioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributIss">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteTributIss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributIss">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributIss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIss">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributIss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIssPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributIssPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributIcmsCustomCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteTributIcmsCustomCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributIcmsCustomCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributIcmsCustomCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIcmsCustomCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributIcmsCustomCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributIcmsCustomCabPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributIcmsCustomCabPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTributConfiguraOfGt">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteTributConfiguraOfGt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTributConfiguraOfGt">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarTributConfiguraOfGt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributConfiguraOfGt">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributConfiguraOfGt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributConfiguraOfGtPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTributConfiguraOfGtPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoReceitaDipi">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectTipoReceitaDipi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuarioDto">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectUsuarioDto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuarioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectUsuarioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcessoId">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectControleAcessoId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePapel">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deletePapel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPapel">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarPapel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPapel">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectPapel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPapelPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectPapelPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectColaboradorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePapelFuncao">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deletePapelFuncao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPapelFuncao">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarPapelFuncao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPapelFuncao">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectPapelFuncao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPapelFuncaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectPapelFuncaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFuncao">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/deleteFuncao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFuncao">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/salvarAtualizarFuncao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFuncao">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectFuncao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFuncaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoAdministrativo/selectFuncaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoAdministrativo">
+    <wsdl:port name="BasicHttpBinding_IServicoAdministrativo" binding="tns:BasicHttpBinding_IServicoAdministrativo">
+      <soap:address location="http://localhost:2678/ServicoAdministrativo.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PaisDTO" table="pais" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Codigo" column="CODIGO" />
+    <property name="NomeEn" column="NOME_EN" />
+    <property name="NomePtbr" column="NOME_PTBR" />
+    <property name="Sigla2" column="SIGLA2" />
+    <property name="Sigla3" column="SIGLA3" />
+  </class>
+</hibernate-mapping>

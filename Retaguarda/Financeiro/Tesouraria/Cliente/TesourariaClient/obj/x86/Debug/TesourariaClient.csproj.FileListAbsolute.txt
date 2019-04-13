@@ -1,0 +1,97 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\TesourariaClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\TesourariaClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\TesourariaClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\EmissaoChequeView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\EmissaoChequeView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\TesourariaClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\TesourariaClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\TesourariaClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\ExportarParaArquivo.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\TesourariaClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaClient\TesourariaClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\TesourariaClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\TesourariaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\TesourariaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\NPOI.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\NRtfTree.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\Ionic.Zip.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\ExportarParaArquivo.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\Tesouraria\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\Tesouraria\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\View\Tesouraria\TesourariaView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Cliente\TesourariaClient\obj\x86\Debug\TesourariaClient.csproj.GenerateResource.Cache

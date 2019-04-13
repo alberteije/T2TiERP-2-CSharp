@@ -1,0 +1,164 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\AdministrativoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\AtualizaBanco.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\Papel.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributario.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDet.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUf.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipi.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIss.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\Usuario.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\AdministrativoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\AtualizaBanco.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\Papel.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\PapelLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\PapelPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracaoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracaoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGt.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGtLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGtPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributario.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributarioLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributarioPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCab.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCabLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCabPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDet.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDetLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDetPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUf.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUfLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUfPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipi.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipiLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipiPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIss.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIssLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIssPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscalLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscalPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracaoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracaoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\Usuario.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\UsuarioLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\Administrativo\UsuarioPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\AdministrativoClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\AdministrativoClient\AdministrativoClient\obj\x86\Release\AdministrativoClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\AdministrativoClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\AdministrativoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\AtualizaBanco.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\Papel.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributario.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDet.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUf.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipi.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIss.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\Usuario.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\AdministrativoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\AtualizaBanco.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\Papel.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\PapelPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGt.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGtPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributario.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributarioPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCab.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCabPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDet.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDetPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUf.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUfPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipi.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipiPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIss.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIssPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscalPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\Usuario.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\UsuarioPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\PapelLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGtLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributarioLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCabLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDetLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUfLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipiLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIssLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscalLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\UsuarioLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\AdministrativoClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\AdministrativoClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\ExportarParaArquivo.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\NPOI.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\NRtfTree.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\SearchWindow.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\bin\Release\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\PapelLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\PapelPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributCofinsCodApuracaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGt.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGtLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributConfiguraOfGtPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributarioLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributGrupoTributarioPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCab.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCabLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomCabPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDetLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsCustomDetPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUfLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIcmsUfPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipiLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIpiDipiPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIssLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributIssPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscalLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributOperacaoFiscalPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\TributPisCodApuracaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\UsuarioLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\Administrativo\UsuarioPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Tributação\Cliente\AdministrativoClient\obj\x86\Release\AdministrativoClient.pdb

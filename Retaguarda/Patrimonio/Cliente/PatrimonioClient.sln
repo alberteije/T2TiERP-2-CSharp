@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatrimonioClient", "PatrimonioClient\PatrimonioClient.csproj", "{7F4E9E04-0011-4527-8764-9908299F7615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEDClient", "..\GEDClient\GEDClient\GEDClient.csproj", "{035C2236-66C0-4E63-95B4-DA5EDA708BA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F4E9E04-0011-4527-8764-9908299F7615}.Debug|x86.ActiveCfg = Debug|x86
+		{7F4E9E04-0011-4527-8764-9908299F7615}.Debug|x86.Build.0 = Debug|x86
+		{7F4E9E04-0011-4527-8764-9908299F7615}.Release|x86.ActiveCfg = Release|x86
+		{7F4E9E04-0011-4527-8764-9908299F7615}.Release|x86.Build.0 = Release|x86
+		{035C2236-66C0-4E63-95B4-DA5EDA708BA1}.Debug|x86.ActiveCfg = Debug|x86
+		{035C2236-66C0-4E63-95B4-DA5EDA708BA1}.Debug|x86.Build.0 = Debug|x86
+		{035C2236-66C0-4E63-95B4-DA5EDA708BA1}.Release|x86.ActiveCfg = Release|x86
+		{035C2236-66C0-4E63-95B4-DA5EDA708BA1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

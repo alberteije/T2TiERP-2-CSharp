@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewSintegra61rDTO" table="view_sintegra_61r" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Gtin" column="GTIN" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="MesEmissao" column="MES_EMISSAO" />
+    <property name="AnoEmissao" column="ANO_EMISSAO" />
+    <property name="EcfIcmsSt" column="ECF_ICMS_ST" />
+    <property name="SomaQuantidade" column="SOMA_QUANTIDADE" />
+    <property name="SomaItem" column="SOMA_ITEM" />
+    <property name="SomaBaseIcms" column="SOMA_BASE_ICMS" />
+  </class>
+</hibernate-mapping>

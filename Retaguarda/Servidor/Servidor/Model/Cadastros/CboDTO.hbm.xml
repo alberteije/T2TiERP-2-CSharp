@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CboDTO" table="cbo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Codigo" column="CODIGO" />
+    <property name="Codigo1994" column="CODIGO_1994" />
+    <property name="Nome" column="NOME" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

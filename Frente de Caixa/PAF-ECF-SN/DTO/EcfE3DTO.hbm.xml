@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfE3DTO" table="ecf_e3" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_e3</param>
+      </generator>
+    </id>
+
+
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="MfAdicional" column="MF_ADICIONAL" />
+    <property name="TipoEcf" column="TIPO_ECF" />
+    <property name="MarcaEcf" column="MARCA_ECF" />
+    <property name="ModeloEcf" column="MODELO_ECF" />
+    <property name="DataEstoque" column="DATA_ESTOQUE" />
+    <property name="HoraEstoque" column="HORA_ESTOQUE" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

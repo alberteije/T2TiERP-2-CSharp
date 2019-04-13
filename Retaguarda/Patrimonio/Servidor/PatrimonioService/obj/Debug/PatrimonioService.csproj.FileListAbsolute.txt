@@ -1,0 +1,29 @@
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\PatrimonioService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\PatrimonioService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\obj\Debug\PatrimonioService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\PatrimonioService\PatrimonioService\obj\Debug\PatrimonioService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\PatrimonioService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\PatrimonioService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\obj\Debug\PatrimonioService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PatrimonioService\PatrimonioService\obj\Debug\PatrimonioService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\bin\PatrimonioService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\bin\PatrimonioService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\bin\PatrimonioService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\bin\Iesi.Collections.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\obj\Debug\PatrimonioService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\obj\Debug\PatrimonioService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Patrimonio\Servidor\PatrimonioService\obj\Debug\PatrimonioService.pdb

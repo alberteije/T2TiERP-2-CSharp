@@ -1,0 +1,50 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ConciliacaoClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ConciliacaoClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\View\ConciliacaoBancaria\ConciliacaoBancaria.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\View\ConciliacaoBancaria\ConciliacaoBancaria.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\NPOI.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\Ionic.Zip.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.g.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\View\ConciliacaoBancaria\ConciliacaoBancaria.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ConciliacaoClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ConciliacaoClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\ConciliacaoClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\NPOI.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\Ionic.Zip.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\View\ConciliacaoBancaria\ConciliacaoBancaria.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\ConciliacaoClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Release\GenerateResource.write.1.tlog

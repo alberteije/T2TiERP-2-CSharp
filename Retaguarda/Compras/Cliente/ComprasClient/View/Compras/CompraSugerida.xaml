@@ -1,0 +1,121 @@
+﻿<UserControl x:Class="ComprasClient.View.Compras.CompraSugerida"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"
+             xmlns:util="clr-namespace:ComprasClient.Util"             
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="700">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+        <ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:TypeExtension TypeName="expfmt:Formato"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <TabControl>
+        <TabItem Visibility="Collapsed"
+                 IsSelected="True">
+
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Grid Width="180">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25" />
+                            <RowDefinition Height="25" />
+                            <RowDefinition Height="25" />                            
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60*" />
+                            <ColumnDefinition Width="40*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0">Estoque:</Label>
+                        <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+                        <Label Grid.Row="1" Grid.Column="0">Consumo/mês:</Label>
+                        <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+                        <Label Grid.Row="2" Grid.Column="0">Tempo rep.:</Label>
+                        <TextBox Grid.Row="2" Grid.Column="1"></TextBox>
+                    </Grid>
+                    <GroupBox Width="150" Header="Tipo:" Margin="10,0,0,0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50*" />
+                                <RowDefinition Height="50*" />
+                            </Grid.RowDefinitions>
+                            <RadioButton Grid.Row="0" VerticalAlignment="Center">Requisição</RadioButton>
+                            <RadioButton Grid.Row="1" VerticalAlignment="Center">Pedido</RadioButton>                            
+                        </Grid>
+                        
+                    </GroupBox>
+                    <Grid Width="100">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50*" />
+                            <RowDefinition Height="5" />                            
+                            <RowDefinition Height="50*" />
+                        </Grid.RowDefinitions>
+                        <Button Name="btConsultar" Grid.Row="0">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/compraSugerida32.png" Height="23"></Image>
+                                <TextBlock Text="Consultar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Button Name="btGravar" IsEnabled="False" Grid.Row="2">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                                <TextBlock Text="Gravar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </Grid>
+                </StackPanel>
+                <GroupBox Header="Itens: ">
+                    <DockPanel LastChildFill="True">
+                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top"
+                                    HorizontalAlignment="Right">
+                            <ComboBox
+                                Name="comboExp"
+                                SelectedIndex="0"
+                                Width="60"
+                                ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"
+                                IsEnabled="{Binding hasListaRequisicao}"                                
+                                >
+                            </ComboBox>
+                            <exp:ButtonExport
+                            ExportDataGridSource="{Binding ElementName=dataGrid}"
+                            ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/Imagem/documento32.png" Height="20"></Image>
+                                </StackPanel>
+                            </exp:ButtonExport>
+                        </StackPanel>
+                        <DataGrid Name="dataGrid" AutoGenerateColumns="False" 
+                                          IsReadOnly="True">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Id"
+                                                            Width=".15*">
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Código" 
+                                                            Width=".15*">
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Nome" 
+                                                            Width=".30*">
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Descrição" 
+                                                        Width=".30*">
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Qtd." 
+                                                        Width=".10*">
+                                </DataGridTextColumn>                                
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+
+                </GroupBox>
+            </DockPanel>
+        </TabItem>
+
+    </TabControl>
+</UserControl>

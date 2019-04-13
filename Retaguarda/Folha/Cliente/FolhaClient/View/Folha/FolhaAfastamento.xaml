@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaAfastamento" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FolhaAfastamentoSelected.Colaborador.Pessoa.Nome}" Height="23" Width="652" Margin="6,28,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarColaborador" Click="btPesquisarColaborador_Click" Margin="664,28,0,0"  />
+			<Label Content="Colaborador:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,9,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FolhaAfastamentoSelected.FolhaTipoAfastamento.Nome}" Height="23" Width="652" Margin="6,83,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarFolhaTipoAfastamento" Click="btPesquisarFolhaTipoAfastamento_Click" Margin="664,83,0,0"  />
+			<Label Content="Tipo Afastamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,64,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaAfastamentoSelected.DataInicio}" Margin="6,137,0,0"  />
+			<Label Content="Data Inicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,118,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaAfastamentoSelected.DataFim}" Margin="112,137,0,0"  />
+			<Label Content="Data Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,118,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaAfastamentoSelected.DiasAfastado}" Height="23" Width="100" Margin="218,137,0,0"  />
+			<Label Content="Dias Afastado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,118,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

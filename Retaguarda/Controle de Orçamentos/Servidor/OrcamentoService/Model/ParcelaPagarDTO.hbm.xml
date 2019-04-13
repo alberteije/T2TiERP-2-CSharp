@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="OrcamentoService"
+                   namespace="OrcamentoService.Model" default-lazy="false">
+  <class name="ParcelaPagarDTO" table="fin_parcela_pagar">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+
+    <many-to-one class="LancamentoPagarDTO" name="lancamentoPagar" column="ID_FIN_LANCAMENTO_PAGAR"/>
+
+    <property name="idStatusParcelaPagar" column="ID_FIN_STATUS_PARCELA" />
+    <property name="dataEmissao" column="DATA_EMISSAO" />
+    <property name="dataVencimento" column="DATA_VENCIMENTO" />
+    <property name="descontoAte" column="DESCONTO_ATE" />
+    <property name="sofreRetencao" column="SOFRE_RETENCAO" />
+    <property name="valor" column="VALOR" />
+    <property name="taxaJuro" column="TAXA_JURO" />
+    <property name="taxaMulta" column="TAXA_MULTA" />
+    <property name="taxaDesconto" column="TAXA_DESCONTO" />
+    <property name="valorJuro" column="VALOR_JURO" />
+    <property name="valorMulta" column="VALOR_MULTA" />
+    <property name="valorDesconto" column="VALOR_DESCONTO" />
+    <property name="numeroParcela" column="NUMERO_PARCELA" />
+
+  </class>
+</hibernate-mapping>

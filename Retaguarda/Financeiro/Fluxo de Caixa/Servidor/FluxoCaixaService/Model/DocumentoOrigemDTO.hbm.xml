@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="FluxoCaixaService"
+                   namespace="FluxoCaixaService.Model" default-lazy="false">
+  <class name="DocumentoOrigemDTO" table="documento_origem">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idEmpresa" column="ID_EMPRESA" />
+    <property name="descricao" column="DESCRICAO" />
+  </class>
+</hibernate-mapping>

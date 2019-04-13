@@ -1,0 +1,16 @@
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\bin\Debug\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\bin\Debug\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\obj\Debug\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\Boleto.Net\obj\Debug\Boleto.Net.pdb

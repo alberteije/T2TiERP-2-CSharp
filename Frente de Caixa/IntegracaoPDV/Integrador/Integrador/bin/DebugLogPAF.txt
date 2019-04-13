@@ -1,0 +1,2 @@
+17/09/2014 23:39:08:	System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.
+   em PafEcf.View.FCargaPDV.ImportaCarga(String pRemoteApp) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\UCargaPDV.cs:linha 194

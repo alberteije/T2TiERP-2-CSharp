@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoFolha" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2665/ServicoFolha.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2665/ServicoFolha.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2665/ServicoFolha.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FolhaService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoFolha_selectFolhaPpp_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPpp" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPpp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPppResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPppPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPppPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPppPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPppPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectColaboradorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectColaboradorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectOperadoraPlanoSaude_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectOperadoraPlanoSaude" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectOperadoraPlanoSaude_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectOperadoraPlanoSaudeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectOperadoraPlanoSaudePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectOperadoraPlanoSaudePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectOperadoraPlanoSaudePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectOperadoraPlanoSaudePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectEmpresaId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaId" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectEmpresaId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaParametros_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaParametros" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaParametros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaParametrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaParametros_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaParametros" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaParametros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaParametrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaParametros_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaParametros" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaParametros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaParametrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaParametrosPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaParametrosPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaParametrosPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaParametrosPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteGuiasAcumuladas_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteGuiasAcumuladas" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteGuiasAcumuladas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteGuiasAcumuladasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarGuiasAcumuladas_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarGuiasAcumuladas" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarGuiasAcumuladas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarGuiasAcumuladasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectGuiasAcumuladas_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectGuiasAcumuladas" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectGuiasAcumuladas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectGuiasAcumuladasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectGuiasAcumuladasPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectGuiasAcumuladasPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectGuiasAcumuladasPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectGuiasAcumuladasPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaPlanoSaude_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaPlanoSaude" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaPlanoSaude_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaPlanoSaudeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaPlanoSaude_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaPlanoSaude" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaPlanoSaude_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaPlanoSaudeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPlanoSaude_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPlanoSaude" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPlanoSaude_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPlanoSaudeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPlanoSaudePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPlanoSaudePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaPlanoSaudePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaPlanoSaudePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaEvento_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaEvento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaEvento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaEventoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaEvento_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaEvento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaEvento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaEventoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaEvento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaEvento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaEvento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaEventoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaEventoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaEventoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaEventoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaEventoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaTipoAfastamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaTipoAfastamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaTipoAfastamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaTipoAfastamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaTipoAfastamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaTipoAfastamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaTipoAfastamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaTipoAfastamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaTipoAfastamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaTipoAfastamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaTipoAfastamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaTipoAfastamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaTipoAfastamentoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaTipoAfastamentoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaTipoAfastamentoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaTipoAfastamentoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaAfastamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaAfastamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaAfastamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaAfastamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaAfastamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaAfastamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaAfastamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaAfastamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaAfastamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaAfastamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaAfastamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaAfastamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaAfastamentoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaAfastamentoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaAfastamentoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaAfastamentoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaFeriasColetivas_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaFeriasColetivas" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaFeriasColetivas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaFeriasColetivasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaFeriasColetivas_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaFeriasColetivas" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaFeriasColetivas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaFeriasColetivasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFeriasColetivas_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFeriasColetivas" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFeriasColetivas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFeriasColetivasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFeriasColetivasPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFeriasColetivasPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFeriasColetivasPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFeriasColetivasPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFeriasPeriodoAquisitivo_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFeriasPeriodoAquisitivo" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFeriasPeriodoAquisitivo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFeriasPeriodoAquisitivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFeriasPeriodoAquisitivo_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFeriasPeriodoAquisitivo" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFeriasPeriodoAquisitivo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFeriasPeriodoAquisitivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFeriasPeriodoAquisitivo_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFeriasPeriodoAquisitivo" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFeriasPeriodoAquisitivo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFeriasPeriodoAquisitivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFeriasPeriodoAquisitivoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFeriasPeriodoAquisitivoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFeriasPeriodoAquisitivoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFeriasPeriodoAquisitivoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaFechamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaFechamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaFechamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaFechamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaFechamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaFechamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaFechamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaFechamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFechamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFechamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFechamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFechamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFechamentoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFechamentoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaFechamentoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaFechamentoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaHistoricoSalarial_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaHistoricoSalarial" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaHistoricoSalarial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaHistoricoSalarialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaHistoricoSalarial_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaHistoricoSalarial" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaHistoricoSalarial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaHistoricoSalarialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaHistoricoSalarial_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaHistoricoSalarial" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaHistoricoSalarial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaHistoricoSalarialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaHistoricoSalarialPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaHistoricoSalarialPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaHistoricoSalarialPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaHistoricoSalarialPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectEmpresaTransporteItinerario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaTransporteItinerario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectEmpresaTransporteItinerario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaTransporteItinerarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectEmpresaTransporteItinerarioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaTransporteItinerarioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectEmpresaTransporteItinerarioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaTransporteItinerarioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaValeTransporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaValeTransporte" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaValeTransporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaValeTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaValeTransporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaValeTransporte" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaValeTransporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaValeTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaValeTransporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaValeTransporte" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaValeTransporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaValeTransporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaValeTransportePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaValeTransportePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaValeTransportePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaValeTransportePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaRescisao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaRescisao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaRescisao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaRescisaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaRescisao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaRescisao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaRescisao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaRescisaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaRescisao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaRescisao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaRescisao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaRescisaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaRescisaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaRescisaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaRescisaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaRescisaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaInssServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaInssServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaInssServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaInssServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaInssServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaInssServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaInssServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaInssServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInssServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInssServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInssServicoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssServicoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInssServicoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssServicoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaLancamentoCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaLancamentoCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaLancamentoCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaLancamentoCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaInss_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaInss" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaInss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaInssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaInss_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaInss" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaInss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaInssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInss_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInss" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInssPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_selectFolhaInssPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFolhaInssPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaPpp_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaPpp" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_deleteFolhaPpp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFolhaPppResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaPpp_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaPpp" />
+  </wsdl:message>
+  <wsdl:message name="IServicoFolha_salvarAtualizarFolhaPpp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFolhaPppResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoFolha">
+    <wsdl:operation name="selectFolhaPpp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPpp" message="tns:IServicoFolha_selectFolhaPpp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPppResponse" message="tns:IServicoFolha_selectFolhaPpp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaPppPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPppPagina" message="tns:IServicoFolha_selectFolhaPppPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPppPaginaResponse" message="tns:IServicoFolha_selectFolhaPppPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectColaborador" message="tns:IServicoFolha_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectColaboradorResponse" message="tns:IServicoFolha_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectColaboradorPagina" message="tns:IServicoFolha_selectColaboradorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectColaboradorPaginaResponse" message="tns:IServicoFolha_selectColaboradorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectOperadoraPlanoSaude">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectOperadoraPlanoSaude" message="tns:IServicoFolha_selectOperadoraPlanoSaude_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectOperadoraPlanoSaudeResponse" message="tns:IServicoFolha_selectOperadoraPlanoSaude_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectOperadoraPlanoSaudePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectOperadoraPlanoSaudePagina" message="tns:IServicoFolha_selectOperadoraPlanoSaudePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectOperadoraPlanoSaudePaginaResponse" message="tns:IServicoFolha_selectOperadoraPlanoSaudePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectUsuario" message="tns:IServicoFolha_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectUsuarioResponse" message="tns:IServicoFolha_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectControleAcesso" message="tns:IServicoFolha_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectControleAcessoResponse" message="tns:IServicoFolha_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectEmpresaId" message="tns:IServicoFolha_selectEmpresaId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectEmpresaIdResponse" message="tns:IServicoFolha_selectEmpresaId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaParametros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaParametros" message="tns:IServicoFolha_deleteFolhaParametros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaParametrosResponse" message="tns:IServicoFolha_deleteFolhaParametros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaParametros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaParametros" message="tns:IServicoFolha_salvarAtualizarFolhaParametros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaParametrosResponse" message="tns:IServicoFolha_salvarAtualizarFolhaParametros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaParametros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaParametros" message="tns:IServicoFolha_selectFolhaParametros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaParametrosResponse" message="tns:IServicoFolha_selectFolhaParametros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaParametrosPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaParametrosPagina" message="tns:IServicoFolha_selectFolhaParametrosPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaParametrosPaginaResponse" message="tns:IServicoFolha_selectFolhaParametrosPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteGuiasAcumuladas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteGuiasAcumuladas" message="tns:IServicoFolha_deleteGuiasAcumuladas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteGuiasAcumuladasResponse" message="tns:IServicoFolha_deleteGuiasAcumuladas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarGuiasAcumuladas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarGuiasAcumuladas" message="tns:IServicoFolha_salvarAtualizarGuiasAcumuladas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarGuiasAcumuladasResponse" message="tns:IServicoFolha_salvarAtualizarGuiasAcumuladas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectGuiasAcumuladas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectGuiasAcumuladas" message="tns:IServicoFolha_selectGuiasAcumuladas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectGuiasAcumuladasResponse" message="tns:IServicoFolha_selectGuiasAcumuladas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectGuiasAcumuladasPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectGuiasAcumuladasPagina" message="tns:IServicoFolha_selectGuiasAcumuladasPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectGuiasAcumuladasPaginaResponse" message="tns:IServicoFolha_selectGuiasAcumuladasPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaPlanoSaude">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaPlanoSaude" message="tns:IServicoFolha_deleteFolhaPlanoSaude_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaPlanoSaudeResponse" message="tns:IServicoFolha_deleteFolhaPlanoSaude_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaPlanoSaude">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaPlanoSaude" message="tns:IServicoFolha_salvarAtualizarFolhaPlanoSaude_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaPlanoSaudeResponse" message="tns:IServicoFolha_salvarAtualizarFolhaPlanoSaude_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaPlanoSaude">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPlanoSaude" message="tns:IServicoFolha_selectFolhaPlanoSaude_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPlanoSaudeResponse" message="tns:IServicoFolha_selectFolhaPlanoSaude_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaPlanoSaudePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPlanoSaudePagina" message="tns:IServicoFolha_selectFolhaPlanoSaudePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaPlanoSaudePaginaResponse" message="tns:IServicoFolha_selectFolhaPlanoSaudePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaEvento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaEvento" message="tns:IServicoFolha_deleteFolhaEvento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaEventoResponse" message="tns:IServicoFolha_deleteFolhaEvento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaEvento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaEvento" message="tns:IServicoFolha_salvarAtualizarFolhaEvento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaEventoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaEvento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaEvento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaEvento" message="tns:IServicoFolha_selectFolhaEvento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaEventoResponse" message="tns:IServicoFolha_selectFolhaEvento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaEventoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaEventoPagina" message="tns:IServicoFolha_selectFolhaEventoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaEventoPaginaResponse" message="tns:IServicoFolha_selectFolhaEventoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaTipoAfastamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaTipoAfastamento" message="tns:IServicoFolha_deleteFolhaTipoAfastamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaTipoAfastamentoResponse" message="tns:IServicoFolha_deleteFolhaTipoAfastamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaTipoAfastamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaTipoAfastamento" message="tns:IServicoFolha_salvarAtualizarFolhaTipoAfastamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaTipoAfastamentoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaTipoAfastamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaTipoAfastamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaTipoAfastamento" message="tns:IServicoFolha_selectFolhaTipoAfastamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaTipoAfastamentoResponse" message="tns:IServicoFolha_selectFolhaTipoAfastamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaTipoAfastamentoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaTipoAfastamentoPagina" message="tns:IServicoFolha_selectFolhaTipoAfastamentoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaTipoAfastamentoPaginaResponse" message="tns:IServicoFolha_selectFolhaTipoAfastamentoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaAfastamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaAfastamento" message="tns:IServicoFolha_deleteFolhaAfastamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaAfastamentoResponse" message="tns:IServicoFolha_deleteFolhaAfastamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaAfastamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaAfastamento" message="tns:IServicoFolha_salvarAtualizarFolhaAfastamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaAfastamentoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaAfastamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaAfastamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaAfastamento" message="tns:IServicoFolha_selectFolhaAfastamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaAfastamentoResponse" message="tns:IServicoFolha_selectFolhaAfastamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaAfastamentoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaAfastamentoPagina" message="tns:IServicoFolha_selectFolhaAfastamentoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaAfastamentoPaginaResponse" message="tns:IServicoFolha_selectFolhaAfastamentoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaFeriasColetivas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaFeriasColetivas" message="tns:IServicoFolha_deleteFolhaFeriasColetivas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaFeriasColetivasResponse" message="tns:IServicoFolha_deleteFolhaFeriasColetivas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaFeriasColetivas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaFeriasColetivas" message="tns:IServicoFolha_salvarAtualizarFolhaFeriasColetivas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaFeriasColetivasResponse" message="tns:IServicoFolha_salvarAtualizarFolhaFeriasColetivas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFeriasColetivas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFeriasColetivas" message="tns:IServicoFolha_selectFolhaFeriasColetivas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFeriasColetivasResponse" message="tns:IServicoFolha_selectFolhaFeriasColetivas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFeriasColetivasPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFeriasColetivasPagina" message="tns:IServicoFolha_selectFolhaFeriasColetivasPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFeriasColetivasPaginaResponse" message="tns:IServicoFolha_selectFolhaFeriasColetivasPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFeriasPeriodoAquisitivo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFeriasPeriodoAquisitivo" message="tns:IServicoFolha_deleteFeriasPeriodoAquisitivo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFeriasPeriodoAquisitivoResponse" message="tns:IServicoFolha_deleteFeriasPeriodoAquisitivo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFeriasPeriodoAquisitivo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFeriasPeriodoAquisitivo" message="tns:IServicoFolha_salvarAtualizarFeriasPeriodoAquisitivo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFeriasPeriodoAquisitivoResponse" message="tns:IServicoFolha_salvarAtualizarFeriasPeriodoAquisitivo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFeriasPeriodoAquisitivo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFeriasPeriodoAquisitivo" message="tns:IServicoFolha_selectFeriasPeriodoAquisitivo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFeriasPeriodoAquisitivoResponse" message="tns:IServicoFolha_selectFeriasPeriodoAquisitivo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFeriasPeriodoAquisitivoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFeriasPeriodoAquisitivoPagina" message="tns:IServicoFolha_selectFeriasPeriodoAquisitivoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFeriasPeriodoAquisitivoPaginaResponse" message="tns:IServicoFolha_selectFeriasPeriodoAquisitivoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaFechamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaFechamento" message="tns:IServicoFolha_deleteFolhaFechamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaFechamentoResponse" message="tns:IServicoFolha_deleteFolhaFechamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaFechamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaFechamento" message="tns:IServicoFolha_salvarAtualizarFolhaFechamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaFechamentoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaFechamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFechamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFechamento" message="tns:IServicoFolha_selectFolhaFechamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFechamentoResponse" message="tns:IServicoFolha_selectFolhaFechamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFechamentoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFechamentoPagina" message="tns:IServicoFolha_selectFolhaFechamentoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaFechamentoPaginaResponse" message="tns:IServicoFolha_selectFolhaFechamentoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaHistoricoSalarial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaHistoricoSalarial" message="tns:IServicoFolha_deleteFolhaHistoricoSalarial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaHistoricoSalarialResponse" message="tns:IServicoFolha_deleteFolhaHistoricoSalarial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaHistoricoSalarial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaHistoricoSalarial" message="tns:IServicoFolha_salvarAtualizarFolhaHistoricoSalarial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaHistoricoSalarialResponse" message="tns:IServicoFolha_salvarAtualizarFolhaHistoricoSalarial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaHistoricoSalarial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaHistoricoSalarial" message="tns:IServicoFolha_selectFolhaHistoricoSalarial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaHistoricoSalarialResponse" message="tns:IServicoFolha_selectFolhaHistoricoSalarial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaHistoricoSalarialPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaHistoricoSalarialPagina" message="tns:IServicoFolha_selectFolhaHistoricoSalarialPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaHistoricoSalarialPaginaResponse" message="tns:IServicoFolha_selectFolhaHistoricoSalarialPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaTransporteItinerario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectEmpresaTransporteItinerario" message="tns:IServicoFolha_selectEmpresaTransporteItinerario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectEmpresaTransporteItinerarioResponse" message="tns:IServicoFolha_selectEmpresaTransporteItinerario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaTransporteItinerarioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectEmpresaTransporteItinerarioPagina" message="tns:IServicoFolha_selectEmpresaTransporteItinerarioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectEmpresaTransporteItinerarioPaginaResponse" message="tns:IServicoFolha_selectEmpresaTransporteItinerarioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaValeTransporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaValeTransporte" message="tns:IServicoFolha_deleteFolhaValeTransporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaValeTransporteResponse" message="tns:IServicoFolha_deleteFolhaValeTransporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaValeTransporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaValeTransporte" message="tns:IServicoFolha_salvarAtualizarFolhaValeTransporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaValeTransporteResponse" message="tns:IServicoFolha_salvarAtualizarFolhaValeTransporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaValeTransporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaValeTransporte" message="tns:IServicoFolha_selectFolhaValeTransporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaValeTransporteResponse" message="tns:IServicoFolha_selectFolhaValeTransporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaValeTransportePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaValeTransportePagina" message="tns:IServicoFolha_selectFolhaValeTransportePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaValeTransportePaginaResponse" message="tns:IServicoFolha_selectFolhaValeTransportePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaRescisao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaRescisao" message="tns:IServicoFolha_deleteFolhaRescisao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaRescisaoResponse" message="tns:IServicoFolha_deleteFolhaRescisao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaRescisao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaRescisao" message="tns:IServicoFolha_salvarAtualizarFolhaRescisao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaRescisaoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaRescisao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaRescisao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaRescisao" message="tns:IServicoFolha_selectFolhaRescisao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaRescisaoResponse" message="tns:IServicoFolha_selectFolhaRescisao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaRescisaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaRescisaoPagina" message="tns:IServicoFolha_selectFolhaRescisaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaRescisaoPaginaResponse" message="tns:IServicoFolha_selectFolhaRescisaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaInssServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaInssServico" message="tns:IServicoFolha_deleteFolhaInssServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaInssServicoResponse" message="tns:IServicoFolha_deleteFolhaInssServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaInssServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaInssServico" message="tns:IServicoFolha_salvarAtualizarFolhaInssServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaInssServicoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaInssServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInssServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssServico" message="tns:IServicoFolha_selectFolhaInssServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssServicoResponse" message="tns:IServicoFolha_selectFolhaInssServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInssServicoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssServicoPagina" message="tns:IServicoFolha_selectFolhaInssServicoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssServicoPaginaResponse" message="tns:IServicoFolha_selectFolhaInssServicoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaLancamentoCabecalho" message="tns:IServicoFolha_deleteFolhaLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaLancamentoCabecalhoResponse" message="tns:IServicoFolha_deleteFolhaLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaLancamentoCabecalho" message="tns:IServicoFolha_salvarAtualizarFolhaLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaLancamentoCabecalhoResponse" message="tns:IServicoFolha_salvarAtualizarFolhaLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaLancamentoCabecalho" message="tns:IServicoFolha_selectFolhaLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaLancamentoCabecalhoResponse" message="tns:IServicoFolha_selectFolhaLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaLancamentoCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaLancamentoCabecalhoPagina" message="tns:IServicoFolha_selectFolhaLancamentoCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaLancamentoCabecalhoPaginaResponse" message="tns:IServicoFolha_selectFolhaLancamentoCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaInss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaInss" message="tns:IServicoFolha_deleteFolhaInss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaInssResponse" message="tns:IServicoFolha_deleteFolhaInss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaInss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaInss" message="tns:IServicoFolha_salvarAtualizarFolhaInss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaInssResponse" message="tns:IServicoFolha_salvarAtualizarFolhaInss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInss" message="tns:IServicoFolha_selectFolhaInss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssResponse" message="tns:IServicoFolha_selectFolhaInss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInssPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssPagina" message="tns:IServicoFolha_selectFolhaInssPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/selectFolhaInssPaginaResponse" message="tns:IServicoFolha_selectFolhaInssPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaPpp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaPpp" message="tns:IServicoFolha_deleteFolhaPpp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/deleteFolhaPppResponse" message="tns:IServicoFolha_deleteFolhaPpp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaPpp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaPpp" message="tns:IServicoFolha_salvarAtualizarFolhaPpp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaPppResponse" message="tns:IServicoFolha_salvarAtualizarFolhaPpp_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoFolha" type="tns:IServicoFolha">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="selectFolhaPpp">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaPpp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaPppPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaPppPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectColaboradorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectOperadoraPlanoSaude">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectOperadoraPlanoSaude" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectOperadoraPlanoSaudePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectOperadoraPlanoSaudePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaId">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectEmpresaId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaParametros">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaParametros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaParametros">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaParametros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaParametros">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaParametros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaParametrosPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaParametrosPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteGuiasAcumuladas">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteGuiasAcumuladas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarGuiasAcumuladas">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarGuiasAcumuladas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectGuiasAcumuladas">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectGuiasAcumuladas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectGuiasAcumuladasPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectGuiasAcumuladasPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaPlanoSaude">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaPlanoSaude" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaPlanoSaude">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaPlanoSaude" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaPlanoSaude">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaPlanoSaude" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaPlanoSaudePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaPlanoSaudePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaEvento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaEvento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaEvento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaEvento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaEvento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaEvento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaEventoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaEventoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaTipoAfastamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaTipoAfastamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaTipoAfastamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaTipoAfastamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaTipoAfastamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaTipoAfastamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaTipoAfastamentoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaTipoAfastamentoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaAfastamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaAfastamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaAfastamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaAfastamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaAfastamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaAfastamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaAfastamentoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaAfastamentoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaFeriasColetivas">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaFeriasColetivas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaFeriasColetivas">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaFeriasColetivas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFeriasColetivas">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaFeriasColetivas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFeriasColetivasPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaFeriasColetivasPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFeriasPeriodoAquisitivo">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFeriasPeriodoAquisitivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFeriasPeriodoAquisitivo">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFeriasPeriodoAquisitivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFeriasPeriodoAquisitivo">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFeriasPeriodoAquisitivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFeriasPeriodoAquisitivoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFeriasPeriodoAquisitivoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaFechamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaFechamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaFechamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaFechamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFechamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaFechamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaFechamentoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaFechamentoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaHistoricoSalarial">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaHistoricoSalarial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaHistoricoSalarial">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaHistoricoSalarial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaHistoricoSalarial">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaHistoricoSalarial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaHistoricoSalarialPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaHistoricoSalarialPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaTransporteItinerario">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectEmpresaTransporteItinerario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaTransporteItinerarioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectEmpresaTransporteItinerarioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaValeTransporte">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaValeTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaValeTransporte">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaValeTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaValeTransporte">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaValeTransporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaValeTransportePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaValeTransportePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaRescisao">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaRescisao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaRescisao">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaRescisao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaRescisao">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaRescisao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaRescisaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaRescisaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaInssServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaInssServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaInssServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaInssServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInssServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaInssServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInssServicoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaInssServicoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaLancamentoCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaLancamentoCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaInss">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaInss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaInss">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaInss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInss">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaInss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFolhaInssPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/selectFolhaInssPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFolhaPpp">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/deleteFolhaPpp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFolhaPpp">
+      <soap:operation soapAction="http://tempuri.org/IServicoFolha/salvarAtualizarFolhaPpp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoFolha">
+    <wsdl:port name="BasicHttpBinding_IServicoFolha" binding="tns:BasicHttpBinding_IServicoFolha">
+      <soap:address location="http://localhost:2665/ServicoFolha.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

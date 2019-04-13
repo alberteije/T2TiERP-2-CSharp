@@ -1,0 +1,25 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\ConciliacaoContabilService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\ConciliacaoContabilService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilService\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\bin\ConciliacaoContabilService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\bin\ConciliacaoContabilService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\bin\ConciliacaoContabilService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\ConciliacaoContabilService\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\bin\ConciliacaoContabilService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\bin\ConciliacaoContabilService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\bin\ConciliacaoContabilService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Servidor\ConciliacaoContabilService\obj\Debug\ConciliacaoContabilService.pdb

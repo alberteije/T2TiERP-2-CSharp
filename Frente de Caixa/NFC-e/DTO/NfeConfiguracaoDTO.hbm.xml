@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeConfiguracaoDTO" table="nfe_configuracao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="CertificadoDigitalSerie" column="CERTIFICADO_DIGITAL_SERIE" />
+    <property name="CertificadoDigitalCaminho" column="CERTIFICADO_DIGITAL_CAMINHO" />
+    <property name="CertificadoDigitalSenha" column="CERTIFICADO_DIGITAL_SENHA" />
+    <property name="TipoEmissao" column="TIPO_EMISSAO" />
+    <property name="FormatoImpressaoDanfe" column="FORMATO_IMPRESSAO_DANFE" />
+    <property name="ProcessoEmissao" column="PROCESSO_EMISSAO" />
+    <property name="VersaoProcessoEmissao" column="VERSAO_PROCESSO_EMISSAO" />
+    <property name="CaminhoLogomarca" column="CAMINHO_LOGOMARCA" />
+    <property name="SalvarXml" column="SALVAR_XML" />
+    <property name="CaminhoSalvarXml" column="CAMINHO_SALVAR_XML" />
+    <property name="CaminhoSchemas" column="CAMINHO_SCHEMAS" />
+    <property name="CaminhoArquivoDanfe" column="CAMINHO_ARQUIVO_DANFE" />
+    <property name="CaminhoSalvarPdf" column="CAMINHO_SALVAR_PDF" />
+    <property name="WebserviceUf" column="WEBSERVICE_UF" />
+    <property name="WebserviceAmbiente" column="WEBSERVICE_AMBIENTE" />
+    <property name="WebserviceProxyHost" column="WEBSERVICE_PROXY_HOST" />
+    <property name="WebserviceProxyPorta" column="WEBSERVICE_PROXY_PORTA" />
+    <property name="WebserviceProxyUsuario" column="WEBSERVICE_PROXY_USUARIO" />
+    <property name="WebserviceProxySenha" column="WEBSERVICE_PROXY_SENHA" />
+    <property name="WebserviceVisualizar" column="WEBSERVICE_VISUALIZAR" />
+    <property name="EmailServidorSmtp" column="EMAIL_SERVIDOR_SMTP" />
+    <property name="EmailPorta" column="EMAIL_PORTA" />
+    <property name="EmailUsuario" column="EMAIL_USUARIO" />
+    <property name="EmailSenha" column="EMAIL_SENHA" />
+    <property name="EmailAssunto" column="EMAIL_ASSUNTO" />
+    <property name="EmailAutenticaSsl" column="EMAIL_AUTENTICA_SSL" />
+    <property name="EmailTexto" column="EMAIL_TEXTO" />
+  </class>
+</hibernate-mapping>

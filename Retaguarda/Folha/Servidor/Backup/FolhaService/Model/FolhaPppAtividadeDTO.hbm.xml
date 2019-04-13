@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaPppAtividadeDTO" table="folha_ppp_atividade" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdFolhaPpp" column="ID_FOLHA_PPP" />
+    <property name="DataInicio" column="DATA_INICIO" />
+    <property name="DataFim" column="DATA_FIM" />
+    <property name="Descricao" column="DESCRICAO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewTributacaoPisDTO" table="view_tributacao_pis" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdTributGrupoTributario" column="ID_TRIBUT_GRUPO_TRIBUTARIO" />
+    <property name="IdTributOperacaoFiscal" column="ID_TRIBUT_OPERACAO_FISCAL" />
+    <property name="CstPis" column="CST_PIS" />
+    <property name="CodigoApuracaoEfd" column="CODIGO_APURACAO_EFD" />
+    <property name="ModalidadeBaseCalculo" column="MODALIDADE_BASE_CALCULO" />
+    <property name="PorcentoBaseCalculo" column="PORCENTO_BASE_CALCULO" />
+    <property name="AliquotaPorcento" column="ALIQUOTA_PORCENTO" />
+    <property name="AliquotaUnidade" column="ALIQUOTA_UNIDADE" />
+    <property name="ValorPrecoMaximo" column="VALOR_PRECO_MAXIMO" />
+    <property name="ValorPautaFiscal" column="VALOR_PAUTA_FISCAL" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NFeDetalheDTO" table="nfe_detalhe" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idProduto" column="ID_PRODUTO" />
+    <property name="idNFeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="numeroItem" column="NUMERO_ITEM" />
+    <property name="codigoProduto" column="CODIGO_PRODUTO" />
+    <property name="gtin" column="GTIN" />
+    <property name="nomeProduto" column="NOME_PRODUTO" />
+    <property name="ncm" column="NCM" />
+    <property name="exTipi" column="EX_TIPI" />
+    <property name="cfop" column="CFOP" />
+    <property name="unidadeComercial" column="UNIDADE_COMERCIAL" />
+    <property name="quantidadeComercial" column="QUANTIDADE_COMERCIAL" />
+    <property name="valorUnitarioComercial" column="VALOR_UNITARIO_COMERCIAL" />
+    <property name="valorBrutoProduto" column="VALOR_BRUTO_PRODUTO" />
+    <property name="gtinUnidadeTributavel" column="GTIN_UNIDADE_TRIBUTAVEL" />
+    <property name="unidadeTributavel" column="UNIDADE_TRIBUTAVEL" />
+    <property name="quantidadeTributavel" column="QUANTIDADE_TRIBUTAVEL" />
+    <property name="valorUnitarioTributavel" column="VALOR_UNITARIO_TRIBUTAVEL" />
+    <property name="valorFrete" column="VALOR_FRETE" />
+    <property name="valorSeguro" column="VALOR_SEGURO" />
+    <property name="valorDesconto" column="VALOR_DESCONTO" />
+    <property name="valorOutrasDespesas" column="VALOR_OUTRAS_DESPESAS" />
+    <property name="entraTotal" column="ENTRA_TOTAL" />
+    <property name="valorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="valorTotal" column="VALOR_TOTAL" />
+    <property name="numeroPedidoCompra" column="NUMERO_PEDIDO_COMPRA" />
+    <property name="itemPedidoCompra" column="ITEM_PEDIDO_COMPRA" />
+    <property name="informacoesAdicionais" column="INFORMACOES_ADICIONAIS" />
+  </class>
+</hibernate-mapping>

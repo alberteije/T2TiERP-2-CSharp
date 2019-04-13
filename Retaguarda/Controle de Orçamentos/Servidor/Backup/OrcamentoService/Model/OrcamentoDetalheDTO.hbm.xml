@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="OrcamentoService"
+                   namespace="OrcamentoService.Model" default-lazy="false">
+  <class name="OrcamentoDetalheDTO" table="orcamento_detalhe">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one class="OrcamentoDTO" name="orcamento" column ="ID_ORCAMENTO_EMPRESARIAL" />    
+    <many-to-one class="NaturezaFinanceiraDTO" name="naturezaFinanceira" column ="ID_NATUREZA_FINANCEIRA"/>
+    <property name="periodo" column="PERIODO" />
+    <property name="valorOrcado" column="VALOR_ORCADO" />
+    <property name="valorRealizado" column="VALOR_REALIZADO" />
+    <property name="taxaVariacao" column="TAXA_VARIACAO" />
+    <property name="valorVariacao" column="VALOR_VARIACAO" />
+  </class>
+</hibernate-mapping>

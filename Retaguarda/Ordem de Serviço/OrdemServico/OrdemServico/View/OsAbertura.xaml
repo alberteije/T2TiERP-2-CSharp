@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="OrdemServico.View.OsAbertura" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:Cadastros.View.Botoes" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Grid.Column="0">
+                <viewBotoes:BarraInterna></viewBotoes:BarraInterna>
+            </StackPanel>
+            <Grid DockPanel.Dock="Top" Height="360">
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding OsAberturaSelected..Id}" Height="23" Width="170" Margin="10,25,0,0"  />
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisar" Margin="180,25,0,0"  />
+                <Label Content="Status" HorizontalAlignment="Left" VerticalAlignment="Top"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding OsAberturaSelected..Id}" Height="23" Width="230" Margin="218,25,0,0"  />
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisar2"  Margin="448,25,0,0"  />
+                <Label Content="Colaborador" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,0,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding OsAberturaSelected..Id}" Height="23" Width="177" Margin="483,25,0,0"  />
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisar3"  Margin="660,25,0,0"  />
+                <Label Content="Cliente" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="478,-1,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.Numero}" Height="23" Width="100" Margin="10,80,0,0"  />
+                <Label Content="Numero" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,54,0,0"  />
+                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding OsAberturaSelected.DataInicio}" Margin="121,80,0,0"  />
+                <Label Content="Data Inicio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.HoraInicio}" Height="23" Width="100" Margin="226,80,0,0"  />
+                <Label Content="Hora Inicio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="225,54,0,0"  />
+                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding OsAberturaSelected.DataPrevisao}" Margin="332,80,0,0"  />
+                <Label Content="Data Previsao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="331,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.HoraPrevisao}" Height="23" Width="100" Margin="438,80,0,0"  />
+                <Label Content="Hora Previsao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="437,54,0,0"  />
+                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding OsAberturaSelected.DataFim}" Margin="10,134,0,0"  />
+                <Label Content="Data Fim" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,108,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.HoraFim}" Height="23" Width="100" Margin="116,134,0,0"  />
+                <Label Content="Hora Fim" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,108,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.NomeContato}" Height="23" Width="363" Margin="222,134,0,0"  />
+                <Label Content="Nome Contato" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,108,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.FoneContato}" Height="23" Width="100" Margin="590,134,0,0"  />
+                <Label Content="Fone Contato" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="578,108,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.ObservacaoCliente}" Height="59" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="680" Margin="10,187,0,0"  />
+                <Label Content="Observacao Cliente" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,161,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding OsAberturaSelected.ObservacaoAbertura}" Height="82" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="680" Margin="10,272,0,0"  />
+                <Label Content="Observacao Abertura" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,246,0,0"  />
+            </Grid>
+
+            <DockPanel>
+                <TabControl>
+                    <TabItem Header="Dados Complementares">
+                    </TabItem>
+                    <TabItem Header="Produto / Serviço">
+                    </TabItem>
+                    <TabItem Header="Equipamento">
+                    </TabItem>
+                    <TabItem Header="Evolução">
+                    </TabItem>
+                </TabControl>
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</UserControl>

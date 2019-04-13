@@ -1,0 +1,65 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\GEDService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\GEDService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\log4net.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\NHibernate.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\NHibernate.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\bin\Iesi.Collections.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\obj\Debug\GEDService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDService\GEDService\obj\Debug\GEDService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\GEDService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\GEDService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\NHibernate.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\NHibernate.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\bin\Iesi.Collections.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\obj\Debug\GEDService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDService\GEDService\obj\Debug\GEDService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\GEDService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\GEDService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\NHibernate.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\NHibernate.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\bin\Iesi.Collections.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\obj\Debug\GEDService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDService\GEDService\obj\Debug\GEDService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\GEDService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\GEDService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\GEDService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\Iesi.Collections.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\Antlr3.Runtime.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\Remotion.Data.Linq.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\LinFu.DynamicProxy.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\NHibernate.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\NHibernate.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\Iesi.Collections.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\bin\Iesi.Collections.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\obj\Debug\GEDService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\obj\Debug\GEDService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Servidor\GEDService\obj\Debug\GEDService.pdb

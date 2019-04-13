@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetEspecificoMedicamentoDTO" table="nfe_det_especifico_medicamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="NumeroLote" column="NUMERO_LOTE" />
+    <property name="QuantidadeLote" column="QUANTIDADE_LOTE" />
+    <property name="DataFabricacao" column="DATA_FABRICACAO" />
+    <property name="DataValidade" column="DATA_VALIDADE" />
+    <property name="PrecoMaximoConsumidor" column="PRECO_MAXIMO_CONSUMIDOR" />
+  </class>
+</hibernate-mapping>

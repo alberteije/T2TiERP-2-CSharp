@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="VendasClient.View.Vendas.CondicoesPagamento" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:VendasClient.View.Vendas"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+        <DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Top" Height="198">
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.Id}" Height="23" Width="30" Margin="6,25,0,0"  IsReadOnly="True" IsEnabled="False" />
+                <Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+                <TextBox VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.Nome}" Height="23" Margin="42,25,0,0" HorizontalAlignment="Left" Width="609" />
+                <Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,6,0,0"  />
+                <TextBox VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.Descricao}" Height="71" Margin="6,121,6,0" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" />
+                <Label Content="Descrição" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.FaturamentoMinimo}" Height="23" Width="112" Margin="430,73,0,0"  />
+                <Label Content="Faturamento Mínimo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.FaturamentoMaximo}" Height="23" Width="103" Margin="548,73,0,0"  />
+                <Label Content="Faturamento Máximo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.IndiceCorrecao}" Height="23" Width="100" Margin="6,73,0,0"  />
+                <Label Content="Indice Correção" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.DiasTolerancia}" Height="23" Width="100" Margin="112,73,0,0"  />
+                <Label Content="Dias Tolerância" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.ValorTolerancia}" Height="23" Width="100" Margin="218,73,0,0"  />
+                <Label Content="Valor Tolerância" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesPagamentoSelected.PrazoMedio}" Height="23" Width="100" Margin="324,73,0,0"  />
+                <Label Content="Prazo Médio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,54,0,0"  />
+            </Grid>
+            <view:CondicoesParcelaPrincipal></view:CondicoesParcelaPrincipal>
+        </DockPanel>
+	</DockPanel>
+</UserControl>

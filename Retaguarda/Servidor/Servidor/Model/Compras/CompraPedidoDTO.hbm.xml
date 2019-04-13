@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CompraPedidoDTO" table="compra_pedido" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="CompraTipoPedido" column="ID_COMPRA_TIPO_PEDIDO" />
+    <many-to-one name="Fornecedor" column="ID_FORNECEDOR" />
+    <property name="DataPedido" column="DATA_PEDIDO" />
+    <property name="DataPrevistaEntrega" column="DATA_PREVISTA_ENTREGA" />
+    <property name="DataPrevisaoPagamento" column="DATA_PREVISAO_PAGAMENTO" />
+    <property name="LocalEntrega" column="LOCAL_ENTREGA" />
+    <property name="LocalCobranca" column="LOCAL_COBRANCA" />
+    <property name="Contato" column="CONTATO" />
+    <property name="ValorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorTotalPedido" column="VALOR_TOTAL_PEDIDO" />
+    <property name="TipoFrete" column="TIPO_FRETE" />
+    <property name="FormaPagamento" column="FORMA_PAGAMENTO" />
+    <property name="BaseCalculoIcms" column="BASE_CALCULO_ICMS" />
+    <property name="ValorIcms" column="VALOR_ICMS" />
+    <property name="BaseCalculoIcmsSt" column="BASE_CALCULO_ICMS_ST" />
+    <property name="ValorIcmsSt" column="VALOR_ICMS_ST" />
+    <property name="ValorTotalProdutos" column="VALOR_TOTAL_PRODUTOS" />
+    <property name="ValorFrete" column="VALOR_FRETE" />
+    <property name="ValorSeguro" column="VALOR_SEGURO" />
+    <property name="ValorOutrasDespesas" column="VALOR_OUTRAS_DESPESAS" />
+    <property name="ValorIpi" column="VALOR_IPI" />
+    <property name="ValorTotalNf" column="VALOR_TOTAL_NF" />
+    <property name="QuantidadeParcelas" column="QUANTIDADE_PARCELAS" />
+    <property name="DiasPrimeiroVencimento" column="DIAS_PRIMEIRO_VENCIMENTO" />
+    <property name="DiasIntervalo" column="DIAS_INTERVALO" />
+  </class>
+</hibernate-mapping>

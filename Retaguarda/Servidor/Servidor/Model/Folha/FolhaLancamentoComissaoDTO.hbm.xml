@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaLancamentoComissaoDTO" table="folha_lancamento_comissao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Vendedor" column="ID_VENDEDOR" />
+    <property name="Competencia" column="COMPETENCIA" />
+    <property name="Vencimento" column="VENCIMENTO" />
+    <property name="BaseCalculo" column="BASE_CALCULO" />
+    <property name="ValorComissao" column="VALOR_COMISSAO" />
+  </class>
+</hibernate-mapping>

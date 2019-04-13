@@ -1,0 +1,166 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\EscritaFiscalClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\EscritaFiscalClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\EscritaFiscalClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Reportman.Drawing.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Reportman.Drawing.Forms.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Reportman.Reporting.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Reportman.Reporting.Forms.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametro.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermo.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorio.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\InformativosGuiasPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\EscritaFiscalPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivro.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametro.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermo.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorio.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\InformativosGuiasPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\EscritaFiscalPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivro.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalClient\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\EscritaFiscalClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\EscritaFiscalClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\EscritaFiscalClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametro.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorio.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\InformativosGuiasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\EscritaFiscalPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivro.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametro.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorio.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\InformativosGuiasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\EscritaFiscalPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalApuracaoIcmsPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivro.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalLivroPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalParametroPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\FiscalTermoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\RegistroCartorioPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\SimplesNacionalDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\View\EscritaFiscal\TipoNotaFiscalPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\EscritaFiscalClient.csproj.GenerateResource.Cache

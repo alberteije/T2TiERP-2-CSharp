@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoContratos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2664/ServicoContratos.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2664/ServicoContratos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2664/ServicoContratos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ContratosService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoContratos_deleteContrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContrato" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteContrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarContrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContrato" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarContrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContrato" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteContratoTipoServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContratoTipoServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteContratoTipoServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContratoTipoServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarContratoTipoServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContratoTipoServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarContratoTipoServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContratoTipoServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoTipoServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoTipoServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoTipoServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoTipoServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoTipoServicoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoTipoServicoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoTipoServicoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoTipoServicoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteTipoContrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTipoContrato" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteTipoContrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTipoContratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarTipoContrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTipoContrato" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarTipoContrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTipoContratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectTipoContrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoContrato" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectTipoContrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoContratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectTipoContratoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoContratoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectTipoContratoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoContratoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteContratoSolicitacaoServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContratoSolicitacaoServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_deleteContratoSolicitacaoServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContratoSolicitacaoServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarContratoSolicitacaoServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContratoSolicitacaoServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_salvarAtualizarContratoSolicitacaoServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContratoSolicitacaoServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoSolicitacaoServico_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoSolicitacaoServico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoSolicitacaoServico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoSolicitacaoServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoSolicitacaoServicoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoSolicitacaoServicoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectContratoSolicitacaoServicoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContratoSolicitacaoServicoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectFornecedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectFornecedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectFornecedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectFornecedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCliente" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectClientePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectClientePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectClientePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectClientePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectSetor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectSetor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectSetorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectSetorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectColaboradorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectColaboradorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectPessoa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPessoa" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectPessoa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPessoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContratos_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoContratos">
+    <wsdl:operation name="deleteContrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/deleteContrato" message="tns:IServicoContratos_deleteContrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/deleteContratoResponse" message="tns:IServicoContratos_deleteContrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarContrato" message="tns:IServicoContratos_salvarAtualizarContrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarContratoResponse" message="tns:IServicoContratos_salvarAtualizarContrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectContrato" message="tns:IServicoContratos_selectContrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoResponse" message="tns:IServicoContratos_selectContrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoPagina" message="tns:IServicoContratos_selectContratoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoPaginaResponse" message="tns:IServicoContratos_selectContratoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContratoTipoServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/deleteContratoTipoServico" message="tns:IServicoContratos_deleteContratoTipoServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/deleteContratoTipoServicoResponse" message="tns:IServicoContratos_deleteContratoTipoServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContratoTipoServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarContratoTipoServico" message="tns:IServicoContratos_salvarAtualizarContratoTipoServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarContratoTipoServicoResponse" message="tns:IServicoContratos_salvarAtualizarContratoTipoServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoTipoServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoTipoServico" message="tns:IServicoContratos_selectContratoTipoServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoTipoServicoResponse" message="tns:IServicoContratos_selectContratoTipoServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoTipoServicoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoTipoServicoPagina" message="tns:IServicoContratos_selectContratoTipoServicoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoTipoServicoPaginaResponse" message="tns:IServicoContratos_selectContratoTipoServicoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTipoContrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/deleteTipoContrato" message="tns:IServicoContratos_deleteTipoContrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/deleteTipoContratoResponse" message="tns:IServicoContratos_deleteTipoContrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTipoContrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarTipoContrato" message="tns:IServicoContratos_salvarAtualizarTipoContrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarTipoContratoResponse" message="tns:IServicoContratos_salvarAtualizarTipoContrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoContrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectTipoContrato" message="tns:IServicoContratos_selectTipoContrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectTipoContratoResponse" message="tns:IServicoContratos_selectTipoContrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoContratoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectTipoContratoPagina" message="tns:IServicoContratos_selectTipoContratoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectTipoContratoPaginaResponse" message="tns:IServicoContratos_selectTipoContratoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContratoSolicitacaoServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/deleteContratoSolicitacaoServico" message="tns:IServicoContratos_deleteContratoSolicitacaoServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/deleteContratoSolicitacaoServicoResponse" message="tns:IServicoContratos_deleteContratoSolicitacaoServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContratoSolicitacaoServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarContratoSolicitacaoServico" message="tns:IServicoContratos_salvarAtualizarContratoSolicitacaoServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/salvarAtualizarContratoSolicitacaoServicoResponse" message="tns:IServicoContratos_salvarAtualizarContratoSolicitacaoServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoSolicitacaoServico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoSolicitacaoServico" message="tns:IServicoContratos_selectContratoSolicitacaoServico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoSolicitacaoServicoResponse" message="tns:IServicoContratos_selectContratoSolicitacaoServico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoSolicitacaoServicoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoSolicitacaoServicoPagina" message="tns:IServicoContratos_selectContratoSolicitacaoServicoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectContratoSolicitacaoServicoPaginaResponse" message="tns:IServicoContratos_selectContratoSolicitacaoServicoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectFornecedor" message="tns:IServicoContratos_selectFornecedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectFornecedorResponse" message="tns:IServicoContratos_selectFornecedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectFornecedorPagina" message="tns:IServicoContratos_selectFornecedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectFornecedorPaginaResponse" message="tns:IServicoContratos_selectFornecedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectCliente" message="tns:IServicoContratos_selectCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectClienteResponse" message="tns:IServicoContratos_selectCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectClientePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectClientePagina" message="tns:IServicoContratos_selectClientePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectClientePaginaResponse" message="tns:IServicoContratos_selectClientePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSetor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectSetor" message="tns:IServicoContratos_selectSetor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectSetorResponse" message="tns:IServicoContratos_selectSetor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSetorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectSetorPagina" message="tns:IServicoContratos_selectSetorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectSetorPaginaResponse" message="tns:IServicoContratos_selectSetorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectColaborador" message="tns:IServicoContratos_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectColaboradorResponse" message="tns:IServicoContratos_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectColaboradorPagina" message="tns:IServicoContratos_selectColaboradorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectColaboradorPaginaResponse" message="tns:IServicoContratos_selectColaboradorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPessoa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectPessoa" message="tns:IServicoContratos_selectPessoa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectPessoaResponse" message="tns:IServicoContratos_selectPessoa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectUsuario" message="tns:IServicoContratos_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectUsuarioResponse" message="tns:IServicoContratos_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContratos/selectControleAcesso" message="tns:IServicoContratos_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContratos/selectControleAcessoResponse" message="tns:IServicoContratos_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoContratos" type="tns:IServicoContratos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteContrato">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/deleteContrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContrato">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/salvarAtualizarContrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContrato">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectContrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectContratoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContratoTipoServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/deleteContratoTipoServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContratoTipoServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/salvarAtualizarContratoTipoServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoTipoServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectContratoTipoServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoTipoServicoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectContratoTipoServicoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTipoContrato">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/deleteTipoContrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTipoContrato">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/salvarAtualizarTipoContrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoContrato">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectTipoContrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoContratoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectTipoContratoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContratoSolicitacaoServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/deleteContratoSolicitacaoServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContratoSolicitacaoServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/salvarAtualizarContratoSolicitacaoServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoSolicitacaoServico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectContratoSolicitacaoServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContratoSolicitacaoServicoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectContratoSolicitacaoServicoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectFornecedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectFornecedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCliente">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectClientePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectClientePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSetor">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectSetor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSetorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectSetorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectColaboradorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPessoa">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectPessoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoContratos/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoContratos">
+    <wsdl:port name="BasicHttpBinding_IServicoContratos" binding="tns:BasicHttpBinding_IServicoContratos">
+      <soap:address location="http://localhost:2664/ServicoContratos.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

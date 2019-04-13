@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="CaixaBancosService" namespace="CaixaBancosService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewFinMovimentoCaixaBancoDTO" table="view_fin_movimento_caixa_banco" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="NomeContaCaixa" column="NOME_CONTA_CAIXA" />
+    <property name="NomePessoa" column="NOME_PESSOA" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="DataPagoRecebido" column="DATA_PAGO_RECEBIDO" />
+    <property name="Historico" column="HISTORICO" />
+    <property name="Valor" column="VALOR" />
+    <property name="DescricaoDocumentoOrigem" column="DESCRICAO_DOCUMENTO_ORIGEM" />
+    <property name="Operacao" column="OPERACAO" />
+  </class>
+</hibernate-mapping>

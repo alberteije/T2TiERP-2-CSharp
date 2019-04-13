@@ -1,0 +1,20 @@
+﻿EscritaFiscalClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\obj\x86\Debug\
+EscritaFiscalClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Cliente\EscritaFiscalClient\App.xaml
+281676712425
+
+49-1934246941
+29-651272067
+themes\generic.xaml;View\ERPClient.xaml;View\EscritaFiscal\Login.xaml;View\EscritaFiscal\EscritaFiscalPrincipal.xaml;View\EscritaFiscal\FiscalApuracaoIcmsLista.xaml;View\EscritaFiscal\FiscalApuracaoIcmsPrincipal.xaml;View\EscritaFiscal\FiscalLivro.xaml;View\EscritaFiscal\FiscalLivroLista.xaml;View\EscritaFiscal\FiscalLivroPrincipal.xaml;View\EscritaFiscal\FiscalParametro.xaml;View\EscritaFiscal\FiscalParametroLista.xaml;View\EscritaFiscal\FiscalParametroPrincipal.xaml;View\EscritaFiscal\FiscalTermo.xaml;View\EscritaFiscal\FiscalTermoLista.xaml;View\EscritaFiscal\FiscalTermoPrincipal.xaml;View\EscritaFiscal\RegistroCartorio.xaml;View\EscritaFiscal\RegistroCartorioLista.xaml;View\EscritaFiscal\RegistroCartorioPrincipal.xaml;View\EscritaFiscal\SimplesNacionalCabecalho.xaml;View\EscritaFiscal\SimplesNacionalCabecalhoLista.xaml;View\EscritaFiscal\SimplesNacionalCabecalhoPrincipal.xaml;View\EscritaFiscal\SimplesNacionalDetalhe.xaml;View\EscritaFiscal\SimplesNacionalDetalheLista.xaml;View\EscritaFiscal\SimplesNacionalDetalhePrincipal.xaml;View\EscritaFiscal\InformativosGuiasPrincipal.xaml;View\EscritaFiscal\TipoNotaFiscal.xaml;View\EscritaFiscal\TipoNotaFiscalLista.xaml;View\EscritaFiscal\TipoNotaFiscalPrincipal.xaml;
+
+False
+

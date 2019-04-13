@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="AdministrativoClient.View.Administrativo.Usuario" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding UsuarioSelected.Colaborador.Pessoa.Nome}" Height="23" Width="652" Margin="6,27,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarColaborador" Click="btPesquisarColaborador_Click" Margin="664,27,0,0"  />
+			<Label Content="Colaborador" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,8,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding UsuarioSelected.Papel.Nome}" Height="23" Width="652" Margin="6,79,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPapel" Click="btPesquisarPapel_Click" Margin="664,79,0,0"  />
+			<Label Content="Papel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,60,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding UsuarioSelected.Login}" Height="23" Width="266" Margin="6,129,0,0"  />
+			<Label Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,110,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding UsuarioSelected.Senha}" Height="23" Width="380" Margin="278,129,0,0"  />
+			<Label Content="Senha" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="278,110,0,0"  />
+        </Grid>
+	</DockPanel>
+</UserControl>

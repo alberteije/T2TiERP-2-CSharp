@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeCabecalhoDTO" table="nfe_cabecalho" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <one-to-one name="NfeDestinatario" class="NfeDestinatarioDTO" />
+
+    <property name="IdEmpresa" column="ID_EMPRESA" />
+    <property name="IdNfceMovimento" column="ID_NFCE_MOVIMENTO" />
+    <property name="IdVendedor" column="ID_VENDEDOR" />
+    <property name="UfEmitente" column="UF_EMITENTE" />
+    <property name="CodigoNumerico" column="CODIGO_NUMERICO" />
+    <property name="NaturezaOperacao" column="NATUREZA_OPERACAO" />
+    <property name="IndicadorFormaPagamento" column="INDICADOR_FORMA_PAGAMENTO" />
+    <property name="CodigoModelo" column="CODIGO_MODELO" />
+    <property name="Serie" column="SERIE" />
+    <property name="Numero" column="NUMERO" />
+    <property name="DataHoraEmissao" column="DATA_HORA_EMISSAO" />
+    <property name="DataHoraEntradaSaida" column="DATA_HORA_ENTRADA_SAIDA" />
+    <property name="TipoOperacao" column="TIPO_OPERACAO" />
+    <property name="LocalDestino" column="LOCAL_DESTINO" />
+    <property name="CodigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="FormatoImpressaoDanfe" column="FORMATO_IMPRESSAO_DANFE" />
+    <property name="TipoEmissao" column="TIPO_EMISSAO" />
+    <property name="ChaveAcesso" column="CHAVE_ACESSO" />
+    <property name="DigitoChaveAcesso" column="DIGITO_CHAVE_ACESSO" />
+    <property name="Ambiente" column="AMBIENTE" />
+    <property name="FinalidadeEmissao" column="FINALIDADE_EMISSAO" />
+    <property name="ConsumidorOperacao" column="CONSUMIDOR_OPERACAO" />
+    <property name="ConsumidorPresenca" column="CONSUMIDOR_PRESENCA" />
+    <property name="ProcessoEmissao" column="PROCESSO_EMISSAO" />
+    <property name="VersaoProcessoEmissao" column="VERSAO_PROCESSO_EMISSAO" />
+    <property name="DataEntradaContingencia" column="DATA_ENTRADA_CONTINGENCIA" />
+    <property name="JustificativaContingencia" column="JUSTIFICATIVA_CONTINGENCIA" />
+    <property name="BaseCalculoIcms" column="BASE_CALCULO_ICMS" />
+    <property name="ValorIcms" column="VALOR_ICMS" />
+    <property name="ValorIcmsDesonerado" column="VALOR_ICMS_DESONERADO" />
+    <property name="BaseCalculoIcmsSt" column="BASE_CALCULO_ICMS_ST" />
+    <property name="ValorIcmsSt" column="VALOR_ICMS_ST" />
+    <property name="ValorTotalProdutos" column="VALOR_TOTAL_PRODUTOS" />
+    <property name="ValorFrete" column="VALOR_FRETE" />
+    <property name="ValorSeguro" column="VALOR_SEGURO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorImpostoImportacao" column="VALOR_IMPOSTO_IMPORTACAO" />
+    <property name="ValorIpi" column="VALOR_IPI" />
+    <property name="ValorPis" column="VALOR_PIS" />
+    <property name="ValorCofins" column="VALOR_COFINS" />
+    <property name="ValorDespesasAcessorias" column="VALOR_DESPESAS_ACESSORIAS" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="ValorServicos" column="VALOR_SERVICOS" />
+    <property name="BaseCalculoIssqn" column="BASE_CALCULO_ISSQN" />
+    <property name="ValorIssqn" column="VALOR_ISSQN" />
+    <property name="ValorPisIssqn" column="VALOR_PIS_ISSQN" />
+    <property name="ValorCofinsIssqn" column="VALOR_COFINS_ISSQN" />
+    <property name="DataPrestacaoServico" column="DATA_PRESTACAO_SERVICO" />
+    <property name="ValorDeducaoIssqn" column="VALOR_DEDUCAO_ISSQN" />
+    <property name="OutrasRetencoesIssqn" column="OUTRAS_RETENCOES_ISSQN" />
+    <property name="DescontoIncondicionadoIssqn" column="DESCONTO_INCONDICIONADO_ISSQN" />
+    <property name="DescontoCondicionadoIssqn" column="DESCONTO_CONDICIONADO_ISSQN" />
+    <property name="TotalRetencaoIssqn" column="TOTAL_RETENCAO_ISSQN" />
+    <property name="RegimeEspecialTributacao" column="REGIME_ESPECIAL_TRIBUTACAO" />
+    <property name="ValorRetidoPis" column="VALOR_RETIDO_PIS" />
+    <property name="ValorRetidoCofins" column="VALOR_RETIDO_COFINS" />
+    <property name="ValorRetidoCsll" column="VALOR_RETIDO_CSLL" />
+    <property name="BaseCalculoIrrf" column="BASE_CALCULO_IRRF" />
+    <property name="ValorRetidoIrrf" column="VALOR_RETIDO_IRRF" />
+    <property name="BaseCalculoPrevidencia" column="BASE_CALCULO_PREVIDENCIA" />
+    <property name="ValorRetidoPrevidencia" column="VALOR_RETIDO_PREVIDENCIA" />
+    <property name="ComexUfEmbarque" column="COMEX_UF_EMBARQUE" />
+    <property name="ComexLocalEmbarque" column="COMEX_LOCAL_EMBARQUE" />
+    <property name="ComexLocalDespacho" column="COMEX_LOCAL_DESPACHO" />
+    <property name="CompraNotaEmpenho" column="COMPRA_NOTA_EMPENHO" />
+    <property name="CompraPedido" column="COMPRA_PEDIDO" />
+    <property name="CompraContrato" column="COMPRA_CONTRATO" />
+    <property name="InformacoesAddFisco" column="INFORMACOES_ADD_FISCO" />
+    <property name="InformacoesAddContribuinte" column="INFORMACOES_ADD_CONTRIBUINTE" />
+    <property name="StatusNota" column="STATUS_NOTA" />
+    <property name="Troco" column="TROCO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="AidfAimdfDTO" table="aidf_aimdf" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Numero" column="NUMERO" />
+    <property name="DataValidade" column="DATA_VALIDADE" />
+    <property name="DataAutorizacao" column="DATA_AUTORIZACAO" />
+    <property name="NumeroAutorizacao" column="NUMERO_AUTORIZACAO" />
+    <property name="FormularioDisponivel" column="FORMULARIO_DISPONIVEL" />
+  </class>
+</hibernate-mapping>

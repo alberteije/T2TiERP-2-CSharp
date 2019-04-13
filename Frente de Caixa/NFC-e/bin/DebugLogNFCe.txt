@@ -1,0 +1,14 @@
+15/04/2015 23:30:31:	System.Exception: could not delete collection: [NFCe.DTO.NfceMovimentoDTO.ListaNfceSuprimento#16][SQL: UPDATE nfce_suprimento SET ID_NFCE_MOVIMENTO = null WHERE ID_NFCE_MOVIMENTO = ?p0] Column 'ID_NFCE_MOVIMENTO' cannot be null
+   em NFCe.Controller.NfceMovimentoController.GravaNfceMovimento(NfceMovimentoDTO pNfceMovimento) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\NFC-e\Controller\NfceMovimentoController.cs:linha 122
+   em NFCe.View.Caixa.Suprimento() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\NFC-e\View\Caixa.cs:linha 494
+15/04/2015 23:30:52:	System.InvalidOperationException: O objeto nulo deve ter um valor.
+   em System.Nullable`1.get_Value()
+   em NFCe.View.Caixa.Sangria() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\NFC-e\View\Caixa.cs:linha 531
+19/04/2015 23:30:02:	System.Net.WebException: O tempo limite da operação foi atingido
+   em System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   em System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   em NFe.Wsdl.Autorizacao.NfeAutorizacao.Execute(XmlNode nfeDadosMsg) na c:\Componentes\C#\Zeus\NFe.Wsdl\Autorizacao\NfeAutorizacao.cs:linha 62
+   em NFe.Servicos.ServicosNFe.NFeAutorizacao(Int32 idLote, IndicadorSincronizacao indSinc, List`1 nFes) na c:\Componentes\C#\Zeus\NFe.Servicos\ServicosNFe.cs:linha 741
+   em NFCe.View.Caixa.GerarXmlNfce() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\NFC-e\View\Caixa.cs:linha 1632
+   em NFCe.View.Caixa.ConcluiEncerramentoVenda() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\NFC-e\View\Caixa.cs:linha 1274

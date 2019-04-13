@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaLancamentoDetalhe" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FolhaLancamentoDetalheSelected.FolhaEvento.Nome}" Height="23" Width="652" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarFolhaEvento" Click="btPesquisarFolhaEvento_Click" Margin="664,25,0,0"  />
+			<Label Content="Evento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaLancamentoDetalheSelected.Origem}" Height="23" Width="100" Margin="6,77,0,0"  />
+			<Label Content="Origem" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,58,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaLancamentoDetalheSelected.Provento}" Height="23" Width="100" Margin="112,77,0,0"  />
+			<Label Content="Provento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,58,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaLancamentoDetalheSelected.Desconto}" Height="23" Width="100" Margin="218,77,0,0"  />
+			<Label Content="Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,58,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PagSeguroConfiguration>
+  <!-- Urls defaults for call services PagSeguro -->
+  <Urls>
+    <!-- url for payment service -->
+    <Payment>
+      <Link>https://ws.pagseguro.uol.com.br/v2/checkout</Link>
+    </Payment>
+    <!-- url for paymentRedirect service -->
+    <PaymentRedirect>
+      <Link>https://pagseguro.uol.com.br/v2/checkout/payment.html</Link>
+    </PaymentRedirect>
+    <!-- url for notifications service -->
+    <Notification>
+      <Link>https://ws.pagseguro.uol.com.br/v3/transactions/notifications</Link>
+    </Notification>
+    <!-- url for transactions service -->
+    <Search>
+      <Link>https://ws.pagseguro.uol.com.br/v3/transactions</Link>
+    </Search>
+    <SearchAbandoned>
+      <Link>https://ws.pagseguro.uol.com.br/v2/transactions</Link>
+    </SearchAbandoned>
+    <!-- url for cancel transactions service -->
+    <Cancel>
+      <Link>https://ws.pagseguro.uol.com.br/v2/transactions/cancels</Link>
+    </Cancel>
+    <!-- url for refund transactions service -->
+    <Refund>
+      <Link>https://ws.pagseguro.uol.com.br/v2/transactions/refunds</Link>
+    </Refund>
+    <!-- urls for preApproval -->
+    <PreApproval>
+      <!-- urls for preApproval request service -->
+      <Link>https://ws.pagseguro.uol.com.br/v2/pre-approvals/request</Link>
+      <PreApprovalRequest>
+        <Link>https://ws.pagseguro.uol.com.br/v2/pre-approvals/request</Link>
+      </PreApprovalRequest>
+      <!-- url for preApproval redirect service -->
+      <PreApprovalRedirect>
+        <Link>https://pagseguro.uol.com.br/v2/pre-approvals/request.html</Link>
+      </PreApprovalRedirect>
+      <!-- url for preApproval notifications service -->
+      <PreApprovalNotification>
+        <Link>https://ws.pagseguro.uol.com.br/v2/pre-approvals/notifications</Link>
+      </PreApprovalNotification>
+      <!-- url for preApproval search transactions service -->
+      <PreApprovalSearch>
+        <Link>https://ws.pagseguro.uol.com.br/v2/pre-approvals</Link>
+      </PreApprovalSearch>
+      <!-- url for preApproval cancel transaction service -->
+      <PreApprovalCancel>
+        <Link>https://ws.pagseguro.uol.com.br/v2/pre-approvals/cancel</Link>
+      </PreApprovalCancel>
+      <!-- url for preApproval charge payment service -->
+      <PreApprovalPayment>
+        <Link>https://ws.pagseguro.uol.com.br/v2/pre-approvals/payment</Link>
+      </PreApprovalPayment>
+    </PreApproval>
+    <!-- url for direct payment -->
+    <DirectPayment>
+      <!-- url for get session -->
+      <Session>
+        <Link>https://ws.pagseguro.uol.com.br/v2/sessions</Link>
+      </Session>
+      <!-- url for get installments -->
+      <Installment>
+        <Link>https://ws.pagseguro.uol.com.br/v2/installments</Link>
+      </Installment>
+      <!-- url for transactions -->
+      <Transactions>
+        <Link>https://ws.pagseguro.uol.com.br/v2/transactions</Link>
+      </Transactions>
+    </DirectPayment>
+    <!-- url for authorization -->
+    <Authorization>
+      <!-- url for authorization request service -->
+      <AuthorizationRequest>
+        <Link>https://ws.pagseguro.uol.com.br/v2/authorizations/request</Link>
+      </AuthorizationRequest>
+      <!-- url for authorization request transaction service -->
+      <AuthorizationURL>
+        <Link>https://pagseguro.uol.com.br/v2/authorization/request.jhtml</Link>
+      </AuthorizationURL>
+      <!-- url for authorization search service -->
+      <AuthorizationSearch>
+        <Link>https://ws.pagseguro.uol.com.br/v2/authorizations/</Link>
+      </AuthorizationSearch>
+      <!-- url for authorization nofitication service -->
+      <AuthorizationNotification>
+        <Link>https://ws.pagseguro.uol.com.br/v2/authorizations/notifications/</Link>
+      </AuthorizationNotification>
+    </Authorization>
+  </Urls>
+  <!-- user's credential -->
+  <Credential>
+    <!-- your email here -->
+    <Email>backoffice@lojamodelo.com.br</Email>
+    <!-- your token here -->
+    <Token>256422BF9E66458CA3FE41189AD1C94A</Token>
+    <!-- your sandbox email here -->
+    <SandboxEmail>backoffice@lojamodelo.com.br</SandboxEmail>
+    <!-- your sandbox token here -->
+    <SandboxToken>256422BF9E66458CA3FE41189AD1C94A</SandboxToken>
+    <!-- your appId here -->
+    <AppId>app8888888888</AppId>
+    <!-- your appKey here -->
+    <AppKey>82EBFA59F1F1469FF47B3FBB8D2526BC</AppKey>
+    <!-- your sandbox appId here -->
+    <SandboxAppId>app8888888888</SandboxAppId>
+    <!-- your sandbox appKey here -->
+    <SandboxAppKey>82EBFA59F1F1469FF47B3FBB8D2526BC</SandboxAppKey>
+  </Credential>
+  <!-- configuration default for PagSeguro API-->
+  <Configuration>
+    <!-- version library API PagSeguro .NET C# -->
+    <LibVersion>2.4.0</LibVersion>
+    <!-- content type -->
+    <FormUrlEncoded>application/x-www-form-urlencoded</FormUrlEncoded>
+    <!-- encoding of the outcoming/incoming communication to/from PagSeguro API -->
+    <Encoding>ISO-8859-1</Encoding>
+    <!-- default request timeout for call service -->
+    <RequestTimeout>10000</RequestTimeout>
+  </Configuration>
+</PagSeguroConfiguration>

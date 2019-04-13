@@ -1,0 +1,41 @@
+<UserControl x:Class="PontoClient.View.Ponto.PontoParametroPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:PontoClient.View.Ponto"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="700">
+    <TabControl>
+        <TabItem Name="tabPontoParametroLista" Visibility="Collapsed" IsSelected="{Binding IsListar}">
+            <TabItem.Content>
+                <DockPanel LastChildFill="True">
+                    <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal" >
+                        <Button Name="btExcluir" Width="100" Click="btExcluir_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/botaoCancelaCupom.png" Height="23"></Image>
+                                <TextBlock Text="Excluir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>                        
+                        <Button Name="btIncluir" Width="100" Click="btIncluir_Click">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                                <TextBlock Text="Incluir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                        <Button Name="btConsultar" Width="100" Click="btConsultar_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/21botaoPesquisa.png" Height="23"></Image>
+                                <TextBlock Text="Consultar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <view:PontoParametroLista></view:PontoParametroLista>
+                </DockPanel>
+            </TabItem.Content>
+        </TabItem>
+        <TabItem Name="tabPontoParametro" Visibility="Collapsed" IsSelected="{Binding IsEditar}">
+            <view:PontoParametro></view:PontoParametro>
+        </TabItem>
+    </TabControl>
+</UserControl>

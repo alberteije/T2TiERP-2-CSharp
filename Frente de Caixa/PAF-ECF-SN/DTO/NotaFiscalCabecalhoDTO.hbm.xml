@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NotaFiscalCabecalhoDTO" table="nota_fiscal_cabecalho" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">nota_fiscal_cabecalho</param>
+      </generator>
+    </id>
+
+
+    <many-to-one name="EcfFuncionario" column="ID_ECF_FUNCIONARIO" />
+    <many-to-one name="Cliente" column="ID_CLIENTE" />
+    <property name="CpfCnpjCliente" column="CPF_CNPJ_CLIENTE" />
+    <property name="Cfop" column="CFOP" />
+    <property name="Numero" column="NUMERO" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="HoraEmissao" column="HORA_EMISSAO" />
+    <property name="Serie" column="SERIE" />
+    <property name="Subserie" column="SUBSERIE" />
+    <property name="TotalProdutos" column="TOTAL_PRODUTOS" />
+    <property name="TotalNf" column="TOTAL_NF" />
+    <property name="BaseIcms" column="BASE_ICMS" />
+    <property name="Icms" column="ICMS" />
+    <property name="IcmsOutras" column="ICMS_OUTRAS" />
+    <property name="Issqn" column="ISSQN" />
+    <property name="Pis" column="PIS" />
+    <property name="Cofins" column="COFINS" />
+    <property name="Ipi" column="IPI" />
+    <property name="TaxaAcrescimo" column="TAXA_ACRESCIMO" />
+    <property name="Acrescimo" column="ACRESCIMO" />
+    <property name="AcrescimoItens" column="ACRESCIMO_ITENS" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="Desconto" column="DESCONTO" />
+    <property name="DescontoItens" column="DESCONTO_ITENS" />
+    <property name="Cancelada" column="CANCELADA" />
+    <property name="TipoNota" column="TIPO_NOTA" />
+  </class>
+</hibernate-mapping>

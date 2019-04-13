@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PatrimonioService" namespace="PatrimonioService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PatrimBemDTO" table="patrim_bem" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="PatrimTipoAquisicaoBem" column="ID_PATRIM_TIPO_AQUISICAO_BEM" />
+    <many-to-one name="PatrimEstadoConservacao" column="ID_PATRIM_ESTADO_CONSERVACAO" />
+    <many-to-one name="PatrimGrupoBem" column="ID_PATRIM_GRUPO_BEM" />
+    <many-to-one name="Setor" column="ID_SETOR" />
+    <many-to-one name="Fornecedor" column="ID_FORNECEDOR" />
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="NumeroNb" column="NUMERO_NB" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="NumeroSerie" column="NUMERO_SERIE" />
+    <property name="DataAquisicao" column="DATA_AQUISICAO" />
+    <property name="DataAceite" column="DATA_ACEITE" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="DataContabilizado" column="DATA_CONTABILIZADO" />
+    <property name="DataVistoria" column="DATA_VISTORIA" />
+    <property name="DataMarcacao" column="DATA_MARCACAO" />
+    <property name="DataBaixa" column="DATA_BAIXA" />
+    <property name="VencimentoGarantia" column="VENCIMENTO_GARANTIA" />
+    <property name="NumeroNotaFiscal" column="NUMERO_NOTA_FISCAL" />
+    <property name="ChaveNfe" column="CHAVE_NFE" />
+    <property name="ValorOriginal" column="VALOR_ORIGINAL" />
+    <property name="ValorCompra" column="VALOR_COMPRA" />
+    <property name="ValorAtualizado" column="VALOR_ATUALIZADO" />
+    <property name="ValorBaixa" column="VALOR_BAIXA" />
+    <property name="Deprecia" column="DEPRECIA" />
+    <property name="MetodoDepreciacao" column="METODO_DEPRECIACAO" />
+    <property name="InicioDepreciacao" column="INICIO_DEPRECIACAO" />
+    <property name="UltimaDepreciacao" column="ULTIMA_DEPRECIACAO" />
+    <property name="TipoDepreciacao" column="TIPO_DEPRECIACAO" />
+    <property name="TaxaAnualDepreciacao" column="TAXA_ANUAL_DEPRECIACAO" />
+    <property name="TaxaMensalDepreciacao" column="TAXA_MENSAL_DEPRECIACAO" />
+    <property name="TaxaDepreciacaoAcelerada" column="TAXA_DEPRECIACAO_ACELERADA" />
+    <property name="TaxaDepreciacaoIncentivada" column="TAXA_DEPRECIACAO_INCENTIVADA" />
+    <property name="Funcao" column="FUNCAO" />
+
+  </class>
+</hibernate-mapping>

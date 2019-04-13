@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProdutoDTO" table="produto" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="TributIcmsCustomCab" column="ID_TRIBUT_ICMS_CUSTOM_CAB" />
+    <many-to-one name="UnidadeProduto" column="ID_UNIDADE_PRODUTO" />
+    <many-to-one name="Almoxarifado" column="ID_ALMOXARIFADO" />
+    <many-to-one name="TributGrupoTributario" column="ID_GRUPO_TRIBUTARIO" />
+    <many-to-one name="ProdutoMarca" column="ID_MARCA_PRODUTO" />
+    <many-to-one name="ProdutoSubGrupo" column="ID_SUBGRUPO" />
+    <property name="gtin" column="GTIN" />
+    <property name="codigoInterno" column="CODIGO_INTERNO" />
+    <property name="ncm" column="NCM" />
+    <property name="nome" column="NOME" />
+    <property name="descricao" column="DESCRICAO" />
+    <property name="descricaoPdv" column="DESCRICAO_PDV" />
+    <property name="valorCompra" column="VALOR_COMPRA" />
+    <property name="valorVenda" column="VALOR_VENDA" />
+    <property name="precoVendaMinimo" column="PRECO_VENDA_MINIMO" />
+    <property name="precoSugerido" column="PRECO_SUGERIDO" />
+    <property name="custoMedioLiquido" column="CUSTO_MEDIO_LIQUIDO" />
+    <property name="precoLucroZero" column="PRECO_LUCRO_ZERO" />
+    <property name="precoLucroMinimo" column="PRECO_LUCRO_MINIMO" />
+    <property name="precoLucroMaximo" column="PRECO_LUCRO_MAXIMO" />
+    <property name="markup" column="MARKUP" />
+    <property name="quantidadeEstoque" column="QUANTIDADE_ESTOQUE" />
+    <property name="quantidadeEstoqueAnterior" column="QUANTIDADE_ESTOQUE_ANTERIOR" />
+    <property name="estoqueMinimo" column="ESTOQUE_MINIMO" />
+    <property name="estoqueMaximo" column="ESTOQUE_MAXIMO" />
+    <property name="estoqueIdeal" column="ESTOQUE_IDEAL" />
+    <property name="excluido" column="EXCLUIDO" />
+    <property name="inativo" column="INATIVO" />
+    <property name="dataCadastro" column="DATA_CADASTRO" />
+    <property name="exTipi" column="EX_TIPI" />
+    <property name="codigoLst" column="CODIGO_LST" />
+    <property name="classeAbc" column="CLASSE_ABC" />
+    <property name="iat" column="IAT" />
+    <property name="ippt" column="IPPT" />
+    <property name="tipoItemSped" column="TIPO_ITEM_SPED" />
+    <property name="peso" column="PESO" />
+    <property name="porcentoComissao" column="PORCENTO_COMISSAO" />
+    <property name="pontoPedido" column="PONTO_PEDIDO" />
+    <property name="loteEconomicoCompra" column="LOTE_ECONOMICO_COMPRA" />
+    <property name="aliquotaIcmsPaf" column="ALIQUOTA_ICMS_PAF" />
+    <property name="aliquotaIssqnPaf" column="ALIQUOTA_ISSQN_PAF" />
+    <property name="totalizadorParcial" column="TOTALIZADOR_PARCIAL" />
+    <property name="codigoBalanca" column="CODIGO_BALANCA" />
+    <property name="dataAlteracao" column="DATA_ALTERACAO" />
+    <property name="tipo" column="TIPO" />
+  </class>
+</hibernate-mapping>

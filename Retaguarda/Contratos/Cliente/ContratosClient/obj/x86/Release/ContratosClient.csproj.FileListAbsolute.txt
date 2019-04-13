@@ -1,0 +1,100 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\MainWindow.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\MainWindow.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ContratosClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ContratosClient.g.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ContratosClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Release\ContratosClient.exe.config
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Release\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Release\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Release\NPOI.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Release\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\ContratosClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\View\Contratos\ContratosPrincipal.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Release\View\Contratos\ContratosPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratosPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoTipoServico.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratosPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoTipoServico.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoTipoServicoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoTipoServicoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\ContratosClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoTipoServicoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\NPOI.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoTipoServicoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\TipoContrato.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\TipoContrato.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\TipoContratoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\TipoContratoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\TipoContratoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\TipoContratoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoSolicitacaoServico.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoSolicitacaoServico.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoSolicitacaoServicoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoSolicitacaoServicoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoSolicitacaoServicoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoSolicitacaoServicoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\Contrato.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\Contrato.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistFaturamento.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistFaturamento.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistFaturamentoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistFaturamentoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistFaturamentoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistFaturamentoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistoricoReajuste.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistoricoReajuste.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistoricoReajusteLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistoricoReajustePrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistoricoReajusteLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoHistoricoReajustePrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrevFaturamento.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrevFaturamento.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrevFaturamentoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrevFaturamentoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrevFaturamentoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\View\Contratos\ContratoPrevFaturamentoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\GEDClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\Microsoft.Practices.Prism.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Release\ContratosClient.csproj.ResolveComReference.cache

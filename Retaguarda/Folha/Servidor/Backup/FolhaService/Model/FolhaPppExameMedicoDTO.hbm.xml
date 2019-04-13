@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaPppExameMedicoDTO" table="folha_ppp_exame_medico" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdFolhaPpp" column="ID_FOLHA_PPP" />
+    <property name="DataUltimo" column="DATA_ULTIMO" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Natureza" column="NATUREZA" />
+    <property name="Exame" column="EXAME" />
+    <property name="IndicacaoResultados" column="INDICACAO_RESULTADOS" />
+  </class>
+</hibernate-mapping>

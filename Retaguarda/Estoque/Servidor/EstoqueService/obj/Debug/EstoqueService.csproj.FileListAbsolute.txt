@@ -1,0 +1,27 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\EstoqueService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\EstoqueService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\obj\Debug\EstoqueService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\EstoqueService\EstoqueService\obj\Debug\EstoqueService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueService\EstoqueService\bin\EstoqueService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueService\EstoqueService\bin\EstoqueService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueService\EstoqueService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueService\EstoqueService\obj\Debug\EstoqueService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueService\EstoqueService\obj\Debug\EstoqueService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueService\EstoqueService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueService\EstoqueService\obj\Debug\EstoqueService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueService\EstoqueService\bin\EstoqueService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueService\EstoqueService\bin\EstoqueService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueService\EstoqueService\obj\Debug\EstoqueService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\bin\EstoqueService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\bin\EstoqueService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\bin\EstoqueService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\obj\Debug\EstoqueService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\obj\Debug\EstoqueService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Servidor\EstoqueService\obj\Debug\EstoqueService.csprojResolveAssemblyReference.cache

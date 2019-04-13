@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeExportacaoDTO" table="nfe_exportacao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="Drawback" column="DRAWBACK" />
+    <property name="NumeroRegistro" column="NUMERO_REGISTRO" />
+    <property name="ChaveAcesso" column="CHAVE_ACESSO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+  </class>
+</hibernate-mapping>

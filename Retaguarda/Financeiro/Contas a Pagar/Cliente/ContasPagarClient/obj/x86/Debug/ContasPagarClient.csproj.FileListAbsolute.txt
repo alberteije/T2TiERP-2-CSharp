@@ -1,0 +1,222 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\bin\Debug\ContasPagarClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\bin\Debug\ContasPagarClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\bin\Debug\ContasPagarClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ContasPagarClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ContasPagarClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\TipoPagamentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\TipoPagamentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\TipoPagamentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\TipoPagamentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\TipoPagamentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\TipoPagamentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\DocumentoOrigemIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\DocumentoOrigemIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\DocumentoOrigemExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\DocumentoOrigemExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\DocumentoOrigemAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\DocumentoOrigemAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\StatusParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\StatusParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\StatusParcelaExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\StatusParcelaExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\StatusParcelaAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\StatusParcelaAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\LancamentoPagarIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\LancamentoPagarIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PagamentoParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PagamentoParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ParcelaPagamentoDetalheView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ParcelaPagamentoDetalheView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ParcelaPagamentoDetalheIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ParcelaPagamentoDetalheIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\LancamentoPagarExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\LancamentoPagarExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\LancamentoPagarAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\LancamentoPagarAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ParcelaPagarAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ParcelaPagarAlterarView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\ContasPagarClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ContasPagarPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\ContasPagarClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\ContasPagarClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ContasPagarPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceira.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceira.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceira.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceira.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcela.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcela.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagar.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagar.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagar.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagar.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceira.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceira.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagar.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagar.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasPagarClient\ContasPagarClient\obj\x86\Debug\ContasPagarClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\ContasPagarClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\ContasPagarClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\ContasPagarClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceira.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagar.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcela.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceira.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceira.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ContasPagarPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagar.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceira.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagar.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcela.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceira.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceira.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagar.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ContasPagarPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagar.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLancamentoPagarPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinLctoPagarNtFinanceiraPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinParcelaPagarPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinStatusParcelaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\FinTipoPagamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\NaturezaFinanceiraPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\PlanoNaturezaFinanceiraPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagar.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ContasPagar\ViewFinLancamentoPagarPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Pagar\Cliente\ContasPagarClient\obj\x86\Debug\ContasPagarClient.csproj.GenerateResource.Cache

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfOperadorDTO" table="ecf_operador" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_operador</param>
+      </generator>
+    </id>
+
+    <many-to-one name="EcfFuncionario" column="ID_ECF_FUNCIONARIO" />
+    <property name="Login" column="LOGIN" />
+    <property name="Senha" column="SENHA" />
+  </class>
+</hibernate-mapping>

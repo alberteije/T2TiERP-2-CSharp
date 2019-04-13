@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="WmsAgendamentoDTO" table="wms_agendamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="DataOperacao" column="DATA_OPERACAO" />
+    <property name="HoraOperacao" column="HORA_OPERACAO" />
+    <property name="LocalOperacao" column="LOCAL_OPERACAO" />
+    <property name="QuantidadeVolume" column="QUANTIDADE_VOLUME" />
+    <property name="PesoTotalVolume" column="PESO_TOTAL_VOLUME" />
+    <property name="QuantidadePessoa" column="QUANTIDADE_PESSOA" />
+    <property name="QuantidadeHora" column="QUANTIDADE_HORA" />
+  </class>
+</hibernate-mapping>

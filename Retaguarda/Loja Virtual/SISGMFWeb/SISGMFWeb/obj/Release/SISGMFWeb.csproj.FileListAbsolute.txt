@@ -1,0 +1,5 @@
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.dll
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.pdb
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\obj\Release\ResolveAssemblyReference.cache
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\obj\Release\SISGMFWeb.dll
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\obj\Release\SISGMFWeb.pdb

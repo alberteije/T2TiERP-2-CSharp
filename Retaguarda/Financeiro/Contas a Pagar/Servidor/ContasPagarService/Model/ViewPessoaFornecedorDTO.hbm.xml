@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContasPagarService" namespace="ContasPagarService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewPessoaFornecedorDTO" table="view_pessoa_fornecedor" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdPessoa" column="ID_PESSOA" />
+    <property name="IdAtividadeForCli" column="ID_ATIVIDADE_FOR_CLI" />
+    <property name="IdSituacaoForCli" column="ID_SITUACAO_FOR_CLI" />
+    <property name="Desde" column="DESDE" />
+    <property name="OptanteSimplesNacional" column="OPTANTE_SIMPLES_NACIONAL" />
+    <property name="Localizacao" column="LOCALIZACAO" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="SofreRetencao" column="SOFRE_RETENCAO" />
+    <property name="ChequeNominalA" column="CHEQUE_NOMINAL_A" />
+    <property name="Observacao" column="OBSERVACAO" />
+    <property name="ContaRemetente" column="CONTA_REMETENTE" />
+    <property name="PrazoMedioEntrega" column="PRAZO_MEDIO_ENTREGA" />
+    <property name="GeraFaturamento" column="GERA_FATURAMENTO" />
+    <property name="NumDiasPrimeiroVencimento" column="NUM_DIAS_PRIMEIRO_VENCIMENTO" />
+    <property name="NumDiasIntervalo" column="NUM_DIAS_INTERVALO" />
+    <property name="QuantidadeParcelas" column="QUANTIDADE_PARCELAS" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="Cidade" column="CIDADE" />
+    <property name="Cep" column="CEP" />
+    <property name="MunicipioIbge" column="MUNICIPIO_IBGE" />
+    <property name="Uf" column="UF" />
+    <property name="Fone" column="FONE" />
+    <property name="Nome" column="NOME" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Email" column="EMAIL" />
+    <property name="Site" column="SITE" />
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinPagamentoFixoDTO" table="fin_pagamento_fixo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="PagamentoCompartilhado" column="PAGAMENTO_COMPARTILHADO" />
+    <property name="QuantidadeParcela" column="QUANTIDADE_PARCELA" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="ValorAPagar" column="VALOR_A_PAGAR" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="NumeroDocumento" column="NUMERO_DOCUMENTO" />
+    <property name="ImagemDocumento" column="IMAGEM_DOCUMENTO" />
+    <property name="PrimeiroVencimento" column="PRIMEIRO_VENCIMENTO" />
+    <property name="IntervaloEntreParcelas" column="INTERVALO_ENTRE_PARCELAS" />
+  </class>
+</hibernate-mapping>

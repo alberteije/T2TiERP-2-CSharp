@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ComprasService" namespace="ComprasService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CompraCotacaoDTO" table="compra_cotacao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="DataCotacao" column="DATA_COTACAO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Situacao" column="SITUACAO" />
+  </class>
+</hibernate-mapping>

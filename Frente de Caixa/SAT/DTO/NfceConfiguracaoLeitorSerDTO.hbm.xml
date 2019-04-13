@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfceConfiguracaoLeitorSerDTO" table="nfce_configuracao_leitor_ser" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Usa" column="USA" />
+    <property name="Porta" column="PORTA" />
+    <property name="Baud" column="BAUD" />
+    <property name="HandShake" column="HAND_SHAKE" />
+    <property name="Parity" column="PARITY" />
+    <property name="StopBits" column="STOP_BITS" />
+    <property name="DataBits" column="DATA_BITS" />
+    <property name="Intervalo" column="INTERVALO" />
+    <property name="UsarFila" column="USAR_FILA" />
+    <property name="HardFlow" column="HARD_FLOW" />
+    <property name="SoftFlow" column="SOFT_FLOW" />
+    <property name="Sufixo" column="SUFIXO" />
+    <property name="ExcluirSufixo" column="EXCLUIR_SUFIXO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContabilidadeClient.View.Contabilidade.ContabilParametros" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="800">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.Mascara}" Height="23" Width="330" Margin="6,25,0,0"  />
+			<Label Content="Mascara:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.Niveis}" Height="23" Width="100" Margin="344,25,0,0"  />
+			<Label Content="Niveis:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="344,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="180" SelectedValue="{Binding ContabilParametrosSelected.InformarContaPor}" SelectedValuePath="Tag" Margin="456,25,0,0" >
+                <ComboBoxItem Content="Código" Tag="C" />
+                <ComboBoxItem Content="Máscara" Tag="M" />
+			</ComboBox>
+			<Label Content="Informar Conta Por:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="456,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="150" SelectedValue="{Binding ContabilParametrosSelected.CompartilhaPlanoConta}" SelectedValuePath="Tag" Margin="641,25,0,0" >
+                <ComboBoxItem Content="Sim" Tag="S" />
+                <ComboBoxItem Content="Não" Tag="N" />
+            </ComboBox>
+			<Label Content="Compartilha Plano Conta:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="641,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="126" SelectedValue="{Binding ContabilParametrosSelected.CompartilhaHistoricos}" SelectedValuePath="Tag" Margin="6,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Compartilha Historicos:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="175" SelectedValue="{Binding ContabilParametrosSelected.AlteraLancamentoOutro}" SelectedValuePath="Tag" Margin="138,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Altera Lançamento Outro Sistema:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="138,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="110" SelectedValue="{Binding ContabilParametrosSelected.HistoricoObrigatorio}" SelectedValuePath="Tag" Margin="319,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Historico Obrigatório:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ContabilParametrosSelected.PermiteLancamentoZerado}" SelectedValuePath="Tag" Margin="438,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Lançamento Zerado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="438,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ContabilParametrosSelected.GeraInformativoSped}" SelectedValuePath="Tag" Margin="546,73,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Gera Sped:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="546,54,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="137" SelectedValue="{Binding ContabilParametrosSelected.SpedFormaEscritDiario}" SelectedValuePath="Tag" Margin="652,73,0,0" >
+				<ComboBoxItem Content="Livro Diário Completo" Tag="LDC" />
+				<ComboBoxItem Content="Livro Diário com Escrituração Resumida" Tag="LDE" />
+                <ComboBoxItem Content="Livro Balancete Diário e Balanços" Tag="LBD" />
+            </ComboBox>
+			<Label Content="Forma Escrit Sped:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="652,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.SpedNomeLivroDiario}" Height="23" Width="783" Margin="6,121,0,0"  />
+			<Label Content="Nome Livro Sped:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.AssinaturaDireita}" Height="23" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="399" Margin="6,173,0,0"  />
+			<Label Content="Assinatura Direita:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,154,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.AssinaturaEsquerda}" Height="23" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="378" Margin="411,173,0,0"  />
+			<Label Content="Assinatura Esquerda:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="411,154,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaAtivo}" Height="23" Width="150" Margin="6,228,0,0"  />
+			<Label Content="Conta Ativo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,209,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaPassivo}" Height="23" Width="150" Margin="163,228,0,0"  />
+			<Label Content="Conta Passivo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,209,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaPatrimonioLiquido}" Height="23" Width="150" Margin="319,228,0,0"  />
+			<Label Content="Conta Patrimonio Liquido:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,209,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaDepreciacaoAcumulada}" Height="23" Width="150" Margin="475,228,0,0"  />
+			<Label Content="Conta Depreciacao Acumulada:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="475,209,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaCapitalSocial}" Height="23" Width="150" Margin="631,228,0,0"  />
+			<Label Content="Conta Capital Social:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="631,209,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaResultadoExercicio}" Height="23" Width="150" Margin="6,277,0,0"  />
+			<Label Content="Conta Resultado Exercicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,258,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaPrejuizoAcumulado}" Height="23" Width="150" Margin="163,277,0,0"  />
+			<Label Content="Conta Prejuizo Acumulado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,258,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaLucroAcumulado}" Height="23" Width="150" Margin="319,277,0,0"  />
+			<Label Content="Conta Lucro Acumulado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,258,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaTituloPagar}" Height="23" Width="150" Margin="475,277,0,0"  />
+			<Label Content="Conta Titulo a Pagar:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="475,258,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaTituloReceber}" Height="23" Width="150" Margin="631,277,0,0"  />
+			<Label Content="Conta Titulo a Receber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="631,258,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaJurosPassivo}" Height="23" Width="150" Margin="6,325,0,0"  />
+			<Label Content="Conta Juros Passivo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,306,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaJurosAtivo}" Height="23" Width="150" Margin="163,325,0,0"  />
+			<Label Content="Conta Juros Ativo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,306,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaDescontoObtido}" Height="23" Width="150" Margin="319,325,0,0"  />
+			<Label Content="Conta Desconto Obtido:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,306,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaDescontoConcedido}" Height="23" Width="150" Margin="475,325,0,0"  />
+			<Label Content="Conta Desconto Concedido:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="475,306,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaCmv}" Height="23" Width="150" Margin="631,325,0,0"  />
+			<Label Content="Conta CMV:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="631,306,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaVenda}" Height="23" Width="150" Margin="6,374,0,0"  />
+			<Label Content="Conta Venda:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,355,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaVendaServico}" Height="23" Width="150" Margin="163,374,0,0"  />
+			<Label Content="Conta Venda Servico:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,355,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaEstoque}" Height="23" Width="150" Margin="319,374,0,0"  />
+			<Label Content="Conta Estoque:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,355,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaApuraResultado}" Height="23" Width="150" Margin="477,374,0,0"  />
+			<Label Content="Conta Apura Resultado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="477,355,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.ContaJurosApropriar}" Height="23" Width="150" Margin="631,374,0,0"  />
+			<Label Content="Conta Juros Apropriar:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="631,355,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.IdHistPadraoResultado}" Height="23" Width="150" Margin="6,421,0,0"  />
+			<Label Content="Histórico Padrão Resultado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,402,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.IdHistPadraoLucro}" Height="23" Width="150" Margin="163,421,0,0"  />
+            <Label Content="Histórico Padrão Lucro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="163,402,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilParametrosSelected.IdHistPadraoPrejuizo}" Height="23" Width="150" Margin="319,421,0,0"  />
+            <Label Content="Histórico Padrão Prejuizo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,402,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

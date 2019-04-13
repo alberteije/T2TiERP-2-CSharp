@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaLancamentoDetalheDTO" table="folha_lancamento_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="FolhaEvento" column="ID_FOLHA_EVENTO" />
+    <property name="IdFolhaLancamentoCabecalho" column="ID_FOLHA_LANCAMENTO_CABECALHO" />
+    <property name="Origem" column="ORIGEM" />
+    <property name="Provento" column="PROVENTO" />
+    <property name="Desconto" column="DESCONTO" />
+  </class>
+</hibernate-mapping>

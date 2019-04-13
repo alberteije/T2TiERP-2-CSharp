@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="ColaboradorDTO" table="colaborador"  >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="pessoa">
+      <column name="ID_PESSOA" sql-type="int(10) unsigned" not-null="true" />
+    </many-to-one>
+    <property name="matricula">
+      <column name="MATRICULA" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="foto34">
+      <column name="FOTO_34" sql-type="text" not-null="false" />
+    </property>
+    <property name="dataCadastro">
+      <column name="DATA_CADASTRO" sql-type="date" not-null="false" />
+    </property>
+    <property name="dataAdmissao">
+      <column name="DATA_ADMISSAO" sql-type="date" not-null="false" />
+    </property>
+    <property name="vencimentoFerias">
+      <column name="VENCIMENTO_FERIAS" sql-type="date" not-null="false" />
+    </property>
+    <property name="dataTransferencia">
+      <column name="DATA_TRANSFERENCIA" sql-type="date" not-null="false" />
+    </property>
+    <property name="fgtsOptante">
+      <column name="FGTS_OPTANTE" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="fgtsDataOpcao">
+      <column name="FGTS_DATA_OPCAO" sql-type="date" not-null="false" />
+    </property>
+    <property name="fgtsConta">
+      <column name="FGTS_CONTA" sql-type="int(10) unsigned" not-null="false" />
+    </property>
+    <property name="pagamentoForma">
+      <column name="PAGAMENTO_FORMA" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="pagamentoBanco">
+      <column name="PAGAMENTO_BANCO" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="pagamentoAgencia">
+      <column name="PAGAMENTO_AGENCIA" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="pagamentoAgenciaDigito">
+      <column name="PAGAMENTO_AGENCIA_DIGITO" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="pagamentoConta">
+      <column name="PAGAMENTO_CONTA" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="pagamentoContaDigito">
+      <column name="PAGAMENTO_CONTA_DIGITO" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="exameMedicoUltimo">
+      <column name="EXAME_MEDICO_ULTIMO" sql-type="date" not-null="false" />
+    </property>
+    <property name="exameMedicoVencimento">
+      <column name="EXAME_MEDICO_VENCIMENTO" sql-type="date" not-null="false" />
+    </property>
+    <property name="pisDataCadastro">
+      <column name="PIS_DATA_CADASTRO" sql-type="date" not-null="false" />
+    </property>
+    <property name="pisNumero">
+      <column name="PIS_NUMERO" sql-type="varchar(12)" not-null="false" />
+    </property>
+    <property name="pisBanco">
+      <column name="PIS_BANCO" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="pisAgencia">
+      <column name="PIS_AGENCIA" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="pisAgenciaDigito">
+      <column name="PIS_AGENCIA_DIGITO" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="ctpsNumero">
+      <column name="CTPS_NUMERO" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="ctpsSerie">
+      <column name="CTPS_SERIE" sql-type="varchar(10)" not-null="false" />
+    </property>
+    <property name="ctpsDataExpedicao">
+      <column name="CTPS_DATA_EXPEDICAO" sql-type="date" not-null="false" />
+    </property>
+    <property name="ctpsUf">
+      <column name="CTPS_UF" sql-type="char(2)" not-null="false" />
+    </property>
+    <property name="descontoPlanoSaude">
+      <column name="DESCONTO_PLANO_SAUDE" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="saiNaRais">
+      <column name="SAI_NA_RAIS" sql-type="char(1)" not-null="false" />
+    </property>
+    <property name="categoriaSefip">
+      <column name="CATEGORIA_SEFIP" sql-type="char(2)" not-null="false" />
+    </property>
+    <property name="observacao">
+      <column name="OBSERVACAO" sql-type="text" not-null="false" />
+    </property>
+    <property name="ocorrenciaSefip">
+      <column name="OCORRENCIA_SEFIP" sql-type="int(10) unsigned" not-null="false" />
+    </property>
+    <property name="codigoAdmissaoCaged">
+      <column name="CODIGO_ADMISSAO_CAGED" sql-type="int(10) unsigned" not-null="false" />
+    </property>
+    <property name="codigoDemissaoCaged">
+      <column name="CODIGO_DEMISSAO_CAGED" sql-type="int(10) unsigned" not-null="false" />
+    </property>
+    <property name="codigoDemissaoSefip">
+      <column name="CODIGO_DEMISSAO_SEFIP" sql-type="int(10) unsigned" not-null="false" />
+    </property>
+    <property name="dataDemissao">
+      <column name="DATA_DEMISSAO" sql-type="date" not-null="false" />
+    </property>
+    <property name="codigoTurmaPonto">
+      <column name="CODIGO_TURMA_PONTO" sql-type="char(5)" not-null="false" />
+    </property>
+
+  </class>
+</hibernate-mapping>

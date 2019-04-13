@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfChequeClienteDTO" table="ecf_cheque_cliente" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_cheque_cliente</param>
+      </generator>
+    </id>
+
+
+    <many-to-one name="Banco" column="ID_BANCO" />
+    <many-to-one name="Cliente" column="ID_CLIENTE" />
+    <property name="IdEcfMovimento" column="ID_ECF_MOVIMENTO" />
+    <property name="NumeroCheque" column="NUMERO_CHEQUE" />
+    <property name="DataCheque" column="DATA_CHEQUE" />
+    <property name="ValorCheque" column="VALOR_CHEQUE" />
+    <property name="Observacoes" column="OBSERVACOES" />
+    <property name="Agencia" column="AGENCIA" />
+    <property name="Conta" column="CONTA" />
+    <property name="TipoCheque" column="TIPO_CHEQUE" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="VendasClient.View.Vendas.VendaDetalhe" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="80" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+            <Button Name="btSair" Width="80" Height="20">
+                <StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.Id}" Height="23" Width="26" Margin="6,25,0,0" IsReadOnly="True" IsEnabled="False" />
+			<Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding VendaDetalheSelected.Produto.Nome}" Height="23" Width="138" Margin="38,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarProduto" Click="btPesquisarProduto_Click" Margin="182,24,0,0"  />
+			<Label Content="Produto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding VendaDetalheSelected.VendaCabecalho.NumeroFatura}" Height="23" Width="62" Margin="218,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarVendaCabecalho" Click="btPesquisarVendaCabecalho_Click" Margin="286,24,0,0"  />
+			<Label Content="Venda" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.Quantidade}" Height="23" Width="100" Margin="324,25,0,0"  />
+			<Label Content="Quantidade" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.ValorUnitario}" Height="23" Width="100" Margin="430,25,0,0"  />
+			<Label Content="Valor Unitario" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.ValorSubtotal}" Height="23" Width="100" Margin="536,25,0,0"  />
+			<Label Content="Valor Subtotal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.TaxaDesconto}" Height="23" Width="100" Margin="6,73,0,0"  />
+			<Label Content="Taxa Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.ValorDesconto}" Height="23" Width="100" Margin="112,73,0,0"  />
+			<Label Content="Valor Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.ValorTotal}" Height="23" Width="100" Margin="218,73,0,0"  />
+			<Label Content="Valor Total" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.TaxaComissao}" Height="23" Width="100" Margin="324,73,0,0"  />
+			<Label Content="Taxa Comissao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding VendaDetalheSelected.ValorComissao}" Height="23" Width="100" Margin="430,73,0,0"  />
+			<Label Content="Valor Comissao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,54,0,0"  />
+        </Grid>
+	</DockPanel>
+</UserControl>

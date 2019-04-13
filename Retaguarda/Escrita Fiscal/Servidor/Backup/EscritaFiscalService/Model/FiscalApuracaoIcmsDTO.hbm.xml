@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EscritaFiscalService" namespace="EscritaFiscalService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FiscalApuracaoIcmsDTO" table="fiscal_apuracao_icms" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Competencia" column="COMPETENCIA" />
+    <property name="ValorTotalDebito" column="VALOR_TOTAL_DEBITO" />
+    <property name="ValorAjusteDebito" column="VALOR_AJUSTE_DEBITO" />
+    <property name="ValorTotalAjusteDebito" column="VALOR_TOTAL_AJUSTE_DEBITO" />
+    <property name="ValorEstornoCredito" column="VALOR_ESTORNO_CREDITO" />
+    <property name="ValorTotalCredito" column="VALOR_TOTAL_CREDITO" />
+    <property name="ValorAjusteCredito" column="VALOR_AJUSTE_CREDITO" />
+    <property name="ValorTotalAjusteCredito" column="VALOR_TOTAL_AJUSTE_CREDITO" />
+    <property name="ValorEstornoDebito" column="VALOR_ESTORNO_DEBITO" />
+    <property name="ValorSaldoCredorAnterior" column="VALOR_SALDO_CREDOR_ANTERIOR" />
+    <property name="ValorSaldoApurado" column="VALOR_SALDO_APURADO" />
+    <property name="ValorTotalDeducao" column="VALOR_TOTAL_DEDUCAO" />
+    <property name="ValorIcmsRecolher" column="VALOR_ICMS_RECOLHER" />
+    <property name="ValorSaldoCredorTransp" column="VALOR_SALDO_CREDOR_TRANSP" />
+    <property name="ValorDebitoEspecial" column="VALOR_DEBITO_ESPECIAL" />
+  </class>
+</hibernate-mapping>

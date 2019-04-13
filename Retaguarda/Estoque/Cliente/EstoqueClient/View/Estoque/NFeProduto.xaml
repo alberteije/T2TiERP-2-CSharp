@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="EstoqueClient.View.Estoque.NFeProduto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"                          
+             xmlns:local="clr-namespace:EstoqueClient.View.Estoque"             
+             xmlns:util="clr-namespace:EstoqueClient.Util"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+        <ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:TypeExtension TypeName="expfmt:Formato"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <DockPanel LastChildFill="True">
+        <GroupBox Header="Produto" DockPanel.Dock="Top">
+        <Grid >
+            <TextBox IsReadOnly="True" Height="23" Margin="12,40,0,0" Text="{Binding produtoSelected.nome}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="170" MaxLength="2" />
+            <Label Content="Nome" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label4" Padding="0" VerticalContentAlignment="Center" Width="153" Height="22" VerticalAlignment="Top" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="332,41,0,0" Text="{Binding produtoSelected.gtin}" VerticalAlignment="Top" Width="119" HorizontalContentAlignment="Right" />
+            <Label Content="GTIN" Height="22" HorizontalAlignment="Left" Margin="333,13,0,0" Name="label5" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="89" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="462,41,0,0" Name="tbQuantidade" VerticalAlignment="Top" Width="82" HorizontalContentAlignment="Right" TextChanged="tbQuantidade_TextChanged" />
+                <Label Content="Quantidade" Height="22" HorizontalAlignment="Left" Margin="463,13,0,0" Name="label18" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" />
+                <TextBox IsReadOnly="True" Height="23" HorizontalAlignment="Left" Margin="559,41,0,0" Name="tbValor" Text="{Binding produtoSelected.valorVenda,Converter={StaticResource moedaFormat}}"  VerticalAlignment="Top" Width="106" HorizontalContentAlignment="Right" />
+                <Label Content="Valor unitário" Height="22" HorizontalAlignment="Left" Margin="559,13,0,0" Name="label19" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="93" />
+                <Button Content="..." Height="22" HorizontalAlignment="Left" Margin="188,40,0,0" Name="btPesquisarProduto" VerticalAlignment="Top" Width="33" Click="btPesquisarProduto_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="678,40,0,0" Name="tbValorTotal" Text="{Binding nfeSelected.produtoSelected.valorVenda ,Converter={StaticResource moedaFormat}}" VerticalAlignment="Top" Width="106" HorizontalContentAlignment="Right" />
+                <Label Content="Valor total" Height="22" HorizontalAlignment="Left" Margin="678,13,0,0" Name="label1" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="93" />
+                <TextBox Height="23" Text="{Binding detalheNFe.cfop}" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="237,41,0,0" Name="textBox1" VerticalAlignment="Top" Width="82" />
+                <Label Content="CFOP" Height="22" HorizontalAlignment="Left" Margin="238,13,0,0" Name="label2" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" />
+            </Grid>
+        </GroupBox>
+        <StackPanel DockPanel.Dock="top" HorizontalAlignment="Right" Orientation="Horizontal"  Margin="0,5,0,0" >
+            <Button Name="btIncluir" Width="100" Click="btIncluir_Click">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                    <TextBlock Text="Incluir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Button Name="btExcluir" Width="100" Click="btExcluir_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Imagem/21botaoCancelaCupom.png" Height="23"></Image>
+                    <TextBlock Text="Excluir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True"
+                          CanUserAddRows="False" CanUserDeleteRows="False"
+                          ItemsSource="{Binding nfeSelected.listaDetalhe}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#" Width="Auto" 
+                                                            Binding="{Binding Path=numeroItem}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="GTIN" Width="Auto" 
+                                                            Binding="{Binding Path=gtin}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Produto" Width="Auto" 
+                                                            Binding="{Binding Path=nomeProduto}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Qtd." Width="Auto" 
+                                                            Binding="{Binding Path=quantidadeComercial}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Valor und." Width="Auto" 
+                                                            Binding="{Binding Path=valorUnitarioComercial
+                                                           ,Converter={StaticResource moedaFormat}}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>                
+                
+                <DataGridTextColumn Header="Valor total" Width="Auto" 
+                                                            Binding="{Binding Path=valorTotal
+                                                           ,Converter={StaticResource moedaFormat}}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+
+
+</UserControl>

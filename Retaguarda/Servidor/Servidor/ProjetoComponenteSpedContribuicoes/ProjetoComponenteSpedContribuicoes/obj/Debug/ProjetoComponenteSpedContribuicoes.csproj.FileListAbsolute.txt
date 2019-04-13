@@ -1,0 +1,3 @@
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Debug\ProjetoComponenteSpedContribuicoes.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Debug\ProjetoComponenteSpedContribuicoes.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\ProjetoComponenteSpedContribuicoes.csprojResolveAssemblyReference.cache

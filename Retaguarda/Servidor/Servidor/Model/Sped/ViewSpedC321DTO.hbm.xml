@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewSpedC321DTO" table="view_sped_c321" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdProduto" column="ID_PRODUTO" />
+    <property name="DescricaoUnidade" column="DESCRICAO_UNIDADE" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="SomaQuantidade" column="SOMA_QUANTIDADE" />
+    <property name="SomaItem" column="SOMA_ITEM" />
+    <property name="SomaDesconto" column="SOMA_DESCONTO" />
+    <property name="SomaBaseIcms" column="SOMA_BASE_ICMS" />
+    <property name="SomaIcms" column="SOMA_ICMS" />
+    <property name="SomaPis" column="SOMA_PIS" />
+    <property name="SomaCofins" column="SOMA_COFINS" />
+  </class>
+</hibernate-mapping>

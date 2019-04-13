@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81966DFD-8331-4B1E-AD1E-C17A676E86E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NFe</RootNamespace>
+    <AssemblyName>NFe</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastReport, Version=2016.4.2.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\FastReports\FastReport.Net Trial\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Classes">
+      <HintPath>..\..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Servicos">
+      <HintPath>..\..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Servicos.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Utils">
+      <HintPath>..\..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="NFe.Wsdl">
+      <HintPath>..\..\..\..\..\..\Componentes\C#\Zeus\NFe.Servicos\bin\Debug\NFe.Wsdl.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\ButtonExport\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NRtfTree, Version=0.3.3503.32553, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\ButtonExport\NRtfTree.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SearchWindow">
+      <HintPath>..\..\..\libs\SearchWindow\SearchWindow.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Service References\ServidorReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Util\BooleanCharConverter.cs" />
+    <Compile Include="Util\CloseableTabItem.cs" />
+    <Compile Include="Util\ConfiguracaoApp.cs" />
+    <Compile Include="Util\Funcoes.cs" />
+    <Compile Include="Util\InputBoxWindow.xaml.cs">
+      <DependentUpon>InputBoxWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\MoedaFormat.cs" />
+    <Compile Include="Util\RadioStringConverter.cs" />
+    <Compile Include="ViewModel\NFeViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\NFeCupomVinculado.xaml.cs">
+      <DependentUpon>NFeCupomVinculado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeDados.xaml.cs">
+      <DependentUpon>NFeDados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeDadosBasicos.xaml.cs">
+      <DependentUpon>NFeDadosBasicos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeDestinatario.xaml.cs">
+      <DependentUpon>NFeDestinatario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeEntregaRetirada.xaml.cs">
+      <DependentUpon>NFeEntregaRetirada.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeFatura.xaml.cs">
+      <DependentUpon>NFeFatura.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeMenu.xaml.cs">
+      <DependentUpon>NFeMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFePrincipal.xaml.cs">
+      <DependentUpon>NFePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Botoes\BarraExterna.xaml.cs">
+      <DependentUpon>BarraExterna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Botoes\BarraInterna.xaml.cs">
+      <DependentUpon>BarraInterna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeProduto.xaml.cs">
+      <DependentUpon>NFeProduto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeTransporte.xaml.cs">
+      <DependentUpon>NFeTransporte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NFeView.xaml.cs">
+      <DependentUpon>NFeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="ExportarParaArquivo\Control\ButtonExport.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorCSV.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorExcel.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorRTF.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorTXT.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\IExportador.cs" />
+    <Compile Include="ExportarParaArquivo\Exportar.cs" />
+    <Page Include="themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Util\InputBoxWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeCupomVinculado.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeDados.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeDadosBasicos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeDestinatario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeEntregaRetirada.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeFatura.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Botoes\BarraExterna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Botoes\BarraInterna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeProduto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeTransporte.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\NFeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\ServicoNFe.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Images\ged\Thumbs.db" />
+    <None Include="Images\internos\Thumbs.db" />
+    <None Include="Images\navigator\Thumbs.db" />
+    <None Include="Images\Thumbs.db" />
+    <None Include="Images\titulos\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Relatorios\EMBALAGEM.frx" />
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.AlmoxarifadoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.AtividadeForCliDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.BancoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CargoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CboDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ColaboradorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ComissaoObjetivoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ComissaoPerfilDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraCotacaoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraCotacaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraCotacaoPedidoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraFornecedorCotacaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraPedidoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraPedidoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraReqCotacaoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraRequisicaoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraRequisicaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraTipoPedidoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.CompraTipoRequisicaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ContadorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.DavCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.EmpresaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.EstadoCivilDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.EstoqueReajusteCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.FiscalApuracaoIcmsDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.FiscalLivroDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.FiscalParametroDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.FiscalTermoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.InventarioContagemCabDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.NfeCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.NotaFiscalTipoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.OperadoraPlanoSaudeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PaisDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpInstrucaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpInstrucaoOpDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpOpCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpOpDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpServicoColaboradorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpServicoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PcpServicoEquipamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PessoaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.PreVendaCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ProdutoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ProdutoMarcaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ProdutoSubGrupoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.RegistroCartorioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.SimplesNacionalCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.TributGrupoTributarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.TributIcmsCustomCabDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.TributOperacaoFiscalDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.UnidadeProdutoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ViewTributacaoCofinsDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ViewTributacaoIcmsDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\NFe.ServidorReference.ViewTributacaoPisDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServidorReference\ServiceServidor.wsdl" />
+    <None Include="Service References\ServidorReference\Servidor.xsd" />
+    <None Include="Service References\ServidorReference\Servidor1.xsd" />
+    <None Include="Service References\ServidorReference\Servidor2.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExportarParaArquivo\Libs\Ionic.Zip.dll" />
+    <Content Include="ExportarParaArquivo\Libs\NPOI.dll" />
+    <Content Include="ExportarParaArquivo\Libs\NRtfTree.dll" />
+    <None Include="Service References\ServidorReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServidorReference\configuration.svcinfo" />
+    <None Include="Service References\ServidorReference\configuration91.svcinfo" />
+    <Resource Include="Images\titulos\nfe128.png" />
+    <Resource Include="Images\titulos\nfe16.png" />
+    <Resource Include="Images\titulos\nfe32.png" />
+    <Resource Include="Images\titulos\nfe48.png" />
+    <Resource Include="Images\botaoCancelar.png" />
+    <Resource Include="Images\botaoConfirmar.png" />
+    <Resource Include="Images\ged\assinado.png" />
+    <Resource Include="Images\ged\bi.png" />
+    <Resource Include="Images\ged\cracha.png" />
+    <Resource Include="Images\ged\document.png" />
+    <Resource Include="Images\ged\ficha.png" />
+    <Resource Include="Images\ged\folder.png" />
+    <Resource Include="Images\ged\foto.png" />
+    <Resource Include="Images\ged\preview.png" />
+    <Resource Include="Images\ged\scanner.png" />
+    <Resource Include="Images\ged\webcam.png" />
+    <Resource Include="Images\internos\alterar.png" />
+    <Resource Include="Images\internos\cancelar.png" />
+    <Resource Include="Images\internos\csv.png" />
+    <Resource Include="Images\internos\excluir.png" />
+    <Resource Include="Images\internos\exportar.png" />
+    <Resource Include="Images\internos\imprimir.png" />
+    <Resource Include="Images\internos\inserir.png" />
+    <Resource Include="Images\internos\localizar.png" />
+    <Resource Include="Images\internos\rtf.png" />
+    <Resource Include="Images\internos\salvar.png" />
+    <Resource Include="Images\internos\seguranca.png" />
+    <Resource Include="Images\internos\txt.png" />
+    <Resource Include="Images\internos\xls.png" />
+    <Resource Include="Images\login.jpg" />
+    <Resource Include="Images\navigator\first16.png" />
+    <Resource Include="Images\navigator\first16d.png" />
+    <Resource Include="Images\navigator\last16.png" />
+    <Resource Include="Images\navigator\last16d.png" />
+    <Resource Include="Images\navigator\next16.png" />
+    <Resource Include="Images\navigator\next16d.png" />
+    <Resource Include="Images\navigator\page-next16.png" />
+    <Resource Include="Images\navigator\page-next16d.png" />
+    <Resource Include="Images\navigator\page-prior16.png" />
+    <Resource Include="Images\navigator\page-prior16d.png" />
+    <Resource Include="Images\navigator\prior16.png" />
+    <Resource Include="Images\navigator\prior16d.png" />
+    <Resource Include="Images\porta.png" />
+    <Resource Include="Images\titulos\Caduceus-16.png" />
+    <Resource Include="Images\titulos\Caduceus-32.png" />
+    <Resource Include="Images\titulos\Caduceus-48.png" />
+    <Resource Include="Images\titulos\Caduceus-64.png" />
+    <Resource Include="Images\titulos\calendario16.png" />
+    <Resource Include="Images\titulos\calendario32.png" />
+    <Resource Include="Images\titulos\calendario48.png" />
+    <Resource Include="Images\titulos\cargo16.png" />
+    <Resource Include="Images\titulos\cargo32.png" />
+    <Resource Include="Images\titulos\cargo48.png" />
+    <Resource Include="Images\titulos\colaborador16.png" />
+    <Resource Include="Images\titulos\colaborador32.png" />
+    <Resource Include="Images\titulos\colaborador48.png" />
+    <Resource Include="Images\titulos\dav16.png" />
+    <Resource Include="Images\titulos\dav32.png" />
+    <Resource Include="Images\titulos\dav48.png" />
+    <Resource Include="Images\titulos\ncm16.png" />
+    <Resource Include="Images\titulos\ncm32.png" />
+    <Resource Include="Images\titulos\ncm48.png" />
+    <Resource Include="Images\titulos\porta32.png" />
+    <Resource Include="Images\titulos\preVenda16.png" />
+    <Resource Include="Images\titulos\preVenda32.png" />
+    <Resource Include="Images\titulos\preVenda48.png" />
+    <Resource Include="Images\titulos\produto16.png" />
+    <Resource Include="Images\titulos\produto32.png" />
+    <Resource Include="Images\titulos\produto48.png" />
+    <Resource Include="Images\titulos\SpedFiscal128.png" />
+    <Resource Include="Images\titulos\SpedFiscal16.png" />
+    <Resource Include="Images\titulos\SpedFiscal256.png" />
+    <Resource Include="Images\titulos\SpedFiscal32.png" />
+    <Resource Include="Images\titulos\SpedFiscal48.png" />
+    <Resource Include="Images\titulos\SpedFiscal64.png" />
+    <Resource Include="Images\titulos\t2ti32.png" />
+    <Resource Include="Images\titulos\usuario16.png" />
+    <Resource Include="Images\titulos\usuario32.png" />
+    <Resource Include="Images\titulos\usuario48.png" />
+    <Resource Include="Images\titulos\usuarioAcesso32.png" />
+    <Resource Include="Images\titulos\usuarioAcesso48.png" />
+    <Resource Include="Images\titulos\usuarioAcesso64.png" />
+    <Resource Include="Images\titulos\vendedor16.png" />
+    <Resource Include="Images\titulos\vendedor32.png" />
+    <Resource Include="Images\titulos\vendedor48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServidorReference\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

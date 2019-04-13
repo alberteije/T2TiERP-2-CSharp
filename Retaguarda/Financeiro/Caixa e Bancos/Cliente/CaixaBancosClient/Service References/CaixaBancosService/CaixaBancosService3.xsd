@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2668/CaixaBancosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" />
+  <xs:element name="deleteFinFechamentoCaixaBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="finFechamentoCaixaBanco" nillable="true" type="q1:FinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFinFechamentoCaixaBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFinFechamentoCaixaBancoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinFechamentoCaixaBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="finFechamentoCaixaBanco" nillable="true" type="q2:FinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFinFechamentoCaixaBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="salvarAtualizarFinFechamentoCaixaBancoResult" nillable="true" type="q3:FinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinFechamentoCaixaBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="finFechamentoCaixaBanco" nillable="true" type="q4:FinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinFechamentoCaixaBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectFinFechamentoCaixaBancoResult" nillable="true" type="q5:FinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinFechamentoCaixaBancoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="finFechamentoCaixaBanco" nillable="true" type="q6:FinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFinFechamentoCaixaBancoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectFinFechamentoCaixaBancoPaginaResult" nillable="true" type="q7:ArrayOfFinFechamentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteViewFinChequeNaoCompensado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewFinChequeNaoCompensado" nillable="true" type="q8:ViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteViewFinChequeNaoCompensadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteViewFinChequeNaoCompensadoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarViewFinChequeNaoCompensado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewFinChequeNaoCompensado" nillable="true" type="q9:ViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarViewFinChequeNaoCompensadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="salvarAtualizarViewFinChequeNaoCompensadoResult" nillable="true" type="q10:ViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinChequeNaoCompensado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewFinChequeNaoCompensado" nillable="true" type="q11:ViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinChequeNaoCompensadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectViewFinChequeNaoCompensadoResult" nillable="true" type="q12:ArrayOfViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinChequeNaoCompensadoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewFinChequeNaoCompensado" nillable="true" type="q13:ViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinChequeNaoCompensadoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectViewFinChequeNaoCompensadoPaginaResult" nillable="true" type="q14:ArrayOfViewFinChequeNaoCompensadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinMovimentoCaixaBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewFinMovimentoCaixaBanco" nillable="true" type="q15:ViewFinMovimentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinMovimentoCaixaBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectViewFinMovimentoCaixaBancoResult" nillable="true" type="q16:ArrayOfViewFinMovimentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinMovimentoCaixaBancoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewFinMovimentoCaixaBanco" nillable="true" type="q17:ViewFinMovimentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectViewFinMovimentoCaixaBancoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectViewFinMovimentoCaixaBancoPaginaResult" nillable="true" type="q18:ArrayOfViewFinMovimentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPeriodoMovimentoCaixaBanco">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="movimentoCaixaBanco" nillable="true" type="q19:ViewFinMovimentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPeriodoMovimentoCaixaBancoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectPeriodoMovimentoCaixaBancoResult" nillable="true" type="q20:ArrayOfViewFinMovimentoCaixaBancoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q21:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectContabilContaResult" nillable="true" type="q22:ArrayOfContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q23:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectContabilContaPaginaResult" nillable="true" type="q24:ArrayOfContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectUsuarioResult" nillable="true" type="q25:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcesso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="viewControleAcesso" nillable="true" type="q26:ViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectControleAcessoResult" nillable="true" type="q27:ArrayOfViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="contaCaixa" nillable="true" type="q28:ContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectContaCaixaResult" nillable="true" type="q29:ArrayOfContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="contaCaixa" nillable="true" type="q30:ContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContaCaixaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" minOccurs="0" name="selectContaCaixaPaginaResult" nillable="true" type="q31:ArrayOfContaCaixaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

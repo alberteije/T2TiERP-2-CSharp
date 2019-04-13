@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="EscritaFiscalClient.View.EscritaFiscal.SimplesNacionalCabecalho" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:EscritaFiscalClient.View.EscritaFiscal"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+        <DockPanel LastChildFill="True">
+            <Grid DockPanel.Dock="Top" Height="100">
+                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding SimplesNacionalCabecalhoSelected.VigenciaInicial}" Margin="15,36,0,0"  />
+			    <Label Content="Vigência Inicial:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,17,0,0"  />
+			    <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding SimplesNacionalCabecalhoSelected.VigenciaFinal}" Margin="130,36,0,0"  />
+			    <Label Content="Vigência Final:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,17,0,0"  />
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="214" SelectedValue="{Binding SimplesNacionalCabecalhoSelected.Anexo}" SelectedValuePath="Tag" Margin="236,36,0,0" >
+                    <ComboBoxItem Content="Anexo I" Tag="Anexo I" />
+                    <ComboBoxItem Content="Anexo II" Tag="Anexo II" />
+                    <ComboBoxItem Content="Anexo III" Tag="Anexo III" />
+                    <ComboBoxItem Content="Anexo IV" Tag="Anexo IV" />
+                    <ComboBoxItem Content="Anexo V" Tag="Anexo V" />
+                </ComboBox>
+                <Label Content="Anexo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="236,17,0,0"  />
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="214" SelectedValue="{Binding SimplesNacionalCabecalhoSelected.Tabela}" SelectedValuePath="Tag" Margin="456,36,0,0" >
+                    <ComboBoxItem Content="Tabela I" Tag="Tabela I" />
+                    <ComboBoxItem Content="Tabela II" Tag="Tabela II" />
+                    <ComboBoxItem Content="Tabela III" Tag="Tabela III" />
+                    <ComboBoxItem Content="Tabela IV" Tag="Tabela IV" />
+                    <ComboBoxItem Content="Tabela V-A" Tag="Tabela V-A" />
+                    <ComboBoxItem Content="Tabela V-B" Tag="Tabela V-B" />
+                </ComboBox>
+                <Label Content="Tabela:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="456,17,0,0"  />
+		    </Grid>
+            <view:SimplesNacionalDetalhePrincipal></view:SimplesNacionalDetalhePrincipal>
+        </DockPanel>
+    </DockPanel>
+</UserControl>

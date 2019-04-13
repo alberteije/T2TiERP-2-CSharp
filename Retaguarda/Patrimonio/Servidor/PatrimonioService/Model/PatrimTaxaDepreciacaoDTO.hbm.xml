@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PatrimonioService" namespace="PatrimonioService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PatrimTaxaDepreciacaoDTO" table="patrim_taxa_depreciacao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Ncm" column="NCM" />
+    <property name="Bem" column="BEM" />
+    <property name="Vida" column="VIDA" />
+    <property name="Taxa" column="TAXA" />
+  </class>
+</hibernate-mapping>

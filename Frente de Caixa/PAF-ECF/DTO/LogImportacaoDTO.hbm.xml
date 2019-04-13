@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="LogImportacaoDTO" table="log_importacao" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">log_importacao</param>
+      </generator>
+    </id>
+
+
+    <property name="DataImportacao" column="DATA_IMPORTACAO" />
+    <property name="HoraImportacao" column="HORA_IMPORTACAO" />
+    <property name="Erro" column="ERRO" />
+    <property name="Registro" column="REGISTRO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,296 @@
+﻿<UserControl x:Class="ComprasClient.View.Compras.MapaComparativo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"
+             xmlns:util="clr-namespace:ComprasClient.Util"             
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="700">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+        <ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:TypeExtension TypeName="expfmt:Formato"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <TabControl>
+        <TabItem Visibility="Collapsed"
+                 IsSelected="{Binding isSelectedTabPrincipal}">
+
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <TextBox Width="200" Text="{Binding textoPesquisa}"></TextBox>
+                    <Button Name="btPesquisar" Click="btPesquisar_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Imagem/21botaoPesquisa.png" Height="23"></Image>
+                            <TextBlock Text="Pesquisar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                    <Button Name="btConfirmarPedido" 
+                            IsEnabled="{Binding isSelectedItem}" Click="btConfirmarPedido_Click">
+                        <StackPanel Orientation="Horizontal" >
+                            <Image Source="/Imagem/ncm32.png" Height="23"></Image>
+                            <TextBlock Text="Confirmar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <GroupBox Header="Cotação: ">
+                    <DockPanel LastChildFill="True">
+                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top"
+                                    HorizontalAlignment="Right">
+                            <ComboBox
+                                Name="comboExp"
+                                SelectedIndex="0"
+                                Width="60"
+                                ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"
+                                IsEnabled="{Binding hasListaCotacao}"                                
+                                >
+                            </ComboBox>
+                            <exp:ButtonExport
+                            ExportDataGridSource="{Binding ElementName=dataGrid}"
+                            ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}"
+                            IsEnabled="{Binding hasListaCotacao}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/Imagem/documento32.png" Height="20"></Image>
+                                </StackPanel>
+                            </exp:ButtonExport>
+                        </StackPanel>
+                        <DataGrid Name="dataGrid" AutoGenerateColumns="False" 
+                              ItemsSource="{Binding listaCotacao}"
+                              SelectedItem="{Binding selectedItem}"
+                                          IsReadOnly="True">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"
+                                                            Width=".15*">
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Data" 
+                                                        Binding="{Binding Path=DataCotacao, StringFormat={}{0:dd/MM/yyyy}}"
+                                                        Width=".20*">
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Descrição" 
+                                                            Binding="{Binding Path=Descricao}"
+                                                            Width="*">
+                                </DataGridTextColumn>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </GroupBox>
+            </DockPanel>
+        </TabItem>
+        <TabItem Visibility="Collapsed"
+                 IsSelected="{Binding isSelectedTabOperacoes}"
+                             >
+            <DockPanel LastChildFill="True">
+                <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft" DockPanel.Dock="Bottom">
+                    <Button Name="btConfirmar" Click="btConfirmar_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Confirmar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                        </StackPanel>
+                    </Button>
+                    <Button Name="btCancelar" Click="btCancelar_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Cancelar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            <Image Source="/Imagem/botaoCancelar.png" Height="23"></Image>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <GroupBox Header="{Binding operacao}" Margin="5">
+                    <DockPanel LastChildFill="True">
+                        <Grid DockPanel.Dock="Top">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="148" />
+                                <ColumnDefinition Width="520" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="5" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="5" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="5" />
+                            </Grid.RowDefinitions>
+                            <Label Content="Data:" Grid.Row="1" Grid.Column="0"></Label>
+                            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
+                                <DatePicker SelectedDate="{Binding Path=selectedItem.DataCotacao}" MinWidth="100"/>
+                            </StackPanel>
+                            <Label Content="Descrição:" Grid.Row="3" Grid.Column="0"></Label>
+                            <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch">
+                                <TextBox Text="{Binding selectedItem.Descricao}" 
+                                         TextAlignment="Left"
+                                         MinWidth="400"
+                                         HorizontalAlignment="Stretch"
+                                         />
+
+                            </StackPanel>
+                        </Grid>
+                        <GroupBox Header="Fornecedor: " DockPanel.Dock="Top" MinHeight="200">
+                            <DockPanel LastChildFill="True">
+                                <DockPanel DockPanel.Dock="Top">
+                                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Left"
+                                    HorizontalAlignment="Right">
+                                        <ComboBox
+                                Name="comboExpFornecedor"
+                                SelectedIndex="0"
+                                Width="60"
+                                ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"
+                                >
+                                        </ComboBox>
+                                        <exp:ButtonExport
+                            ExportDataGridSource="{Binding ElementName=dataGridFornecedor}"
+                            ExportFileFormat="{Binding ElementName=comboExpFornecedor, Path=SelectedValue}"
+                            >
+                                            <StackPanel Orientation="Horizontal">
+                                                <Image Source="/Imagem/documento32.png" Height="20"></Image>
+                                            </StackPanel>
+                                        </exp:ButtonExport>
+                                    </StackPanel>
+                                </DockPanel>
+                                <DataGrid Name="dataGridFornecedor" AutoGenerateColumns="False" 
+                              ItemsSource="{Binding selectedItem.listaFornecedor}"
+                                          CanUserAddRows="False"
+                                          CanUserDeleteRows="False"
+                                          >
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Id" Binding="{Binding Path=Fornecedor.Id}"
+                                                            IsReadOnly="True"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Nome" 
+                                                            Binding="{Binding Path=Fornecedor.Nome}"
+                                                            IsReadOnly="True"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Prazo" 
+                                                            Binding="{Binding Path=PrazoEntrega}"
+                                                            Width="Auto"
+                                                            IsReadOnly="True">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Condições pag." 
+                                                            Binding="{Binding Path=VendaCondicoesPagamento}"
+                                                            Width="*"
+                                                            IsReadOnly="True">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Subtotal" 
+                                                            Binding="{Binding Path=ValorSubtotal
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            Width="Auto"
+                                                            IsReadOnly="True">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Taxa desc." 
+                                                            Binding="{Binding Path=TaxaDesconto
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            Width="Auto"
+                                                            IsReadOnly="True">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Valor desc." 
+                                                            Binding="{Binding Path=ValorDesconto
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            Width="Auto"
+                                                            IsReadOnly="True">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Total" 
+                                                            Binding="{Binding Path=Total
+                                                                 ,Converter={StaticResource moedaFormat}}"
+                                                            Width="Auto"
+                                                            IsReadOnly="True">
+                                        </DataGridTextColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </DockPanel>
+                        </GroupBox>
+                        <GroupBox Header="Produto: " DockPanel.Dock="Top" MinHeight="100">
+                            <DockPanel LastChildFill="True">
+                                <DockPanel DockPanel.Dock="Top">
+
+                                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Left"
+                                    HorizontalAlignment="Right">
+                                        <ComboBox
+                                Name="comboExpProduto"
+                                SelectedIndex="0"
+                                Width="60"
+                                ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"
+                                >
+                                        </ComboBox>
+                                        <exp:ButtonExport
+                            ExportDataGridSource="{Binding ElementName=dataGridProduto}"
+                            ExportFileFormat="{Binding ElementName=comboExpProduto, Path=SelectedValue}"
+                            >
+                                            <StackPanel Orientation="Horizontal">
+                                                <Image Source="/Imagem/documento32.png" Height="20"></Image>
+                                            </StackPanel>
+                                        </exp:ButtonExport>
+                                    </StackPanel>
+                                </DockPanel>
+                                <DataGrid Name="dataGridProduto" AutoGenerateColumns="False" 
+                              ItemsSource="{Binding ElementName=dataGridFornecedor, Path=SelectedItem.listaCotacaoCompraDetalhe}"
+                                          CanUserAddRows="False"
+                                          CanUserDeleteRows="False"
+                                          >
+
+
+                                    <DataGrid.Columns>
+
+                                        <DataGridTextColumn Header="Nome" 
+                                                            Binding="{Binding Path=Produto.Nome}"
+                                                            IsReadOnly="True"
+                                                            Width="*">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Qtd." 
+                                                            Binding="{Binding Path=Quantidade
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="true"
+                                                                Width="Auto">
+
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Qtd. solic." 
+                                                            Binding="{Binding Path=QuantidadePedida
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="False"
+                                                            Width="Auto">
+                                            
+                                        </DataGridTextColumn>                                        
+                                        <DataGridTextColumn Header="Valor un." 
+                                                            Binding="{Binding Path=ValorUnitario
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="True"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Subtotal" 
+                                                            Binding="{Binding Path=ValorSubtotal
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="true"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Taxa desc." 
+                                                            Binding="{Binding Path=TaxaDesconto
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="true"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Valor desc." 
+                                                            Binding="{Binding Path=ValorDesconto
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="true"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Total" 
+                                                            Binding="{Binding Path=ValorTotal
+                                                                ,Converter={StaticResource moedaFormat}}"
+                                                            IsReadOnly="true"
+                                                            Width="Auto">
+                                        </DataGridTextColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </DockPanel>
+                        </GroupBox>
+                    </DockPanel>
+                </GroupBox>
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>

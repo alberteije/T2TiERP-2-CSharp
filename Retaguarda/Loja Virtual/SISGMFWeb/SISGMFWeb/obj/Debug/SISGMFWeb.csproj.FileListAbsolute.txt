@@ -1,0 +1,20 @@
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.dll
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.pdb
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.dll
+C:\Projetos\SISGMF\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.pdb
+C:\Teste\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.dll.config
+C:\Teste\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.dll
+C:\Teste\SISGMF\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.pdb
+C:\Teste\SISGMF\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.csprojResolveAssemblyReference.cache
+C:\Teste\SISGMF\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.dll
+C:\Teste\SISGMF\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\bin\SISGMFWeb.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\bin\Uol.PagSeguro.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\bin\Uol.PagSeguro.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\bin\Uol.PagSeguro.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Loja Virtual\SISGMFWeb\SISGMFWeb\obj\Debug\SISGMFWeb.csprojResolveAssemblyReference.cache

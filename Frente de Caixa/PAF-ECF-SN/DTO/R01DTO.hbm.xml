@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="R01DTO" table="r01" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">r01</param>
+      </generator>
+    </id>
+    
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="CnpjEmpresa" column="CNPJ_EMPRESA" />
+    <property name="CnpjSh" column="CNPJ_SH" />
+    <property name="InscricaoEstadualSh" column="INSCRICAO_ESTADUAL_SH" />
+    <property name="InscricaoMunicipalSh" column="INSCRICAO_MUNICIPAL_SH" />
+    <property name="DenominacaoSh" column="DENOMINACAO_SH" />
+    <property name="NomePafEcf" column="NOME_PAF_ECF" />
+    <property name="VersaoPafEcf" column="VERSAO_PAF_ECF" />
+    <property name="Md5PafEcf" column="MD5_PAF_ECF" />
+    <property name="DataInicial" column="DATA_INICIAL" />
+    <property name="DataFinal" column="DATA_FINAL" />
+    <property name="VersaoEr" column="VERSAO_ER" />
+    <property name="NumeroLaudoPaf" column="NUMERO_LAUDO_PAF" />
+    <property name="RazaoSocialSh" column="RAZAO_SOCIAL_SH" />
+    <property name="EnderecoSh" column="ENDERECO_SH" />
+    <property name="NumeroSh" column="NUMERO_SH" />
+    <property name="ComplementoSh" column="COMPLEMENTO_SH" />
+    <property name="BairroSh" column="BAIRRO_SH" />
+    <property name="CidadeSh" column="CIDADE_SH" />
+    <property name="CepSh" column="CEP_SH" />
+    <property name="UfSh" column="UF_SH" />
+    <property name="TelefoneSh" column="TELEFONE_SH" />
+    <property name="ContatoSh" column="CONTATO_SH" />
+    <property name="PrincipalExecutavel" column="PRINCIPAL_EXECUTAVEL" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

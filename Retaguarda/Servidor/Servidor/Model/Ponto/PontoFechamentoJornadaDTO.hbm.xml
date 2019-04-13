@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PontoFechamentoJornadaDTO" table="ponto_fechamento_jornada" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="PontoClassificacaoJornada" column="ID_PONTO_CLASSIFICACAO_JORNADA" />
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="DataFechamento" column="DATA_FECHAMENTO" />
+    <property name="DiaSemana" column="DIA_SEMANA" />
+    <property name="CodigoHorario" column="CODIGO_HORARIO" />
+    <property name="CargaHorariaEsperada" column="CARGA_HORARIA_ESPERADA" />
+    <property name="CargaHorariaDiurna" column="CARGA_HORARIA_DIURNA" />
+    <property name="CargaHorariaNoturna" column="CARGA_HORARIA_NOTURNA" />
+    <property name="CargaHorariaTotal" column="CARGA_HORARIA_TOTAL" />
+    <property name="Entrada01" column="ENTRADA01" />
+    <property name="Saida01" column="SAIDA01" />
+    <property name="Entrada02" column="ENTRADA02" />
+    <property name="Saida02" column="SAIDA02" />
+    <property name="Entrada03" column="ENTRADA03" />
+    <property name="Saida03" column="SAIDA03" />
+    <property name="Entrada04" column="ENTRADA04" />
+    <property name="Saida04" column="SAIDA04" />
+    <property name="Entrada05" column="ENTRADA05" />
+    <property name="Saida05" column="SAIDA05" />
+    <property name="HoraInicioJornada" column="HORA_INICIO_JORNADA" />
+    <property name="HoraFimJornada" column="HORA_FIM_JORNADA" />
+    <property name="HoraExtra01" column="HORA_EXTRA01" />
+    <property name="PercentualHoraExtra01" column="PERCENTUAL_HORA_EXTRA01" />
+    <property name="ModalidadeHoraExtra01" column="MODALIDADE_HORA_EXTRA01" />
+    <property name="HoraExtra02" column="HORA_EXTRA02" />
+    <property name="PercentualHoraExtra02" column="PERCENTUAL_HORA_EXTRA02" />
+    <property name="ModalidadeHoraExtra02" column="MODALIDADE_HORA_EXTRA02" />
+    <property name="HoraExtra03" column="HORA_EXTRA03" />
+    <property name="PercentualHoraExtra03" column="PERCENTUAL_HORA_EXTRA03" />
+    <property name="ModalidadeHoraExtra03" column="MODALIDADE_HORA_EXTRA03" />
+    <property name="HoraExtra04" column="HORA_EXTRA04" />
+    <property name="PercentualHoraExtra04" column="PERCENTUAL_HORA_EXTRA04" />
+    <property name="ModalidadeHoraExtra04" column="MODALIDADE_HORA_EXTRA04" />
+    <property name="FaltaAtraso" column="FALTA_ATRASO" />
+    <property name="Compensar" column="COMPENSAR" />
+    <property name="BancoHoras" column="BANCO_HORAS" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

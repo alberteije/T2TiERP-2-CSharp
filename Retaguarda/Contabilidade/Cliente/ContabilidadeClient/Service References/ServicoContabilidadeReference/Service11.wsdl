@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2663/ServicoContabilidade.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2663/ServicoContabilidade.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2663/ServicoContabilidade.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLivro_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLivro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLivro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLivroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLivro_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLivro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLivro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLivroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLivro_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLivro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLivro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLivroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLivroPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLivroPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLivroPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLivroPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteRegistroCartorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteRegistroCartorio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteRegistroCartorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteRegistroCartorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarRegistroCartorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarRegistroCartorio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarRegistroCartorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarRegistroCartorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectRegistroCartorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectRegistroCartorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectRegistroCartorioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectRegistroCartorioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilParametros_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilParametros" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilParametros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilParametrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilParametros_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilParametros" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilParametros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilParametrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilParametros_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilParametros" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilParametros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilParametrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilParametrosPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilParametrosPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilParametrosPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilParametrosPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilIndice_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilIndice" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilIndice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilIndiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilIndice_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilIndice" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilIndice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilIndiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilIndice_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilIndice" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilIndice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilIndiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilIndicePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilIndicePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilIndicePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilIndicePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilHistorico_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilHistorico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilHistorico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilHistoricoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilHistorico_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilHistorico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilHistorico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilHistoricoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilHistorico_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilHistorico" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilHistorico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilHistoricoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilHistoricoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilHistoricoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilHistoricoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilHistoricoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteAidfAimdf_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteAidfAimdf" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteAidfAimdf_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteAidfAimdfResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarAidfAimdf_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarAidfAimdf" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarAidfAimdf_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarAidfAimdfResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectAidfAimdf_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectAidfAimdf" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectAidfAimdf_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectAidfAimdfResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectAidfAimdfPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectAidfAimdfPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectAidfAimdfPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectAidfAimdfPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteFap_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFap" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteFap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarFap_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFap" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarFap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectFap_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFap" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectFap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectFapPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFapPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectFapPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFapPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deletePlanoConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePlanoConta" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deletePlanoConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePlanoContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarPlanoConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPlanoConta" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarPlanoConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPlanoContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoConta" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoContaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoContaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deletePlanoContaRefSped_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePlanoContaRefSped" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deletePlanoContaRefSped_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePlanoContaRefSpedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarPlanoContaRefSped_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPlanoContaRefSped" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarPlanoContaRefSped_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPlanoContaRefSpedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoContaRefSped_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaRefSped" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoContaRefSped_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaRefSpedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoContaRefSpedPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaRefSpedPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectPlanoContaRefSpedPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPlanoContaRefSpedPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilConta" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilConta" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilConta" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilContaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilContaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilFechamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilFechamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilFechamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilFechamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilFechamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilFechamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilFechamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilFechamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilFechamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilFechamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilFechamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilFechamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilFechamentoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilFechamentoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilFechamentoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilFechamentoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLancamentoPadrao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLancamentoPadrao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLancamentoPadrao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLancamentoPadraoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLancamentoPadrao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLancamentoPadrao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLancamentoPadrao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLancamentoPadraoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoPadrao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoPadrao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoPadrao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoPadraoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoPadraoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoPadraoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoPadraoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoPadraoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLote_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLote" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLote_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLote" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLote_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLote" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLotePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLotePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLotePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLotePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLancamentoOrcado_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLancamentoOrcado" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLancamentoOrcado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLancamentoOrcadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLancamentoOrcado_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLancamentoOrcado" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLancamentoOrcado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLancamentoOrcadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoOrcado_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoOrcado" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoOrcado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoOrcadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoOrcadoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoOrcadoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoOrcadoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoOrcadoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilLancamentoCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilDreCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilDreCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilDreCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilDreCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilDreCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilDreCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilDreCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilDreCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilDreCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilDreCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilDreCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilDreCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilDreCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilDreCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilDreCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilDreCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilEncerramentoExeCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilEncerramentoExeCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_deleteContabilEncerramentoExeCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteContabilEncerramentoExeCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilEncerramentoExeCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilEncerramentoExeCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_salvarAtualizarContabilEncerramentoExeCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarContabilEncerramentoExeCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilEncerramentoExeCab_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilEncerramentoExeCab" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilEncerramentoExeCab_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilEncerramentoExeCabResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilEncerramentoExeCabPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilEncerramentoExeCabPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoContabilidade_selectContabilEncerramentoExeCabPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilEncerramentoExeCabPaginaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoContabilidade">
+    <wsdl:operation name="deleteContabilLivro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLivro" message="tns:IServicoContabilidade_deleteContabilLivro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLivroResponse" message="tns:IServicoContabilidade_deleteContabilLivro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLivro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLivro" message="tns:IServicoContabilidade_salvarAtualizarContabilLivro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLivroResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilLivro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLivro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLivro" message="tns:IServicoContabilidade_selectContabilLivro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLivroResponse" message="tns:IServicoContabilidade_selectContabilLivro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLivroPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLivroPagina" message="tns:IServicoContabilidade_selectContabilLivroPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLivroPaginaResponse" message="tns:IServicoContabilidade_selectContabilLivroPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectUsuario" message="tns:IServicoContabilidade_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectUsuarioResponse" message="tns:IServicoContabilidade_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectControleAcesso" message="tns:IServicoContabilidade_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectControleAcessoResponse" message="tns:IServicoContabilidade_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteRegistroCartorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteRegistroCartorio" message="tns:IServicoContabilidade_deleteRegistroCartorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteRegistroCartorioResponse" message="tns:IServicoContabilidade_deleteRegistroCartorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarRegistroCartorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarRegistroCartorio" message="tns:IServicoContabilidade_salvarAtualizarRegistroCartorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarRegistroCartorioResponse" message="tns:IServicoContabilidade_salvarAtualizarRegistroCartorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectRegistroCartorio" message="tns:IServicoContabilidade_selectRegistroCartorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectRegistroCartorioResponse" message="tns:IServicoContabilidade_selectRegistroCartorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectRegistroCartorioPagina" message="tns:IServicoContabilidade_selectRegistroCartorioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectRegistroCartorioPaginaResponse" message="tns:IServicoContabilidade_selectRegistroCartorioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilParametros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilParametros" message="tns:IServicoContabilidade_deleteContabilParametros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilParametrosResponse" message="tns:IServicoContabilidade_deleteContabilParametros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilParametros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilParametros" message="tns:IServicoContabilidade_salvarAtualizarContabilParametros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilParametrosResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilParametros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilParametros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilParametros" message="tns:IServicoContabilidade_selectContabilParametros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilParametrosResponse" message="tns:IServicoContabilidade_selectContabilParametros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilParametrosPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilParametrosPagina" message="tns:IServicoContabilidade_selectContabilParametrosPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilParametrosPaginaResponse" message="tns:IServicoContabilidade_selectContabilParametrosPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilIndice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilIndice" message="tns:IServicoContabilidade_deleteContabilIndice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilIndiceResponse" message="tns:IServicoContabilidade_deleteContabilIndice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilIndice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilIndice" message="tns:IServicoContabilidade_salvarAtualizarContabilIndice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilIndiceResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilIndice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilIndice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilIndice" message="tns:IServicoContabilidade_selectContabilIndice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilIndiceResponse" message="tns:IServicoContabilidade_selectContabilIndice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilIndicePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilIndicePagina" message="tns:IServicoContabilidade_selectContabilIndicePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilIndicePaginaResponse" message="tns:IServicoContabilidade_selectContabilIndicePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilHistorico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilHistorico" message="tns:IServicoContabilidade_deleteContabilHistorico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilHistoricoResponse" message="tns:IServicoContabilidade_deleteContabilHistorico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilHistorico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilHistorico" message="tns:IServicoContabilidade_salvarAtualizarContabilHistorico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilHistoricoResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilHistorico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilHistorico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilHistorico" message="tns:IServicoContabilidade_selectContabilHistorico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilHistoricoResponse" message="tns:IServicoContabilidade_selectContabilHistorico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilHistoricoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilHistoricoPagina" message="tns:IServicoContabilidade_selectContabilHistoricoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilHistoricoPaginaResponse" message="tns:IServicoContabilidade_selectContabilHistoricoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAidfAimdf">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteAidfAimdf" message="tns:IServicoContabilidade_deleteAidfAimdf_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteAidfAimdfResponse" message="tns:IServicoContabilidade_deleteAidfAimdf_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarAidfAimdf">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarAidfAimdf" message="tns:IServicoContabilidade_salvarAtualizarAidfAimdf_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarAidfAimdfResponse" message="tns:IServicoContabilidade_salvarAtualizarAidfAimdf_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectAidfAimdf">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectAidfAimdf" message="tns:IServicoContabilidade_selectAidfAimdf_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectAidfAimdfResponse" message="tns:IServicoContabilidade_selectAidfAimdf_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectAidfAimdfPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectAidfAimdfPagina" message="tns:IServicoContabilidade_selectAidfAimdfPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectAidfAimdfPaginaResponse" message="tns:IServicoContabilidade_selectAidfAimdfPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteFap" message="tns:IServicoContabilidade_deleteFap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteFapResponse" message="tns:IServicoContabilidade_deleteFap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarFap" message="tns:IServicoContabilidade_salvarAtualizarFap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarFapResponse" message="tns:IServicoContabilidade_salvarAtualizarFap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectFap" message="tns:IServicoContabilidade_selectFap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectFapResponse" message="tns:IServicoContabilidade_selectFap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFapPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectFapPagina" message="tns:IServicoContabilidade_selectFapPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectFapPaginaResponse" message="tns:IServicoContabilidade_selectFapPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePlanoConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deletePlanoConta" message="tns:IServicoContabilidade_deletePlanoConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deletePlanoContaResponse" message="tns:IServicoContabilidade_deletePlanoConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPlanoConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarPlanoConta" message="tns:IServicoContabilidade_salvarAtualizarPlanoConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarPlanoContaResponse" message="tns:IServicoContabilidade_salvarAtualizarPlanoConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoConta" message="tns:IServicoContabilidade_selectPlanoConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaResponse" message="tns:IServicoContabilidade_selectPlanoConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoContaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaPagina" message="tns:IServicoContabilidade_selectPlanoContaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaPaginaResponse" message="tns:IServicoContabilidade_selectPlanoContaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePlanoContaRefSped">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deletePlanoContaRefSped" message="tns:IServicoContabilidade_deletePlanoContaRefSped_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deletePlanoContaRefSpedResponse" message="tns:IServicoContabilidade_deletePlanoContaRefSped_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPlanoContaRefSped">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarPlanoContaRefSped" message="tns:IServicoContabilidade_salvarAtualizarPlanoContaRefSped_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarPlanoContaRefSpedResponse" message="tns:IServicoContabilidade_salvarAtualizarPlanoContaRefSped_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoContaRefSped">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaRefSped" message="tns:IServicoContabilidade_selectPlanoContaRefSped_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaRefSpedResponse" message="tns:IServicoContabilidade_selectPlanoContaRefSped_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoContaRefSpedPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaRefSpedPagina" message="tns:IServicoContabilidade_selectPlanoContaRefSpedPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectPlanoContaRefSpedPaginaResponse" message="tns:IServicoContabilidade_selectPlanoContaRefSpedPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilConta" message="tns:IServicoContabilidade_deleteContabilConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilContaResponse" message="tns:IServicoContabilidade_deleteContabilConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilConta" message="tns:IServicoContabilidade_salvarAtualizarContabilConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilContaResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilConta" message="tns:IServicoContabilidade_selectContabilConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilContaResponse" message="tns:IServicoContabilidade_selectContabilConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilContaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilContaPagina" message="tns:IServicoContabilidade_selectContabilContaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilContaPaginaResponse" message="tns:IServicoContabilidade_selectContabilContaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilFechamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilFechamento" message="tns:IServicoContabilidade_deleteContabilFechamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilFechamentoResponse" message="tns:IServicoContabilidade_deleteContabilFechamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilFechamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilFechamento" message="tns:IServicoContabilidade_salvarAtualizarContabilFechamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilFechamentoResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilFechamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilFechamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilFechamento" message="tns:IServicoContabilidade_selectContabilFechamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilFechamentoResponse" message="tns:IServicoContabilidade_selectContabilFechamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilFechamentoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilFechamentoPagina" message="tns:IServicoContabilidade_selectContabilFechamentoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilFechamentoPaginaResponse" message="tns:IServicoContabilidade_selectContabilFechamentoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLancamentoPadrao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoPadrao" message="tns:IServicoContabilidade_deleteContabilLancamentoPadrao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoPadraoResponse" message="tns:IServicoContabilidade_deleteContabilLancamentoPadrao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLancamentoPadrao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoPadrao" message="tns:IServicoContabilidade_salvarAtualizarContabilLancamentoPadrao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoPadraoResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilLancamentoPadrao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoPadrao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoPadrao" message="tns:IServicoContabilidade_selectContabilLancamentoPadrao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoPadraoResponse" message="tns:IServicoContabilidade_selectContabilLancamentoPadrao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoPadraoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoPadraoPagina" message="tns:IServicoContabilidade_selectContabilLancamentoPadraoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoPadraoPaginaResponse" message="tns:IServicoContabilidade_selectContabilLancamentoPadraoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLote" message="tns:IServicoContabilidade_deleteContabilLote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLoteResponse" message="tns:IServicoContabilidade_deleteContabilLote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLote" message="tns:IServicoContabilidade_salvarAtualizarContabilLote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLoteResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilLote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLote" message="tns:IServicoContabilidade_selectContabilLote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLoteResponse" message="tns:IServicoContabilidade_selectContabilLote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLotePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLotePagina" message="tns:IServicoContabilidade_selectContabilLotePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLotePaginaResponse" message="tns:IServicoContabilidade_selectContabilLotePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLancamentoOrcado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoOrcado" message="tns:IServicoContabilidade_deleteContabilLancamentoOrcado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoOrcadoResponse" message="tns:IServicoContabilidade_deleteContabilLancamentoOrcado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLancamentoOrcado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoOrcado" message="tns:IServicoContabilidade_salvarAtualizarContabilLancamentoOrcado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoOrcadoResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilLancamentoOrcado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoOrcado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoOrcado" message="tns:IServicoContabilidade_selectContabilLancamentoOrcado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoOrcadoResponse" message="tns:IServicoContabilidade_selectContabilLancamentoOrcado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoOrcadoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoOrcadoPagina" message="tns:IServicoContabilidade_selectContabilLancamentoOrcadoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoOrcadoPaginaResponse" message="tns:IServicoContabilidade_selectContabilLancamentoOrcadoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoCabecalho" message="tns:IServicoContabilidade_deleteContabilLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoCabecalhoResponse" message="tns:IServicoContabilidade_deleteContabilLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoCabecalho" message="tns:IServicoContabilidade_salvarAtualizarContabilLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoCabecalhoResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoCabecalho" message="tns:IServicoContabilidade_selectContabilLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoCabecalhoResponse" message="tns:IServicoContabilidade_selectContabilLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoCabecalhoPagina" message="tns:IServicoContabilidade_selectContabilLancamentoCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoCabecalhoPaginaResponse" message="tns:IServicoContabilidade_selectContabilLancamentoCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilDreCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilDreCabecalho" message="tns:IServicoContabilidade_deleteContabilDreCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilDreCabecalhoResponse" message="tns:IServicoContabilidade_deleteContabilDreCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilDreCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilDreCabecalho" message="tns:IServicoContabilidade_salvarAtualizarContabilDreCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilDreCabecalhoResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilDreCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilDreCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilDreCabecalho" message="tns:IServicoContabilidade_selectContabilDreCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilDreCabecalhoResponse" message="tns:IServicoContabilidade_selectContabilDreCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilDreCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilDreCabecalhoPagina" message="tns:IServicoContabilidade_selectContabilDreCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilDreCabecalhoPaginaResponse" message="tns:IServicoContabilidade_selectContabilDreCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilEncerramentoExeCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilEncerramentoExeCab" message="tns:IServicoContabilidade_deleteContabilEncerramentoExeCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/deleteContabilEncerramentoExeCabResponse" message="tns:IServicoContabilidade_deleteContabilEncerramentoExeCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilEncerramentoExeCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilEncerramentoExeCab" message="tns:IServicoContabilidade_salvarAtualizarContabilEncerramentoExeCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilEncerramentoExeCabResponse" message="tns:IServicoContabilidade_salvarAtualizarContabilEncerramentoExeCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilEncerramentoExeCab">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilEncerramentoExeCab" message="tns:IServicoContabilidade_selectContabilEncerramentoExeCab_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilEncerramentoExeCabResponse" message="tns:IServicoContabilidade_selectContabilEncerramentoExeCab_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilEncerramentoExeCabPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilEncerramentoExeCabPagina" message="tns:IServicoContabilidade_selectContabilEncerramentoExeCabPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoContabilidade/selectContabilEncerramentoExeCabPaginaResponse" message="tns:IServicoContabilidade_selectContabilEncerramentoExeCabPagina_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoContabilidade" type="tns:IServicoContabilidade">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteContabilLivro">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilLivro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLivro">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLivro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLivro">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLivro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLivroPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLivroPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteRegistroCartorio">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteRegistroCartorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarRegistroCartorio">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarRegistroCartorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorio">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectRegistroCartorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectRegistroCartorioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilParametros">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilParametros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilParametros">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilParametros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilParametros">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilParametros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilParametrosPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilParametrosPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilIndice">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilIndice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilIndice">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilIndice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilIndice">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilIndice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilIndicePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilIndicePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilHistorico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilHistorico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilHistorico">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilHistoricoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilHistoricoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAidfAimdf">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteAidfAimdf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarAidfAimdf">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarAidfAimdf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectAidfAimdf">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectAidfAimdf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectAidfAimdfPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectAidfAimdfPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFap">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteFap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFap">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarFap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFap">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectFap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFapPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectFapPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePlanoConta">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deletePlanoConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPlanoConta">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarPlanoConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoConta">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectPlanoConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoContaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectPlanoContaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePlanoContaRefSped">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deletePlanoContaRefSped" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPlanoContaRefSped">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarPlanoContaRefSped" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoContaRefSped">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectPlanoContaRefSped" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPlanoContaRefSpedPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectPlanoContaRefSpedPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilConta">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilConta">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilConta">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilContaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilContaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilFechamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilFechamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilFechamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilFechamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilFechamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilFechamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilFechamentoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilFechamentoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLancamentoPadrao">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoPadrao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLancamentoPadrao">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoPadrao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoPadrao">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoPadrao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoPadraoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoPadraoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLote">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilLote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLote">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLote">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLotePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLotePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLancamentoOrcado">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoOrcado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLancamentoOrcado">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoOrcado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoOrcado">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoOrcado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoOrcadoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoOrcadoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilLancamentoCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilDreCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilDreCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilDreCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilDreCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilDreCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilDreCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilDreCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilDreCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteContabilEncerramentoExeCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/deleteContabilEncerramentoExeCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarContabilEncerramentoExeCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/salvarAtualizarContabilEncerramentoExeCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilEncerramentoExeCab">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilEncerramentoExeCab" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilEncerramentoExeCabPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoContabilidade/selectContabilEncerramentoExeCabPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IServicoContabilidade" binding="tns:BasicHttpBinding_IServicoContabilidade">
+      <soap:address location="http://localhost:2663/ServicoContabilidade.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

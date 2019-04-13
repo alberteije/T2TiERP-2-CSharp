@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cf034f74-2824-4ac9-a68d-24822a163ec6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2664/ServicoContratos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoContratos1.wsdl" MetadataType="Wsdl" ID="362ae88d-0c63-4026-ab36-fc7bf00641f2" SourceId="1" SourceUrl="http://localhost:2664/ServicoContratos.svc?wsdl" />
+    <MetadataFile FileName="ServicoContratos3.xsd" MetadataType="Schema" ID="61aafd97-cd72-4874-ac3e-bc473eb4dbc8" SourceId="1" SourceUrl="http://localhost:2664/ServicoContratos.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoContratos31.xsd" MetadataType="Schema" ID="d719f145-5f4e-442a-8120-ca25adc3bd9f" SourceId="1" SourceUrl="http://localhost:2664/ServicoContratos.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoContratos32.xsd" MetadataType="Schema" ID="3cf65cff-6496-4b05-9f94-0071007e30de" SourceId="1" SourceUrl="http://localhost:2664/ServicoContratos.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoContratos1.disco" MetadataType="Disco" ID="9c30a1e3-c82b-4727-a170-f8d0dc9097bf" SourceId="1" SourceUrl="http://localhost:2664/ServicoContratos.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

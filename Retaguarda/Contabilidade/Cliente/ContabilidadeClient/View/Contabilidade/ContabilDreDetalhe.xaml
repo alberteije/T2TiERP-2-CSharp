@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContabilidadeClient.View.Contabilidade.ContabilDreDetalhe" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilDreDetalheSelected.Classificacao}" Height="23" Width="688" Margin="6,25,0,0"  />
+            <Label Content="Classificacao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilDreDetalheSelected.Descricao}" Height="23" Width="688" Margin="6,76,0,0"  />
+            <Label Content="Descricao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,57,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="297" SelectedValue="{Binding ContabilDreDetalheSelected.FormaCalculo}" SelectedValuePath="Tag" Margin="6,127,0,0" >
+                <ComboBoxItem Content="Sintética" Tag="S" />
+                <ComboBoxItem Content="Vinculada" Tag="V" />
+                <ComboBoxItem Content="Resultado de Operações da DRE" Tag="R" />
+            </ComboBox>
+            <Label Content="Forma Calculo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,108,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ContabilDreDetalheSelected.Sinal}" SelectedValuePath="Tag" Margin="309,127,0,0" >
+                <ComboBoxItem Content="+" Tag="+" />
+                <ComboBoxItem Content="-" Tag="-" />
+                <ComboBoxItem Content="=" Tag="=" />
+            </ComboBox>
+            <Label Content="Sinal:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="309,108,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="173" SelectedValue="{Binding ContabilDreDetalheSelected.Natureza}" SelectedValuePath="Tag" Margin="415,127,0,0" >
+                <ComboBoxItem Content="Credora" Tag="C" />
+                <ComboBoxItem Content="Devedora" Tag="D" />
+            </ComboBox>
+            <Label Content="Natureza:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="415,108,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilDreDetalheSelected.Valor}" Height="23" Width="100" Margin="594,127,0,0"  />
+            <Label Content="Valor:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,108,0,0"  />
+        </Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasPagarClient.View.ContasPagar.FinParcelaPagamento" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FinParcelaPagamentoSelected.FinTipoPagamento.Descricao}" Height="23" Width="652" Margin="6,28,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarFinTipoPagamento" Click="btPesquisarFinTipoPagamento_Click" Margin="664,28,0,0"  />
+			<Label Content="Tipo Pagamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,9,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FinParcelaPagamentoSelected.ContaCaixa.Nome}" Height="23" Width="439" Margin="6,78,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContaCaixa" Click="btPesquisarContaCaixa_Click" Margin="451,78,0,0"  />
+			<Label Content="Conta Caixa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,59,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FinParcelaPagamentoSelected.DataPagamento}" Margin="488,78,0,0"  />
+            <Label Content="DataPagamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="488,59,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.TaxaJuro}" Height="23" Width="100" Margin="6,129,0,0"  />
+			<Label Content="TaxaJuro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.TaxaMulta}" Height="23" Width="100" Margin="112,129,0,0"  />
+			<Label Content="TaxaMulta" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.TaxaDesconto}" Height="23" Width="100" Margin="218,129,0,0"  />
+			<Label Content="TaxaDesconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.ValorJuro}" Height="23" Width="100" Margin="324,129,0,0"  />
+			<Label Content="ValorJuro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.ValorMulta}" Height="23" Width="100" Margin="430,129,0,0"  />
+			<Label Content="ValorMulta" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.ValorDesconto}" Height="23" Width="100" Margin="536,129,0,0"  />
+			<Label Content="ValorDesconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.ValorPago}" Height="23" Width="100" Margin="594,78,0,0"  />
+			<Label Content="ValorPago" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,59,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagamentoSelected.Historico}" Height="83" Width="688" Margin="6,180,0,0"  />
+			<Label Content="Historico" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,161,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

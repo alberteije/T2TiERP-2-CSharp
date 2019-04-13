@@ -1,0 +1,30 @@
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\PafEcf.View.FCargaPDV.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.pdb
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.exe
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.pdb
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.exe
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.pdb
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\PafEcf.View.FCargaPDV.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.exe
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.exe
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\PafEcf.View.FCargaPDV.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\obj\x86\Debug\Integrador.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.exe
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\bin\Debug\Integrador.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\IntegracaoPDV\Integrador\Integrador\bin\Debug\MySql.Data.dll

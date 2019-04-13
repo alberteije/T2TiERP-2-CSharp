@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeTransporteVolumeLacreDTO" table="nfe_transporte_volume_lacre" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="NfeTransporteVolume" column="ID_NFE_TRANSPORTE_VOLUME" />
+    <property name="Numero" column="NUMERO" />
+  </class>
+</hibernate-mapping>

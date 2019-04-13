@@ -1,0 +1,29 @@
+<UserControl x:Class="ConciliacaoContabilClient.View.ConciliacaoContabil.ClientePrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:ConciliacaoContabilClient.View.ConciliacaoContabil"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="700">
+    <TabControl>
+        <TabItem Name="tabClienteLista" Visibility="Collapsed" IsSelected="{Binding IsListar}">
+            <TabItem.Content>
+                <DockPanel LastChildFill="True">
+                    <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal" >
+                        <Button Name="btConsultar" Width="100" Click="btConsultar_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/21botaoPesquisa.png" Height="23"></Image>
+                                <TextBlock Text="Consultar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <view:ClienteLista></view:ClienteLista>
+                </DockPanel>
+            </TabItem.Content>
+        </TabItem>
+        <TabItem Name="tabCliente" Visibility="Collapsed" IsSelected="{Binding IsEditar}">
+            <view:Cliente></view:Cliente>
+        </TabItem>
+    </TabControl>
+</UserControl>

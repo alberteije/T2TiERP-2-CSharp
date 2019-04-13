@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4f13ecbe-fbc7-4f94-858e-297cd4f7680b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2674/GEDService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GEDService4.xsd" MetadataType="Schema" ID="bd95b0ed-06de-4c86-a4ff-6506f2d2bafd" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?xsd=xsd3" />
+    <MetadataFile FileName="GEDService41.xsd" MetadataType="Schema" ID="3d14c1c3-eb86-4b01-b234-1d3f6c5883c9" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?xsd=xsd2" />
+    <MetadataFile FileName="GEDService42.xsd" MetadataType="Schema" ID="00592fa0-4153-42c2-8ce5-9781774c75c6" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GEDService1.disco" MetadataType="Disco" ID="aace894d-0208-4cfb-ae92-53bab53d2276" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?disco" />
+    <MetadataFile FileName="GEDService43.xsd" MetadataType="Schema" ID="275b0143-ee04-4fb4-be5f-e845eda4d951" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?xsd=xsd4" />
+    <MetadataFile FileName="GEDService44.xsd" MetadataType="Schema" ID="9335f714-f3cb-4cd1-8fa8-ed1998beae0a" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GEDService1.wsdl" MetadataType="Wsdl" ID="03418296-c428-40e5-b14d-813389a3f5bc" SourceId="1" SourceUrl="http://localhost:2674/GEDService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

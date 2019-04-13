@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FichaTecnicaDTO" table="ficha_tecnica" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdProduto" column="ID_PRODUTO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="IdProdutoFilho" column="ID_PRODUTO_FILHO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="SequenciaProducao" column="SEQUENCIA_PRODUCAO" />
+  </class>
+</hibernate-mapping>

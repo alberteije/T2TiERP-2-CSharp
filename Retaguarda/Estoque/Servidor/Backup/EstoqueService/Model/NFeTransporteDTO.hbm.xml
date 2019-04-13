@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NFeTransporteDTO" table="nfe_transporte" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="modalidadeFrete" column="MODALIDADE_FRETE" />
+    <property name="cpfCnpj" column="CPF_CNPJ" />
+    <property name="nome" column="NOME" />
+    <property name="inscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="endereco" column="ENDERECO" />
+    <property name="nomeMunicipio" column="NOME_MUNICIPIO" />
+    <property name="uf" column="UF" />
+    <property name="valorServico" column="VALOR_SERVICO" />
+    <property name="valorBcRetencaoIcms" column="VALOR_BC_RETENCAO_ICMS" />
+    <property name="aliquotaRetencaoIcms" column="ALIQUOTA_RETENCAO_ICMS" />
+    <property name="valorIcmsRetido" column="VALOR_ICMS_RETIDO" />
+    <property name="cfop" column="CFOP" />
+    <property name="municipio" column="MUNICIPIO" />
+    <property name="placaVeiculo" column="PLACA_VEICULO" />
+    <property name="ufVeiculo" column="UF_VEICULO" />
+    <property name="rntcVeiculo" column="RNTC_VEICULO" />
+    <property name="vagao" column="VAGAO" />
+    <property name="balsa" column="BALSA" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDuplicataDTO" table="nfe_duplicata" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="DataVencimento" column="DATA_VENCIMENTO" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

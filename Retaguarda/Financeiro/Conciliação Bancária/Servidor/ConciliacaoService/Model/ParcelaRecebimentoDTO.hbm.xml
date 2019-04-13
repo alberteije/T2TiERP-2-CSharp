@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ConciliacaoService"
+                   namespace="ConciliacaoService.Model" default-lazy="false">
+  <class name="ParcelaRecebimentoDTO" table="fin_parcela_recebimento">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one class="TipoRecebimentoDTO" name="tipoRecebimento" column="ID_FIN_TIPO_RECEBIMENTO"/>
+    <property name="idParcela" column="ID_FIN_PARCELA_RECEBER" />
+    <property name="idChequeRecebido" column="ID_FIN_CHEQUE_RECEBIDO" />
+    <property name="idContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="dataRecebimento" column="DATA_RECEBIMENTO" />
+    <property name="valorRecebido" column="VALOR_RECEBIDO" />
+    <property name="taxaJuro" column="TAXA_JURO" />
+    <property name="taxaMulta" column="TAXA_MULTA" />
+    <property name="taxaDesconto" column="TAXA_DESCONTO" />
+    <property name="valorJuro" column="VALOR_JURO" />
+    <property name="valorMulta" column="VALOR_MULTA" />
+    <property name="valorDesconto" column="VALOR_DESCONTO" />
+    <property name="historico" column="HISTORICO" />
+  </class>
+</hibernate-mapping>

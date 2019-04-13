@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<cotacao>
+	<prazo_entrega> Imediato, produto em estoque</prazo_entrega>
+	<condicoes_pagamento> Parcelado em 12x</condicoes_pagamento>
+	<valor_subtotal>50,00</valor_subtotal>
+	<taxa_desconto>	10</taxa_desconto>
+	<valor_desconto>	5</valor_desconto>
+	<total>	45,00</total>
+	<itens>
+		<item>
+			<id>33</id>
+			<quantidade>10</quantidade>
+			<valor_unitario>10,00</valor_unitario>
+			<valor_subtotal>100,00</valor_subtotal>
+			<taxa_desconto>5</taxa_desconto>
+			<valor_desconto>5</valor_desconto>
+			<valor_total>95,00</valor_total>
+		</item>
+		<item>
+			<id>1</id>
+			<quantidade>10</quantidade>
+			<valor_unitario>10,00</valor_unitario>
+			<valor_subtotal>100,00</valor_subtotal>
+			<taxa_desconto>5</taxa_desconto>
+			<valor_desconto>5</valor_desconto>
+			<valor_total>95,00</valor_total>
+		</item>		
+		<item>
+			<id>7618</id>
+			<quantidade>7</quantidade>
+			<valor_unitario>10,00</valor_unitario>
+			<valor_subtotal>70,00</valor_subtotal>
+			<taxa_desconto>10</taxa_desconto>
+			<valor_desconto>7</valor_desconto>
+			<valor_total>63,00</valor_total>
+		</item>		
+		<item>
+			<id>991</id>
+			<quantidade>7</quantidade>
+			<valor_unitario>10,00</valor_unitario>
+			<valor_subtotal>70,00</valor_subtotal>
+			<taxa_desconto>10</taxa_desconto>
+			<valor_desconto>7</valor_desconto>
+			<valor_total>63,00</valor_total>
+		</item>				
+	</itens>
+</cotacao>

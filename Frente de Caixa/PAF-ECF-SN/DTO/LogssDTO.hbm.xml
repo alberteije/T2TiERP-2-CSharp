@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="LogssDTO" table="logss" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">logss</param>
+      </generator>
+    </id>
+
+
+    <property name="Ttp" column="TTP" />
+    <property name="Produto" column="PRODUTO" />
+    <property name="R01" column="R01" />
+    <property name="R02" column="R02" />
+    <property name="R03" column="R03" />
+    <property name="R04" column="R04" />
+    <property name="R05" column="R05" />
+    <property name="R06" column="R06" />
+    <property name="R07" column="R07" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NaturezaFinanceiraDTO" table="natureza_financeira" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="PlanoNaturezaFinanceira" column="ID_PLANO_NATUREZA_FINANCEIRA" />
+    <many-to-one name="ContabilConta" column="ID_CONTABIL_CONTA" />
+    <property name="Classificacao" column="CLASSIFICACAO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Aplicacao" column="APLICACAO" />
+    <property name="ApareceAPagar" column="APARECE_A_PAGAR" />
+    <property name="ApareceAReceber" column="APARECE_A_RECEBER" />
+  </class>
+</hibernate-mapping>

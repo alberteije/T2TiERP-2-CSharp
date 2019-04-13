@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EstoqueContagemDetalheDTO" table="estoque_contagem_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="IdEstoqueContagemCabecalho" column="ID_ESTOQUE_CONTAGEM_CABECALHO" />
+    <property name="QuantidadeContada" column="QUANTIDADE_CONTADA" />
+    <property name="QuantidadeSistema" column="QUANTIDADE_SISTEMA" />
+    <property name="Acuracidade" column="ACURACIDADE" />
+    <property name="Divergencia" column="DIVERGENCIA" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContasPagarService" namespace="ContasPagarService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinLancamentoPagarDTO" table="fin_lancamento_pagar" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="FinDocumentoOrigem" column="ID_FIN_DOCUMENTO_ORIGEM" />
+    <many-to-one name="Fornecedor" column="ID_FORNECEDOR" />
+    <property name="PagamentoCompartilhado" column="PAGAMENTO_COMPARTILHADO" />
+    <property name="QuantidadeParcela" column="QUANTIDADE_PARCELA" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="ValorAPagar" column="VALOR_A_PAGAR" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="NumeroDocumento" column="NUMERO_DOCUMENTO" />
+    <property name="ImagemDocumento" column="IMAGEM_DOCUMENTO" />
+    <property name="PrimeiroVencimento" column="PRIMEIRO_VENCIMENTO" />
+    <property name="CodigoModuloLcto" column="CODIGO_MODULO_LCTO" />
+    <property name="IntervaloEntreParcelas" column="INTERVALO_ENTRE_PARCELAS" />
+  </class>
+</hibernate-mapping>

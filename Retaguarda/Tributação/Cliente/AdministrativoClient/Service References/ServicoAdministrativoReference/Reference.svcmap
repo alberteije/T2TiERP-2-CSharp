@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="19022478-eaa2-4b24-ae00-92c03e92770f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2678/ServicoAdministrativo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoAdministrativo3.xsd" MetadataType="Schema" ID="22474ca0-d548-4f70-83a7-a34f9107bd8d" SourceId="1" SourceUrl="http://localhost:2678/ServicoAdministrativo.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoAdministrativo1.wsdl" MetadataType="Wsdl" ID="e84f4b79-7f75-4917-a7b0-5b7922a39e20" SourceId="1" SourceUrl="http://localhost:2678/ServicoAdministrativo.svc?wsdl" />
+    <MetadataFile FileName="ServicoAdministrativo31.xsd" MetadataType="Schema" ID="df647a8b-bd53-4c4e-9fbb-315034d3dd77" SourceId="1" SourceUrl="http://localhost:2678/ServicoAdministrativo.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoAdministrativo32.xsd" MetadataType="Schema" ID="f4e6b931-ef98-4a11-9e28-66a7456a3e4c" SourceId="1" SourceUrl="http://localhost:2678/ServicoAdministrativo.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoAdministrativo1.disco" MetadataType="Disco" ID="ee45cadd-1441-47f0-8274-86438fc28f50" SourceId="1" SourceUrl="http://localhost:2678/ServicoAdministrativo.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

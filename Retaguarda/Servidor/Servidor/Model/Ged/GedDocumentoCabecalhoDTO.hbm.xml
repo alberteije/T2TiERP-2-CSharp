@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="GedDocumentoCabecalhoDTO" table="ged_documento_cabecalho" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="DataInclusao" column="DATA_INCLUSAO" />
+  </class>
+</hibernate-mapping>

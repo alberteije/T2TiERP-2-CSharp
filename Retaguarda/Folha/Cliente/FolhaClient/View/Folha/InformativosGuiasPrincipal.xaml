@@ -1,0 +1,361 @@
+﻿<UserControl x:Class="FolhaClient.View.Folha.InformativosGuiasPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="900">
+
+    <StackPanel Height="400" Name="stackPanel1" Width="900">
+
+        <DockPanel Height="360" Width="900" LastChildFill="False" VerticalAlignment="Top">
+            <Grid Height="60" Width="900" DockPanel.Dock="Top" Background="#FFEBEBEB">
+                <Image Height="48" Name="image1" Stretch="Fill" Width="48" HorizontalAlignment="Left" Source="/FolhaClient;component/Imagem/tipoRequisicao48.png" />
+                <Label Content="EDI - Folha de Pagamento" Height="28" HorizontalAlignment="Left" Margin="54,18,0,0" Name="label3" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+                <Border BorderBrush="Silver" BorderThickness="1" Height="5" HorizontalAlignment="Left" Margin="54,45,0,0" Name="border1" VerticalAlignment="Top" Width="840" />
+            </Grid>
+            <TabControl Height="300" Width="900">
+                <TabItem Header="EDI">
+                    <DockPanel Height="275" >
+
+                        <StackPanel Height="40" DockPanel.Dock="Bottom" HorizontalAlignment="Left" Orientation="Horizontal">
+                            <Button Height="30" Width="165" >
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cargo16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar Remessa" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="241" >
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cep16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Ler Retorno" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Grid  DockPanel.Dock="Top"  Height="275">
+                            <DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaColaborador}" SelectedItem="{Binding ColaboradorSelected}" IsSynchronizedWithCurrentItem="True">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+                                    <DataGridTextColumn Header="IdSindicato" Binding="{Binding Path=IdSindicato}"  />
+                                    <DataGridTextColumn Header="IdTipoAdmissao" Binding="{Binding Path=IdTipoAdmissao}"  />
+                                    <DataGridTextColumn Header="IdSituacaoColaborador" Binding="{Binding Path=IdSituacaoColaborador}"  />
+                                    <DataGridTextColumn Header="IdPessoa" Binding="{Binding Path=IdPessoa}"  />
+                                    <DataGridTextColumn Header="IdTipoColaborador" Binding="{Binding Path=IdTipoColaborador}"  />
+                                    <DataGridTextColumn Header="IdNivelFormacao" Binding="{Binding Path=IdNivelFormacao}"  />
+                                    <DataGridTextColumn Header="IdCargo" Binding="{Binding Path=IdCargo}"  />
+                                    <DataGridTextColumn Header="IdSetor" Binding="{Binding Path=IdSetor}"  />
+                                    <DataGridTextColumn Header="Matricula" Binding="{Binding Path=Matricula}"  />
+                                    <DataGridTextColumn Header="Foto34" Binding="{Binding Path=Foto34}"  />
+                                    <DataGridTextColumn Header="DataCadastro" Binding="{Binding Path=DataCadastro,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="DataAdmissao" Binding="{Binding Path=DataAdmissao,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="VencimentoFerias" Binding="{Binding Path=VencimentoFerias,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="DataTransferencia" Binding="{Binding Path=DataTransferencia,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="FgtsOptante" Binding="{Binding Path=FgtsOptante}"  />
+                                    <DataGridTextColumn Header="FgtsDataOpcao" Binding="{Binding Path=FgtsDataOpcao,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="FgtsConta" Binding="{Binding Path=FgtsConta}"  />
+                                    <DataGridTextColumn Header="PagamentoForma" Binding="{Binding Path=PagamentoForma}"  />
+                                    <DataGridTextColumn Header="PagamentoBanco" Binding="{Binding Path=PagamentoBanco}"  />
+                                    <DataGridTextColumn Header="PagamentoAgencia" Binding="{Binding Path=PagamentoAgencia}"  />
+                                    <DataGridTextColumn Header="PagamentoAgenciaDigito" Binding="{Binding Path=PagamentoAgenciaDigito}"  />
+                                    <DataGridTextColumn Header="PagamentoConta" Binding="{Binding Path=PagamentoConta}"  />
+                                    <DataGridTextColumn Header="PagamentoContaDigito" Binding="{Binding Path=PagamentoContaDigito}"  />
+                                    <DataGridTextColumn Header="ExameMedicoUltimo" Binding="{Binding Path=ExameMedicoUltimo,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="ExameMedicoVencimento" Binding="{Binding Path=ExameMedicoVencimento,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="PisDataCadastro" Binding="{Binding Path=PisDataCadastro,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="PisNumero" Binding="{Binding Path=PisNumero}"  />
+                                    <DataGridTextColumn Header="PisBanco" Binding="{Binding Path=PisBanco}"  />
+                                    <DataGridTextColumn Header="PisAgencia" Binding="{Binding Path=PisAgencia}"  />
+                                    <DataGridTextColumn Header="PisAgenciaDigito" Binding="{Binding Path=PisAgenciaDigito}"  />
+                                    <DataGridTextColumn Header="CtpsNumero" Binding="{Binding Path=CtpsNumero}"  />
+                                    <DataGridTextColumn Header="CtpsSerie" Binding="{Binding Path=CtpsSerie}"  />
+                                    <DataGridTextColumn Header="CtpsDataExpedicao" Binding="{Binding Path=CtpsDataExpedicao,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="CtpsUf" Binding="{Binding Path=CtpsUf}"  />
+                                    <DataGridTextColumn Header="DescontoPlanoSaude" Binding="{Binding Path=DescontoPlanoSaude}"  />
+                                    <DataGridTextColumn Header="SaiNaRais" Binding="{Binding Path=SaiNaRais}"  />
+                                    <DataGridTextColumn Header="CategoriaSefip" Binding="{Binding Path=CategoriaSefip}"  />
+                                    <DataGridTextColumn Header="Observacao" Binding="{Binding Path=Observacao}"  />
+                                    <DataGridTextColumn Header="OcorrenciaSefip" Binding="{Binding Path=OcorrenciaSefip}"  />
+                                    <DataGridTextColumn Header="CodigoAdmissaoCaged" Binding="{Binding Path=CodigoAdmissaoCaged}"  />
+                                    <DataGridTextColumn Header="CodigoDemissaoCaged" Binding="{Binding Path=CodigoDemissaoCaged}"  />
+                                    <DataGridTextColumn Header="CodigoDemissaoSefip" Binding="{Binding Path=CodigoDemissaoSefip}"  />
+                                    <DataGridTextColumn Header="DataDemissao" Binding="{Binding Path=DataDemissao,StringFormat=dd/MM/yyyy}"  />
+                                    <DataGridTextColumn Header="CodigoTurmaPonto" Binding="{Binding Path=CodigoTurmaPonto}"  />
+                                    <DataGridTextColumn Header="CagedAprendiz" Binding="{Binding Path=CagedAprendiz}"  />
+                                    <DataGridTextColumn Header="CagedDeficiencia" Binding="{Binding Path=CagedDeficiencia}"  />
+                                    <DataGridTextColumn Header="ClassificacaoContabilConta" Binding="{Binding Path=ClassificacaoContabilConta}"  />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="--">
+                    <DockPanel Height="275" >
+                        <StackPanel Height="40" DockPanel.Dock="Bottom" HorizontalAlignment="Left" Orientation="Horizontal">
+                            <Button Height="30" Width="117" Click="Button_Click_10">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/atividade_for_cli16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar CAGED" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="117" Click="Button_Click_11">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/agencia_banco16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar SEFIP" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Grid  DockPanel.Dock="Top"  Height="275">
+
+                            
+                            <Label Content="SEFIP:" HorizontalAlignment="Left" Margin="9,7,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+
+                            <Label Content="Código Recolhimento:" Height="20" HorizontalAlignment="Left" Margin="149,28,0,0" Name="label1" VerticalAlignment="Top" />
+						    <ComboBox Width="729" Height="25" Margin="149,46,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="cbRecolhimentoGfip" SelectedIndex="0">
+                                <ComboBoxItem Tag="115" Content="115 - RECOLHIMENTO E INFORMACAO A PREVIDENCIA SOCIAL" />
+                                <ComboBoxItem Tag="115" Content="115 - Recolhimento ao FGTS e informaes  Previdncia Social." />
+                                <ComboBoxItem Tag="130" Content="130 - Recolhimento ao FGTS e informaes  Previdncia Social relativas ao trabalhador avulso porturio." />
+                                <ComboBoxItem Tag="135" Content="135 - Recolhimento ao FGTS e informaes  Previdncia Social relativas ao trabalhador avulso no porturio." />
+                                <ComboBoxItem Tag="145" Content="145 - Recolhimento ao FGTS de diferenas apuradas pela CAIXA." />
+                                <ComboBoxItem Tag="150" Content="150 - Recolhimento ao FGTS e informaes  Previdncia Social de empresa prestadora de servios com cesso de mo-de-obra e empresa de trabalho temporrio (Lei n 6.019/74), em relao aos empregados cedidos, ou de obra de construo civil  empreitada parcial." />
+                                <ComboBoxItem Tag="155" Content="155 - Recolhimento ao FGTS e informaes  Previdncia Social de obra de construo civil  empreitada total ou obra prpria." />
+                                <ComboBoxItem Tag="211" Content="211 - Declarao para a Previdncia Social de cooperativa de trabalho relativa aos contribuintes individuais cooperados que prestam servios a tomadores." />
+                                <ComboBoxItem Tag="307" Content="307 - Recolhimento de Parcelamento do FGTS." />
+                                <ComboBoxItem Tag="317" Content="317 - Recolhimento de Parcelamento do FGTS de empresa com tomador de servios." />
+                                <ComboBoxItem Tag="327" Content="327 - Recolhimento de Parcelamento de dbito com o FGTS, priorizando os valores devidos aos trabalhadores." />
+                                <ComboBoxItem Tag="337" Content="337 - Recolhimento de Parcelamento de dbito com o FGTS de empresas com tomador de servios, priorizando os valores devidos aos trabalhadores." />
+                                <ComboBoxItem Tag="345" Content="345 - Recolhimento de parcelamento de dbito com o FGTS relativo  diferena de recolhimento, priorizando os valores devidos aos trabalhadores." />
+                                <ComboBoxItem Tag="418" Content="418 - Recolhimento recursal para o FGTS." />
+                                <ComboBoxItem Tag="604" Content="604 - Recolhimento ao FGTS de entidades com fins filantrpicos  Decreto-Lei n 194, de 24/02/1967 (competncias anteriores a 10/1989);" />
+                                <ComboBoxItem Tag="608" Content="608 - Recolhimento ao FGTS e informaes  Previdncia Social relativos a dirigente sindical." />
+                                <ComboBoxItem Tag="640" Content="640 - Recolhimento ao FGTS para empregado no optante (competncia anterior a 10/1988);" />
+                                <ComboBoxItem Tag="660" Content="660 - Recolhimento exclusivo ao FGTS relativo a Anistiados, Converso de Licena Sade em Acidente de Trabalho, Reclamatria Trabalhista, Acordo, Dissdio ou Conveno Coletiva, Comisso de Conciliao Prvia ou Ncleo Intersindical de Conciliao Trabalhista." />
+                                <ComboBoxItem Tag="650" Content="650 - Recolhimento ao FGTS e informaes  Previdncia Social relativo a Anistiados, Reclamatria Trabalhista, Reclamatria Trabalhista com Reconhecimento de Vnculo, Acordo, Dissdio ou Conveno Coletiva, Comisso de Conciliao Prvia ou Ncleo Intersindical de Conciliao Trabalhista." />
+                            </ComboBox>
+
+                            <Label Content="CAGED:" HorizontalAlignment="Left" Margin="9,79,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="9,119,0,0" Name="textBoxCompetenciaCaged" VerticalAlignment="Top" Width="134" />
+                            <Label Content="Competência (MM/AAAA):" Height="20" HorizontalAlignment="Left" Margin="9,100,0,0" Name="labelcaged" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="9,48,0,0" Name="textBoxCompetenciaGfip" VerticalAlignment="Top" Width="134" />
+					        <Label Content="Competência (MM/AAAA):" Height="20" HorizontalAlignment="Left" Margin="9,28,0,0" Name="label4" VerticalAlignment="Top" />
+
+                            <Label Content="Alteração Autorizado:" Height="20" HorizontalAlignment="Left" Margin="149,100,0,0" Name="labelcagedalteracao" VerticalAlignment="Top" />
+                            <ComboBox Width="729" Height="25" Margin="149,117,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="cbAutorizadoCaged" SelectedIndex="0">
+                                <ComboBoxItem Tag="1" Content="1 - Nada a Alterar" />
+                                <ComboBoxItem Tag="2" Content="2 - Alterar Dados Cadastrais" />
+                            </ComboBox>
+
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="--">
+                    <DockPanel Height="275" >
+                        <StackPanel Height="40" DockPanel.Dock="Bottom" HorizontalAlignment="Left" Orientation="Horizontal">
+                            <Button Height="30" Width="165" Click="Button_Click_3">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cargo16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar Ficha Financeira" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="241" Click="Button_Click_4">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cep16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar Comprovante de Rendimentos" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="117" Click="Button_Click_5">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cfop16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar RAIS" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="117" Click="Button_Click_6">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cheque16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar DIRF" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+
+                        <Grid  DockPanel.Dock="Top"  Height="275">
+                            <Label Content="Ficha Financeira:" HorizontalAlignment="Left" Margin="9,7,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="9,48,0,0" VerticalAlignment="Top" Width="134" />
+                            <Label Content="Ano Base:" Height="20" HorizontalAlignment="Left" Margin="9,28,0,0" VerticalAlignment="Top" />
+
+                            <Label Content="Ordem:" Height="20" HorizontalAlignment="Left" Margin="149,28,0,0"  VerticalAlignment="Top" />
+                            <ComboBox Width="729" Height="25" Margin="149,46,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0">
+                                <ComboBoxItem Tag="0" Content="Id Colaborador" />
+                                <ComboBoxItem Tag="1" Content="Nome Colaborador" />
+                            </ComboBox>
+
+                            <Label Content="Comprovante de Rendimentos:" HorizontalAlignment="Left" Margin="9,79,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="9,119,0,0" VerticalAlignment="Top" Width="134" />
+                            <Label Content="Ano Base:" Height="20" HorizontalAlignment="Left" Margin="9,100,0,0" VerticalAlignment="Top" />
+
+                            <Label Content="Ordem:" Height="20" HorizontalAlignment="Left" Margin="149,100,0,0" VerticalAlignment="Top" />
+                            <ComboBox Width="729" Height="25" Margin="149,117,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0">
+                                <ComboBoxItem Tag="0" Content="Id Colaborador" />
+                                <ComboBoxItem Tag="1" Content="Nome Colaborador" />
+                            </ComboBox>
+                            
+
+                            <Label Content="RAIS:" HorizontalAlignment="Left" Margin="9,151,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="9,191,0,0" VerticalAlignment="Top" Width="134" />
+                            <Label Content="Ano Base:" Height="20" HorizontalAlignment="Left" Margin="9,172,0,0" VerticalAlignment="Top" />
+
+                            <Label Content="Tipo do Informativo:" Height="20" HorizontalAlignment="Left" Margin="149,172,0,0" VerticalAlignment="Top" />
+                            <ComboBox Width="275" Height="25" Margin="149,189,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0">
+                                <ComboBoxItem Tag="0" Content="Normal" />
+                                <ComboBoxItem Tag="1" Content="Genérico" />
+                            </ComboBox>
+
+                            <Label Content="Ordem:" Height="20" HorizontalAlignment="Left" Margin="430,172,0,0" VerticalAlignment="Top" />
+                            <ComboBox Width="186" Height="25" Margin="430,189,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0">
+                                <ComboBoxItem Tag="0" Content="Id Colaborador" />
+                                <ComboBoxItem Tag="1" Content="Nome Colaborador" />
+                            </ComboBox>
+
+
+                            <Label Content="DIRF:" HorizontalAlignment="Left" Margin="700,151,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="700,191,0,0" VerticalAlignment="Top" Width="134" />
+                            <Label Content="Ano Base:" Height="20" HorizontalAlignment="Left" Margin="700,172,0,0" VerticalAlignment="Top" />
+
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="--">
+                    <DockPanel Height="275" >
+
+                        <StackPanel Height="40" DockPanel.Dock="Bottom" HorizontalAlignment="Left" Orientation="Horizontal">
+                            <Button Height="30" Width="319" Click="Button_Click_7">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/ConciliarCheque16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar Arquivo Digital Previdência Social (MANAD)" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Grid  DockPanel.Dock="Top"  Height="275">
+                            <Label Content="Arquivo Digital Previdência Social:" HorizontalAlignment="Left" Margin="9,7,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="9,48,0,0" VerticalAlignment="Top" Width="60" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="75,48,0,0" VerticalAlignment="Top" Width="60" />
+                            <Label Content="Período:" Height="20" HorizontalAlignment="Left" Margin="9,28,0,0" VerticalAlignment="Top" />
+
+                            <Label Content="Centralização de Escrituração:" Height="20" HorizontalAlignment="Left" Margin="141,28,0,0"  VerticalAlignment="Top" />
+                            <ComboBox Width="737" Height="25" Margin="141,46,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0">
+                                <ComboBoxItem Tag="0" Content="Estabelecimento sem centralização" />
+                                <ComboBoxItem Tag="1" Content="Estabelecimento centralizador" />
+                                <ComboBoxItem Tag="2" Content="Estabelecimento com escrituração centralizada" />
+                            </ComboBox>
+
+                            <Label Content="Finalidade do Arquivo:" Height="20" HorizontalAlignment="Left" Margin="9,81,0,0"  VerticalAlignment="Top" />
+                            <ComboBox Width="869" Height="25" Margin="9,99,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0">
+                                <ComboBoxItem Tag="61" Content="Solicitação de Auditor Fiscal da Secretaria da Receita Previdenciária atavés de MPF" />
+                                <ComboBoxItem Tag="62" Content="Entrega na Secretaria da Receita Previdenciária - Movimento anual de órgão público, conforme intimação" />
+                                <ComboBoxItem Tag="90" Content="Dados Internos UF" />
+                            </ComboBox>
+
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="--">
+                    <DockPanel Height="275" >
+                        <StackPanel Height="40" DockPanel.Dock="Bottom" HorizontalAlignment="Left" Orientation="Horizontal">
+                            <Button Height="30" Width="109" Click="Button_Click">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/contador16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar GPS" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="107" Click="Button_Click_1">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/cotacaoCompra16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar IRRF" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="117" Click="Button_Click_2">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/documento16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar PIS" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="117" Click="Button_Click_8">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/estado_civil16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar GRRF" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                            <Button Height="30" Width="117" Click="Button_Click_9">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="/Imagem/frete16.png" Height="16" Width="16"></Image>
+                                    <TextBlock Text="Gerar GRCSU" Margin="3,0,0,0" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Grid  DockPanel.Dock="Top"  Height="275">
+
+                            <DatePicker Height="25" HorizontalAlignment="Left" Margin="10,51,0,0" Name="dpPeriodoApuracao" VerticalAlignment="Top" Width="115"  />
+                            <Label Content="Período Apuração:" Height="20" HorizontalAlignment="Left" Margin="10,31,0,0" Name="label44" VerticalAlignment="Top" />
+                            <DatePicker Height="25" HorizontalAlignment="Left" Margin="131,51,0,0" Name="dpVencimento" VerticalAlignment="Top" Width="115"  />
+                            <Label Content="Data Vencimento:" Height="20" HorizontalAlignment="Left" Margin="131,31,0,0" Name="label22" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="257,51,0,0" Name="textBoxCodReceita" VerticalAlignment="Top" Width="91" />
+                            <Label Content="Código da Receita:" Height="20" HorizontalAlignment="Left" Margin="257,31,0,0" Name="labelCodReceita" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="357,51,0,0" Name="textBoxNumRef" VerticalAlignment="Top" Width="125" />
+                            <Label Content="Número Referência:" Height="20" HorizontalAlignment="Left" Margin="357,31,0,0" Name="labelNumRef" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="10,106,0,0" Name="textBoxVlrPrincipal" VerticalAlignment="Top" Width="113" />
+                            <Label Content="Valor Principal:" Height="20" HorizontalAlignment="Left" Margin="10,86,0,0" Name="labelVlrPrincipal" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="131,106,0,0" Name="textBoxMulta" VerticalAlignment="Top" Width="113" />
+                            <Label Content="Multa:" Height="20" HorizontalAlignment="Left" Margin="131,86,0,0" Name="label55" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="250,106,0,0" Name="textBoxJuros" VerticalAlignment="Top" Width="113" />
+                            <Label Content="Juros:" Height="20" HorizontalAlignment="Left" Margin="250,86,0,0" Name="label66" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="369,106,0,0" Name="textBoxTotal" VerticalAlignment="Top" Width="113" />
+                            <Label Content="Valor Total:" Height="20" HorizontalAlignment="Left" Margin="369,86,0,0" Name="labelTotal" VerticalAlignment="Top" />
+
+                            <Label Content="GPS:" HorizontalAlignment="Left" Margin="513,11,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <Label Content="Competência (MM/AAAA):" Height="20" HorizontalAlignment="Left" Margin="513,32,0,0" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="513,51,0,0"  VerticalAlignment="Top" Width="134" />
+                            <Label Content="Atraso (%):" Height="20" HorizontalAlignment="Left" Margin="653,32,0,0"  VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="653,51,0,0"  VerticalAlignment="Top" Width="73" />
+                            <Label Content="GRRF (Guia de Recolhimento Rescisório do FGTS):" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <Label Content="Período:" Height="20" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Width="60" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="76,192,0,0" VerticalAlignment="Top" Width="60" />
+                            <Label Content="Data Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="142,174,0,0"  />
+                            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Margin="142,192,0,0"  />
+
+                            <Label Content="GRCSU (Guia Recolhimento da Contribuição Sindical Urbana):" HorizontalAlignment="Left" Margin="335,153,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+                            <Label Content="Competência (MM/AAAA):" Height="20" HorizontalAlignment="Left" Margin="335,172,0,0" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="335,192,0,0"  VerticalAlignment="Top" Width="134" />
+                            <Label Content="Multa (%):" Height="20" HorizontalAlignment="Left" Margin="475,172,0,0"  VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="475,192,0,0"  VerticalAlignment="Top" Width="73" />
+                            <Label Content="Juros (%):" Height="20" HorizontalAlignment="Left" Margin="554,172,0,0"  VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="554,192,0,0"  VerticalAlignment="Top" Width="73" />
+                            <Label Content="DARF:" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+            </TabControl>
+
+        </DockPanel>
+        
+        
+        <DockPanel Height="40" Width="900" LastChildFill="True" VerticalAlignment="Bottom">
+            <Grid Height="40" Width="900" DockPanel.Dock="Bottom" Background="#FFEBEBEB" VerticalAlignment="Bottom">
+                <Button Margin="777,5,6,5" Height="30" Width="117" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Width="16" Source="/Imagem/21botaoSair.png" />
+                        <TextBlock Margin="3,0,0,0" Text="Sair" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+         </DockPanel>
+
+    </StackPanel>
+
+
+</UserControl>

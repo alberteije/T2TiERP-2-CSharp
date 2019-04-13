@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SituacaoClienteDTO" table="situacao_cliente" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">situacao_cliente</param>
+      </generator>
+    </id>
+
+
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+  </class>
+</hibernate-mapping>

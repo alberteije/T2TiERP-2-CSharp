@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="BalcaoPAF.View.DavCabecalho" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:BalcaoPAF.View.Botoes" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Top" Grid.Column="0">
+				<viewBotoes:BarraInterna></viewBotoes:BarraInterna>
+			</StackPanel>
+			<Grid>
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Id}" Height="23" Width="100" Margin="6,25,0,0"  />
+				<Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding DavCabecalhoSelected.Empresa.Id}" Height="23" Width="68" Margin="112,25,0,0"  />
+				<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarEmpresa" Margin="180,25,0,0"  />
+				<Label Content="IdEmpresa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding DavCabecalhoSelected.Pessoa.Id}" Height="23" Width="68" Margin="218,25,0,0"  />
+				<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPessoa" Click="btPesquisarPessoa_Click" Margin="286,25,0,0"  />
+				<Label Content="IdPessoa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.NumeroDav}" Height="23" Width="100" Margin="324,25,0,0"  />
+				<Label Content="NumeroDav" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.NumeroEcf}" Height="23" Width="100" Margin="430,25,0,0"  />
+				<Label Content="NumeroEcf" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Ccf}" Height="23" Width="100" Margin="536,25,0,0"  />
+				<Label Content="Ccf" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Coo}" Height="23" Width="100" Margin="6,73,0,0"  />
+				<Label Content="Coo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.NomeDestinatario}" Height="23" Width="100" Margin="112,73,0,0"  />
+				<Label Content="NomeDestinatario" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.CpfCnpjDestinatario}" Height="23" Width="100" Margin="218,73,0,0"  />
+				<Label Content="CpfCnpjDestinatario" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+				<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding DavCabecalhoSelected.DataEmissao}" Margin="324,73,0,0"  />
+				<Label Content="DataEmissao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,54,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.HoraEmissao}" Height="23" Width="100" Margin="430,73,0,0"  />
+				<Label Content="HoraEmissao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,54,0,0"  />
+				<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding DavCabecalhoSelected.Situacao}" SelectedValuePath="Tag" Margin="536,73,0,0" >
+					<ComboBoxItem Content="Sim" Tag="S" />
+					<ComboBoxItem Content="Não" Tag="N" />
+				</ComboBox>
+				<Label Content="Situacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,54,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.TaxaAcrescimo}" Height="23" Width="100" Margin="6,121,0,0"  />
+				<Label Content="TaxaAcrescimo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Acrescimo}" Height="23" Width="100" Margin="112,121,0,0"  />
+				<Label Content="Acrescimo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,102,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.TaxaDesconto}" Height="23" Width="100" Margin="218,121,0,0"  />
+				<Label Content="TaxaDesconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,102,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Desconto}" Height="23" Width="100" Margin="324,121,0,0"  />
+				<Label Content="Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,102,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Subtotal}" Height="23" Width="100" Margin="430,121,0,0"  />
+				<Label Content="Subtotal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,102,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Valor}" Height="23" Width="100" Margin="536,121,0,0"  />
+				<Label Content="Valor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,102,0,0"  />
+				<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding DavCabecalhoSelected.Impresso}" SelectedValuePath="Tag" Margin="6,169,0,0" >
+					<ComboBoxItem Content="Sim" Tag="S" />
+					<ComboBoxItem Content="Não" Tag="N" />
+				</ComboBox>
+				<Label Content="Tipo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,150,0,0"  />
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="251" SelectedValue="{Binding DavCabecalhoSelected.Impresso}" SelectedValuePath="Tag" Margin="220,169,0,0" >
+                    <ComboBoxItem Content="Padrão" Tag="1" />
+                    <ComboBoxItem Content="Farmácia" Tag="2" />
+                    <ComboBoxItem Content="Ordem de Serviço" Tag="3" />
+                </ComboBox>
+                <Label Content="Impresso" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,150,0,0"  />
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding DavCabecalhoSelected.Logss}" Height="23" Width="100" Margin="112,169,0,0"  />
+				<Label Content="Logss" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,150,0,0"  />
+			</Grid>
+		</DockPanel>
+	</Grid>
+</UserControl>

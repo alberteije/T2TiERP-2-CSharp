@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContratosService" namespace="ContratosService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EnderecoDTO" table="endereco" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="IdPessoa" column="ID_PESSOA" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="Cidade" column="CIDADE" />
+    <property name="Cep" column="CEP" />
+    <property name="MunicipioIbge" column="MUNICIPIO_IBGE" />
+    <property name="Uf" column="UF" />
+    <property name="Fone" column="FONE" />
+    <property name="Fax" column="FAX" />
+    <property name="Principal" column="PRINCIPAL" />
+    <property name="Entrega" column="ENTREGA" />
+    <property name="Cobranca" column="COBRANCA" />
+    <property name="Correspondencia" column="CORRESPONDENCIA" />
+  </class>
+</hibernate-mapping>

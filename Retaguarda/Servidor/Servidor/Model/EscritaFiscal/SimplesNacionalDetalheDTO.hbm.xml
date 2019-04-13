@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SimplesNacionalDetalheDTO" table="simples_nacional_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="SimplesNacionalCabecalho" column="ID_SIMPLES_NACIONAL_CABECALHO" />
+    <property name="Faixa" column="FAIXA" />
+    <property name="ValorInicial" column="VALOR_INICIAL" />
+    <property name="ValorFinal" column="VALOR_FINAL" />
+    <property name="Aliquota" column="ALIQUOTA" />
+    <property name="Irpj" column="IRPJ" />
+    <property name="Csll" column="CSLL" />
+    <property name="Cofins" column="COFINS" />
+    <property name="PisPasep" column="PIS_PASEP" />
+    <property name="Cpp" column="CPP" />
+    <property name="Icms" column="ICMS" />
+    <property name="Ipi" column="IPI" />
+    <property name="Iss" column="ISS" />
+  </class>
+</hibernate-mapping>

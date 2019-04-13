@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TesourariaService.TesourariaService" CodeBehind="TesourariaService.svc.cs" %>

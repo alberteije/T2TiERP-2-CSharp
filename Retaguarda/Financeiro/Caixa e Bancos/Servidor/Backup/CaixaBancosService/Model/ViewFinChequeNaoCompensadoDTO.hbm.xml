@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="CaixaBancosService" namespace="CaixaBancosService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewFinChequeNaoCompensadoDTO" table="view_fin_cheque_nao_compensado" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="NomeContaCaixa" column="NOME_CONTA_CAIXA" />
+    <property name="Talao" column="TALAO" />
+    <property name="NumeroTalao" column="NUMERO_TALAO" />
+    <property name="NumeroCheque" column="NUMERO_CHEQUE" />
+    <property name="StatusCheque" column="STATUS_CHEQUE" />
+    <property name="DataStatus" column="DATA_STATUS" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

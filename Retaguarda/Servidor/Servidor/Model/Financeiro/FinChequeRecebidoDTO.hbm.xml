@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinChequeRecebidoDTO" table="fin_cheque_recebido" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Pessoa" column="ID_PESSOA" />
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+    <property name="Nome" column="NOME" />
+    <property name="CodigoBanco" column="CODIGO_BANCO" />
+    <property name="CodigoAgencia" column="CODIGO_AGENCIA" />
+    <property name="Conta" column="CONTA" />
+    <property name="Numero" column="NUMERO" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="BomPara" column="BOM_PARA" />
+    <property name="DataCompensacao" column="DATA_COMPENSACAO" />
+    <property name="Valor" column="VALOR" />
+    <property name="CustodiaData" column="CUSTODIA_DATA" />
+    <property name="CustodiaTarifa" column="CUSTODIA_TARIFA" />
+    <property name="CustodiaComissao" column="CUSTODIA_COMISSAO" />
+    <property name="DescontoCheque" column="DESCONTO_CHEQUE" />
+    <property name="DescontoData" column="DESCONTO_DATA" />
+    <property name="DescontoTarifa" column="DESCONTO_TARIFA" />
+    <property name="DescontoComissao" column="DESCONTO_COMISSAO" />
+    <property name="ValorRecebido" column="VALOR_RECEBIDO" />
+  </class>
+</hibernate-mapping>

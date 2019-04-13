@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CFe>
+	<infCFe versaoDadosEnt="0.06">
+		<ide>
+			<CNPJ>11111111111111</CNPJ>
+			<signAC>eije1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</signAC>
+			<numeroCaixa>001</numeroCaixa>
+		</ide>
+		<emit>
+			<CNPJ>11111111111111</CNPJ>
+			<IE>111111111111</IE>
+			<IM>123123</IM>
+			<cRegTribISSQN>1</cRegTribISSQN>
+			<indRatISSQN>N</indRatISSQN>
+		</emit>
+		<dest>
+			<CNPJ>05481336000137</CNPJ>
+			<xNome>D.J. SYSTEM</xNome>
+		</dest>
+		<entrega>
+		 <xLgr>logradouro</xLgr>
+		 <nro>112233</nro>
+		 <xCpl>complemento</xCpl>
+		 <xBairro>bairro</xBairro>
+		 <xMun>municipio</xMun>
+		 <UF>RJ</UF>
+		</entrega>
+		<det nItem="1">
+		 <prod>
+			<cProd>ACBR001</cProd>
+			<cEAN>6291041500213</cEAN>
+			<xProd>DESCRICAO DO PRODUTO GIGANTE 001</xProd>
+			<NCM>99</NCM>
+			<CFOP>5120</CFOP>
+			<uCom>UN</uCom>
+			<qCom>1.0000</qCom>
+			<vUnCom>10.00</vUnCom>
+			<indRegra>A</indRegra>
+		 </prod>
+		 <imposto>
+			<vItem12741>1.20</vItem12741>
+			<ICMS>
+			   <ICMSSN102>
+				  <Orig>0</Orig>
+				  <CSOSN>102</CSOSN>
+			   </ICMSSN102>
+			</ICMS>
+			<PIS>
+			   <PISSN>
+				  <CST>49</CST>
+			   </PISSN>
+			</PIS>
+			<COFINS>
+			   <COFINSSN>
+				  <CST>49</CST>
+			   </COFINSSN>
+			</COFINS>
+		 </imposto>
+		 <infAdProd>Informacoes adicionais</infAdProd>
+		</det>
+		<total>
+		 <vCFeLei12741>1.20</vCFeLei12741>
+		</total>
+		<pgto>
+		 <MP>
+			<cMP>01</cMP>
+			<vMP>100.00</vMP>
+		 </MP>
+		</pgto>
+		<infAdic>
+		 <infCpl>Acesse www.projetoacbr.com.br para obter mais;informacoes sobre o componente ACBrSAT;Precisa de um PAF-ECF homologado?;Conheca o DJPDV - www.djpdv.com.br</infCpl>
+		</infAdic>
+	</infCFe>
+</CFe>

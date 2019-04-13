@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfcePosicaoComponentesDTO" table="nfce_posicao_componentes" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfceResolucao" column="ID_NFCE_RESOLUCAO" />
+    <property name="Nome" column="NOME" />
+    <property name="Altura" column="ALTURA" />
+    <property name="Largura" column="LARGURA" />
+    <property name="Topo" column="TOPO" />
+    <property name="Esquerda" column="ESQUERDA" />
+    <property name="TamanhoFonte" column="TAMANHO_FONTE" />
+    <property name="Texto" column="TEXTO" />
+  </class>
+</hibernate-mapping>

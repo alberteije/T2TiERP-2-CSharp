@@ -1,0 +1,28 @@
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\VendasService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\VendasService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\obj\Debug\VendasService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasService\VendasService\obj\Debug\VendasService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\VendasService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\VendasService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\obj\Debug\VendasService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasService\VendasService\obj\Debug\VendasService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\bin\VendasService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\bin\VendasService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\bin\VendasService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\obj\Debug\VendasService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\obj\Debug\VendasService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Servidor\VendasService\obj\Debug\VendasService.pdb

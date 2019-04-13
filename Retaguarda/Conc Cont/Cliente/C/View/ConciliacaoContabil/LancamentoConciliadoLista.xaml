@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ConciliacaoContabilClient.View.ConciliacaoContabil.LancamentoConciliadoLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:ConciliacaoContabilClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="1000">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+            <DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaLancamentoConciliado}" SelectedItem="{Binding LancamentoConciliadoSelected}">
+				<DataGrid.Columns>
+                    <DataGridTextColumn Header="Mes" Binding="{Binding Path=Mes}"  />
+                    <DataGridTextColumn Header="Ano" Binding="{Binding Path=Ano}"  />
+                    <DataGridTextColumn Header="Data Movimento" Binding="{Binding Path=DataMovimento,StringFormat=dd/MM/yyyy}"  />
+                    <DataGridTextColumn Header="Data Balancete" Binding="{Binding Path=DataBalancete,StringFormat=dd/MM/yyyy}"  />
+                    <DataGridTextColumn Header="Historico Extrato" Binding="{Binding Path=HistoricoExtrato}"  />
+                    <DataGridTextColumn Header="Valor Extrato" Binding="{Binding Path=ValorExtrato,Converter={StaticResource moedaFormat}}"  />
+                    <DataGridTextColumn Header="Classificação" Binding="{Binding Path=Classificacao}"  />
+                    <DataGridTextColumn Header="Historico Conta" Binding="{Binding Path=HistoricoConta}"  />
+                    <DataGridTextColumn Header="Tipo" Binding="{Binding Path=Tipo}"  />
+                    <DataGridTextColumn Header="Valor Conta" Binding="{Binding Path=ValorConta,Converter={StaticResource moedaFormat}}"  />
+                </DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="R06DTO" table="r06" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">r06</param>
+      </generator>
+    </id>
+
+
+    <property name="IdOperador" column="ID_OPERADOR" />
+    <property name="IdImpressora" column="ID_IMPRESSORA" />
+    <property name="IdEcfCaixa" column="ID_ECF_CAIXA" />
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="Coo" column="COO" />
+    <property name="Gnf" column="GNF" />
+    <property name="Grg" column="GRG" />
+    <property name="Cdc" column="CDC" />
+    <property name="Denominacao" column="DENOMINACAO" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="HoraEmissao" column="HORA_EMISSAO" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

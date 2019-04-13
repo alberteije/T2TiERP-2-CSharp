@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContasPagarService" namespace="ContasPagarService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinLctoPagarNtFinanceiraDTO" table="fin_lcto_pagar_nt_financeira" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="NaturezaFinanceira" column="ID_NATUREZA_FINANCEIRA" />
+    <property name="IdFinLancamentoPagar" column="ID_FIN_LANCAMENTO_PAGAR" />
+    <property name="DataInclusao" column="DATA_INCLUSAO" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

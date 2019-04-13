@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NivelFormacaoDTO" table="nivel_formacao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="GrauInstrucaoCaged" column="GRAU_INSTRUCAO_CAGED" />
+    <property name="GrauInstrucaoSefip" column="GRAU_INSTRUCAO_SEFIP" />
+    <property name="GrauInstrucaoRais" column="GRAU_INSTRUCAO_RAIS" />
+  </class>
+</hibernate-mapping>

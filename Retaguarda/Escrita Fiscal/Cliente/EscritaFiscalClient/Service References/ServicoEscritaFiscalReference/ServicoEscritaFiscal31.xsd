@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2667/ServicoEscritaFiscal.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" />
+  <xs:element name="deleteRegistroCartorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q1:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteRegistroCartorioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteRegistroCartorioResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarRegistroCartorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q2:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarRegistroCartorioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="salvarAtualizarRegistroCartorioResult" nillable="true" type="q3:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q4:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectRegistroCartorioResult" nillable="true" type="q5:ArrayOfRegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorioPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q6:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorioPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectRegistroCartorioPaginaResult" nillable="true" type="q7:ArrayOfRegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFiscalParametro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalParametro" nillable="true" type="q8:FiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFiscalParametroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFiscalParametroResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFiscalParametro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalParametro" nillable="true" type="q9:FiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFiscalParametroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="salvarAtualizarFiscalParametroResult" nillable="true" type="q10:FiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalParametro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalParametro" nillable="true" type="q11:FiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalParametroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectFiscalParametroResult" nillable="true" type="q12:ArrayOfFiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalParametroPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalParametro" nillable="true" type="q13:FiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalParametroPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectFiscalParametroPaginaResult" nillable="true" type="q14:ArrayOfFiscalParametroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteTipoNotaFiscal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="tipoNotaFiscal" nillable="true" type="q15:TipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteTipoNotaFiscalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteTipoNotaFiscalResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarTipoNotaFiscal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="tipoNotaFiscal" nillable="true" type="q16:TipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarTipoNotaFiscalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="salvarAtualizarTipoNotaFiscalResult" nillable="true" type="q17:TipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectTipoNotaFiscal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="tipoNotaFiscal" nillable="true" type="q18:TipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectTipoNotaFiscalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectTipoNotaFiscalResult" nillable="true" type="q19:ArrayOfTipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectTipoNotaFiscalPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="tipoNotaFiscal" nillable="true" type="q20:TipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectTipoNotaFiscalPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectTipoNotaFiscalPaginaResult" nillable="true" type="q21:ArrayOfTipoNotaFiscalDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteSimplesNacionalCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="simplesNacionalCabecalho" nillable="true" type="q22:SimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteSimplesNacionalCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteSimplesNacionalCabecalhoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarSimplesNacionalCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="simplesNacionalCabecalho" nillable="true" type="q23:SimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarSimplesNacionalCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="salvarAtualizarSimplesNacionalCabecalhoResult" nillable="true" type="q24:SimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSimplesNacionalCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="simplesNacionalCabecalho" nillable="true" type="q25:SimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSimplesNacionalCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectSimplesNacionalCabecalhoResult" nillable="true" type="q26:ArrayOfSimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSimplesNacionalCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="simplesNacionalCabecalho" nillable="true" type="q27:SimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSimplesNacionalCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectSimplesNacionalCabecalhoPaginaResult" nillable="true" type="q28:ArrayOfSimplesNacionalCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFiscalLivro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalLivro" nillable="true" type="q29:FiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFiscalLivroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFiscalLivroResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFiscalLivro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalLivro" nillable="true" type="q30:FiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFiscalLivroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="salvarAtualizarFiscalLivroResult" nillable="true" type="q31:FiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalLivro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalLivro" nillable="true" type="q32:FiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalLivroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectFiscalLivroResult" nillable="true" type="q33:ArrayOfFiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalLivroPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalLivro" nillable="true" type="q34:FiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalLivroPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectFiscalLivroPaginaResult" nillable="true" type="q35:ArrayOfFiscalLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFiscalApuracaoIcms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalApuracaoIcms" nillable="true" type="q36:FiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFiscalApuracaoIcmsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFiscalApuracaoIcmsResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFiscalApuracaoIcms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalApuracaoIcms" nillable="true" type="q37:FiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFiscalApuracaoIcmsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="salvarAtualizarFiscalApuracaoIcmsResult" nillable="true" type="q38:FiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalApuracaoIcms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalApuracaoIcms" nillable="true" type="q39:FiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalApuracaoIcmsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectFiscalApuracaoIcmsResult" nillable="true" type="q40:ArrayOfFiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalApuracaoIcmsPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="fiscalApuracaoIcms" nillable="true" type="q41:FiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFiscalApuracaoIcmsPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectFiscalApuracaoIcmsPaginaResult" nillable="true" type="q42:ArrayOfFiscalApuracaoIcmsDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectUsuarioResult" nillable="true" type="q43:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcesso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="viewControleAcesso" nillable="true" type="q44:ViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" minOccurs="0" name="selectControleAcessoResult" nillable="true" type="q45:ArrayOfViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

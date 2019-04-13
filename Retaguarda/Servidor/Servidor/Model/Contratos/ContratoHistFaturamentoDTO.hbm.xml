@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContratoHistFaturamentoDTO" table="contrato_hist_faturamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Contrato" column="ID_CONTRATO" />
+    <property name="DataFatura" column="DATA_FATURA" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

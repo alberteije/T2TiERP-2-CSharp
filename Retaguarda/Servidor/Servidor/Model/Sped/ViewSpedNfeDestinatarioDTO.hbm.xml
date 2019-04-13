@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewSpedNfeDestinatarioDTO" table="view_sped_nfe_destinatario" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="RazaoSocial" column="NOME" />
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="CodigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="Suframa" column="SUFRAMA" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContasPagarService" namespace="ContasPagarService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewFinLancamentoPagarDTO" table="view_fin_lancamento_pagar" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdLancamentoPagar" column="ID_LANCAMENTO_PAGAR" />
+    <property name="QuantidadeParcela" column="QUANTIDADE_PARCELA" />
+    <property name="ValorLancamento" column="VALOR_LANCAMENTO" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="NumeroDocumento" column="NUMERO_DOCUMENTO" />
+    <property name="IdParcelaPagar" column="ID_PARCELA_PAGAR" />
+    <property name="NumeroParcela" column="NUMERO_PARCELA" />
+    <property name="DataVencimento" column="DATA_VENCIMENTO" />
+    <property name="ValorParcela" column="VALOR_PARCELA" />
+    <property name="TaxaJuro" column="TAXA_JURO" />
+    <property name="ValorJuro" column="VALOR_JURO" />
+    <property name="TaxaMulta" column="TAXA_MULTA" />
+    <property name="ValorMulta" column="VALOR_MULTA" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="SiglaDocumento" column="SIGLA_DOCUMENTO" />
+    <property name="NomeFornecedor" column="NOME_FORNECEDOR" />
+    <property name="IdStatusParcela" column="ID_STATUS_PARCELA" />
+    <property name="SituacaoParcela" column="SITUACAO_PARCELA" />
+    <property name="DescricaoSituacaoParcela" column="DESCRICAO_SITUACAO_PARCELA" />
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="NomeContaCaixa" column="NOME_CONTA_CAIXA" />
+  </class>
+</hibernate-mapping>

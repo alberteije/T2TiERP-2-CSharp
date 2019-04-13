@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfceSuprimentoDTO" table="nfce_suprimento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfceMovimento" column="ID_NFCE_MOVIMENTO" />
+    <property name="DataSuprimento" column="DATA_SUPRIMENTO" />
+    <property name="Valor" column="VALOR" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

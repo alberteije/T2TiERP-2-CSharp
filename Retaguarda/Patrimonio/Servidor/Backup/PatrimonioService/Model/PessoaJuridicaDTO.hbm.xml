@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PatrimonioService" namespace="PatrimonioService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PessoaJuridicaDTO" table="pessoa_juridica" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Pessoa" column="ID_PESSOA" />
+    <property name="Cnpj" column="CNPJ" />
+    <property name="Fantasia" column="FANTASIA" />
+    <property name="InscricaoMunicipal" column="INSCRICAO_MUNICIPAL" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="DataConstituicao" column="DATA_CONSTITUICAO" />
+    <property name="TipoRegime" column="TIPO_REGIME" />
+    <property name="Crt" column="CRT" />
+    <property name="Suframa" column="SUFRAMA" />
+  </class>
+</hibernate-mapping>

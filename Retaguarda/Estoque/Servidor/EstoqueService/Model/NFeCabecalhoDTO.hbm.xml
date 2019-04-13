@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NFeCabecalhoDTO" table="nfe_cabecalho" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="TributOperacaoFiscal" column="ID_TRIBUT_OPERACAO_FISCAL" />
+    <many-to-one name="Fornecedor" column="ID_FORNECEDOR" />
+    <many-to-one name="Cliente" column="ID_CLIENTE" />
+    <property name="idEmpresa" column="ID_EMPRESA" />
+    <property name="ufEmitente" column="UF_EMITENTE" />
+    <property name="codigoNumerico" column="CODIGO_NUMERICO" />
+    <property name="naturezaOperacao" column="NATUREZA_OPERACAO" />
+    <property name="indicadorFormaPagamento" column="INDICADOR_FORMA_PAGAMENTO" />
+    <property name="codigoModelo" column="CODIGO_MODELO" />
+    <property name="serie" column="SERIE" />
+    <property name="numero" column="NUMERO" />
+    <property name="dataEmissao" column="DATA_HORA_EMISSAO" />
+    <property name="dataEntradaSaida" column="DATA_HORA_ENTRADA_SAIDA" />
+    <property name="tipoOperacao" column="TIPO_OPERACAO" />
+    <property name="codigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="formatoImpressaoDanfe" column="FORMATO_IMPRESSAO_DANFE" />
+    <property name="tipoEmissao" column="TIPO_EMISSAO" />
+    <property name="chaveAcesso" column="CHAVE_ACESSO" />
+    <property name="digitoChaveAcesso" column="DIGITO_CHAVE_ACESSO" />
+    <property name="ambiente" column="AMBIENTE" />
+    <property name="finalidadeEmissao" column="FINALIDADE_EMISSAO" />
+    <property name="processoEmissao" column="PROCESSO_EMISSAO" />
+    <property name="versaoProcessoEmissao" column="VERSAO_PROCESSO_EMISSAO" />
+    <property name="dataEntradaContingencia" column="DATA_ENTRADA_CONTINGENCIA" />
+    <property name="justificativaContingencia" column="JUSTIFICATIVA_CONTINGENCIA" />
+    <property name="baseCalculoIcms" column="BASE_CALCULO_ICMS" />
+    <property name="valorIcms" column="VALOR_ICMS" />
+    <property name="baseCalculoIcmsSt" column="BASE_CALCULO_ICMS_ST" />
+    <property name="valorIcmsSt" column="VALOR_ICMS_ST" />
+    <property name="valorTotalProdutos" column="VALOR_TOTAL_PRODUTOS" />
+    <property name="valorFrete" column="VALOR_FRETE" />
+    <property name="valorSeguro" column="VALOR_SEGURO" />
+    <property name="valorDesconto" column="VALOR_DESCONTO" />
+    <property name="valorImpostoImportacao" column="VALOR_IMPOSTO_IMPORTACAO" />
+    <property name="valorIpi" column="VALOR_IPI" />
+    <property name="valorPis" column="VALOR_PIS" />
+    <property name="valorCofins" column="VALOR_COFINS" />
+    <property name="valorDespesasAcessorias" column="VALOR_DESPESAS_ACESSORIAS" />
+    <property name="valorTotal" column="VALOR_TOTAL" />
+    <property name="valorServicos" column="VALOR_SERVICOS" />
+    <property name="baseCalculoIssqn" column="BASE_CALCULO_ISSQN" />
+    <property name="valorIssqn" column="VALOR_ISSQN" />
+    <property name="valorPisIssqn" column="VALOR_PIS_ISSQN" />
+    <property name="valorCofinsIssqn" column="VALOR_COFINS_ISSQN" />
+    <property name="valorRetidoPis" column="VALOR_RETIDO_PIS" />
+    <property name="valorRetidoCofins" column="VALOR_RETIDO_COFINS" />
+    <property name="valorRetidoCsll" column="VALOR_RETIDO_CSLL" />
+    <property name="baseCalculoIrrf" column="BASE_CALCULO_IRRF" />
+    <property name="valorRetidoIrrf" column="VALOR_RETIDO_IRRF" />
+    <property name="baseCalculoPrevidencia" column="BASE_CALCULO_PREVIDENCIA" />
+    <property name="valorRetidoPrevidencia" column="VALOR_RETIDO_PREVIDENCIA" />
+    <property name="comexUfEmbarque" column="COMEX_UF_EMBARQUE" />
+    <property name="comexLocalEmbarque" column="COMEX_LOCAL_EMBARQUE" />
+    <property name="compraNotaEmpenho" column="COMPRA_NOTA_EMPENHO" />
+    <property name="compraPedido" column="COMPRA_PEDIDO" />
+    <property name="compraContrato" column="COMPRA_CONTRATO" />
+    <property name="informacoesAddFisco" column="INFORMACOES_ADD_FISCO" />
+    <property name="informacoesAddContribuinte" column="INFORMACOES_ADD_CONTRIBUINTE" />
+    <property name="statusNota" column="STATUS_NOTA" />
+  </class>
+</hibernate-mapping>

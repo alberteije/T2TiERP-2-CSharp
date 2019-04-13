@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="VendasService" namespace="VendasService.Model" 
+                   default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CondicoesParcelaDTO" table="venda_condicoes_parcelas" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdCondicoesPagamento" column="ID_VENDA_CONDICOES_PAGAMENTO" />
+    <property name="Parcela" column="PARCELA" />
+    <property name="Dias" column="DIAS" />
+    <property name="Taxa" column="TAXA" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasReceberClient.View.ContasReceber.FinConfiguracaoBoleto" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FinConfiguracaoBoletoSelected.ContaCaixa.Nome}" Height="23" Width="652" Margin="6,27,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContaCaixa" Click="btPesquisarContaCaixa_Click" Margin="664,27,0,0"  />
+			<Label Content="Conta Caixa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,8,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.Instrucao01}" Height="23" Width="346" Margin="6,75,0,0"  />
+			<Label Content="Instrucao01" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,56,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.Instrucao02}" Height="23" Width="336" Margin="358,75,0,0"  />
+			<Label Content="Instrucao02" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="358,56,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.CaminhoArquivoRemessa}" Height="23" Width="346" Margin="6,123,0,0"  />
+			<Label Content="Caminho Arquivo Remessa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,104,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.CaminhoArquivoRetorno}" Height="23" Width="336" Margin="358,123,0,0"  />
+			<Label Content="Caminho Arquivo Retorno" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="358,104,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.Mensagem}" Height="49" Width="688" Margin="6,171,0,0"  />
+			<Label Content="Mensagem" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,152,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.LocalPagamento}" Height="23" Width="688" Margin="6,245,0,0"  />
+			<Label Content="Local Pagamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,226,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="76" SelectedValue="{Binding FinConfiguracaoBoletoSelected.LayoutRemessa}" SelectedValuePath="Tag" Margin="6,295,0,0" >
+                <ComboBoxItem Content="240" Tag="240" />
+                <ComboBoxItem Content="400" Tag="400" />
+			</ComboBox>
+			<Label Content="Layout CNAB" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,276,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="63" SelectedValue="{Binding FinConfiguracaoBoletoSelected.Aceite}" SelectedValuePath="Tag" Margin="88,295,0,0" >
+                <ComboBoxItem Content="Sim" Tag="S" />
+                <ComboBoxItem Content="Não" Tag="N" />
+            </ComboBox>
+			<Label Content="Aceite" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="88,276,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="142" SelectedValue="{Binding FinConfiguracaoBoletoSelected.Especie}" SelectedValuePath="Tag" Margin="157,295,0,0" >
+				<ComboBoxItem Content="DM - Duplicata Mercantil" Tag="DM" />
+				<ComboBoxItem Content="DS - Duplicata de Serviços" Tag="DS" />
+                <ComboBoxItem Content="RC - Recibo" Tag="RC" />
+                <ComboBoxItem Content="NP - Nota Promissória" Tag="NP" />
+            </ComboBox>
+			<Label Content="Especie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="157,276,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="70" Text="{Binding FinConfiguracaoBoletoSelected.Carteira}"  Margin="305,295,0,0" />
+			<Label Content="Carteira" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="305,276,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.CodigoConvenio}" Height="23" Width="100" Margin="381,295,0,0"  />
+			<Label Content="Codigo Convenio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="381,276,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.CodigoCedente}" Height="23" Width="100" Margin="487,295,0,0"  />
+			<Label Content="Codigo Cedente" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="487,276,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinConfiguracaoBoletoSelected.TaxaMulta}" Height="23" Width="100" Margin="593,295,0,0"  />
+			<Label Content="Taxa Multa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="593,276,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

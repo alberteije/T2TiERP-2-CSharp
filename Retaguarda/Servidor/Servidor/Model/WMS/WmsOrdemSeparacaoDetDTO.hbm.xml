@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="WmsOrdemSeparacaoDetDTO" table="wms_ordem_separacao_det" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="WmsOrdemSeparacaoCab" column="ID_WMS_ORDEM_SEPARACAO_CAB" />
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+  </class>
+</hibernate-mapping>

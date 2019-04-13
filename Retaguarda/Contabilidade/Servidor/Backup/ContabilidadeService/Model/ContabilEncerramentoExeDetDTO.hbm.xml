@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilEncerramentoExeDetDTO" table="contabil_encerramento_exe_det" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="ContabilConta" column="ID_CONTABIL_CONTA" />
+    <property name="IdContabilEncerramentoExeCab" column="ID_CONTABIL_ENCERRAMENTO_EXE" />
+    <property name="SaldoAnterior" column="SALDO_ANTERIOR" />
+    <property name="ValorDebito" column="VALOR_DEBITO" />
+    <property name="ValorCredito" column="VALOR_CREDITO" />
+    <property name="Saldo" column="SALDO" />
+  </class>
+</hibernate-mapping>

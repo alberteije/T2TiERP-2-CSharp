@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoEstoque" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2673/ServicoEstoque.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2673/ServicoEstoque.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2673/ServicoEstoque.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EstoqueService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoEstoque_deleteEstoqueContagemCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteEstoqueContagemCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_deleteEstoqueContagemCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteEstoqueContagemCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarAtualizarEstoqueContagemCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarEstoqueContagemCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarAtualizarEstoqueContagemCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarEstoqueContagemCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueContagemCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueContagemCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueContagemCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueContagemCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueContagemCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueContagemCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueContagemCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueContagemCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_deleteRequisicaoInternaCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteRequisicaoInternaCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_deleteRequisicaoInternaCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteRequisicaoInternaCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarAtualizarRequisicaoInternaCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarRequisicaoInternaCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarAtualizarRequisicaoInternaCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarRequisicaoInternaCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectRequisicaoInternaCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectRequisicaoInternaCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectRequisicaoInternaCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectRequisicaoInternaCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectRequisicaoInternaCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectRequisicaoInternaCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectRequisicaoInternaCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectRequisicaoInternaCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_deleteEstoqueReajusteCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteEstoqueReajusteCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_deleteEstoqueReajusteCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteEstoqueReajusteCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarAtualizarEstoqueReajusteCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarEstoqueReajusteCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarAtualizarEstoqueReajusteCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarEstoqueReajusteCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueReajusteCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueReajusteCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueReajusteCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueReajusteCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueReajusteCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueReajusteCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEstoqueReajusteCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEstoqueReajusteCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectNFeCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectNFeCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectNFeCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectNFeCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarNFeCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarNFeCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarNFeCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarNFeCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectNFeCabecalhoId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectNFeCabecalhoId" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectNFeCabecalhoId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectNFeCabecalhoIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectProdutoId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoId" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectProdutoId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_salvarProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEmpresaId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaId" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectEmpresaId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectTributOperacaoFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributOperacaoFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectTributOperacaoFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTributOperacaoFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectViewTributacaoPis_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewTributacaoPis" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectViewTributacaoPis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewTributacaoPisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectViewTributacaoCofins_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewTributacaoCofins" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectViewTributacaoCofins_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewTributacaoCofinsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectViewTributacaoIcms_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewTributacaoIcms" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEstoque_selectViewTributacaoIcms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewTributacaoIcmsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoEstoque">
+    <wsdl:operation name="deleteEstoqueContagemCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/deleteEstoqueContagemCabecalho" message="tns:IServicoEstoque_deleteEstoqueContagemCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/deleteEstoqueContagemCabecalhoResponse" message="tns:IServicoEstoque_deleteEstoqueContagemCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarEstoqueContagemCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/salvarAtualizarEstoqueContagemCabecalho" message="tns:IServicoEstoque_salvarAtualizarEstoqueContagemCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/salvarAtualizarEstoqueContagemCabecalhoResponse" message="tns:IServicoEstoque_salvarAtualizarEstoqueContagemCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueContagemCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueContagemCabecalho" message="tns:IServicoEstoque_selectEstoqueContagemCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueContagemCabecalhoResponse" message="tns:IServicoEstoque_selectEstoqueContagemCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueContagemCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueContagemCabecalhoPagina" message="tns:IServicoEstoque_selectEstoqueContagemCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueContagemCabecalhoPaginaResponse" message="tns:IServicoEstoque_selectEstoqueContagemCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteRequisicaoInternaCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/deleteRequisicaoInternaCabecalho" message="tns:IServicoEstoque_deleteRequisicaoInternaCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/deleteRequisicaoInternaCabecalhoResponse" message="tns:IServicoEstoque_deleteRequisicaoInternaCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarRequisicaoInternaCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/salvarAtualizarRequisicaoInternaCabecalho" message="tns:IServicoEstoque_salvarAtualizarRequisicaoInternaCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/salvarAtualizarRequisicaoInternaCabecalhoResponse" message="tns:IServicoEstoque_salvarAtualizarRequisicaoInternaCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectRequisicaoInternaCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectRequisicaoInternaCabecalho" message="tns:IServicoEstoque_selectRequisicaoInternaCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectRequisicaoInternaCabecalhoResponse" message="tns:IServicoEstoque_selectRequisicaoInternaCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectRequisicaoInternaCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectRequisicaoInternaCabecalhoPagina" message="tns:IServicoEstoque_selectRequisicaoInternaCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectRequisicaoInternaCabecalhoPaginaResponse" message="tns:IServicoEstoque_selectRequisicaoInternaCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteEstoqueReajusteCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/deleteEstoqueReajusteCabecalho" message="tns:IServicoEstoque_deleteEstoqueReajusteCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/deleteEstoqueReajusteCabecalhoResponse" message="tns:IServicoEstoque_deleteEstoqueReajusteCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarEstoqueReajusteCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/salvarAtualizarEstoqueReajusteCabecalho" message="tns:IServicoEstoque_salvarAtualizarEstoqueReajusteCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/salvarAtualizarEstoqueReajusteCabecalhoResponse" message="tns:IServicoEstoque_salvarAtualizarEstoqueReajusteCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueReajusteCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueReajusteCabecalho" message="tns:IServicoEstoque_selectEstoqueReajusteCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueReajusteCabecalhoResponse" message="tns:IServicoEstoque_selectEstoqueReajusteCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueReajusteCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueReajusteCabecalhoPagina" message="tns:IServicoEstoque_selectEstoqueReajusteCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectEstoqueReajusteCabecalhoPaginaResponse" message="tns:IServicoEstoque_selectEstoqueReajusteCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectNFeCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectNFeCabecalho" message="tns:IServicoEstoque_selectNFeCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectNFeCabecalhoResponse" message="tns:IServicoEstoque_selectNFeCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarNFeCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/salvarNFeCabecalho" message="tns:IServicoEstoque_salvarNFeCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/salvarNFeCabecalhoResponse" message="tns:IServicoEstoque_salvarNFeCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectNFeCabecalhoId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectNFeCabecalhoId" message="tns:IServicoEstoque_selectNFeCabecalhoId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectNFeCabecalhoIdResponse" message="tns:IServicoEstoque_selectNFeCabecalhoId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectProduto" message="tns:IServicoEstoque_selectProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectProdutoResponse" message="tns:IServicoEstoque_selectProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectProdutoId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectProdutoId" message="tns:IServicoEstoque_selectProdutoId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectProdutoIdResponse" message="tns:IServicoEstoque_selectProdutoId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/salvarProduto" message="tns:IServicoEstoque_salvarProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/salvarProdutoResponse" message="tns:IServicoEstoque_salvarProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectColaborador" message="tns:IServicoEstoque_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectColaboradorResponse" message="tns:IServicoEstoque_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectEmpresaId" message="tns:IServicoEstoque_selectEmpresaId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectEmpresaIdResponse" message="tns:IServicoEstoque_selectEmpresaId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectUsuario" message="tns:IServicoEstoque_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectUsuarioResponse" message="tns:IServicoEstoque_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectControleAcesso" message="tns:IServicoEstoque_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectControleAcessoResponse" message="tns:IServicoEstoque_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTributOperacaoFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectTributOperacaoFiscal" message="tns:IServicoEstoque_selectTributOperacaoFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectTributOperacaoFiscalResponse" message="tns:IServicoEstoque_selectTributOperacaoFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewTributacaoPis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectViewTributacaoPis" message="tns:IServicoEstoque_selectViewTributacaoPis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectViewTributacaoPisResponse" message="tns:IServicoEstoque_selectViewTributacaoPis_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewTributacaoCofins">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectViewTributacaoCofins" message="tns:IServicoEstoque_selectViewTributacaoCofins_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectViewTributacaoCofinsResponse" message="tns:IServicoEstoque_selectViewTributacaoCofins_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewTributacaoIcms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEstoque/selectViewTributacaoIcms" message="tns:IServicoEstoque_selectViewTributacaoIcms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEstoque/selectViewTributacaoIcmsResponse" message="tns:IServicoEstoque_selectViewTributacaoIcms_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoEstoque" type="tns:IServicoEstoque">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteEstoqueContagemCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/deleteEstoqueContagemCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarEstoqueContagemCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/salvarAtualizarEstoqueContagemCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueContagemCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectEstoqueContagemCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueContagemCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectEstoqueContagemCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteRequisicaoInternaCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/deleteRequisicaoInternaCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarRequisicaoInternaCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/salvarAtualizarRequisicaoInternaCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectRequisicaoInternaCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectRequisicaoInternaCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectRequisicaoInternaCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectRequisicaoInternaCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteEstoqueReajusteCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/deleteEstoqueReajusteCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarEstoqueReajusteCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/salvarAtualizarEstoqueReajusteCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueReajusteCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectEstoqueReajusteCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEstoqueReajusteCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectEstoqueReajusteCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectNFeCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectNFeCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarNFeCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/salvarNFeCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectNFeCabecalhoId">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectNFeCabecalhoId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectProdutoId">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectProdutoId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/salvarProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaId">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectEmpresaId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTributOperacaoFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectTributOperacaoFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewTributacaoPis">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectViewTributacaoPis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewTributacaoCofins">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectViewTributacaoCofins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewTributacaoIcms">
+      <soap:operation soapAction="http://tempuri.org/IServicoEstoque/selectViewTributacaoIcms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoEstoque">
+    <wsdl:port name="BasicHttpBinding_IServicoEstoque" binding="tns:BasicHttpBinding_IServicoEstoque">
+      <soap:address location="http://localhost:2673/ServicoEstoque.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

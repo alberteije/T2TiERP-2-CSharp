@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetalheImpostoIssqnDTO" table="nfe_detalhe_imposto_issqn" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="BaseCalculoIssqn" column="BASE_CALCULO_ISSQN" />
+    <property name="AliquotaIssqn" column="ALIQUOTA_ISSQN" />
+    <property name="ValorIssqn" column="VALOR_ISSQN" />
+    <property name="MunicipioIssqn" column="MUNICIPIO_ISSQN" />
+    <property name="ItemListaServicos" column="ITEM_LISTA_SERVICOS" />
+  </class>
+</hibernate-mapping>

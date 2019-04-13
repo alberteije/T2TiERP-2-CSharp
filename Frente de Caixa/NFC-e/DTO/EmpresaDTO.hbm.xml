@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EmpresaDTO" table="empresa" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="RazaoSocial" column="RAZAO_SOCIAL" />
+    <property name="NomeFantasia" column="NOME_FANTASIA" />
+    <property name="Cnpj" column="CNPJ" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="InscricaoEstadualSt" column="INSCRICAO_ESTADUAL_ST" />
+    <property name="InscricaoMunicipal" column="INSCRICAO_MUNICIPAL" />
+    <property name="InscricaoJuntaComercial" column="INSCRICAO_JUNTA_COMERCIAL" />
+    <property name="DataInscJuntaComercial" column="DATA_INSC_JUNTA_COMERCIAL" />
+    <property name="Tipo" column="TIPO" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="DataInicioAtividades" column="DATA_INICIO_ATIVIDADES" />
+    <property name="Suframa" column="SUFRAMA" />
+    <property name="Email" column="EMAIL" />
+    <property name="ImagemLogotipo" column="IMAGEM_LOGOTIPO" />
+    <property name="Crt" column="CRT" />
+    <property name="TipoRegime" column="TIPO_REGIME" />
+    <property name="AliquotaPis" column="ALIQUOTA_PIS" />
+    <property name="Contato" column="CONTATO" />
+    <property name="AliquotaCofins" column="ALIQUOTA_COFINS" />
+    <property name="CodigoIbgeCidade" column="CODIGO_IBGE_CIDADE" />
+    <property name="CodigoIbgeUf" column="CODIGO_IBGE_UF" />
+    <property name="CodigoTerceiros" column="CODIGO_TERCEIROS" />
+    <property name="CodigoGps" column="CODIGO_GPS" />
+    <property name="AliquotaSat" column="ALIQUOTA_SAT" />
+    <property name="Cei" column="CEI" />
+    <property name="CodigoCnaePrincipal" column="CODIGO_CNAE_PRINCIPAL" />
+    <property name="TipoControleEstoque" column="TIPO_CONTROLE_ESTOQUE" />
+  </class>
+</hibernate-mapping>

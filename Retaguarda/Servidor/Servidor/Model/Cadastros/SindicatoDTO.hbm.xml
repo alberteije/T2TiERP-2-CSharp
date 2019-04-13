@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="SindicatoDTO" table="sindicato" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="CodigoBanco" column="CODIGO_BANCO" />
+    <property name="CodigoAgencia" column="CODIGO_AGENCIA" />
+    <property name="ContaBanco" column="CONTA_BANCO" />
+    <property name="CodigoCedente" column="CODIGO_CEDENTE" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="MunicipioIbge" column="MUNICIPIO_IBGE" />
+    <property name="Uf" column="UF" />
+    <property name="Fone1" column="FONE1" />
+    <property name="Fone2" column="FONE2" />
+    <property name="Email" column="EMAIL" />
+    <property name="TipoSindicato" column="TIPO_SINDICATO" />
+    <property name="DataBase" column="DATA_BASE" />
+    <property name="PisoSalarial" column="PISO_SALARIAL" />
+    <property name="Cnpj" column="CNPJ" />
+    <property name="ClassificacaoContabilConta" column="CLASSIFICACAO_CONTABIL_CONTA" />
+  </class>
+</hibernate-mapping>

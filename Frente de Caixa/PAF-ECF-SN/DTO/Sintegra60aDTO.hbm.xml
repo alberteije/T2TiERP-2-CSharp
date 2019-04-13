@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Sintegra60aDTO" table="sintegra_60a" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">sintegra_60a</param>
+      </generator>
+    </id>
+
+
+    <property name="IdSintegra60m" column="ID_SINTEGRA_60M" />
+    <property name="SituacaoTributaria" column="SITUACAO_TRIBUTARIA" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

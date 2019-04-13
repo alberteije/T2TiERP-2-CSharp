@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PontoClient.View.Ponto.PontoFechamentoJornadaLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:PontoClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+				<ComboBox Name="comboExp" SelectedIndex="0" Width="60" ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"></ComboBox>
+				<exp:ButtonExport ExportDataGridSource="{Binding ElementName=dataGrid}" ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}" Click="ButtonExport_Click">
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Imagem/documento32.png" Height="20"></Image>
+					</StackPanel>
+				</exp:ButtonExport>
+                <Button Name="btRelatorio" Click="btRelatorio_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/PontoClient;component/Imagens/relatorio.png" Stretch="None"></Image>
+                        <TextBlock Text="Relatório" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPontoFechamentoJornada}" SelectedItem="{Binding PontoFechamentoJornadaSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+					<DataGridTextColumn Header="Classificacao" Binding="{Binding Path=PontoClassificacaoJornada.Nome}"  />
+					<DataGridTextColumn Header="Colaborador" Binding="{Binding Path=Colaborador.Pessoa.Nome}"  />
+					<DataGridTextColumn Header="Data Fechamento" Binding="{Binding Path=DataFechamento,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Dia Semana" Binding="{Binding Path=DiaSemana}"  />
+					<DataGridTextColumn Header="Codigo Horario" Binding="{Binding Path=CodigoHorario}"  />
+					<DataGridTextColumn Header="Carga Horaria Esperada" Binding="{Binding Path=CargaHorariaEsperada}"  />
+					<DataGridTextColumn Header="Carga Horaria Diurna" Binding="{Binding Path=CargaHorariaDiurna}"  />
+					<DataGridTextColumn Header="Carga Horaria Noturna" Binding="{Binding Path=CargaHorariaNoturna}"  />
+					<DataGridTextColumn Header="Carga Horaria Total" Binding="{Binding Path=CargaHorariaTotal}"  />
+					<DataGridTextColumn Header="Entrada 01" Binding="{Binding Path=Entrada01}"  />
+					<DataGridTextColumn Header="Saida 01" Binding="{Binding Path=Saida01}"  />
+					<DataGridTextColumn Header="Entrada 02" Binding="{Binding Path=Entrada02}"  />
+					<DataGridTextColumn Header="Saida 02" Binding="{Binding Path=Saida02}"  />
+					<DataGridTextColumn Header="Entrada 03" Binding="{Binding Path=Entrada03}"  />
+					<DataGridTextColumn Header="Saida 03" Binding="{Binding Path=Saida03}"  />
+					<DataGridTextColumn Header="Entrada 04" Binding="{Binding Path=Entrada04}"  />
+					<DataGridTextColumn Header="Saida 04" Binding="{Binding Path=Saida04}"  />
+					<DataGridTextColumn Header="Entrada 05" Binding="{Binding Path=Entrada05}"  />
+					<DataGridTextColumn Header="Saida 05" Binding="{Binding Path=Saida05}"  />
+					<DataGridTextColumn Header="Hora Inicio Jornada" Binding="{Binding Path=HoraInicioJornada}"  />
+					<DataGridTextColumn Header="Hora Fim Jornada" Binding="{Binding Path=HoraFimJornada}"  />
+					<DataGridTextColumn Header="Hora Extra 01" Binding="{Binding Path=HoraExtra01}"  />
+					<DataGridTextColumn Header="Percentual HoraExtra 01" Binding="{Binding Path=PercentualHoraExtra01,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Modalidade Hora Extra 01" Binding="{Binding Path=ModalidadeHoraExtra01}"  />
+					<DataGridTextColumn Header="Hora Extra 02" Binding="{Binding Path=HoraExtra02}"  />
+					<DataGridTextColumn Header="Percentual Hora Extra 02" Binding="{Binding Path=PercentualHoraExtra02,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Modalidade Hora Extra 02" Binding="{Binding Path=ModalidadeHoraExtra02}"  />
+					<DataGridTextColumn Header="Hora Extra 03" Binding="{Binding Path=HoraExtra03}"  />
+					<DataGridTextColumn Header="Percentual Hora Extra 03" Binding="{Binding Path=PercentualHoraExtra03,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Modalidade Hora Extra 03" Binding="{Binding Path=ModalidadeHoraExtra03}"  />
+					<DataGridTextColumn Header="HoraExtra 04" Binding="{Binding Path=HoraExtra04}"  />
+					<DataGridTextColumn Header="Percentual Hora Extra 04" Binding="{Binding Path=PercentualHoraExtra04,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Modalidade Hora Extra 04" Binding="{Binding Path=ModalidadeHoraExtra04}"  />
+					<DataGridTextColumn Header="Falta Atraso" Binding="{Binding Path=FaltaAtraso}"  />
+					<DataGridTextColumn Header="Compensar" Binding="{Binding Path=Compensar}"  />
+					<DataGridTextColumn Header="Banco Horas" Binding="{Binding Path=BancoHoras}"  />
+					<DataGridTextColumn Header="Observacao" Binding="{Binding Path=Observacao}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

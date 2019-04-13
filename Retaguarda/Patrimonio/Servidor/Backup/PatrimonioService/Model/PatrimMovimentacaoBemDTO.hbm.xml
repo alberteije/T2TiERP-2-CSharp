@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PatrimonioService" namespace="PatrimonioService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PatrimMovimentacaoBemDTO" table="patrim_movimentacao_bem" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdPatrimBem" column="ID_PATRIM_BEM" />
+    <many-to-one name="PatrimTipoMovimentacao" column="ID_PATRIM_TIPO_MOVIMENTACAO" />
+    <property name="DataMovimentacao" column="DATA_MOVIMENTACAO" />
+    <property name="Responsavel" column="RESPONSAVEL" />
+  </class>
+</hibernate-mapping>

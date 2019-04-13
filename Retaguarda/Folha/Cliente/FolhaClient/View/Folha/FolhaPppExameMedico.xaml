@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaPppExameMedico" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaPppExameMedicoSelected.DataUltimo}" Margin="6,25,0,0"  />
+            <Label Content="Data Ultimo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="169" SelectedValue="{Binding FolhaPppExameMedicoSelected.Tipo}" SelectedValuePath="Tag" Margin="112,25,0,0" >
+				<ComboBoxItem Content="Admissional" Tag="A" />
+				<ComboBoxItem Content="Periódico" Tag="P" />
+                <ComboBoxItem Content="Retorno ao Trabalho" Tag="R" />
+                <ComboBoxItem Content="Mudança de Função" Tag="M" />
+                <ComboBoxItem Content="Demissional" Tag="D" />
+            </ComboBox>
+			<Label Content="Tipo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaPppExameMedicoSelected.Natureza}" Height="23" Width="100" Margin="287,25,0,0"  />
+			<Label Content="Natureza:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="287,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="137" SelectedValue="{Binding FolhaPppExameMedicoSelected.Exame}" SelectedValuePath="Tag" Margin="393,25,0,0" >
+				<ComboBoxItem Content="Referencial" Tag="R" />
+				<ComboBoxItem Content="Sequencial" Tag="S" />
+			</ComboBox>
+			<Label Content="Exame" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="393,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaPppExameMedicoSelected.IndicacaoResultados}" Height="23" Width="158" Margin="536,25,0,0"  />
+			<Label Content="Indicacao Resultados:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

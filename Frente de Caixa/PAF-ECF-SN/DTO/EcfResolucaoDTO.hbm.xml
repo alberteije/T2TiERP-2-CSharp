@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfResolucaoDTO" table="ecf_resolucao" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_resolucao</param>
+      </generator>
+    </id>
+
+    <property name="ResolucaoTela" column="RESOLUCAO_TELA" />
+    <property name="Largura" column="LARGURA" />
+    <property name="Altura" column="ALTURA" />
+    <property name="ImagemTela" column="IMAGEM_TELA" />
+    <property name="ImagemMenu" column="IMAGEM_MENU" />
+    <property name="ImagemSubmenu" column="IMAGEM_SUBMENU" />
+    <property name="HottrackColor" column="HOTTRACK_COLOR" />
+    <property name="ItemStyleFontName" column="ITEM_STYLE_FONT_NAME" />
+    <property name="ItemStyleFontColor" column="ITEM_STYLE_FONT_COLOR" />
+    <property name="ItemSelStyleColor" column="ITEM_SEL_STYLE_COLOR" />
+    <property name="LabelTotalGeralFontColor" column="LABEL_TOTAL_GERAL_FONT_COLOR" />
+    <property name="ItemStyleFontStyle" column="ITEM_STYLE_FONT_STYLE" />
+    <property name="EditsColor" column="EDITS_COLOR" />
+    <property name="EditsFontColor" column="EDITS_FONT_COLOR" />
+    <property name="EditsDisabledColor" column="EDITS_DISABLED_COLOR" />
+    <property name="EditsFontName" column="EDITS_FONT_NAME" />
+    <property name="EditsFontStyle" column="EDITS_FONT_STYLE" />
+
+    <bag name="ListaEcfPosicaoComponentes" cascade="none" lazy="false" >
+      <key column="ID_ECF_RESOLUCAO" />
+      <one-to-many class="EcfPosicaoComponentesDTO" />
+    </bag>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfVendaDetalheDTO" table="ecf_venda_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="NomeCaixa" column="NOME_CAIXA" />
+    <property name="IdGeradoCaixa" column="ID_GERADO_CAIXA" />
+    <property name="IdEmpresa" column="ID_EMPRESA" />
+    <property name="IdEcfProduto" column="ID_ECF_PRODUTO" />
+    <property name="IdEcfVendaCabecalho" column="ID_ECF_VENDA_CABECALHO" />
+    <property name="Cfop" column="CFOP" />
+    <property name="Gtin" column="GTIN" />
+    <property name="Ccf" column="CCF" />
+    <property name="Coo" column="COO" />
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="Item" column="ITEM" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="ValorUnitario" column="VALOR_UNITARIO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="TotalItem" column="TOTAL_ITEM" />
+    <property name="BaseIcms" column="BASE_ICMS" />
+    <property name="TaxaIcms" column="TAXA_ICMS" />
+    <property name="Icms" column="ICMS" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="Desconto" column="DESCONTO" />
+    <property name="TaxaIssqn" column="TAXA_ISSQN" />
+    <property name="Issqn" column="ISSQN" />
+    <property name="TaxaPis" column="TAXA_PIS" />
+    <property name="Pis" column="PIS" />
+    <property name="TaxaCofins" column="TAXA_COFINS" />
+    <property name="Cofins" column="COFINS" />
+    <property name="TaxaAcrescimo" column="TAXA_ACRESCIMO" />
+    <property name="Acrescimo" column="ACRESCIMO" />
+    <property name="AcrescimoRateio" column="ACRESCIMO_RATEIO" />
+    <property name="DescontoRateio" column="DESCONTO_RATEIO" />
+    <property name="TotalizadorParcial" column="TOTALIZADOR_PARCIAL" />
+    <property name="Cst" column="CST" />
+    <property name="Cancelado" column="CANCELADO" />
+    <property name="MovimentaEstoque" column="MOVIMENTA_ESTOQUE" />
+    <property name="EcfIcmsSt" column="ECF_ICMS_ST" />
+    <property name="Logss" column="LOGSS" />
+    <property name="DataSincronizacao" column="DATA_SINCRONIZACAO" />
+    <property name="HoraSincronizacao" column="HORA_SINCRONIZACAO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PatrimonioService" namespace="PatrimonioService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewControleAcessoDTO" table="view_controle_acesso" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdPapel" column="ID_PAPEL" />
+    <property name="IdFuncao" column="ID_FUNCAO" />
+    <property name="Habilitado" column="HABILITADO" />
+    <property name="Nome" column="NOME" />
+    <property name="Formulario" column="FORMULARIO" />
+  </class>
+</hibernate-mapping>

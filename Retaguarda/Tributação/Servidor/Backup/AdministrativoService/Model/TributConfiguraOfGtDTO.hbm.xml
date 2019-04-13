@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="AdministrativoService" namespace="AdministrativoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TributConfiguraOfGtDTO" table="tribut_configura_of_gt" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="TributGrupoTributario" column="ID_TRIBUT_GRUPO_TRIBUTARIO" />
+    <many-to-one name="TributOperacaoFiscal" column="ID_TRIBUT_OPERACAO_FISCAL" />
+  </class>
+</hibernate-mapping>

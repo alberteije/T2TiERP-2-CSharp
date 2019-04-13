@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContabilidadeClient.View.Contabilidade.ContabilEncerramentoExeCabLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:ContabilidadeClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+				<Button Margin="4,0" Content="&lt;" Command="{Binding paginaAnteriorCommand}" />
+				<Button Margin="4,0" Content="&gt;" Command="{Binding paginaSeguinteCommand}" />
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+				<ComboBox Name="comboExp" SelectedIndex="0" Width="60" ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"></ComboBox>
+				<exp:ButtonExport ExportDataGridSource="{Binding ElementName=dataGrid}" ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}" Click="ButtonExport_Click">
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Imagem/documento32.png" Height="20"></Image>
+					</StackPanel>
+				</exp:ButtonExport>
+			</StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaContabilEncerramentoExeCab}" SelectedItem="{Binding ContabilEncerramentoExeCabSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+					<DataGridTextColumn Header="Data Inicio" Binding="{Binding Path=DataInicio,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Data Fim" Binding="{Binding Path=DataFim,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Data Inclusao" Binding="{Binding Path=DataInclusao,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Motivo" Binding="{Binding Path=Motivo}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

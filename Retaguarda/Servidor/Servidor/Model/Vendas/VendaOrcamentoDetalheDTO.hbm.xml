@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="VendaOrcamentoDetalheDTO" table="venda_orcamento_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="VendaOrcamentoCabecalho" column="ID_VENDA_ORCAMENTO_CABECALHO" />
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="ValorUnitario" column="VALOR_UNITARIO" />
+    <property name="ValorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+  </class>
+</hibernate-mapping>

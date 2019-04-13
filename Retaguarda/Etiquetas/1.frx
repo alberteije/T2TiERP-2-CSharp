@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptText="using System;&#13;&#10;using System.Collections;&#13;&#10;using System.Collections.Generic;&#13;&#10;using System.ComponentModel;&#13;&#10;using System.Windows.Forms;&#13;&#10;using System.Drawing;&#13;&#10;using System.Data;&#13;&#10;using FastReport;&#13;&#10;using FastReport.Data;&#13;&#10;using FastReport.Dialog;&#13;&#10;using FastReport.Barcode;&#13;&#10;using FastReport.Table;&#13;&#10;using FastReport.Utils;&#13;&#10;&#13;&#10;namespace FastReport&#13;&#10;{&#13;&#10;  public class ReportScript&#13;&#10;  {&#13;&#10;  }&#13;&#10;}&#13;&#10;/*procedure MasterData1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;begin&#13;&#10;  BarCode2.Visible := &#60;frxTable.&#34;CODBARRAS&#34;&#62; &#60;&#62; '';&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.&#13;&#10;*/" ReportInfo.Name="" ReportInfo.Author="" ReportInfo.Description="">
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="210" PaperHeight="297" LeftMargin="7" RightMargin="0" TopMargin="13" BottomMargin="0" Columns.Count="1" Columns.Width="190" TitleBeforeHeader="true">
+    <DataBand Name="mdEtiquetas" Height="65.01" Columns.Count="6" Columns.Width="113.76">
+      <TextObject Name="Memo1" Left="0" Top="0" Width="113.39" Height="64.25" Text="" Padding="2, 1, 2, 1" HorzAlign="Left" VertAlign="Top" TextFill.Color="0, 0, 0"/>
+      <TextObject Name="mmDescricaoProdutos" Left="0" Top="37.71" Width="113.39" Height="27.30" Font="Arial, 7pt" Text="[Copy(&#60;frxTable.&#34;DESCRICAO&#34;&#62;, 1, 30)]" Padding="2, 1, 2, 1" HorzAlign="Center" VertAlign="Top" TextFill.Color="0, 0, 0" Format="Currency"/>
+      <BarcodeObject Name="BarCode2" Left="8.80" Top="1.78" Width="103" Height="37.80" DataColumn="frxTable.GTIN" Barcode="EAN13" Barcode.CalcCheckSum="false" Barcode.WideBarRatio="2" Text="12345678" Zoom="1"/>
+    </DataBand>
+  </ReportPage>
+</Report>

@@ -1,0 +1,87 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\MainWindow.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\MainWindow.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\VendasClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\VendasClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscal.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\VendasPrincipal.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscal.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalLista.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\VendasPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\VendasClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\VendasClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\VendasClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\NPOI.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendasPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendasPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\VendasClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\VendasClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\VendasClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\VendasClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\VendasClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\VendasClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\TipoNotaFiscalPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\FreteVenda.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\FreteVenda.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\FreteVendaPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\FreteVendaLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\FreteVendaLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\FreteVendaPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesPagamento.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesPagamento.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesPagamentoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesPagamentoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesPagamentoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesPagamentoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesParcela.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesParcela.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesParcelaLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesParcelaPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesParcelaLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\CondicoesParcelaPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaCab.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaCab.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaCabLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaCabPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaCabLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaCabPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaDet.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaDet.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaDetPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaDetLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaDetLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\OrcamentoPedidoVendaDetPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaCabecalho.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaCabecalho.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaCabecalhoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaCabecalhoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaCabecalhoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaDetalhe.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaDetalhe.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaDetalheLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaDetalhePrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaCabecalhoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaDetalheLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Release\View\Vendas\VendaDetalhePrincipal.baml

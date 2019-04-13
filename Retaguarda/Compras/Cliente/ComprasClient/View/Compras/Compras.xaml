@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="ComprasClient.View.Compras.Compras"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:util="clr-namespace:ComprasClient.Util"             
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="700">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+    </UserControl.Resources>
+    <TabControl>
+        <TabItem IsSelected="{Binding isSelectedTabRequisicao}">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Imagem/requisicaoCompra32.png" Height="23" />
+                    <TextBlock Text="Requisição" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <DockPanel LastChildFill="True">
+                <ContentControl Content="{Binding contentPresenterRequisicao}"></ContentControl>
+            </DockPanel>
+        </TabItem>
+        <TabItem IsSelected="{Binding isSelectedTabCotacao}">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Imagem/cotacaoCompra32.png" Height="23"  />
+                    <TextBlock Text="Cotação" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <DockPanel LastChildFill="True">
+                <ContentControl Content="{Binding contentPresenterCotacao}"></ContentControl>
+            </DockPanel>
+        </TabItem>
+        <TabItem IsSelected="{Binding isSelectedTabMapaComparativo}">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Imagem/mapaComparativo32.png" Height="23" />
+                    <TextBlock Text="Mapa Comparativo" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <DockPanel LastChildFill="True">
+                <ContentControl Content="{Binding contentPresenterMapaComparativo}"></ContentControl>
+            </DockPanel>
+        </TabItem>
+        <TabItem IsSelected="{Binding isSelectedTabPedido}">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Imagem/outroPedido32.png" Height="23" />
+                    <TextBlock Text="Pedido" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <DockPanel LastChildFill="True">
+                <ContentControl Content="{Binding contentPresenterPedido}"></ContentControl>
+            </DockPanel>
+        </TabItem>        
+        <TabItem IsSelected="{Binding isSelectedTabTipoRequisicao}">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Imagem/tipoRequisicao32.png" Height="23" />
+                    <TextBlock Text="Tipos de req." Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+                <DockPanel LastChildFill="True">
+                    <ContentControl Content="{Binding contentPresenter}"></ContentControl>
+                </DockPanel>
+        </TabItem>
+        <TabItem IsSelected="{Binding isSelectedTabCompraSugerida}">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Imagem/compraSugerida32.png" Height="23" />
+                    <TextBlock Text="Sugestão" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <DockPanel LastChildFill="True">
+                <ContentControl Content="{Binding contentPresenterCompraSugerida}"></ContentControl>
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>

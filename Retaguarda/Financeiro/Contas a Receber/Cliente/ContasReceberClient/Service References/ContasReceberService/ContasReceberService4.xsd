@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ContasReceberService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2671/ContasReceberService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.IO" />
+  <xs:complexType name="FinParcelaReceberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BoletoNossoNumero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContaCaixa" nillable="true" type="tns:ContaCaixaDTO" />
+      <xs:element minOccurs="0" name="DataEmissao" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataVencimento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DescontoAte" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EmitiuBoleto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFinLancamentoReceber" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFinStatusParcela" type="xs:int" />
+      <xs:element minOccurs="0" name="NumeroParcela" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TaxaDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaJuro" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaMulta" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorJuro" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorMulta" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="boletoHTML" nillable="true" type="tns:BoletoHTML" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinParcelaReceberDTO" nillable="true" type="tns:FinParcelaReceberDTO" />
+  <xs:complexType name="ContaCaixaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContabilConta" nillable="true" type="tns:ContabilContaDTO" />
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Digito" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="tns:EmpresaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ContaCaixaDTO" nillable="true" type="tns:ContaCaixaDTO" />
+  <xs:complexType name="ContabilContaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Classificacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoEfd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoReduzido" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContabilConta" nillable="true" type="tns:ContabilContaDTO" />
+      <xs:element minOccurs="0" name="DataInclusao" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dfc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LivroCaixa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Natureza" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ordem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatrimonioResultado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Situacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ContabilContaDTO" nillable="true" type="tns:ContabilContaDTO" />
+  <xs:complexType name="EmpresaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AliquotaCofins" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AliquotaPis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AliquotaSat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cnpj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoGps" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CodigoIbgeCidade" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CodigoIbgeUf" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CodigoTerceiros" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Contato" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Crt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataCadastro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataInicioAtividades" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataInscJuntaComercial" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="ImagemLogotipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InscricaoEstadual" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InscricaoEstadualSt" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InscricaoJuntaComercial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InscricaoMunicipal" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeFantasia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RazaoSocial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Suframa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TipoRegime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EmpresaDTO" nillable="true" type="tns:EmpresaDTO" />
+  <xs:complexType name="BoletoHTML">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="fiBarra" nillable="true" type="q1:FileInfo" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="fiBoleto" nillable="true" type="q2:FileInfo" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="fiCodBarra" nillable="true" type="q3:FileInfo" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="fiLogo" nillable="true" type="q4:FileInfo" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="msBarra" nillable="true" type="q5:MemoryStream" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="msBoleto" nillable="true" type="q6:MemoryStream" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="msCodBarra" nillable="true" type="q7:MemoryStream" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="msLogo" nillable="true" type="q8:MemoryStream" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BoletoHTML" nillable="true" type="tns:BoletoHTML" />
+  <xs:complexType name="PlanoNaturezaFinanceiraDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataInclusao" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="tns:EmpresaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Mascara" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Niveis" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlanoNaturezaFinanceiraDTO" nillable="true" type="tns:PlanoNaturezaFinanceiraDTO" />
+  <xs:complexType name="ArrayOfPlanoNaturezaFinanceiraDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PlanoNaturezaFinanceiraDTO" nillable="true" type="tns:PlanoNaturezaFinanceiraDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlanoNaturezaFinanceiraDTO" nillable="true" type="tns:ArrayOfPlanoNaturezaFinanceiraDTO" />
+  <xs:complexType name="NaturezaFinanceiraDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApareceAPagar" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ApareceAReceber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Aplicacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Classificacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContabilConta" nillable="true" type="tns:ContabilContaDTO" />
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="PlanoNaturezaFinanceira" nillable="true" type="tns:PlanoNaturezaFinanceiraDTO" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NaturezaFinanceiraDTO" nillable="true" type="tns:NaturezaFinanceiraDTO" />
+  <xs:complexType name="ArrayOfNaturezaFinanceiraDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NaturezaFinanceiraDTO" nillable="true" type="tns:NaturezaFinanceiraDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNaturezaFinanceiraDTO" nillable="true" type="tns:ArrayOfNaturezaFinanceiraDTO" />
+  <xs:complexType name="FinStatusParcelaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="tns:EmpresaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Procedimento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Situacao" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinStatusParcelaDTO" nillable="true" type="tns:FinStatusParcelaDTO" />
+  <xs:complexType name="ArrayOfFinStatusParcelaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinStatusParcelaDTO" nillable="true" type="tns:FinStatusParcelaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinStatusParcelaDTO" nillable="true" type="tns:ArrayOfFinStatusParcelaDTO" />
+  <xs:complexType name="FinTipoRecebimentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="tns:EmpresaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinTipoRecebimentoDTO" nillable="true" type="tns:FinTipoRecebimentoDTO" />
+  <xs:complexType name="ArrayOfFinTipoRecebimentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinTipoRecebimentoDTO" nillable="true" type="tns:FinTipoRecebimentoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinTipoRecebimentoDTO" nillable="true" type="tns:ArrayOfFinTipoRecebimentoDTO" />
+  <xs:complexType name="FinConfiguracaoBoletoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aceite" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaminhoArquivoLogotipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaminhoArquivoPdf" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaminhoArquivoRemessa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaminhoArquivoRetorno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Carteira" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoCedente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoConvenio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContaCaixa" nillable="true" type="tns:ContaCaixaDTO" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="tns:EmpresaDTO" />
+      <xs:element minOccurs="0" name="Especie" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Instrucao01" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Instrucao02" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LayoutRemessa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocalPagamento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mensagem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxaMulta" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinConfiguracaoBoletoDTO" nillable="true" type="tns:FinConfiguracaoBoletoDTO" />
+  <xs:complexType name="ArrayOfFinConfiguracaoBoletoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinConfiguracaoBoletoDTO" nillable="true" type="tns:FinConfiguracaoBoletoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinConfiguracaoBoletoDTO" nillable="true" type="tns:ArrayOfFinConfiguracaoBoletoDTO" />
+  <xs:complexType name="FinDocumentoOrigemDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Empresa" nillable="true" type="tns:EmpresaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="SiglaDocumento" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinDocumentoOrigemDTO" nillable="true" type="tns:FinDocumentoOrigemDTO" />
+  <xs:complexType name="ArrayOfFinDocumentoOrigemDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinDocumentoOrigemDTO" nillable="true" type="tns:FinDocumentoOrigemDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinDocumentoOrigemDTO" nillable="true" type="tns:ArrayOfFinDocumentoOrigemDTO" />
+  <xs:complexType name="FinLancamentoReceberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cliente" nillable="true" type="tns:ViewPessoaClienteDTO" />
+      <xs:element minOccurs="0" name="CodigoModuloLcto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataLancamento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FinDocumentoOrigem" nillable="true" type="tns:FinDocumentoOrigemDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IntervaloEntreParcelas" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ListaFinParcelaReceber" nillable="true" type="tns:ArrayOfFinParcelaReceberDTO" />
+      <xs:element minOccurs="0" name="ListaNaturezaFinanceira" nillable="true" type="tns:ArrayOfFinLctoReceberNtFinanceiraDTO" />
+      <xs:element minOccurs="0" name="NumeroDocumento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimeiroVencimento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="QuantidadeParcela" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TaxaComissao" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorAReceber" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorComissao" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorTotal" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinLancamentoReceberDTO" nillable="true" type="tns:FinLancamentoReceberDTO" />
+  <xs:complexType name="ViewPessoaClienteDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Bairro" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cep" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cidade" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Complemento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContaTomador" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CpfCnpj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataCadastro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Desde" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FormaDesconto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GeraFinanceiro" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdAtividadeForCli" type="xs:int" />
+      <xs:element minOccurs="0" name="IdOperacaoFiscal" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="IdPessoa" type="xs:int" />
+      <xs:element minOccurs="0" name="IdSituacaoForCli" type="xs:int" />
+      <xs:element minOccurs="0" name="IndicadorPreco" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LimiteCredito" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Logradouro" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MunicipioIbge" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Observacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PorcentoDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RgIe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Site" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TipoFrete" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Uf" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewPessoaClienteDTO" nillable="true" type="tns:ViewPessoaClienteDTO" />
+  <xs:complexType name="ArrayOfFinParcelaReceberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinParcelaReceberDTO" nillable="true" type="tns:FinParcelaReceberDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinParcelaReceberDTO" nillable="true" type="tns:ArrayOfFinParcelaReceberDTO" />
+  <xs:complexType name="ArrayOfFinLctoReceberNtFinanceiraDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinLctoReceberNtFinanceiraDTO" nillable="true" type="tns:FinLctoReceberNtFinanceiraDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinLctoReceberNtFinanceiraDTO" nillable="true" type="tns:ArrayOfFinLctoReceberNtFinanceiraDTO" />
+  <xs:complexType name="FinLctoReceberNtFinanceiraDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataInclusao" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFinLancamentoReceber" type="xs:int" />
+      <xs:element minOccurs="0" name="NaturezaFinanceira" nillable="true" type="tns:NaturezaFinanceiraDTO" />
+      <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinLctoReceberNtFinanceiraDTO" nillable="true" type="tns:FinLctoReceberNtFinanceiraDTO" />
+  <xs:complexType name="ArrayOfFinLancamentoReceberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinLancamentoReceberDTO" nillable="true" type="tns:FinLancamentoReceberDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinLancamentoReceberDTO" nillable="true" type="tns:ArrayOfFinLancamentoReceberDTO" />
+  <xs:complexType name="ViewFinLancamentoReceberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataLancamento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataVencimento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DescricaoSituacaoParcela" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdContaCaixa" type="xs:int" />
+      <xs:element minOccurs="0" name="IdLancamentoReceber" type="xs:int" />
+      <xs:element minOccurs="0" name="IdParcelaReceber" type="xs:int" />
+      <xs:element minOccurs="0" name="IdStatusParcela" type="xs:long" />
+      <xs:element minOccurs="0" name="ListaFinParcelaRecebimento" nillable="true" type="tns:ArrayOfFinParcelaRecebimentoDTO" />
+      <xs:element minOccurs="0" name="NomeCliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeContaCaixa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroDocumento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroParcela" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="QuantidadeParcela" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SiglaDocumento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SituacaoParcela" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxaDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaJuro" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaMulta" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorJuro" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorLancamento" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorMulta" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorParcela" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewFinLancamentoReceberDTO" nillable="true" type="tns:ViewFinLancamentoReceberDTO" />
+  <xs:complexType name="ArrayOfFinParcelaRecebimentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FinParcelaRecebimentoDTO" nillable="true" type="tns:FinParcelaRecebimentoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFinParcelaRecebimentoDTO" nillable="true" type="tns:ArrayOfFinParcelaRecebimentoDTO" />
+  <xs:complexType name="FinParcelaRecebimentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ContaCaixa" nillable="true" type="tns:ContaCaixaDTO" />
+      <xs:element minOccurs="0" name="DataRecebimento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FinTipoRecebimento" nillable="true" type="tns:FinTipoRecebimentoDTO" />
+      <xs:element minOccurs="0" name="Historico" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFinParcelaReceber" type="xs:int" />
+      <xs:element minOccurs="0" name="TaxaDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaJuro" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaMulta" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorDesconto" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorJuro" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorMulta" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorRecebido" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FinParcelaRecebimentoDTO" nillable="true" type="tns:FinParcelaRecebimentoDTO" />
+  <xs:complexType name="ArrayOfViewFinLancamentoReceberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewFinLancamentoReceberDTO" nillable="true" type="tns:ViewFinLancamentoReceberDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewFinLancamentoReceberDTO" nillable="true" type="tns:ArrayOfViewFinLancamentoReceberDTO" />
+  <xs:complexType name="ArrayOfContaCaixaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ContaCaixaDTO" nillable="true" type="tns:ContaCaixaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfContaCaixaDTO" nillable="true" type="tns:ArrayOfContaCaixaDTO" />
+  <xs:complexType name="ArrayOfContabilContaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ContabilContaDTO" nillable="true" type="tns:ContabilContaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfContabilContaDTO" nillable="true" type="tns:ArrayOfContabilContaDTO" />
+  <xs:complexType name="UsuarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Administrador" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataCadastro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdColaborador" type="xs:int" />
+      <xs:element minOccurs="0" name="IdPapel" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Senha" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioDTO" nillable="true" type="tns:UsuarioDTO" />
+  <xs:complexType name="ViewControleAcessoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Formulario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Habilitado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFuncao" type="xs:int" />
+      <xs:element minOccurs="0" name="IdPapel" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewControleAcessoDTO" nillable="true" type="tns:ViewControleAcessoDTO" />
+  <xs:complexType name="ArrayOfViewControleAcessoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewControleAcessoDTO" nillable="true" type="tns:ViewControleAcessoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewControleAcessoDTO" nillable="true" type="tns:ArrayOfViewControleAcessoDTO" />
+  <xs:complexType name="ArrayOfViewPessoaClienteDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewPessoaClienteDTO" nillable="true" type="tns:ViewPessoaClienteDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewPessoaClienteDTO" nillable="true" type="tns:ArrayOfViewPessoaClienteDTO" />
+</xs:schema>

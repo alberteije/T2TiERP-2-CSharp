@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="EstoqueClient.View.Estoque.NFeTransporte"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"                          
+             xmlns:local="clr-namespace:EstoqueClient.View.Estoque"             
+             xmlns:util="clr-namespace:EstoqueClient.Util"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+        <ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:TypeExtension TypeName="expfmt:Formato"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <DockPanel LastChildFill="false">
+        <GroupBox Header="Transportador" DockPanel.Dock="Top" Height="146">
+        <Grid >
+                <TextBox Height="23" Margin="12,40,0,0" Name="tbCpfCnpj" Text="{Binding nfeSelected.transporte.cpfCnpj}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="181" />
+            <Label Content="CPF/CNPJ" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label4" Padding="0" VerticalContentAlignment="Center" Width="87" Height="22" VerticalAlignment="Top" />
+                <TextBox Height="23" Margin="199,40,202,0" Name="tbLogradouro" Text="{Binding nfeSelected.transporte.nome}" VerticalAlignment="Top" />
+            <Label Content="Razão Social/Nome" Height="22" Margin="199,12,0,0" Name="label5" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="175" />
+                <TextBox Height="23" HorizontalAlignment="Right" Margin="0,40,6,0" Name="tbNumero" Text="{Binding nfeSelected.transporte.inscricaoEstadual}" VerticalAlignment="Top" Width="190" />
+                <Label Content="Inscrição Estadual" Height="22" HorizontalAlignment="Right" Margin="0,12,70,0" Name="label17" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="125" />
+                <TextBox Height="23" Margin="12,97,619,0" Text="{Binding nfeSelected.transporte.logradouro}" Name="tbBairro" VerticalAlignment="Top" />
+                <Label Content="Logradouro" Height="22" HorizontalAlignment="Left" Margin="12,70,0,0" Name="label1" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="107" />
+                <TextBox Height="23" HorizontalAlignment="Right" Margin="0,97,412,0" Name="tbCidade" Text="{Binding nfeSelected.transporte.nomeMunicipio}" VerticalAlignment="Top" Width="201" />
+                <Label Content="Cidade" Height="22" HorizontalAlignment="Right" Margin="0,70,506,0" Name="label3" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="107" />
+                <TextBox Height="23" HorizontalAlignment="Right" Margin="0,97,324,0" Name="tbUF" Text="{Binding nfeSelected.transporte.uf}" VerticalAlignment="Top" Width="82" />
+                <Label Content="UF" Height="22" HorizontalAlignment="Right" Margin="0,70,348,0" Name="label6" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="57" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Retenção ICMS" DockPanel.Dock="Top" Height="98" Margin="0,10,0,0">
+            <Grid >
+                <TextBox Height="23" Margin="12,40,0,0" Name="tbCpfCnpjRetirada" Text="{Binding nfeSelected.transporte.municipio}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="181" />
+                <Label Content="Código município IBGE " HorizontalAlignment="Left" Margin="12,12,0,0" Padding="0" VerticalContentAlignment="Center" Width="150" Height="22" VerticalAlignment="Top" />
+                <TextBox Height="23" Margin="286,40,0,0" Name="tbLogradouroRetirada" Text="{Binding nfeSelected.transporte.baseCalculoRetencaoICMS}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="128" />
+                <Label Content="Base de cálculo" Height="22" Margin="286,12,0,0"  Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="89" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="558,40,0,0" Name="tbNumeroRetirada" Text="{Binding nfeSelected.transporte.valorServico}" VerticalAlignment="Top" Width="129" />
+                <Label Content="Valor do serviço" Height="22" HorizontalAlignment="Left" Margin="559,12,0,0" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="97" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="693,40,0,0" Name="tbComplementoRetirada" Text="{Binding nfeSelected.transporte.valorICMS_Retido}" VerticalAlignment="Top" Width="126" />
+                <Label Content="Valor do ICMS retido" Height="22" Margin="693,12,0,0" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="138" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="198,40,0,0" Name="tbCodigoIBGERetirada" Text="{Binding nfeSelected.transporte.cfop}" VerticalAlignment="Top" Width="82" />
+                <Label Content="CFOP" Height="22" HorizontalAlignment="Left" Margin="199,12,0,0" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="64" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="420,40,0,0" Name="textBox1" Text="{Binding nfeSelected.transporte.aliquotaRetencaoICMS}" VerticalAlignment="Top" Width="128" />
+                <Label Content="Alíquota" Height="22" HorizontalAlignment="Left" Margin="420,12,0,0" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="89" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Veículo" DockPanel.Dock="Top" Height="98" Margin="0,10,0,0">
+            <Grid >
+                <TextBox Height="23" Margin="12,40,0,0" Name="tbUFVeic" Text="{Binding nfeSelected.transporte.ufVeiculo}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="45" />
+                <Label Content="UF" HorizontalAlignment="Left" Margin="12,12,0,0" Padding="0" VerticalContentAlignment="Center" Width="45" Height="22" VerticalAlignment="Top" />
+                <TextBox Height="23" Margin="65,40,0,0" Text="{Binding nfeSelected.transporte.placaVeiculo}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="81" />
+                <Label Content="Placa" Height="22" Margin="65,12,0,0"  Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="54" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="152,40,0,0" Text="{Binding nfeSelected.transporte.rntcVeiculo}" VerticalAlignment="Top" Width="81" />
+                <Label Content="RNTC" Height="22" HorizontalAlignment="Left" Margin="152,12,0,0" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="54" />
+            </Grid>
+        </GroupBox>        
+    </DockPanel>
+
+
+</UserControl>

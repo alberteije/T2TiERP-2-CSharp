@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ConciliacaoService"
+                   namespace="ConciliacaoService.Model" default-lazy="false">
+  <class name="TipoRecebimentoDTO" table="fin_tipo_recebimento">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idEmpresa" column="ID_EMPRESA" />
+    <property name="descricao" column="DESCRICAO" />
+    <property name="tipo" column="TIPO" />
+  </class>
+</hibernate-mapping>

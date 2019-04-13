@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="BalcaoPAF.View.SpedContribuicoesPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="500">
+
+    <StackPanel Height="350" Name="stackPanel1" Width="500">
+
+        <DockPanel Height="310" Width="500" LastChildFill="False" VerticalAlignment="Top">
+            <Grid Height="60" Width="500" DockPanel.Dock="Top" Background="#FFEBEBEB">
+                <Image Height="48" Name="image1" Stretch="Fill" Width="48" HorizontalAlignment="Left" Source="/BalcaoPAF;component/Images/titulos/ncm48.png" />
+                <Label Content="Sped Contribuições" Height="28" HorizontalAlignment="Left" Margin="54,18,0,0" Name="label3" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+                <Border BorderBrush="Silver" BorderThickness="1" Height="5" HorizontalAlignment="Left" Margin="54,45,0,0" Name="border1" VerticalAlignment="Top" Width="840" />
+            </Grid>
+            <TabControl Height="250" Width="500">
+                <TabItem Header="Dados Sped Contribuições">
+                    <DockPanel Height="220" >
+
+                        <Grid  DockPanel.Dock="Top"  Height="220">
+                            <Label Content="Versão do Layout:" Height="20" HorizontalAlignment="Left" Margin="9,16,0,0"  VerticalAlignment="Top" />
+						    <ComboBox Width="468" Height="25" Margin="9,34,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  SelectedIndex="0" Name="cbVersaoLayout">
+                                <ComboBoxItem Tag="0" Content="001 - Versão 1.00 - ADE Cofis nº 31/2010  01/04/2011 " />
+                                <ComboBoxItem Tag="1" Content="002 - Versão 1.01 - ADE Cofis nº 34/2010, atualizado pelo ADE Cofis nº 37/2010 01/04/2011 " />
+                                <ComboBoxItem Tag="2" Content="002 - Versão 2.00 - ADE Cofis nº 20/2012  01/04/2011 " />
+                                <ComboBoxItem Tag="3" Content="003 - Versão 2.01A - ADE Cofis nº 20/2012  01/07/2012 " />
+                            </ComboBox>
+
+                            <Label Content="Tipo de Escrituração:" Height="20" HorizontalAlignment="Left" Margin="9,70,0,0"  VerticalAlignment="Top" />
+                            <ComboBox Width="243" Height="25" Margin="9,87,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedIndex="0" Name="cbTipoEscrituracao">
+                                <ComboBoxItem Tag="0" Content="0 - Original" />
+                                <ComboBoxItem Tag="1" Content="1 - Retificadora" />
+                            </ComboBox>
+
+                            <Label Content="Período Inicial:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="258,71,0,0"  />
+                            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Margin="258,90,0,0" Name="dpDataInicio" SelectedDate="2014/01/01"/>
+
+                            <Label Content="Período Final:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="376,71,0,0"  />
+                            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Margin="378,90,0,0" Name="dpDataFim" SelectedDate="2014/01/31"/>
+
+                            <Label Content="Contadores:" Height="20" HorizontalAlignment="Left" Margin="9,125,0,0"  VerticalAlignment="Top" />
+                            <DataGrid HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Height="60" Width="467"/>
+
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+            </TabControl>
+
+        </DockPanel>
+        
+        
+        <DockPanel Height="40" Width="500" LastChildFill="True" VerticalAlignment="Bottom">
+            <Grid Height="40" Width="500" DockPanel.Dock="Bottom" Background="#FFEBEBEB" VerticalAlignment="Bottom">
+                <Button Height="30" Margin="196,5,130,5" Click="Button_Click_3">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Image Source="/Images/botaoConfirmar.png" Height="16" Width="16"></Image>
+                        <TextBlock Text="Gerar Sped Contribuições" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+                <Button Margin="376,5,6,5" Height="30" Width="117" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Width="16" Source="/Images/botaoCancelar.png" />
+                        <TextBlock Margin="3,0,0,0" Text="Sair" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+         </DockPanel>
+
+    </StackPanel>
+
+
+</UserControl>

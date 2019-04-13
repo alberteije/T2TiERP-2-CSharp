@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="GEDService" namespace="GEDService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="GedVersaoDocumentoDTO" table="ged_versao_documento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdColaborador" column="ID_COLABORADOR" />
+    <property name="IdDocumento" column="ID_GED_DOCUMENTO" />
+    <property name="Versao" column="VERSAO" />
+    <property name="DataHora" column="DATA_HORA" />
+    <property name="HashArquivo" column="HASH_ARQUIVO" />
+    <property name="Caminho" column="CAMINHO" />
+    <property name="Acao" column="ACAO" />
+  </class>
+</hibernate-mapping>

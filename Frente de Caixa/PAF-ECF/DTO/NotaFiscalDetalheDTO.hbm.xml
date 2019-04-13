@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NotaFiscalDetalheDTO" table="nota_fiscal_detalhe" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">nota_fiscal_detalhe</param>
+      </generator>
+    </id>
+
+
+    <property name="IdNotaFiscalCabecalho" column="ID_NF_CABECALHO" />
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="Cfop" column="CFOP" />
+    <property name="Item" column="ITEM" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="ValorUnitario" column="VALOR_UNITARIO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="BaseIcms" column="BASE_ICMS" />
+    <property name="TaxaIcms" column="TAXA_ICMS" />
+    <property name="Icms" column="ICMS" />
+    <property name="IcmsOutras" column="ICMS_OUTRAS" />
+    <property name="IcmsIsento" column="ICMS_ISENTO" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="Desconto" column="DESCONTO" />
+    <property name="TaxaIssqn" column="TAXA_ISSQN" />
+    <property name="Issqn" column="ISSQN" />
+    <property name="TaxaPis" column="TAXA_PIS" />
+    <property name="Pis" column="PIS" />
+    <property name="TaxaCofins" column="TAXA_COFINS" />
+    <property name="Cofins" column="COFINS" />
+    <property name="TaxaAcrescimo" column="TAXA_ACRESCIMO" />
+    <property name="Acrescimo" column="ACRESCIMO" />
+    <property name="TaxaIpi" column="TAXA_IPI" />
+    <property name="Ipi" column="IPI" />
+    <property name="Cancelado" column="CANCELADO" />
+    <property name="Cst" column="CST" />
+    <property name="MovimentaEstoque" column="MOVIMENTA_ESTOQUE" />
+    <property name="EcfIcmsSt" column="ECF_ICMS_ST" />
+  </class>
+</hibernate-mapping>

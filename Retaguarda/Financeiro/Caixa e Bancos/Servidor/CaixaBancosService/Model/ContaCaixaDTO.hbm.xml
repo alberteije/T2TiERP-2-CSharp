@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="CaixaBancosService" namespace="CaixaBancosService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContaCaixaDTO" table="conta_caixa" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="ContabilConta" column="ID_CONTABIL_CONTA" />
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Digito" column="DIGITO" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Tipo" column="TIPO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CaixaBancosService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2668/CaixaBancosService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2668/CaixaBancosService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2668/CaixaBancosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CaixaBancosService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICaixaBancosService_deleteFinFechamentoCaixaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFinFechamentoCaixaBanco" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_deleteFinFechamentoCaixaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFinFechamentoCaixaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_salvarAtualizarFinFechamentoCaixaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFinFechamentoCaixaBanco" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_salvarAtualizarFinFechamentoCaixaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFinFechamentoCaixaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectFinFechamentoCaixaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinFechamentoCaixaBanco" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectFinFechamentoCaixaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinFechamentoCaixaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectFinFechamentoCaixaBancoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinFechamentoCaixaBancoPagina" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectFinFechamentoCaixaBancoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinFechamentoCaixaBancoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_deleteViewFinChequeNaoCompensado_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteViewFinChequeNaoCompensado" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_deleteViewFinChequeNaoCompensado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteViewFinChequeNaoCompensadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_salvarAtualizarViewFinChequeNaoCompensado_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarViewFinChequeNaoCompensado" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_salvarAtualizarViewFinChequeNaoCompensado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarViewFinChequeNaoCompensadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinChequeNaoCompensado_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinChequeNaoCompensado" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinChequeNaoCompensado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinChequeNaoCompensadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinChequeNaoCompensadoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinChequeNaoCompensadoPagina" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinChequeNaoCompensadoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinChequeNaoCompensadoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinMovimentoCaixaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinMovimentoCaixaBanco" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinMovimentoCaixaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinMovimentoCaixaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinMovimentoCaixaBancoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinMovimentoCaixaBancoPagina" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectViewFinMovimentoCaixaBancoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewFinMovimentoCaixaBancoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectPeriodoMovimentoCaixaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPeriodoMovimentoCaixaBanco" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectPeriodoMovimentoCaixaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPeriodoMovimentoCaixaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContabilConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilConta" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContabilConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContabilContaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaPagina" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContabilContaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContaCaixa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixa" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContaCaixa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContaCaixaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaPagina" />
+  </wsdl:message>
+  <wsdl:message name="ICaixaBancosService_selectContaCaixaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICaixaBancosService">
+    <wsdl:operation name="deleteFinFechamentoCaixaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/deleteFinFechamentoCaixaBanco" message="tns:ICaixaBancosService_deleteFinFechamentoCaixaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/deleteFinFechamentoCaixaBancoResponse" message="tns:ICaixaBancosService_deleteFinFechamentoCaixaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFinFechamentoCaixaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/salvarAtualizarFinFechamentoCaixaBanco" message="tns:ICaixaBancosService_salvarAtualizarFinFechamentoCaixaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/salvarAtualizarFinFechamentoCaixaBancoResponse" message="tns:ICaixaBancosService_salvarAtualizarFinFechamentoCaixaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFinFechamentoCaixaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectFinFechamentoCaixaBanco" message="tns:ICaixaBancosService_selectFinFechamentoCaixaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectFinFechamentoCaixaBancoResponse" message="tns:ICaixaBancosService_selectFinFechamentoCaixaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFinFechamentoCaixaBancoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectFinFechamentoCaixaBancoPagina" message="tns:ICaixaBancosService_selectFinFechamentoCaixaBancoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectFinFechamentoCaixaBancoPaginaResponse" message="tns:ICaixaBancosService_selectFinFechamentoCaixaBancoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteViewFinChequeNaoCompensado">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/deleteViewFinChequeNaoCompensado" message="tns:ICaixaBancosService_deleteViewFinChequeNaoCompensado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/deleteViewFinChequeNaoCompensadoResponse" message="tns:ICaixaBancosService_deleteViewFinChequeNaoCompensado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarViewFinChequeNaoCompensado">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/salvarAtualizarViewFinChequeNaoCompensado" message="tns:ICaixaBancosService_salvarAtualizarViewFinChequeNaoCompensado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/salvarAtualizarViewFinChequeNaoCompensadoResponse" message="tns:ICaixaBancosService_salvarAtualizarViewFinChequeNaoCompensado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinChequeNaoCompensado">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinChequeNaoCompensado" message="tns:ICaixaBancosService_selectViewFinChequeNaoCompensado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinChequeNaoCompensadoResponse" message="tns:ICaixaBancosService_selectViewFinChequeNaoCompensado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinChequeNaoCompensadoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinChequeNaoCompensadoPagina" message="tns:ICaixaBancosService_selectViewFinChequeNaoCompensadoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinChequeNaoCompensadoPaginaResponse" message="tns:ICaixaBancosService_selectViewFinChequeNaoCompensadoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinMovimentoCaixaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinMovimentoCaixaBanco" message="tns:ICaixaBancosService_selectViewFinMovimentoCaixaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinMovimentoCaixaBancoResponse" message="tns:ICaixaBancosService_selectViewFinMovimentoCaixaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinMovimentoCaixaBancoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinMovimentoCaixaBancoPagina" message="tns:ICaixaBancosService_selectViewFinMovimentoCaixaBancoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectViewFinMovimentoCaixaBancoPaginaResponse" message="tns:ICaixaBancosService_selectViewFinMovimentoCaixaBancoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPeriodoMovimentoCaixaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectPeriodoMovimentoCaixaBanco" message="tns:ICaixaBancosService_selectPeriodoMovimentoCaixaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectPeriodoMovimentoCaixaBancoResponse" message="tns:ICaixaBancosService_selectPeriodoMovimentoCaixaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContabilConta" message="tns:ICaixaBancosService_selectContabilConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContabilContaResponse" message="tns:ICaixaBancosService_selectContabilConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilContaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContabilContaPagina" message="tns:ICaixaBancosService_selectContabilContaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContabilContaPaginaResponse" message="tns:ICaixaBancosService_selectContabilContaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectUsuario" message="tns:ICaixaBancosService_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectUsuarioResponse" message="tns:ICaixaBancosService_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectControleAcesso" message="tns:ICaixaBancosService_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectControleAcessoResponse" message="tns:ICaixaBancosService_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContaCaixa" message="tns:ICaixaBancosService_selectContaCaixa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContaCaixaResponse" message="tns:ICaixaBancosService_selectContaCaixa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContaCaixaPagina" message="tns:ICaixaBancosService_selectContaCaixaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICaixaBancosService/selectContaCaixaPaginaResponse" message="tns:ICaixaBancosService_selectContaCaixaPagina_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICaixaBancosService" type="tns:ICaixaBancosService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteFinFechamentoCaixaBanco">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/deleteFinFechamentoCaixaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFinFechamentoCaixaBanco">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/salvarAtualizarFinFechamentoCaixaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFinFechamentoCaixaBanco">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectFinFechamentoCaixaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFinFechamentoCaixaBancoPagina">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectFinFechamentoCaixaBancoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteViewFinChequeNaoCompensado">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/deleteViewFinChequeNaoCompensado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarViewFinChequeNaoCompensado">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/salvarAtualizarViewFinChequeNaoCompensado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinChequeNaoCompensado">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectViewFinChequeNaoCompensado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinChequeNaoCompensadoPagina">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectViewFinChequeNaoCompensadoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinMovimentoCaixaBanco">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectViewFinMovimentoCaixaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewFinMovimentoCaixaBancoPagina">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectViewFinMovimentoCaixaBancoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPeriodoMovimentoCaixaBanco">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectPeriodoMovimentoCaixaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilConta">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectContabilConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilContaPagina">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectContabilContaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectContaCaixa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixaPagina">
+      <soap:operation soapAction="http://tempuri.org/ICaixaBancosService/selectContaCaixaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CaixaBancosService">
+    <wsdl:port name="BasicHttpBinding_ICaixaBancosService" binding="tns:BasicHttpBinding_ICaixaBancosService">
+      <soap:address location="http://localhost:2668/CaixaBancosService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

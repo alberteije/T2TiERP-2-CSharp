@@ -1,0 +1,28 @@
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\ContratosService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\ContratosService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\obj\Debug\ContratosService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosService\ContratosService\obj\Debug\ContratosService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\ContratosService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\ContratosService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\obj\Debug\ContratosService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosService\ContratosService\obj\Debug\ContratosService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\bin\ContratosService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\bin\ContratosService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\bin\ContratosService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\obj\Debug\ContratosService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\obj\Debug\ContratosService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Servidor\ContratosService\obj\Debug\ContratosService.pdb

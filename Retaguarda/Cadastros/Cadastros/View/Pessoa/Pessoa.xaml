@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Cadastros.View.Pessoa" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:Cadastros.View.Botoes" xmlns:view ="clr-namespace:Cadastros.View" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+    <TabControl>
+        <TabItem Header="Pessoa">
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Grid.Column="0">
+                    <viewBotoes:BarraInterna></viewBotoes:BarraInterna>
+                </StackPanel>
+                <Grid DockPanel.Dock="Top">
+                    <TextBox VerticalAlignment="Top" Text="{Binding PessoaSelected.Nome}" Height="23" Margin="10,29,254,0"  />
+                    <Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"  />
+                    <ComboBox VerticalAlignment="Top" Height="23" SelectedValue="{Binding PessoaSelected.Tipo}" SelectedValuePath="Tag" Margin="0,29,149,0" HorizontalAlignment="Right" Width="100" >
+                        <ComboBoxItem Content="Física" Tag="F" />
+                        <ComboBoxItem Content="Jurídica" Tag="J" />
+                    </ComboBox>
+                    <Label Content="Tipo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="451,13,0,0"  />
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaSelected.Email}" Height="23" Width="347" Margin="10,81,0,0"  />
+                    <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,62,0,0"  />
+                    <TextBox VerticalAlignment="Top" Text="{Binding PessoaSelected.Site}" Height="23" Margin="362,81,149,0"  />
+                    <Label Content="Site" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="362,62,0,0"  />
+                    <GroupBox Header="Opções:" HorizontalAlignment="Right" Margin="0,6,10,0" VerticalAlignment="Top" Height="109" Width="134">
+                        <Grid HorizontalAlignment="Left" Height="88" Margin="-8,0,-2,-1" VerticalAlignment="Top" Width="132">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="8*"/>
+                                <ColumnDefinition Width="109*"/>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Name="CheckCliente" Content="Cliente" HorizontalAlignment="Left" Margin="1,10,0,0" VerticalAlignment="Top" Grid.Column="1" Click="CheckCliente_Click"/>
+                            <CheckBox Name="CheckFornecedor" Content="Fornecedor" HorizontalAlignment="Left" Margin="1,30,0,0" VerticalAlignment="Top" Grid.Column="1" Click="CheckFornecedor_Click"/>
+                            <CheckBox Name="CheckTransportadora" Content="Transportadora" HorizontalAlignment="Left" Margin="1,50,0,0" VerticalAlignment="Top" Grid.Column="1" Click="CheckTransportadora_Click"/>
+                            <CheckBox Name="CheckColaborador" Content="Colaborador" HorizontalAlignment="Left" Margin="1,70,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+
+                <DockPanel>
+                    <TabControl>
+                        <TabItem Name="TabTipoPessoa" Header="Informações do Tipo de Pessoa">
+                            <DockPanel>
+
+                                <TabControl>
+                                    <TabItem Name="TabTipoPessoaFisica">
+                                        <DockPanel>
+                                            <Grid  DockPanel.Dock="Top" >
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding PessoaFisicaSelected.EstadoCivil.Id}" Height="23" Width="174" Margin="220,25,0,0"  />
+                                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarEstadoCivil"  Margin="394,25,0,0"  />
+                                                <Label Content="Estado Civil" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,6,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.Cpf}" Height="23" Width="100" Margin="10,25,0,0"  />
+                                                <Label Content="Cpf" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,6,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.Rg}" Height="23" Width="100" Margin="430,25,0,0"  />
+                                                <Label Content="Rg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+                                                <TextBox VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.OrgaoRg}" Height="23" Margin="536,25,10,0"  />
+                                                <Label Content="OrgaoRg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+                                                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PessoaFisicaSelected.DataEmissaoRg}" Margin="6,73,0,0"  />
+                                                <Label Content="Emissao Rg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+                                                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PessoaFisicaSelected.DataNascimento}" Margin="115,25,0,0"  />
+                                                <Label Content="Nascimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,6,0,0"  />
+                                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="135" SelectedValue="{Binding PessoaFisicaSelected.Sexo}" SelectedValuePath="Tag" Margin="115,72,0,0" >
+                                                    <ComboBoxItem Content="Masculino" Tag="M" />
+                                                    <ComboBoxItem Content="Feminino" Tag="F" />
+                                                </ComboBox>
+                                                <Label Content="Sexo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="115,53,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.Naturalidade}" Height="23" Width="166" Margin="366,71,0,0"  />
+                                                <Label Content="Naturalidade" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="366,52,0,0"  />
+                                                <TextBox VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.Nacionalidade}" Height="23" Margin="536,71,10,0"  />
+                                                <Label Content="Nacionalidade" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,52,0,0"  />
+                                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PessoaFisicaSelected.Raca}" SelectedValuePath="Tag" Margin="257,71,0,0" >
+                                                    <ComboBoxItem Content="Branco" Tag="B" />
+                                                    <ComboBoxItem Content="Negro" Tag="N" />
+                                                    <ComboBoxItem Content="Pardo" Tag="P" />
+                                                    <ComboBoxItem Content="Índio" Tag="I" />
+                                                </ComboBox>
+                                                <Label Content="Raca" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="257,52,0,0"  />
+                                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PessoaFisicaSelected.TipoSangue}" SelectedValuePath="Tag" Margin="6,121,0,0" >
+                                                    <ComboBoxItem Content="A+" Tag="A+" />
+                                                    <ComboBoxItem Content="A-" Tag="A-" />
+                                                </ComboBox>
+                                                <Label Content="Tipo Sanguíneo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.CnhNumero}" Height="23" Width="100" Margin="113,121,0,0"  />
+                                                <Label Content="Cnh Numero" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,102,0,0"  />
+                                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PessoaFisicaSelected.CnhCategoria}" SelectedValuePath="Tag" Margin="218,121,0,0" >
+                                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                                    <ComboBoxItem Content="Não" Tag="N" />
+                                                </ComboBox>
+                                                <Label Content="Cnh Categoria" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,102,0,0"  />
+                                                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PessoaFisicaSelected.CnhVencimento}" Margin="324,121,0,0"  />
+                                                <Label Content="Cnh Vencimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,102,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.TituloEleitoralNumero}" Height="23" Width="137" Margin="430,121,0,0"  />
+                                                <Label Content="Titulo Eleitoral nº" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,102,0,0"  />
+                                                <TextBox VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.TituloEleitoralZona}" Height="23" Margin="572,121,10,0"  />
+                                                <Label Content="Titulo Eleitoral Zona" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="572,102,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.TituloEleitoralSecao}" Height="23" Width="119" Margin="6,169,0,0"  />
+                                                <Label Content="Titulo Eleitoral Secao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,150,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.ReservistaNumero}" Height="23" Width="118" Margin="130,169,0,0"  />
+                                                <Label Content="Reservista Numero" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,150,0,0"  />
+                                                <TextBox VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.ReservistaCategoria}" Height="23" Margin="254,169,10,0"  />
+                                                <Label Content="Reservista Categoria" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="254,150,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.NomeMae}" Height="23" Width="354" Margin="7,216,0,0"  />
+                                                <Label Content="Nome Mae" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,197,0,0"  />
+                                                <TextBox VerticalAlignment="Top" Text="{Binding PessoaFisicaSelected.NomePai}" Height="23" Margin="366,216,10,0"  />
+                                                <Label Content="Nome Pai" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="366,197,0,0"  />
+                                            </Grid>
+                                        </DockPanel>
+                                    </TabItem>
+                                    <TabItem Name="TabTipoPessoaJuridica" Visibility="Collapsed">
+                                        <DockPanel>
+                                            <Grid>
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaJuridicaSelected.Cnpj}" Height="23" Width="133" Margin="10,25,0,0"  />
+                                                <Label Content="Cnpj" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,6,0,0"  />
+                                                <TextBox VerticalAlignment="Top" Text="{Binding PessoaJuridicaSelected.Fantasia}" Height="23" Margin="151,25,218,0"  />
+                                                <Label Content="Fantasia" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="151,6,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaJuridicaSelected.InscricaoMunicipal}" Height="23" Width="100" Margin="469,25,0,0"  />
+                                                <Label Content="Insc Municipal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="469,6,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaJuridicaSelected.InscricaoEstadual}" Height="23" Width="100" Margin="575,25,0,0"  />
+                                                <Label Content="Insc Estadual" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="575,6,0,0"  />
+                                                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PessoaJuridicaSelected.DataConstituicao}" Margin="6,73,0,0"  />
+                                                <Label Content="Constituicao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+                                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PessoaJuridicaSelected.TipoRegime}" SelectedValuePath="Tag" Margin="112,73,0,0" >
+                                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                                    <ComboBoxItem Content="Não" Tag="N" />
+                                                </ComboBox>
+                                                <Label Content="Tipo Regime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+                                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PessoaJuridicaSelected.Crt}" SelectedValuePath="Tag" Margin="218,73,0,0" >
+                                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                                    <ComboBoxItem Content="Não" Tag="N" />
+                                                </ComboBox>
+                                                <Label Content="Crt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+                                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PessoaJuridicaSelected.Suframa}" Height="23" Width="100" Margin="324,73,0,0"  />
+                                                <Label Content="Suframa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,54,0,0"  />
+                                            </Grid>
+                                        </DockPanel>
+                                    </TabItem>
+                                </TabControl>
+                            </DockPanel>
+                        </TabItem>
+                        <TabItem Name="TabContatos" Header="Contatos">
+                            <DataGrid Name="dataGridContatos" AutoGenerateColumns="true" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+                                    <DataGridTextColumn Header="Nome" Binding="{Binding Path=Nome}"  />
+                                    <DataGridTextColumn Header="Email" Binding="{Binding Path=Email}"  />
+                                    <DataGridTextColumn Header="Fone Comercial" Binding="{Binding Path=Site}"  />
+                                    <DataGridTextColumn Header="Fone Residencial" Binding="{Binding Path=Cliente}"  />
+                                    <DataGridTextColumn Header="Fone Celular" Binding="{Binding Path=Fornecedor}"  />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </TabItem>
+                        <TabItem Name="TabEnderecos" Header="Endereços">
+                            <DataGrid Name="dataGridEnderecos" AutoGenerateColumns="true" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+                                    <DataGridTextColumn Header="Logradouro" Binding="{Binding Path=Nome}"  />
+                                    <DataGridTextColumn Header="Número" Binding="{Binding Path=Email}"  />
+                                    <DataGridTextColumn Header="Complemento" Binding="{Binding Path=Site}"  />
+                                    <DataGridTextColumn Header="Bairro" Binding="{Binding Path=Cliente}"  />
+                                    <DataGridTextColumn Header="Cidade" Binding="{Binding Path=Fornecedor}"  />
+                                    <DataGridTextColumn Header="CEP" Binding="{Binding Path=Fornecedor}"  />
+                                    <DataGridTextColumn Header="Cidade" Binding="{Binding Path=Fornecedor}"  />
+                                    <DataGridTextColumn Header="Cód IBGE" Binding="{Binding Path=Fornecedor}"  />
+                                    <DataGridTextColumn Header="UF" Binding="{Binding Path=Fornecedor}"  />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </TabItem>
+                        <TabItem Name="TabTelefones" Header="Telefones">
+                            <DataGrid Name="dataGridTelefones" AutoGenerateColumns="true" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" >
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+                                    <DataGridTextColumn Header="Tipo" Binding="{Binding Path=Nome}"  />
+                                    <DataGridTextColumn Header="Número" Binding="{Binding Path=Email}"  />
+                                    <DataGridTextColumn Header="Observação" Binding="{Binding Path=Site}"  />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </TabItem>
+                        <TabItem Name="TabCliente" Header="DadosCliente" Visibility="Collapsed">
+                            <view:Cliente></view:Cliente>
+                        </TabItem>
+                        <TabItem Name="TabFornecedor" Header="DadosFornecedor" Visibility="Collapsed">
+                            <view:Fornecedor></view:Fornecedor>
+                        </TabItem>
+                        <TabItem Name="TabTransportadora" Header="DadosTransportadora" Visibility="Collapsed">
+                            <view:Transportadora></view:Transportadora>
+                        </TabItem>
+                    </TabControl>
+
+                </DockPanel>
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SISGMFService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SISGMFService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/SISGMFService/ServicoSISGMF.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.IO" />
+  <xs:complexType name="ViewTotalPagamentoMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPagamento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalPagamento" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalTaxa" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalPagamentoMercadoDTO" nillable="true" type="tns:ViewTotalPagamentoMercadoDTO" />
+  <xs:complexType name="ArrayOfViewTotalPagamentoMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalPagamentoMercadoDTO" nillable="true" type="tns:ViewTotalPagamentoMercadoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalPagamentoMercadoDTO" nillable="true" type="tns:ArrayOfViewTotalPagamentoMercadoDTO" />
+  <xs:complexType name="ViewTotalPresencaMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPresenca" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalPresenca" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalPresencaMercadoDTO" nillable="true" type="tns:ViewTotalPresencaMercadoDTO" />
+  <xs:complexType name="ArrayOfViewTotalPresencaMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalPresencaMercadoDTO" nillable="true" type="tns:ViewTotalPresencaMercadoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalPresencaMercadoDTO" nillable="true" type="tns:ArrayOfViewTotalPresencaMercadoDTO" />
+  <xs:complexType name="ViewTotalVendedorMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdMunicipio" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeMunicipio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Taxa" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalVendedor" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalVendedorMunicipioDTO" nillable="true" type="tns:ViewTotalVendedorMunicipioDTO" />
+  <xs:complexType name="ArrayOfViewTotalVendedorMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalVendedorMunicipioDTO" nillable="true" type="tns:ViewTotalVendedorMunicipioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalVendedorMunicipioDTO" nillable="true" type="tns:ArrayOfViewTotalVendedorMunicipioDTO" />
+  <xs:complexType name="ViewTotalPagamentoMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPagamento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="IdMunicipio" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeMunicipio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalPagamento" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalTaxa" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalPagamentoMunicipioDTO" nillable="true" type="tns:ViewTotalPagamentoMunicipioDTO" />
+  <xs:complexType name="ArrayOfViewTotalPagamentoMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalPagamentoMunicipioDTO" nillable="true" type="tns:ViewTotalPagamentoMunicipioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalPagamentoMunicipioDTO" nillable="true" type="tns:ArrayOfViewTotalPagamentoMunicipioDTO" />
+  <xs:complexType name="ViewTotalPresencaMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPresenca" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="IdMunicipio" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeMunicipio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalPresenca" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalPresencaMunicipioDTO" nillable="true" type="tns:ViewTotalPresencaMunicipioDTO" />
+  <xs:complexType name="ArrayOfViewTotalPresencaMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalPresencaMunicipioDTO" nillable="true" type="tns:ViewTotalPresencaMunicipioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalPresencaMunicipioDTO" nillable="true" type="tns:ArrayOfViewTotalPresencaMunicipioDTO" />
+  <xs:complexType name="ViewPagamentoMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Dia" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="IdVendedor" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="NomeMercado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeVendedor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Saldo" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Taxa" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorPago" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewPagamentoMercadoDTO" nillable="true" type="tns:ViewPagamentoMercadoDTO" />
+  <xs:complexType name="ArrayOfViewPagamentoMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewPagamentoMercadoDTO" nillable="true" type="tns:ViewPagamentoMercadoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewPagamentoMercadoDTO" nillable="true" type="tns:ArrayOfViewPagamentoMercadoDTO" />
+  <xs:complexType name="PresencaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPresenca" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="HoraPresenca" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Vendedor" nillable="true" type="tns:VendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PresencaDTO" nillable="true" type="tns:PresencaDTO" />
+  <xs:complexType name="VendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apelido" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AreaZonaVendedor" nillable="true" type="tns:AreaZonaVendedorDTO" />
+      <xs:element minOccurs="0" name="BiArquivoIdentificacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BiDataEmissao" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Celular1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Celular2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataCadastro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataInicioAtividade" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataNascimento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataValidadeCartao" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EstadoCivil" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estuda" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HabilitacaoLiteraria" nillable="true" type="tns:HabilitacaoLiterariaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="ListaVendedorProduto" nillable="true" type="tns:ArrayOfVendedorProdutoDTO" />
+      <xs:element minOccurs="0" name="LocalVenda" nillable="true" type="tns:LocalVendaDTO" />
+      <xs:element minOccurs="0" name="Mercado" nillable="true" type="tns:MercadoDTO" />
+      <xs:element minOccurs="0" name="Municipio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NaturalDe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NaturalMunicipio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NaturalProvincia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeCartao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomeMae" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NomePai" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroCartao" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="NumeroLocalVenda" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Provincia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Residente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rua" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SabeLerEscrever" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SituacaoVendedor" nillable="true" type="tns:SituacaoVendedorDTO" />
+      <xs:element minOccurs="0" name="Taxa" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TipoPagamento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Zona" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VendedorDTO" nillable="true" type="tns:VendedorDTO" />
+  <xs:complexType name="AreaZonaVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Responsavel" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AreaZonaVendedorDTO" nillable="true" type="tns:AreaZonaVendedorDTO" />
+  <xs:complexType name="HabilitacaoLiterariaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HabilitacaoLiterariaDTO" nillable="true" type="tns:HabilitacaoLiterariaDTO" />
+  <xs:complexType name="ArrayOfVendedorProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VendedorProdutoDTO" nillable="true" type="tns:VendedorProdutoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVendedorProdutoDTO" nillable="true" type="tns:ArrayOfVendedorProdutoDTO" />
+  <xs:complexType name="VendedorProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdVendedor" type="xs:int" />
+      <xs:element minOccurs="0" name="Produto" nillable="true" type="tns:ProdutoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VendedorProdutoDTO" nillable="true" type="tns:VendedorProdutoDTO" />
+  <xs:complexType name="ProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CategoriaProduto" nillable="true" type="tns:CategoriaProdutoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProdutoDTO" nillable="true" type="tns:ProdutoDTO" />
+  <xs:complexType name="CategoriaProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CategoriaProdutoDTO" nillable="true" type="tns:CategoriaProdutoDTO" />
+  <xs:complexType name="LocalVendaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalVendaDTO" nillable="true" type="tns:LocalVendaDTO" />
+  <xs:complexType name="MercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comuna" nillable="true" type="tns:ComunaDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Localizacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Responsavel" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MercadoDTO" nillable="true" type="tns:MercadoDTO" />
+  <xs:complexType name="ComunaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Municipio" nillable="true" type="tns:MunicipioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ComunaDTO" nillable="true" type="tns:ComunaDTO" />
+  <xs:complexType name="MunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Administrador" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Provincia" nillable="true" type="tns:ProvinciaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MunicipioDTO" nillable="true" type="tns:MunicipioDTO" />
+  <xs:complexType name="ProvinciaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProvinciaDTO" nillable="true" type="tns:ProvinciaDTO" />
+  <xs:complexType name="SituacaoVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SituacaoVendedorDTO" nillable="true" type="tns:SituacaoVendedorDTO" />
+  <xs:complexType name="ArrayOfPresencaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PresencaDTO" nillable="true" type="tns:PresencaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPresencaDTO" nillable="true" type="tns:ArrayOfPresencaDTO" />
+  <xs:complexType name="PagamentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPagamento" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Saldo" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SaldoString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Taxa" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TaxaString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ValorPago" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorPagoString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Vendedor" nillable="true" type="tns:VendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagamentoDTO" nillable="true" type="tns:PagamentoDTO" />
+  <xs:complexType name="ArrayOfPagamentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PagamentoDTO" nillable="true" type="tns:PagamentoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPagamentoDTO" nillable="true" type="tns:ArrayOfPagamentoDTO" />
+  <xs:complexType name="UsuarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataCadastro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Funcionario" nillable="true" type="tns:FuncionarioDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Senha" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioDTO" nillable="true" type="tns:UsuarioDTO" />
+  <xs:complexType name="FuncionarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cargo" nillable="true" type="tns:CargoDTO" />
+      <xs:element minOccurs="0" name="Celular1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Celular2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="Mercado" nillable="true" type="tns:MercadoDTO" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FuncionarioDTO" nillable="true" type="tns:FuncionarioDTO" />
+  <xs:complexType name="CargoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CargoDTO" nillable="true" type="tns:CargoDTO" />
+  <xs:complexType name="ArrayOfUsuarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioDTO" nillable="true" type="tns:UsuarioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsuarioDTO" nillable="true" type="tns:ArrayOfUsuarioDTO" />
+  <xs:complexType name="FuncaoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Acesso" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Formulario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdUsuario" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FuncaoDTO" nillable="true" type="tns:FuncaoDTO" />
+  <xs:complexType name="ArrayOfFuncaoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FuncaoDTO" nillable="true" type="tns:FuncaoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFuncaoDTO" nillable="true" type="tns:ArrayOfFuncaoDTO" />
+  <xs:complexType name="ArquivoDTO">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="fileInfo" nillable="true" type="q1:FileInfo" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.IO" minOccurs="0" name="memoryStream" nillable="true" type="q2:MemoryStream" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArquivoDTO" nillable="true" type="tns:ArquivoDTO" />
+  <xs:complexType name="ViewTotalVendedorAreaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Taxa" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalVendedor" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalVendedorAreaDTO" nillable="true" type="tns:ViewTotalVendedorAreaDTO" />
+  <xs:complexType name="ArrayOfViewTotalVendedorAreaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalVendedorAreaDTO" nillable="true" type="tns:ViewTotalVendedorAreaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalVendedorAreaDTO" nillable="true" type="tns:ArrayOfViewTotalVendedorAreaDTO" />
+  <xs:complexType name="ViewTotalPagamentoAreaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPagamento" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdArea" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalPagamento" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalTaxa" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalPagamentoAreaDTO" nillable="true" type="tns:ViewTotalPagamentoAreaDTO" />
+  <xs:complexType name="ArrayOfViewTotalPagamentoAreaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalPagamentoAreaDTO" nillable="true" type="tns:ViewTotalPagamentoAreaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalPagamentoAreaDTO" nillable="true" type="tns:ArrayOfViewTotalPagamentoAreaDTO" />
+  <xs:complexType name="ViewTotalPresencaAreaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataPresenca" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdArea" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalPresenca" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalPresencaAreaDTO" nillable="true" type="tns:ViewTotalPresencaAreaDTO" />
+  <xs:complexType name="ArrayOfViewTotalPresencaAreaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalPresencaAreaDTO" nillable="true" type="tns:ViewTotalPresencaAreaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalPresencaAreaDTO" nillable="true" type="tns:ArrayOfViewTotalPresencaAreaDTO" />
+  <xs:complexType name="ViewTotalVendedorMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Taxa" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TotalVendedor" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewTotalVendedorMercadoDTO" nillable="true" type="tns:ViewTotalVendedorMercadoDTO" />
+  <xs:complexType name="ArrayOfViewTotalVendedorMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewTotalVendedorMercadoDTO" nillable="true" type="tns:ViewTotalVendedorMercadoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewTotalVendedorMercadoDTO" nillable="true" type="tns:ArrayOfViewTotalVendedorMercadoDTO" />
+  <xs:complexType name="ArrayOfProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProdutoDTO" nillable="true" type="tns:ProdutoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProdutoDTO" nillable="true" type="tns:ArrayOfProdutoDTO" />
+  <xs:complexType name="ArrayOfVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VendedorDTO" nillable="true" type="tns:VendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVendedorDTO" nillable="true" type="tns:ArrayOfVendedorDTO" />
+  <xs:complexType name="CalendarioFuncionamentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Dia" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdMercado" type="xs:int" />
+      <xs:element minOccurs="0" name="MesAno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Observacao" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CalendarioFuncionamentoDTO" nillable="true" type="tns:CalendarioFuncionamentoDTO" />
+  <xs:complexType name="ArrayOfCalendarioFuncionamentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CalendarioFuncionamentoDTO" nillable="true" type="tns:CalendarioFuncionamentoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCalendarioFuncionamentoDTO" nillable="true" type="tns:ArrayOfCalendarioFuncionamentoDTO" />
+  <xs:complexType name="ArrayOfLocalVendaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalVendaDTO" nillable="true" type="tns:LocalVendaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalVendaDTO" nillable="true" type="tns:ArrayOfLocalVendaDTO" />
+  <xs:complexType name="ArrayOfMunicipioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MunicipioDTO" nillable="true" type="tns:MunicipioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMunicipioDTO" nillable="true" type="tns:ArrayOfMunicipioDTO" />
+  <xs:complexType name="ArrayOfComunaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ComunaDTO" nillable="true" type="tns:ComunaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComunaDTO" nillable="true" type="tns:ArrayOfComunaDTO" />
+  <xs:complexType name="ArrayOfFuncionarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FuncionarioDTO" nillable="true" type="tns:FuncionarioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFuncionarioDTO" nillable="true" type="tns:ArrayOfFuncionarioDTO" />
+  <xs:complexType name="ArrayOfMercadoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MercadoDTO" nillable="true" type="tns:MercadoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMercadoDTO" nillable="true" type="tns:ArrayOfMercadoDTO" />
+  <xs:complexType name="ArrayOfCargoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CargoDTO" nillable="true" type="tns:CargoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCargoDTO" nillable="true" type="tns:ArrayOfCargoDTO" />
+  <xs:complexType name="ArrayOfAreaZonaVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AreaZonaVendedorDTO" nillable="true" type="tns:AreaZonaVendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAreaZonaVendedorDTO" nillable="true" type="tns:ArrayOfAreaZonaVendedorDTO" />
+  <xs:complexType name="ArrayOfProvinciaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProvinciaDTO" nillable="true" type="tns:ProvinciaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProvinciaDTO" nillable="true" type="tns:ArrayOfProvinciaDTO" />
+  <xs:complexType name="ArrayOfHabilitacaoLiterariaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HabilitacaoLiterariaDTO" nillable="true" type="tns:HabilitacaoLiterariaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHabilitacaoLiterariaDTO" nillable="true" type="tns:ArrayOfHabilitacaoLiterariaDTO" />
+  <xs:complexType name="ArrayOfSituacaoVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SituacaoVendedorDTO" nillable="true" type="tns:SituacaoVendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSituacaoVendedorDTO" nillable="true" type="tns:ArrayOfSituacaoVendedorDTO" />
+  <xs:complexType name="ArrayOfCategoriaProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CategoriaProdutoDTO" nillable="true" type="tns:CategoriaProdutoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategoriaProdutoDTO" nillable="true" type="tns:ArrayOfCategoriaProdutoDTO" />
+</xs:schema>

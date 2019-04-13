@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContabilidadeClient.View.Contabilidade.ContabilTermo" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="144" SelectedValue="{Binding ContabilTermoSelected.AberturaEncerramento}" SelectedValuePath="Tag" Margin="6,25,0,0" >
+                <ComboBoxItem Content="Abertura" Tag="A" />
+                <ComboBoxItem Content="Encerramento" Tag="E" />
+            </ComboBox>
+            <Label Content="Abertura/Encerramento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilTermoSelected.Numero}" Height="23" Width="100" Margin="156,25,0,0"  />
+            <Label Content="Numero:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="156,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilTermoSelected.PaginaInicial}" Height="23" Width="100" Margin="262,25,0,0"  />
+            <Label Content="Pagina Inicial:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="262,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilTermoSelected.PaginaFinal}" Height="23" Width="100" Margin="368,25,0,0"  />
+            <Label Content="Pagina Final:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="368,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilTermoSelected.Registrado}" Height="23" Width="220" Margin="474,25,0,0"  />
+            <Label Content="Registrado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="474,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ContabilTermoSelected.NumeroRegistro}" Height="23" Width="157" Margin="6,73,0,0"  />
+            <Label Content="Numero Registro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ContabilTermoSelected.DataDespacho}" Margin="169,73,0,0"  />
+            <Label Content="Data Despacho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ContabilTermoSelected.DataAbertura}" Margin="275,73,0,0"  />
+            <Label Content="Data Abertura:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="275,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ContabilTermoSelected.DataEncerramento}" Margin="381,73,0,0"  />
+            <Label Content="Data Encerramento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="381,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ContabilTermoSelected.EscrituracaoInicio}" Margin="487,73,0,0"  />
+            <Label Content="Escrituracao Inicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="487,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ContabilTermoSelected.EscrituracaoFim}" Margin="594,73,0,0"  />
+            <Label Content="Escrituracao Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="594,54,0,0"  />
+            <TextBox VerticalAlignment="Top" Text="{Binding ContabilTermoSelected.Texto}" Height="64" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Margin="6,118,6,0"  />
+            <Label Content="Texto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,99,0,0"  />
+        </Grid>
+	</DockPanel>
+</UserControl>

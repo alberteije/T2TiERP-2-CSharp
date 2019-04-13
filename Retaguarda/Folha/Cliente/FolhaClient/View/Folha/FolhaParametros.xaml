@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaParametros" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaParametrosSelected.Competencia}" Height="23" Width="100" Margin="6,25,0,0"  />
+			<Label Content="Competencia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.ContribuiPis}" SelectedValuePath="Tag" Margin="112,25,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Contribui Pis:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaParametrosSelected.AliquotaPis}" Height="23" Width="100" Margin="218,25,0,0"  />
+			<Label Content="Aliquota Pis:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.DiscriminarDsr}" SelectedValuePath="Tag" Margin="324,25,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Discriminar DSR:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaParametrosSelected.DiaPagamento}" Height="23" Width="100" Margin="430,25,0,0"  />
+			<Label Content="Dia Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="159" SelectedValue="{Binding FolhaParametrosSelected.CalculoProporcionalidade}" SelectedValuePath="Tag" Margin="535,25,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Calculo Proporcionalidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="535,6,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.DescontarFaltas13}" SelectedValuePath="Tag" Margin="6,99,0,0" >
+				<ComboBoxItem Content="30 Dias" Tag="0" />
+				<ComboBoxItem Content="Conforme dia do mês" Tag="1" />
+			</ComboBox>
+			<Label Content="Descontar Faltas:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,80,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.PagarAdicionais13}" SelectedValuePath="Tag" Margin="112,99,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Pagar Adicionais:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,80,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.PagarEstagiarios13}" SelectedValuePath="Tag" Margin="218,99,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Pagar Estagiarios:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,80,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.MesAdiantamento13}" SelectedValuePath="Tag" Margin="324,99,0,0" >
+				<ComboBoxItem Content="Janeiro" Tag="01" />
+				<ComboBoxItem Content="Fevereiro" Tag="02" />
+                <ComboBoxItem Content="Março" Tag="03" />
+                <ComboBoxItem Content="Abril" Tag="04" />
+                <ComboBoxItem Content="Maio" Tag="05" />
+                <ComboBoxItem Content="Junho" Tag="06" />
+                <ComboBoxItem Content="Julho" Tag="07" />
+                <ComboBoxItem Content="Agosto" Tag="08" />
+                <ComboBoxItem Content="Setembro" Tag="09" />
+                <ComboBoxItem Content="Outubro" Tag="10" />
+                <ComboBoxItem Content="Novembro" Tag="11" />
+                <ComboBoxItem Content="Dezembro" Tag="12" />
+            </ComboBox>
+			<Label Content="Mes Adiantamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,80,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaParametrosSelected.PercentualAdiantam13}" Height="23" Width="135" Margin="430,99,0,0"  />
+			<Label Content="Percentual Adiantamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,80,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.FeriasDescontarFaltas}" SelectedValuePath="Tag" Margin="6,175,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Descontar Faltas:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,156,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.FeriasPagarAdicionais}" SelectedValuePath="Tag" Margin="112,175,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Pagar Adicionais:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,156,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.FeriasAdiantar13}" SelectedValuePath="Tag" Margin="218,175,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Adiantar 13º:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,156,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.FeriasPagarEstagiarios}" SelectedValuePath="Tag" Margin="324,175,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Pagar Estagiarios:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,156,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.FeriasCalcJustaCausa}" SelectedValuePath="Tag" Margin="430,175,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Cálculo Justa Causa:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,156,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FolhaParametrosSelected.FeriasMovimentoMensal}" SelectedValuePath="Tag" Margin="535,175,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Movimento Mensal:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="535,156,0,0"  />
+            <Label Content="13º Salário:" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" />
+            <Label Content="Férias:" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="9,135,0,0" VerticalAlignment="Top" />
+        </Grid>
+	</DockPanel>
+</UserControl>

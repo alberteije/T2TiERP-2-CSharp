@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="AdministrativoService" namespace="AdministrativoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="UsuarioDTO" table="usuario" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <many-to-one name="Papel" column="ID_PAPEL" />
+    <property name="Login" column="LOGIN" />
+    <property name="Senha" column="SENHA" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="Administrador" column="ADMINISTRADOR" />
+  </class>
+</hibernate-mapping>

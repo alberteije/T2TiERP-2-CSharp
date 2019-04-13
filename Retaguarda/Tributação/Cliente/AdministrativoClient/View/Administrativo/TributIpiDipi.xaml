@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="AdministrativoClient.View.Administrativo.TributIpiDipi" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding TributIpiDipiSelected.TipoReceitaDipi.Descricao}" Height="23" Width="280" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarTipoReceitaDipi" Click="btPesquisarTipoReceitaDipi_Click" Margin="286,25,0,0"  />
+			<Label Content="Tipo Receita Dipi:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIpiDipiSelected.CstIpi}" Height="23" Width="100" Margin="324,25,0,0"  />
+			<Label Content="Cst Ipi:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="264" SelectedValue="{Binding TributIpiDipiSelected.ModalidadeBaseCalculo}" SelectedValuePath="Tag" Margin="430,25,0,0" >
+                <ComboBoxItem Content="Percentual" Tag="0" />
+                <ComboBoxItem Content="Unidade" Tag="1" />
+            </ComboBox>
+			<Label Content="Modalidade Base Calculo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIpiDipiSelected.PorcentoBaseCalculo}" Height="23" Width="120" Margin="6,75,0,0"  />
+			<Label Content="Porcento Base Calculo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,56,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIpiDipiSelected.AliquotaPorcento}" Height="23" Width="120" Margin="132,75,0,0"  />
+			<Label Content="Aliquota Porcento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,56,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIpiDipiSelected.AliquotaUnidade}" Height="23" Width="120" Margin="258,75,0,0"  />
+			<Label Content="Aliquota Unidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="258,56,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIpiDipiSelected.ValorPrecoMaximo}" Height="23" Width="120" Margin="384,75,0,0"  />
+			<Label Content="Valor Preco Maximo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="384,56,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIpiDipiSelected.ValorPautaFiscal}" Height="23" Width="120" Margin="510,75,0,0"  />
+			<Label Content="Valor Pauta Fiscal:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,56,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

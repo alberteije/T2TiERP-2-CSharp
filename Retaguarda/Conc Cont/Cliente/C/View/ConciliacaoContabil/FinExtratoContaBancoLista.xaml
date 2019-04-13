@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ConciliacaoContabilClient.View.ConciliacaoContabil.FinExtratoContaBancoLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:ConciliacaoContabilClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaFinExtratoContaBanco}" SelectedItem="{Binding FinExtratoContaBancoSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Historico" Binding="{Binding Path=Historico}"  />
+                    <DataGridTextColumn Header="Valor" Binding="{Binding Path=Valor,Converter={StaticResource moedaFormat}}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

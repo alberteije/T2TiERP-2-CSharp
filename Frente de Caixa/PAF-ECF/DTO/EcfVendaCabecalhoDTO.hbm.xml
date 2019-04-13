@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfVendaCabecalhoDTO" table="ecf_venda_cabecalho" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_venda_cabecalho</param>
+      </generator>
+    </id>
+
+    <many-to-one name="Cliente" column="ID_CLIENTE" />
+    <many-to-one name="EcfFuncionario" column="ID_ECF_FUNCIONARIO" />
+    <many-to-one name="EcfMovimento" column="ID_ECF_MOVIMENTO" />
+    <property name="IdEcfDav" column="ID_ECF_DAV" />
+    <property name="IdEcfPreVendaCabecalho" column="ID_ECF_PRE_VENDA_CABECALHO" />
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="Cfop" column="CFOP" />
+    <property name="Coo" column="COO" />
+    <property name="Ccf" column="CCF" />
+    <property name="DataVenda" column="DATA_VENDA" />
+    <property name="HoraVenda" column="HORA_VENDA" />
+    <property name="ValorVenda" column="VALOR_VENDA" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="Desconto" column="DESCONTO" />
+    <property name="TaxaAcrescimo" column="TAXA_ACRESCIMO" />
+    <property name="Acrescimo" column="ACRESCIMO" />
+    <property name="ValorFinal" column="VALOR_FINAL" />
+    <property name="ValorRecebido" column="VALOR_RECEBIDO" />
+    <property name="Troco" column="TROCO" />
+    <property name="ValorCancelado" column="VALOR_CANCELADO" />
+    <property name="TotalProdutos" column="TOTAL_PRODUTOS" />
+    <property name="TotalDocumento" column="TOTAL_DOCUMENTO" />
+    <property name="BaseIcms" column="BASE_ICMS" />
+    <property name="Icms" column="ICMS" />
+    <property name="IcmsOutras" column="ICMS_OUTRAS" />
+    <property name="Issqn" column="ISSQN" />
+    <property name="Pis" column="PIS" />
+    <property name="Cofins" column="COFINS" />
+    <property name="AcrescimoItens" column="ACRESCIMO_ITENS" />
+    <property name="DescontoItens" column="DESCONTO_ITENS" />
+    <property name="StatusVenda" column="STATUS_VENDA" />
+    <property name="NomeCliente" column="NOME_CLIENTE" />
+    <property name="CpfCnpjCliente" column="CPF_CNPJ_CLIENTE" />
+    <property name="CupomCancelado" column="CUPOM_CANCELADO" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

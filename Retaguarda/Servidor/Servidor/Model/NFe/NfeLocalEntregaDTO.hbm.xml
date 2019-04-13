@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeLocalEntregaDTO" table="nfe_local_entrega" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="CodigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="NomeMunicipio" column="NOME_MUNICIPIO" />
+    <property name="Uf" column="UF" />
+  </class>
+</hibernate-mapping>

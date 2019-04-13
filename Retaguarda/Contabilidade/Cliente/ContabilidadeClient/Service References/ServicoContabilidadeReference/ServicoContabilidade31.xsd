@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2663/ServicoContabilidade.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" />
+  <xs:element name="deleteContabilLivro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLivro" nillable="true" type="q1:ContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLivroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilLivroResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLivro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLivro" nillable="true" type="q2:ContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLivroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilLivroResult" nillable="true" type="q3:ContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLivro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLivro" nillable="true" type="q4:ContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLivroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLivroResult" nillable="true" type="q5:ArrayOfContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLivroPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLivro" nillable="true" type="q6:ContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLivroPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLivroPaginaResult" nillable="true" type="q7:ArrayOfContabilLivroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectUsuarioResult" nillable="true" type="q8:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcesso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="viewControleAcesso" nillable="true" type="q9:ViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectControleAcessoResult" nillable="true" type="q10:ArrayOfViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteRegistroCartorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q11:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteRegistroCartorioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteRegistroCartorioResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarRegistroCartorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q12:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarRegistroCartorioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarRegistroCartorioResult" nillable="true" type="q13:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q14:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectRegistroCartorioResult" nillable="true" type="q15:ArrayOfRegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorioPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="registroCartorio" nillable="true" type="q16:RegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectRegistroCartorioPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectRegistroCartorioPaginaResult" nillable="true" type="q17:ArrayOfRegistroCartorioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilParametros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilParametros" nillable="true" type="q18:ContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilParametrosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilParametrosResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilParametros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilParametros" nillable="true" type="q19:ContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilParametrosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilParametrosResult" nillable="true" type="q20:ContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilParametros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilParametros" nillable="true" type="q21:ContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilParametrosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilParametrosResult" nillable="true" type="q22:ArrayOfContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilParametrosPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilParametros" nillable="true" type="q23:ContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilParametrosPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilParametrosPaginaResult" nillable="true" type="q24:ArrayOfContabilParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilIndice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilIndice" nillable="true" type="q25:ContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilIndiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilIndiceResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilIndice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilIndice" nillable="true" type="q26:ContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilIndiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilIndiceResult" nillable="true" type="q27:ContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilIndice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilIndice" nillable="true" type="q28:ContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilIndiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilIndiceResult" nillable="true" type="q29:ArrayOfContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilIndicePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilIndice" nillable="true" type="q30:ContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilIndicePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilIndicePaginaResult" nillable="true" type="q31:ArrayOfContabilIndiceDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilHistorico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilHistorico" nillable="true" type="q32:ContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilHistoricoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilHistoricoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilHistorico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilHistorico" nillable="true" type="q33:ContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilHistoricoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilHistoricoResult" nillable="true" type="q34:ContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilHistorico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilHistorico" nillable="true" type="q35:ContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilHistoricoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilHistoricoResult" nillable="true" type="q36:ArrayOfContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilHistoricoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilHistorico" nillable="true" type="q37:ContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilHistoricoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilHistoricoPaginaResult" nillable="true" type="q38:ArrayOfContabilHistoricoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteAidfAimdf">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="aidfAimdf" nillable="true" type="q39:AidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteAidfAimdfResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteAidfAimdfResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarAidfAimdf">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="aidfAimdf" nillable="true" type="q40:AidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarAidfAimdfResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarAidfAimdfResult" nillable="true" type="q41:AidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectAidfAimdf">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="aidfAimdf" nillable="true" type="q42:AidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectAidfAimdfResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectAidfAimdfResult" nillable="true" type="q43:ArrayOfAidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectAidfAimdfPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="aidfAimdf" nillable="true" type="q44:AidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectAidfAimdfPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectAidfAimdfPaginaResult" nillable="true" type="q45:ArrayOfAidfAimdfDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="fap" nillable="true" type="q46:FapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFapResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFapResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="fap" nillable="true" type="q47:FapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFapResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarFapResult" nillable="true" type="q48:FapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="fap" nillable="true" type="q49:FapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFapResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectFapResult" nillable="true" type="q50:ArrayOfFapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFapPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="fap" nillable="true" type="q51:FapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFapPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectFapPaginaResult" nillable="true" type="q52:ArrayOfFapDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePlanoConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoConta" nillable="true" type="q53:PlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePlanoContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePlanoContaResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPlanoConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoConta" nillable="true" type="q54:PlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPlanoContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarPlanoContaResult" nillable="true" type="q55:PlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoConta" nillable="true" type="q56:PlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectPlanoContaResult" nillable="true" type="q57:ArrayOfPlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoConta" nillable="true" type="q58:PlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectPlanoContaPaginaResult" nillable="true" type="q59:ArrayOfPlanoContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePlanoContaRefSped">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoContaRefSped" nillable="true" type="q60:PlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePlanoContaRefSpedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePlanoContaRefSpedResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPlanoContaRefSped">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoContaRefSped" nillable="true" type="q61:PlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPlanoContaRefSpedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarPlanoContaRefSpedResult" nillable="true" type="q62:PlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaRefSped">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoContaRefSped" nillable="true" type="q63:PlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaRefSpedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectPlanoContaRefSpedResult" nillable="true" type="q64:ArrayOfPlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaRefSpedPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="planoContaRefSped" nillable="true" type="q65:PlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPlanoContaRefSpedPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectPlanoContaRefSpedPaginaResult" nillable="true" type="q66:ArrayOfPlanoContaRefSpedDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q67:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilContaResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q68:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilContaResult" nillable="true" type="q69:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilConta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q70:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilContaResult" nillable="true" type="q71:ArrayOfContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilConta" nillable="true" type="q72:ContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilContaPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilContaPaginaResult" nillable="true" type="q73:ArrayOfContabilContaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilFechamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilFechamento" nillable="true" type="q74:ContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilFechamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilFechamentoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilFechamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilFechamento" nillable="true" type="q75:ContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilFechamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilFechamentoResult" nillable="true" type="q76:ContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilFechamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilFechamento" nillable="true" type="q77:ContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilFechamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilFechamentoResult" nillable="true" type="q78:ArrayOfContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilFechamentoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilFechamento" nillable="true" type="q79:ContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilFechamentoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilFechamentoPaginaResult" nillable="true" type="q80:ArrayOfContabilFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLancamentoPadrao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoPadrao" nillable="true" type="q81:ContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLancamentoPadraoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilLancamentoPadraoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLancamentoPadrao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoPadrao" nillable="true" type="q82:ContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLancamentoPadraoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilLancamentoPadraoResult" nillable="true" type="q83:ContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoPadrao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoPadrao" nillable="true" type="q84:ContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoPadraoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLancamentoPadraoResult" nillable="true" type="q85:ArrayOfContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoPadraoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoPadrao" nillable="true" type="q86:ContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoPadraoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLancamentoPadraoPaginaResult" nillable="true" type="q87:ArrayOfContabilLancamentoPadraoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLote">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLote" nillable="true" type="q88:ContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLoteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilLoteResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLote">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLote" nillable="true" type="q89:ContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLoteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilLoteResult" nillable="true" type="q90:ContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLote">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLote" nillable="true" type="q91:ContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLoteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLoteResult" nillable="true" type="q92:ArrayOfContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLotePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLote" nillable="true" type="q93:ContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLotePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLotePaginaResult" nillable="true" type="q94:ArrayOfContabilLoteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLancamentoOrcado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoOrcado" nillable="true" type="q95:ContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLancamentoOrcadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilLancamentoOrcadoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLancamentoOrcado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoOrcado" nillable="true" type="q96:ContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLancamentoOrcadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilLancamentoOrcadoResult" nillable="true" type="q97:ContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoOrcado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoOrcado" nillable="true" type="q98:ContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoOrcadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLancamentoOrcadoResult" nillable="true" type="q99:ArrayOfContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoOrcadoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoOrcado" nillable="true" type="q100:ContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoOrcadoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLancamentoOrcadoPaginaResult" nillable="true" type="q101:ArrayOfContabilLancamentoOrcadoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLancamentoCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoCabecalho" nillable="true" type="q102:ContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilLancamentoCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilLancamentoCabecalhoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLancamentoCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoCabecalho" nillable="true" type="q103:ContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilLancamentoCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilLancamentoCabecalhoResult" nillable="true" type="q104:ContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoCabecalho" nillable="true" type="q105:ContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLancamentoCabecalhoResult" nillable="true" type="q106:ArrayOfContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilLancamentoCabecalho" nillable="true" type="q107:ContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilLancamentoCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilLancamentoCabecalhoPaginaResult" nillable="true" type="q108:ArrayOfContabilLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilDreCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilDreCabecalho" nillable="true" type="q109:ContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilDreCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilDreCabecalhoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilDreCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilDreCabecalho" nillable="true" type="q110:ContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilDreCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilDreCabecalhoResult" nillable="true" type="q111:ContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilDreCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilDreCabecalho" nillable="true" type="q112:ContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilDreCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q113="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilDreCabecalhoResult" nillable="true" type="q113:ArrayOfContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilDreCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilDreCabecalho" nillable="true" type="q114:ContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilDreCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilDreCabecalhoPaginaResult" nillable="true" type="q115:ArrayOfContabilDreCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilEncerramentoExeCab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilEncerramentoExeCab" nillable="true" type="q116:ContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteContabilEncerramentoExeCabResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteContabilEncerramentoExeCabResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilEncerramentoExeCab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilEncerramentoExeCab" nillable="true" type="q117:ContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarContabilEncerramentoExeCabResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q118="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="salvarAtualizarContabilEncerramentoExeCabResult" nillable="true" type="q118:ContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilEncerramentoExeCab">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q119="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilEncerramentoExeCab" nillable="true" type="q119:ContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilEncerramentoExeCabResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q120="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilEncerramentoExeCabResult" nillable="true" type="q120:ArrayOfContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilEncerramentoExeCabPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q121="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="contabilEncerramentoExeCab" nillable="true" type="q121:ContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectContabilEncerramentoExeCabPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q122="http://schemas.datacontract.org/2004/07/ContabilidadeService.Model" minOccurs="0" name="selectContabilEncerramentoExeCabPaginaResult" nillable="true" type="q122:ArrayOfContabilEncerramentoExeCabDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

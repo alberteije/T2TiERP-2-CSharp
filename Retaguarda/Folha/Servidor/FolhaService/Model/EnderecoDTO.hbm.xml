@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="FolhaService"
+                   namespace="FolhaService.Model" default-lazy="false">
+  <class name="EnderecoDTO" table="endereco">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idEmpresa" column="ID_EMPRESA" />
+    <property name="idPessoa" column="ID_PESSOA" />
+    <property name="logradouro" column="LOGRADOURO" />
+    <property name="numero" column="NUMERO" />
+    <property name="complemento" column="COMPLEMENTO" />
+    <property name="bairro" column="BAIRRO" />
+    <property name="cidade" column="CIDADE" />
+    <property name="cep" column="CEP" />
+    <property name="municipioIbge" column="MUNICIPIO_IBGE" />
+    <property name="uf" column="UF" />
+    <property name="fone" column="FONE" />
+    <property name="fax" column="FAX" />
+    <property name="principal" column="PRINCIPAL" />
+    <property name="entrega" column="ENTREGA" />
+    <property name="cobranca" column="COBRANCA" />
+    <property name="correspondencia" column="CORRESPONDENCIA" />
+
+    <!--
+    <many-to-one class="DocumentoOrigemDTO" name="documentoOrigem" column="ID_DOCUMENTO_ORIGEM"/>
+    -->
+  </class>
+</hibernate-mapping>

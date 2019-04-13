@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoPatrimonio" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2675/ServicoPatrimonio.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2675/ServicoPatrimonio.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2675/ServicoPatrimonio.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimTaxaDepreciacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimTaxaDepreciacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimTaxaDepreciacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimTaxaDepreciacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimTaxaDepreciacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimTaxaDepreciacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimTaxaDepreciacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimTaxaDepreciacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTaxaDepreciacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTaxaDepreciacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTaxaDepreciacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTaxaDepreciacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTaxaDepreciacaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTaxaDepreciacaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTaxaDepreciacaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTaxaDepreciacaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimIndiceAtualizacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimIndiceAtualizacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimIndiceAtualizacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimIndiceAtualizacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimIndiceAtualizacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimIndiceAtualizacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimIndiceAtualizacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimIndiceAtualizacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimIndiceAtualizacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimIndiceAtualizacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimIndiceAtualizacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimIndiceAtualizacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimIndiceAtualizacaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimIndiceAtualizacaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimIndiceAtualizacaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimIndiceAtualizacaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimTipoAquisicaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimTipoAquisicaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimTipoAquisicaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimTipoAquisicaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimTipoAquisicaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimTipoAquisicaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimTipoAquisicaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimTipoAquisicaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoAquisicaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoAquisicaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoAquisicaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoAquisicaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoAquisicaoBemPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoAquisicaoBemPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoAquisicaoBemPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoAquisicaoBemPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimTipoMovimentacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimTipoMovimentacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimTipoMovimentacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimTipoMovimentacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimTipoMovimentacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimTipoMovimentacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimTipoMovimentacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimTipoMovimentacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoMovimentacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoMovimentacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoMovimentacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoMovimentacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoMovimentacaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoMovimentacaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimTipoMovimentacaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimTipoMovimentacaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimEstadoConservacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimEstadoConservacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimEstadoConservacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimEstadoConservacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimEstadoConservacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimEstadoConservacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimEstadoConservacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimEstadoConservacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimEstadoConservacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimEstadoConservacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimEstadoConservacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimEstadoConservacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimEstadoConservacaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimEstadoConservacaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimEstadoConservacaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimEstadoConservacaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimGrupoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimGrupoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimGrupoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimGrupoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimGrupoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimGrupoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimGrupoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimGrupoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimGrupoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimGrupoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimGrupoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimGrupoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimGrupoBemPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimGrupoBemPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimGrupoBemPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimGrupoBemPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deleteSeguradora_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteSeguradora" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deleteSeguradora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteSeguradoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarSeguradora_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarSeguradora" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarSeguradora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarSeguradoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSeguradora_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSeguradora" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSeguradora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSeguradoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSeguradoraPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSeguradoraPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSeguradoraPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSeguradoraPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimBemPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimBemPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimBemPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimBemPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimDepreciacaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimDepreciacaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimDepreciacaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimDepreciacaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimDepreciacaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimDepreciacaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimDepreciacaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimDepreciacaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimDepreciacaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimDepreciacaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimDepreciacaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimDepreciacaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimDepreciacaoBemPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimDepreciacaoBemPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimDepreciacaoBemPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimDepreciacaoBemPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimMovimentacaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimMovimentacaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimMovimentacaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimMovimentacaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimMovimentacaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimMovimentacaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimMovimentacaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimMovimentacaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimMovimentacaoBem_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimMovimentacaoBem" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimMovimentacaoBem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimMovimentacaoBemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimMovimentacaoBemPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimMovimentacaoBemPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimMovimentacaoBemPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimMovimentacaoBemPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimApoliceSeguro_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimApoliceSeguro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_deletePatrimApoliceSeguro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePatrimApoliceSeguroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimApoliceSeguro_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimApoliceSeguro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_salvarAtualizarPatrimApoliceSeguro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPatrimApoliceSeguroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimApoliceSeguro_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimApoliceSeguro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimApoliceSeguro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimApoliceSeguroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimApoliceSeguroPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimApoliceSeguroPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPatrimApoliceSeguroPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPatrimApoliceSeguroPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectFornecedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectFornecedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectFornecedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectFornecedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSetor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSetor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSetorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectSetorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSetorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectColaboradorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectColaboradorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPessoa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPessoa" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectPessoa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPessoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPatrimonio_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoPatrimonio">
+    <wsdl:operation name="deletePatrimTaxaDepreciacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimTaxaDepreciacao" message="tns:IServicoPatrimonio_deletePatrimTaxaDepreciacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimTaxaDepreciacaoResponse" message="tns:IServicoPatrimonio_deletePatrimTaxaDepreciacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimTaxaDepreciacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTaxaDepreciacao" message="tns:IServicoPatrimonio_salvarAtualizarPatrimTaxaDepreciacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTaxaDepreciacaoResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimTaxaDepreciacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTaxaDepreciacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTaxaDepreciacao" message="tns:IServicoPatrimonio_selectPatrimTaxaDepreciacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTaxaDepreciacaoResponse" message="tns:IServicoPatrimonio_selectPatrimTaxaDepreciacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTaxaDepreciacaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTaxaDepreciacaoPagina" message="tns:IServicoPatrimonio_selectPatrimTaxaDepreciacaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTaxaDepreciacaoPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimTaxaDepreciacaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimIndiceAtualizacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimIndiceAtualizacao" message="tns:IServicoPatrimonio_deletePatrimIndiceAtualizacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimIndiceAtualizacaoResponse" message="tns:IServicoPatrimonio_deletePatrimIndiceAtualizacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimIndiceAtualizacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimIndiceAtualizacao" message="tns:IServicoPatrimonio_salvarAtualizarPatrimIndiceAtualizacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimIndiceAtualizacaoResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimIndiceAtualizacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimIndiceAtualizacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimIndiceAtualizacao" message="tns:IServicoPatrimonio_selectPatrimIndiceAtualizacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimIndiceAtualizacaoResponse" message="tns:IServicoPatrimonio_selectPatrimIndiceAtualizacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimIndiceAtualizacaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimIndiceAtualizacaoPagina" message="tns:IServicoPatrimonio_selectPatrimIndiceAtualizacaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimIndiceAtualizacaoPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimIndiceAtualizacaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimTipoAquisicaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimTipoAquisicaoBem" message="tns:IServicoPatrimonio_deletePatrimTipoAquisicaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimTipoAquisicaoBemResponse" message="tns:IServicoPatrimonio_deletePatrimTipoAquisicaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimTipoAquisicaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTipoAquisicaoBem" message="tns:IServicoPatrimonio_salvarAtualizarPatrimTipoAquisicaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTipoAquisicaoBemResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimTipoAquisicaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoAquisicaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoAquisicaoBem" message="tns:IServicoPatrimonio_selectPatrimTipoAquisicaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoAquisicaoBemResponse" message="tns:IServicoPatrimonio_selectPatrimTipoAquisicaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoAquisicaoBemPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoAquisicaoBemPagina" message="tns:IServicoPatrimonio_selectPatrimTipoAquisicaoBemPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoAquisicaoBemPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimTipoAquisicaoBemPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimTipoMovimentacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimTipoMovimentacao" message="tns:IServicoPatrimonio_deletePatrimTipoMovimentacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimTipoMovimentacaoResponse" message="tns:IServicoPatrimonio_deletePatrimTipoMovimentacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimTipoMovimentacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTipoMovimentacao" message="tns:IServicoPatrimonio_salvarAtualizarPatrimTipoMovimentacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTipoMovimentacaoResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimTipoMovimentacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoMovimentacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoMovimentacao" message="tns:IServicoPatrimonio_selectPatrimTipoMovimentacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoMovimentacaoResponse" message="tns:IServicoPatrimonio_selectPatrimTipoMovimentacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoMovimentacaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoMovimentacaoPagina" message="tns:IServicoPatrimonio_selectPatrimTipoMovimentacaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoMovimentacaoPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimTipoMovimentacaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimEstadoConservacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimEstadoConservacao" message="tns:IServicoPatrimonio_deletePatrimEstadoConservacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimEstadoConservacaoResponse" message="tns:IServicoPatrimonio_deletePatrimEstadoConservacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimEstadoConservacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimEstadoConservacao" message="tns:IServicoPatrimonio_salvarAtualizarPatrimEstadoConservacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimEstadoConservacaoResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimEstadoConservacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimEstadoConservacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimEstadoConservacao" message="tns:IServicoPatrimonio_selectPatrimEstadoConservacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimEstadoConservacaoResponse" message="tns:IServicoPatrimonio_selectPatrimEstadoConservacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimEstadoConservacaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimEstadoConservacaoPagina" message="tns:IServicoPatrimonio_selectPatrimEstadoConservacaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimEstadoConservacaoPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimEstadoConservacaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimGrupoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimGrupoBem" message="tns:IServicoPatrimonio_deletePatrimGrupoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimGrupoBemResponse" message="tns:IServicoPatrimonio_deletePatrimGrupoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimGrupoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimGrupoBem" message="tns:IServicoPatrimonio_salvarAtualizarPatrimGrupoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimGrupoBemResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimGrupoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimGrupoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimGrupoBem" message="tns:IServicoPatrimonio_selectPatrimGrupoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimGrupoBemResponse" message="tns:IServicoPatrimonio_selectPatrimGrupoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimGrupoBemPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimGrupoBemPagina" message="tns:IServicoPatrimonio_selectPatrimGrupoBemPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimGrupoBemPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimGrupoBemPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSeguradora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deleteSeguradora" message="tns:IServicoPatrimonio_deleteSeguradora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deleteSeguradoraResponse" message="tns:IServicoPatrimonio_deleteSeguradora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarSeguradora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarSeguradora" message="tns:IServicoPatrimonio_salvarAtualizarSeguradora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarSeguradoraResponse" message="tns:IServicoPatrimonio_salvarAtualizarSeguradora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSeguradora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSeguradora" message="tns:IServicoPatrimonio_selectSeguradora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSeguradoraResponse" message="tns:IServicoPatrimonio_selectSeguradora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSeguradoraPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSeguradoraPagina" message="tns:IServicoPatrimonio_selectSeguradoraPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSeguradoraPaginaResponse" message="tns:IServicoPatrimonio_selectSeguradoraPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimBem" message="tns:IServicoPatrimonio_deletePatrimBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimBemResponse" message="tns:IServicoPatrimonio_deletePatrimBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimBem" message="tns:IServicoPatrimonio_salvarAtualizarPatrimBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimBemResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimBem" message="tns:IServicoPatrimonio_selectPatrimBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimBemResponse" message="tns:IServicoPatrimonio_selectPatrimBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimBemPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimBemPagina" message="tns:IServicoPatrimonio_selectPatrimBemPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimBemPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimBemPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimDepreciacaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimDepreciacaoBem" message="tns:IServicoPatrimonio_deletePatrimDepreciacaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimDepreciacaoBemResponse" message="tns:IServicoPatrimonio_deletePatrimDepreciacaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimDepreciacaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimDepreciacaoBem" message="tns:IServicoPatrimonio_salvarAtualizarPatrimDepreciacaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimDepreciacaoBemResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimDepreciacaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimDepreciacaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimDepreciacaoBem" message="tns:IServicoPatrimonio_selectPatrimDepreciacaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimDepreciacaoBemResponse" message="tns:IServicoPatrimonio_selectPatrimDepreciacaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimDepreciacaoBemPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimDepreciacaoBemPagina" message="tns:IServicoPatrimonio_selectPatrimDepreciacaoBemPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimDepreciacaoBemPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimDepreciacaoBemPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimMovimentacaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimMovimentacaoBem" message="tns:IServicoPatrimonio_deletePatrimMovimentacaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimMovimentacaoBemResponse" message="tns:IServicoPatrimonio_deletePatrimMovimentacaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimMovimentacaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimMovimentacaoBem" message="tns:IServicoPatrimonio_salvarAtualizarPatrimMovimentacaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimMovimentacaoBemResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimMovimentacaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimMovimentacaoBem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimMovimentacaoBem" message="tns:IServicoPatrimonio_selectPatrimMovimentacaoBem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimMovimentacaoBemResponse" message="tns:IServicoPatrimonio_selectPatrimMovimentacaoBem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimMovimentacaoBemPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimMovimentacaoBemPagina" message="tns:IServicoPatrimonio_selectPatrimMovimentacaoBemPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimMovimentacaoBemPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimMovimentacaoBemPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimApoliceSeguro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimApoliceSeguro" message="tns:IServicoPatrimonio_deletePatrimApoliceSeguro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/deletePatrimApoliceSeguroResponse" message="tns:IServicoPatrimonio_deletePatrimApoliceSeguro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimApoliceSeguro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimApoliceSeguro" message="tns:IServicoPatrimonio_salvarAtualizarPatrimApoliceSeguro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimApoliceSeguroResponse" message="tns:IServicoPatrimonio_salvarAtualizarPatrimApoliceSeguro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimApoliceSeguro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimApoliceSeguro" message="tns:IServicoPatrimonio_selectPatrimApoliceSeguro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimApoliceSeguroResponse" message="tns:IServicoPatrimonio_selectPatrimApoliceSeguro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimApoliceSeguroPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimApoliceSeguroPagina" message="tns:IServicoPatrimonio_selectPatrimApoliceSeguroPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPatrimApoliceSeguroPaginaResponse" message="tns:IServicoPatrimonio_selectPatrimApoliceSeguroPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectFornecedor" message="tns:IServicoPatrimonio_selectFornecedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectFornecedorResponse" message="tns:IServicoPatrimonio_selectFornecedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectFornecedorPagina" message="tns:IServicoPatrimonio_selectFornecedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectFornecedorPaginaResponse" message="tns:IServicoPatrimonio_selectFornecedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSetor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSetor" message="tns:IServicoPatrimonio_selectSetor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSetorResponse" message="tns:IServicoPatrimonio_selectSetor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSetorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSetorPagina" message="tns:IServicoPatrimonio_selectSetorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectSetorPaginaResponse" message="tns:IServicoPatrimonio_selectSetorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectColaborador" message="tns:IServicoPatrimonio_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectColaboradorResponse" message="tns:IServicoPatrimonio_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectColaboradorPagina" message="tns:IServicoPatrimonio_selectColaboradorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectColaboradorPaginaResponse" message="tns:IServicoPatrimonio_selectColaboradorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPessoa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPessoa" message="tns:IServicoPatrimonio_selectPessoa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectPessoaResponse" message="tns:IServicoPatrimonio_selectPessoa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectUsuario" message="tns:IServicoPatrimonio_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectUsuarioResponse" message="tns:IServicoPatrimonio_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectControleAcesso" message="tns:IServicoPatrimonio_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPatrimonio/selectControleAcessoResponse" message="tns:IServicoPatrimonio_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoPatrimonio" type="tns:IServicoPatrimonio">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deletePatrimTaxaDepreciacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimTaxaDepreciacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimTaxaDepreciacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTaxaDepreciacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTaxaDepreciacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimTaxaDepreciacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTaxaDepreciacaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimTaxaDepreciacaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimIndiceAtualizacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimIndiceAtualizacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimIndiceAtualizacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimIndiceAtualizacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimIndiceAtualizacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimIndiceAtualizacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimIndiceAtualizacaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimIndiceAtualizacaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimTipoAquisicaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimTipoAquisicaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimTipoAquisicaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTipoAquisicaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoAquisicaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoAquisicaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoAquisicaoBemPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoAquisicaoBemPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimTipoMovimentacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimTipoMovimentacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimTipoMovimentacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimTipoMovimentacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoMovimentacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoMovimentacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimTipoMovimentacaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimTipoMovimentacaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimEstadoConservacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimEstadoConservacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimEstadoConservacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimEstadoConservacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimEstadoConservacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimEstadoConservacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimEstadoConservacaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimEstadoConservacaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimGrupoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimGrupoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimGrupoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimGrupoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimGrupoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimGrupoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimGrupoBemPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimGrupoBemPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSeguradora">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deleteSeguradora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarSeguradora">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarSeguradora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSeguradora">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectSeguradora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSeguradoraPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectSeguradoraPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimBemPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimBemPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimDepreciacaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimDepreciacaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimDepreciacaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimDepreciacaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimDepreciacaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimDepreciacaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimDepreciacaoBemPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimDepreciacaoBemPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimMovimentacaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimMovimentacaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimMovimentacaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimMovimentacaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimMovimentacaoBem">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimMovimentacaoBem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimMovimentacaoBemPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimMovimentacaoBemPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePatrimApoliceSeguro">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/deletePatrimApoliceSeguro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPatrimApoliceSeguro">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/salvarAtualizarPatrimApoliceSeguro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimApoliceSeguro">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimApoliceSeguro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPatrimApoliceSeguroPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPatrimApoliceSeguroPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectFornecedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectFornecedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSetor">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectSetor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSetorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectSetorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectColaboradorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPessoa">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectPessoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoPatrimonio/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoPatrimonio">
+    <wsdl:port name="BasicHttpBinding_IServicoPatrimonio" binding="tns:BasicHttpBinding_IServicoPatrimonio">
+      <soap:address location="http://localhost:2675/ServicoPatrimonio.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

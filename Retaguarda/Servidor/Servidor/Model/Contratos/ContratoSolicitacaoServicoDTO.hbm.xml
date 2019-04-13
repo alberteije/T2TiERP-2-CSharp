@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContratoSolicitacaoServicoDTO" table="contrato_solicitacao_servico" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Fornecedor" column="ID_FORNECEDOR" />
+    <many-to-one name="Cliente" column="ID_CLIENTE" />
+    <many-to-one name="Setor" column="ID_SETOR" />
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <many-to-one name="ContratoTipoServico" column="ID_CONTRATO_TIPO_SERVICO" />
+    <property name="DataSolicitacao" column="DATA_SOLICITACAO" />
+    <property name="DataDesejadaInicio" column="DATA_DESEJADA_INICIO" />
+    <property name="Urgente" column="URGENTE" />
+    <property name="StatusSolicitacao" column="STATUS_SOLICITACAO" />
+    <property name="Descricao" column="DESCRICAO" />
+  </class>
+</hibernate-mapping>

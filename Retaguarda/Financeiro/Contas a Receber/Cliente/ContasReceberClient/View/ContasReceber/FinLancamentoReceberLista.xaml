@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasReceberClient.View.ContasReceber.FinLancamentoReceberLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:ContasReceberClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+				<Button Margin="4,0" Content="&lt;" Command="{Binding paginaAnteriorCommand}" />
+				<Button Margin="4,0" Content="&gt;" Command="{Binding paginaSeguinteCommand}" />
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+				<ComboBox Name="comboExp" SelectedIndex="0" Width="60" ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"></ComboBox>
+				<exp:ButtonExport ExportDataGridSource="{Binding ElementName=dataGrid}" ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}" Click="ButtonExport_Click">
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Imagem/documento32.png" Height="20"></Image>
+					</StackPanel>
+				</exp:ButtonExport>
+                <Button Name="btRelatorio" Click="btRelatorio_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/ContasReceberClient;component/Imagens/relatorio.png" Stretch="None"></Image>
+                        <TextBlock Text="Relatório" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaFinLancamentoReceber}" SelectedItem="{Binding FinLancamentoReceberSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+					<DataGridTextColumn Header="Documento Origem" Binding="{Binding Path=FinDocumentoOrigem.SiglaDocumento}"  />
+					<DataGridTextColumn Header="Cliente" Binding="{Binding Path=Cliente.Nome}"  />
+					<DataGridTextColumn Header="Quantidade Parcelas" Binding="{Binding Path=QuantidadeParcela}"  />
+					<DataGridTextColumn Header="Valor Total" Binding="{Binding Path=ValorTotal,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Valor a Receber" Binding="{Binding Path=ValorAReceber,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Data Lancamento" Binding="{Binding Path=DataLancamento,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Numero Documento" Binding="{Binding Path=NumeroDocumento}"  />
+					<DataGridTextColumn Header="Primeiro Vencimento" Binding="{Binding Path=PrimeiroVencimento,StringFormat=dd/MM/yyyy}"  />
+                    <DataGridTextColumn Header="Taxa Comissão" Binding="{Binding Path=TaxaComissao}"  />
+                    <DataGridTextColumn Header="Valor Comissão" Binding="{Binding Path=ValorComissao}"  />
+                    <DataGridTextColumn Header="Intervalo Entre Parcelas" Binding="{Binding Path=IntervaloEntreParcelas}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

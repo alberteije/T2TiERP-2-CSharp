@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeCupomFiscalReferenciadoDTO" table="nfe_cupom_fiscal_referenciado" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="ModeloDocumentoFiscal" column="MODELO_DOCUMENTO_FISCAL" />
+    <property name="NumeroOrdemEcf" column="NUMERO_ORDEM_ECF" />
+    <property name="Coo" column="COO" />
+    <property name="DataEmissaoCupom" column="DATA_EMISSAO_CUPOM" />
+    <property name="NumeroCaixa" column="NUMERO_CAIXA" />
+    <property name="NumeroSerieEcf" column="NUMERO_SERIE_ECF" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetalheImpostoCofinsDTO" table="nfe_detalhe_imposto_cofins" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="CstCofins" column="CST_COFINS" />
+    <property name="QuantidadeVendida" column="QUANTIDADE_VENDIDA" />
+    <property name="BaseCalculoCofins" column="BASE_CALCULO_COFINS" />
+    <property name="AliquotaCofinsPercentual" column="ALIQUOTA_COFINS_PERCENTUAL" />
+    <property name="AliquotaCofinsReais" column="ALIQUOTA_COFINS_REAIS" />
+    <property name="ValorCofins" column="VALOR_COFINS" />
+  </class>
+</hibernate-mapping>

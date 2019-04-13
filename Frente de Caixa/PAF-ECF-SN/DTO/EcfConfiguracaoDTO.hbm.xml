@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfConfiguracaoDTO" table="ecf_configuracao" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_configuracao</param>
+      </generator>
+    </id>
+
+    <many-to-one name="EcfImpressora" column="ID_ECF_IMPRESSORA" />
+    <many-to-one name="EcfResolucao" column="ID_ECF_RESOLUCAO" />
+    <many-to-one name="EcfCaixa" column="ID_ECF_CAIXA" />
+    <many-to-one name="EcfEmpresa" column="ID_ECF_EMPRESA" />
+    <one-to-one name="EcfConfiguracaoBalanca" class="EcfConfiguracaoBalancaDTO" />
+    <one-to-one name="EcfRelatorioGerencial" class="EcfRelatorioGerencialDTO" />
+    <one-to-one name="EcfConfiguracaoLeitorSer" class="EcfConfiguracaoLeitorSerDTO" />
+    <property name="MensagemCupom" column="MENSAGEM_CUPOM" />
+    <property name="PortaEcf" column="PORTA_ECF" />
+    <property name="IpServidor" column="IP_SERVIDOR" />
+    <property name="IpSitef" column="IP_SITEF" />
+    <property name="TipoTef" column="TIPO_TEF" />
+    <property name="TituloTelaCaixa" column="TITULO_TELA_CAIXA" />
+    <property name="CaminhoImagensProdutos" column="CAMINHO_IMAGENS_PRODUTOS" />
+    <property name="CaminhoImagensMarketing" column="CAMINHO_IMAGENS_MARKETING" />
+    <property name="CaminhoImagensLayout" column="CAMINHO_IMAGENS_LAYOUT" />
+    <property name="CorJanelasInternas" column="COR_JANELAS_INTERNAS" />
+    <property name="MarketingAtivo" column="MARKETING_ATIVO" />
+    <property name="CfopEcf" column="CFOP_ECF" />
+    <property name="CfopNf2" column="CFOP_NF2" />
+    <property name="TimeoutEcf" column="TIMEOUT_ECF" />
+    <property name="IntervaloEcf" column="INTERVALO_ECF" />
+    <property name="DescricaoSuprimento" column="DESCRICAO_SUPRIMENTO" />
+    <property name="DescricaoSangria" column="DESCRICAO_SANGRIA" />
+    <property name="TefTipoGp" column="TEF_TIPO_GP" />
+    <property name="TefTempoEspera" column="TEF_TEMPO_ESPERA" />
+    <property name="TefEsperaSts" column="TEF_ESPERA_STS" />
+    <property name="TefNumeroVias" column="TEF_NUMERO_VIAS" />
+    <property name="DecimaisQuantidade" column="DECIMAIS_QUANTIDADE" />
+    <property name="DecimaisValor" column="DECIMAIS_VALOR" />
+    <property name="BitsPorSegundo" column="BITS_POR_SEGUNDO" />
+    <property name="QuantidadeMaximaCartoes" column="QUANTIDADE_MAXIMA_CARTOES" />
+    <property name="PesquisaParte" column="PESQUISA_PARTE" />
+    <property name="UltimaExclusao" column="ULTIMA_EXCLUSAO" />
+    <property name="Laudo" column="LAUDO" />
+    <property name="DataAtualizacaoEstoque" column="DATA_ATUALIZACAO_ESTOQUE" />
+    <property name="PedeCpfCupom" column="PEDE_CPF_CUPOM" />
+    <property name="TipoIntegracao" column="TIPO_INTEGRACAO" />
+    <property name="TimerIntegracao" column="TIMER_INTEGRACAO" />
+    <property name="GavetaSinalInvertido" column="GAVETA_SINAL_INVERTIDO" />
+    <property name="GavetaUtilizacao" column="GAVETA_UTILIZACAO" />
+    <property name="QuantidadeMaximaParcela" column="QUANTIDADE_MAXIMA_PARCELA" />
+    <property name="ImprimeParcela" column="IMPRIME_PARCELA" />
+    <property name="UsaTecladoReduzido" column="USA_TECLADO_REDUZIDO" />
+    <property name="PermiteLancarNfManual" column="PERMITE_LANCAR_NF_MANUAL" />
+  </class>
+</hibernate-mapping>

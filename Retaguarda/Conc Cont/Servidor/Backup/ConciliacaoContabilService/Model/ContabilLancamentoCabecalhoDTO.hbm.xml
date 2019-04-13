@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ConciliacaoContabilService" namespace="ConciliacaoContabilService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilLancamentoCabecalhoDTO" table="contabil_lancamento_cabecalho" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <many-to-one name="ContabilLote" column="ID_CONTABIL_LOTE" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="DataInclusao" column="DATA_INCLUSAO" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Liberado" column="LIBERADO" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

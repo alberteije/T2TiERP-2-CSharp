@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDeclaracaoImportacaoDTO" table="nfe_declaracao_importacao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="NumeroDocumento" column="NUMERO_DOCUMENTO" />
+    <property name="DataRegistro" column="DATA_REGISTRO" />
+    <property name="LocalDesembaraco" column="LOCAL_DESEMBARACO" />
+    <property name="UfDesembaraco" column="UF_DESEMBARACO" />
+    <property name="DataDesembaraco" column="DATA_DESEMBARACO" />
+    <property name="CodigoExportador" column="CODIGO_EXPORTADOR" />
+    <property name="ViaTransporte" column="VIA_TRANSPORTE" />
+    <property name="ValorAfrmm" column="VALOR_AFRMM" />
+    <property name="FormaIntermediacao" column="FORMA_INTERMEDIACAO" />
+    <property name="Cnpj" column="CNPJ" />
+    <property name="UfTerceiro" column="UF_TERCEIRO" />
+  </class>
+</hibernate-mapping>

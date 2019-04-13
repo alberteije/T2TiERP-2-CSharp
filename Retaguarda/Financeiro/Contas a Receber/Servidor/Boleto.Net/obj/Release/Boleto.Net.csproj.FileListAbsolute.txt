@@ -1,0 +1,8 @@
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Release\BoletoNet.Html.resources
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\boletonet-72824\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.pdb

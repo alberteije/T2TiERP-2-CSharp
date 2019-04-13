@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="RegistroCartorioDTO" table="registro_cartorio" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="NomeCartorio" column="NOME_CARTORIO" />
+    <property name="DataRegistro" column="DATA_REGISTRO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Folha" column="FOLHA" />
+    <property name="Livro" column="LIVRO" />
+    <property name="Nire" column="NIRE" />
+  </class>
+</hibernate-mapping>

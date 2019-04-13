@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewTotalPagamentoDataDTO" table="view_total_pagamento_data" >
+    
+    <id name="Id" column="ID">
+      <generator class="native" />
+    </id>
+    
+    <property name="DataVenda" column="DATA_VENDA" />
+    <property name="IdTipoPagamento" column="ID_TIPO_PAGAMENTO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="ValorApurado" column="VALOR_APURADO" />
+  </class>
+</hibernate-mapping>

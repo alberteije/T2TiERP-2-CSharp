@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="VendasClient.View.Vendas.VendaCabecalhoLista" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" 
+             xmlns:util="clr-namespace:VendasClient.Util" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" 
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" 
+             d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+				<Button Margin="4,0" Content="&lt;" Command="{Binding paginaAnteriorCommand}" />
+				<Button Margin="4,0" Content="&gt;" Command="{Binding paginaSeguinteCommand}" />
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+				<ComboBox Name="comboExp" SelectedIndex="0" Width="60" ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"></ComboBox>
+				<exp:ButtonExport ExportDataGridSource="{Binding ElementName=dataGrid}" ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}" Click="ButtonExport_Click">
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Imagem/documento32.png" Height="20"></Image>
+					</StackPanel>
+				</exp:ButtonExport>
+			</StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaVendaCabecalho}" SelectedItem="{Binding VendaCabecalhoSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+					<DataGridTextColumn Header="Transportadora" Binding="{Binding Path=Transportadora.Pessoa.Nome}"  />
+					<DataGridTextColumn Header="Tipo NF" Binding="{Binding Path=TipoNotaFiscal.Nome}"  />
+					<DataGridTextColumn Header="Cliente" Binding="{Binding Path=Cliente.Pessoa.Nome}"  />
+					<DataGridTextColumn Header="Vendedor" Binding="{Binding Path=Vendedor.Colaborador.Pessoa.Nome}"  />
+					<DataGridTextColumn Header="Condicoes Pagamento" Binding="{Binding Path=CondicoesPagamento.Nome}"  />
+					<DataGridTextColumn Header="Orcamento" Binding="{Binding Path=OrcamentoVendaCabecalho.Codigo}"  />
+					<DataGridTextColumn Header="Data Venda" Binding="{Binding Path=DataVenda,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Data Saida" Binding="{Binding Path=DataSaida,StringFormat=dd/MM/yyyy}"  />
+					<DataGridTextColumn Header="Hora Saida" Binding="{Binding Path=HoraSaida}"  />
+					<DataGridTextColumn Header="Numero Fatura" Binding="{Binding Path=NumeroFatura}"  />
+					<DataGridTextColumn Header="Local Entrega" Binding="{Binding Path=LocalEntrega}"  />
+					<DataGridTextColumn Header="Local Cobranca" Binding="{Binding Path=LocalCobranca}"  />
+					<DataGridTextColumn Header="Valor Subtotal" Binding="{Binding Path=ValorSubtotal,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Taxa Comissao" Binding="{Binding Path=TaxaComissao,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Valor Comissao" Binding="{Binding Path=ValorComissao,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Taxa Desconto" Binding="{Binding Path=TaxaDesconto,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Valor Desconto" Binding="{Binding Path=ValorDesconto,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Valor Total" Binding="{Binding Path=ValorTotal,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Tipo Frete" Binding="{Binding Path=TipoFrete}"  />
+					<DataGridTextColumn Header="Forma Pagamento" Binding="{Binding Path=FormaPagamento}"  />
+					<DataGridTextColumn Header="Valor Frete" Binding="{Binding Path=ValorFrete,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Valor Seguro" Binding="{Binding Path=ValorSeguro,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Observacao" Binding="{Binding Path=Observacao}"  />
+                    <DataGridTextColumn Header="Situacao" Binding="{Binding Path=Situacao}"  />
+                </DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

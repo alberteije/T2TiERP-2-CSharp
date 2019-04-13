@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EmpresaTransporteDTO" table="empresa_transporte" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Uf" column="UF" />
+    <property name="Nome" column="NOME" />
+    <property name="ClassificacaoContabilConta" column="CLASSIFICACAO_CONTABIL_CONTA" />
+  </class>
+</hibernate-mapping>

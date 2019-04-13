@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA947A1A-E7EC-48B3-953A-4E18C4563CB4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Servidor</RootNamespace>
+    <AssemblyName>Servidor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ACBrFramework.Net, Version=0.9.3.2, Culture=neutral, PublicKeyToken=4ca716d5e1bd4ba3, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\ACBrFramework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime, Version=3.1.3.42154, Culture=neutral, PublicKeyToken=3a9cab8f8d22bfb7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\NHibernate\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\NHibernate\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy, Version=1.0.4.18998, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\NHibernate\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\MySQL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\NHibernate\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model\Cadastros\ClienteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\ContadorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfImpressoraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfNotaFiscalCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfR02DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfR03DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfVendaCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfVendaDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Comum\EmpresaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\FiscalApuracaoIcmsDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\FornecedorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeTransporteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\PessoaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\PessoaFisicaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\PessoaJuridicaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ProdutoAlteracaoItemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\ProdutoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\TransportadoraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Tributacao\TributOperacaoFiscalDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\UnidadeConversaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Comum\UsuarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC190DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC300DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC321DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC370DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC390DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC425DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedC490DTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedNfeDestinatarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedNfeDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedNfeEmitenteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sped\ViewSpedNfeItemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\AtividadeForCliDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\SituacaoForCliDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Comum\EmpresaEnderecoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\EstadoCivilDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Tributacao\TributIcmsCustomCabDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\AlmoxarifadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Tributacao\TributGrupoTributarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\ProdutoMarcaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\ProdutoGrupoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\ProdutoSubGrupoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfSintegra60aDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\EcfSintegra60mDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sintegra\ViewSintegra60dDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sintegra\ViewSintegra60rDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Sintegra\ViewSintegra61rDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\DavCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\DavDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\PreVendaCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\BalcaoPAF\PreVendaDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\CargoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\CboDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\OperadoraPlanoSaudeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\PaisDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\PessoaContatoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\PessoaEnderecoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\BancoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\UnidadeProdutoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeAcessoXmlDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeCanaDeducoesSafraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeCanaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeCanaFornecimentoDiarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeConfiguracaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeCteReferenciadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeCupomFiscalReferenciadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDeclaracaoImportacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDestinatarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheImpostoCofinsDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheImpostoIcmsDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheImpostoIiDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheImpostoIpiDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheImpostoIssqnDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetalheImpostoPisDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetEspecificoArmamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetEspecificoCombustivelDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetEspecificoMedicamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDetEspecificoVeiculoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeDuplicataDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeEmitenteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeExportacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeFaturaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeFormaPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeImportacaoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeLocalEntregaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeLocalRetiradaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeNfReferenciadaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeNumeroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeProcessoReferenciadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeProdRuralReferenciadaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeReferenciadaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeTransporteReboqueDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeTransporteVolumeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\NFe\NfeTransporteVolumeLacreDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Tributacao\ViewTributacaoCofinsDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Tributacao\ViewTributacaoIcmsDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Tributacao\ViewTributacaoPisDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraPedidoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraCotacaoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraCotacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraCotacaoPedidoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraFornecedorCotacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraPedidoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraReqCotacaoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraRequisicaoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraRequisicaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraTipoPedidoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Compras\CompraTipoRequisicaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilContaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilDreCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilDreDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilEncerramentoExeCabDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilEncerramentoExeDetDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilFechamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilHistoricoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilIndiceDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilIndiceValorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilLancamentoCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilLancamentoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilLancamentoOrcadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilLancamentoPadraoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilLivroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilLoteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilParametroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContabilTermoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContaCaixaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\ContaContabilRateioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoHistFaturamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoHistoricoReajusteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoPrevFaturamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoSolicitacaoServicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoTemplateDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\ContratoTipoServicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Orcamentos\OrcamentoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Orcamentos\OrcamentoEmpresarialDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Orcamentos\OrcamentoFluxoCaixaDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Orcamentos\OrcamentoFluxoCaixaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Orcamentos\OrcamentoFluxoCaixaPeriodoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Orcamentos\OrcamentoPeriodoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalEstadualPorteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalEstadualRegimeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalInscricoesSubstitutasDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalLivroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalMunicipalRegimeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalNotaFiscalEntradaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalNotaFiscalSaidaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalParametroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\FiscalTermoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueCorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueGradeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueMarcaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueReajusteCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueReajusteDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueSaborDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Estoque\EstoqueTamanhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinChequeEmitidoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinChequeRecebidoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinCobrancaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinCobrancaParcelaReceberDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinConfiguracaoBoletoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinDocumentoOrigemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinExtratoContaBancoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinFechamentoCaixaBancoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinLancamentoPagarDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinLancamentoReceberDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinLctoPagarNtFinanceiraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinLctoReceberNtFinanceiraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinPagamentoFixoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinParcelaPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinParcelaPagarDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinParcelaReceberDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinParcelaRecebimentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinStatusParcelaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinTipoPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\FinTipoRecebimentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaAfastamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaEventoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaFechamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaFeriasColetivasDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaHistoricoSalarialDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaInssDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaInssRetencaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaInssServicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaLancamentoCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaLancamentoComissaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaLancamentoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaParametroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaPlanoSaudeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaPppAtividadeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaPppCatDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaPppDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaPppExameMedicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaPppFatorRiscoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaRescisaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaTipoAfastamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\FolhaValeTransporteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ged\GedDocumentoCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ged\GedDocumentoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ged\GedTipoDocumentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ged\GedVersaoDocumentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimApoliceSeguroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimBemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimDepreciacaoBemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimDocumentoBemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimEstadoConservacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimGrupoBemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimIndiceAtualizacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimMovimentacaoBemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimTaxaDepreciacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimTipoAquisicaoBemDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\PatrimTipoMovimentacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoAbonoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoAbonoUtilizacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoBancoHorasDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoBancoHorasUtilizacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoClassificacaoJornadaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoEscalaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoFechamentoJornadaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoHorarioAutorizadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoHorarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoMarcacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoParametroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoRelogioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Ponto\PontoTurmaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaComissaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaCondicoesPagamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaCondicoesParcelasDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaFreteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaOrcamentoCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaOrcamentoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendaRomaneioEntregaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\ColaboradorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Vendas\VendedorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\NaturezaFinanceiraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\EmpresaTransporteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Folha\EmpresaTransporteItinerarioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\PlanoNaturezaFinanceiraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\ChequeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\CentroResultadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\PlanoCentroResultadoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\PlanoContaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\PlanoContaRefSpedDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Patrimonio\SeguradoraDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contratos\TipoContratoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\AgenciaBancoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\SetorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\TipoAdmissaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\TipoColaboradorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\NivelFormacaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\SindicatoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\SituacaoColaboradorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Contabil\IndiceEconomicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Financeiro\TalonarioChequeDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\NotaFiscalModeloDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\NotaFiscalTipoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\RegistroCartorioDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\SimplesNacionalCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\EscritaFiscal\SimplesNacionalDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Cadastros\FichaTecnicaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpInstrucaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpInstrucaoOpDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpOpCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpOpDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpServicoColaboradorDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpServicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Pcp\PcpServicoEquipamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Inventario\InventarioContagemCabDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Inventario\InventarioContagemDetDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Comissoes\ComissaoObjetivoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Comissoes\ComissaoPerfilDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\OrdemServico\OsAberturaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\OrdemServico\OsAberturaEquipamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\OrdemServico\OsEquipamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\OrdemServico\OsEvolucaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\OrdemServico\OsProdutoServicoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\OrdemServico\OsStatusDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Etiquetas\EtiquetaTemplateDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Etiquetas\EtiquetaFormatoPapelDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\Etiquetas\EtiquetaLayoutDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsAgendamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsArmazenamentoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsCaixaDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsEstanteDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsExpedicaoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsOrdemSeparacaoCabDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsOrdemSeparacaoDetDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsParametroDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsRecebimentoCabecalhoDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsRecebimentoDetalheDTO.hbm.xml" />
+    <EmbeddedResource Include="Model\WMS\WmsRuaDTO.hbm.xml" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes.sln" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Debug\ProjetoComponenteSpedContribuicoes.vshost.exe" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\ProjetoComponenteSpedContribuicoes.csproj.FileListAbsolute.txt" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes.csproj" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes.csproj.user" />
+    <Content Include="Servidor.svc" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Componente\SpedContabil\ACBrECDBloco_0.cs" />
+    <Compile Include="Componente\SpedContabil\ACBrECDBloco_0_Class.cs" />
+    <Compile Include="Componente\SpedContabil\ACBrSpedContabil.cs" />
+    <Compile Include="Componente\SpedContabil\Funcoes.cs" />
+    <Compile Include="DAL\Sintegra\SintegraDAL.cs" />
+    <Compile Include="DAL\Sped\SpedContribuicoesDAL.cs" />
+    <Compile Include="Model\Cadastros\AgenciaBancoDTO.cs" />
+    <Compile Include="Model\Cadastros\AlmoxarifadoDTO.cs" />
+    <Compile Include="Model\Cadastros\BancoDTO.cs" />
+    <Compile Include="Model\Cadastros\CargoDTO.cs" />
+    <Compile Include="Model\Cadastros\CboDTO.cs" />
+    <Compile Include="Model\Cadastros\ColaboradorDTO.cs" />
+    <Compile Include="Model\Cadastros\FichaTecnicaDTO.cs" />
+    <Compile Include="Model\Cadastros\NivelFormacaoDTO.cs" />
+    <Compile Include="Model\Cadastros\NotaFiscalModeloDTO.cs" />
+    <Compile Include="Model\Cadastros\NotaFiscalTipoDTO.cs" />
+    <Compile Include="Model\Cadastros\OperadoraPlanoSaudeDTO.cs" />
+    <Compile Include="Model\Cadastros\PaisDTO.cs" />
+    <Compile Include="Model\Cadastros\PessoaContatoDTO.cs" />
+    <Compile Include="Model\Cadastros\PessoaEnderecoDTO.cs" />
+    <Compile Include="Model\Cadastros\RegistroCartorioDTO.cs" />
+    <Compile Include="Model\Cadastros\SetorDTO.cs" />
+    <Compile Include="Model\Cadastros\SindicatoDTO.cs" />
+    <Compile Include="Model\Cadastros\SituacaoColaboradorDTO.cs" />
+    <Compile Include="Model\Cadastros\TipoAdmissaoDTO.cs" />
+    <Compile Include="Model\Cadastros\TipoColaboradorDTO.cs" />
+    <Compile Include="Model\Cadastros\UnidadeProdutoDTO.cs" />
+    <Compile Include="Model\Comissoes\ComissaoObjetivoDTO.cs" />
+    <Compile Include="Model\Comissoes\ComissaoPerfilDTO.cs" />
+    <Compile Include="Model\Compras\CompraCotacaoDetalheDTO.cs" />
+    <Compile Include="Model\Compras\CompraCotacaoDTO.cs" />
+    <Compile Include="Model\Compras\CompraCotacaoPedidoDetalheDTO.cs" />
+    <Compile Include="Model\Compras\CompraFornecedorCotacaoDTO.cs" />
+    <Compile Include="Model\Compras\CompraPedidoDetalheDTO.cs" />
+    <Compile Include="Model\Compras\CompraPedidoDTO.cs" />
+    <Compile Include="Model\Compras\CompraReqCotacaoDetalheDTO.cs" />
+    <Compile Include="Model\Compras\CompraRequisicaoDetalheDTO.cs" />
+    <Compile Include="Model\Compras\CompraRequisicaoDTO.cs" />
+    <Compile Include="Model\Compras\CompraTipoPedidoDTO.cs" />
+    <Compile Include="Model\Compras\CompraTipoRequisicaoDTO.cs" />
+    <Compile Include="Model\Comum\ArquivoDTO.cs" />
+    <Compile Include="Model\Cadastros\AtividadeForCliDTO.cs" />
+    <Compile Include="Model\Cadastros\ClienteDTO.cs" />
+    <Compile Include="Model\Cadastros\ContadorDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\DavCabecalhoDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\DavDetalheDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfImpressoraDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfNotaFiscalCabecalhoDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfR02DTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfR03DTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfSintegra60aDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfSintegra60mDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfVendaCabecalhoDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\EcfVendaDetalheDTO.cs" />
+    <Compile Include="DAL\Comum\EmpresaDAL.cs" />
+    <Compile Include="Model\Comum\EmpresaDTO.cs" />
+    <Compile Include="Model\Comum\EmpresaEnderecoDTO.cs" />
+    <Compile Include="Model\Cadastros\EstadoCivilDTO.cs" />
+    <Compile Include="Model\Contabil\CentroResultadoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilContaDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilDreCabecalhoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilDreDetalheDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilEncerramentoExeCabDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilEncerramentoExeDetDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilFechamentoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilHistoricoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilIndiceDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilIndiceValorDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilLancamentoCabecalhoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilLancamentoDetalheDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilLancamentoOrcadoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilLancamentoPadraoDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilLivroDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilLoteDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilParametroDTO.cs" />
+    <Compile Include="Model\Contabil\ContabilTermoDTO.cs" />
+    <Compile Include="Model\Contabil\ContaCaixaDTO.cs" />
+    <Compile Include="Model\Contabil\ContaContabilRateioDTO.cs" />
+    <Compile Include="Model\Contabil\IndiceEconomicoDTO.cs" />
+    <Compile Include="Model\Contabil\PlanoCentroResultadoDTO.cs" />
+    <Compile Include="Model\Contabil\PlanoContaDTO.cs" />
+    <Compile Include="Model\Contabil\PlanoContaRefSpedDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoHistFaturamentoDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoHistoricoReajusteDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoPrevFaturamentoDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoSolicitacaoServicoDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoTemplateDTO.cs" />
+    <Compile Include="Model\Contratos\ContratoTipoServicoDTO.cs" />
+    <Compile Include="Model\Contratos\TipoContratoDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalEstadualPorteDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalEstadualRegimeDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalInscricoesSubstitutasDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalLivroDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalMunicipalRegimeDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalNotaFiscalEntradaDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalNotaFiscalSaidaDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalParametroDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\FiscalTermoDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\SimplesNacionalCabecalhoDTO.cs" />
+    <Compile Include="Model\EscritaFiscal\SimplesNacionalDetalheDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueCorDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueGradeDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueMarcaDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueReajusteCabecalhoDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueReajusteDetalheDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueSaborDTO.cs" />
+    <Compile Include="Model\Estoque\EstoqueTamanhoDTO.cs" />
+    <Compile Include="Model\Etiquetas\EtiquetaFormatoPapelDTO.cs" />
+    <Compile Include="Model\Etiquetas\EtiquetaLayoutDTO.cs" />
+    <Compile Include="Model\Etiquetas\EtiquetaTemplateDTO.cs" />
+    <Compile Include="Model\Financeiro\ChequeDTO.cs" />
+    <Compile Include="Model\Financeiro\FinChequeEmitidoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinChequeRecebidoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinCobrancaDTO.cs" />
+    <Compile Include="Model\Financeiro\FinCobrancaParcelaReceberDTO.cs" />
+    <Compile Include="Model\Financeiro\FinConfiguracaoBoletoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinDocumentoOrigemDTO.cs" />
+    <Compile Include="Model\Financeiro\FinExtratoContaBancoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinFechamentoCaixaBancoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinLancamentoPagarDTO.cs" />
+    <Compile Include="Model\Financeiro\FinLancamentoReceberDTO.cs" />
+    <Compile Include="Model\Financeiro\FinLctoPagarNtFinanceiraDTO.cs" />
+    <Compile Include="Model\Financeiro\FinLctoReceberNtFinanceiraDTO.cs" />
+    <Compile Include="Model\Financeiro\FinPagamentoFixoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinParcelaPagamentoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinParcelaPagarDTO.cs" />
+    <Compile Include="Model\Financeiro\FinParcelaReceberDTO.cs" />
+    <Compile Include="Model\Financeiro\FinParcelaRecebimentoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinStatusParcelaDTO.cs" />
+    <Compile Include="Model\Financeiro\FinTipoPagamentoDTO.cs" />
+    <Compile Include="Model\Financeiro\FinTipoRecebimentoDTO.cs" />
+    <Compile Include="Model\Financeiro\NaturezaFinanceiraDTO.cs" />
+    <Compile Include="Model\Financeiro\PlanoNaturezaFinanceiraDTO.cs" />
+    <Compile Include="Model\Financeiro\TalonarioChequeDTO.cs" />
+    <Compile Include="Model\Folha\EmpresaTransporteDTO.cs" />
+    <Compile Include="Model\Folha\EmpresaTransporteItinerarioDTO.cs" />
+    <Compile Include="Model\Folha\FolhaAfastamentoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaEventoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaFechamentoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaFeriasColetivasDTO.cs" />
+    <Compile Include="Model\Folha\FolhaHistoricoSalarialDTO.cs" />
+    <Compile Include="Model\Folha\FolhaInssDTO.cs" />
+    <Compile Include="Model\Folha\FolhaInssRetencaoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaInssServicoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaLancamentoCabecalhoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaLancamentoComissaoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaLancamentoDetalheDTO.cs" />
+    <Compile Include="Model\Folha\FolhaParametroDTO.cs" />
+    <Compile Include="Model\Folha\FolhaPlanoSaudeDTO.cs" />
+    <Compile Include="Model\Folha\FolhaPppAtividadeDTO.cs" />
+    <Compile Include="Model\Folha\FolhaPppCatDTO.cs" />
+    <Compile Include="Model\Folha\FolhaPppDTO.cs" />
+    <Compile Include="Model\Folha\FolhaPppExameMedicoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaPppFatorRiscoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaRescisaoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaTipoAfastamentoDTO.cs" />
+    <Compile Include="Model\Folha\FolhaValeTransporteDTO.cs" />
+    <Compile Include="Model\Ged\GedDocumentoCabecalhoDTO.cs" />
+    <Compile Include="Model\Ged\GedDocumentoDetalheDTO.cs" />
+    <Compile Include="Model\Ged\GedTipoDocumentoDTO.cs" />
+    <Compile Include="Model\Ged\GedVersaoDocumentoDTO.cs" />
+    <Compile Include="Model\Inventario\InventarioContagemCabDTO.cs" />
+    <Compile Include="Model\Inventario\InventarioContagemDetDTO.cs" />
+    <Compile Include="Model\NFe\NfeAcessoXmlDTO.cs" />
+    <Compile Include="Model\NFe\NfeCanaDeducoesSafraDTO.cs" />
+    <Compile Include="Model\NFe\NfeCanaDTO.cs" />
+    <Compile Include="Model\NFe\NfeCanaFornecimentoDiarioDTO.cs" />
+    <Compile Include="Model\NFe\NfeConfiguracaoDTO.cs" />
+    <Compile Include="Model\NFe\NfeCteReferenciadoDTO.cs" />
+    <Compile Include="Model\NFe\NfeCupomFiscalReferenciadoDTO.cs" />
+    <Compile Include="Model\NFe\NfeDeclaracaoImportacaoDTO.cs" />
+    <Compile Include="Model\NFe\NfeDestinatarioDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheImpostoCofinsDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheImpostoIcmsDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheImpostoIiDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheImpostoIpiDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheImpostoIssqnDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheImpostoPisDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetEspecificoArmamentoDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetEspecificoCombustivelDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetEspecificoMedicamentoDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetEspecificoVeiculoDTO.cs" />
+    <Compile Include="Model\NFe\NfeDuplicataDTO.cs" />
+    <Compile Include="Model\NFe\NfeEmitenteDTO.cs" />
+    <Compile Include="Model\NFe\NfeExportacaoDTO.cs" />
+    <Compile Include="Model\NFe\NfeFaturaDTO.cs" />
+    <Compile Include="Model\NFe\NfeFormaPagamentoDTO.cs" />
+    <Compile Include="Model\NFe\NfeImportacaoDetalheDTO.cs" />
+    <Compile Include="Model\NFe\NfeLocalEntregaDTO.cs" />
+    <Compile Include="Model\NFe\NfeLocalRetiradaDTO.cs" />
+    <Compile Include="Model\NFe\NfeNfReferenciadaDTO.cs" />
+    <Compile Include="Model\NFe\NfeNumeroDTO.cs" />
+    <Compile Include="Model\NFe\NfeProcessoReferenciadoDTO.cs" />
+    <Compile Include="Model\NFe\NfeProdRuralReferenciadaDTO.cs" />
+    <Compile Include="Model\NFe\NfeReferenciadaDTO.cs" />
+    <Compile Include="Model\NFe\NfeTransporteReboqueDTO.cs" />
+    <Compile Include="Model\NFe\NfeTransporteVolumeDTO.cs" />
+    <Compile Include="Model\NFe\NfeTransporteVolumeLacreDTO.cs" />
+    <Compile Include="Model\Orcamentos\OrcamentoDetalheDTO.cs" />
+    <Compile Include="Model\Orcamentos\OrcamentoEmpresarialDTO.cs" />
+    <Compile Include="Model\Orcamentos\OrcamentoFluxoCaixaDetalheDTO.cs" />
+    <Compile Include="Model\Orcamentos\OrcamentoFluxoCaixaDTO.cs" />
+    <Compile Include="Model\Orcamentos\OrcamentoFluxoCaixaPeriodoDTO.cs" />
+    <Compile Include="Model\Orcamentos\OrcamentoPeriodoDTO.cs" />
+    <Compile Include="Model\OrdemServico\OsAberturaDTO.cs" />
+    <Compile Include="Model\OrdemServico\OsAberturaEquipamentoDTO.cs" />
+    <Compile Include="Model\OrdemServico\OsEquipamentoDTO.cs" />
+    <Compile Include="Model\OrdemServico\OsEvolucaoDTO.cs" />
+    <Compile Include="Model\OrdemServico\OsProdutoServicoDTO.cs" />
+    <Compile Include="Model\OrdemServico\OsStatusDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimApoliceSeguroDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimBemDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimDepreciacaoBemDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimDocumentoBemDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimEstadoConservacaoDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimGrupoBemDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimIndiceAtualizacaoDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimMovimentacaoBemDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimTaxaDepreciacaoDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimTipoAquisicaoBemDTO.cs" />
+    <Compile Include="Model\Patrimonio\PatrimTipoMovimentacaoDTO.cs" />
+    <Compile Include="Model\Patrimonio\SeguradoraDTO.cs" />
+    <Compile Include="Model\Pcp\PcpInstrucaoDTO.cs" />
+    <Compile Include="Model\Pcp\PcpInstrucaoOpDTO.cs" />
+    <Compile Include="Model\Pcp\PcpOpCabecalhoDTO.cs" />
+    <Compile Include="Model\Pcp\PcpOpDetalheDTO.cs" />
+    <Compile Include="Model\Pcp\PcpServicoColaboradorDTO.cs" />
+    <Compile Include="Model\Pcp\PcpServicoDTO.cs" />
+    <Compile Include="Model\Pcp\PcpServicoEquipamentoDTO.cs" />
+    <Compile Include="Model\Ponto\PontoAbonoDTO.cs" />
+    <Compile Include="Model\Ponto\PontoAbonoUtilizacaoDTO.cs" />
+    <Compile Include="Model\Ponto\PontoBancoHorasDTO.cs" />
+    <Compile Include="Model\Ponto\PontoBancoHorasUtilizacaoDTO.cs" />
+    <Compile Include="Model\Ponto\PontoClassificacaoJornadaDTO.cs" />
+    <Compile Include="Model\Ponto\PontoEscalaDTO.cs" />
+    <Compile Include="Model\Ponto\PontoFechamentoJornadaDTO.cs" />
+    <Compile Include="Model\Ponto\PontoHorarioAutorizadoDTO.cs" />
+    <Compile Include="Model\Ponto\PontoHorarioDTO.cs" />
+    <Compile Include="Model\Ponto\PontoMarcacaoDTO.cs" />
+    <Compile Include="Model\Ponto\PontoParametroDTO.cs" />
+    <Compile Include="Model\Ponto\PontoRelogioDTO.cs" />
+    <Compile Include="Model\Ponto\PontoTurmaDTO.cs" />
+    <Compile Include="Model\Sped\FiscalApuracaoIcmsDTO.cs" />
+    <Compile Include="Model\Cadastros\FornecedorDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\PreVendaCabecalhoDTO.cs" />
+    <Compile Include="Model\BalcaoPAF\PreVendaDetalheDTO.cs" />
+    <Compile Include="Model\Cadastros\ProdutoGrupoDTO.cs" />
+    <Compile Include="Model\Cadastros\ProdutoMarcaDTO.cs" />
+    <Compile Include="Model\Cadastros\ProdutoSubGrupoDTO.cs" />
+    <Compile Include="Model\Cadastros\SituacaoForCliDTO.cs" />
+    <Compile Include="Model\Tributacao\TributGrupoTributarioDTO.cs" />
+    <Compile Include="Model\Tributacao\TributIcmsCustomCabDTO.cs" />
+    <Compile Include="Model\Tributacao\ViewTributacaoCofinsDTO.cs" />
+    <Compile Include="Model\Tributacao\ViewTributacaoIcmsDTO.cs" />
+    <Compile Include="Model\Tributacao\ViewTributacaoPisDTO.cs" />
+    <Compile Include="Model\Vendas\VendaCabecalhoDTO.cs" />
+    <Compile Include="Model\Sintegra\ViewSintegra60dDTO.cs" />
+    <Compile Include="Model\Sintegra\ViewSintegra60rDTO.cs" />
+    <Compile Include="Model\Sintegra\ViewSintegra61rDTO.cs" />
+    <Compile Include="Model\Vendas\VendaComissaoDTO.cs" />
+    <Compile Include="Model\Vendas\VendaCondicoesPagamentoDTO.cs" />
+    <Compile Include="Model\Vendas\VendaCondicoesParcelasDTO.cs" />
+    <Compile Include="Model\Vendas\VendaDetalheDTO.cs" />
+    <Compile Include="Model\Vendas\VendaFreteDTO.cs" />
+    <Compile Include="Model\Vendas\VendaOrcamentoCabecalhoDTO.cs" />
+    <Compile Include="Model\Vendas\VendaOrcamentoDetalheDTO.cs" />
+    <Compile Include="Model\Vendas\VendaRomaneioEntregaDTO.cs" />
+    <Compile Include="Model\Vendas\VendedorDTO.cs" />
+    <Compile Include="Model\WMS\WmsAgendamentoDTO.cs" />
+    <Compile Include="Model\WMS\WmsArmazenamentoDTO.cs" />
+    <Compile Include="Model\WMS\WmsCaixaDTO.cs" />
+    <Compile Include="Model\WMS\WmsEstanteDTO.cs" />
+    <Compile Include="Model\WMS\WmsExpedicaoDTO.cs" />
+    <Compile Include="Model\WMS\WmsOrdemSeparacaoCabDTO.cs" />
+    <Compile Include="Model\WMS\WmsOrdemSeparacaoDetDTO.cs" />
+    <Compile Include="Model\WMS\WmsParametroDTO.cs" />
+    <Compile Include="Model\WMS\WmsRecebimentoCabecalhoDTO.cs" />
+    <Compile Include="Model\WMS\WmsRecebimentoDetalheDTO.cs" />
+    <Compile Include="Model\WMS\WmsRuaDTO.cs" />
+    <Compile Include="NHibernate\IDAL.cs" />
+    <Compile Include="Model\NFe\NfeCabecalhoDTO.cs" />
+    <Compile Include="Model\NFe\NfeDetalheDTO.cs" />
+    <Compile Include="Model\NFe\NfeTransporteDTO.cs" />
+    <Compile Include="NHibernate\NHibernateDAL.cs" />
+    <Compile Include="Model\Cadastros\PessoaDTO.cs" />
+    <Compile Include="Model\Cadastros\PessoaFisicaDTO.cs" />
+    <Compile Include="Model\Cadastros\PessoaJuridicaDTO.cs" />
+    <Compile Include="Model\Sped\ProdutoAlteracaoItemDTO.cs" />
+    <Compile Include="Model\Cadastros\ProdutoDTO.cs" />
+    <Compile Include="DAL\Sped\SpedContabilDAL.cs" />
+    <Compile Include="DAL\Sped\SpedFiscalDAL.cs" />
+    <Compile Include="Model\Cadastros\TransportadoraDTO.cs" />
+    <Compile Include="Model\Tributacao\TributOperacaoFiscalDTO.cs" />
+    <Compile Include="Model\Sped\UnidadeConversaoDTO.cs" />
+    <Compile Include="DAL\Comum\UsuarioDAL.cs" />
+    <Compile Include="Model\Comum\UsuarioDTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC190DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC300DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC321DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC370DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC390DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC425DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedC490DTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedNfeDestinatarioDTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedNfeDetalheDTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedNfeEmitenteDTO.cs" />
+    <Compile Include="Model\Sped\ViewSpedNfeItemDTO.cs" />
+    <Compile Include="NHibernate\NHibernateHelper.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Bloco0.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0000.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0100.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0110.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0140.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0150.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0190.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0200.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0205.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0400.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0450.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0500.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0600.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco0\Registro0990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco1\Bloco1.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco1\Registro1001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\Bloco1\Registro1990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bloco9\Bloco9.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bloco9\Registro9001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bloco9\Registro9900.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bloco9\Registro9990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bloco9\Registro9999.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoA\BlocoA.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoA\RegistroA001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoA\RegistroA990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\BlocoC.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC010.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC100.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC110.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC170.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC380.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC400.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC405.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC481.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC485.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoC\RegistroC990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoD\BlocoD.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoD\RegistroD001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoD\RegistroD990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoF\BlocoF.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoF\RegistroF001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoF\RegistroF990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoI\BlocoI.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoI\RegistroI001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoI\RegistroI990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoM\BlocoM.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoM\RegistroM001.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\BlocoM\RegistroM990.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\SpedContribuicoes.cs" />
+    <Compile Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\SpedUtil.cs" />
+    <Compile Include="Servidor.svc.cs">
+      <DependentUpon>Servidor.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IServidor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Biblioteca.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Model\CTe\" />
+    <Folder Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Release\" />
+    <Folder Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes.v12.suo" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\App.config" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Debug\ProjetoComponenteSpedContribuicoes.exe.config" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Debug\ProjetoComponenteSpedContribuicoes.vshost.exe.config" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\bin\Debug\ProjetoComponenteSpedContribuicoes.vshost.exe.manifest" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="ProjetoComponenteSpedContribuicoes\ProjetoComponenteSpedContribuicoes\obj\Debug\ProjetoComponenteSpedContribuicoes.csprojResolveAssemblyReference.cache" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50308</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2666/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

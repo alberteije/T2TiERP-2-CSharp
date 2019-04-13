@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/14/2016 03:42:16" ReportInfo.Modified="09/14/2016 03:44:20" ReportInfo.CreatorVersion="2016.4.2.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+  }
+}
+/*procedure ReportTitle1OnBeforePrint(Sender: TfrxComponent);
+begin
+  ReportTitle1.Visible := &lt;Parametros.&quot;LogoCarregado&quot;&gt; &lt;&gt; '';
+end;
+
+procedure ValorTributosOnBeforePrint(Sender: TfrxComponent);
+begin
+  ValorTributos.Visible := &lt;CalculoImposto.&quot;VTotTrib&quot;&gt; &gt; 0;
+end;
+
+begin
+
+end.
+*/</ScriptText>
+  <Dictionary/>
+  <ReportPage Name="Page1" PaperWidth="72" PaperHeight="72" LeftMargin="0" TopMargin="0.5" RightMargin="0" BottomMargin="0">
+    <ReportTitleBand Name="ReportTitle1" Width="272.16" Height="79.37" CanGrow="true" CanShrink="true">
+      <PictureObject Name="ImgLogo" Left="7.56" Top="5.68" Width="86.93" Height="64.25" Fill.Color="White" SizeMode="StretchImage" ImageLocation="C:\T2Ti\Imagens\logo.png" DataColumn="Parametros.LogoCarregado"/>
+      <TextObject Name="MemoSuperior" Left="98.27" Top="3.78" Width="166.3" Height="18.9" Border.Lines="Top" Text="[XEmitente]" Padding="2, 1, 2, 1" HorzAlign="Center"/>
+      <TextObject Name="Memo1" Left="98.27" Top="30.24" Width="166.3" Height="41.57" Border.Lines="Bottom" Text="Caixa de Embarque" Padding="2, 1, 2, 1" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="83.37" Width="272.16" Height="270.57">
+      <TextObject Name="Memo9" Left="7.56" Top="4.24" Width="257.01" Height="22.68" Border.Lines="All" Border.Width="0.5" ShiftMode="WhenOverlapped" Text="Descrição: [XDescricao]" Padding="2, 1, 2, 1" HorzAlign="Center" VertAlign="Center" Font="Arial, 7pt, style=Bold"/>
+      <TextObject Name="Memo37" Left="7.56" Top="75.59" Width="128.5" Height="30.24" Border.Lines="All" Border.Width="0.5" ShiftMode="WhenOverlapped" Text="CONTENT/Conteúdo&#13;&#10;[XConteudo]" Padding="2, 1, 2, 1" HorzAlign="Center" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Memo2" Left="7.56" Top="30.24" Width="257.01" Height="41.57" Border.Lines="All" Border.Width="0.5" ShiftMode="WhenOverlapped" Text="SSCC - Código de Série de Unidade Logística&#13;&#10;[XSSCC]" Padding="2, 1, 2, 1" HorzAlign="Center" VertAlign="Center" Font="Arial, 7pt, style=Bold"/>
+      <TextObject Name="Memo3" Left="136.06" Top="75.59" Width="128.5" Height="30.24" Border.Lines="All" Border.Width="0.5" ShiftMode="WhenOverlapped" Text="COUNT/Quantidade&#13;&#10;[XQuantidade]" Padding="2, 1, 2, 1" HorzAlign="Center" VertAlign="Center" Font="Arial, 7pt"/>
+      <BarcodeObject Name="BarCode1" Left="13.23" Top="124.72" Width="277" Height="133.04" Expression="XCodigo" Text="53160310793118000178550010004570861004570860" Zoom="0.8" Barcode="Code128" Barcode.CalcCheckSum="false" Barcode.AutoEncode="true"/>
+    </PageHeaderBand>
+  </ReportPage>
+</Report>

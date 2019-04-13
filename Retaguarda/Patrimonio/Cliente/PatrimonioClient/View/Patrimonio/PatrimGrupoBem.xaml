@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PatrimonioClient.View.Patrimonio.PatrimGrupoBem" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <Label Content="Cód." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimGrupoBemSelected.Nome}" Height="23" Width="382" Margin="47,25,0,0"  />
+			<Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="47,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimGrupoBemSelected.Descricao}" Height="100" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="423" Margin="6,167,0,0"  />
+			<Label Content="Descricao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,148,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimGrupoBemSelected.ContaAtivoImobilizado}" Height="23" Width="200" Margin="6,73,0,0"  />
+			<Label Content="Cta. Ativo Imobilizado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimGrupoBemSelected.ContaDepreciacaoAcumulada}" Height="23" Width="217" Margin="212,73,0,0"  />
+			<Label Content="Cta. Depreciação Acumulada" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="212,54,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimGrupoBemSelected.ContaDespesaDepreciacao}" Height="23" Width="200" Margin="6,121,0,0"  />
+			<Label Content="Cta. Despesa Depreciação" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimGrupoBemSelected.CodigoHistorico}" Height="23" Width="217" Margin="212,121,0,0"  />
+			<Label Content="Cód. Histórico" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="212,102,0,0"  />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,25,0,0" Text="{Binding PatrimGrupoBemSelected.Codigo}" VerticalAlignment="Top" Width="33" MaxLength="3" />
+        </Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,149 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\ConciliacaoContabilClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\ConciliacaoContabilClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\ConciliacaoContabilClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ConciliacaoContabilPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ConciliacaoContabilPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixa.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Cliente.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClienteLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClientePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Fornecedor.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClienteLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClientePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixa.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Cliente.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClienteLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClientePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Fornecedor.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClienteLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClientePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoContabilClient\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\ConciliacaoContabilClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\ConciliacaoContabilClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\ConciliacaoContabilClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ConciliacaoContabilPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ConciliacaoContabilPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixa.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Cliente.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClienteLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClientePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Fornecedor.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClienteLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClientePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContabilLancamentoDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixa.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ContaCaixaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Cliente.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClienteLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ClientePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\Fornecedor.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FornecedorPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaFornecedorPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClienteLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\ViewConciliaClientePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\LancamentoConciliadoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\View\ConciliacaoContabil\FinExtratoContaBancoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\ConciliacaoContabilClient.csproj.GenerateResource.Cache

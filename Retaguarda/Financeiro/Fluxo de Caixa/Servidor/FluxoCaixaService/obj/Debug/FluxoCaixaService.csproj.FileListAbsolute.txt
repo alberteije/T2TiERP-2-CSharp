@@ -1,0 +1,28 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\FluxoCaixaService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\FluxoCaixaService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\obj\Debug\FluxoCaixaService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaService\FluxoCaixaService\obj\Debug\FluxoCaixaService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\FluxoCaixaService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\FluxoCaixaService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\obj\Debug\FluxoCaixaService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaService\FluxoCaixaService\obj\Debug\FluxoCaixaService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\bin\FluxoCaixaService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\bin\FluxoCaixaService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\bin\FluxoCaixaService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\obj\Debug\FluxoCaixaService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\obj\Debug\FluxoCaixaService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Servidor\FluxoCaixaService\obj\Debug\FluxoCaixaService.pdb

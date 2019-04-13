@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasReceberClient.View.ContasReceber.NaturezaFinanceira" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding NaturezaFinanceiraSelected.PlanoNaturezaFinanceira.Id}" Height="23" Width="657" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPlanoNaturezaFinanceira" Click="btPesquisarPlanoNaturezaFinanceira_Click" Margin="664,25,0,0"  />
+			<Label Content="Plano Natureza Financeira" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding NaturezaFinanceiraSelected.ContabilConta.Id}" Height="23" Width="657" Margin="6,72,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContabilConta" Click="btPesquisarContabilConta_Click" Margin="664,72,0,0"  />
+            <Label Content="Conta Contabil" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,53,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding NaturezaFinanceiraSelected.Classificacao}" Height="23" Width="289" Margin="405,121,0,0"  />
+			<Label Content="Classificacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="405,102,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding NaturezaFinanceiraSelected.Descricao}" Height="23" Width="393" Margin="6,121,0,0"  />
+			<Label Content="Descricao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding NaturezaFinanceiraSelected.Tipo}" SelectedValuePath="Tag" Margin="6,219,0,0" >
+				<ComboBoxItem Content="Receita" Tag="R" />
+				<ComboBoxItem Content="Despesa" Tag="D" />
+			</ComboBox>
+			<Label Content="Tipo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,200,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding NaturezaFinanceiraSelected.Aplicacao}" Height="23" Width="688" Margin="6,168,0,0"  />
+			<Label Content="Aplicacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,149,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="143" SelectedValue="{Binding NaturezaFinanceiraSelected.ApareceAPagar}" SelectedValuePath="Tag" Margin="112,219,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Aparece no Contas a Pagar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,200,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="153" SelectedValue="{Binding NaturezaFinanceiraSelected.ApareceAReceber}" SelectedValuePath="Tag" Margin="261,219,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Aparece no Contas a Receber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="261,200,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetalheImpostoIssqnDTO" table="nfe_detalhe_imposto_issqn" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="BaseCalculoIssqn" column="BASE_CALCULO_ISSQN" />
+    <property name="AliquotaIssqn" column="ALIQUOTA_ISSQN" />
+    <property name="ValorIssqn" column="VALOR_ISSQN" />
+    <property name="MunicipioIssqn" column="MUNICIPIO_ISSQN" />
+    <property name="ItemListaServicos" column="ITEM_LISTA_SERVICOS" />
+    <property name="ValorDeducao" column="VALOR_DEDUCAO" />
+    <property name="ValorOutrasRetencoes" column="VALOR_OUTRAS_RETENCOES" />
+    <property name="ValorDescontoIncondicionado" column="VALOR_DESCONTO_INCONDICIONADO" />
+    <property name="ValorDescontoCondicionado" column="VALOR_DESCONTO_CONDICIONADO" />
+    <property name="ValorRetencaoIss" column="VALOR_RETENCAO_ISS" />
+    <property name="IndicadorExigibilidadeIss" column="INDICADOR_EXIGIBILIDADE_ISS" />
+    <property name="CodigoServico" column="CODIGO_SERVICO" />
+    <property name="MunicipioIncidencia" column="MUNICIPIO_INCIDENCIA" />
+    <property name="PaisSevicoPrestado" column="PAIS_SEVICO_PRESTADO" />
+    <property name="NumeroProcesso" column="NUMERO_PROCESSO" />
+    <property name="IndicadorIncentivoFiscal" column="INDICADOR_INCENTIVO_FISCAL" />
+  </class>
+</hibernate-mapping>

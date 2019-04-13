@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfceConfiguracaoDTO" table="nfce_configuracao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+
+    <many-to-one name="NfceResolucao" column="ID_NFCE_RESOLUCAO" />
+    <many-to-one name="NfceCaixa" column="ID_NFCE_CAIXA" />
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <one-to-one name="NfceConfiguracaoBalanca" class="NfceConfiguracaoBalancaDTO" />
+    <one-to-one name="NfceConfiguracaoLeitorSer" class="NfceConfiguracaoLeitorSerDTO" />
+
+    <property name="MensagemCupom" column="MENSAGEM_CUPOM" />
+    <property name="TituloTelaCaixa" column="TITULO_TELA_CAIXA" />
+    <property name="CaminhoImagensProdutos" column="CAMINHO_IMAGENS_PRODUTOS" />
+    <property name="CaminhoImagensMarketing" column="CAMINHO_IMAGENS_MARKETING" />
+    <property name="CaminhoImagensLayout" column="CAMINHO_IMAGENS_LAYOUT" />
+    <property name="CorJanelasInternas" column="COR_JANELAS_INTERNAS" />
+    <property name="MarketingAtivo" column="MARKETING_ATIVO" />
+    <property name="Cfop" column="CFOP" />
+    <property name="DecimaisQuantidade" column="DECIMAIS_QUANTIDADE" />
+    <property name="DecimaisValor" column="DECIMAIS_VALOR" />
+    <property name="QuantidadeMaximaParcela" column="QUANTIDADE_MAXIMA_PARCELA" />
+    <property name="ImprimeParcela" column="IMPRIME_PARCELA" />
+  </class>
+</hibernate-mapping>

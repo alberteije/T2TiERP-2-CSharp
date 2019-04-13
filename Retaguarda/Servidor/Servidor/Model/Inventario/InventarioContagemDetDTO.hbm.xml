@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="InventarioContagemDetDTO" table="inventario_contagem_det" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="IdInventarioContagemCab" column="ID_INVENTARIO_CONTAGEM_CAB" />
+    <property name="Contagem01" column="CONTAGEM01" />
+    <property name="Contagem02" column="CONTAGEM02" />
+    <property name="Contagem03" column="CONTAGEM03" />
+    <property name="FechadoContagem" column="FECHADO_CONTAGEM" />
+    <property name="QuantidadeSistema" column="QUANTIDADE_SISTEMA" />
+    <property name="Acuracidade" column="ACURACIDADE" />
+    <property name="Divergencia" column="DIVERGENCIA" />
+  </class>
+</hibernate-mapping>

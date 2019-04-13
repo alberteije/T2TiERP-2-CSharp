@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaHistoricoSalarialDTO" table="folha_historico_salarial" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="Competencia" column="COMPETENCIA" />
+    <property name="SalarioAtual" column="SALARIO_ATUAL" />
+    <property name="PercentualAumento" column="PERCENTUAL_AUMENTO" />
+    <property name="SalarioNovo" column="SALARIO_NOVO" />
+    <property name="ValidoAPartir" column="VALIDO_A_PARTIR" />
+    <property name="Motivo" column="MOTIVO" />
+  </class>
+</hibernate-mapping>

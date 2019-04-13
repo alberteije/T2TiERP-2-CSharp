@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EtiquetaFormatoPapelDTO" table="etiqueta_formato_papel" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="Altura" column="ALTURA" />
+    <property name="Largura" column="LARGURA" />
+  </class>
+</hibernate-mapping>

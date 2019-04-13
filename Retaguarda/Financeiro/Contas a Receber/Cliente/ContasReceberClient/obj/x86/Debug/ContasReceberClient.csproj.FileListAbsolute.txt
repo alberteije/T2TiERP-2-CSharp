@@ -1,0 +1,283 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoRecebimentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\RecebimentoParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoRecebimentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\RecebimentoParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoRecebimentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\DocumentoOrigemIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\RecebimentoParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\StatusParcelaIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoReceberExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\TipoRecebimentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\LancamentoReceberIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\RecebimentoParcelaIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberClient\ContasReceberClient\bin\Debug\Boleto.Net.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\ContasReceberClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\Boleto.Net.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\Boleto.Net.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceira.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceira.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceira.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceira.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcela.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcela.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoleto.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoleto.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceira.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceber.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceber.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceira.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceber.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceber.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceber.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceber.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\ContasReceberClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\EdiPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberClient\ContasReceberClient\obj\x86\Debug\View\ContasReceber\EdiPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\ContasReceberClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\ContasReceberClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\ContasReceberClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\Boleto.Net.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\Boleto.Net.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoleto.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceira.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceber.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcela.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceira.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceira.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\EdiPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoleto.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceber.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceira.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceber.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcela.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceira.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceira.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\EdiPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceber.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ContasReceberPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinConfiguracaoBoletoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceber.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLancamentoReceberPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinLctoReceberNtFinanceiraPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaRecebimentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinParcelaReceberPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinStatusParcelaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\FinTipoRecebimentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\NaturezaFinanceiraPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\PlanoNaturezaFinanceiraPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceber.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ContasReceber\ViewFinLancamentoReceberPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Cliente\ContasReceberClient\obj\x86\Debug\ContasReceberClient.csproj.GenerateResource.Cache

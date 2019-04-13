@@ -1,0 +1,142 @@
+﻿<UserControl x:Class="NFe.View.NFeTransporte"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"                          
+             xmlns:local="clr-namespace:NFe.View"             
+             xmlns:util="clr-namespace:NFe.Util"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+    </UserControl.Resources>
+    <DockPanel LastChildFill="false">
+        <GroupBox Header="" DockPanel.Dock="Top" Height="600">
+            <DockPanel>
+                <TabControl>
+                    <TabItem Header="Aéreo">
+                        <Grid>
+                            <DockPanel LastChildFill="True">
+                                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                    <Button Name="btInserirItem" ToolTip="Inserir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Inserir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                    <Button Name="btExcluirItem" ToolTip="Excluir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Excluir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </StackPanel>
+                                <DataGrid Name="dataGridItens" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpOpDetalhe}" SelectedItem="{Binding PcpOpDetalheSelected}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Número Minuta" Binding="{Binding Path=Nome}"  />
+                                        <DataGridTextColumn Header="Número Conhecimento" Binding="{Binding Path=QuantidadeProduzir}"  />
+                                        <DataGridTextColumn Header="Tarifa Classe" Binding="{Binding Path=QuantidadeProduzida}"  />
+                                        <DataGridTextColumn Header="Tarifa Código" Binding="{Binding Path=QuantidadeEntregue}"  />
+                                        <DataGridTextColumn Header="Carga Dimensão" Binding="{Binding Path=CustoPrevisto}"  />
+                                        <DataGridTextColumn Header="Carga Especial" Binding="{Binding Path=CustoRealizado}"  />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </DockPanel>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="Rodoviário">
+                        <Grid>
+                            <DockPanel LastChildFill="True">
+                                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                    <Button Name="btInserirItem1" ToolTip="Inserir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Inserir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                    <Button Name="btExcluirItem1" ToolTip="Excluir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Excluir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </StackPanel>
+                                <DataGrid Name="dataGridItens1" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpOpDetalhe}" SelectedItem="{Binding PcpOpDetalheSelected}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="RNTRC" Binding="{Binding Path=Nome}"  />
+                                        <DataGridTextColumn Header="Data Prevista Entrega" Binding="{Binding Path=QuantidadeProduzir}"  />
+                                        <DataGridTextColumn Header="Indicador Lotação" Binding="{Binding Path=QuantidadeProduzida}"  />
+                                        <DataGridTextColumn Header="CIOT" Binding="{Binding Path=QuantidadeEntregue}"  />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </DockPanel>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="Aquaviário">
+                        <Grid>
+                            <DockPanel LastChildFill="True">
+                                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                    <Button Name="btInserirItem2" ToolTip="Inserir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Inserir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                    <Button Name="btExcluirItem2" ToolTip="Excluir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Excluir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </StackPanel>
+                                <DataGrid Name="dataGridItens2" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpOpDetalhe}" SelectedItem="{Binding PcpOpDetalheSelected}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="AFRMM" Binding="{Binding Path=Nome}"  />
+                                        <DataGridTextColumn Header="Número Booking" Binding="{Binding Path=QuantidadeProduzir}"  />
+                                        <DataGridTextColumn Header="Número Controle" Binding="{Binding Path=QuantidadeProduzida}"  />
+                                        <DataGridTextColumn Header="Valor Prestação" Binding="{Binding Path=QuantidadeEntregue}"  />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </DockPanel>
+                        </Grid>
+                    </TabItem>
+                    <TabItem Header="Ferroviário">
+                        <Grid>
+                            <DockPanel LastChildFill="True">
+                                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                    <Button Name="btInserirItem3" ToolTip="Inserir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Inserir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                    <Button Name="btExcluirItem3" ToolTip="Excluir Item" >
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                            <TextBlock Margin="3,1,0,0">Excluir Item</TextBlock>
+                                        </StackPanel>
+                                    </Button>
+                                </StackPanel>
+                                <DataGrid Name="dataGridItens3" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpOpDetalhe}" SelectedItem="{Binding PcpOpDetalheSelected}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Tipo Tráfego" Binding="{Binding Path=Nome}"  />
+                                        <DataGridTextColumn Header="Responsável Faturamento" Binding="{Binding Path=QuantidadeProduzir}"  />
+                                        <DataGridTextColumn Header="Fluxo" Binding="{Binding Path=QuantidadeProduzida}"  />
+                                        <DataGridTextColumn Header="Valor Frete" Binding="{Binding Path=QuantidadeEntregue}"  />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </DockPanel>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </DockPanel>
+        </GroupBox>
+        
+       
+    </DockPanel>
+
+
+</UserControl>

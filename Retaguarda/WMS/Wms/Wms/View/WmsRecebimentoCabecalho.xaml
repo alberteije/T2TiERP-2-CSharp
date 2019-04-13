@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class=".WmsRecebimentoCabecalho" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:SISGMF.View.Botoes" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Top" Grid.Column="0">
+				<viewBotoes:BarraInterna></viewBotoes:BarraInterna>
+			</StackPanel>
+			<Grid>
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding WmsRecebimentoCabecalhoSelected.Id}" Height="23" Width="100" Margin="6,25,0,0"  />
+				<Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding WmsRecebimentoCabecalhoSelected..Id}" Height="23" Width="68" Margin="112,25,0,0"  />
+				<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisar" Click="btPesquisar_Click" Margin="180,25,0,0"  />
+				<Label Content="IdWmsAgendamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+				<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding WmsRecebimentoCabecalhoSelected.DataRecebimento}" Margin="218,25,0,0"  />
+				<Label Content="DataRecebimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding WmsRecebimentoCabecalhoSelected.HoraInicio}" Height="23" Width="100" Margin="324,25,0,0"  />
+				<Label Content="HoraInicio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding WmsRecebimentoCabecalhoSelected.HoraFim}" Height="23" Width="100" Margin="430,25,0,0"  />
+				<Label Content="HoraFim" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding WmsRecebimentoCabecalhoSelected.VolumeRecebido}" Height="23" Width="100" Margin="536,25,0,0"  />
+				<Label Content="VolumeRecebido" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,6,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding WmsRecebimentoCabecalhoSelected.PesoRecebido}" Height="23" Width="100" Margin="6,73,0,0"  />
+				<Label Content="PesoRecebido" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+				<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding WmsRecebimentoCabecalhoSelected.Inconsistencia}" SelectedValuePath="Tag" Margin="112,73,0,0" >
+					<ComboBoxItem Content="Sim" Tag="S" />
+					<ComboBoxItem Content="Não" Tag="N" />
+				</ComboBox>
+				<Label Content="Inconsistencia" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+				<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding WmsRecebimentoCabecalhoSelected.Observacao}" Height="23" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="100" Margin="218,73,0,0"  />
+				<Label Content="Observacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+			</Grid>
+		</DockPanel>
+	</Grid>
+</UserControl>

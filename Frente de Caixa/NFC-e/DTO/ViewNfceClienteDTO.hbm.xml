@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewNfceClienteDTO" table="view_nfce_cliente" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdOperacaoFiscal" column="ID_OPERACAO_FISCAL" />
+    <property name="Nome" column="NOME" />
+    <property name="Email" column="EMAIL" />
+    <property name="Cpf" column="CPF" />
+    <property name="Rg" column="RG" />
+    <property name="OrgaoRg" column="ORGAO_RG" />
+    <property name="DataEmissaoRg" column="DATA_EMISSAO_RG" />
+    <property name="Sexo" column="SEXO" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="IdPessoa" column="ID_PESSOA" />
+    <property name="IdAtividadeForCli" column="ID_ATIVIDADE_FOR_CLI" />
+    <property name="IdSituacaoForCli" column="ID_SITUACAO_FOR_CLI" />
+    <property name="Desde" column="DESDE" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="Cidade" column="CIDADE" />
+    <property name="Cep" column="CEP" />
+    <property name="MunicipioIbge" column="MUNICIPIO_IBGE" />
+    <property name="Uf" column="UF" />
+    <property name="Fone" column="FONE" />
+  </class>
+</hibernate-mapping>

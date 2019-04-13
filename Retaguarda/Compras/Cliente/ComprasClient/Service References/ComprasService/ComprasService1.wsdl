@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ComprasService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2661/ComprasService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2661/ComprasService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2661/ComprasService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ComprasService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IComprasService_deleteCompraTipoRequisicao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCompraTipoRequisicao" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCompraTipoRequisicao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCompraTipoRequisicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_salvarAtualizarCompraTipoRequisicao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCompraTipoRequisicao" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_salvarAtualizarCompraTipoRequisicao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCompraTipoRequisicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoRequisicao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoRequisicao" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoRequisicao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoRequisicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoRequisicaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoRequisicaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoRequisicaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoRequisicaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCompraTipoPedido_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCompraTipoPedido" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCompraTipoPedido_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCompraTipoPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_salvarAtualizarCompraTipoPedido_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCompraTipoPedido" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_salvarAtualizarCompraTipoPedido_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCompraTipoPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoPedido_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoPedido" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoPedido_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoPedidoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoPedidoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraTipoPedidoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraTipoPedidoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCompraRequisicao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCompraRequisicao" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCompraRequisicao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCompraRequisicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_salvarAtualizarCompraRequisicao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCompraRequisicao" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_salvarAtualizarCompraRequisicao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarCompraRequisicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraRequisicao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraRequisicao" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraRequisicao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraRequisicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraRequisicaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraRequisicaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraRequisicaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraRequisicaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCotacaoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCotacaoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCotacaoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCotacaoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_saveCotacaoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:saveCotacaoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_saveCotacaoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:saveCotacaoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_updateCotacaoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateCotacaoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_updateCotacaoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateCotacaoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCotacaoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCotacaoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deleteCotacaoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteCotacaoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCotacaoCompraId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCotacaoCompraId" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCotacaoCompraId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCotacaoCompraIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraRequisicaoDetalhe_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraRequisicaoDetalhe" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectCompraRequisicaoDetalhe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectCompraRequisicaoDetalheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_savePedidoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:savePedidoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_savePedidoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:savePedidoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_updatePedidoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:updatePedidoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_updatePedidoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updatePedidoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deletePedidoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePedidoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_deletePedidoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePedidoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectPedidoCompra_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPedidoCompra" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectPedidoCompra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPedidoCompraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectPedidoCompraId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPedidoCompraId" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectPedidoCompraId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPedidoCompraIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectContabilConta_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilConta" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectContabilConta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectContabilContaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectContabilContaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilContaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectColaboradorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectColaboradorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectProduto" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectProdutoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectProdutoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectProdutoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectViewPessoaFornecedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPessoaFornecedor" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectViewPessoaFornecedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPessoaFornecedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectViewPessoaFornecedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPessoaFornecedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IComprasService_selectViewPessoaFornecedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPessoaFornecedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IComprasService">
+    <wsdl:operation name="deleteCompraTipoRequisicao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/deleteCompraTipoRequisicao" message="tns:IComprasService_deleteCompraTipoRequisicao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/deleteCompraTipoRequisicaoResponse" message="tns:IComprasService_deleteCompraTipoRequisicao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCompraTipoRequisicao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/salvarAtualizarCompraTipoRequisicao" message="tns:IComprasService_salvarAtualizarCompraTipoRequisicao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/salvarAtualizarCompraTipoRequisicaoResponse" message="tns:IComprasService_salvarAtualizarCompraTipoRequisicao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoRequisicao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoRequisicao" message="tns:IComprasService_selectCompraTipoRequisicao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoRequisicaoResponse" message="tns:IComprasService_selectCompraTipoRequisicao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoRequisicaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoRequisicaoPagina" message="tns:IComprasService_selectCompraTipoRequisicaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoRequisicaoPaginaResponse" message="tns:IComprasService_selectCompraTipoRequisicaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCompraTipoPedido">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/deleteCompraTipoPedido" message="tns:IComprasService_deleteCompraTipoPedido_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/deleteCompraTipoPedidoResponse" message="tns:IComprasService_deleteCompraTipoPedido_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCompraTipoPedido">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/salvarAtualizarCompraTipoPedido" message="tns:IComprasService_salvarAtualizarCompraTipoPedido_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/salvarAtualizarCompraTipoPedidoResponse" message="tns:IComprasService_salvarAtualizarCompraTipoPedido_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoPedido">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoPedido" message="tns:IComprasService_selectCompraTipoPedido_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoPedidoResponse" message="tns:IComprasService_selectCompraTipoPedido_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoPedidoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoPedidoPagina" message="tns:IComprasService_selectCompraTipoPedidoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraTipoPedidoPaginaResponse" message="tns:IComprasService_selectCompraTipoPedidoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCompraRequisicao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/deleteCompraRequisicao" message="tns:IComprasService_deleteCompraRequisicao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/deleteCompraRequisicaoResponse" message="tns:IComprasService_deleteCompraRequisicao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCompraRequisicao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/salvarAtualizarCompraRequisicao" message="tns:IComprasService_salvarAtualizarCompraRequisicao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/salvarAtualizarCompraRequisicaoResponse" message="tns:IComprasService_salvarAtualizarCompraRequisicao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraRequisicao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraRequisicao" message="tns:IComprasService_selectCompraRequisicao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraRequisicaoResponse" message="tns:IComprasService_selectCompraRequisicao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraRequisicaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraRequisicaoPagina" message="tns:IComprasService_selectCompraRequisicaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraRequisicaoPaginaResponse" message="tns:IComprasService_selectCompraRequisicaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCotacaoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCotacaoCompra" message="tns:IComprasService_selectCotacaoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCotacaoCompraResponse" message="tns:IComprasService_selectCotacaoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="saveCotacaoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/saveCotacaoCompra" message="tns:IComprasService_saveCotacaoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/saveCotacaoCompraResponse" message="tns:IComprasService_saveCotacaoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateCotacaoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/updateCotacaoCompra" message="tns:IComprasService_updateCotacaoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/updateCotacaoCompraResponse" message="tns:IComprasService_updateCotacaoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCotacaoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/deleteCotacaoCompra" message="tns:IComprasService_deleteCotacaoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/deleteCotacaoCompraResponse" message="tns:IComprasService_deleteCotacaoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCotacaoCompraId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCotacaoCompraId" message="tns:IComprasService_selectCotacaoCompraId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCotacaoCompraIdResponse" message="tns:IComprasService_selectCotacaoCompraId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraRequisicaoDetalhe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectCompraRequisicaoDetalhe" message="tns:IComprasService_selectCompraRequisicaoDetalhe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectCompraRequisicaoDetalheResponse" message="tns:IComprasService_selectCompraRequisicaoDetalhe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="savePedidoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/savePedidoCompra" message="tns:IComprasService_savePedidoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/savePedidoCompraResponse" message="tns:IComprasService_savePedidoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updatePedidoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/updatePedidoCompra" message="tns:IComprasService_updatePedidoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/updatePedidoCompraResponse" message="tns:IComprasService_updatePedidoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePedidoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/deletePedidoCompra" message="tns:IComprasService_deletePedidoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/deletePedidoCompraResponse" message="tns:IComprasService_deletePedidoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPedidoCompra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectPedidoCompra" message="tns:IComprasService_selectPedidoCompra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectPedidoCompraResponse" message="tns:IComprasService_selectPedidoCompra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPedidoCompraId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectPedidoCompraId" message="tns:IComprasService_selectPedidoCompraId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectPedidoCompraIdResponse" message="tns:IComprasService_selectPedidoCompraId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilConta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectContabilConta" message="tns:IComprasService_selectContabilConta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectContabilContaResponse" message="tns:IComprasService_selectContabilConta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilContaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectContabilContaPagina" message="tns:IComprasService_selectContabilContaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectContabilContaPaginaResponse" message="tns:IComprasService_selectContabilContaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectUsuario" message="tns:IComprasService_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectUsuarioResponse" message="tns:IComprasService_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectControleAcesso" message="tns:IComprasService_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectControleAcessoResponse" message="tns:IComprasService_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectColaborador" message="tns:IComprasService_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectColaboradorResponse" message="tns:IComprasService_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectColaboradorPagina" message="tns:IComprasService_selectColaboradorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectColaboradorPaginaResponse" message="tns:IComprasService_selectColaboradorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectProduto" message="tns:IComprasService_selectProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectProdutoResponse" message="tns:IComprasService_selectProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectProdutoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectProdutoPagina" message="tns:IComprasService_selectProdutoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectProdutoPaginaResponse" message="tns:IComprasService_selectProdutoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPessoaFornecedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectViewPessoaFornecedor" message="tns:IComprasService_selectViewPessoaFornecedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectViewPessoaFornecedorResponse" message="tns:IComprasService_selectViewPessoaFornecedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPessoaFornecedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IComprasService/selectViewPessoaFornecedorPagina" message="tns:IComprasService_selectViewPessoaFornecedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IComprasService/selectViewPessoaFornecedorPaginaResponse" message="tns:IComprasService_selectViewPessoaFornecedorPagina_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IComprasService" type="tns:IComprasService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteCompraTipoRequisicao">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/deleteCompraTipoRequisicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCompraTipoRequisicao">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/salvarAtualizarCompraTipoRequisicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoRequisicao">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraTipoRequisicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoRequisicaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraTipoRequisicaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCompraTipoPedido">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/deleteCompraTipoPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCompraTipoPedido">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/salvarAtualizarCompraTipoPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoPedido">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraTipoPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraTipoPedidoPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraTipoPedidoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCompraRequisicao">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/deleteCompraRequisicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarCompraRequisicao">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/salvarAtualizarCompraRequisicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraRequisicao">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraRequisicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraRequisicaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraRequisicaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCotacaoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCotacaoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveCotacaoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/saveCotacaoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateCotacaoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/updateCotacaoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCotacaoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/deleteCotacaoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCotacaoCompraId">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCotacaoCompraId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCompraRequisicaoDetalhe">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectCompraRequisicaoDetalhe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="savePedidoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/savePedidoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updatePedidoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/updatePedidoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePedidoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/deletePedidoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPedidoCompra">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectPedidoCompra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPedidoCompraId">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectPedidoCompraId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilConta">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectContabilConta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilContaPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectContabilContaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectColaboradorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectProduto">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectProdutoPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectProdutoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPessoaFornecedor">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectViewPessoaFornecedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPessoaFornecedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IComprasService/selectViewPessoaFornecedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ComprasService">
+    <wsdl:port name="BasicHttpBinding_IComprasService" binding="tns:BasicHttpBinding_IComprasService">
+      <soap:address location="http://localhost:2661/ComprasService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

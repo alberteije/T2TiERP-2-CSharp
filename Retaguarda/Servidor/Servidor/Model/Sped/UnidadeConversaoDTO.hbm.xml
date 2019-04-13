@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="UnidadeConversaoDTO" table="unidade_conversao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <many-to-one name="UnidadeProduto" column="ID_UNIDADE_PRODUTO" />
+    <property name="Sigla" column="SIGLA" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="FatorConversao" column="FATOR_CONVERSAO" />
+  </class>
+</hibernate-mapping>

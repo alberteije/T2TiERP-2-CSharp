@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="VendasClient.View.Vendas.CondicoesParcela" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+            <Button Name="btSair" Width="70" Height="20">
+                <StackPanel Orientation="Horizontal">
+					<TextBlock Text="Cancelar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesParcelaSelected.Parcela}" Height="23" Width="100" Margin="6,29,0,0"  />
+			<Label Content="Parcela" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,10,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesParcelaSelected.Dias}" Height="23" Width="100" Margin="112,29,0,0"  />
+			<Label Content="Dia" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,10,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding CondicoesParcelaSelected.Taxa}" Height="23" Width="100" Margin="218,29,0,0"  />
+			<Label Content="Taxa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,10,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

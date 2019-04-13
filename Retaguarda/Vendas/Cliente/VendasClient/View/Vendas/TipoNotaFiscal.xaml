@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="VendasClient.View.Vendas.TipoNotaFiscal" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding TipoNotaFiscalSelected.Modelo}" SelectedValuePath="Tag" Margin="324,117,0,0" >
+				<ComboBoxItem Content="1" Tag="1" />
+				<ComboBoxItem Content="1A" Tag="1A" />
+			</ComboBox>
+			<Label Content="Modelo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,98,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Text="{Binding TipoNotaFiscalSelected.Serie}" Margin="430,117,0,0" />
+			<Label Content="Serie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,98,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TipoNotaFiscalSelected.Nome}" Height="23" Width="312" Margin="6,25,0,0"  />
+			<Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TipoNotaFiscalSelected.Descricao}" Height="23" Width="524" Margin="6,71,0,0"  />
+			<Label Content="Descricao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,52,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TipoNotaFiscalSelected.Template}" Height="23" Width="100" Margin="6,117,0,0"  />
+			<Label Content="Template" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,98,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TipoNotaFiscalSelected.NumeroItens}" Height="23" Width="100" Margin="112,117,0,0"  />
+			<Label Content="Numero Itens" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,98,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TipoNotaFiscalSelected.UltimoImpresso}" Height="23" Width="100" Margin="218,117,0,0"  />
+			<Label Content="Ultimo Impresso" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,98,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

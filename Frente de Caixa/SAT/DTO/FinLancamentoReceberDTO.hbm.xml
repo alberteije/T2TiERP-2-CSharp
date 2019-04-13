@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinLancamentoReceberDTO" table="fin_lancamento_receber" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdFinDocumentoOrigem" column="ID_FIN_DOCUMENTO_ORIGEM" />
+    <property name="IdCliente" column="ID_CLIENTE" />
+    <property name="QuantidadeParcela" column="QUANTIDADE_PARCELA" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="ValorAReceber" column="VALOR_A_RECEBER" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="NumeroDocumento" column="NUMERO_DOCUMENTO" />
+    <property name="PrimeiroVencimento" column="PRIMEIRO_VENCIMENTO" />
+    <property name="TaxaComissao" column="TAXA_COMISSAO" />
+    <property name="ValorComissao" column="VALOR_COMISSAO" />
+    <property name="IntervaloEntreParcelas" column="INTERVALO_ENTRE_PARCELAS" />
+    <property name="CodigoModuloLcto" column="CODIGO_MODULO_LCTO" />
+  </class>
+</hibernate-mapping>

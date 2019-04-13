@@ -1,0 +1,16 @@
+20/10/2016 20:05:49:	ACBrFramework.ACBrException: ECF deve estar em Estado de "Venda", "Pagamento" ou "Não Fiscal"
+   em ACBrFramework.TEFD.ACBrTEFD.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 717
+   em ACBrFramework.TEFD.ACBrTEFD.CRT(Decimal valor, String indiceFPG_ECF, String documentoVinculado, Int32 moeda) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 625
+   em PafEcf.View.EfetuaPagamento.botaoSim_Click(Object sender, EventArgs e) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF\View\EfetuaPagamento.cs:linha 423
+20/10/2016 20:06:28:	ACBrFramework.ACBrException: Unable to open file "C:\Arquivos de programas\Microsoft Visual Studio 10.0\Common7\IDE\TEF\ACBr_TEF_DIAL_001.tef"
+   em ACBrFramework.TEFD.ACBrTEFD.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 717
+   em ACBrFramework.TEFD.ACBrTEFD.CRT(Decimal valor, String indiceFPG_ECF, String documentoVinculado, Int32 moeda) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 625
+   em PafEcf.View.EfetuaPagamento.botaoSim_Click(Object sender, EventArgs e) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF\View\EfetuaPagamento.cs:linha 423
+26/10/2016 01:06:43:	ACBrFramework.ACBrException: Unable to open file "C:\Arquivos de programas\Microsoft Visual Studio 10.0\Common7\IDE\TEF\ACBr_TEF_DIAL_001.tef"
+   em ACBrFramework.TEFD.ACBrTEFD.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 717
+   em ACBrFramework.TEFD.ACBrTEFD.CRT(Decimal valor, String indiceFPG_ECF, String documentoVinculado, Int32 moeda) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 625
+   em PafEcf.View.EfetuaPagamento.botaoSim_Click(Object sender, EventArgs e) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF\View\EfetuaPagamento.cs:linha 423
+26/10/2016 01:09:00:	System.Exception: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em PafEcf.Controller.VendaController.CancelaVenda(EcfVendaCabecalhoDTO pEcfVendaCabecalho) na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF\Controller\VendaController.cs:linha 293
+   em PafEcf.View.Caixa.CancelaCupom() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\PAF-ECF\View\Caixa.cs:linha 1750

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeNfReferenciadaDTO" table="nfe_nf_referenciada" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="CodigoUf" column="CODIGO_UF" />
+    <property name="AnoMes" column="ANO_MES" />
+    <property name="Cnpj" column="CNPJ" />
+    <property name="Modelo" column="MODELO" />
+    <property name="Serie" column="SERIE" />
+    <property name="NumeroNf" column="NUMERO_NF" />
+  </class>
+</hibernate-mapping>

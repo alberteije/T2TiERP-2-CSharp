@@ -1,0 +1,17 @@
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\bin\Debug\BoletoNet.Arquivo.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\bin\Debug\BoletoNet.Arquivo.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\bin\Debug\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\bin\Debug\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.EnviarEmail.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.FormVisualizarImagem.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.ImpressaoBoleto.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.Main.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.NBoleto.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.Progresso.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\Boleto.Net\Boleto.Net.Arquivo\obj\Debug\BoletoNet.Arquivo.pdb

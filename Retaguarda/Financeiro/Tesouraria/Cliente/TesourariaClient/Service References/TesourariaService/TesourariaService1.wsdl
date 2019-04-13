@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TesourariaService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2772/TesourariaService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2772/TesourariaService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2772/TesourariaService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TesourariaService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITesourariaService_selectResumoTesouraria_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectResumoTesouraria" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectResumoTesouraria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectResumoTesourariaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectResumoTesourariaMes_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectResumoTesourariaMes" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectResumoTesourariaMes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectResumoTesourariaMesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectFechamentoCaixaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFechamentoCaixaBanco" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectFechamentoCaixaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFechamentoCaixaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectContaCaixa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixa" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectContaCaixa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectEmpresa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="ITesourariaService_selectEmpresa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITesourariaService">
+    <wsdl:operation name="selectResumoTesouraria">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectResumoTesouraria" message="tns:ITesourariaService_selectResumoTesouraria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectResumoTesourariaResponse" message="tns:ITesourariaService_selectResumoTesouraria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectResumoTesourariaMes">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectResumoTesourariaMes" message="tns:ITesourariaService_selectResumoTesourariaMes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectResumoTesourariaMesResponse" message="tns:ITesourariaService_selectResumoTesourariaMes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFechamentoCaixaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectFechamentoCaixaBanco" message="tns:ITesourariaService_selectFechamentoCaixaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectFechamentoCaixaBancoResponse" message="tns:ITesourariaService_selectFechamentoCaixaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectContaCaixa" message="tns:ITesourariaService_selectContaCaixa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectContaCaixaResponse" message="tns:ITesourariaService_selectContaCaixa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectUsuario" message="tns:ITesourariaService_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectUsuarioResponse" message="tns:ITesourariaService_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectControleAcesso" message="tns:ITesourariaService_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectControleAcessoResponse" message="tns:ITesourariaService_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresa">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITesourariaService/selectEmpresa" message="tns:ITesourariaService_selectEmpresa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITesourariaService/selectEmpresaResponse" message="tns:ITesourariaService_selectEmpresa_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITesourariaService" type="tns:ITesourariaService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="selectResumoTesouraria">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectResumoTesouraria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectResumoTesourariaMes">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectResumoTesourariaMes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFechamentoCaixaBanco">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectFechamentoCaixaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectContaCaixa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresa">
+      <soap:operation soapAction="http://tempuri.org/ITesourariaService/selectEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TesourariaService">
+    <wsdl:port name="BasicHttpBinding_ITesourariaService" binding="tns:BasicHttpBinding_ITesourariaService">
+      <soap:address location="http://localhost:2772/TesourariaService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

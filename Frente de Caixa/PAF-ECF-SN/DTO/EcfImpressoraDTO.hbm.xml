@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfImpressoraDTO" table="ecf_impressora" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_impressora</param>
+      </generator>
+    </id>
+
+
+    <property name="Numero" column="NUMERO" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Serie" column="SERIE" />
+    <property name="Identificacao" column="IDENTIFICACAO" />
+    <property name="Mc" column="MC" />
+    <property name="Md" column="MD" />
+    <property name="Vr" column="VR" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Marca" column="MARCA" />
+    <property name="Modelo" column="MODELO" />
+    <property name="ModeloAcbr" column="MODELO_ACBR" />
+    <property name="ModeloDocumentoFiscal" column="MODELO_DOCUMENTO_FISCAL" />
+    <property name="Versao" column="VERSAO" />
+    <property name="Le" column="LE" />
+    <property name="Lef" column="LEF" />
+    <property name="Mfd" column="MFD" />
+    <property name="LacreNaMfd" column="LACRE_NA_MFD" />
+    <property name="Docto" column="DOCTO" />
+    <property name="DataInstalacaoSb" column="DATA_INSTALACAO_SB" />
+    <property name="HoraInstalacaoSb" column="HORA_INSTALACAO_SB" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfRelatorioGerencialDTO" table="ecf_relatorio_gerencial" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_relatorio_gerencial</param>
+      </generator>
+    </id>
+
+
+    <property name="X" column="X" />
+    <property name="MeiosPagamento" column="MEIOS_PAGAMENTO" />
+    <property name="DavEmitidos" column="DAV_EMITIDOS" />
+    <property name="IdentificacaoPaf" column="IDENTIFICACAO_PAF" />
+    <property name="ParametrosConfiguracao" column="PARAMETROS_CONFIGURACAO" />
+    <property name="Outros" column="OUTROS" />
+  </class>
+</hibernate-mapping>

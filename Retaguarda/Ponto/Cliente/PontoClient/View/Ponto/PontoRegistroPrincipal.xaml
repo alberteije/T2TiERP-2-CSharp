@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="PontoClient.View.Ponto.PontoRegistroPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="400">
+
+    <StackPanel Height="180" Name="stackPanel1" Width="400">
+
+        <DockPanel Height="140" Width="400" LastChildFill="False" VerticalAlignment="Top">
+            <Grid Height="60" Width="400" DockPanel.Dock="Top" Background="#FFEBEBEB">
+                <Image Height="48" Name="image1" Stretch="Fill" Width="48" HorizontalAlignment="Left" Source="/PontoClient;component/Imagens/pontoBatida48.png" />
+                <Label Content="Registro de Ponto" Height="28" HorizontalAlignment="Left" Margin="54,18,0,0" Name="label3" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+                <Border BorderBrush="Silver" BorderThickness="1" Height="5" HorizontalAlignment="Left" Margin="54,45,0,0" Name="border1" VerticalAlignment="Top" Width="340" />
+            </Grid>
+            <Grid Height="80" Width="400">
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="15,37,0,0" Name="textBoxUsuario" VerticalAlignment="Top" Width="175" />
+					<Label Content="Usuário:" Height="20" HorizontalAlignment="Left" Margin="15,17,0,0" Name="label4" VerticalAlignment="Top" />
+					<TextBox Height="23" HorizontalAlignment="Left" Margin="213,37,0,0" Name="textBoxSenha" VerticalAlignment="Top" Width="169" />
+					<Label Content="Senha:" Height="20" HorizontalAlignment="Left" Margin="213,17,0,0" Name="label5" VerticalAlignment="Top" />
+            </Grid>
+        </DockPanel>
+        <DockPanel Height="40" Width="400" LastChildFill="True" VerticalAlignment="Bottom">
+            <Grid Height="40" Width="400" DockPanel.Dock="Bottom" Background="#FFEBEBEB" VerticalAlignment="Bottom">
+                    <Button Name="btGerar" Height="30" Width="117" Margin="0,6,145,0" VerticalAlignment="Top" HorizontalAlignment="Right" Click="btGerar_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Image Source="/Imagem/botaoConfirmar.png" Height="16" Width="16"></Image>
+                            <TextBlock Text="Confirmar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                    <Button Margin="277,6,6,4" Name="btSair" Height="30" Width="117" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Width="16" Source="/Imagem/21botaoSair.png" />
+                        <TextBlock Margin="3,0,0,0" Text="Sair" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+            </DockPanel>
+
+    </StackPanel>
+
+
+</UserControl>

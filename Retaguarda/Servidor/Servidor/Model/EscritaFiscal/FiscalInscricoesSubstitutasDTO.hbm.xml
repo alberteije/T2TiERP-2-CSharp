@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FiscalInscricoesSubstitutasDTO" table="fiscal_inscricoes_substitutas" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="FiscalParametros" column="ID_FISCAL_PARAMETROS" />
+    <property name="Uf" column="UF" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="Pmpf" column="PMPF" />
+  </class>
+</hibernate-mapping>

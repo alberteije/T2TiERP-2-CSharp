@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PatrimApoliceSeguroDTO" table="patrim_apolice_seguro" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="PatrimBem" column="ID_PATRIM_BEM" />
+    <many-to-one name="Seguradora" column="ID_SEGURADORA" />
+    <property name="Numero" column="NUMERO" />
+    <property name="DataContratacao" column="DATA_CONTRATACAO" />
+    <property name="DataVencimento" column="DATA_VENCIMENTO" />
+    <property name="ValorPremio" column="VALOR_PREMIO" />
+    <property name="ValorSegurado" column="VALOR_SEGURADO" />
+    <property name="Observacao" column="OBSERVACAO" />
+    <property name="Imagem" column="IMAGEM" />
+  </class>
+</hibernate-mapping>

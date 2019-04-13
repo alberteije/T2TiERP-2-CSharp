@@ -1,0 +1,191 @@
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.Properties.Resources.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\GenerateResource.read.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\GenerateResource.write.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\bin\Debug\PafEcf.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\bin\Debug\PafEcf.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FCaixa.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\bin\Debug\ACBrFramework.Net.dll
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FDataModule.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FSplash.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMovimentoAberto.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMenuPrincipal.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMenuFiscal.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMenuOperacoes.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FLmfc.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FArquivoMfd.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FLmfs.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FEspelhoMfd.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FEstoque.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMovimentoECF.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMeiosPagamento.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FDavEmitidos.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FVendasPeriodo.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FLoginGerenteSupervisor.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FSubMenuSupervisor.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FSubMenuGerente.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FValorReal.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FPenDrive.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FDescontoAcrescimo.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FImportaNumero.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FLocaliza.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FIdentificaCliente.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FEfetuaPagamento.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FFechaEfetuaPagamento.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.TFCheques.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FParcelamento.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FEncerraMovimento.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FIniciaMovimento.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FImportaProduto.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FImportaCliente.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FFichaTecnica.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FNotaFiscal.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FCancelaPreVenda.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FCarregaDAV.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMesclaDAV.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FMesclaPreVenda.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\PAF\obj\Debug\PafEcf.View.FCargaPDV.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.exe
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.pdb
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\bin\Debug\PafEcf.exe
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\bin\Debug\PafEcf.pdb
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FArquivoMfd.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCaixa.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCancelaPreVenda.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCargaPDV.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCarregaDAV.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.TFCheques.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FDataModule.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FDavEmitidos.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FDescontoAcrescimo.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEfetuaPagamento.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEncerraMovimento.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEspelhoMfd.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEstoque.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FFechaEfetuaPagamento.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FFichaTecnica.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FIdentificaCliente.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FImportaCliente.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FImportaNumero.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FImportaProduto.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FIniciaMovimento.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLmfc.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLmfs.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLocaliza.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLoginGerenteSupervisor.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMeiosPagamento.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMenuFiscal.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMenuOperacoes.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMenuPrincipal.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMesclaDAV.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMesclaPreVenda.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMovimentoAberto.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMovimentoECF.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FNotaFiscal.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FParcelamento.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FPenDrive.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FSplash.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FSubMenuGerente.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FSubMenuSupervisor.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FValorReal.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FVendasPeriodo.resources
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\PAF\C#\Fontes\PAF\obj\Debug\GenerateResource.write.1.tlog
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.exe
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.pdb
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FArquivoMfd.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCaixa.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCancelaPreVenda.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCargaPDV.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FCarregaDAV.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.TFCheques.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FDataModule.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FDavEmitidos.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FDescontoAcrescimo.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEfetuaPagamento.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEncerraMovimento.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEspelhoMfd.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FEstoque.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FFechaEfetuaPagamento.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FFichaTecnica.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FIdentificaCliente.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FImportaCliente.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FImportaNumero.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FImportaProduto.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FIniciaMovimento.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLmfc.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLmfs.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLocaliza.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FLoginGerenteSupervisor.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMeiosPagamento.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMenuFiscal.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMenuOperacoes.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMenuPrincipal.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMesclaDAV.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMesclaPreVenda.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMovimentoAberto.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FMovimentoECF.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FNotaFiscal.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FParcelamento.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FPenDrive.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FSplash.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FSubMenuGerente.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FSubMenuSupervisor.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FValorReal.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.View.FVendasPeriodo.resources
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\obj\Debug\PafEcf.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\bin\Debug\PafEcf.exe.config
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\bin\Debug\PafEcf.exe
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\bin\Debug\PafEcf.pdb
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\bin\Debug\ACBrFramework.Net.dll
+C:\Projetos\T2Ti ERP 1.0\PAF\C#\Fontes\PAF\bin\Debug\ACBrFramework.Net.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\PafEcf.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.exe
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\PafEcf.exe
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\PafEcf.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\ACBrFramework.Net.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\ACBrFramework.Net.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.FSubMenuGerente.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.LMF.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.MenuFiscal.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.Caixa.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.LoginGerenteSupervisor.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.MenuPrincipal.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.CargaPDV.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.Cheques.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.DataModule.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.DescontoAcrescimo.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.EfetuaPagamento.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.EncerraMovimento.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.FechaEfetuaPagamento.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.FichaTecnica.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.IdentificaCliente.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.ImportaCliente.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.ImportaNumero.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.ImportaProduto.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.IniciaMovimento.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.MenuOperacoes.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.MovimentoAberto.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.NotaFiscal.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.Parcelamento.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.PenDrive.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.Splash.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.SubMenuSupervisor.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.ValorReal.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.VendasPeriodo.resources
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Antlr3.Runtime.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\Iesi.Collections.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\LinFu.DynamicProxy.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\NHibernate.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\obj\Debug\PafEcf.View.RegistrosPAF.resources

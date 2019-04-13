@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewTotalPagamentoEcfMovimentoDTO" table="view_total_pagamento_movimento" >
+    
+    <id name="Id" column="ID">
+      <generator class="native" />
+    </id>
+
+    <property name="IdEcfMovimento" column="ID_ECF_MOVIMENTO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="ValorApurado" column="VALOR_APURADO" />
+  </class>
+</hibernate-mapping>

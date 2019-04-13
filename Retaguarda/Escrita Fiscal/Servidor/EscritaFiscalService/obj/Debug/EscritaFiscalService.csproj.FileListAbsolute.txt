@@ -1,0 +1,22 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\EscritaFiscalService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\EscritaFiscalService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\bin\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\obj\Debug\EscritaFiscalService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EscritaFiscalService\EscritaFiscalService\obj\Debug\EscritaFiscalService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\bin\EscritaFiscalService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\bin\EscritaFiscalService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\bin\EscritaFiscalService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\obj\Debug\EscritaFiscalService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\obj\Debug\EscritaFiscalService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Escrita Fiscal\Servidor\EscritaFiscalService\obj\Debug\EscritaFiscalService.pdb

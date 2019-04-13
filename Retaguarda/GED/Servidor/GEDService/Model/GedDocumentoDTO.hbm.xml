@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="GEDService" namespace="GEDService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="GedDocumentoDTO" table="ged_documento_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <many-to-one name="GedTipoDocumento" column="ID_GED_TIPO_DOCUMENTO" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="PalavraChave" column="PALAVRA_CHAVE" />
+    <property name="PodeExcluir" column="PODE_EXCLUIR" />
+    <property name="PodeAlterar" column="PODE_ALTERAR" />
+    <property name="Assinado" column="ASSINADO" />
+    <property name="DataFimVigencia" column="DATA_FIM_VIGENCIA" />
+    <property name="DataExclusao" column="DATA_EXCLUSAO" />
+  </class>
+</hibernate-mapping>

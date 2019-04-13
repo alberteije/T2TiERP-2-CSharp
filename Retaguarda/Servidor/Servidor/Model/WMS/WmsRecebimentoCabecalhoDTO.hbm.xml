@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="WmsRecebimentoCabecalhoDTO" table="wms_recebimento_cabecalho" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="WmsAgendamento" column="ID_WMS_AGENDAMENTO" />
+    <property name="DataRecebimento" column="DATA_RECEBIMENTO" />
+    <property name="HoraInicio" column="HORA_INICIO" />
+    <property name="HoraFim" column="HORA_FIM" />
+    <property name="VolumeRecebido" column="VOLUME_RECEBIDO" />
+    <property name="PesoRecebido" column="PESO_RECEBIDO" />
+    <property name="Inconsistencia" column="INCONSISTENCIA" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+﻿FolhaClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\
+FolhaClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\App.xaml
+71-255279042
+
+110-315650366
+26572030516
+themes\generic.xaml;View\ERPClient.xaml;View\Folha\FeriasPeriodoAquisitivo.xaml;View\Folha\FeriasPeriodoAquisitivoLista.xaml;View\Folha\FeriasPeriodoAquisitivoPrincipal.xaml;View\Folha\FolhaAfastamento.xaml;View\Folha\FolhaAfastamentoLista.xaml;View\Folha\FolhaAfastamentoPrincipal.xaml;View\Folha\FolhaEvento.xaml;View\Folha\FolhaEventoLista.xaml;View\Folha\FolhaEventoPrincipal.xaml;View\Folha\FolhaFechamento.xaml;View\Folha\FolhaFechamentoLista.xaml;View\Folha\FolhaFechamentoPrincipal.xaml;View\Folha\FolhaFeriasColetivas.xaml;View\Folha\FolhaFeriasColetivasLista.xaml;View\Folha\FolhaFeriasColetivasPrincipal.xaml;View\Folha\FolhaHistoricoSalarial.xaml;View\Folha\FolhaHistoricoSalarialLista.xaml;View\Folha\FolhaHistoricoSalarialPrincipal.xaml;View\Folha\FolhaInss.xaml;View\Folha\FolhaInssLista.xaml;View\Folha\FolhaInssPrincipal.xaml;View\Folha\FolhaInssRetencao.xaml;View\Folha\FolhaInssRetencaoLista.xaml;View\Folha\FolhaInssRetencaoPrincipal.xaml;View\Folha\FolhaInssServico.xaml;View\Folha\FolhaInssServicoLista.xaml;View\Folha\FolhaInssServicoPrincipal.xaml;View\Folha\FolhaLancamentoCabecalho.xaml;View\Folha\FolhaLancamentoCabecalhoLista.xaml;View\Folha\FolhaLancamentoCabecalhoPrincipal.xaml;View\Folha\FolhaLancamentoDetalhe.xaml;View\Folha\FolhaLancamentoDetalheLista.xaml;View\Folha\FolhaLancamentoDetalhePrincipal.xaml;View\Folha\FolhaParametros.xaml;View\Folha\FolhaParametrosLista.xaml;View\Folha\FolhaParametrosPrincipal.xaml;View\Folha\FolhaPlanoSaude.xaml;View\Folha\FolhaPlanoSaudeLista.xaml;View\Folha\FolhaPlanoSaudePrincipal.xaml;View\Folha\FolhaPpp.xaml;View\Folha\FolhaPppAtividade.xaml;View\Folha\FolhaPppAtividadeLista.xaml;View\Folha\FolhaPppAtividadePrincipal.xaml;View\Folha\FolhaPppCat.xaml;View\Folha\FolhaPppCatLista.xaml;View\Folha\FolhaPppCatPrincipal.xaml;View\Folha\FolhaPppExameMedico.xaml;View\Folha\FolhaPppExameMedicoLista.xaml;View\Folha\FolhaPppExameMedicoPrincipal.xaml;View\Folha\FolhaPppFatorRisco.xaml;View\Folha\FolhaPppFatorRiscoLista.xaml;View\Folha\FolhaPppFatorRiscoPrincipal.xaml;View\Folha\FolhaPppLista.xaml;View\Folha\FolhaPppPrincipal.xaml;View\Folha\FolhaPrincipal.xaml;View\Folha\FolhaRescisao.xaml;View\Folha\FolhaRescisaoLista.xaml;View\Folha\FolhaRescisaoPrincipal.xaml;View\Folha\FolhaTipoAfastamento.xaml;View\Folha\FolhaTipoAfastamentoLista.xaml;View\Folha\FolhaTipoAfastamentoPrincipal.xaml;View\Folha\FolhaValeTransporte.xaml;View\Folha\FolhaValeTransporteLista.xaml;View\Folha\FolhaValeTransportePrincipal.xaml;View\Folha\GuiasAcumuladas.xaml;View\Folha\GuiasAcumuladasLista.xaml;View\Folha\GuiasAcumuladasPrincipal.xaml;View\Folha\InformativosGuiasPrincipal.xaml;View\Folha\Login.xaml;
+
+False
+

@@ -1,0 +1,245 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\VendasClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\VendasClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\VendasClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\VendasClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\VendasClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\VendasClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\VendasClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVenda.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVenda.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamento.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamento.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcela.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcela.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCab.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCab.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDet.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDet.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalho.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalho.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhe.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhe.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalheLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhePrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalheLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\VendasClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\VendasClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\VendasClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDet.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcela.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVenda.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDet.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcela.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVenda.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCab.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCab.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\VendasClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\View\Vendas\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\VendasClient\VendasClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\VendasClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\VendasClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\VendasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDet.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcela.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\FreteVenda.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDet.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcela.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\FreteVenda.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCab.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaDetPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesPagamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\CondicoesParcelaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\FreteVendaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCab.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\OrcamentoPedidoVendaCabPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\TipoNotaFiscalPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\View\Vendas\VendaDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Vendas\Cliente\VendasClient\obj\x86\Debug\VendasClient.csproj.GenerateResource.Cache

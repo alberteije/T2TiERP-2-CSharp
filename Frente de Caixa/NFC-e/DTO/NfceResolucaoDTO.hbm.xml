@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfceResolucaoDTO" table="nfce_resolucao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="ResolucaoTela" column="RESOLUCAO_TELA" />
+    <property name="Largura" column="LARGURA" />
+    <property name="Altura" column="ALTURA" />
+    <property name="ImagemTela" column="IMAGEM_TELA" />
+    <property name="ImagemMenu" column="IMAGEM_MENU" />
+    <property name="ImagemSubmenu" column="IMAGEM_SUBMENU" />
+
+    <bag name="ListaNfcePosicaoComponentes" cascade="none" lazy="false" >
+      <key column="ID_NFCE_RESOLUCAO" />
+      <one-to-many class="NfcePosicaoComponentesDTO" />
+    </bag>
+
+  </class>
+</hibernate-mapping>

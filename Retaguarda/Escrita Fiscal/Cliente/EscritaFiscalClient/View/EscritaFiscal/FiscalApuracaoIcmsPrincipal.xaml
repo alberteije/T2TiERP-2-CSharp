@@ -1,0 +1,26 @@
+<UserControl x:Class="EscritaFiscalClient.View.EscritaFiscal.FiscalApuracaoIcmsPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:EscritaFiscalClient.View.EscritaFiscal"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="700">
+    <TabControl>
+        <TabItem Name="tabFiscalApuracaoIcmsLista" Visibility="Collapsed" IsSelected="{Binding IsListar}">
+            <TabItem.Content>
+                <DockPanel LastChildFill="True">
+                    <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal" >
+                        <Button Name="btProcessar" Width="155">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+                                <TextBlock Text="Processa Periodo" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <view:FiscalApuracaoIcmsLista></view:FiscalApuracaoIcmsLista>
+                </DockPanel>
+            </TabItem.Content>
+        </TabItem>
+    </TabControl>
+</UserControl>

@@ -1,0 +1,13 @@
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\Servidor.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\Servidor.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\Servidor.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\ACBrFramework.Net.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\Antlr3.Runtime.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\Iesi.Collections.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\LinFu.DynamicProxy.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\NHibernate.ByteCode.LinFu.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\bin\NHibernate.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\obj\Debug\Servidor.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\obj\Debug\Servidor.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Servidor\Servidor\obj\Debug\Servidor.csprojResolveAssemblyReference.cache

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PontoClient.View.Ponto.PontoRelogio" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoRelogioSelected.Localizacao}" Height="23" Width="411" Margin="6,25,0,0"  />
+			<Label Content="Localizacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoRelogioSelected.Marca}" Height="23" Width="271" Margin="423,25,0,0"  />
+			<Label Content="Marca" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="423,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoRelogioSelected.Fabricante}" Height="23" Width="291" Margin="248,79,0,0"  />
+			<Label Content="Fabricante" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="248,60,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PontoRelogioSelected.NumeroSerie}" Height="23" Width="236" Margin="6,79,0,0"  />
+			<Label Content="NumeroSerie" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,60,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="149" SelectedValue="{Binding PontoRelogioSelected.Utilizacao}" SelectedValuePath="Tag" Margin="545,79,0,0" >
+				<ComboBoxItem Content="Ponto" Tag="P" />
+				<ComboBoxItem Content="Refeitório" Tag="R" />
+                <ComboBoxItem Content="Circulação" Tag="C" />
+            </ComboBox>
+			<Label Content="Utilizacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="545,60,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

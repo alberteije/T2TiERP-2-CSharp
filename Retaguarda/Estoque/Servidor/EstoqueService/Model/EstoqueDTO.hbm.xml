@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
+  <class name="EstoqueDTO" table="estoque">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one class="ProdutoDTO" name="produto" column="ID_PRODUTO"/>
+    <property name="quantidade">
+      <column name="QUANTIDADE" sql-type="decimal(18,6)" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

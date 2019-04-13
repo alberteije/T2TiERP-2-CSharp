@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ComissaoObjetivoDTO" table="comissao_objetivo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <many-to-one name="ComissaoPerfil" column="ID_COMISSAO_PERFIL" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="FormaPagamento" column="FORMA_PAGAMENTO" />
+    <property name="TaxaPagamento" column="TAXA_PAGAMENTO" />
+    <property name="ValorPagamento" column="VALOR_PAGAMENTO" />
+    <property name="ValorMeta" column="VALOR_META" />
+    <property name="Quantidade" column="QUANTIDADE" />
+  </class>
+</hibernate-mapping>

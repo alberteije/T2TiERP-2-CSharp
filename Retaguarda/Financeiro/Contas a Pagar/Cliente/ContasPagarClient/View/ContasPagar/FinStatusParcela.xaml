@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasPagarClient.View.ContasPagar.FinStatusParcela" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Text="{Binding FinStatusParcelaSelected.Situacao}" Margin="6,25,0,0" />
+			<Label Content="Situacao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinStatusParcelaSelected.Descricao}" Height="23" Width="582" Margin="112,25,0,0"  />
+			<Label Content="Descricao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinStatusParcelaSelected.Procedimento}" Height="102" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="688" Margin="6,73,0,0"  />
+			<Label Content="Procedimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

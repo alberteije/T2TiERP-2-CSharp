@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetEspecificoCombustivelDTO" table="nfe_det_especifico_combustivel" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="CodigoAnp" column="CODIGO_ANP" />
+    <property name="PercentualGasNatural" column="PERCENTUAL_GAS_NATURAL" />
+    <property name="Codif" column="CODIF" />
+    <property name="QuantidadeTempAmbiente" column="QUANTIDADE_TEMP_AMBIENTE" />
+    <property name="UfConsumo" column="UF_CONSUMO" />
+    <property name="BaseCalculoCide" column="BASE_CALCULO_CIDE" />
+    <property name="AliquotaCide" column="ALIQUOTA_CIDE" />
+    <property name="ValorCide" column="VALOR_CIDE" />
+  </class>
+</hibernate-mapping>

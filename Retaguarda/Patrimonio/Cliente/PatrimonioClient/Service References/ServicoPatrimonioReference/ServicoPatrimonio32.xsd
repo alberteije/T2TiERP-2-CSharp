@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2675/ServicoPatrimonio.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" />
+  <xs:element name="deletePatrimTaxaDepreciacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTaxaDepreciacao" nillable="true" type="q1:PatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimTaxaDepreciacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimTaxaDepreciacaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimTaxaDepreciacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTaxaDepreciacao" nillable="true" type="q2:PatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimTaxaDepreciacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimTaxaDepreciacaoResult" nillable="true" type="q3:PatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTaxaDepreciacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTaxaDepreciacao" nillable="true" type="q4:PatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTaxaDepreciacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimTaxaDepreciacaoResult" nillable="true" type="q5:ArrayOfPatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTaxaDepreciacaoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTaxaDepreciacao" nillable="true" type="q6:PatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTaxaDepreciacaoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimTaxaDepreciacaoPaginaResult" nillable="true" type="q7:ArrayOfPatrimTaxaDepreciacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimIndiceAtualizacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimIndiceAtualizacao" nillable="true" type="q8:PatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimIndiceAtualizacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimIndiceAtualizacaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimIndiceAtualizacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimIndiceAtualizacao" nillable="true" type="q9:PatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimIndiceAtualizacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimIndiceAtualizacaoResult" nillable="true" type="q10:PatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimIndiceAtualizacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimIndiceAtualizacao" nillable="true" type="q11:PatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimIndiceAtualizacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimIndiceAtualizacaoResult" nillable="true" type="q12:ArrayOfPatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimIndiceAtualizacaoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimIndiceAtualizacao" nillable="true" type="q13:PatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimIndiceAtualizacaoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimIndiceAtualizacaoPaginaResult" nillable="true" type="q14:ArrayOfPatrimIndiceAtualizacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimTipoAquisicaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoAquisicaoBem" nillable="true" type="q15:PatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimTipoAquisicaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimTipoAquisicaoBemResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimTipoAquisicaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoAquisicaoBem" nillable="true" type="q16:PatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimTipoAquisicaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimTipoAquisicaoBemResult" nillable="true" type="q17:PatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoAquisicaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoAquisicaoBem" nillable="true" type="q18:PatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoAquisicaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimTipoAquisicaoBemResult" nillable="true" type="q19:ArrayOfPatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoAquisicaoBemPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoAquisicaoBem" nillable="true" type="q20:PatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoAquisicaoBemPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimTipoAquisicaoBemPaginaResult" nillable="true" type="q21:ArrayOfPatrimTipoAquisicaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimTipoMovimentacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoMovimentacao" nillable="true" type="q22:PatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimTipoMovimentacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimTipoMovimentacaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimTipoMovimentacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoMovimentacao" nillable="true" type="q23:PatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimTipoMovimentacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimTipoMovimentacaoResult" nillable="true" type="q24:PatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoMovimentacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoMovimentacao" nillable="true" type="q25:PatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoMovimentacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimTipoMovimentacaoResult" nillable="true" type="q26:ArrayOfPatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoMovimentacaoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimTipoMovimentacao" nillable="true" type="q27:PatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimTipoMovimentacaoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimTipoMovimentacaoPaginaResult" nillable="true" type="q28:ArrayOfPatrimTipoMovimentacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimEstadoConservacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimEstadoConservacao" nillable="true" type="q29:PatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimEstadoConservacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimEstadoConservacaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimEstadoConservacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimEstadoConservacao" nillable="true" type="q30:PatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimEstadoConservacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimEstadoConservacaoResult" nillable="true" type="q31:PatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimEstadoConservacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimEstadoConservacao" nillable="true" type="q32:PatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimEstadoConservacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimEstadoConservacaoResult" nillable="true" type="q33:ArrayOfPatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimEstadoConservacaoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimEstadoConservacao" nillable="true" type="q34:PatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimEstadoConservacaoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimEstadoConservacaoPaginaResult" nillable="true" type="q35:ArrayOfPatrimEstadoConservacaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimGrupoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimGrupoBem" nillable="true" type="q36:PatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimGrupoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimGrupoBemResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimGrupoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimGrupoBem" nillable="true" type="q37:PatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimGrupoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimGrupoBemResult" nillable="true" type="q38:PatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimGrupoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimGrupoBem" nillable="true" type="q39:PatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimGrupoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimGrupoBemResult" nillable="true" type="q40:ArrayOfPatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimGrupoBemPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimGrupoBem" nillable="true" type="q41:PatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimGrupoBemPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimGrupoBemPaginaResult" nillable="true" type="q42:ArrayOfPatrimGrupoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteSeguradora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="seguradora" nillable="true" type="q43:SeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteSeguradoraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteSeguradoraResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarSeguradora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="seguradora" nillable="true" type="q44:SeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarSeguradoraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarSeguradoraResult" nillable="true" type="q45:SeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSeguradora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="seguradora" nillable="true" type="q46:SeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSeguradoraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectSeguradoraResult" nillable="true" type="q47:ArrayOfSeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSeguradoraPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="seguradora" nillable="true" type="q48:SeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSeguradoraPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectSeguradoraPaginaResult" nillable="true" type="q49:ArrayOfSeguradoraDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimBem" nillable="true" type="q50:PatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimBemResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimBem" nillable="true" type="q51:PatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimBemResult" nillable="true" type="q52:PatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimBem" nillable="true" type="q53:PatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimBemResult" nillable="true" type="q54:ArrayOfPatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimBemPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimBem" nillable="true" type="q55:PatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimBemPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimBemPaginaResult" nillable="true" type="q56:ArrayOfPatrimBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimDepreciacaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimDepreciacaoBem" nillable="true" type="q57:PatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimDepreciacaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimDepreciacaoBemResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimDepreciacaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimDepreciacaoBem" nillable="true" type="q58:PatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimDepreciacaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimDepreciacaoBemResult" nillable="true" type="q59:PatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimDepreciacaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimDepreciacaoBem" nillable="true" type="q60:PatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimDepreciacaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimDepreciacaoBemResult" nillable="true" type="q61:ArrayOfPatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimDepreciacaoBemPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimDepreciacaoBem" nillable="true" type="q62:PatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimDepreciacaoBemPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimDepreciacaoBemPaginaResult" nillable="true" type="q63:ArrayOfPatrimDepreciacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimMovimentacaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimMovimentacaoBem" nillable="true" type="q64:PatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimMovimentacaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimMovimentacaoBemResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimMovimentacaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimMovimentacaoBem" nillable="true" type="q65:PatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimMovimentacaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimMovimentacaoBemResult" nillable="true" type="q66:PatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimMovimentacaoBem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimMovimentacaoBem" nillable="true" type="q67:PatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimMovimentacaoBemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimMovimentacaoBemResult" nillable="true" type="q68:ArrayOfPatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimMovimentacaoBemPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimMovimentacaoBem" nillable="true" type="q69:PatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimMovimentacaoBemPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimMovimentacaoBemPaginaResult" nillable="true" type="q70:ArrayOfPatrimMovimentacaoBemDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimApoliceSeguro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimApoliceSeguro" nillable="true" type="q71:PatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deletePatrimApoliceSeguroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deletePatrimApoliceSeguroResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimApoliceSeguro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimApoliceSeguro" nillable="true" type="q72:PatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarPatrimApoliceSeguroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="salvarAtualizarPatrimApoliceSeguroResult" nillable="true" type="q73:PatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimApoliceSeguro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimApoliceSeguro" nillable="true" type="q74:PatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimApoliceSeguroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimApoliceSeguroResult" nillable="true" type="q75:ArrayOfPatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimApoliceSeguroPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="patrimApoliceSeguro" nillable="true" type="q76:PatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPatrimApoliceSeguroPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPatrimApoliceSeguroPaginaResult" nillable="true" type="q77:ArrayOfPatrimApoliceSeguroDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFornecedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="fornecedor" nillable="true" type="q78:FornecedorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFornecedorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectFornecedorResult" nillable="true" type="q79:ArrayOfFornecedorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFornecedorPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="fornecedor" nillable="true" type="q80:FornecedorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFornecedorPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectFornecedorPaginaResult" nillable="true" type="q81:ArrayOfFornecedorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSetor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="setor" nillable="true" type="q82:SetorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSetorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectSetorResult" nillable="true" type="q83:ArrayOfSetorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSetorPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="setor" nillable="true" type="q84:SetorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectSetorPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectSetorPaginaResult" nillable="true" type="q85:ArrayOfSetorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaborador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="colaborador" nillable="true" type="q86:ColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaboradorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectColaboradorResult" nillable="true" type="q87:ArrayOfColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaboradorPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="colaborador" nillable="true" type="q88:ColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaboradorPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectColaboradorPaginaResult" nillable="true" type="q89:ArrayOfColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPessoa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="pessoa" nillable="true" type="q90:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectPessoaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectPessoaResult" nillable="true" type="q91:PessoaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectUsuarioResult" nillable="true" type="q92:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcesso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="viewControleAcesso" nillable="true" type="q93:ViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/PatrimonioService.Model" minOccurs="0" name="selectControleAcessoResult" nillable="true" type="q94:ArrayOfViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

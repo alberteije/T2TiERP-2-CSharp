@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CompraPedidoDetalheDTO" table="compra_pedido_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="CompraPedido" column="ID_COMPRA_PEDIDO" />
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="ValorUnitario" column="VALOR_UNITARIO" />
+    <property name="ValorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="CstCsosn" column="CST_CSOSN" />
+    <property name="Cfop" column="CFOP" />
+    <property name="BaseCalculoIcms" column="BASE_CALCULO_ICMS" />
+    <property name="ValorIcms" column="VALOR_ICMS" />
+    <property name="ValorIpi" column="VALOR_IPI" />
+    <property name="AliquotaIcms" column="ALIQUOTA_ICMS" />
+    <property name="AliquotaIpi" column="ALIQUOTA_IPI" />
+  </class>
+</hibernate-mapping>

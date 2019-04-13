@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="EscritaFiscalClient.View.EscritaFiscal.FiscalTermo" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="133" SelectedValue="{Binding FiscalTermoSelected.AberturaEncerramento}" SelectedValuePath="Tag" Margin="6,25,0,0" >
+				<ComboBoxItem Content="Abertura" Tag="A" />
+				<ComboBoxItem Content="Encerramento" Tag="E" />
+			</ComboBox>
+			<Label Content="Abertura/Encerramento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalTermoSelected.Numero}" Height="23" Width="100" Margin="145,25,0,0"  />
+			<Label Content="Número:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="145,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalTermoSelected.PaginaInicial}" Height="23" Width="100" Margin="251,25,0,0"  />
+			<Label Content="Página Inicial:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="251,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalTermoSelected.PaginaFinal}" Height="23" Width="100" Margin="357,25,0,0"  />
+			<Label Content="Página Final:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalTermoSelected.Registrado}" Height="23" Width="100" Margin="6,73,0,0"  />
+            <Label Content="Registrado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalTermoSelected.NumeroRegistro}" Height="23" Width="100" Margin="112,73,0,0"  />
+            <Label Content="Número Registro:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FiscalTermoSelected.DataDespacho}" Margin="218,73,0,0"  />
+            <Label Content="Data Despacho:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FiscalTermoSelected.DataAbertura}" Margin="324,73,0,0"  />
+            <Label Content="Data Abertura:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FiscalTermoSelected.DataEncerramento}" Margin="430,73,0,0"  />
+            <Label Content="Data Encerramento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FiscalTermoSelected.EscrituracaoInicio}" Margin="536,73,0,0"  />
+            <Label Content="Escrituração Início:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,54,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FiscalTermoSelected.EscrituracaoFim}" Margin="6,121,0,0"  />
+            <Label Content="Escrituração Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalTermoSelected.Texto}" Height="23" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="573" Margin="112,121,0,0"  />
+            <Label Content="Texto:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,102,0,0"  />
+        </Grid>
+	</DockPanel>
+</UserControl>

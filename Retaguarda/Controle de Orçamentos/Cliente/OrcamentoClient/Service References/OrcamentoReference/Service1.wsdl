@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2665/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2665/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2665/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/OrcamentoService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_selectPeriodo_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPeriodo" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectPeriodo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPeriodoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectNaturezaFinanceira_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectNaturezaFinanceira" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectNaturezaFinanceira_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectNaturezaFinanceiraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectLancamentosPagar_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectLancamentosPagar" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectLancamentosPagar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectLancamentosPagarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectLancamentosReceber_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectLancamentosReceber" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectLancamentosReceber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectLancamentosReceberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectOrcamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamento" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectOrcamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectOrcamentoCompleto_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoCompleto" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectOrcamentoCompleto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectOrcamentoCompletoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_saveOrcamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:saveOrcamento" />
+  </wsdl:message>
+  <wsdl:message name="IService_saveOrcamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:saveOrcamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectEmpresaId_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaId" />
+  </wsdl:message>
+  <wsdl:message name="IService_selectEmpresaId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="selectPeriodo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectPeriodo" message="tns:IService_selectPeriodo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectPeriodoResponse" message="tns:IService_selectPeriodo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectNaturezaFinanceira">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectNaturezaFinanceira" message="tns:IService_selectNaturezaFinanceira_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectNaturezaFinanceiraResponse" message="tns:IService_selectNaturezaFinanceira_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectLancamentosPagar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectLancamentosPagar" message="tns:IService_selectLancamentosPagar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectLancamentosPagarResponse" message="tns:IService_selectLancamentosPagar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectLancamentosReceber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectLancamentosReceber" message="tns:IService_selectLancamentosReceber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectLancamentosReceberResponse" message="tns:IService_selectLancamentosReceber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectOrcamento" message="tns:IService_selectOrcamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectOrcamentoResponse" message="tns:IService_selectOrcamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamentoCompleto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectOrcamentoCompleto" message="tns:IService_selectOrcamentoCompleto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectOrcamentoCompletoResponse" message="tns:IService_selectOrcamentoCompleto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="saveOrcamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/saveOrcamento" message="tns:IService_saveOrcamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/saveOrcamentoResponse" message="tns:IService_saveOrcamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectUsuario" message="tns:IService_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectUsuarioResponse" message="tns:IService_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectControleAcesso" message="tns:IService_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectControleAcessoResponse" message="tns:IService_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/selectEmpresaId" message="tns:IService_selectEmpresaId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/selectEmpresaIdResponse" message="tns:IService_selectEmpresaId_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="selectPeriodo">
+      <soap:operation soapAction="http://tempuri.org/IService/selectPeriodo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectNaturezaFinanceira">
+      <soap:operation soapAction="http://tempuri.org/IService/selectNaturezaFinanceira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectLancamentosPagar">
+      <soap:operation soapAction="http://tempuri.org/IService/selectLancamentosPagar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectLancamentosReceber">
+      <soap:operation soapAction="http://tempuri.org/IService/selectLancamentosReceber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamento">
+      <soap:operation soapAction="http://tempuri.org/IService/selectOrcamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectOrcamentoCompleto">
+      <soap:operation soapAction="http://tempuri.org/IService/selectOrcamentoCompleto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveOrcamento">
+      <soap:operation soapAction="http://tempuri.org/IService/saveOrcamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IService/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresaId">
+      <soap:operation soapAction="http://tempuri.org/IService/selectEmpresaId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://localhost:2665/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

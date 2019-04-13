@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="AdministrativoService" namespace="AdministrativoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PapelFuncaoDTO" table="papel_funcao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdPapel" column="ID_PAPEL" />
+    <property name="IdFuncao" column="ID_FUNCAO" />
+    <property name="PodeConsultar" column="PODE_CONSULTAR" />
+    <property name="PodeInserir" column="PODE_INSERIR" />
+    <property name="PodeAlterar" column="PODE_ALTERAR" />
+    <property name="PodeExcluir" column="PODE_EXCLUIR" />
+    <property name="Habilitado" column="HABILITADO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FluxoCaixaService" namespace="FluxoCaixaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewFinFluxoCaixaDTO" table="view_fin_fluxo_caixa" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="NomeContaCaixa" column="NOME_CONTA_CAIXA" />
+    <property name="NomePessoa" column="NOME_PESSOA" />
+    <property name="DataLancamento" column="DATA_LANCAMENTO" />
+    <property name="DataVencimento" column="DATA_VENCIMENTO" />
+    <property name="Valor" column="VALOR" />
+    <property name="CodigoSituacao" column="CODIGO_SITUACAO" />
+    <property name="DescricaoSituacao" column="DESCRICAO_SITUACAO" />
+    <property name="Operacao" column="OPERACAO" />
+  </class>
+</hibernate-mapping>

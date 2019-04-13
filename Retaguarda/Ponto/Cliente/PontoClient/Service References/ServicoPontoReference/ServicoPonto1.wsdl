@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoPonto" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2676/ServicoPonto.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2676/ServicoPonto.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2676/ServicoPonto.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PontoService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoPonto_deletePontoParametro_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoParametro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoParametro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoParametroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoParametro_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoParametro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoParametro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoParametroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoParametro_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoParametro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoParametro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoParametroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoParametroPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoParametroPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoParametroPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoParametroPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoHorario_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoHorario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoHorario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoHorarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoHorario_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoHorario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoHorario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoHorarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoHorario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoHorario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoHorario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoHorarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoHorarioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoHorarioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoHorarioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoHorarioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoEscala_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoEscala" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoEscala_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoEscalaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoEscala_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoEscala" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoEscala_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoEscalaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoEscala_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoEscala" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoEscala_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoEscalaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoEscalaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoEscalaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoEscalaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoEscalaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoClassificacaoJornada_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoClassificacaoJornada" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoClassificacaoJornada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoClassificacaoJornadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoClassificacaoJornada_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoClassificacaoJornada" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoClassificacaoJornada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoClassificacaoJornadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoClassificacaoJornada_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoClassificacaoJornada" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoClassificacaoJornada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoClassificacaoJornadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoClassificacaoJornadaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoClassificacaoJornadaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoClassificacaoJornadaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoClassificacaoJornadaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoAbono_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoAbono" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoAbono_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoAbonoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoAbono_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoAbono" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoAbono_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoAbonoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoAbono_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoAbono" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoAbono_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoAbonoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoAbonoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoAbonoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoAbonoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoAbonoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoRelogio_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoRelogio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoRelogio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoRelogioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoRelogio_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoRelogio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoRelogio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoRelogioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoRelogio_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoRelogio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoRelogio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoRelogioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoRelogioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoRelogioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoRelogioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoRelogioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoBancoHoras_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoBancoHoras" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoBancoHoras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoBancoHorasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoBancoHoras_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoBancoHoras" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoBancoHoras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoBancoHorasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoBancoHoras_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoBancoHoras" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoBancoHoras_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoBancoHorasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoBancoHorasPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoBancoHorasPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoBancoHorasPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoBancoHorasPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoMarcacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoMarcacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoMarcacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoMarcacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoMarcacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoMarcacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoMarcacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoMarcacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoMarcacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoMarcacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoMarcacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoMarcacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoMarcacaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoMarcacaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoMarcacaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoMarcacaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoFechamentoJornada_InputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoFechamentoJornada" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_deletePontoFechamentoJornada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deletePontoFechamentoJornadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoFechamentoJornada_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoFechamentoJornada" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_salvarAtualizarPontoFechamentoJornada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarPontoFechamentoJornadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoFechamentoJornada_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoFechamentoJornada" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoFechamentoJornada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoFechamentoJornadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoFechamentoJornadaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoFechamentoJornadaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectPontoFechamentoJornadaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectPontoFechamentoJornadaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectColaborador_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaborador" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectColaborador_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectColaboradorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectColaboradorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectColaboradorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectViewPontoMarcacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPontoMarcacao" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectViewPontoMarcacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPontoMarcacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectViewPontoMarcacaoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPontoMarcacaoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoPonto_selectViewPontoMarcacaoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewPontoMarcacaoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoPonto">
+    <wsdl:operation name="deletePontoParametro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoParametro" message="tns:IServicoPonto_deletePontoParametro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoParametroResponse" message="tns:IServicoPonto_deletePontoParametro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoParametro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoParametro" message="tns:IServicoPonto_salvarAtualizarPontoParametro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoParametroResponse" message="tns:IServicoPonto_salvarAtualizarPontoParametro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoParametro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoParametro" message="tns:IServicoPonto_selectPontoParametro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoParametroResponse" message="tns:IServicoPonto_selectPontoParametro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoParametroPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoParametroPagina" message="tns:IServicoPonto_selectPontoParametroPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoParametroPaginaResponse" message="tns:IServicoPonto_selectPontoParametroPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoHorario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoHorario" message="tns:IServicoPonto_deletePontoHorario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoHorarioResponse" message="tns:IServicoPonto_deletePontoHorario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoHorario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoHorario" message="tns:IServicoPonto_salvarAtualizarPontoHorario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoHorarioResponse" message="tns:IServicoPonto_salvarAtualizarPontoHorario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoHorario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoHorario" message="tns:IServicoPonto_selectPontoHorario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoHorarioResponse" message="tns:IServicoPonto_selectPontoHorario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoHorarioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoHorarioPagina" message="tns:IServicoPonto_selectPontoHorarioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoHorarioPaginaResponse" message="tns:IServicoPonto_selectPontoHorarioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoEscala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoEscala" message="tns:IServicoPonto_deletePontoEscala_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoEscalaResponse" message="tns:IServicoPonto_deletePontoEscala_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoEscala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoEscala" message="tns:IServicoPonto_salvarAtualizarPontoEscala_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoEscalaResponse" message="tns:IServicoPonto_salvarAtualizarPontoEscala_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoEscala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoEscala" message="tns:IServicoPonto_selectPontoEscala_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoEscalaResponse" message="tns:IServicoPonto_selectPontoEscala_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoEscalaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoEscalaPagina" message="tns:IServicoPonto_selectPontoEscalaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoEscalaPaginaResponse" message="tns:IServicoPonto_selectPontoEscalaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoClassificacaoJornada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoClassificacaoJornada" message="tns:IServicoPonto_deletePontoClassificacaoJornada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoClassificacaoJornadaResponse" message="tns:IServicoPonto_deletePontoClassificacaoJornada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoClassificacaoJornada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoClassificacaoJornada" message="tns:IServicoPonto_salvarAtualizarPontoClassificacaoJornada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoClassificacaoJornadaResponse" message="tns:IServicoPonto_salvarAtualizarPontoClassificacaoJornada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoClassificacaoJornada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoClassificacaoJornada" message="tns:IServicoPonto_selectPontoClassificacaoJornada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoClassificacaoJornadaResponse" message="tns:IServicoPonto_selectPontoClassificacaoJornada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoClassificacaoJornadaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoClassificacaoJornadaPagina" message="tns:IServicoPonto_selectPontoClassificacaoJornadaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoClassificacaoJornadaPaginaResponse" message="tns:IServicoPonto_selectPontoClassificacaoJornadaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoAbono">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoAbono" message="tns:IServicoPonto_deletePontoAbono_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoAbonoResponse" message="tns:IServicoPonto_deletePontoAbono_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoAbono">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoAbono" message="tns:IServicoPonto_salvarAtualizarPontoAbono_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoAbonoResponse" message="tns:IServicoPonto_salvarAtualizarPontoAbono_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoAbono">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoAbono" message="tns:IServicoPonto_selectPontoAbono_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoAbonoResponse" message="tns:IServicoPonto_selectPontoAbono_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoAbonoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoAbonoPagina" message="tns:IServicoPonto_selectPontoAbonoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoAbonoPaginaResponse" message="tns:IServicoPonto_selectPontoAbonoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoRelogio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoRelogio" message="tns:IServicoPonto_deletePontoRelogio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoRelogioResponse" message="tns:IServicoPonto_deletePontoRelogio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoRelogio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoRelogio" message="tns:IServicoPonto_salvarAtualizarPontoRelogio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoRelogioResponse" message="tns:IServicoPonto_salvarAtualizarPontoRelogio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoRelogio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoRelogio" message="tns:IServicoPonto_selectPontoRelogio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoRelogioResponse" message="tns:IServicoPonto_selectPontoRelogio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoRelogioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoRelogioPagina" message="tns:IServicoPonto_selectPontoRelogioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoRelogioPaginaResponse" message="tns:IServicoPonto_selectPontoRelogioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoBancoHoras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoBancoHoras" message="tns:IServicoPonto_deletePontoBancoHoras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoBancoHorasResponse" message="tns:IServicoPonto_deletePontoBancoHoras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoBancoHoras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoBancoHoras" message="tns:IServicoPonto_salvarAtualizarPontoBancoHoras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoBancoHorasResponse" message="tns:IServicoPonto_salvarAtualizarPontoBancoHoras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoBancoHoras">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoBancoHoras" message="tns:IServicoPonto_selectPontoBancoHoras_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoBancoHorasResponse" message="tns:IServicoPonto_selectPontoBancoHoras_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoBancoHorasPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoBancoHorasPagina" message="tns:IServicoPonto_selectPontoBancoHorasPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoBancoHorasPaginaResponse" message="tns:IServicoPonto_selectPontoBancoHorasPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoMarcacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoMarcacao" message="tns:IServicoPonto_deletePontoMarcacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoMarcacaoResponse" message="tns:IServicoPonto_deletePontoMarcacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoMarcacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoMarcacao" message="tns:IServicoPonto_salvarAtualizarPontoMarcacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoMarcacaoResponse" message="tns:IServicoPonto_salvarAtualizarPontoMarcacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoMarcacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoMarcacao" message="tns:IServicoPonto_selectPontoMarcacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoMarcacaoResponse" message="tns:IServicoPonto_selectPontoMarcacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoMarcacaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoMarcacaoPagina" message="tns:IServicoPonto_selectPontoMarcacaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoMarcacaoPaginaResponse" message="tns:IServicoPonto_selectPontoMarcacaoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoFechamentoJornada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoFechamentoJornada" message="tns:IServicoPonto_deletePontoFechamentoJornada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/deletePontoFechamentoJornadaResponse" message="tns:IServicoPonto_deletePontoFechamentoJornada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoFechamentoJornada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoFechamentoJornada" message="tns:IServicoPonto_salvarAtualizarPontoFechamentoJornada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/salvarAtualizarPontoFechamentoJornadaResponse" message="tns:IServicoPonto_salvarAtualizarPontoFechamentoJornada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoFechamentoJornada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoFechamentoJornada" message="tns:IServicoPonto_selectPontoFechamentoJornada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoFechamentoJornadaResponse" message="tns:IServicoPonto_selectPontoFechamentoJornada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoFechamentoJornadaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoFechamentoJornadaPagina" message="tns:IServicoPonto_selectPontoFechamentoJornadaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectPontoFechamentoJornadaPaginaResponse" message="tns:IServicoPonto_selectPontoFechamentoJornadaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectColaborador" message="tns:IServicoPonto_selectColaborador_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectColaboradorResponse" message="tns:IServicoPonto_selectColaborador_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectColaboradorPagina" message="tns:IServicoPonto_selectColaboradorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectColaboradorPaginaResponse" message="tns:IServicoPonto_selectColaboradorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectUsuario" message="tns:IServicoPonto_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectUsuarioResponse" message="tns:IServicoPonto_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectControleAcesso" message="tns:IServicoPonto_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectControleAcessoResponse" message="tns:IServicoPonto_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPontoMarcacao">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectViewPontoMarcacao" message="tns:IServicoPonto_selectViewPontoMarcacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectViewPontoMarcacaoResponse" message="tns:IServicoPonto_selectViewPontoMarcacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPontoMarcacaoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoPonto/selectViewPontoMarcacaoPagina" message="tns:IServicoPonto_selectViewPontoMarcacaoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoPonto/selectViewPontoMarcacaoPaginaResponse" message="tns:IServicoPonto_selectViewPontoMarcacaoPagina_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoPonto" type="tns:IServicoPonto">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deletePontoParametro">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoParametro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoParametro">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoParametro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoParametro">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoParametro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoParametroPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoParametroPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoHorario">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoHorario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoHorario">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoHorario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoHorario">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoHorario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoHorarioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoHorarioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoEscala">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoEscala" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoEscala">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoEscala" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoEscala">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoEscala" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoEscalaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoEscalaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoClassificacaoJornada">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoClassificacaoJornada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoClassificacaoJornada">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoClassificacaoJornada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoClassificacaoJornada">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoClassificacaoJornada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoClassificacaoJornadaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoClassificacaoJornadaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoAbono">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoAbono" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoAbono">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoAbono" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoAbono">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoAbono" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoAbonoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoAbonoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoRelogio">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoRelogio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoRelogio">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoRelogio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoRelogio">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoRelogio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoRelogioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoRelogioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoBancoHoras">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoBancoHoras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoBancoHoras">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoBancoHoras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoBancoHoras">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoBancoHoras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoBancoHorasPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoBancoHorasPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoMarcacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoMarcacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoMarcacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoMarcacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoMarcacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoMarcacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoMarcacaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoMarcacaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deletePontoFechamentoJornada">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/deletePontoFechamentoJornada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarPontoFechamentoJornada">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/salvarAtualizarPontoFechamentoJornada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoFechamentoJornada">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoFechamentoJornada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectPontoFechamentoJornadaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectPontoFechamentoJornadaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaborador">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectColaborador" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectColaboradorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectColaboradorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPontoMarcacao">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectViewPontoMarcacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewPontoMarcacaoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoPonto/selectViewPontoMarcacaoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoPonto">
+    <wsdl:port name="BasicHttpBinding_IServicoPonto" binding="tns:BasicHttpBinding_IServicoPonto">
+      <soap:address location="http://localhost:2676/ServicoPonto.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

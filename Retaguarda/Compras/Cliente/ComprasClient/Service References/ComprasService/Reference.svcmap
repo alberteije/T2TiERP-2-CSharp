@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="59ac8e88-f82c-480a-8b93-8b7ac9bacf28" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2661/ComprasService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ComprasService1.disco" MetadataType="Disco" ID="b69dc22c-0a02-4704-994d-a7d58d445fe2" SourceId="1" SourceUrl="http://localhost:2661/ComprasService.svc?disco" />
+    <MetadataFile FileName="ComprasService3.xsd" MetadataType="Schema" ID="dfe32512-53e9-4357-b6e2-d4d373c7f2de" SourceId="1" SourceUrl="http://localhost:2661/ComprasService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ComprasService1.wsdl" MetadataType="Wsdl" ID="7ba03f12-4267-4973-aceb-6dffa3f34992" SourceId="1" SourceUrl="http://localhost:2661/ComprasService.svc?wsdl" />
+    <MetadataFile FileName="ComprasService31.xsd" MetadataType="Schema" ID="6ed1b0f2-6ac0-482d-95ce-d40ae4d3dc9f" SourceId="1" SourceUrl="http://localhost:2661/ComprasService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ComprasService32.xsd" MetadataType="Schema" ID="1c3dbd4b-6d22-47bd-a5b5-e656b36ce43e" SourceId="1" SourceUrl="http://localhost:2661/ComprasService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

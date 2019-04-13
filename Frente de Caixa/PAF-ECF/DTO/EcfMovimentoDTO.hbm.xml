@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfMovimentoDTO" table="ecf_movimento" >
+    
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_movimento</param>
+      </generator>
+    </id>
+
+    <many-to-one name="EcfEmpresa" column="ID_ECF_EMPRESA" />
+    <many-to-one name="EcfTurno" column="ID_ECF_TURNO" />
+    <many-to-one name="EcfImpressora" column="ID_ECF_IMPRESSORA" />
+    <many-to-one name="EcfOperador" column="ID_ECF_OPERADOR" />
+    <many-to-one name="EcfCaixa" column="ID_ECF_CAIXA" />
+    <property name="IdGerenteSupervisor" column="ID_GERENTE_SUPERVISOR" />
+    <property name="DataAbertura" column="DATA_ABERTURA" />
+    <property name="HoraAbertura" column="HORA_ABERTURA" />
+    <property name="DataFechamento" column="DATA_FECHAMENTO" />
+    <property name="HoraFechamento" column="HORA_FECHAMENTO" />
+    <property name="TotalSuprimento" column="TOTAL_SUPRIMENTO" />
+    <property name="TotalSangria" column="TOTAL_SANGRIA" />
+    <property name="TotalNaoFiscal" column="TOTAL_NAO_FISCAL" />
+    <property name="TotalVenda" column="TOTAL_VENDA" />
+    <property name="TotalDesconto" column="TOTAL_DESCONTO" />
+    <property name="TotalAcrescimo" column="TOTAL_ACRESCIMO" />
+    <property name="TotalFinal" column="TOTAL_FINAL" />
+    <property name="TotalRecebido" column="TOTAL_RECEBIDO" />
+    <property name="TotalTroco" column="TOTAL_TROCO" />
+    <property name="TotalCancelado" column="TOTAL_CANCELADO" />
+    <property name="StatusMovimento" column="STATUS_MOVIMENTO" />
+
+    <bag name="ListaEcfFechamento" cascade="none" lazy="false" >
+      <key column="ID_ECF_MOVIMENTO" />
+      <one-to-many class="EcfFechamentoDTO" />
+    </bag>
+
+    <bag name="ListaEcfSuprimento" cascade="none" lazy="false" >
+      <key column="ID_ECF_MOVIMENTO" />
+      <one-to-many class="EcfSuprimentoDTO" />
+    </bag>
+
+    <bag name="ListaEcfSangria" cascade="none" lazy="false" >
+      <key column="ID_ECF_MOVIMENTO" />
+      <one-to-many class="EcfSangriaDTO" />
+    </bag>
+
+    <bag name="ListaEcfDocumentosEmitidos" cascade="none" lazy="false" >
+      <key column="ID_ECF_MOVIMENTO" />
+      <one-to-many class="EcfDocumentosEmitidosDTO" />
+    </bag>
+
+    <bag name="ListaEcfRecebimentoNaoFiscal" cascade="none" lazy="false" >
+      <key column="ID_ECF_MOVIMENTO" />
+      <one-to-many class="EcfRecebimentoNaoFiscalDTO" />
+    </bag>
+
+  </class>
+</hibernate-mapping>

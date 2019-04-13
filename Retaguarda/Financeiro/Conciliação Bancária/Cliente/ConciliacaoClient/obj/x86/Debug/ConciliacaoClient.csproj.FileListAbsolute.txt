@@ -1,0 +1,123 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancaria.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancaria.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.g.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe.config
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ConciliacaoClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\ConciliacaoClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancaria.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancaria.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\ConciliacaoClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ConciliacaoClient\ConciliacaoClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\ConciliacaoClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\ConciliacaoClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\Ionic.Zip.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\ExportarParaArquivo.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ConciliacaoBancaria\ConciliacaoBancariaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Conciliação Bancária\Cliente\ConciliacaoClient\obj\x86\Debug\ConciliacaoClient.csproj.GenerateResource.Cache

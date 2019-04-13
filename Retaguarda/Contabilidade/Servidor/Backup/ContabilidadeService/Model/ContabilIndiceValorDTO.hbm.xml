@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ContabilidadeService" namespace="ContabilidadeService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilIndiceValorDTO" table="contabil_indice_valor" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdContabilIndice" column="ID_CONTABIL_INDICE" />
+    <property name="DataIndice" column="DATA_INDICE" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

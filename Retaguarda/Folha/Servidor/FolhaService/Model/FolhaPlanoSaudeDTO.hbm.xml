@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaPlanoSaudeDTO" table="folha_plano_saude" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="OperadoraPlanoSaude" column="ID_OPERADORA_PLANO_SAUDE" />
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="DataInicio" column="DATA_INICIO" />
+    <property name="Beneficiario" column="BENEFICIARIO" />
+  </class>
+</hibernate-mapping>

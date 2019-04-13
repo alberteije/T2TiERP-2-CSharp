@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9281B60A-BE10-4F87-B7D2-ADB71CE2D8AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCP</RootNamespace>
+    <AssemblyName>PCP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\ButtonExport\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NRtfTree, Version=0.3.3503.32553, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\ButtonExport\NRtfTree.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SearchWindow">
+      <HintPath>..\..\..\libs\SearchWindow\SearchWindow.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="ExportarParaArquivo\Control\ButtonExport.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorCSV.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorExcel.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorRTF.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\ExportadorTXT.cs" />
+    <Compile Include="ExportarParaArquivo\Exportador\IExportador.cs" />
+    <Compile Include="ExportarParaArquivo\Exportar.cs" />
+    <Compile Include="Model\ServicoPcp.cs" />
+    <Compile Include="Service References\Servico\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Util\BooleanCharConverter.cs" />
+    <Compile Include="Util\CloseableTabItem.cs" />
+    <Compile Include="Util\MoedaFormat.cs" />
+    <Compile Include="Util\RadioStringConverter.cs" />
+    <Compile Include="ViewModel\PcpInstrucaoViewModel.cs" />
+    <Compile Include="ViewModel\PcpOpCabecalhoViewModel.cs" />
+    <Compile Include="ViewModel\ProdutoViewModel.cs" />
+    <Compile Include="ViewModel\UnidadeProdutoViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\Botoes\BarraExterna.xaml.cs">
+      <DependentUpon>BarraExterna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Botoes\BarraInterna.xaml.cs">
+      <DependentUpon>BarraInterna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PcpInstrucao.xaml.cs">
+      <DependentUpon>PcpInstrucao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PcpInstrucaoLista.xaml.cs">
+      <DependentUpon>PcpInstrucaoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PcpInstrucaoPrincipal.xaml.cs">
+      <DependentUpon>PcpInstrucaoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PcpOpCabecalho.xaml.cs">
+      <DependentUpon>PcpOpCabecalho.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PcpOpCabecalhoLista.xaml.cs">
+      <DependentUpon>PcpOpCabecalhoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PcpOpCabecalhoPrincipal.xaml.cs">
+      <DependentUpon>PcpOpCabecalhoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Principal.xaml.cs">
+      <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Produto.xaml.cs">
+      <DependentUpon>Produto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProdutoLista.xaml.cs">
+      <DependentUpon>ProdutoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProdutoPrincipal.xaml.cs">
+      <DependentUpon>ProdutoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UnidadeProduto.xaml.cs">
+      <DependentUpon>UnidadeProduto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UnidadeProdutoLista.xaml.cs">
+      <DependentUpon>UnidadeProdutoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UnidadeProdutoPrincipal.xaml.cs">
+      <DependentUpon>UnidadeProdutoPrincipal.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Images\ged\Thumbs.db" />
+    <None Include="Images\internos\Thumbs.db" />
+    <None Include="Images\navigator\Thumbs.db" />
+    <None Include="Images\Thumbs.db" />
+    <None Include="Images\titulos\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\Servico\PCP.Servico.AlmoxarifadoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.AtividadeForCliDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.BancoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CargoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CboDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraCotacaoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraCotacaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraCotacaoPedidoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraFornecedorCotacaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraPedidoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraPedidoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraReqCotacaoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraRequisicaoDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraRequisicaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraTipoPedidoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.CompraTipoRequisicaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ContadorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.DavCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.EmpresaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.EstadoCivilDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.FiscalApuracaoIcmsDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.FiscalLivroDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.FiscalParametroDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.FiscalTermoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.NfeCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.NotaFiscalTipoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.OperadoraPlanoSaudeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PaisDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpInstrucaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpInstrucaoOpDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpOpCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpOpDetalheDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpServicoColaboradorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpServicoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PcpServicoEquipamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PessoaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.PreVendaCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ProdutoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ProdutoMarcaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ProdutoSubGrupoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.RegistroCartorioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.SimplesNacionalCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.TributGrupoTributarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.TributIcmsCustomCabDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.TributOperacaoFiscalDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.UnidadeProdutoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ViewTributacaoCofinsDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ViewTributacaoIcmsDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\PCP.Servico.ViewTributacaoPisDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Servico\ServiceServidor.wsdl" />
+    <None Include="Service References\Servico\Servidor.xsd" />
+    <None Include="Service References\Servico\Servidor1.xsd" />
+    <None Include="Service References\Servico\Servidor2.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExportarParaArquivo\Libs\Ionic.Zip.dll" />
+    <Content Include="ExportarParaArquivo\Libs\NPOI.dll" />
+    <Content Include="ExportarParaArquivo\Libs\NRtfTree.dll" />
+    <None Include="Service References\Servico\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\Servico\configuration.svcinfo" />
+    <None Include="Service References\Servico\configuration91.svcinfo" />
+    <None Include="Service References\Servico\Servidor.disco" />
+    <Resource Include="Images\botaoCancelar.png" />
+    <Resource Include="Images\botaoConfirmar.png" />
+    <Resource Include="Images\ged\assinado.png" />
+    <Resource Include="Images\ged\bi.png" />
+    <Resource Include="Images\ged\cracha.png" />
+    <Resource Include="Images\ged\document.png" />
+    <Resource Include="Images\ged\ficha.png" />
+    <Resource Include="Images\ged\folder.png" />
+    <Resource Include="Images\ged\foto.png" />
+    <Resource Include="Images\ged\preview.png" />
+    <Resource Include="Images\ged\scanner.png" />
+    <Resource Include="Images\ged\webcam.png" />
+    <Resource Include="Images\internos\alterar.png" />
+    <Resource Include="Images\internos\cancelar.png" />
+    <Resource Include="Images\internos\csv.png" />
+    <Resource Include="Images\internos\excluir.png" />
+    <Resource Include="Images\internos\exportar.png" />
+    <Resource Include="Images\internos\imprimir.png" />
+    <Resource Include="Images\internos\inserir.png" />
+    <Resource Include="Images\internos\localizar.png" />
+    <Resource Include="Images\internos\rtf.png" />
+    <Resource Include="Images\internos\salvar.png" />
+    <Resource Include="Images\internos\seguranca.png" />
+    <Resource Include="Images\internos\txt.png" />
+    <Resource Include="Images\internos\xls.png" />
+    <Resource Include="Images\login.jpg" />
+    <Resource Include="Images\navigator\first16.png" />
+    <Resource Include="Images\navigator\first16d.png" />
+    <Resource Include="Images\navigator\last16.png" />
+    <Resource Include="Images\navigator\last16d.png" />
+    <Resource Include="Images\navigator\next16.png" />
+    <Resource Include="Images\navigator\next16d.png" />
+    <Resource Include="Images\navigator\page-next16.png" />
+    <Resource Include="Images\navigator\page-next16d.png" />
+    <Resource Include="Images\navigator\page-prior16.png" />
+    <Resource Include="Images\navigator\page-prior16d.png" />
+    <Resource Include="Images\navigator\prior16.png" />
+    <Resource Include="Images\navigator\prior16d.png" />
+    <Resource Include="Images\porta.png" />
+    <Resource Include="Images\titulos\agencia_banco16.png" />
+    <Resource Include="Images\titulos\agencia_banco32.png" />
+    <Resource Include="Images\titulos\agencia_banco48.png" />
+    <Resource Include="Images\titulos\almoxarifado16.png" />
+    <Resource Include="Images\titulos\almoxarifado32.png" />
+    <Resource Include="Images\titulos\almoxarifado48.png" />
+    <Resource Include="Images\titulos\ArmazenarExtratoBancario16.png" />
+    <Resource Include="Images\titulos\ArmazenarExtratoBancario32.png" />
+    <Resource Include="Images\titulos\ArmazenarExtratoBancario48.png" />
+    <Resource Include="Images\titulos\atividade_for_cli16.png" />
+    <Resource Include="Images\titulos\atividade_for_cli32.png" />
+    <Resource Include="Images\titulos\atividade_for_cli48.png" />
+    <Resource Include="Images\titulos\bairro16.png" />
+    <Resource Include="Images\titulos\bairro32.png" />
+    <Resource Include="Images\titulos\bairro48.png" />
+    <Resource Include="Images\titulos\banco16.png" />
+    <Resource Include="Images\titulos\banco32.png" />
+    <Resource Include="Images\titulos\banco48.png" />
+    <Resource Include="Images\titulos\Caduceus-16.png" />
+    <Resource Include="Images\titulos\Caduceus-32.png" />
+    <Resource Include="Images\titulos\Caduceus-48.png" />
+    <Resource Include="Images\titulos\Caduceus-64.png" />
+    <Resource Include="Images\titulos\calendario16.png" />
+    <Resource Include="Images\titulos\calendario32.png" />
+    <Resource Include="Images\titulos\calendario48.png" />
+    <Resource Include="Images\titulos\cargo16.png" />
+    <Resource Include="Images\titulos\cargo32.png" />
+    <Resource Include="Images\titulos\cargo48.png" />
+    <Resource Include="Images\titulos\centroResultado16.png" />
+    <Resource Include="Images\titulos\centroResultado32.png" />
+    <Resource Include="Images\titulos\centroResultado48.png" />
+    <Resource Include="Images\titulos\cep16.png" />
+    <Resource Include="Images\titulos\cep32.png" />
+    <Resource Include="Images\titulos\cep48.png" />
+    <Resource Include="Images\titulos\cfop16.png" />
+    <Resource Include="Images\titulos\cfop32.png" />
+    <Resource Include="Images\titulos\cfop48.png" />
+    <Resource Include="Images\titulos\cheque16.png" />
+    <Resource Include="Images\titulos\cheque32.png" />
+    <Resource Include="Images\titulos\cheque48.png" />
+    <Resource Include="Images\titulos\cliente16.png" />
+    <Resource Include="Images\titulos\cliente32.png" />
+    <Resource Include="Images\titulos\cliente48.png" />
+    <Resource Include="Images\titulos\colaborador16.png" />
+    <Resource Include="Images\titulos\colaborador32.png" />
+    <Resource Include="Images\titulos\colaborador48.png" />
+    <Resource Include="Images\titulos\compraSugerida16.png" />
+    <Resource Include="Images\titulos\compraSugerida32.png" />
+    <Resource Include="Images\titulos\compraSugerida48.png" />
+    <Resource Include="Images\titulos\ConciliarCheque16.png" />
+    <Resource Include="Images\titulos\ConciliarCheque32.png" />
+    <Resource Include="Images\titulos\ConciliarCheque48.png" />
+    <Resource Include="Images\titulos\ConciliarLancamento16.png" />
+    <Resource Include="Images\titulos\ConciliarLancamento32.png" />
+    <Resource Include="Images\titulos\ConciliarLancamento48.png" />
+    <Resource Include="Images\titulos\condicoesPagamento128.png" />
+    <Resource Include="Images\titulos\condicoesPagamento16.png" />
+    <Resource Include="Images\titulos\condicoesPagamento32.png" />
+    <Resource Include="Images\titulos\condicoesPagamento48.png" />
+    <Resource Include="Images\titulos\contador16.png" />
+    <Resource Include="Images\titulos\contador32.png" />
+    <Resource Include="Images\titulos\contador48.png" />
+    <Resource Include="Images\titulos\conta_caixa16.png" />
+    <Resource Include="Images\titulos\conta_caixa32.png" />
+    <Resource Include="Images\titulos\conta_caixa48.png" />
+    <Resource Include="Images\titulos\convenio16.png" />
+    <Resource Include="Images\titulos\convenio32.png" />
+    <Resource Include="Images\titulos\convenio48.png" />
+    <Resource Include="Images\titulos\cotacaoCompra16.png" />
+    <Resource Include="Images\titulos\cotacaoCompra32.png" />
+    <Resource Include="Images\titulos\cotacaoCompra48.png" />
+    <Resource Include="Images\titulos\dav16.png" />
+    <Resource Include="Images\titulos\dav32.png" />
+    <Resource Include="Images\titulos\dav48.png" />
+    <Resource Include="Images\titulos\document-icon128.ico" />
+    <Resource Include="Images\titulos\document-icon128.png" />
+    <Resource Include="Images\titulos\document-icon16.png" />
+    <Resource Include="Images\titulos\document-icon32.png" />
+    <Resource Include="Images\titulos\document-icon48.png" />
+    <Resource Include="Images\titulos\documento16.png" />
+    <Resource Include="Images\titulos\documento32.png" />
+    <Resource Include="Images\titulos\documento48.png" />
+    <Resource Include="Images\titulos\documentoOrigem16.png" />
+    <Resource Include="Images\titulos\documentoOrigem32.png" />
+    <Resource Include="Images\titulos\documentoOrigem48.png" />
+    <Resource Include="Images\titulos\download-box-icon128.ico" />
+    <Resource Include="Images\titulos\download-box-icon128.png" />
+    <Resource Include="Images\titulos\download-box-icon16.png" />
+    <Resource Include="Images\titulos\download-box-icon32.png" />
+    <Resource Include="Images\titulos\download-box-icon48.png" />
+    <Resource Include="Images\titulos\enderecos16.png" />
+    <Resource Include="Images\titulos\enderecos32.png" />
+    <Resource Include="Images\titulos\enderecos48.png" />
+    <Resource Include="Images\titulos\estado_civil16.png" />
+    <Resource Include="Images\titulos\estado_civil32.png" />
+    <Resource Include="Images\titulos\estado_civil48.png" />
+    <Resource Include="Images\titulos\excel16.png" />
+    <Resource Include="Images\titulos\excel16d.png" />
+    <Resource Include="Images\titulos\first16.png" />
+    <Resource Include="Images\titulos\first16d.png" />
+    <Resource Include="Images\titulos\fluxoCaixa16.png" />
+    <Resource Include="Images\titulos\fluxoCaixa32.png" />
+    <Resource Include="Images\titulos\fluxoCaixa48.png" />
+    <Resource Include="Images\titulos\fornecedor16.png" />
+    <Resource Include="Images\titulos\fornecedor32.png" />
+    <Resource Include="Images\titulos\fornecedor48.png" />
+    <Resource Include="Images\titulos\frete128.png" />
+    <Resource Include="Images\titulos\frete16.png" />
+    <Resource Include="Images\titulos\frete32.png" />
+    <Resource Include="Images\titulos\frete48.png" />
+    <Resource Include="Images\titulos\html16.png" />
+    <Resource Include="Images\titulos\html16d.png" />
+    <Resource Include="Images\titulos\importaCotacaoCompra16.png" />
+    <Resource Include="Images\titulos\importaCotacaoCompra32.png" />
+    <Resource Include="Images\titulos\importaCotacaoCompra48.png" />
+    <Resource Include="Images\titulos\indice_economico16.png" />
+    <Resource Include="Images\titulos\indice_economico32.png" />
+    <Resource Include="Images\titulos\indice_economico48.png" />
+    <Resource Include="Images\titulos\lancamentoPagar16.png" />
+    <Resource Include="Images\titulos\lancamentoPagar32.png" />
+    <Resource Include="Images\titulos\lancamentoPagar48.png" />
+    <Resource Include="Images\titulos\lancamentoReceber16.png" />
+    <Resource Include="Images\titulos\lancamentoReceber32.png" />
+    <Resource Include="Images\titulos\lancamentoReceber48.png" />
+    <Resource Include="Images\titulos\last16.png" />
+    <Resource Include="Images\titulos\last16d.png" />
+    <Resource Include="Images\titulos\mapa16.png" />
+    <Resource Include="Images\titulos\mapa32.png" />
+    <Resource Include="Images\titulos\mapa48.png" />
+    <Resource Include="Images\titulos\mapaComparativo16.png" />
+    <Resource Include="Images\titulos\mapaComparativo32.png" />
+    <Resource Include="Images\titulos\mapaComparativo48.png" />
+    <Resource Include="Images\titulos\marca16.png" />
+    <Resource Include="Images\titulos\marca32.png" />
+    <Resource Include="Images\titulos\marca48.png" />
+    <Resource Include="Images\titulos\movimentoCaixaBanco16.png" />
+    <Resource Include="Images\titulos\movimentoCaixaBanco32.png" />
+    <Resource Include="Images\titulos\movimentoCaixaBanco48.png" />
+    <Resource Include="Images\titulos\municipio16.png" />
+    <Resource Include="Images\titulos\municipio32.png" />
+    <Resource Include="Images\titulos\municipio48.png" />
+    <Resource Include="Images\titulos\naturezaFinanceira16.png" />
+    <Resource Include="Images\titulos\naturezaFinanceira32.png" />
+    <Resource Include="Images\titulos\naturezaFinanceira48.png" />
+    <Resource Include="Images\titulos\ncm16.png" />
+    <Resource Include="Images\titulos\ncm32.png" />
+    <Resource Include="Images\titulos\ncm48.png" />
+    <Resource Include="Images\titulos\next16.png" />
+    <Resource Include="Images\titulos\next16d.png" />
+    <Resource Include="Images\titulos\nfe128.png" />
+    <Resource Include="Images\titulos\nfe16.png" />
+    <Resource Include="Images\titulos\nfe32.png" />
+    <Resource Include="Images\titulos\nfe48.png" />
+    <Resource Include="Images\titulos\nivel_formacao16.png" />
+    <Resource Include="Images\titulos\nivel_formacao32.png" />
+    <Resource Include="Images\titulos\nivel_formacao48.png" />
+    <Resource Include="Images\titulos\operadora_cartao16.png" />
+    <Resource Include="Images\titulos\operadora_cartao32.png" />
+    <Resource Include="Images\titulos\operadora_cartao48.png" />
+    <Resource Include="Images\titulos\orcamento16.png" />
+    <Resource Include="Images\titulos\orcamento32.png" />
+    <Resource Include="Images\titulos\orcamento48.png" />
+    <Resource Include="Images\titulos\orcamentoVenda128.png" />
+    <Resource Include="Images\titulos\orcamentoVenda16.png" />
+    <Resource Include="Images\titulos\orcamentoVenda32.png" />
+    <Resource Include="Images\titulos\orcamentoVenda48.png" />
+    <Resource Include="Images\titulos\outroPedido16.png" />
+    <Resource Include="Images\titulos\outroPedido32.png" />
+    <Resource Include="Images\titulos\outroPedido48.png" />
+    <Resource Include="Images\titulos\pagamentoParcela16.png" />
+    <Resource Include="Images\titulos\pagamentoParcela32.png" />
+    <Resource Include="Images\titulos\pagamentoParcela48.png" />
+    <Resource Include="Images\titulos\page-next16.png" />
+    <Resource Include="Images\titulos\page-next16d.png" />
+    <Resource Include="Images\titulos\page-prior16.png" />
+    <Resource Include="Images\titulos\page-prior16d.png" />
+    <Resource Include="Images\titulos\pais16.png" />
+    <Resource Include="Images\titulos\pais32.png" />
+    <Resource Include="Images\titulos\pais48.png" />
+    <Resource Include="Images\titulos\pedidoCompra16.png" />
+    <Resource Include="Images\titulos\pedidoCompra32.png" />
+    <Resource Include="Images\titulos\pedidoCompra48.png" />
+    <Resource Include="Images\titulos\pessoa16.png" />
+    <Resource Include="Images\titulos\pessoa32.png" />
+    <Resource Include="Images\titulos\pessoa48.png" />
+    <Resource Include="Images\titulos\porta16.png" />
+    <Resource Include="Images\titulos\porta32.png" />
+    <Resource Include="Images\titulos\porta48.png" />
+    <Resource Include="Images\titulos\preVenda16.png" />
+    <Resource Include="Images\titulos\preVenda32.png" />
+    <Resource Include="Images\titulos\preVenda48.png" />
+    <Resource Include="Images\titulos\prior16.png" />
+    <Resource Include="Images\titulos\prior16d.png" />
+    <Resource Include="Images\titulos\produto16.png" />
+    <Resource Include="Images\titulos\produto32.png" />
+    <Resource Include="Images\titulos\produto48.png" />
+    <Resource Include="Images\titulos\Recebimento16.png" />
+    <Resource Include="Images\titulos\Recebimento32.png" />
+    <Resource Include="Images\titulos\Recebimento48.png" />
+    <Resource Include="Images\titulos\requisicaoCompra16.png" />
+    <Resource Include="Images\titulos\requisicaoCompra32.png" />
+    <Resource Include="Images\titulos\requisicaoCompra48.png" />
+    <Resource Include="Images\titulos\ResumoTesouraria16.png" />
+    <Resource Include="Images\titulos\ResumoTesouraria32.png" />
+    <Resource Include="Images\titulos\ResumoTesouraria48.png" />
+    <Resource Include="Images\titulos\setor16.png" />
+    <Resource Include="Images\titulos\setor32.png" />
+    <Resource Include="Images\titulos\setor48.png" />
+    <Resource Include="Images\titulos\situacao16.png" />
+    <Resource Include="Images\titulos\situacao32.png" />
+    <Resource Include="Images\titulos\situacao48.png" />
+    <Resource Include="Images\titulos\SpedFiscal128.png" />
+    <Resource Include="Images\titulos\SpedFiscal16.png" />
+    <Resource Include="Images\titulos\SpedFiscal256.png" />
+    <Resource Include="Images\titulos\SpedFiscal32.png" />
+    <Resource Include="Images\titulos\SpedFiscal48.png" />
+    <Resource Include="Images\titulos\SpedFiscal64.png" />
+    <Resource Include="Images\titulos\statusParcela16.png" />
+    <Resource Include="Images\titulos\statusParcela32.png" />
+    <Resource Include="Images\titulos\statusParcela48.png" />
+    <Resource Include="Images\titulos\t2ti32.png" />
+    <Resource Include="Images\titulos\talonario16.png" />
+    <Resource Include="Images\titulos\talonario32.png" />
+    <Resource Include="Images\titulos\talonario48.png" />
+    <Resource Include="Images\titulos\tipoDocumento16.png" />
+    <Resource Include="Images\titulos\tipoDocumento32.png" />
+    <Resource Include="Images\titulos\tipoDocumento48.png" />
+    <Resource Include="Images\titulos\tipoNotaFiscal128.png" />
+    <Resource Include="Images\titulos\tipoNotaFiscal16.png" />
+    <Resource Include="Images\titulos\tipoNotaFiscal32.png" />
+    <Resource Include="Images\titulos\tipoNotaFiscal48.png" />
+    <Resource Include="Images\titulos\tipoPagamento16.png" />
+    <Resource Include="Images\titulos\tipoPagamento32.png" />
+    <Resource Include="Images\titulos\tipoPagamento48.png" />
+    <Resource Include="Images\titulos\tipoRequisicao16.png" />
+    <Resource Include="Images\titulos\tipoRequisicao32.png" />
+    <Resource Include="Images\titulos\tipoRequisicao48.png" />
+    <Resource Include="Images\titulos\tipo_colaborador16.png" />
+    <Resource Include="Images\titulos\tipo_colaborador32.png" />
+    <Resource Include="Images\titulos\tipo_colaborador48.png" />
+    <Resource Include="Images\titulos\transportadora16.png" />
+    <Resource Include="Images\titulos\transportadora32.png" />
+    <Resource Include="Images\titulos\transportadora48.png" />
+    <Resource Include="Images\titulos\txt16.png" />
+    <Resource Include="Images\titulos\txt16d.png" />
+    <Resource Include="Images\titulos\uf16.png" />
+    <Resource Include="Images\titulos\uf32.png" />
+    <Resource Include="Images\titulos\uf48.png" />
+    <Resource Include="Images\titulos\unidade16.png" />
+    <Resource Include="Images\titulos\unidade32.png" />
+    <Resource Include="Images\titulos\unidade48.png" />
+    <Resource Include="Images\titulos\usuario16.png" />
+    <Resource Include="Images\titulos\usuario32.png" />
+    <Resource Include="Images\titulos\usuario48.png" />
+    <Resource Include="Images\titulos\usuarioAcesso32.png" />
+    <Resource Include="Images\titulos\usuarioAcesso48.png" />
+    <Resource Include="Images\titulos\usuarioAcesso64.png" />
+    <Resource Include="Images\titulos\venda128.png" />
+    <Resource Include="Images\titulos\venda16.png" />
+    <Resource Include="Images\titulos\venda32.png" />
+    <Resource Include="Images\titulos\venda48.png" />
+    <Resource Include="Images\titulos\vendedor16.png" />
+    <Resource Include="Images\titulos\vendedor32.png" />
+    <Resource Include="Images\titulos\vendedor48.png" />
+    <Resource Include="Images\titulos\word16.png" />
+    <Resource Include="Images\titulos\word16d.png" />
+    <Resource Include="Images\titulos\xml16.png" />
+    <Resource Include="Images\titulos\xml16d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Botoes\BarraExterna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Botoes\BarraInterna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Menu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PcpInstrucao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PcpInstrucaoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PcpInstrucaoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PcpOpCabecalho.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PcpOpCabecalhoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PcpOpCabecalhoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Principal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Produto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ProdutoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ProdutoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UnidadeProduto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UnidadeProdutoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UnidadeProdutoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Servico\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

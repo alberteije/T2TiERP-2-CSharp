@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EstoqueReajusteDetalheDTO" table="estoque_reajuste_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdEstoqueReajusteCabecalho" column="ID_ESTOQUE_REAJUSTE_CABECALHO" />
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="ValorOriginal" column="VALOR_ORIGINAL" />
+    <property name="ValorReajuste" column="VALOR_REAJUSTE" />
+  </class>
+</hibernate-mapping>

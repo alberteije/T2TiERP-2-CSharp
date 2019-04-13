@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AAFFED9-275F-4C35-A515-F6A7FF37B3A0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjetoComponenteSpedContribuicoes</RootNamespace>
+    <AssemblyName>ProjetoComponenteSpedContribuicoes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bloco0\Bloco0.cs" />
+    <Compile Include="Bloco0\Registro0000.cs" />
+    <Compile Include="Bloco0\Registro0001.cs" />
+    <Compile Include="Bloco0\Registro0140.cs" />
+    <Compile Include="Bloco0\Registro0100.cs" />
+    <Compile Include="Bloco0\Registro0110.cs" />
+    <Compile Include="Bloco0\Registro0150.cs" />
+    <Compile Include="Bloco0\Registro0190.cs" />
+    <Compile Include="Bloco0\Registro0200.cs" />
+    <Compile Include="Bloco0\Registro0205.cs" />
+    <Compile Include="Bloco0\Registro0400.cs" />
+    <Compile Include="Bloco0\Registro0450.cs" />
+    <Compile Include="Bloco0\Registro0500.cs" />
+    <Compile Include="Bloco0\Registro0600.cs" />
+    <Compile Include="Bloco0\Registro0990.cs" />
+    <Compile Include="Bloco1\Bloco1.cs" />
+    <Compile Include="Bloco1\Registro1001.cs" />
+    <Compile Include="Bloco1\Registro1990.cs" />
+    <Compile Include="bloco9\Bloco9.cs" />
+    <Compile Include="bloco9\Registro9001.cs" />
+    <Compile Include="bloco9\Registro9900.cs" />
+    <Compile Include="bloco9\Registro9990.cs" />
+    <Compile Include="bloco9\Registro9999.cs" />
+    <Compile Include="BlocoA\BlocoA.cs" />
+    <Compile Include="BlocoA\RegistroA001.cs" />
+    <Compile Include="BlocoA\RegistroA990.cs" />
+    <Compile Include="BlocoC\BlocoC.cs" />
+    <Compile Include="BlocoC\RegistroC010.cs" />
+    <Compile Include="BlocoC\RegistroC001.cs" />
+    <Compile Include="BlocoC\RegistroC100.cs" />
+    <Compile Include="BlocoC\RegistroC110.cs" />
+    <Compile Include="BlocoC\RegistroC380.cs" />
+    <Compile Include="BlocoC\RegistroC400.cs" />
+    <Compile Include="BlocoC\RegistroC405.cs" />
+    <Compile Include="BlocoC\RegistroC485.cs" />
+    <Compile Include="BlocoC\RegistroC481.cs" />
+    <Compile Include="BlocoC\RegistroC990.cs" />
+    <Compile Include="BlocoD\BlocoD.cs" />
+    <Compile Include="BlocoD\RegistroD001.cs" />
+    <Compile Include="BlocoD\RegistroD990.cs" />
+    <Compile Include="BlocoF\BlocoF.cs" />
+    <Compile Include="BlocoF\RegistroF001.cs" />
+    <Compile Include="BlocoF\RegistroF990.cs" />
+    <Compile Include="BlocoI\BlocoI.cs" />
+    <Compile Include="BlocoI\RegistroI001.cs" />
+    <Compile Include="BlocoI\RegistroI990.cs" />
+    <Compile Include="BlocoM\BlocoM.cs" />
+    <Compile Include="BlocoM\RegistroM001.cs" />
+    <Compile Include="BlocoM\RegistroM990.cs" />
+    <Compile Include="ComponenteSpedContribuicoes.cs" />
+    <Compile Include="SpedUtil.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

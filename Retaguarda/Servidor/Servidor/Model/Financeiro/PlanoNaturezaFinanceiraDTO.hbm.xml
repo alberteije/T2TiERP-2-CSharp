@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PlanoNaturezaFinanceiraDTO" table="plano_natureza_financeira" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Empresa" column="ID_EMPRESA" />
+    <property name="Nome" column="NOME" />
+    <property name="DataInclusao" column="DATA_INCLUSAO" />
+    <property name="Mascara" column="MASCARA" />
+    <property name="Niveis" column="NIVEIS" />
+  </class>
+</hibernate-mapping>

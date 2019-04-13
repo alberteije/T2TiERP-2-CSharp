@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfSuprimentoDTO" table="ecf_suprimento" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_suprimento</param>
+      </generator>
+    </id>
+
+
+    <property name="IdEcfMovimento" column="ID_ECF_MOVIMENTO" />
+    <property name="DataSuprimento" column="DATA_SUPRIMENTO" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

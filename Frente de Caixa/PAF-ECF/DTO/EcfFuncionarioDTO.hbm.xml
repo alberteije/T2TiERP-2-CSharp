@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfFuncionarioDTO" table="ecf_funcionario" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_funcionario</param>
+      </generator>
+    </id>
+
+
+    <property name="Nome" column="NOME" />
+    <property name="Telefone" column="TELEFONE" />
+    <property name="Celular" column="CELULAR" />
+    <property name="Email" column="EMAIL" />
+    <property name="ComissaoVista" column="COMISSAO_VISTA" />
+    <property name="ComissaoPrazo" column="COMISSAO_PRAZO" />
+    <property name="NivelAutorizacao" column="NIVEL_AUTORIZACAO" />
+  </class>
+</hibernate-mapping>

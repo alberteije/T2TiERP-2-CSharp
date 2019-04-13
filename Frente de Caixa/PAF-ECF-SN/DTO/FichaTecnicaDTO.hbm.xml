@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FichaTecnicaDTO" table="ficha_tecnica" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ficha_tecnica</param>
+      </generator>
+    </id>
+
+
+    <property name="IdProduto" column="ID_PRODUTO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="IdProdutoFilho" column="ID_PRODUTO_FILHO" />
+    <property name="Quantidade" column="QUANTIDADE" />
+  </class>
+</hibernate-mapping>

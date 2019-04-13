@@ -1,0 +1,17 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\ContasPagarService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\ContasPagarService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\Iesi.Collections.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\NHibernate.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\NHibernate.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\obj\Debug\ContasPagarService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasPagarService\ContasPagarService\obj\Debug\ContasPagarService.pdb

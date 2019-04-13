@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ClienteDTO" table="cliente" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">cliente</param>
+      </generator>
+    </id>
+
+
+    <many-to-one name="SituacaoCliente" column="ID_SITUACAO_CLIENTE" />
+    <property name="Nome" column="NOME" />
+    <property name="Fantasia" column="FANTASIA" />
+    <property name="Email" column="EMAIL" />
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+    <property name="Rg" column="RG" />
+    <property name="OrgaoRg" column="ORGAO_RG" />
+    <property name="DataEmissaoRg" column="DATA_EMISSAO_RG" />
+    <property name="Sexo" column="SEXO" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="InscricaoMunicipal" column="INSCRICAO_MUNICIPAL" />
+    <property name="TipoPessoa" column="TIPO_PESSOA" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Cep" column="CEP" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="Cidade" column="CIDADE" />
+    <property name="Uf" column="UF" />
+    <property name="Fone1" column="FONE1" />
+    <property name="Fone2" column="FONE2" />
+    <property name="Celular" column="CELULAR" />
+    <property name="Contato" column="CONTATO" />
+    <property name="CodigoIbgeCidade" column="CODIGO_IBGE_CIDADE" />
+    <property name="CodigoIbgeUf" column="CODIGO_IBGE_UF" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,164 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\ComprasClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\ComprasClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\ComprasClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedido.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\ComprasPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Compras.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraSugerida.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedido.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Cotacao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\MapaComparativo.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Pedido.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Requisicao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\ComprasPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Compras.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraSugerida.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Cotacao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\MapaComparativo.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Pedido.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Requisicao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\ComprasClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\ComprasClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\ComprasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedido.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\ComprasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Compras.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraSugerida.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedido.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Cotacao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\MapaComparativo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Pedido.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Requisicao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\ComprasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Compras.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraSugerida.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Cotacao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\MapaComparativo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Pedido.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\Compras\Requisicao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\ComprasClient\ComprasClient\obj\x86\Debug\ComprasClient.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\ComprasClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\ComprasClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\ComprasClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedido.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\ComprasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Compras.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraSugerida.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedido.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Cotacao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\MapaComparativo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Pedido.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Requisicao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\ComprasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Compras.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraSugerida.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoPedidoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\CompraTipoRequisicaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Cotacao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\MapaComparativo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Pedido.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\Compras\Requisicao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\ComprasClient.csproj.GenerateResource.Cache

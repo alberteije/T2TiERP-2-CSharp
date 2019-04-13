@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDestinatarioDTO" table="nfe_destinatario" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+    <property name="EstrangeiroIdentificacao" column="ESTRANGEIRO_IDENTIFICACAO" />
+    <property name="Nome" column="NOME" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="CodigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="NomeMunicipio" column="NOME_MUNICIPIO" />
+    <property name="Uf" column="UF" />
+    <property name="Cep" column="CEP" />
+    <property name="CodigoPais" column="CODIGO_PAIS" />
+    <property name="NomePais" column="NOME_PAIS" />
+    <property name="Telefone" column="TELEFONE" />
+    <property name="IndicadorIe" column="INDICADOR_IE" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="InscricaoMunicipal" column="INSCRICAO_MUNICIPAL" />
+    <property name="Suframa" column="SUFRAMA" />
+    <property name="Email" column="EMAIL" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Cadastros.View.PcpOpCabecalho" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:viewBotoes="clr-namespace:Cadastros.View.Botoes" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Grid.Column="0">
+                <viewBotoes:BarraInterna></viewBotoes:BarraInterna>
+            </StackPanel>
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Grid.Column="0">
+                    <Grid>
+                        <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PcpOpCabecalhoSelected.Inicio}" Margin="10,26,0,0"  />
+                        <Label Content="Inicio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,4,0,0"  />
+                        <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PcpOpCabecalhoSelected.PrevisaoEntrega}" Margin="116,26,0,0"  />
+                        <Label Content="Previsao Entrega" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="116,4,0,0"  />
+                        <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding PcpOpCabecalhoSelected.Termino}" Margin="222,26,0,0"  />
+                        <Label Content="Termino" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="222,4,0,0"  />
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PcpOpCabecalhoSelected.CustoTotalPrevisto}" Height="23" Width="100" Margin="328,26,0,0"  />
+                        <Label Content="Custo Previsto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="328,4,0,0"  />
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PcpOpCabecalhoSelected.CustoTotalRealizado}" Height="23" Width="100" Margin="435,26,0,0"  />
+                        <Label Content="Custo Realizado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,4,0,0"  />
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PcpOpCabecalhoSelected.PorcentoVenda}" Height="23" Width="100" Margin="541,26,0,0"  />
+                        <Label Content="Porcento Venda" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="541,4,0,0"  />
+                        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PcpOpCabecalhoSelected.PorcentoEstoque}" Height="23" Width="143" Margin="647,26,0,0"  />
+                        <Label Content="Porcento Estoque" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="644,4,0,0"  />
+                    </Grid>
+                </StackPanel>
+                <TabControl>
+                    <TabItem Header="Produtos">
+                        <DockPanel LastChildFill="True">
+                            <GroupBox Header="Itens" DockPanel.Dock="Top" Height="120">
+                                <Grid>
+                                    <DockPanel LastChildFill="True">
+                                        <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                            <Button Name="btInserirItem" ToolTip="Inserir Item" >
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                                    <TextBlock Margin="3,1,0,0">Inserir Item</TextBlock>
+                                                </StackPanel>
+                                            </Button>
+                                            <Button Name="btExcluirItem" ToolTip="Excluir Item" >
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                                    <TextBlock Margin="3,1,0,0">Excluir Item</TextBlock>
+                                                </StackPanel>
+                                            </Button>
+                                        </StackPanel>
+                                        <DataGrid Name="dataGridItens" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpOpDetalhe}" SelectedItem="{Binding PcpOpDetalheSelected}">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Header="Id Produto" Binding="{Binding Path=Id}"  />
+                                                <DataGridTextColumn Header="Nome" Binding="{Binding Path=Nome}"  />
+                                                <DataGridTextColumn Header="Quantidade Produzir" Binding="{Binding Path=QuantidadeProduzir}"  />
+                                                <DataGridTextColumn Header="Quantidade Produzida" Binding="{Binding Path=QuantidadeProduzida}"  />
+                                                <DataGridTextColumn Header="Quantidade Entregue" Binding="{Binding Path=QuantidadeEntregue}"  />
+                                                <DataGridTextColumn Header="Custo Previsto" Binding="{Binding Path=CustoPrevisto}"  />
+                                                <DataGridTextColumn Header="Custo Realizado" Binding="{Binding Path=CustoRealizado}"  />
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </DockPanel>
+                                </Grid>
+                            </GroupBox>
+
+                            <GroupBox Header="Serviços" DockPanel.Dock="Top" Height="120">
+
+                                <Grid>
+                                    <DockPanel LastChildFill="True">
+                                        <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                            <Button Name="btInserirServico" ToolTip="Inserir Serviço" >
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                                    <TextBlock Margin="3,1,0,0">Inserir Serviço</TextBlock>
+                                                </StackPanel>
+                                            </Button>
+                                            <Button Name="btExcluirServico" ToolTip="Excluir Serviço" >
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                                    <TextBlock Margin="3,1,0,0">Excluir Serviço</TextBlock>
+                                                </StackPanel>
+                                            </Button>
+                                        </StackPanel>
+                                        <DataGrid Name="dataGridServicos" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpServico}" SelectedItem="{Binding PcpServicoSelected}">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Header="Inicio Previsto" Binding="{Binding Path=InicioPrevisto}"  />
+                                                <DataGridTextColumn Header="Horas Previsto" Binding="{Binding Path=HorasPrevisto}"  />
+                                                <DataGridTextColumn Header="Minutos Previsto" Binding="{Binding Path=MinutosPrevisto}"  />
+                                                <DataGridTextColumn Header="Segundos Previsto" Binding="{Binding Path=SegundosPrevisto}"  />
+                                                <DataGridTextColumn Header="Término Previsto" Binding="{Binding Path=TerminoPrevisto}"  />
+                                                <DataGridTextColumn Header="Custo Previsto" Binding="{Binding Path=CustoPrevisto}"  />
+                                                <DataGridTextColumn Header="Inicio Realizado" Binding="{Binding Path=InicioRealizado}"  />
+                                                <DataGridTextColumn Header="Horas Realizado" Binding="{Binding Path=HorasRealizado}"  />
+                                                <DataGridTextColumn Header="Minutos Realizado" Binding="{Binding Path=MinutosRealizado}"  />
+                                                <DataGridTextColumn Header="Segundos Realizado" Binding="{Binding Path=SegundosRealizado}"  />
+                                                <DataGridTextColumn Header="Término Realizado" Binding="{Binding Path=TerminoRealizado}"  />
+                                                <DataGridTextColumn Header="Custo Realizado" Binding="{Binding Path=CustoRealizado}"  />
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </DockPanel>
+                                </Grid>
+
+                            </GroupBox>
+
+
+                            <GroupBox Header="Colaboradores e Equipamentos" DockPanel.Dock="Top" >
+                                <StackPanel DockPanel.Dock="top" Orientation="Horizontal" Margin="0,0,12,0" >
+                                    <Grid Width="380" HorizontalAlignment="Left">
+                                        <DockPanel LastChildFill="True">
+                                            <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                                <Button Name="btInserirColaborador" ToolTip="Inserir Colaborador" >
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                                        <TextBlock Margin="3,1,0,0">Inserir Colaborador</TextBlock>
+                                                    </StackPanel>
+                                                </Button>
+                                                <Button Name="btExcluirColaborador" ToolTip="Excluir Colaborador" >
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                                        <TextBlock Margin="3,1,0,0">Excluir Colaborador</TextBlock>
+                                                    </StackPanel>
+                                                </Button>
+                                            </StackPanel>
+                                            <DataGrid Name="dataGridColaborador" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpServicoColaborador}" SelectedItem="{Binding PcpServicoColaboradorSelected}">
+                                                <DataGrid.Columns>
+                                                    <DataGridTextColumn Header="Id Colaborador" Binding="{Binding Path=Id}"  />
+                                                    <DataGridTextColumn Header="Nome" Binding="{Binding Path=Codigo}"  />
+                                                </DataGrid.Columns>
+                                            </DataGrid>
+                                        </DockPanel>
+                                    </Grid>
+
+                                    <Grid Width="380"  Margin="10,0,0,0">
+                                        <DockPanel LastChildFill="True">
+                                            <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                                <Button Name="btInserirEquipamento" ToolTip="Inserir Equipamento" >
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                                        <TextBlock Margin="3,1,0,0">Inserir Equipamento</TextBlock>
+                                                    </StackPanel>
+                                                </Button>
+                                                <Button Name="btExcluirEquipamento" ToolTip="Excluir Equipamento" >
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                                        <TextBlock Margin="3,1,0,0">Excluir Equipamento</TextBlock>
+                                                    </StackPanel>
+                                                </Button>
+                                            </StackPanel>
+                                            <DataGrid Name="dataGridEquipamento" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpServicoEquipamento}" SelectedItem="{Binding PcpServicoEquipamentoSelected}">
+                                                <DataGrid.Columns>
+                                                    <DataGridTextColumn Header="Id Equipamento" Binding="{Binding Path=Id}"  />
+                                                    <DataGridTextColumn Header="Descricao" Binding="{Binding Path=Descricao}"  />
+                                                </DataGrid.Columns>
+                                            </DataGrid>
+                                        </DockPanel>
+                                    </Grid>
+
+                                </StackPanel>
+
+                            </GroupBox>
+
+                        </DockPanel>
+                    </TabItem>
+
+                    <TabItem Header="Instruções">
+                        <DockPanel LastChildFill="True">
+                            <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                <Button Name="btInserirInstrucao" ToolTip="Inserir Instrução" >
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                        <TextBlock Margin="3,1,0,0">Inserir Instrução</TextBlock>
+                                    </StackPanel>
+                                </Button>
+                                <Button Name="btExcluirInstrucao" ToolTip="Excluir Instrução" >
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                        <TextBlock Margin="3,1,0,0">Excluir Instrução</TextBlock>
+                                    </StackPanel>
+                                </Button>
+                            </StackPanel>
+                            <DataGrid Name="dataGridInstrucoes" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaPcpInstrucao}" SelectedItem="{Binding PcpInstrucaoSelected}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+                                    <DataGridTextColumn Header="Codigo" Binding="{Binding Path=Codigo}"  />
+                                    <DataGridTextColumn Header="Descricao" Binding="{Binding Path=Descricao}"  />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DockPanel>
+                    </TabItem>
+                </TabControl>
+            </DockPanel>
+
+        </DockPanel>
+    </Grid>
+</UserControl>

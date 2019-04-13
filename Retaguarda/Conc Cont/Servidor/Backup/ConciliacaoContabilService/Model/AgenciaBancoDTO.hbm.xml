@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ConciliacaoContabilService" namespace="ConciliacaoContabilService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="AgenciaBancoDTO" table="agencia_banco" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Banco" column="ID_BANCO" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Digito" column="DIGITO" />
+    <property name="Nome" column="NOME" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Cep" column="CEP" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="Municipio" column="MUNICIPIO" />
+    <property name="Uf" column="UF" />
+    <property name="Telefone" column="TELEFONE" />
+    <property name="Gerente" column="GERENTE" />
+    <property name="Contato" column="CONTATO" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

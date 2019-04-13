@@ -1,0 +1,116 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\OrcamentoClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\OrcamentoClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\OrcamentoClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoDetalhe.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoGrid.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\Orcamento.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoDetalhe.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoGrid.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\Orcamento.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\OrcamentoClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoGrid.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\OrcamentoClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\OrcamentoClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoGrid.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\OrcamentoClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodo.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodo.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\OrcamentoClient\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\OrcamentoClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\OrcamentoClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\OrcamentoClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoGrid.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoPeriodoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoGrid.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\View\Orcamento\OrcamentoView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Controle de Orçamentos\Cliente\OrcamentoClient\obj\x86\Debug\OrcamentoClient.csproj.GenerateResource.Cache

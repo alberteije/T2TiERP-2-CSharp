@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasPagarClient.View.ContasPagar.FinParcelaPagar" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FinParcelaPagarSelected.ContaCaixa.Nome}" Height="23" Width="657" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContaCaixa" Click="btPesquisarContaCaixa_Click" Margin="664,25,0,0"  />
+			<Label Content="Conta Caixa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.NumeroParcela}" Height="23" Width="100" Margin="6,78,0,0"  />
+			<Label Content="Numero Parcela" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,59,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FinParcelaPagarSelected.DataEmissao}" Margin="112,78,0,0"  />
+            <Label Content="Data Emissao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,59,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FinParcelaPagarSelected.DataVencimento}" Margin="218,78,0,0"  />
+            <Label Content="Data Vencimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,59,0,0"  />
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FinParcelaPagarSelected.DescontoAte}" Margin="324,78,0,0"  />
+            <Label Content="Desconto Ate" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,59,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding FinParcelaPagarSelected.SofreRetencao}" SelectedValuePath="Tag" Margin="430,78,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Sofre Retencao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,59,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.Valor}" Height="23" Width="100" Margin="536,76,0,0"  />
+			<Label Content="Valor" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,57,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.TaxaJuro}" Height="23" Width="100" Margin="6,131,0,0"  />
+			<Label Content="Taxa Juro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,112,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.TaxaMulta}" Height="23" Width="100" Margin="218,131,0,0"  />
+			<Label Content="Taxa Multa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,112,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.TaxaDesconto}" Height="23" Width="100" Margin="430,131,0,0"  />
+			<Label Content="Taxa Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,112,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.ValorJuro}" Height="23" Width="100" Margin="112,131,0,0"  />
+			<Label Content="Valor Juro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,112,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.ValorMulta}" Height="23" Width="100" Margin="324,131,0,0"  />
+			<Label Content="Valor Multa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,112,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinParcelaPagarSelected.ValorDesconto}" Height="23" Width="100" Margin="536,131,0,0"  />
+			<Label Content="Valor Desconto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="536,112,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

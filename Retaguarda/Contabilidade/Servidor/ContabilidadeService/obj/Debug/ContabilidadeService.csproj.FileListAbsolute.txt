@@ -1,0 +1,18 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\ContabilidadeService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\ContabilidadeService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\obj\Debug\ContabilidadeService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeService\ContabilidadeService\obj\Debug\ContabilidadeService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\bin\ContabilidadeService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\bin\ContabilidadeService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\bin\ContabilidadeService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\obj\Debug\ContabilidadeService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\obj\Debug\ContabilidadeService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Servidor\ContabilidadeService\obj\Debug\ContabilidadeService.pdb

@@ -1,0 +1,18 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\PontoService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\PontoService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\obj\Debug\PontoService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\PontoService\PontoService\obj\Debug\PontoService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\bin\PontoService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\bin\PontoService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\bin\PontoService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\obj\Debug\PontoService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\obj\Debug\PontoService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Ponto\Servidor\PontoService\obj\Debug\PontoService.pdb

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProdutoPromocaoDTO" table="produto_promocao" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">produto_promocao</param>
+      </generator>
+    </id>
+
+
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="DataInicio" column="DATA_INICIO" />
+    <property name="DataFim" column="DATA_FIM" />
+    <property name="QuantidadeEmPromocao" column="QUANTIDADE_EM_PROMOCAO" />
+    <property name="QuantidadeMaximaCliente" column="QUANTIDADE_MAXIMA_CLIENTE" />
+    <property name="Valor" column="VALOR" />
+  </class>
+</hibernate-mapping>

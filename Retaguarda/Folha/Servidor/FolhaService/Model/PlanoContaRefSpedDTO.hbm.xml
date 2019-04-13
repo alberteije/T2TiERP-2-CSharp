@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PlanoContaRefSpedDTO" table="plano_conta_ref_sped" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="CodCtaRef" column="COD_CTA_REF" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Orientacoes" column="ORIENTACOES" />
+    <property name="InicioValidade" column="INICIO_VALIDADE" />
+    <property name="FimValidade" column="FIM_VALIDADE" />
+    <property name="Tipo" column="TIPO" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeEmitenteDTO" table="nfe_emitente" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="CpfCnpj" column="CPF_CNPJ" />
+    <property name="Nome" column="NOME" />
+    <property name="Fantasia" column="FANTASIA" />
+    <property name="Logradouro" column="LOGRADOURO" />
+    <property name="Numero" column="NUMERO" />
+    <property name="Complemento" column="COMPLEMENTO" />
+    <property name="Bairro" column="BAIRRO" />
+    <property name="CodigoMunicipio" column="CODIGO_MUNICIPIO" />
+    <property name="NomeMunicipio" column="NOME_MUNICIPIO" />
+    <property name="Uf" column="UF" />
+    <property name="Cep" column="CEP" />
+    <property name="CodigoPais" column="CODIGO_PAIS" />
+    <property name="NomePais" column="NOME_PAIS" />
+    <property name="Telefone" column="TELEFONE" />
+    <property name="InscricaoEstadual" column="INSCRICAO_ESTADUAL" />
+    <property name="InscricaoEstadualSt" column="INSCRICAO_ESTADUAL_ST" />
+    <property name="InscricaoMunicipal" column="INSCRICAO_MUNICIPAL" />
+    <property name="Cnae" column="CNAE" />
+    <property name="Crt" column="CRT" />
+    <property name="Email" column="EMAIL" />
+    <property name="Suframa" column="SUFRAMA" />
+  </class>
+</hibernate-mapping>

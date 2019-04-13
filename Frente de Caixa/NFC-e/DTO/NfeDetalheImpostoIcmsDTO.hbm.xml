@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfeDetalheImpostoIcmsDTO" table="nfe_detalhe_imposto_icms" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdNfeDetalhe" column="ID_NFE_DETALHE" />
+    <property name="OrigemMercadoria" column="ORIGEM_MERCADORIA" />
+    <property name="CstIcms" column="CST_ICMS" />
+    <property name="Csosn" column="CSOSN" />
+    <property name="ModalidadeBcIcms" column="MODALIDADE_BC_ICMS" />
+    <property name="TaxaReducaoBcIcms" column="TAXA_REDUCAO_BC_ICMS" />
+    <property name="BaseCalculoIcms" column="BASE_CALCULO_ICMS" />
+    <property name="AliquotaIcms" column="ALIQUOTA_ICMS" />
+    <property name="ValorIcms" column="VALOR_ICMS" />
+    <property name="ValorIcmsOperacao" column="VALOR_ICMS_OPERACAO" />
+    <property name="PercentualDiferimento" column="PERCENTUAL_DIFERIMENTO" />
+    <property name="ValorIcmsDiferido" column="VALOR_ICMS_DIFERIDO" />
+    <property name="MotivoDesoneracaoIcms" column="MOTIVO_DESONERACAO_ICMS" />
+    <property name="ValorIcmsDesonerado" column="VALOR_ICMS_DESONERADO" />
+    <property name="ModalidadeBcIcmsSt" column="MODALIDADE_BC_ICMS_ST" />
+    <property name="PercentualMvaIcmsSt" column="PERCENTUAL_MVA_ICMS_ST" />
+    <property name="PercentualReducaoBcIcmsSt" column="PERCENTUAL_REDUCAO_BC_ICMS_ST" />
+    <property name="ValorBaseCalculoIcmsSt" column="VALOR_BASE_CALCULO_ICMS_ST" />
+    <property name="AliquotaIcmsSt" column="ALIQUOTA_ICMS_ST" />
+    <property name="ValorIcmsSt" column="VALOR_ICMS_ST" />
+    <property name="ValorBcIcmsStRetido" column="VALOR_BC_ICMS_ST_RETIDO" />
+    <property name="ValorIcmsStRetido" column="VALOR_ICMS_ST_RETIDO" />
+    <property name="ValorBcIcmsStDestino" column="VALOR_BC_ICMS_ST_DESTINO" />
+    <property name="ValorIcmsStDestino" column="VALOR_ICMS_ST_DESTINO" />
+    <property name="AliquotaCreditoIcmsSn" column="ALIQUOTA_CREDITO_ICMS_SN" />
+    <property name="ValorCreditoIcmsSn" column="VALOR_CREDITO_ICMS_SN" />
+    <property name="PercentualBcOperacaoPropria" column="PERCENTUAL_BC_OPERACAO_PROPRIA" />
+    <property name="UfSt" column="UF_ST" />
+  </class>
+</hibernate-mapping>

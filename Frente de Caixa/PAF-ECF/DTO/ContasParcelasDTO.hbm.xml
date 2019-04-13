@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContasParcelasDTO" table="contas_parcelas" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">contas_parcelas</param>
+      </generator>
+    </id>
+
+
+    <many-to-one name="ContasPagarReceber" column="ID_CONTAS_PAGAR_RECEBER" />
+    <property name="IdMeiosPagamento" column="ID_MEIOS_PAGAMENTO" />
+    <property name="IdChequeEmitido" column="ID_CHEQUE_EMITIDO" />
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="DataEmissao" column="DATA_EMISSAO" />
+    <property name="DataVencimento" column="DATA_VENCIMENTO" />
+    <property name="DataPagamento" column="DATA_PAGAMENTO" />
+    <property name="NumeroParcela" column="NUMERO_PARCELA" />
+    <property name="Valor" column="VALOR" />
+    <property name="TaxaJuros" column="TAXA_JUROS" />
+    <property name="TaxaMulta" column="TAXA_MULTA" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorJuros" column="VALOR_JUROS" />
+    <property name="ValorMulta" column="VALOR_MULTA" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="TotalParcela" column="TOTAL_PARCELA" />
+    <property name="Historico" column="HISTORICO" />
+    <property name="Situacao" column="SITUACAO" />
+  </class>
+</hibernate-mapping>

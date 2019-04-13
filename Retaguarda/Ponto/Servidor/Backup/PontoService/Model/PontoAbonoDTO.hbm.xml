@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PontoService" namespace="PontoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PontoAbonoDTO" table="ponto_abono" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="Utilizado" column="UTILIZADO" />
+    <property name="Saldo" column="SALDO" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+    <property name="InicioUtilizacao" column="INICIO_UTILIZACAO" />
+    <property name="Observacao" column="OBSERVACAO" />
+  </class>
+</hibernate-mapping>

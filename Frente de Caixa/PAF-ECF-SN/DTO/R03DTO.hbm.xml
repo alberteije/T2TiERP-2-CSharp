@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="R03DTO" table="r03" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">r03</param>
+      </generator>
+    </id>
+
+
+    <property name="IdR02" column="ID_R02" />
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="TotalizadorParcial" column="TOTALIZADOR_PARCIAL" />
+    <property name="ValorAcumulado" column="VALOR_ACUMULADO" />
+    <property name="Crz" column="CRZ" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

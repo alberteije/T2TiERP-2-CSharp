@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProdutoAlteracaoItemDTO" table="produto_alteracao_item" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Nome" column="NOME" />
+    <property name="DataInicial" column="DATA_INICIAL" />
+    <property name="DataFinal" column="DATA_FINAL" />
+  </class>
+</hibernate-mapping>

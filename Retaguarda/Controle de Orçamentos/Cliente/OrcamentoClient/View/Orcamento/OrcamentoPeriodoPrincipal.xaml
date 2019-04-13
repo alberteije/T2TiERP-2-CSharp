@@ -1,0 +1,29 @@
+<UserControl x:Class="OrcamentoClient.View.Orcamento.OrcamentoPeriodoPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:OrcamentoClient.View.Orcamento"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="700">
+    <TabControl>
+        <TabItem Name="tabOrcamentoPeriodoLista" Visibility="Collapsed" IsSelected="{Binding IsListar}">
+            <TabItem.Content>
+                <DockPanel LastChildFill="True">
+                    <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal" >
+                        <Button Name="btConsultar" Width="100" Click="btConsultar_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/21botaoPesquisa.png" Height="23"></Image>
+                                <TextBlock Text="Consultar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <view:OrcamentoPeriodoLista></view:OrcamentoPeriodoLista>
+                </DockPanel>
+            </TabItem.Content>
+        </TabItem>
+        <TabItem Name="tabOrcamentoPeriodo" Visibility="Collapsed" IsSelected="{Binding IsEditar}">
+            <view:OrcamentoPeriodo></view:OrcamentoPeriodo>
+        </TabItem>
+    </TabControl>
+</UserControl>

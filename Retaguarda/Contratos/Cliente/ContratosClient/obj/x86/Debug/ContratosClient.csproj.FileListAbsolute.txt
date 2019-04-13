@@ -1,0 +1,265 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Debug\ContratosClient.exe.config
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Debug\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Debug\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ContratosClient.g.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ContratosClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\ContratosClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\ContratosClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\ContratosClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServico.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServico.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContrato.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContrato.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServico.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServico.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\Contrato.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\Contrato.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamento.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamento.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajuste.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajuste.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajusteLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajustePrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajusteLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajustePrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamento.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamento.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoLista.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoPrincipal.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoLista.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoPrincipal.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\GEDClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\ContratosClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\ContratosClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\ContratosClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\GEDClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Interop.WIA.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\GEDClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajuste.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServico.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServico.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContrato.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajuste.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajusteLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajustePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServico.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServico.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContrato.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajusteLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajustePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\ContratosClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\Contrato.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContratosClient\ContratosClient\obj\x86\Debug\View\Contratos\Contrato.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\ContratosClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\ContratosClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\ContratosClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\GEDClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Interop.WIA.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\GEDClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajuste.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\TipoContrato.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\Contrato.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajuste.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajusteLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajustePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\TipoContrato.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratosPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\Contrato.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistFaturamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajusteLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoHistoricoReajustePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrevFaturamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoSolicitacaoServicoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\ContratoTipoServicoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\Contratos\TipoContratoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contratos\Cliente\ContratosClient\obj\x86\Debug\ContratosClient.csproj.GenerateResource.Cache

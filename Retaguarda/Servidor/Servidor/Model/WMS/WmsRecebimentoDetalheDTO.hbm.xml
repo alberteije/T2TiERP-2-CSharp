@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="WmsRecebimentoDetalheDTO" table="wms_recebimento_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Produto" column="ID_PRODUTO" />
+    <many-to-one name="WmsRecebimentoCabecalho" column="ID_WMS_RECEBIMENTO_CABECALHO" />
+    <property name="QuantidadeVolume" column="QUANTIDADE_VOLUME" />
+    <property name="QuantidadeItemPorVolume" column="QUANTIDADE_ITEM_POR_VOLUME" />
+    <property name="QuantidadeRecebida" column="QUANTIDADE_RECEBIDA" />
+    <property name="Destino" column="DESTINO" />
+  </class>
+</hibernate-mapping>

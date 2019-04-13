@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="EstoqueService" namespace="EstoqueService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NFeCupomFiscalDTO" table="nfe_cupom_fiscal_referenciado" >
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="idNFeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="modeloDocumentoFiscal" column="MODELO_DOCUMENTO_FISCAL" />
+    <property name="numeroOrdemEcf" column="NUMERO_ORDEM_ECF" />
+    <property name="coo" column="COO" />
+    <property name="dataEmissaoCupom" column="DATA_EMISSAO_CUPOM" />
+    <property name="numeroCaixa" column="NUMERO_CAIXA" />
+    <property name="numeroSerieEcf" column="NUMERO_SERIE_ECF" />
+  </class>
+</hibernate-mapping>

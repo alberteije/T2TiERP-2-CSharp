@@ -1,0 +1,9 @@
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Componentes\ComponenteSpedContribuicoes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ConciliacaoService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2669/ConciliacaoService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2669/ConciliacaoService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2669/ConciliacaoService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ConciliacaoService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IConciliacaoService_selectExtrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectExtrato" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectExtrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectExtratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_saveUpdateListaExtrato_InputMessage">
+    <wsdl:part name="parameters" element="tns:saveUpdateListaExtrato" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_saveUpdateListaExtrato_OutputMessage">
+    <wsdl:part name="parameters" element="tns:saveUpdateListaExtratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_conciliarCheques_InputMessage">
+    <wsdl:part name="parameters" element="tns:conciliarCheques" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_conciliarCheques_OutputMessage">
+    <wsdl:part name="parameters" element="tns:conciliarChequesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_conciliarLancamentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:conciliarLancamentos" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_conciliarLancamentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:conciliarLancamentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectContaCaixa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixa" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectContaCaixa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectEmpresa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="IConciliacaoService_selectEmpresa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IConciliacaoService">
+    <wsdl:operation name="selectExtrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/selectExtrato" message="tns:IConciliacaoService_selectExtrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/selectExtratoResponse" message="tns:IConciliacaoService_selectExtrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="saveUpdateListaExtrato">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/saveUpdateListaExtrato" message="tns:IConciliacaoService_saveUpdateListaExtrato_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/saveUpdateListaExtratoResponse" message="tns:IConciliacaoService_saveUpdateListaExtrato_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="conciliarCheques">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/conciliarCheques" message="tns:IConciliacaoService_conciliarCheques_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/conciliarChequesResponse" message="tns:IConciliacaoService_conciliarCheques_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="conciliarLancamentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/conciliarLancamentos" message="tns:IConciliacaoService_conciliarLancamentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/conciliarLancamentosResponse" message="tns:IConciliacaoService_conciliarLancamentos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/selectContaCaixa" message="tns:IConciliacaoService_selectContaCaixa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/selectContaCaixaResponse" message="tns:IConciliacaoService_selectContaCaixa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/selectUsuario" message="tns:IConciliacaoService_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/selectUsuarioResponse" message="tns:IConciliacaoService_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/selectControleAcesso" message="tns:IConciliacaoService_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/selectControleAcessoResponse" message="tns:IConciliacaoService_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConciliacaoService/selectEmpresa" message="tns:IConciliacaoService_selectEmpresa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConciliacaoService/selectEmpresaResponse" message="tns:IConciliacaoService_selectEmpresa_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IConciliacaoService" type="tns:IConciliacaoService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="selectExtrato">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/selectExtrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveUpdateListaExtrato">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/saveUpdateListaExtrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="conciliarCheques">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/conciliarCheques" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="conciliarLancamentos">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/conciliarLancamentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixa">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/selectContaCaixa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectEmpresa">
+      <soap:operation soapAction="http://tempuri.org/IConciliacaoService/selectEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConciliacaoService">
+    <wsdl:port name="BasicHttpBinding_IConciliacaoService" binding="tns:BasicHttpBinding_IConciliacaoService">
+      <soap:address location="http://localhost:2669/ConciliacaoService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="VendasService" namespace="VendasService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="VendaCabecalhoDTO" table="venda_cabecalho" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Transportadora" column="ID_TRANSPORTADORA" />
+    <many-to-one name="TipoNotaFiscal" column="ID_TIPO_NOTA_FISCAL" />
+    <many-to-one name="Cliente" column="ID_CLIENTE" />
+    <many-to-one name="Vendedor" column="ID_VENDEDOR" />
+    <many-to-one name="CondicoesPagamento" column="ID_VENDA_CONDICOES_PAGAMENTO" />
+    <many-to-one name="OrcamentoPedidoVendaCab" column="ID_VENDA_ORCAMENTO_CABECALHO" />
+    <property name="DataVenda" column="DATA_VENDA" />
+    <property name="DataSaida" column="DATA_SAIDA" />
+    <property name="HoraSaida" column="HORA_SAIDA" />
+    <property name="NumeroFatura" column="NUMERO_FATURA" />
+    <property name="LocalEntrega" column="LOCAL_ENTREGA" />
+    <property name="LocalCobranca" column="LOCAL_COBRANCA" />
+    <property name="ValorSubtotal" column="VALOR_SUBTOTAL" />
+    <property name="TaxaComissao" column="TAXA_COMISSAO" />
+    <property name="ValorComissao" column="VALOR_COMISSAO" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorTotal" column="VALOR_TOTAL" />
+    <property name="TipoFrete" column="TIPO_FRETE" />
+    <property name="FormaPagamento" column="FORMA_PAGAMENTO" />
+    <property name="ValorFrete" column="VALOR_FRETE" />
+    <property name="ValorSeguro" column="VALOR_SEGURO" />
+    <property name="Observacao" column="OBSERVACAO" />
+    <property name="Situacao" column="SITUACAO" />
+  </class>
+</hibernate-mapping>

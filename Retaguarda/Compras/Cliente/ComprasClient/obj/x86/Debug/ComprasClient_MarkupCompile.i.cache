@@ -1,0 +1,20 @@
+﻿ComprasClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\obj\x86\Debug\
+ComprasClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Compras\Cliente\ComprasClient\App.xaml
+162001081796
+
+38-1493271536
+21-295241088
+themes\generic.xaml;View\Compras\ComprasPrincipal.xaml;View\Compras\Compras.xaml;View\Compras\CompraSugerida.xaml;View\Compras\CompraTipoPedido.xaml;View\Compras\CompraTipoPedidoLista.xaml;View\Compras\CompraTipoPedidoPrincipal.xaml;View\Compras\CompraTipoRequisicao.xaml;View\Compras\CompraTipoRequisicaoLista.xaml;View\Compras\CompraTipoRequisicaoPrincipal.xaml;View\Compras\Cotacao.xaml;View\Compras\Login.xaml;View\Compras\MapaComparativo.xaml;View\Compras\Pedido.xaml;View\Compras\Requisicao.xaml;View\ERPClient.xaml;
+
+False
+

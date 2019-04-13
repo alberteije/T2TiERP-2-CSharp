@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="OrcamentoService"
+                   namespace="OrcamentoService.Model" default-lazy="false">
+  <class name="OrcamentoDTO" table="orcamento_empresarial">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one class="OrcamentoPeriodoDTO" name="orcamentoPeriodo" column ="ID_ORCAMENTO_PERIODO"/>
+    <property name="nome" column="NOME" />
+    <property name="descricao" column="DESCRICAO" />
+    <property name="dataInicial" column="DATA_INICIAL" />
+    <property name="dataBase" column="DATA_BASE" />
+    <property name="numeroPeriodos" column="NUMERO_PERIODOS" />
+  </class>
+</hibernate-mapping>

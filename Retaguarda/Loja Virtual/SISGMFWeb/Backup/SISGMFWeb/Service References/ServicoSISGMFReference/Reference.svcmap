@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="99927d66-2914-4d99-bcb1-3d3193a48ce7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SISGMFService/ServicoSISGMF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoSISGMF3.xsd" MetadataType="Schema" ID="45bcf1af-9839-4c80-a8d1-92cdbc92d90a" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServicoSISGMF2.xsd" MetadataType="Schema" ID="1876aacf-d463-4f66-ad55-8c7b8c8322d2" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoSISGMF.xsd" MetadataType="Schema" ID="927aad9c-027f-4700-bc97-46aac56f5d12" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoSISGMF.wsdl" MetadataType="Wsdl" ID="2a736306-ea03-42c8-9c98-3c07f2249b3e" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?wsdl" />
+    <MetadataFile FileName="ServicoSISGMF.disco" MetadataType="Disco" ID="61c23594-048e-4403-8c8c-45e395418849" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?disco" />
+    <MetadataFile FileName="ServicoSISGMF31.xsd" MetadataType="Schema" ID="2f4150c7-469a-43a6-b250-3df0919094ec" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?xsd=xsd4" />
+    <MetadataFile FileName="ServicoSISGMF1.xsd" MetadataType="Schema" ID="5cd9bbcb-f84f-4ad1-85ef-7e07a464612d" SourceId="1" SourceUrl="http://localhost/SISGMFService/ServicoSISGMF.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

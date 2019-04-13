@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaRescisao" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FolhaRescisaoSelected.Colaborador.Pessoa.Nome}" Height="23" Width="652" Margin="6,25,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarColaborador" Click="btPesquisarColaborador_Click" Margin="664,25,0,0"  />
+			<Label Content="Colaborador:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaRescisaoSelected.DataDemissao}" Margin="6,129,0,0"  />
+			<Label Content="Data Demissao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,110,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaRescisaoSelected.DataPagamento}" Margin="112,129,0,0"  />
+			<Label Content="Data Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.Motivo}" Height="23" Width="688" Margin="6,74,0,0"  />
+			<Label Content="Motivo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,55,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaRescisaoSelected.DataAvisoPrevio}" Margin="218,129,0,0"  />
+			<Label Content="Data Aviso Previo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.DiasAvisoPrevio}" Height="23" Width="100" Margin="324,129,0,0"  />
+			<Label Content="Dias Aviso Previo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,110,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="142" SelectedValue="{Binding FolhaRescisaoSelected.ComprovouNovoEmprego}" SelectedValuePath="Tag" Margin="430,129,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Comprovou Novo Emprego:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,110,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="116" SelectedValue="{Binding FolhaRescisaoSelected.DispensouEmpregado}" SelectedValuePath="Tag" Margin="578,129,0,0" >
+				<ComboBoxItem Content="Sim" Tag="S" />
+				<ComboBoxItem Content="Não" Tag="N" />
+			</ComboBox>
+			<Label Content="Dispensou Empregado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="578,110,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.PensaoAlimenticia}" Height="23" Width="127" Margin="6,185,0,0"  />
+			<Label Content="Pensao Alimenticia (%):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,166,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.PensaoAlimenticiaFgts}" Height="23" Width="100" Margin="139,185,0,0"  />
+			<Label Content="Pensao Fgts (%)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139,166,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.FgtsValorRescisao}" Height="23" Width="100" Margin="6,263,0,0"  />
+			<Label Content="Valor Rescisao:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,244,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.FgtsSaldoBanco}" Height="23" Width="100" Margin="112,263,0,0"  />
+			<Label Content="Saldo Banco:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,244,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.FgtsComplementoSaldo}" Height="23" Width="100" Margin="218,263,0,0"  />
+			<Label Content="Complemento Saldo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,244,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.FgtsCodigoAfastamento}" Height="23" Width="100" Margin="324,263,0,0"  />
+			<Label Content="Codigo Afastamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,244,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaRescisaoSelected.FgtsCodigoSaque}" Height="23" Width="100" Margin="430,263,0,0"  />
+			<Label Content="Codigo Saque:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,244,0,0"  />
+            <Label Content="FGTS:" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="9,220,0,0" VerticalAlignment="Top" />
+        </Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.GuiasAcumuladas" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="688" SelectedValue="{Binding GuiasAcumuladasSelected.GpsTipo}" SelectedValuePath="Tag" Margin="6,54,0,0" >
+                <ComboBoxItem Content="Emite GPS de apenas uma filial (serviços que representam a própria empresa, um tomador de serviço ou obra por empreitada parcial)" Tag="1" />
+                <ComboBoxItem Content="Emite GPS somente de um serviço (obra própria/empreitada total)" Tag="2" />
+                <ComboBoxItem Content="Emite GPS apenas de uma filial referente aos cooperados (tomadores de serviço de cooperativa de trabalho)" Tag="3" />
+            </ComboBox>
+			<Label Content="Tipo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,35,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.GpsCompetencia}" Height="23" Width="100" Margin="10,101,0,0"  />
+			<Label Content="Competencia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,82,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.GpsValorInss}" Height="23" Width="100" Margin="116,101,0,0"  />
+			<Label Content="Valor Inss:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="116,82,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.GpsValorOutrasEnt}" Height="23" Width="127" Margin="222,101,0,0"  />
+			<Label Content="Valor Outras Entidades:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="222,82,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding GuiasAcumuladasSelected.GpsDataPagamento}" Margin="355,103,0,0"  />
+			<Label Content="Data Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="355,84,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.IrrfCompetencia}" Height="23" Width="100" Margin="10,188,0,0"  />
+			<Label Content="Competencia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,169,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.IrrfCodigoRecolhimento}" Height="23" Width="127" Margin="116,188,0,0"  />
+			<Label Content="Codigo Recolhimento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="116,169,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.IrrfValorAcumulado}" Height="23" Width="100" Margin="249,188,0,0"  />
+			<Label Content="Valor Acumulado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="249,169,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding GuiasAcumuladasSelected.IrrfDataPagamento}" Margin="355,188,0,0"  />
+			<Label Content="Data Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="355,169,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.PisCompetencia}" Height="23" Width="100" Margin="10,269,0,0"  />
+			<Label Content="Competencia:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,250,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding GuiasAcumuladasSelected.PisValorAcumulado}" Height="23" Width="100" Margin="116,269,0,0"  />
+			<Label Content="Valor Acumulado:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="116,250,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding GuiasAcumuladasSelected.PisDataPagamento}" Margin="222,269,0,0"  />
+			<Label Content="Data Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="222,250,0,0"  />
+            <Label Content="GPS:" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+            <Label Content="IRRF:" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" />
+            <Label Content="PIS:" FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" />
+        </Grid>
+	</DockPanel>
+</UserControl>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="NFCe" namespace="NFCe.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NfceOperadorDTO" table="nfce_operador" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Login" column="LOGIN" />
+    <property name="Senha" column="SENHA" />
+    <property name="NivelAutorizacao" column="NIVEL_AUTORIZACAO" />
+  </class>
+</hibernate-mapping>

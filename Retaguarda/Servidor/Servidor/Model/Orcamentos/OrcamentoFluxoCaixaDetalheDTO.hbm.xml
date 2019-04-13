@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="OrcamentoFluxoCaixaDetalheDTO" table="orcamento_fluxo_caixa_detalhe" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="OrcamentoFluxoCaixa" column="ID_ORCAMENTO_FLUXO_CAIXA" />
+    <many-to-one name="NaturezaFinanceira" column="ID_NATUREZA_FINANCEIRA" />
+    <property name="Periodo" column="PERIODO" />
+    <property name="ValorOrcado" column="VALOR_ORCADO" />
+    <property name="ValorRealizado" column="VALOR_REALIZADO" />
+    <property name="TaxaVariacao" column="TAXA_VARIACAO" />
+    <property name="ValorVariacao" column="VALOR_VARIACAO" />
+  </class>
+</hibernate-mapping>

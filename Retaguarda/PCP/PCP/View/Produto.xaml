@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Cadastros.View.Produto" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+xmlns:viewBotoes="clr-namespace:Cadastros.View.Botoes" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Grid.Column="0">
+                <viewBotoes:BarraInterna></viewBotoes:BarraInterna>
+            </StackPanel>
+            <DockPanel>
+                <TabControl>
+                    <TabItem Header="Dados Principais">
+                        <DockPanel>
+                            <Grid Margin="0,0,0,0">
+
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ProdutoSelected.TributIcmsCustomCab.Id}" Height="23" Width="161" Margin="494,123,0,0"  />
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarTributIcmsCustomCab" Click="btPesquisarTributIcmsCustomCab_Click" Margin="660,123,0,0"  />
+                                <Label Content="ICMS Customizado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="492,101,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ProdutoSelected.UnidadeProduto.Id}" Height="23" Width="285" Margin="10,73,0,0"  />
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarUnidadeProduto" Click="btPesquisarUnidadeProduto_Click" Margin="300,73,0,0"  />
+                                <Label Content="Unidade" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,52,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ProdutoSelected.Almoxarifado.Id}" Height="23" Width="227" Margin="10,122,0,0"  />
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarAlmoxarifado" Click="btPesquisarAlmoxarifado_Click" Margin="242,122,0,0"  />
+                                <Label Content="Almoxarifado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,100,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ProdutoSelected.TributGrupoTributario.Id}" Height="23" Width="177" Margin="277,122,0,0"  />
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarTributGrupoTributario" Click="btPesquisarTributGrupoTributario_Click" Margin="459,122,0,0"  />
+                                <Label Content="Grupo Tributario" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="277,99,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ProdutoSelected.ProdutoMarca.Id}" Height="23" Width="320" Margin="335,74,0,0"  />
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarProdutoMarca" Click="btPesquisarProdutoMarca_Click" Margin="660,73,0,0"  />
+                                <Label Content="Marca" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="336,51,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ProdutoSelected.ProdutoSubGrupo.Id}" Height="23" Width="645" Margin="10,28,0,0"  />
+                                <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarProdutoSubGrupo" Click="btPesquisarProdutoSubGrupo_Click" Margin="660,28,0,0"  />
+                                <Label Content="Agrupamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="253" Text="{Binding ProdutoSelected.Gtin}"  Margin="10,172,0,0" />
+
+                                <Label Content="Gtin" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="9,150,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.CodigoInterno}" Height="23" Width="156" Margin="268,172,0,0"  />
+                                <Label Content="Codigo Interno" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,150,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.Ncm}" Height="23" Width="154" Margin="429,172,0,0"  />
+                                <Label Content="Ncm" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="429,150,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.Nome}" Height="23" Width="320" Margin="10,223,0,0"  />
+                                <Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,200,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.Descricao}" Height="23" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="348" Margin="340,223,0,0"  />
+                                <Label Content="Descricao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="336,200,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.DescricaoPdv}" Height="23" Width="573" Margin="10,270,0,0"  />
+                                <Label Content="Descricao PDV" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="7,248,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.ValorCompra}" Height="23" Width="100" Margin="12,338,0,0"  />
+                                <Label Content="ValorCompra" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,315,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.ValorVenda}" Height="23" Width="100" Margin="118,338,0,0"  />
+                                <Label Content="ValorVenda" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="118,315,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.PrecoVendaMinimo}" Height="23" Width="119" Margin="224,338,0,0"  />
+                                <Label Content="Preco Venda Minimo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="224,315,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.PrecoSugerido}" Height="23" Width="106" Margin="348,338,0,0"  />
+                                <Label Content="Preco Sugerido" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348,315,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.PrecoLucroMinimo}" Height="23" Width="110" Margin="459,338,0,0"  />
+                                <Label Content="PrecoLucroMinimo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,315,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.PrecoLucroMaximo}" Height="23" Width="110" Margin="574,338,0,0"  />
+                                <Label Content="PrecoLucroMaximo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="572,315,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.QuantidadeEstoque}" Height="23" Width="126" Margin="330,388,0,0"  />
+                                <Label Content="Quantidade Estoque" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="328,362,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.EstoqueMinimo}" Height="23" Width="100" Margin="13,388,0,0"  />
+                                <Label Content="Estoque Minimo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,362,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.EstoqueMaximo}" Height="23" Width="100" Margin="119,388,0,0"  />
+                                <Label Content="Estoque Maximo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="116,362,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.EstoqueIdeal}" Height="23" Width="100" Margin="225,388,0,0"  />
+                                <Label Content="Estoque Ideal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="222,362,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ProdutoSelected.Inativo}" SelectedValuePath="Tag" Margin="588,270,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="Inativo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="588,248,0,0"  />
+                                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding ProdutoSelected.DataCadastro}" Margin="588,172,0,0"  />
+                                <Label Content="Data Cadastro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="590,150,0,0"  />
+                                <Label Content="Valores Principais" HorizontalAlignment="Left" Margin="10,293,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+
+                            </Grid>
+                        </DockPanel>
+
+                    </TabItem>
+
+                    <TabItem Header="Dados Complementares">
+                        <DockPanel>
+                            <Grid Margin="0,0,0,0">
+                                <Image Margin="10,44,0,36" Source="/PCP;component/Images/ged/folder.png" HorizontalAlignment="Left" Width="328"/>
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ProdutoSelected.ExTipi}" SelectedValuePath="Tag" Margin="356,41,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="ExTipi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,16,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ProdutoSelected.CodigoLst}" SelectedValuePath="Tag" Margin="462,41,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="CodigoLst" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="462,16,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="116" SelectedValue="{Binding ProdutoSelected.ClasseAbc}" SelectedValuePath="Tag" Margin="568,41,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="ClasseAbc" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="568,16,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ProdutoSelected.Iat}" SelectedValuePath="Tag" Margin="356,94,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="Iat" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,69,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ProdutoSelected.Ippt}" SelectedValuePath="Tag" Margin="462,94,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="Ippt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="462,69,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding ProdutoSelected.TipoItemSped}" SelectedValuePath="Tag" Margin="356,157,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="TipoItemSped" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,131,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.Peso}" Height="23" Width="100" Margin="462,157,0,0"  />
+                                <Label Content="Peso" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="462,131,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.PorcentoComissao}" Height="23" Width="100" Margin="568,157,0,0"  />
+                                <Label Content="PorcentoComissao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="568,131,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.PontoPedido}" Height="22" Width="100" Margin="356,212,0,0"  />
+                                <Label Content="PontoPedido" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,188,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.LoteEconomicoCompra}" Height="22" Width="100" Margin="462,212,0,0"  />
+                                <Label Content="Lote Compra" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="462,188,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.AliquotaIcmsPaf}" Height="22" Width="100" Margin="568,212,0,0"  />
+                                <Label Content="AliquotaIcmsPaf" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="568,188,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.AliquotaIssqnPaf}" Height="23" Width="100" Margin="356,269,0,0"  />
+                                <Label Content="AliquotaIssqnPaf" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="356,243,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.TotalizadorParcial}" Height="23" Width="100" Margin="462,269,0,0"  />
+                                <Label Content="TotalizadorParcial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="462,243,0,0"  />
+                                <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding ProdutoSelected.CodigoBalanca}" Height="23" Width="100" Margin="568,269,0,0"  />
+                                <Label Content="CodigoBalanca" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="568,243,0,0"  />
+                                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="107" SelectedValue="{Binding ProdutoSelected.Tipo}" SelectedValuePath="Tag" Margin="577,94,0,0" >
+                                    <ComboBoxItem Content="Sim" Tag="S" />
+                                    <ComboBoxItem Content="Não" Tag="N" />
+                                </ComboBox>
+                                <Label Content="Tipo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="577,69,0,0"  />
+                                <Label Content="Imagem do Produto" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+                            </Grid>
+                        </DockPanel>
+
+                    </TabItem>
+
+                    <TabItem Header="Ficha Técnica">
+                        <DockPanel LastChildFill="True">
+                            <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                                <Button Name="btInserirProduto" ToolTip="Inserir produto" >
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                                        <TextBlock Margin="3,1,0,0">Inserir Produto</TextBlock>
+                                    </StackPanel>
+                                </Button>
+                                <Button Name="btExcluirProduto" ToolTip="Excluir produto selecionado" >
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                                        <TextBlock Margin="3,1,0,0">Excluir Produto Selecionado</TextBlock>
+                                    </StackPanel>
+                                </Button>
+                            </StackPanel>
+                            <DataGrid Name="dataGridProdutosVinculados" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaFichaTecnica}" SelectedItem="{Binding FichaTecnicaSelected}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Id Produto" Binding="{Binding Path=Id}"  />
+                                    <DataGridTextColumn Header="Nome Produto" Binding="{Binding Path=Descricao}"  />
+                                    <DataGridTextColumn Header="Sequencia" Binding="{Binding Path=SequenciaProducao}"  />
+                                    <DataGridTextColumn Header="Quantidade" Binding="{Binding Path=Quantidade}"  />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DockPanel>
+                    </TabItem>
+
+                </TabControl>
+            </DockPanel>
+
+        </DockPanel>
+    </Grid>
+</UserControl>

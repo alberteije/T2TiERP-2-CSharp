@@ -1,0 +1,20 @@
+﻿ContabilidadeClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\
+ContabilidadeClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\App.xaml
+73-1824052446
+
+1041767464884
+25-2088758065
+themes\generic.xaml;View\Contabilidade\AidfAimdf.xaml;View\Contabilidade\AidfAimdfLista.xaml;View\Contabilidade\AidfAimdfPrincipal.xaml;View\Contabilidade\ContabilConta.xaml;View\Contabilidade\ContabilContaLista.xaml;View\Contabilidade\ContabilContaPrincipal.xaml;View\Contabilidade\ContabilDreCabecalho.xaml;View\Contabilidade\ContabilDreCabecalhoLista.xaml;View\Contabilidade\ContabilDreCabecalhoPrincipal.xaml;View\Contabilidade\ContabilDreDetalhe.xaml;View\Contabilidade\ContabilDreDetalheLista.xaml;View\Contabilidade\ContabilDreDetalhePrincipal.xaml;View\Contabilidade\ContabilEncerramentoExeCab.xaml;View\Contabilidade\ContabilEncerramentoExeCabLista.xaml;View\Contabilidade\ContabilEncerramentoExeCabPrincipal.xaml;View\Contabilidade\ContabilEncerramentoExeDet.xaml;View\Contabilidade\ContabilEncerramentoExeDetLista.xaml;View\Contabilidade\ContabilEncerramentoExeDetPrincipal.xaml;View\Contabilidade\ContabilFechamento.xaml;View\Contabilidade\ContabilFechamentoLista.xaml;View\Contabilidade\ContabilFechamentoPrincipal.xaml;View\Contabilidade\ContabilHistorico.xaml;View\Contabilidade\ContabilHistoricoLista.xaml;View\Contabilidade\ContabilHistoricoPrincipal.xaml;View\Contabilidade\ContabilidadePrincipal.xaml;View\Contabilidade\ContabilIndice.xaml;View\Contabilidade\ContabilIndiceLista.xaml;View\Contabilidade\ContabilIndicePrincipal.xaml;View\Contabilidade\ContabilIndiceValor.xaml;View\Contabilidade\ContabilIndiceValorLista.xaml;View\Contabilidade\ContabilIndiceValorPrincipal.xaml;View\Contabilidade\ContabilLancamentoCabecalho.xaml;View\Contabilidade\ContabilLancamentoCabecalhoLista.xaml;View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.xaml;View\Contabilidade\ContabilLancamentoDetalhe.xaml;View\Contabilidade\ContabilLancamentoDetalheLista.xaml;View\Contabilidade\ContabilLancamentoDetalhePrincipal.xaml;View\Contabilidade\ContabilLancamentoOrcado.xaml;View\Contabilidade\ContabilLancamentoOrcadoLista.xaml;View\Contabilidade\ContabilLancamentoOrcadoPrincipal.xaml;View\Contabilidade\ContabilLancamentoPadrao.xaml;View\Contabilidade\ContabilLancamentoPadraoLista.xaml;View\Contabilidade\ContabilLancamentoPadraoPrincipal.xaml;View\Contabilidade\ContabilLivro.xaml;View\Contabilidade\ContabilLivroLista.xaml;View\Contabilidade\ContabilLivroPrincipal.xaml;View\Contabilidade\ContabilLote.xaml;View\Contabilidade\ContabilLoteLista.xaml;View\Contabilidade\ContabilLotePrincipal.xaml;View\Contabilidade\ContabilParametros.xaml;View\Contabilidade\ContabilParametrosLista.xaml;View\Contabilidade\ContabilParametrosPrincipal.xaml;View\Contabilidade\ContabilBalancoPatrimonialPrincipal.xaml;View\Contabilidade\ContabilEmissaoLivrosPrincipal.xaml;View\Contabilidade\ContabilTermo.xaml;View\Contabilidade\ContabilTermoLista.xaml;View\Contabilidade\ContabilTermoPrincipal.xaml;View\Contabilidade\Fap.xaml;View\Contabilidade\FapLista.xaml;View\Contabilidade\FapPrincipal.xaml;View\Contabilidade\ContabilDfcPrincipal.xaml;View\Contabilidade\Login.xaml;View\Contabilidade\PlanoConta.xaml;View\Contabilidade\PlanoContaLista.xaml;View\Contabilidade\PlanoContaPrincipal.xaml;View\Contabilidade\PlanoContaRefSped.xaml;View\Contabilidade\PlanoContaRefSpedLista.xaml;View\Contabilidade\PlanoContaRefSpedPrincipal.xaml;View\Contabilidade\RegistroCartorio.xaml;View\Contabilidade\RegistroCartorioLista.xaml;View\Contabilidade\RegistroCartorioPrincipal.xaml;View\ERPClient.xaml;
+
+False
+

@@ -1,0 +1,20 @@
+﻿ConciliacaoContabilClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\obj\x86\Debug\
+ConciliacaoContabilClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Conciliação Contábil\Cliente\ConciliacaoContabilClient\App.xaml
+26-2019435374
+
+44-1052402492
+19-1822348442
+themes\generic.xaml;View\ConciliacaoContabil\ConciliacaoContabilPrincipal.xaml;View\ConciliacaoContabil\ContabilLancamentoCabecalho.xaml;View\ConciliacaoContabil\ContabilLancamentoCabecalhoLista.xaml;View\ConciliacaoContabil\ContabilLancamentoCabecalhoPrincipal.xaml;View\ConciliacaoContabil\ContabilLancamentoDetalheLista.xaml;View\ConciliacaoContabil\ContabilLancamentoDetalhePrincipal.xaml;View\ConciliacaoContabil\ContaCaixa.xaml;View\ConciliacaoContabil\ContaCaixaLista.xaml;View\ConciliacaoContabil\ContaCaixaPrincipal.xaml;View\ConciliacaoContabil\Cliente.xaml;View\ConciliacaoContabil\ClienteLista.xaml;View\ConciliacaoContabil\ClientePrincipal.xaml;View\ConciliacaoContabil\Fornecedor.xaml;View\ConciliacaoContabil\FornecedorLista.xaml;View\ConciliacaoContabil\FornecedorPrincipal.xaml;View\ConciliacaoContabil\Login.xaml;View\ConciliacaoContabil\ViewConciliaFornecedorLista.xaml;View\ConciliacaoContabil\ViewConciliaFornecedorPrincipal.xaml;View\ConciliacaoContabil\ViewConciliaClienteLista.xaml;View\ConciliacaoContabil\ViewConciliaClientePrincipal.xaml;View\ConciliacaoContabil\LancamentoConciliadoLista.xaml;View\ConciliacaoContabil\LancamentoConciliadoPrincipal.xaml;View\ERPClient.xaml;View\ConciliacaoContabil\FinExtratoContaBancoLista.xaml;View\ConciliacaoContabil\FinExtratoContaBancoPrincipal.xaml;
+
+False
+

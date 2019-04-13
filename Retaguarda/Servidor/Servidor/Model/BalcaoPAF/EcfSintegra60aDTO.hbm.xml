@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfSintegra60aDTO" table="ecf_sintegra_60a" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="NomeCaixa" column="NOME_CAIXA" />
+    <property name="IdGeradoCaixa" column="ID_GERADO_CAIXA" />
+    <property name="IdEmpresa" column="ID_EMPRESA" />
+    <property name="IdSintegra60M" column="ID_SINTEGRA_60M" />
+    <property name="SituacaoTributaria" column="SITUACAO_TRIBUTARIA" />
+    <property name="Valor" column="VALOR" />
+    <property name="DataSincronizacao" column="DATA_SINCRONIZACAO" />
+    <property name="HoraSincronizacao" column="HORA_SINCRONIZACAO" />
+  </class>
+</hibernate-mapping>

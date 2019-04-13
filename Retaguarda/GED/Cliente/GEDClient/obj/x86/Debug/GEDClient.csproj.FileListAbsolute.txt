@@ -1,0 +1,223 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\GEDClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\GEDClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\GEDClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\GEDClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\GEDClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\GEDClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\GEDClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Interop.WIA.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\GEDClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoAlterarView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoExcluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoIncluirView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\GEDClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoAlterarView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoExcluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\GED\TipoDocumentoIncluirView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GEDClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\GEDClient\GEDClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\GEDClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\GEDClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\GEDClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Interop.WIA.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GEDPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GEDPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedDocumentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\View\GED\GedDocumentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\GEDClient\GEDClient\obj\x86\Debug\GEDClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\GEDClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\GEDClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\GEDClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Interop.WIA.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.MefExtensions.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedDocumentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\DocumentoAlterarView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\DocumentoExcluirView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\DocumentoIncluirView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GEDPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedDocumentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\ModuloIncluirDocumentoView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\ModuloVisualizarDocumentoView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GEDPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\View\GED\GedTipoDocumentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\GEDClient.csproj.GenerateResource.Cache

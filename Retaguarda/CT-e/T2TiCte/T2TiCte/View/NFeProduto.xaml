@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="NFe.View.NFeProduto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"             
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"                          
+             xmlns:local="clr-namespace:NFe.View"             
+             xmlns:util="clr-namespace:NFe.Util"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"             
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+    </UserControl.Resources>
+    <DockPanel LastChildFill="True">
+        <GroupBox Header="Nota Fiscal" DockPanel.Dock="Top">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="963*"/>
+                </Grid.ColumnDefinitions>
+                <TextBox IsReadOnly="True" Height="23" Margin="12,40,0,0" Text="{Binding ProdutoSelected.Nome}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="170" MaxLength="2" Grid.ColumnSpan="2" />
+                <Label Content="Número" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label4" Padding="0" VerticalContentAlignment="Center" Width="153" Height="22" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="209.657,42,0,0" Text="{Binding ProdutoSelected.Gtin}" VerticalAlignment="Top" Width="119" HorizontalContentAlignment="Right" Grid.Column="1" />
+                <Label Content="Série" Height="22" HorizontalAlignment="Left" Margin="210.657,14,0,0" Name="label5" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="89" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="343.657,42,0,0" Name="tbQuantidade" VerticalAlignment="Top" Width="82" HorizontalContentAlignment="Right" TextChanged="tbQuantidade_TextChanged" Grid.Column="1" />
+                <Label Content="Data Emissão" Height="22" HorizontalAlignment="Left" Margin="344.657,14,0,0" Name="label18" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="81" Grid.Column="1" />
+                <Button Content="..." Height="23" HorizontalAlignment="Left" Margin="162.657,40,0,0" Name="btPesquisarProduto" VerticalAlignment="Top" Width="33" Click="btPesquisarProduto_Click" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="443,40,0,0" Name="tbValorTotal" Text="{Binding ProdutoSelected.ValorVenda ,Converter={StaticResource moedaFormat}}" VerticalAlignment="Top" Width="106" HorizontalContentAlignment="Right" Grid.Column="1" />
+                <Label Content="Valor total" Height="22" HorizontalAlignment="Left" Margin="443,14,0,0" Name="label1" Padding="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="93" Grid.Column="1" />
+            </Grid>
+        </GroupBox>
+        <StackPanel DockPanel.Dock="top" HorizontalAlignment="Right" Orientation="Horizontal"  Margin="0,5,0,0" >
+            <Button Name="btIncluir" Width="100" Click="btIncluir_Click">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Image Source="/Images/internos/inserir.png" Height="16" Width="16"></Image>
+                    <TextBlock Text="Incluir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Button Name="btExcluir" Width="100" Click="btExcluir_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/excluir.png" Height="16" Width="16"></Image>
+                    <TextBlock Text="Excluir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True"
+                          CanUserAddRows="False" CanUserDeleteRows="False"
+                          ItemsSource="{Binding NFeSelected.ListaNfeDetalhe}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#" Width="Auto" 
+                                                            Binding="{Binding Path=NumeroItem}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Número" Width="Auto" 
+                                                            Binding="{Binding Path=Gtin}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Série" Width="Auto" 
+                                                            Binding="{Binding Path=NomeProduto}">
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Data Emissão" Width="Auto" 
+                                                            Binding="{Binding Path=QuantidadeComercial}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Chave Acesso" Width="Auto" 
+                                                            Binding="{Binding Path=ValorUnitarioComercial
+                                                           ,Converter={StaticResource moedaFormat}}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Header="Valor total" Width="Auto" 
+                                                            Binding="{Binding Path=ValorTotal
+                                                           ,Converter={StaticResource moedaFormat}}">
+                    <DataGridTextColumn.CellStyle>
+                        <Style>
+                            <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+
+
+</UserControl>

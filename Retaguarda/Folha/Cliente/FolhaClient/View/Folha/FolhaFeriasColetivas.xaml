@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaFeriasColetivas" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="900">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaFeriasColetivasSelected.DataInicio}" Margin="6,31,0,0"  />
+			<Label Content="Data Inicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,12,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaFeriasColetivasSelected.DataFim}" Margin="112,31,0,0"  />
+			<Label Content="Data Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,12,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaFeriasColetivasSelected.DiasGozo}" Height="23" Width="100" Margin="218,31,0,0"  />
+			<Label Content="Dias Gozo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,12,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="127" SelectedDate="{Binding FolhaFeriasColetivasSelected.AbonoPecuniarioInicio}" Margin="324,31,0,0"  />
+			<Label Content="Abono Pecuniario Inicio:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,12,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="126" SelectedDate="{Binding FolhaFeriasColetivasSelected.AbonoPecuniarioFim}" Margin="457,31,0,0"  />
+			<Label Content="Abono Pecuniario Fim:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="457,12,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FolhaFeriasColetivasSelected.DiasAbono}" Height="23" Width="100" Margin="597,31,0,0"  />
+			<Label Content="Dias Abono:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="597,12,0,0"  />
+			<DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FolhaFeriasColetivasSelected.DataPagamento}" Margin="703,31,0,0"  />
+			<Label Content="Data Pagamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="703,12,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

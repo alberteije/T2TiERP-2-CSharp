@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="IbptDTO" table="ibpt" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ibpt</param>
+      </generator>
+    </id>
+
+    <property name="Ncm" column="NCM" />
+    <property name="Ex" column="EX" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="NacionalFederal" column="NACIONAL_FEDERAL" />
+    <property name="ImportadosFederal" column="IMPORTADOS_FEDERAL" />
+    <property name="Estadual" column="ESTADUAL" />
+    <property name="Municipal" column="MUNICIPAL" />
+    <property name="VigenciaInicio" column="VIGENCIA_INICIO" />
+    <property name="VigenciaFim" column="VIGENCIA_FIM" />
+    <property name="Chave" column="CHAVE" />
+    <property name="Versao" column="VERSAO" />
+    <property name="Fonte" column="FONTE" />
+  </class>
+</hibernate-mapping>

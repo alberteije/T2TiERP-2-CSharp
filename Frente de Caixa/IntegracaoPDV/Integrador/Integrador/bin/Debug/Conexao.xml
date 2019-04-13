@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<conexao>
+	<sgbd>
+	  <bd>MySQL</bd>
+	  <bdBalcao>MySQL</bdBalcao>
+	</sgbd>
+	<integracao>
+	  <remoteApp>C:\\PAFECF\\</remoteApp>
+	</integracao>
+	<ecfs>
+	  <quantidade>1</quantidade>
+	  <idEmpresa>1</idEmpresa>
+	</ecfs>
+</conexao>

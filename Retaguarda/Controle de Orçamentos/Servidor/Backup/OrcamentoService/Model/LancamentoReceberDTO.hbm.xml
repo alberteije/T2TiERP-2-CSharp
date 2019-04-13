@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="OrcamentoService"
+                   namespace="OrcamentoService.Model" default-lazy="false">
+  <class name="LancamentoReceberDTO" table="fin_lancamento_receber">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one class="DocumentoOrigemDTO" name="documentoOrigem" column="ID_FIN_DOCUMENTO_ORIGEM"/>    
+    <property name="idCliente" column="ID_CLIENTE"/>
+    <property name="valorTotal" column="VALOR_TOTAL" />
+    <property name="valorReceber" column="VALOR_A_RECEBER" />
+    <property name="dataLancamento" column="DATA_LANCAMENTO" />
+    <property name="quantidadeParcela" column="QUANTIDADE_PARCELA" />
+    <property name="primeiroVencimento" column="PRIMEIRO_VENCIMENTO" />
+    <property name="numeroDocumento" column="NUMERO_DOCUMENTO" />
+  </class>
+</hibernate-mapping>

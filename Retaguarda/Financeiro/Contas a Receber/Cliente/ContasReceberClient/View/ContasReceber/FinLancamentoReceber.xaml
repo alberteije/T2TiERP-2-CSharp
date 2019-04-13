@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="ContasReceberClient.View.ContasReceber.FinLancamentoReceber" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view ="clr-namespace:ContasReceberClient.View.ContasReceber"
+             mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+
+    <TabControl>
+        <TabItem >
+
+            <DockPanel LastChildFill="True">
+		        <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			        <Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					        <Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					        <TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				        </StackPanel>
+			        </Button>
+			        <Button Name="btSair" Width="100" Click="btSair_Click">
+				        <StackPanel Orientation="Horizontal">
+					        <Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					        <TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				        </StackPanel>
+			        </Button>
+		        </StackPanel>
+
+                <Grid DockPanel.Dock="Top" Height="160">
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FinLancamentoReceberSelected.FinDocumentoOrigem.SiglaDocumento}" Height="23" Width="298" Margin="6,78,0,0"  />
+			        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarFinDocumentoOrigem" Click="btPesquisarFinDocumentoOrigem_Click" Margin="304,78,0,0"  />
+			        <Label Content="Documento Origem" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,59,0,0"  />
+			        <TextBox VerticalAlignment="Top" IsReadOnly="True" Text="{Binding FinLancamentoReceberSelected.Cliente.Nome}" Height="23" Margin="6,29,38,0"  />
+			        <Button VerticalAlignment="Top" Height="23" Content="..." Name="btPesquisarCliente" Click="btPesquisarCliente_Click" Margin="0,29,6,0" HorizontalAlignment="Right" Width="30" />
+			        <Label Content="Cliente" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,10,0,0"  />
+                    
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.TaxaComissao}" Height="23" Width="86" Margin="218,127,0,0"  />
+                    <Label Content="Taxa Comissão" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,108,0,0"  />
+
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.ValorComissao}" Height="23" Width="78" Margin="310,127,0,0"  />
+                    <Label Content="Valor Comissão" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="310,108,0,0"  />
+
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.QuantidadeParcela}" Height="23" Width="83" Margin="394,127,0,0"  />
+			        <Label Content="Qtde. Parcelas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="394,108,0,0"  />
+			        
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.ValorTotal}" Height="23" Width="100" Margin="6,127,0,0"  />
+			        <Label Content="Valor Total" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,108,0,0"  />
+			        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.ValorAReceber}" Height="23" Width="100" Margin="112,127,0,0"  />
+			        <Label Content="Valor a Receber" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,108,0,0"  />
+			        <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedDate="{Binding FinLancamentoReceberSelected.DataLancamento}" Margin="583,78,0,0"  />
+			        <Label Content="Data Lancamento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="583,59,0,0"  />
+			        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.NumeroDocumento}" Height="23" Width="237" Margin="340,78,0,0"  />
+			        <Label Content="Numero Documento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,61,0,0"  />
+                    <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="107" SelectedDate="{Binding FinLancamentoReceberSelected.PrimeiroVencimento}" Margin="576,127,0,0"  />
+			        <Label Content="Primeiro Vencimento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="576,108,0,0"  />
+                    <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FinLancamentoReceberSelected.IntervaloEntreParcelas}" Height="23" Width="87" Margin="483,127,0,0"  />
+			        <Label Content="Intervalo Parcelas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="483,108,0,0"  />
+		        </Grid>
+                <DockPanel>
+                    <TabControl>
+                        <TabItem Header="Parcelas">
+                            <view:FinParcelaReceberPrincipal></view:FinParcelaReceberPrincipal>
+                        </TabItem>
+                        <TabItem Header="Naturezas Financeiras Vinculadas">
+                            <view:FinLctoReceberNtFinanceiraPrincipal></view:FinLctoReceberNtFinanceiraPrincipal>
+                        </TabItem>
+                    </TabControl>
+                </DockPanel>
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>

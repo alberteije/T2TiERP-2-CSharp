@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewTributacaoIcmsDTO" table="view_tributacao_icms" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdTributGrupoTributario" column="ID_TRIBUT_GRUPO_TRIBUTARIO" />
+    <property name="IdTributOperacaoFiscal" column="ID_TRIBUT_OPERACAO_FISCAL" />
+    <property name="OrigemMercadoria" column="ORIGEM_MERCADORIA" />
+    <property name="UfDestino" column="UF_DESTINO" />
+    <property name="Cfop" column="CFOP" />
+    <property name="CsosnB" column="CSOSN_B" />
+    <property name="CstB" column="CST_B" />
+    <property name="ModalidadeBc" column="MODALIDADE_BC" />
+    <property name="Aliquota" column="ALIQUOTA" />
+    <property name="ValorPauta" column="VALOR_PAUTA" />
+    <property name="ValorPrecoMaximo" column="VALOR_PRECO_MAXIMO" />
+    <property name="Mva" column="MVA" />
+    <property name="PorcentoBc" column="PORCENTO_BC" />
+    <property name="ModalidadeBcSt" column="MODALIDADE_BC_ST" />
+    <property name="AliquotaInternaSt" column="ALIQUOTA_INTERNA_ST" />
+    <property name="AliquotaInterestadualSt" column="ALIQUOTA_INTERESTADUAL_ST" />
+    <property name="PorcentoBcSt" column="PORCENTO_BC_ST" />
+    <property name="AliquotaIcmsSt" column="ALIQUOTA_ICMS_ST" />
+    <property name="ValorPautaSt" column="VALOR_PAUTA_ST" />
+    <property name="ValorPrecoMaximoSt" column="VALOR_PRECO_MAXIMO_ST" />
+  </class>
+</hibernate-mapping>

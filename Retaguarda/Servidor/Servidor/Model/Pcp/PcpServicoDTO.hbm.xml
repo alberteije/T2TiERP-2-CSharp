@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PcpServicoDTO" table="pcp_servico" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="PcpOpDetalhe" column="ID_PCP_OP_DETALHE" />
+    <property name="InicioRealizado" column="INICIO_REALIZADO" />
+    <property name="TerminoRealizado" column="TERMINO_REALIZADO" />
+    <property name="HorasRealizado" column="HORAS_REALIZADO" />
+    <property name="MinutosRealizado" column="MINUTOS_REALIZADO" />
+    <property name="SegundosRealizado" column="SEGUNDOS_REALIZADO" />
+    <property name="CustoRealizado" column="CUSTO_REALIZADO" />
+    <property name="InicioPrevisto" column="INICIO_PREVISTO" />
+    <property name="TerminoPrevisto" column="TERMINO_PREVISTO" />
+    <property name="HorasPrevisto" column="HORAS_PREVISTO" />
+    <property name="MinutosPrevisto" column="MINUTOS_PREVISTO" />
+    <property name="SegundosPrevisto" column="SEGUNDOS_PREVISTO" />
+    <property name="CustoPrevisto" column="CUSTO_PREVISTO" />
+  </class>
+</hibernate-mapping>

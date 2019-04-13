@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Cadastros.View.Botoes.BarraExterna" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewBotoes="clr-namespace:Cadastros.View.Botoes"
+             mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" 
+             d:DesignHeight="28" d:DesignWidth="900">
+
+
+    <DockPanel Background="White" >
+        <ToolBar DockPanel.Dock="Left">
+            <Button Command="{Binding PaginaAnteriorCommand}" ToolTip="Segue para a página anterior" IsEnabled="{Binding NavegaPaginaAnterior}">
+                <Image Source="/Images/navigator/page-prior16.png" Height="16" Width="16"/>
+            </Button>
+            <!--<Button Command="{Binding RegistroPrimeiroCommand}" ToolTip="Segue para o primeiro registro">
+                <Image Source="/Images/navigator/first16.png" Height="16" Width="16" />
+            </Button>
+            <Button Command="{Binding RegistroAnteriorCommand}" ToolTip="Segue para o registro anterior">
+                <Image Source="/Images/navigator/prior16.png" Height="16" Width="16"/>
+            </Button>
+            <Button Command="{Binding RegistroSeguinteCommand}" ToolTip="Segue para o registro seguinte">
+                <Image Source="/Images/navigator/next16.png" Height="16" Width="16"/>
+            </Button>
+            <Button Command="{Binding RegistroUltimoCommand}" ToolTip="Segue para o último registro">
+                <Image Source="/Images/navigator/last16.png" Height="16" Width="16"/>
+            </Button>-->
+            <Button Command="{Binding PaginaSeguinteCommand}" ToolTip="Segue para a página seguinte" IsEnabled="{Binding NavegaPaginaSeguinte}">
+                <Image Source="/Images/navigator/page-next16.png" Height="16" Width="16"/>
+            </Button>
+
+            <Separator />
+
+            <Button Command="{Binding InserirCommand}" ToolTip="Inserir registro">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/inserir.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Inserir</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding AlterarCommand}" ToolTip="Alterar registro">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/alterar.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Alterar</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding ExcluirCommand}" ToolTip="Excluir registro">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/excluir.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Excluir</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding ImprimirCommand}" ToolTip="Imprimir relatório" Visibility="{Binding ExibeBotaoImprimir}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/imprimir.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Imprimir</TextBlock>
+                </StackPanel>
+            </Button>
+
+        </ToolBar>
+
+        <ToolBar DockPanel.Dock="Right" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" FlowDirection="RightToLeft">
+
+            <Menu>
+                <MenuItem Header="Exportar" FlowDirection="LeftToRight" Height="23" IsEnabled="{Binding PodeExportar}">
+                    <MenuItem.Icon>
+                        <Image Source="/Images/internos/exportar.png" Height="16" Width="16"/>
+                    </MenuItem.Icon>
+                    <MenuItem Header="XLS" Command="{Binding ExportarXlsCommand}">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/internos/xls.png" Height="16" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="CSV" Command="{Binding ExportarCsvCommand}">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/internos/csv.png" Height="16" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="TXT" Command="{Binding ExportarTxtCommand}">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/internos/txt.png" Height="16" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="RTF" Command="{Binding ExportarRtfCommand}">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/internos/rtf.png" Height="16" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+
+            <Separator />
+
+            <Button FlowDirection="LeftToRight" Command="{Binding LocalizarCommand}" ToolTip="Filtrar Dados">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/localizar.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Localizar</TextBlock>
+                </StackPanel>
+            </Button>
+
+
+            <TextBox FlowDirection="LeftToRight" Text="{Binding Filtro}" Height="23" Width="250" Name="TextBoxLocalizar" />
+
+        </ToolBar>
+    </DockPanel>
+
+</UserControl>

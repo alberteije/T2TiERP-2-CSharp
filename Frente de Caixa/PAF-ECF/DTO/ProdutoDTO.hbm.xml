@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ProdutoDTO" table="produto" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">produto</param>
+      </generator>
+    </id>
+
+
+    <many-to-one name="UnidadeProduto" column="ID_UNIDADE_PRODUTO" />
+    <property name="Gtin" column="GTIN" />
+    <property name="CodigoInterno" column="CODIGO_INTERNO" />
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="DescricaoPdv" column="DESCRICAO_PDV" />
+    <property name="ValorVenda" column="VALOR_VENDA" />
+    <property name="QuantidadeEstoque" column="QUANTIDADE_ESTOQUE" />
+    <property name="EstoqueMinimo" column="ESTOQUE_MINIMO" />
+    <property name="EstoqueMaximo" column="ESTOQUE_MAXIMO" />
+    <property name="Iat" column="IAT" />
+    <property name="Ippt" column="IPPT" />
+    <property name="Ncm" column="NCM" />
+    <property name="TipoItemSped" column="TIPO_ITEM_SPED" />
+    <property name="TaxaIpi" column="TAXA_IPI" />
+    <property name="TaxaIssqn" column="TAXA_ISSQN" />
+    <property name="TaxaPis" column="TAXA_PIS" />
+    <property name="TaxaCofins" column="TAXA_COFINS" />
+    <property name="TaxaIcms" column="TAXA_ICMS" />
+    <property name="Cst" column="CST" />
+    <property name="Csosn" column="CSOSN" />
+    <property name="TotalizadorParcial" column="TOTALIZADOR_PARCIAL" />
+    <property name="EcfIcmsSt" column="ECF_ICMS_ST" />
+    <property name="CodigoBalanca" column="CODIGO_BALANCA" />
+    <property name="PafPSt" column="PAF_P_ST" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

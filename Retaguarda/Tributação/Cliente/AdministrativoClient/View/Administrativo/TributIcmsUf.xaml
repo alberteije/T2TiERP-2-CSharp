@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="AdministrativoClient.View.Administrativo.TributIcmsUf" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+			<Button Name="btGravar" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="70" Height="20">
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding TributIcmsUfSelected.UfDestino}" SelectedValuePath="Tag" Margin="6,25,0,0" >
+                <ComboBoxItem Content="AC" Tag="AC" />
+                <ComboBoxItem Content="AL" Tag="AL" />
+                <ComboBoxItem Content="AP" Tag="AP" />
+                <ComboBoxItem Content="AM" Tag="AM" />
+                <ComboBoxItem Content="BA" Tag="BA" />
+                <ComboBoxItem Content="CE" Tag="CE" />
+                <ComboBoxItem Content="DF" Tag="DF" />
+                <ComboBoxItem Content="ES" Tag="ES" />
+                <ComboBoxItem Content="GO" Tag="GO" />
+                <ComboBoxItem Content="MA" Tag="MA" />
+                <ComboBoxItem Content="MT" Tag="MT" />
+                <ComboBoxItem Content="MS" Tag="MS" />
+                <ComboBoxItem Content="MG" Tag="MG" />
+                <ComboBoxItem Content="PA" Tag="PA" />
+                <ComboBoxItem Content="PB" Tag="PB" />
+                <ComboBoxItem Content="PR" Tag="PR" />
+                <ComboBoxItem Content="PE" Tag="PE" />
+                <ComboBoxItem Content="PI" Tag="PI" />
+                <ComboBoxItem Content="RJ" Tag="RJ" />
+                <ComboBoxItem Content="RS" Tag="RS" />
+                <ComboBoxItem Content="RO" Tag="RO" />
+                <ComboBoxItem Content="RR" Tag="RR" />
+                <ComboBoxItem Content="SC" Tag="SC" />
+                <ComboBoxItem Content="SP" Tag="SP" />
+                <ComboBoxItem Content="SE" Tag="SE" />
+                <ComboBoxItem Content="TO" Tag="TO" />
+            </ComboBox>
+            <Label Content="Uf Destino:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.Cfop}" Height="23" Width="100" Margin="112,25,0,0"  />
+            <Label Content="Cfop:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.CsosnB}" Height="23" Width="100" Margin="218,25,0,0"  />
+            <Label Content="CSOSN B:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.CstB}" Height="23" Width="100" Margin="324,25,0,0"  />
+            <Label Content="CST B:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="324,6,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="260" SelectedValue="{Binding TributIcmsUfSelected.ModalidadeBc}" SelectedValuePath="Tag" Margin="430,25,0,0" >
+                <ComboBoxItem Content="Margem Valor Agregado (%)" Tag="0" />
+                <ComboBoxItem Content="Pauta (Valor)" Tag="1" />
+                <ComboBoxItem Content="Preço Tabelado Máx. (valor)" Tag="2" />
+                <ComboBoxItem Content="Valor da Operação" Tag="3" />
+            </ComboBox>
+            <Label Content="Modalidade BC:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,6,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.Aliquota}" Height="23" Width="120" Margin="6,73,0,0"  />
+            <Label Content="Aliquota:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.ValorPauta}" Height="23" Width="120" Margin="132,73,0,0"  />
+            <Label Content="Valor Pauta:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,54,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.ValorPrecoMaximo}" Height="23" Width="120" Margin="258,73,0,0"  />
+            <Label Content="Valor Preco Maximo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="258,54,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.Mva}" Height="23" Width="120" Margin="385,73,0,0"  />
+            <Label Content="MVA:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="385,54,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.PorcentoBc}" Height="23" Width="120" Margin="511,73,0,0"  />
+            <Label Content="Porcento BC:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="511,54,0,0"  />
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="684" SelectedValue="{Binding TributIcmsUfSelected.ModalidadeBcSt}" SelectedValuePath="Tag" Margin="6,121,0,0" >
+                <ComboBoxItem Content="Preço tabelado ou máximo sugerido" Tag="0" />
+                <ComboBoxItem Content="Lista Negativa (valor)" Tag="1" />
+                <ComboBoxItem Content="Lista Positiva (valor)" Tag="2" />
+                <ComboBoxItem Content="Lista Neutra (valor)" Tag="3" />
+                <ComboBoxItem Content="Margem Valor Agregado (%)" Tag="4" />
+                <ComboBoxItem Content="Pauta (valor)" Tag="5" />
+            </ComboBox>
+            <Label Content="Modalidade BC ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,102,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.AliquotaInternaSt}" Height="23" Width="120" Margin="6,171,0,0" />
+            <Label Content="Aliquota Interna ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,152,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.AliquotaInterestadualSt}" Height="23" Width="120" Margin="132,171,0,0" />
+            <Label Content="Aliquota Interestadual ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="132,152,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.PorcentoBcSt}" Height="23" Width="120" Margin="258,171,0,0" />
+            <Label Content="Porcento BC ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="258,152,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.AliquotaIcmsSt}" Height="23" Width="120" Margin="385,171,0,0" />
+            <Label Content="Aliquota ICMS ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="385,152,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.ValorPautaSt}" Height="23" Width="120" Margin="511,171,0,0" />
+            <Label Content="Valor Pauta ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="511,152,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding TributIcmsUfSelected.ValorPrecoMaximoSt}" Height="23" Width="120" Margin="6,224,0,0" />
+            <Label Content="Valor Preco Maximo ST:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,205,0,0" />
+        </Grid>
+	</DockPanel>
+</UserControl>

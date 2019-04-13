@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfTotalTipoPagamentoDTO" table="ecf_total_tipo_pagamento" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_total_tipo_pagamento</param>
+      </generator>
+    </id>
+
+
+    <property name="IdEcfVendaCabecalho" column="ID_ECF_VENDA_CABECALHO" />
+    <many-to-one name="EcfTipoPagamento" column="ID_ECF_TIPO_PAGAMENTO" />
+    <property name="DataVenda" column="DATA_VENDA" />
+    <property name="SerieEcf" column="SERIE_ECF" />
+    <property name="Coo" column="COO" />
+    <property name="Ccf" column="CCF" />
+    <property name="Gnf" column="GNF" />
+    <property name="Valor" column="VALOR" />
+    <property name="Nsu" column="NSU" />
+    <property name="Estorno" column="ESTORNO" />
+    <property name="Rede" column="REDE" />
+    <property name="CartaoDc" column="CARTAO_DC" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

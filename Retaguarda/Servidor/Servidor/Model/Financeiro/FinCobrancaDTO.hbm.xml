@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinCobrancaDTO" table="fin_cobranca" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="DataContato" column="DATA_CONTATO" />
+    <property name="HoraContato" column="HORA_CONTATO" />
+    <property name="TelefoneContato" column="TELEFONE_CONTATO" />
+    <property name="DataAcertoPagamento" column="DATA_ACERTO_PAGAMENTO" />
+    <property name="TotalReceberNaData" column="TOTAL_RECEBER_NA_DATA" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FolhaRescisaoDTO" table="folha_rescisao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="DataDemissao" column="DATA_DEMISSAO" />
+    <property name="DataPagamento" column="DATA_PAGAMENTO" />
+    <property name="Motivo" column="MOTIVO" />
+    <property name="MotivoEsocial" column="MOTIVO_ESOCIAL" />
+    <property name="DataAvisoPrevio" column="DATA_AVISO_PREVIO" />
+    <property name="DiasAvisoPrevio" column="DIAS_AVISO_PREVIO" />
+    <property name="ComprovouNovoEmprego" column="COMPROVOU_NOVO_EMPREGO" />
+    <property name="DispensouEmpregado" column="DISPENSOU_EMPREGADO" />
+    <property name="PensaoAlimenticia" column="PENSAO_ALIMENTICIA" />
+    <property name="PensaoAlimenticiaFgts" column="PENSAO_ALIMENTICIA_FGTS" />
+    <property name="FgtsValorRescisao" column="FGTS_VALOR_RESCISAO" />
+    <property name="FgtsSaldoBanco" column="FGTS_SALDO_BANCO" />
+    <property name="FgtsComplementoSaldo" column="FGTS_COMPLEMENTO_SALDO" />
+    <property name="FgtsCodigoAfastamento" column="FGTS_CODIGO_AFASTAMENTO" />
+    <property name="FgtsCodigoSaque" column="FGTS_CODIGO_SAQUE" />
+  </class>
+</hibernate-mapping>

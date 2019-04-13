@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinLctoPagarNtFinanceiraDTO" table="fin_lcto_pagar_nt_financeira" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="FinLancamentoPagar" column="ID_FIN_LANCAMENTO_PAGAR" />
+    <many-to-one name="ContabilLancamentoDetalhe" column="ID_CONTABIL_LANCAMENTO_DET" />
+    <many-to-one name="NaturezaFinanceira" column="ID_NATUREZA_FINANCEIRA" />
+    <property name="DataInclusao" column="DATA_INCLUSAO" />
+    <property name="Valor" column="VALOR" />
+    <property name="Percentual" column="PERCENTUAL" />
+  </class>
+</hibernate-mapping>

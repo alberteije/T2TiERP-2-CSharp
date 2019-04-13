@@ -1,0 +1,46 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\TesourariaService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\TesourariaService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\Iesi.Collections.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\NHibernate.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\NHibernate.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\obj\Debug\TesourariaService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\TesourariaService\TesourariaService\obj\Debug\TesourariaService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\TesourariaService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\TesourariaService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\Iesi.Collections.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\NHibernate.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\NHibernate.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\obj\Debug\TesourariaService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\TesourariaService\TesourariaService\obj\Debug\TesourariaService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\TesourariaService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\TesourariaService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\TesourariaService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\Remotion.Data.Linq.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\Iesi.Collections.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\Iesi.Collections.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\NHibernate.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\NHibernate.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\obj\Debug\TesourariaService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\obj\Debug\TesourariaService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Tesouraria\Servidor\TesourariaService\obj\Debug\TesourariaService.pdb

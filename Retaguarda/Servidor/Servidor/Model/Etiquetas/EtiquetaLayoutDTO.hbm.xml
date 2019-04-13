@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EtiquetaLayoutDTO" table="etiqueta_layout" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="CodigoFabricante" column="CODIGO_FABRICANTE" />
+    <property name="Quantidade" column="QUANTIDADE" />
+    <property name="QuantidadeHorizontal" column="QUANTIDADE_HORIZONTAL" />
+    <property name="QuantidadeVertical" column="QUANTIDADE_VERTICAL" />
+    <property name="MargemSuperior" column="MARGEM_SUPERIOR" />
+    <property name="MargemInferior" column="MARGEM_INFERIOR" />
+    <property name="MargemEsquerda" column="MARGEM_ESQUERDA" />
+    <property name="MargemDireita" column="MARGEM_DIREITA" />
+    <property name="EspacamentoHorizontal" column="ESPACAMENTO_HORIZONTAL" />
+    <property name="EspacamentoVertical" column="ESPACAMENTO_VERTICAL" />
+  </class>
+</hibernate-mapping>

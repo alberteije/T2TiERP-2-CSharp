@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NotaFiscalTipoDTO" table="nota_fiscal_tipo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Nome" column="NOME" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="Serie" column="SERIE" />
+    <property name="SerieScan" column="SERIE_SCAN" />
+    <property name="UltimoNumero" column="ULTIMO_NUMERO" />
+  </class>
+</hibernate-mapping>

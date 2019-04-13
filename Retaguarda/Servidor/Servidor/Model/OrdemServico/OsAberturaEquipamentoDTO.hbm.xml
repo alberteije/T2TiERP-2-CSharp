@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="OsAberturaEquipamentoDTO" table="os_abertura_equipamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="OsEquipamento" column="ID_OS_EQUIPAMENTO" />
+    <many-to-one name="OsAbertura" column="ID_OS_ABERTURA" />
+    <property name="NumeroSerie" column="NUMERO_SERIE" />
+    <property name="TipoCobertura" column="TIPO_COBERTURA" />
+  </class>
+</hibernate-mapping>

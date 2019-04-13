@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="WmsCaixaDTO" table="wms_caixa" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="WmsEstante" column="ID_WMS_ESTANTE" />
+    <property name="Codigo" column="CODIGO" />
+    <property name="Altura" column="ALTURA" />
+    <property name="Largura" column="LARGURA" />
+    <property name="Profundidade" column="PROFUNDIDADE" />
+  </class>
+</hibernate-mapping>

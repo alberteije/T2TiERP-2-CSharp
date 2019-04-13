@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FeriasPeriodoAquisitivoDTO" table="ferias_periodo_aquisitivo" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <property name="DataInicio" column="DATA_INICIO" />
+    <property name="DataFim" column="DATA_FIM" />
+    <property name="Situacao" column="SITUACAO" />
+    <property name="LimiteParaGozo" column="LIMITE_PARA_GOZO" />
+    <property name="DescontarFaltas" column="DESCONTAR_FALTAS" />
+    <property name="DesconsiderarAfastamento" column="DESCONSIDERAR_AFASTAMENTO" />
+    <property name="AfastamentoPrevidencia" column="AFASTAMENTO_PREVIDENCIA" />
+    <property name="AfastamentoSemRemun" column="AFASTAMENTO_SEM_REMUN" />
+    <property name="AfastamentoComRemun" column="AFASTAMENTO_COM_REMUN" />
+    <property name="DiasDireito" column="DIAS_DIREITO" />
+    <property name="DiasGozados" column="DIAS_GOZADOS" />
+    <property name="DiasFaltas" column="DIAS_FALTAS" />
+    <property name="DiasRestantes" column="DIAS_RESTANTES" />
+  </class>
+</hibernate-mapping>

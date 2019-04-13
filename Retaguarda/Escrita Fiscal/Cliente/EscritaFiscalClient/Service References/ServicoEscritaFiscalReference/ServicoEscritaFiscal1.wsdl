@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoEscritaFiscal" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2667/ServicoEscritaFiscal.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2667/ServicoEscritaFiscal.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2667/ServicoEscritaFiscal.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EscritaFiscalService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoEscritaFiscal_deleteRegistroCartorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteRegistroCartorio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteRegistroCartorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteRegistroCartorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarRegistroCartorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarRegistroCartorio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarRegistroCartorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarRegistroCartorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectRegistroCartorio_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorio" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectRegistroCartorio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectRegistroCartorioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectRegistroCartorioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectRegistroCartorioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteFiscalParametro_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFiscalParametro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteFiscalParametro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFiscalParametroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarFiscalParametro_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFiscalParametro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarFiscalParametro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFiscalParametroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalParametro_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalParametro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalParametro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalParametroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalParametroPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalParametroPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalParametroPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalParametroPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteTipoNotaFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTipoNotaFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteTipoNotaFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteTipoNotaFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarTipoNotaFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTipoNotaFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarTipoNotaFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarTipoNotaFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectTipoNotaFiscal_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscal" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectTipoNotaFiscal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectTipoNotaFiscalPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscalPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectTipoNotaFiscalPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectTipoNotaFiscalPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteSimplesNacionalCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteSimplesNacionalCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteSimplesNacionalCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteSimplesNacionalCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarSimplesNacionalCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarSimplesNacionalCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarSimplesNacionalCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarSimplesNacionalCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectSimplesNacionalCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSimplesNacionalCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectSimplesNacionalCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSimplesNacionalCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectSimplesNacionalCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectSimplesNacionalCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectSimplesNacionalCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectSimplesNacionalCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteFiscalLivro_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFiscalLivro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteFiscalLivro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFiscalLivroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarFiscalLivro_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFiscalLivro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarFiscalLivro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFiscalLivroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalLivro_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalLivro" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalLivro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalLivroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalLivroPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalLivroPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalLivroPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalLivroPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteFiscalApuracaoIcms_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFiscalApuracaoIcms" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_deleteFiscalApuracaoIcms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteFiscalApuracaoIcmsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarFiscalApuracaoIcms_InputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFiscalApuracaoIcms" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_salvarAtualizarFiscalApuracaoIcms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:salvarAtualizarFiscalApuracaoIcmsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalApuracaoIcms_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalApuracaoIcms" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalApuracaoIcms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalApuracaoIcmsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalApuracaoIcmsPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalApuracaoIcmsPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectFiscalApuracaoIcmsPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFiscalApuracaoIcmsPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoEscritaFiscal_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoEscritaFiscal">
+    <wsdl:operation name="deleteRegistroCartorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteRegistroCartorio" message="tns:IServicoEscritaFiscal_deleteRegistroCartorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteRegistroCartorioResponse" message="tns:IServicoEscritaFiscal_deleteRegistroCartorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarRegistroCartorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarRegistroCartorio" message="tns:IServicoEscritaFiscal_salvarAtualizarRegistroCartorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarRegistroCartorioResponse" message="tns:IServicoEscritaFiscal_salvarAtualizarRegistroCartorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectRegistroCartorio" message="tns:IServicoEscritaFiscal_selectRegistroCartorio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectRegistroCartorioResponse" message="tns:IServicoEscritaFiscal_selectRegistroCartorio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectRegistroCartorioPagina" message="tns:IServicoEscritaFiscal_selectRegistroCartorioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectRegistroCartorioPaginaResponse" message="tns:IServicoEscritaFiscal_selectRegistroCartorioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFiscalParametro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalParametro" message="tns:IServicoEscritaFiscal_deleteFiscalParametro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalParametroResponse" message="tns:IServicoEscritaFiscal_deleteFiscalParametro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFiscalParametro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalParametro" message="tns:IServicoEscritaFiscal_salvarAtualizarFiscalParametro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalParametroResponse" message="tns:IServicoEscritaFiscal_salvarAtualizarFiscalParametro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalParametro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalParametro" message="tns:IServicoEscritaFiscal_selectFiscalParametro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalParametroResponse" message="tns:IServicoEscritaFiscal_selectFiscalParametro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalParametroPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalParametroPagina" message="tns:IServicoEscritaFiscal_selectFiscalParametroPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalParametroPaginaResponse" message="tns:IServicoEscritaFiscal_selectFiscalParametroPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTipoNotaFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteTipoNotaFiscal" message="tns:IServicoEscritaFiscal_deleteTipoNotaFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteTipoNotaFiscalResponse" message="tns:IServicoEscritaFiscal_deleteTipoNotaFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTipoNotaFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarTipoNotaFiscal" message="tns:IServicoEscritaFiscal_salvarAtualizarTipoNotaFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarTipoNotaFiscalResponse" message="tns:IServicoEscritaFiscal_salvarAtualizarTipoNotaFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectTipoNotaFiscal" message="tns:IServicoEscritaFiscal_selectTipoNotaFiscal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectTipoNotaFiscalResponse" message="tns:IServicoEscritaFiscal_selectTipoNotaFiscal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscalPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectTipoNotaFiscalPagina" message="tns:IServicoEscritaFiscal_selectTipoNotaFiscalPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectTipoNotaFiscalPaginaResponse" message="tns:IServicoEscritaFiscal_selectTipoNotaFiscalPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSimplesNacionalCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteSimplesNacionalCabecalho" message="tns:IServicoEscritaFiscal_deleteSimplesNacionalCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteSimplesNacionalCabecalhoResponse" message="tns:IServicoEscritaFiscal_deleteSimplesNacionalCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarSimplesNacionalCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarSimplesNacionalCabecalho" message="tns:IServicoEscritaFiscal_salvarAtualizarSimplesNacionalCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarSimplesNacionalCabecalhoResponse" message="tns:IServicoEscritaFiscal_salvarAtualizarSimplesNacionalCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSimplesNacionalCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectSimplesNacionalCabecalho" message="tns:IServicoEscritaFiscal_selectSimplesNacionalCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectSimplesNacionalCabecalhoResponse" message="tns:IServicoEscritaFiscal_selectSimplesNacionalCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectSimplesNacionalCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectSimplesNacionalCabecalhoPagina" message="tns:IServicoEscritaFiscal_selectSimplesNacionalCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectSimplesNacionalCabecalhoPaginaResponse" message="tns:IServicoEscritaFiscal_selectSimplesNacionalCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFiscalLivro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalLivro" message="tns:IServicoEscritaFiscal_deleteFiscalLivro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalLivroResponse" message="tns:IServicoEscritaFiscal_deleteFiscalLivro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFiscalLivro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalLivro" message="tns:IServicoEscritaFiscal_salvarAtualizarFiscalLivro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalLivroResponse" message="tns:IServicoEscritaFiscal_salvarAtualizarFiscalLivro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalLivro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalLivro" message="tns:IServicoEscritaFiscal_selectFiscalLivro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalLivroResponse" message="tns:IServicoEscritaFiscal_selectFiscalLivro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalLivroPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalLivroPagina" message="tns:IServicoEscritaFiscal_selectFiscalLivroPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalLivroPaginaResponse" message="tns:IServicoEscritaFiscal_selectFiscalLivroPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFiscalApuracaoIcms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalApuracaoIcms" message="tns:IServicoEscritaFiscal_deleteFiscalApuracaoIcms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalApuracaoIcmsResponse" message="tns:IServicoEscritaFiscal_deleteFiscalApuracaoIcms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFiscalApuracaoIcms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalApuracaoIcms" message="tns:IServicoEscritaFiscal_salvarAtualizarFiscalApuracaoIcms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalApuracaoIcmsResponse" message="tns:IServicoEscritaFiscal_salvarAtualizarFiscalApuracaoIcms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalApuracaoIcms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalApuracaoIcms" message="tns:IServicoEscritaFiscal_selectFiscalApuracaoIcms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalApuracaoIcmsResponse" message="tns:IServicoEscritaFiscal_selectFiscalApuracaoIcms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalApuracaoIcmsPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalApuracaoIcmsPagina" message="tns:IServicoEscritaFiscal_selectFiscalApuracaoIcmsPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectFiscalApuracaoIcmsPaginaResponse" message="tns:IServicoEscritaFiscal_selectFiscalApuracaoIcmsPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectUsuario" message="tns:IServicoEscritaFiscal_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectUsuarioResponse" message="tns:IServicoEscritaFiscal_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectControleAcesso" message="tns:IServicoEscritaFiscal_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoEscritaFiscal/selectControleAcessoResponse" message="tns:IServicoEscritaFiscal_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoEscritaFiscal" type="tns:IServicoEscritaFiscal">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteRegistroCartorio">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/deleteRegistroCartorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarRegistroCartorio">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarRegistroCartorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorio">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectRegistroCartorio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectRegistroCartorioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectRegistroCartorioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFiscalParametro">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalParametro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFiscalParametro">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalParametro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalParametro">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectFiscalParametro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalParametroPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectFiscalParametroPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTipoNotaFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/deleteTipoNotaFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarTipoNotaFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarTipoNotaFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscal">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectTipoNotaFiscal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectTipoNotaFiscalPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectTipoNotaFiscalPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSimplesNacionalCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/deleteSimplesNacionalCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarSimplesNacionalCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarSimplesNacionalCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSimplesNacionalCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectSimplesNacionalCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectSimplesNacionalCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectSimplesNacionalCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFiscalLivro">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalLivro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFiscalLivro">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalLivro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalLivro">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectFiscalLivro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalLivroPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectFiscalLivroPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFiscalApuracaoIcms">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/deleteFiscalApuracaoIcms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salvarAtualizarFiscalApuracaoIcms">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/salvarAtualizarFiscalApuracaoIcms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalApuracaoIcms">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectFiscalApuracaoIcms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFiscalApuracaoIcmsPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectFiscalApuracaoIcmsPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoEscritaFiscal/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoEscritaFiscal">
+    <wsdl:port name="BasicHttpBinding_IServicoEscritaFiscal" binding="tns:BasicHttpBinding_IServicoEscritaFiscal">
+      <soap:address location="http://localhost:2667/ServicoEscritaFiscal.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FiscalNotaFiscalEntradaDTO" table="fiscal_nota_fiscal_entrada" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="NfeCabecalho" column="ID_NFE_CABECALHO" />
+    <property name="Competencia" column="COMPETENCIA" />
+    <property name="CfopEntrada" column="CFOP_ENTRADA" />
+    <property name="ValorRateioFrete" column="VALOR_RATEIO_FRETE" />
+    <property name="ValorCustoMedio" column="VALOR_CUSTO_MEDIO" />
+    <property name="ValorIcmsAntecipado" column="VALOR_ICMS_ANTECIPADO" />
+    <property name="ValorBcIcmsAntecipado" column="VALOR_BC_ICMS_ANTECIPADO" />
+    <property name="ValorBcIcmsCreditado" column="VALOR_BC_ICMS_CREDITADO" />
+    <property name="ValorBcPisCreditado" column="VALOR_BC_PIS_CREDITADO" />
+    <property name="ValorBcCofinsCreditado" column="VALOR_BC_COFINS_CREDITADO" />
+    <property name="ValorBcIpiCreditado" column="VALOR_BC_IPI_CREDITADO" />
+    <property name="CstCreditoIcms" column="CST_CREDITO_ICMS" />
+    <property name="CstCreditoPis" column="CST_CREDITO_PIS" />
+    <property name="CstCreditoCofins" column="CST_CREDITO_COFINS" />
+    <property name="CstCreditoIpi" column="CST_CREDITO_IPI" />
+    <property name="ValorIcmsCreditado" column="VALOR_ICMS_CREDITADO" />
+    <property name="ValorPisCreditado" column="VALOR_PIS_CREDITADO" />
+    <property name="ValorCofinsCreditado" column="VALOR_COFINS_CREDITADO" />
+    <property name="ValorIpiCreditado" column="VALOR_IPI_CREDITADO" />
+    <property name="QtdeParcelaCreditoPis" column="QTDE_PARCELA_CREDITO_PIS" />
+    <property name="QtdeParcelaCreditoCofins" column="QTDE_PARCELA_CREDITO_COFINS" />
+    <property name="QtdeParcelaCreditoIcms" column="QTDE_PARCELA_CREDITO_ICMS" />
+    <property name="QtdeParcelaCreditoIpi" column="QTDE_PARCELA_CREDITO_IPI" />
+    <property name="AliquotaCreditoIcms" column="ALIQUOTA_CREDITO_ICMS" />
+    <property name="AliquotaCreditoPis" column="ALIQUOTA_CREDITO_PIS" />
+    <property name="AliquotaCreditoCofins" column="ALIQUOTA_CREDITO_COFINS" />
+    <property name="AliquotaCreditoIpi" column="ALIQUOTA_CREDITO_IPI" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfAliquotasDTO" table="ecf_aliquotas" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_aliquotas</param>
+      </generator>
+    </id>
+
+
+    <property name="TotalizadorParcial" column="TOTALIZADOR_PARCIAL" />
+    <property name="EcfIcmsSt" column="ECF_ICMS_ST" />
+    <property name="PafPSt" column="PAF_P_ST" />
+  </class>
+</hibernate-mapping>

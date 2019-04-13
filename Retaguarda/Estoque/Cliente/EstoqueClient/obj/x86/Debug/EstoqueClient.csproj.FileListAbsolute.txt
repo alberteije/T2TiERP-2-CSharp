@@ -1,0 +1,223 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\EstoqueClient\bin\Debug\EstoqueClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\EstoqueClient.exe.config
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\EstoqueClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\EstoqueClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeCupomVinculado.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDados.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDadosBasicos.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDestinatario.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeEntregaRetirada.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeFatura.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeProduto.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeTransporte.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeCupomVinculado.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDados.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDadosBasicos.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDestinatario.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeEntregaRetirada.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeFatura.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeProduto.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeTransporte.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Lote.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Lote.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueView.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueView.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\LoteConsulta.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\LoteConsulta.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Requisicao.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Requisicao.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Contagem.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Contagem.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Reajuste.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Reajuste.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Formacao.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Formacao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\EstoqueClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\EstoqueClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\EstoqueClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeCupomVinculado.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDados.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDadosBasicos.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDestinatario.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeEntregaRetirada.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeFatura.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeProduto.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeTransporte.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeCupomVinculado.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDados.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDadosBasicos.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDestinatario.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeEntregaRetirada.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeFatura.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeProduto.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeTransporte.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\EstoqueClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoquePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoquePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\EstoqueClient\EstoqueClient\obj\x86\Debug\View\Estoque\NFeView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\EstoqueClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\EstoqueClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\EstoqueClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoquePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoquePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeCupomVinculado.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDados.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDadosBasicos.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDestinatario.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeEntregaRetirada.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeFatura.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeProduto.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeTransporte.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueContagemDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\EstoqueReajusteDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeCupomVinculado.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDados.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDadosBasicos.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeDestinatario.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeEntregaRetirada.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeFatura.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeProduto.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeTransporte.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\NFeView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\View\Estoque\RequisicaoInternaDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Estoque\Cliente\EstoqueClient\obj\x86\Debug\EstoqueClient.csproj.GenerateResource.Cache

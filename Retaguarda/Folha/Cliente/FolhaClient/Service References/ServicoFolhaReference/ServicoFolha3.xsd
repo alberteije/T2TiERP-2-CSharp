@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2665/ServicoFolha.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FolhaService.Model" />
+  <xs:element name="selectFolhaPpp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPpp" nillable="true" type="q1:FolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPppResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaPppResult" nillable="true" type="q2:ArrayOfFolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPppPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPpp" nillable="true" type="q3:FolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPppPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaPppPaginaResult" nillable="true" type="q4:ArrayOfFolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaborador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="colaborador" nillable="true" type="q5:ColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaboradorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectColaboradorResult" nillable="true" type="q6:ArrayOfColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaboradorPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="colaborador" nillable="true" type="q7:ColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectColaboradorPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectColaboradorPaginaResult" nillable="true" type="q8:ArrayOfColaboradorDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectOperadoraPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="operadoraPlanoSaude" nillable="true" type="q9:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectOperadoraPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectOperadoraPlanoSaudeResult" nillable="true" type="q10:ArrayOfOperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectOperadoraPlanoSaudePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="operadoraPlanoSaude" nillable="true" type="q11:OperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectOperadoraPlanoSaudePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectOperadoraPlanoSaudePaginaResult" nillable="true" type="q12:ArrayOfOperadoraPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectUsuarioResult" nillable="true" type="q13:UsuarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcesso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="viewControleAcesso" nillable="true" type="q14:ViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectControleAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectControleAcessoResult" nillable="true" type="q15:ArrayOfViewControleAcessoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectEmpresaId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectEmpresaIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectEmpresaIdResult" nillable="true" type="q16:EmpresaDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaParametros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaParametros" nillable="true" type="q17:FolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaParametrosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaParametrosResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaParametros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaParametros" nillable="true" type="q18:FolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaParametrosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaParametrosResult" nillable="true" type="q19:FolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaParametros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaParametros" nillable="true" type="q20:FolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaParametrosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaParametrosResult" nillable="true" type="q21:ArrayOfFolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaParametrosPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaParametros" nillable="true" type="q22:FolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaParametrosPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaParametrosPaginaResult" nillable="true" type="q23:ArrayOfFolhaParametrosDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteGuiasAcumuladas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="guiasAcumuladas" nillable="true" type="q24:GuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteGuiasAcumuladasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteGuiasAcumuladasResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarGuiasAcumuladas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="guiasAcumuladas" nillable="true" type="q25:GuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarGuiasAcumuladasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarGuiasAcumuladasResult" nillable="true" type="q26:GuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectGuiasAcumuladas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="guiasAcumuladas" nillable="true" type="q27:GuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectGuiasAcumuladasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectGuiasAcumuladasResult" nillable="true" type="q28:ArrayOfGuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectGuiasAcumuladasPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="guiasAcumuladas" nillable="true" type="q29:GuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectGuiasAcumuladasPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectGuiasAcumuladasPaginaResult" nillable="true" type="q30:ArrayOfGuiasAcumuladasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPlanoSaude" nillable="true" type="q31:FolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaPlanoSaudeResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPlanoSaude" nillable="true" type="q32:FolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaPlanoSaudeResult" nillable="true" type="q33:FolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPlanoSaude">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPlanoSaude" nillable="true" type="q34:FolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPlanoSaudeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaPlanoSaudeResult" nillable="true" type="q35:ArrayOfFolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPlanoSaudePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPlanoSaude" nillable="true" type="q36:FolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaPlanoSaudePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaPlanoSaudePaginaResult" nillable="true" type="q37:ArrayOfFolhaPlanoSaudeDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaEvento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaEvento" nillable="true" type="q38:FolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaEventoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaEventoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaEvento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaEvento" nillable="true" type="q39:FolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaEventoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaEventoResult" nillable="true" type="q40:FolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaEvento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaEvento" nillable="true" type="q41:FolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaEventoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaEventoResult" nillable="true" type="q42:ArrayOfFolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaEventoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaEvento" nillable="true" type="q43:FolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaEventoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaEventoPaginaResult" nillable="true" type="q44:ArrayOfFolhaEventoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaTipoAfastamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaTipoAfastamento" nillable="true" type="q45:FolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaTipoAfastamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaTipoAfastamentoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaTipoAfastamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaTipoAfastamento" nillable="true" type="q46:FolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaTipoAfastamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaTipoAfastamentoResult" nillable="true" type="q47:FolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaTipoAfastamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaTipoAfastamento" nillable="true" type="q48:FolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaTipoAfastamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaTipoAfastamentoResult" nillable="true" type="q49:ArrayOfFolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaTipoAfastamentoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaTipoAfastamento" nillable="true" type="q50:FolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaTipoAfastamentoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaTipoAfastamentoPaginaResult" nillable="true" type="q51:ArrayOfFolhaTipoAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaAfastamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaAfastamento" nillable="true" type="q52:FolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaAfastamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaAfastamentoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaAfastamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaAfastamento" nillable="true" type="q53:FolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaAfastamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaAfastamentoResult" nillable="true" type="q54:FolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaAfastamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaAfastamento" nillable="true" type="q55:FolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaAfastamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaAfastamentoResult" nillable="true" type="q56:ArrayOfFolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaAfastamentoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaAfastamento" nillable="true" type="q57:FolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaAfastamentoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaAfastamentoPaginaResult" nillable="true" type="q58:ArrayOfFolhaAfastamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaFeriasColetivas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFeriasColetivas" nillable="true" type="q59:FolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaFeriasColetivasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaFeriasColetivasResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaFeriasColetivas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFeriasColetivas" nillable="true" type="q60:FolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaFeriasColetivasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaFeriasColetivasResult" nillable="true" type="q61:FolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFeriasColetivas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFeriasColetivas" nillable="true" type="q62:FolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFeriasColetivasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaFeriasColetivasResult" nillable="true" type="q63:ArrayOfFolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFeriasColetivasPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFeriasColetivas" nillable="true" type="q64:FolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFeriasColetivasPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaFeriasColetivasPaginaResult" nillable="true" type="q65:ArrayOfFolhaFeriasColetivasDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFeriasPeriodoAquisitivo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="feriasPeriodoAquisitivo" nillable="true" type="q66:FeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFeriasPeriodoAquisitivoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFeriasPeriodoAquisitivoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFeriasPeriodoAquisitivo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="feriasPeriodoAquisitivo" nillable="true" type="q67:FeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFeriasPeriodoAquisitivoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFeriasPeriodoAquisitivoResult" nillable="true" type="q68:FeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFeriasPeriodoAquisitivo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="feriasPeriodoAquisitivo" nillable="true" type="q69:FeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFeriasPeriodoAquisitivoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFeriasPeriodoAquisitivoResult" nillable="true" type="q70:ArrayOfFeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFeriasPeriodoAquisitivoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="feriasPeriodoAquisitivo" nillable="true" type="q71:FeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFeriasPeriodoAquisitivoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFeriasPeriodoAquisitivoPaginaResult" nillable="true" type="q72:ArrayOfFeriasPeriodoAquisitivoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaFechamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFechamento" nillable="true" type="q73:FolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaFechamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaFechamentoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaFechamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFechamento" nillable="true" type="q74:FolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaFechamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaFechamentoResult" nillable="true" type="q75:FolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFechamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFechamento" nillable="true" type="q76:FolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFechamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaFechamentoResult" nillable="true" type="q77:ArrayOfFolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFechamentoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaFechamento" nillable="true" type="q78:FolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaFechamentoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaFechamentoPaginaResult" nillable="true" type="q79:ArrayOfFolhaFechamentoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaHistoricoSalarial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaHistoricoSalarial" nillable="true" type="q80:FolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaHistoricoSalarialResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaHistoricoSalarialResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaHistoricoSalarial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaHistoricoSalarial" nillable="true" type="q81:FolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaHistoricoSalarialResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaHistoricoSalarialResult" nillable="true" type="q82:FolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaHistoricoSalarial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaHistoricoSalarial" nillable="true" type="q83:FolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaHistoricoSalarialResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaHistoricoSalarialResult" nillable="true" type="q84:ArrayOfFolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaHistoricoSalarialPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaHistoricoSalarial" nillable="true" type="q85:FolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaHistoricoSalarialPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaHistoricoSalarialPaginaResult" nillable="true" type="q86:ArrayOfFolhaHistoricoSalarialDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectEmpresaTransporteItinerario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="empresaTransporteItinerario" nillable="true" type="q87:EmpresaTransporteItinerarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectEmpresaTransporteItinerarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectEmpresaTransporteItinerarioResult" nillable="true" type="q88:ArrayOfEmpresaTransporteItinerarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectEmpresaTransporteItinerarioPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="empresaTransporteItinerario" nillable="true" type="q89:EmpresaTransporteItinerarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectEmpresaTransporteItinerarioPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectEmpresaTransporteItinerarioPaginaResult" nillable="true" type="q90:ArrayOfEmpresaTransporteItinerarioDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaValeTransporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaValeTransporte" nillable="true" type="q91:FolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaValeTransporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaValeTransporteResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaValeTransporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaValeTransporte" nillable="true" type="q92:FolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaValeTransporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaValeTransporteResult" nillable="true" type="q93:FolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaValeTransporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaValeTransporte" nillable="true" type="q94:FolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaValeTransporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaValeTransporteResult" nillable="true" type="q95:ArrayOfFolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaValeTransportePagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaValeTransporte" nillable="true" type="q96:FolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaValeTransportePaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaValeTransportePaginaResult" nillable="true" type="q97:ArrayOfFolhaValeTransporteDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaRescisao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaRescisao" nillable="true" type="q98:FolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaRescisaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaRescisaoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaRescisao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaRescisao" nillable="true" type="q99:FolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaRescisaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaRescisaoResult" nillable="true" type="q100:FolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaRescisao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaRescisao" nillable="true" type="q101:FolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaRescisaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaRescisaoResult" nillable="true" type="q102:ArrayOfFolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaRescisaoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaRescisao" nillable="true" type="q103:FolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaRescisaoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaRescisaoPaginaResult" nillable="true" type="q104:ArrayOfFolhaRescisaoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaInssServico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInssServico" nillable="true" type="q105:FolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaInssServicoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaInssServicoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaInssServico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInssServico" nillable="true" type="q106:FolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaInssServicoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaInssServicoResult" nillable="true" type="q107:FolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssServico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInssServico" nillable="true" type="q108:FolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssServicoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaInssServicoResult" nillable="true" type="q109:ArrayOfFolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssServicoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInssServico" nillable="true" type="q110:FolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssServicoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaInssServicoPaginaResult" nillable="true" type="q111:ArrayOfFolhaInssServicoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaLancamentoCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaLancamentoCabecalho" nillable="true" type="q112:FolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaLancamentoCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaLancamentoCabecalhoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaLancamentoCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q113="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaLancamentoCabecalho" nillable="true" type="q113:FolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaLancamentoCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaLancamentoCabecalhoResult" nillable="true" type="q114:FolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaLancamentoCabecalho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaLancamentoCabecalho" nillable="true" type="q115:FolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaLancamentoCabecalhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaLancamentoCabecalhoResult" nillable="true" type="q116:ArrayOfFolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaLancamentoCabecalhoPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaLancamentoCabecalho" nillable="true" type="q117:FolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaLancamentoCabecalhoPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q118="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaLancamentoCabecalhoPaginaResult" nillable="true" type="q118:ArrayOfFolhaLancamentoCabecalhoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaInss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q119="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInss" nillable="true" type="q119:FolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaInssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaInssResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaInss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q120="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInss" nillable="true" type="q120:FolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaInssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q121="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaInssResult" nillable="true" type="q121:FolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q122="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInss" nillable="true" type="q122:FolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q123="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaInssResult" nillable="true" type="q123:ArrayOfFolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssPagina">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="primeiroResultado" type="xs:int" />
+        <xs:element minOccurs="0" name="quantidadeResultados" type="xs:int" />
+        <xs:element xmlns:q124="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaInss" nillable="true" type="q124:FolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="selectFolhaInssPaginaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q125="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="selectFolhaInssPaginaResult" nillable="true" type="q125:ArrayOfFolhaInssDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaPpp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q126="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPpp" nillable="true" type="q126:FolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteFolhaPppResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteFolhaPppResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaPpp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q127="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="folhaPpp" nillable="true" type="q127:FolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="salvarAtualizarFolhaPppResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q128="http://schemas.datacontract.org/2004/07/FolhaService.Model" minOccurs="0" name="salvarAtualizarFolhaPppResult" nillable="true" type="q128:FolhaPppDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

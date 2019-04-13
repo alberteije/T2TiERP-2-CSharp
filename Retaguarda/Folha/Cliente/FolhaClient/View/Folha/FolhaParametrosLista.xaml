@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="FolhaClient.View.Folha.FolhaParametrosLista" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:util="clr-namespace:FolhaClient.Util" xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo" xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo" d:DesignHeight="500" d:DesignWidth="700">
+	<UserControl.Resources>
+		<util:MoedaFormat x:Key="moedaFormat" />
+		<ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+			<ObjectDataProvider.MethodParameters>
+				<x:TypeExtension TypeName="expfmt:Formato" />
+			</ObjectDataProvider.MethodParameters>
+		</ObjectDataProvider>
+	</UserControl.Resources>
+	<DockPanel LastChildFill="True">
+		<DockPanel LastChildFill="True">
+			<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+				<Button Margin="4,0" Content="&lt;" Command="{Binding paginaAnteriorCommand}" />
+				<Button Margin="4,0" Content="&gt;" Command="{Binding paginaSeguinteCommand}" />
+			</StackPanel>
+			<StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+				<ComboBox Name="comboExp" SelectedIndex="0" Width="60" ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"></ComboBox>
+				<exp:ButtonExport ExportDataGridSource="{Binding ElementName=dataGrid}" ExportFileFormat="{Binding ElementName=comboExp, Path=SelectedValue}" Click="ButtonExport_Click">
+					<StackPanel Orientation="Horizontal">
+						<Image Source="/Imagem/documento32.png" Height="20"></Image>
+					</StackPanel>
+				</exp:ButtonExport>
+			</StackPanel>
+			<DataGrid Name="dataGrid" AutoGenerateColumns="false" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding ListaFolhaParametros}" SelectedItem="{Binding FolhaParametrosSelected}">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Id" Binding="{Binding Path=Id}"  />
+					<DataGridTextColumn Header="Competencia" Binding="{Binding Path=Competencia}"  />
+					<DataGridTextColumn Header="Contribui Pis" Binding="{Binding Path=ContribuiPis}"  />
+					<DataGridTextColumn Header="Aliquota Pis" Binding="{Binding Path=AliquotaPis,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Discriminar DSR" Binding="{Binding Path=DiscriminarDsr}"  />
+					<DataGridTextColumn Header="Dia Pagamento" Binding="{Binding Path=DiaPagamento}"  />
+					<DataGridTextColumn Header="Calculo Proporcionalidade" Binding="{Binding Path=CalculoProporcionalidade}"  />
+					<DataGridTextColumn Header="Descontar Faltas 13º" Binding="{Binding Path=DescontarFaltas13}"  />
+					<DataGridTextColumn Header="Pagar Adicionais 13º" Binding="{Binding Path=PagarAdicionais13}"  />
+					<DataGridTextColumn Header="Pagar Estagiarios 13º" Binding="{Binding Path=PagarEstagiarios13}"  />
+					<DataGridTextColumn Header="Mes Adiantamento 13º" Binding="{Binding Path=MesAdiantamento13}"  />
+					<DataGridTextColumn Header="Percentual Adiantamento 13º" Binding="{Binding Path=PercentualAdiantam13,Converter={StaticResource moedaFormat}}"  />
+					<DataGridTextColumn Header="Ferias - Descontar Faltas" Binding="{Binding Path=FeriasDescontarFaltas}"  />
+					<DataGridTextColumn Header="Ferias - Pagar Adicionais" Binding="{Binding Path=FeriasPagarAdicionais}"  />
+					<DataGridTextColumn Header="Ferias - Adiantar 13º" Binding="{Binding Path=FeriasAdiantar13}"  />
+					<DataGridTextColumn Header="Ferias - Pagar Estagiarios" Binding="{Binding Path=FeriasPagarEstagiarios}"  />
+					<DataGridTextColumn Header="Ferias - Calculo Justa Causa" Binding="{Binding Path=FeriasCalcJustaCausa}"  />
+					<DataGridTextColumn Header="Ferias - Movimento Mensal" Binding="{Binding Path=FeriasMovimentoMensal}"  />
+				</DataGrid.Columns>
+			</DataGrid>
+		</DockPanel>
+	</DockPanel>
+</UserControl>

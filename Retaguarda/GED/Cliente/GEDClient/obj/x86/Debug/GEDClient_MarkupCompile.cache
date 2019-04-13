@@ -1,0 +1,20 @@
+﻿GEDClient
+
+
+winexe
+C#
+.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\obj\x86\Debug\
+GEDClient
+none
+false
+DEBUG;TRACE
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\GED\Cliente\GEDClient\App.xaml
+13-459475704
+
+30-1429038773
+29649169759
+themes\generic.xaml;View\ERPClient.xaml;View\GED\DocumentoAlterarView.xaml;View\GED\DocumentoExcluirView.xaml;View\GED\DocumentoIncluirView.xaml;View\GED\GEDPrincipal.xaml;View\GED\GedDocumentoPrincipal.xaml;View\GED\GedTipoDocumento.xaml;View\GED\GedTipoDocumentoLista.xaml;View\GED\GedTipoDocumentoPrincipal.xaml;View\GED\Login.xaml;View\GED\ModuloIncluirDocumentoView.xaml;View\GED\ModuloVisualizarDocumentoView.xaml;
+
+False
+

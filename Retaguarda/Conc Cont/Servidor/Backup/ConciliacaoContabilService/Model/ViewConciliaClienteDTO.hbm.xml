@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="ConciliacaoContabilService" namespace="ConciliacaoContabilService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewConciliaClienteDTO" table="view_concilia_cliente" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdFinParcelaReceber" column="ID_FIN_PARCELA_RECEBER" />
+    <property name="IdFinTipoRecebimento" column="ID_FIN_TIPO_RECEBIMENTO" />
+    <property name="IdContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="DataRecebimento" column="DATA_RECEBIMENTO" />
+    <property name="TaxaJuro" column="TAXA_JURO" />
+    <property name="TaxaMulta" column="TAXA_MULTA" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorJuro" column="VALOR_JURO" />
+    <property name="ValorMulta" column="VALOR_MULTA" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorRecebido" column="VALOR_RECEBIDO" />
+    <property name="Historico" column="HISTORICO" />
+    <property name="IdCliente" column="ID_CLIENTE" />
+  </class>
+</hibernate-mapping>

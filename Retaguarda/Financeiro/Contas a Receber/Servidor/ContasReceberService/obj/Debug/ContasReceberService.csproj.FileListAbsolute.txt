@@ -1,0 +1,67 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\ContasReceberService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\ContasReceberService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Iesi.Collections.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Iesi.Collections.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\obj\Debug\ContasReceberService.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\obj\Debug\ContasReceberService.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ContasReceberService\ContasReceberService\bin\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\ContasReceberService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\ContasReceberService.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\Boleto.Net.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\Boleto.Net.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\Iesi.Collections.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\obj\Debug\ContasReceberService.dll
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\ContasReceberService\ContasReceberService\obj\Debug\ContasReceberService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\obj\Debug\ContasReceberService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\obj\Debug\ContasReceberService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\ContasReceberService.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\ContasReceberService.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Boleto.Net.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Remotion.Data.Linq.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Boleto.Net.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Iesi.Collections.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\Iesi.Collections.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\NHibernate.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\NHibernate.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContasReceberService\ContasReceberService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\ContasReceberService.dll.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\ContasReceberService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\ContasReceberService.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\MySql.Data.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\Remotion.Data.Linq.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\Boleto.Net.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\Iesi.Collections.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\Iesi.Collections.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\NHibernate.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\NHibernate.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\NHibernate.ByteCode.LinFu.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\bin\NHibernate.ByteCode.LinFu.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\obj\Debug\ContasReceberService.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\obj\Debug\ContasReceberService.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Contas a Receber\Servidor\ContasReceberService\obj\Debug\ContasReceberService.pdb

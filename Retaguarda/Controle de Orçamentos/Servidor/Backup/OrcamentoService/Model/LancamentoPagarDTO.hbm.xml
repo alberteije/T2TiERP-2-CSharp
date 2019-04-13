@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="OrcamentoService"
+                   namespace="OrcamentoService.Model" default-lazy="false">
+  <class name="LancamentoPagarDTO" table="fin_lancamento_pagar">
+    <id name="id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one class="DocumentoOrigemDTO" name="documentoOrigem" column="ID_FIN_DOCUMENTO_ORIGEM"/>
+    <property name="idFornecedor" column="ID_FORNECEDOR" />
+    <property name="pagamentoCompartilhado" column="PAGAMENTO_COMPARTILHADO" />
+    <property name="valorTotal" column="VALOR_TOTAL" />
+    <property name="valorPagar" column="VALOR_A_PAGAR" />
+    <property name="dataLancamento" column="DATA_LANCAMENTO" />
+    <property name="numeroDocumento" column="NUMERO_DOCUMENTO" />
+    <property name="imagemDocumento" column="IMAGEM_DOCUMENTO" />
+    <property name="quantidadeParcela" column="QUANTIDADE_PARCELA" />
+    <property name="primeiroVencimento" column="PRIMEIRO_VENCIMENTO" />
+  </class>
+</hibernate-mapping>

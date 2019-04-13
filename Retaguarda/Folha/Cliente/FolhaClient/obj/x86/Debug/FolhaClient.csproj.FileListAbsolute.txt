@@ -1,0 +1,502 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\FolhaClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\FolhaClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\FolhaClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametros.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametros.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladas.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladas.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaude.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaude.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudeLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudeLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEvento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEvento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivas.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivas.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivo.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivo.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarial.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarial.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporte.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporte.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporteLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransportePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporteLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransportePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServico.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServico.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\InformativosGuiasPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\InformativosGuiasPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPpp.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPpp.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCat.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCat.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividade.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividade.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadeLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadeLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRisco.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRisco.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedico.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedico.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInss.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInss.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Reportman.Drawing.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Reportman.Drawing.Forms.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Reportman.Reporting.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FolhaClient\FolhaClient\bin\Debug\Reportman.Reporting.Forms.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\FolhaClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\FolhaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\FolhaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEvento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivas.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarial.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametros.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaude.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividade.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCat.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRisco.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporte.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladas.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\InformativosGuiasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEvento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivas.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarial.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInss.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametros.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaude.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudeLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPpp.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividade.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadeLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCat.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRisco.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporte.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporteLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransportePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladas.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\InformativosGuiasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInss.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudeLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPpp.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadeLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporteLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransportePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\FolhaClient\FolhaClient\obj\x86\Debug\FolhaClient.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\FolhaClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\FolhaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\FolhaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\SearchWindow.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaEvento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivas.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarial.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametros.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaude.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividade.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCat.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRisco.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporte.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladas.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\InformativosGuiasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaEvento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivas.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarial.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInss.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametros.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaude.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudeLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPpp.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividade.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadeLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCat.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRisco.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporte.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporteLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransportePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladas.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\InformativosGuiasPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FeriasPeriodoAquisitivoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaAfastamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaEventoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFechamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaFeriasColetivasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaHistoricoSalarialPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInss.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssRetencaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaInssServicoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaLancamentoDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaParametrosPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudeLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPlanoSaudePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPpp.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadeLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppAtividadePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppCatPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppExameMedicoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppFatorRiscoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaPppPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaRescisaoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaTipoAfastamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransporteLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\FolhaValeTransportePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\View\Folha\GuiasAcumuladasPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Folha\Cliente\FolhaClient\obj\x86\Debug\FolhaClient.csproj.GenerateResource.Cache

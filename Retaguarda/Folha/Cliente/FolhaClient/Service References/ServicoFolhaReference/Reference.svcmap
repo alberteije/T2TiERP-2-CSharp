@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7aa54342-dd4c-4b22-8a29-b97c4dfc507f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2665/ServicoFolha.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoFolha1.wsdl" MetadataType="Wsdl" ID="50ea2ab6-884c-48d1-a713-074b0aad166f" SourceId="1" SourceUrl="http://localhost:2665/ServicoFolha.svc?wsdl" />
+    <MetadataFile FileName="ServicoFolha3.xsd" MetadataType="Schema" ID="358014e7-4437-4d8c-9376-bf3a7b836836" SourceId="1" SourceUrl="http://localhost:2665/ServicoFolha.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoFolha31.xsd" MetadataType="Schema" ID="95f88c95-cd63-4669-b41f-462c1d411630" SourceId="1" SourceUrl="http://localhost:2665/ServicoFolha.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoFolha32.xsd" MetadataType="Schema" ID="a37b941a-f430-4e7d-bc7d-82634ec279e8" SourceId="1" SourceUrl="http://localhost:2665/ServicoFolha.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoFolha1.disco" MetadataType="Disco" ID="48a8006b-fcf5-40b4-946a-f1c1a5ed8b45" SourceId="1" SourceUrl="http://localhost:2665/ServicoFolha.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

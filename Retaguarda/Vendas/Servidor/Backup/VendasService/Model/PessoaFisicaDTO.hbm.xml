@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="VendasService" namespace="VendasService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PessoaFisicaDTO" table="pessoa_fisica" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Pessoa" column="ID_PESSOA" />
+    <many-to-one name="EstadoCivil" column="ID_ESTADO_CIVIL" />
+    <property name="Cpf" column="CPF" />
+    <property name="Rg" column="RG" />
+    <property name="OrgaoRg" column="ORGAO_RG" />
+    <property name="DataEmissaoRg" column="DATA_EMISSAO_RG" />
+    <property name="DataNascimento" column="DATA_NASCIMENTO" />
+    <property name="Sexo" column="SEXO" />
+    <property name="Naturalidade" column="NATURALIDADE" />
+    <property name="Nacionalidade" column="NACIONALIDADE" />
+    <property name="Raca" column="RACA" />
+    <property name="TipoSangue" column="TIPO_SANGUE" />
+    <property name="CnhNumero" column="CNH_NUMERO" />
+    <property name="CnhCategoria" column="CNH_CATEGORIA" />
+    <property name="CnhVencimento" column="CNH_VENCIMENTO" />
+    <property name="TituloEleitoralNumero" column="TITULO_ELEITORAL_NUMERO" />
+    <property name="TituloEleitoralZona" column="TITULO_ELEITORAL_ZONA" />
+    <property name="TituloEleitoralSecao" column="TITULO_ELEITORAL_SECAO" />
+    <property name="ReservistaNumero" column="RESERVISTA_NUMERO" />
+    <property name="ReservistaCategoria" column="RESERVISTA_CATEGORIA" />
+    <property name="NomeMae" column="NOME_MAE" />
+    <property name="NomePai" column="NOME_PAI" />
+  </class>
+</hibernate-mapping>

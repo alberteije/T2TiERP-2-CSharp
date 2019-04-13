@@ -1,0 +1,123 @@
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.pdb
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixa.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixa.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.g.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.exe
+C:\Documents and Settings\T2Ti\Configurações locais\Dados de aplicativos\Temporary Projects\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe.config
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FCDetalhe.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FCGrid.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FCDetalhe.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FCGrid.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixa.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.lref
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixa.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.csproj.ResolveComReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\MainWindow.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\MainWindow.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaView.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaView.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\FluxoCaixaClient\FluxoCaixaClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\FluxoCaixaClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.csprojResolveAssemblyReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\MainWindow.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\MainWindow.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaView.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\View\FluxoCaixa\FluxoCaixaView.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Financeiro\Fluxo de Caixa\Cliente\FluxoCaixaClient\obj\x86\Debug\FluxoCaixaClient.csproj.GenerateResource.Cache

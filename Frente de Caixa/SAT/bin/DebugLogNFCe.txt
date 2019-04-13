@@ -1,0 +1,4 @@
+06/02/2016 19:51:47:	System.Exception: Nenhum objeto nfeProc encontrado no arquivo C:\T2Ti\SAT\XML\RETORNO_53160210793118000178650010004570221004570226.xml!
+   em NFe.Utils.FuncoesXml.ObterNodeDeArquivoXml(String nomeDoNode, String arquivoXml) na c:\Componentes\C#\Zeus\NFe.Utils\FuncoesXml.cs:linha 169
+   em ExtNfeProc.CarregarDeArquivoXml(nfeProc nfeProc, String arquivoXml) na c:\Componentes\C#\Zeus\NFe.Utils\NFe\ExtNfeProc.cs:linha 47
+   em NFCe.View.Caixa.ConcluiEncerramentoVenda() na c:\Projetos\T2Ti ERP 2.0\C#\Frente de Caixa\SAT\View\Caixa.cs:linha 1270

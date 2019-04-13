@@ -1,0 +1,134 @@
+﻿<UserControl x:Class="TesourariaClient.View.Tesouraria.TesourariaView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:util="clr-namespace:TesourariaClient.Util"
+             xmlns:exp="clr-namespace:ExportarParaArquivo.Control;assembly=ExportarParaArquivo"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"                          
+             xmlns:expfmt="clr-namespace:ExportarParaArquivo;assembly=ExportarParaArquivo"             
+             mc:Ignorable="d"
+             d:DesignHeight="500" d:DesignWidth="700">
+    <UserControl.Resources>
+        <util:MoedaFormat x:Key="moedaFormat"/>
+        <ObjectDataProvider x:Key="formatoExp" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:TypeExtension TypeName="expfmt:Formato"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>        
+    </UserControl.Resources>
+
+    <TabControl>
+        <TabItem IsSelected="{Binding isSelectedTabResumo}" >
+            <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Label VerticalAlignment="Center">Período:</Label>
+                    <TextBox Width="80" MaxLength="7" LostFocus="TextBox_LostFocus"
+                             Text="{Binding textoDataMovimento, StringFormat=MM/yyyy}"></TextBox>
+                    <Button Name="btPesquisarResumo" Click="btPesquisarResumo_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Imagem/21botaoPesquisa.png" Height="23"></Image>
+                            <TextBlock Text="Pesquisar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Top" FlowDirection="RightToLeft">
+                    <TextBlock Text="{Binding mensagemErro}" VerticalAlignment="Center" Margin="20,0,0,0"
+                       Foreground="DarkRed" FontSize="12" FontWeight="Bold">
+                    </TextBlock>
+                </StackPanel>
+                <GroupBox DockPanel.Dock="Bottom" Header="Fechamento:" >
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Label VerticalAlignment="Center">Saldo anterior:</Label>
+                        <TextBlock Text="{Binding ElementName=dataGridResumo, Path=SelectedItem.fechamento.saldoAnterior
+                            ,Converter={StaticResource moedaFormat}}" 
+                                   VerticalAlignment="Center"
+                                   MinWidth="50"/>
+                        <Label VerticalAlignment="Center">Recebimentos:</Label>
+                        <TextBlock Text="{Binding ElementName=dataGridResumo, Path=SelectedItem.fechamento.recebimentos
+                            ,Converter={StaticResource moedaFormat}}" 
+                                   VerticalAlignment="Center"
+                                   MinWidth="50"/>
+                        <Label VerticalAlignment="Center">Pagamentos:</Label>
+                        <TextBlock Text="{Binding ElementName=dataGridResumo, Path=SelectedItem.fechamento.pagamentos
+                            ,Converter={StaticResource moedaFormat}}" 
+                                   VerticalAlignment="Center"
+                                   MinWidth="50"/>
+                        <Label VerticalAlignment="Center">Saldo:</Label>
+                        <TextBlock Text="{Binding ElementName=dataGridResumo, Path=SelectedItem.fechamento.saldoConta
+                            ,Converter={StaticResource moedaFormat}}" 
+                                   VerticalAlignment="Center"
+                                   MinWidth="50"/>
+                        <Label VerticalAlignment="Center">Saldo final:</Label>
+                        <TextBlock Text="{Binding ElementName=dataGridResumo, Path=SelectedItem.fechamento.saldoDisponivel
+                            ,Converter={StaticResource moedaFormat}}" 
+                                   VerticalAlignment="Center"
+                                   MinWidth="50"/>
+                    </StackPanel>
+                </GroupBox>
+                <DockPanel LastChildFill="True">
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Top"
+                                    HorizontalAlignment="Right">
+                        <ComboBox
+                                Name="comboExpResumo"
+                                SelectedIndex="0"
+                                Width="60"
+                                ItemsSource="{Binding Source={StaticResource ResourceKey=formatoExp}}"
+                                IsEnabled="{Binding hasListaRequisicao}"                                
+                                >
+                        </ComboBox>
+                        <exp:ButtonExport
+                            ExportDataGridSource="{Binding ElementName=dataGridResumo}"
+                            ExportFileFormat="{Binding ElementName=comboExpResumo, Path=SelectedValue}"
+                            IsEnabled="{Binding hasListaRequisicao}" Click="ButtonExport_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Imagem/documento32.png" Height="20"></Image>
+                            </StackPanel>
+                        </exp:ButtonExport>
+                    </StackPanel>                    
+                    <DataGrid Name="dataGridResumo" AutoGenerateColumns="False" IsReadOnly="True"
+                          ItemsSource="{Binding listaResumo}"
+                          SelectedItem="{Binding resumoSelected}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Id" Width="Auto" 
+                                                            Binding="{Binding Path=IdContaCaixa}">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style>
+                                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Data" Width="Auto" 
+                                                            Binding="{Binding Path=DataPagoRecebido,
+                                                                     StringFormat=dd/MM/yyyy}">
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Header="Nome" Width="Auto" 
+                                                            Binding="{Binding Path=NomeContaCaixa}">
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Op." Width="Auto" 
+                                                            Binding="{Binding Path=Operacao}">
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Header="Historico" Width=".40*" 
+                                                            Binding="{Binding Path=Historico}">
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Valor" Width=".15*" 
+                                                            Binding="{Binding Path=Valor
+                                                           ,Converter={StaticResource moedaFormat}}">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style>
+                                        <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </DockPanel>
+
+            </DockPanel>
+        </TabItem>
+    </TabControl>
+</UserControl>

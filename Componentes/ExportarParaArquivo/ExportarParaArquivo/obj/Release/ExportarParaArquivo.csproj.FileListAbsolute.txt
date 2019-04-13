@@ -1,0 +1,6 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ExportarParaArquivo\ExportarParaArquivo\bin\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ExportarParaArquivo\ExportarParaArquivo\bin\Release\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ExportarParaArquivo\ExportarParaArquivo\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ExportarParaArquivo\ExportarParaArquivo\obj\Release\ExportarParaArquivo.dll
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ExportarParaArquivo\ExportarParaArquivo\obj\Release\ExportarParaArquivo.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\ExportarParaArquivo\ExportarParaArquivo\bin\Release\NRtfTree.dll

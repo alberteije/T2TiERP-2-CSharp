@@ -1,0 +1,1167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C92E3DBB-50EB-4336-8764-1F5996B35140}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ContabilidadeClient</RootNamespace>
+    <AssemblyName>ContabilidadeClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExportarParaArquivo">
+      <HintPath>..\..\libs\ButtonExport\ExportarParaArquivo.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\libs\ButtonExport\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NRtfTree">
+      <HintPath>..\..\libs\ButtonExport\NRtfTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Drawing, Version=1.0.3676.31408, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Reportman.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Drawing.Forms, Version=1.0.3676.31408, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Reportman.Drawing.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Reporting, Version=1.0.3676.31408, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Reportman.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Reportman.Reporting.Forms, Version=1.0.3676.31408, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Reportman.Reporting.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SearchWindow">
+      <HintPath>..\..\SearchWindow\SearchWindow\bin\Release\SearchWindow.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="Model\ServicoContabilidade.cs" />
+    <Compile Include="Service References\ServicoContabilidadeReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Util\BooleanCharConverter.cs" />
+    <Compile Include="Util\CloseableTabItem.cs" />
+    <Compile Include="Util\MoedaFormat.cs" />
+    <Compile Include="Util\RadioStringConverter.cs" />
+    <Compile Include="ViewModel\Contabilidade\AidfAimdfViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilContaViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilDreCabecalhoViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilEncerramentoExeCabViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilFechamentoViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilHistoricoViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilidadeViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilIndiceViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilLancamentoCabecalhoViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilLancamentoOrcadoViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilLancamentoPadraoViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilLivroViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilLoteViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\ContabilParametrosViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\FapViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\PlanoContaRefSpedViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\PlanoContaViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\RegistroCartorioViewModel.cs" />
+    <Compile Include="ViewModel\Contabilidade\UsuarioViewModel.cs" />
+    <Compile Include="ViewModel\ERPClientViewModel.cs" />
+    <Compile Include="ViewModel\ERPViewModelBase.cs" />
+    <Compile Include="View\Contabilidade\AidfAimdf.xaml.cs">
+      <DependentUpon>AidfAimdf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\AidfAimdfLista.xaml.cs">
+      <DependentUpon>AidfAimdfLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\AidfAimdfPrincipal.xaml.cs">
+      <DependentUpon>AidfAimdfPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilConta.xaml.cs">
+      <DependentUpon>ContabilConta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilContaLista.xaml.cs">
+      <DependentUpon>ContabilContaLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilContaPrincipal.xaml.cs">
+      <DependentUpon>ContabilContaPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDreCabecalho.xaml.cs">
+      <DependentUpon>ContabilDreCabecalho.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDreCabecalhoLista.xaml.cs">
+      <DependentUpon>ContabilDreCabecalhoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDreCabecalhoPrincipal.xaml.cs">
+      <DependentUpon>ContabilDreCabecalhoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDreDetalhe.xaml.cs">
+      <DependentUpon>ContabilDreDetalhe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDreDetalheLista.xaml.cs">
+      <DependentUpon>ContabilDreDetalheLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDreDetalhePrincipal.xaml.cs">
+      <DependentUpon>ContabilDreDetalhePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEncerramentoExeCab.xaml.cs">
+      <DependentUpon>ContabilEncerramentoExeCab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEncerramentoExeCabLista.xaml.cs">
+      <DependentUpon>ContabilEncerramentoExeCabLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEncerramentoExeCabPrincipal.xaml.cs">
+      <DependentUpon>ContabilEncerramentoExeCabPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEncerramentoExeDet.xaml.cs">
+      <DependentUpon>ContabilEncerramentoExeDet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEncerramentoExeDetLista.xaml.cs">
+      <DependentUpon>ContabilEncerramentoExeDetLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEncerramentoExeDetPrincipal.xaml.cs">
+      <DependentUpon>ContabilEncerramentoExeDetPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilFechamento.xaml.cs">
+      <DependentUpon>ContabilFechamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilFechamentoLista.xaml.cs">
+      <DependentUpon>ContabilFechamentoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilFechamentoPrincipal.xaml.cs">
+      <DependentUpon>ContabilFechamentoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilHistorico.xaml.cs">
+      <DependentUpon>ContabilHistorico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilHistoricoLista.xaml.cs">
+      <DependentUpon>ContabilHistoricoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilHistoricoPrincipal.xaml.cs">
+      <DependentUpon>ContabilHistoricoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilidadePrincipal.xaml.cs">
+      <DependentUpon>ContabilidadePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilIndice.xaml.cs">
+      <DependentUpon>ContabilIndice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilIndiceLista.xaml.cs">
+      <DependentUpon>ContabilIndiceLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilIndicePrincipal.xaml.cs">
+      <DependentUpon>ContabilIndicePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilIndiceValor.xaml.cs">
+      <DependentUpon>ContabilIndiceValor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilIndiceValorLista.xaml.cs">
+      <DependentUpon>ContabilIndiceValorLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilIndiceValorPrincipal.xaml.cs">
+      <DependentUpon>ContabilIndiceValorPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoCabecalho.xaml.cs">
+      <DependentUpon>ContabilLancamentoCabecalho.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoCabecalhoLista.xaml.cs">
+      <DependentUpon>ContabilLancamentoCabecalhoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.xaml.cs">
+      <DependentUpon>ContabilLancamentoCabecalhoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoDetalhe.xaml.cs">
+      <DependentUpon>ContabilLancamentoDetalhe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoDetalheLista.xaml.cs">
+      <DependentUpon>ContabilLancamentoDetalheLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoDetalhePrincipal.xaml.cs">
+      <DependentUpon>ContabilLancamentoDetalhePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoOrcado.xaml.cs">
+      <DependentUpon>ContabilLancamentoOrcado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoOrcadoLista.xaml.cs">
+      <DependentUpon>ContabilLancamentoOrcadoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoOrcadoPrincipal.xaml.cs">
+      <DependentUpon>ContabilLancamentoOrcadoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoPadrao.xaml.cs">
+      <DependentUpon>ContabilLancamentoPadrao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoPadraoLista.xaml.cs">
+      <DependentUpon>ContabilLancamentoPadraoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLancamentoPadraoPrincipal.xaml.cs">
+      <DependentUpon>ContabilLancamentoPadraoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLivro.xaml.cs">
+      <DependentUpon>ContabilLivro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLivroLista.xaml.cs">
+      <DependentUpon>ContabilLivroLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLivroPrincipal.xaml.cs">
+      <DependentUpon>ContabilLivroPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLote.xaml.cs">
+      <DependentUpon>ContabilLote.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLoteLista.xaml.cs">
+      <DependentUpon>ContabilLoteLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilLotePrincipal.xaml.cs">
+      <DependentUpon>ContabilLotePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilParametros.xaml.cs">
+      <DependentUpon>ContabilParametros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilParametrosLista.xaml.cs">
+      <DependentUpon>ContabilParametrosLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilParametrosPrincipal.xaml.cs">
+      <DependentUpon>ContabilParametrosPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilBalancoPatrimonialPrincipal.xaml.cs">
+      <DependentUpon>ContabilBalancoPatrimonialPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilEmissaoLivrosPrincipal.xaml.cs">
+      <DependentUpon>ContabilEmissaoLivrosPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilTermo.xaml.cs">
+      <DependentUpon>ContabilTermo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilTermoLista.xaml.cs">
+      <DependentUpon>ContabilTermoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilTermoPrincipal.xaml.cs">
+      <DependentUpon>ContabilTermoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\Fap.xaml.cs">
+      <DependentUpon>Fap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\FapLista.xaml.cs">
+      <DependentUpon>FapLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\FapPrincipal.xaml.cs">
+      <DependentUpon>FapPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\ContabilDfcPrincipal.xaml.cs">
+      <DependentUpon>ContabilDfcPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\PlanoConta.xaml.cs">
+      <DependentUpon>PlanoConta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\PlanoContaLista.xaml.cs">
+      <DependentUpon>PlanoContaLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\PlanoContaPrincipal.xaml.cs">
+      <DependentUpon>PlanoContaPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\PlanoContaRefSped.xaml.cs">
+      <DependentUpon>PlanoContaRefSped.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\PlanoContaRefSpedLista.xaml.cs">
+      <DependentUpon>PlanoContaRefSpedLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\PlanoContaRefSpedPrincipal.xaml.cs">
+      <DependentUpon>PlanoContaRefSpedPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\RegistroCartorio.xaml.cs">
+      <DependentUpon>RegistroCartorio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\RegistroCartorioLista.xaml.cs">
+      <DependentUpon>RegistroCartorioLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Contabilidade\RegistroCartorioPrincipal.xaml.cs">
+      <DependentUpon>RegistroCartorioPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ERPClient.xaml.cs">
+      <DependentUpon>ERPClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\AidfAimdf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\AidfAimdfLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\AidfAimdfPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilConta.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilContaLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilContaPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDreCabecalho.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDreCabecalhoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDreCabecalhoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDreDetalhe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDreDetalheLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDreDetalhePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEncerramentoExeCab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEncerramentoExeCabLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEncerramentoExeCabPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEncerramentoExeDet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEncerramentoExeDetLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEncerramentoExeDetPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilFechamento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilFechamentoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilFechamentoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilHistorico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilHistoricoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilHistoricoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilidadePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilIndice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilIndiceLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilIndicePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilIndiceValor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilIndiceValorLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilIndiceValorPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoCabecalho.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoCabecalhoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoDetalhe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoDetalheLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoDetalhePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoOrcado.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoOrcadoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoOrcadoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoPadrao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoPadraoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLancamentoPadraoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLivro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLivroLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLivroPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLote.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLoteLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilLotePrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilParametros.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilParametrosLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilParametrosPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilBalancoPatrimonialPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilEmissaoLivrosPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilTermo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilTermoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilTermoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\Fap.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\FapLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\FapPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\ContabilDfcPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\PlanoConta.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\PlanoContaLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\PlanoContaPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\PlanoContaRefSped.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\PlanoContaRefSpedLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\PlanoContaRefSpedPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\RegistroCartorio.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\RegistroCartorioLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Contabilidade\RegistroCartorioPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ERPClient.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Imagem\Thumbs.db" />
+    <None Include="Imagens\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.AidfAimdfDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilContaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilDreCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilEncerramentoExeCabDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilFechamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilHistoricoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilIndiceDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilLancamentoCabecalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilLancamentoOrcadoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilLancamentoPadraoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilLivroDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilLoteDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ContabilParametrosDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.FapDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.PlanoContaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.PlanoContaRefSpedDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.RegistroCartorioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\ContabilidadeClient.ServicoContabilidadeReference.ViewControleAcessoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoContabilidadeReference\Service11.wsdl" />
+    <None Include="Service References\ServicoContabilidadeReference\ServicoContabilidade3.xsd" />
+    <None Include="Service References\ServicoContabilidadeReference\ServicoContabilidade31.xsd" />
+    <None Include="Service References\ServicoContabilidadeReference\ServicoContabilidade32.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicoContabilidadeReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoContabilidadeReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoContabilidadeReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoContabilidadeReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagem\21botaoAjuda.png" />
+    <Resource Include="Imagem\21botaoCalculadora.png" />
+    <Resource Include="Imagem\21botaoCancelaCupom.png" />
+    <Resource Include="Imagem\21botaoCancelaItem.png" />
+    <Resource Include="Imagem\21botaoCliente.png" />
+    <Resource Include="Imagem\21botaoDesconto.png" />
+    <Resource Include="Imagem\21botaoEncerraVenda.png" />
+    <Resource Include="Imagem\21botaoGaveta.png" />
+    <Resource Include="Imagem\21botaoMenuFiscal.png" />
+    <Resource Include="Imagem\21botaoMenuOperacoes.png" />
+    <Resource Include="Imagem\21botaoMenuPrincipal.png" />
+    <Resource Include="Imagem\21botaoPesquisa.png" />
+    <Resource Include="Imagem\21botaoSair.png" />
+    <Resource Include="Imagem\agencia_banco16.png" />
+    <Resource Include="Imagem\agencia_banco32.png" />
+    <Resource Include="Imagem\agencia_banco48.png" />
+    <Resource Include="Imagem\almoxarifado16.png" />
+    <Resource Include="Imagem\almoxarifado32.png" />
+    <Resource Include="Imagem\almoxarifado48.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario16.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario32.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario48.png" />
+    <Resource Include="Imagem\atividade_for_cli16.png" />
+    <Resource Include="Imagem\atividade_for_cli32.png" />
+    <Resource Include="Imagem\atividade_for_cli48.png" />
+    <Resource Include="Imagem\bairro16.png" />
+    <Resource Include="Imagem\bairro32.png" />
+    <Resource Include="Imagem\bairro48.png" />
+    <Resource Include="Imagem\banco16.png" />
+    <Resource Include="Imagem\banco32.png" />
+    <Resource Include="Imagem\banco48.png" />
+    <Resource Include="Imagem\botaoAjuda.png" />
+    <Resource Include="Imagem\botaoCalculadora.png" />
+    <Resource Include="Imagem\botaoCancelaCupom.png" />
+    <Resource Include="Imagem\botaoCancelaItem.png" />
+    <Resource Include="Imagem\botaoCancelar.png" />
+    <Resource Include="Imagem\botaoCliente.png" />
+    <Resource Include="Imagem\botaoConfirmar.png" />
+    <Resource Include="Imagem\botaoDesconto.png" />
+    <Resource Include="Imagem\botaoEncerraVenda.png" />
+    <Resource Include="Imagem\botaoGaveta.png" />
+    <Resource Include="Imagem\botaoLocalizar.png" />
+    <Resource Include="Imagem\botaoMenuFiscal.png" />
+    <Resource Include="Imagem\botaoMenuOperacoes.png" />
+    <Resource Include="Imagem\botaoMenuPrincipal.png" />
+    <Resource Include="Imagem\botaoPesquisa.png" />
+    <Resource Include="Imagem\botaoSair.png" />
+    <Resource Include="Imagem\cargo16.png" />
+    <Resource Include="Imagem\cargo32.png" />
+    <Resource Include="Imagem\cargo48.png" />
+    <Resource Include="Imagem\centroResultado16.png" />
+    <Resource Include="Imagem\centroResultado32.png" />
+    <Resource Include="Imagem\centroResultado48.png" />
+    <Resource Include="Imagem\cep16.png" />
+    <Resource Include="Imagem\cep32.png" />
+    <Resource Include="Imagem\cep48.png" />
+    <Resource Include="Imagem\cfop16.png" />
+    <Resource Include="Imagem\cfop32.png" />
+    <Resource Include="Imagem\cfop48.png" />
+    <Resource Include="Imagem\cheque16.png" />
+    <Resource Include="Imagem\cheque32.png" />
+    <Resource Include="Imagem\cheque48.png" />
+    <Resource Include="Imagem\cliente16.png" />
+    <Resource Include="Imagem\cliente32.png" />
+    <Resource Include="Imagem\cliente48.png" />
+    <Resource Include="Imagem\colaborador16.png" />
+    <Resource Include="Imagem\colaborador32.png" />
+    <Resource Include="Imagem\colaborador48.png" />
+    <Resource Include="Imagem\compraSugerida16.png" />
+    <Resource Include="Imagem\compraSugerida32.png" />
+    <Resource Include="Imagem\compraSugerida48.png" />
+    <Resource Include="Imagem\ConciliarCheque16.png" />
+    <Resource Include="Imagem\ConciliarCheque32.png" />
+    <Resource Include="Imagem\ConciliarCheque48.png" />
+    <Resource Include="Imagem\ConciliarLancamento16.png" />
+    <Resource Include="Imagem\ConciliarLancamento32.png" />
+    <Resource Include="Imagem\ConciliarLancamento48.png" />
+    <Resource Include="Imagem\condicoesPagamento128.png" />
+    <Resource Include="Imagem\condicoesPagamento16.png" />
+    <Resource Include="Imagem\condicoesPagamento32.png" />
+    <Resource Include="Imagem\condicoesPagamento48.png" />
+    <Resource Include="Imagem\contador16.png" />
+    <Resource Include="Imagem\contador32.png" />
+    <Resource Include="Imagem\contador48.png" />
+    <Resource Include="Imagem\conta_caixa16.png" />
+    <Resource Include="Imagem\conta_caixa32.png" />
+    <Resource Include="Imagem\conta_caixa48.png" />
+    <Resource Include="Imagem\convenio16.png" />
+    <Resource Include="Imagem\convenio32.png" />
+    <Resource Include="Imagem\convenio48.png" />
+    <Resource Include="Imagem\cotacaoCompra16.png" />
+    <Resource Include="Imagem\cotacaoCompra32.png" />
+    <Resource Include="Imagem\cotacaoCompra48.png" />
+    <Resource Include="Imagem\document-icon128.ico" />
+    <Resource Include="Imagem\document-icon128.png" />
+    <Resource Include="Imagem\document-icon16.png" />
+    <Resource Include="Imagem\document-icon32.png" />
+    <Resource Include="Imagem\document-icon48.png" />
+    <Resource Include="Imagem\documento16.png" />
+    <Resource Include="Imagem\documento32.png" />
+    <Resource Include="Imagem\documento48.png" />
+    <Resource Include="Imagem\documentoOrigem16.png" />
+    <Resource Include="Imagem\documentoOrigem32.png" />
+    <Resource Include="Imagem\documentoOrigem48.png" />
+    <Resource Include="Imagem\download-box-icon128.ico" />
+    <Resource Include="Imagem\download-box-icon128.png" />
+    <Resource Include="Imagem\download-box-icon16.png" />
+    <Resource Include="Imagem\download-box-icon32.png" />
+    <Resource Include="Imagem\download-box-icon48.png" />
+    <Resource Include="Imagem\enderecos16.png" />
+    <Resource Include="Imagem\enderecos32.png" />
+    <Resource Include="Imagem\enderecos48.png" />
+    <Resource Include="Imagem\estado_civil16.png" />
+    <Resource Include="Imagem\estado_civil32.png" />
+    <Resource Include="Imagem\estado_civil48.png" />
+    <Resource Include="Imagem\excel16.png" />
+    <Resource Include="Imagem\excel16d.png" />
+    <Resource Include="Imagem\first16.png" />
+    <Resource Include="Imagem\first16d.png" />
+    <Resource Include="Imagem\fluxoCaixa16.png" />
+    <Resource Include="Imagem\fluxoCaixa32.png" />
+    <Resource Include="Imagem\fluxoCaixa48.png" />
+    <Resource Include="Imagem\fornecedor16.png" />
+    <Resource Include="Imagem\fornecedor32.png" />
+    <Resource Include="Imagem\fornecedor48.png" />
+    <Resource Include="Imagem\frete128.png" />
+    <Resource Include="Imagem\frete16.png" />
+    <Resource Include="Imagem\frete32.png" />
+    <Resource Include="Imagem\frete48.png" />
+    <Resource Include="Imagem\html16.png" />
+    <Resource Include="Imagem\html16d.png" />
+    <Resource Include="Imagem\importaCotacaoCompra16.png" />
+    <Resource Include="Imagem\importaCotacaoCompra32.png" />
+    <Resource Include="Imagem\importaCotacaoCompra48.png" />
+    <Resource Include="Imagem\indice_economico16.png" />
+    <Resource Include="Imagem\indice_economico32.png" />
+    <Resource Include="Imagem\indice_economico48.png" />
+    <Resource Include="Imagem\lancamentoPagar16.png" />
+    <Resource Include="Imagem\lancamentoPagar32.png" />
+    <Resource Include="Imagem\lancamentoPagar48.png" />
+    <Resource Include="Imagem\lancamentoReceber16.png" />
+    <Resource Include="Imagem\lancamentoReceber32.png" />
+    <Resource Include="Imagem\lancamentoReceber48.png" />
+    <Resource Include="Imagem\last16.png" />
+    <Resource Include="Imagem\last16d.png" />
+    <Resource Include="Imagem\mapa16.png" />
+    <Resource Include="Imagem\mapa32.png" />
+    <Resource Include="Imagem\mapa48.png" />
+    <Resource Include="Imagem\mapaComparativo16.png" />
+    <Resource Include="Imagem\mapaComparativo32.png" />
+    <Resource Include="Imagem\mapaComparativo48.png" />
+    <Resource Include="Imagem\marca16.png" />
+    <Resource Include="Imagem\marca32.png" />
+    <Resource Include="Imagem\marca48.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco16.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco32.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco48.png" />
+    <Resource Include="Imagem\municipio16.png" />
+    <Resource Include="Imagem\municipio32.png" />
+    <Resource Include="Imagem\municipio48.png" />
+    <Resource Include="Imagem\naturezaFinanceira16.png" />
+    <Resource Include="Imagem\naturezaFinanceira32.png" />
+    <Resource Include="Imagem\naturezaFinanceira48.png" />
+    <Resource Include="Imagem\ncm16.png" />
+    <Resource Include="Imagem\ncm32.png" />
+    <Resource Include="Imagem\ncm48.png" />
+    <Resource Include="Imagem\next16.png" />
+    <Resource Include="Imagem\next16d.png" />
+    <Resource Include="Imagem\nfe128.png" />
+    <Resource Include="Imagem\nfe16.png" />
+    <Resource Include="Imagem\nfe32.png" />
+    <Resource Include="Imagem\nfe48.png" />
+    <Resource Include="Imagem\nivel_formacao16.png" />
+    <Resource Include="Imagem\nivel_formacao32.png" />
+    <Resource Include="Imagem\nivel_formacao48.png" />
+    <Resource Include="Imagem\operadora_cartao16.png" />
+    <Resource Include="Imagem\operadora_cartao32.png" />
+    <Resource Include="Imagem\operadora_cartao48.png" />
+    <Resource Include="Imagem\orcamento16.png" />
+    <Resource Include="Imagem\orcamento32.png" />
+    <Resource Include="Imagem\orcamento48.png" />
+    <Resource Include="Imagem\orcamentoVenda128.png" />
+    <Resource Include="Imagem\orcamentoVenda16.png" />
+    <Resource Include="Imagem\orcamentoVenda32.png" />
+    <Resource Include="Imagem\orcamentoVenda48.png" />
+    <Resource Include="Imagem\outroPedido16.png" />
+    <Resource Include="Imagem\outroPedido32.png" />
+    <Resource Include="Imagem\outroPedido48.png" />
+    <Resource Include="Imagem\pagamentoParcela16.png" />
+    <Resource Include="Imagem\pagamentoParcela32.png" />
+    <Resource Include="Imagem\pagamentoParcela48.png" />
+    <Resource Include="Imagem\page-next16.png" />
+    <Resource Include="Imagem\page-next16d.png" />
+    <Resource Include="Imagem\page-prior16.png" />
+    <Resource Include="Imagem\page-prior16d.png" />
+    <Resource Include="Imagem\pais16.png" />
+    <Resource Include="Imagem\pais32.png" />
+    <Resource Include="Imagem\pais48.png" />
+    <Resource Include="Imagem\pedidoCompra16.png" />
+    <Resource Include="Imagem\pedidoCompra32.png" />
+    <Resource Include="Imagem\pedidoCompra48.png" />
+    <Resource Include="Imagem\pessoa16.png" />
+    <Resource Include="Imagem\pessoa32.png" />
+    <Resource Include="Imagem\pessoa48.png" />
+    <Resource Include="Imagem\porta16.png" />
+    <Resource Include="Imagem\porta32.png" />
+    <Resource Include="Imagem\porta48.png" />
+    <Resource Include="Imagem\prior16.png" />
+    <Resource Include="Imagem\prior16d.png" />
+    <Resource Include="Imagem\produto16.png" />
+    <Resource Include="Imagem\produto32.png" />
+    <Resource Include="Imagem\produto48.png" />
+    <Resource Include="Imagem\Recebimento16.png" />
+    <Resource Include="Imagem\Recebimento32.png" />
+    <Resource Include="Imagem\Recebimento48.png" />
+    <Resource Include="Imagem\requisicaoCompra16.png" />
+    <Resource Include="Imagem\requisicaoCompra32.png" />
+    <Resource Include="Imagem\requisicaoCompra48.png" />
+    <Resource Include="Imagem\ResumoTesouraria16.png" />
+    <Resource Include="Imagem\ResumoTesouraria32.png" />
+    <Resource Include="Imagem\ResumoTesouraria48.png" />
+    <Resource Include="Imagem\setor16.png" />
+    <Resource Include="Imagem\setor32.png" />
+    <Resource Include="Imagem\setor48.png" />
+    <Resource Include="Imagem\situacao16.png" />
+    <Resource Include="Imagem\situacao32.png" />
+    <Resource Include="Imagem\situacao48.png" />
+    <Resource Include="Imagem\statusParcela16.png" />
+    <Resource Include="Imagem\statusParcela32.png" />
+    <Resource Include="Imagem\statusParcela48.png" />
+    <Resource Include="Imagem\talonario16.png" />
+    <Resource Include="Imagem\talonario32.png" />
+    <Resource Include="Imagem\talonario48.png" />
+    <Resource Include="Imagem\tipoDocumento16.png" />
+    <Resource Include="Imagem\tipoDocumento32.png" />
+    <Resource Include="Imagem\tipoDocumento48.png" />
+    <Resource Include="Imagem\tipoNotaFiscal128.png" />
+    <Resource Include="Imagem\tipoNotaFiscal16.png" />
+    <Resource Include="Imagem\tipoNotaFiscal32.png" />
+    <Resource Include="Imagem\tipoNotaFiscal48.png" />
+    <Resource Include="Imagem\tipoPagamento16.png" />
+    <Resource Include="Imagem\tipoPagamento32.png" />
+    <Resource Include="Imagem\tipoPagamento48.png" />
+    <Resource Include="Imagem\tipoRequisicao16.png" />
+    <Resource Include="Imagem\tipoRequisicao32.png" />
+    <Resource Include="Imagem\tipoRequisicao48.png" />
+    <Resource Include="Imagem\tipo_colaborador16.png" />
+    <Resource Include="Imagem\tipo_colaborador32.png" />
+    <Resource Include="Imagem\tipo_colaborador48.png" />
+    <Resource Include="Imagem\transportadora16.png" />
+    <Resource Include="Imagem\transportadora32.png" />
+    <Resource Include="Imagem\transportadora48.png" />
+    <Resource Include="Imagem\txt16.png" />
+    <Resource Include="Imagem\txt16d.png" />
+    <Resource Include="Imagem\uf16.png" />
+    <Resource Include="Imagem\uf32.png" />
+    <Resource Include="Imagem\uf48.png" />
+    <Resource Include="Imagem\unidade16.png" />
+    <Resource Include="Imagem\unidade32.png" />
+    <Resource Include="Imagem\unidade48.png" />
+    <Resource Include="Imagem\venda128.png" />
+    <Resource Include="Imagem\venda16.png" />
+    <Resource Include="Imagem\venda32.png" />
+    <Resource Include="Imagem\venda48.png" />
+    <Resource Include="Imagem\word16.png" />
+    <Resource Include="Imagem\word16d.png" />
+    <Resource Include="Imagem\xml16.png" />
+    <Resource Include="Imagem\xml16d.png" />
+    <Resource Include="Imagens\ContaContabil128.png" />
+    <Resource Include="Imagens\ContaContabil16.png" />
+    <Resource Include="Imagens\ContaContabil256.png" />
+    <Resource Include="Imagens\ContaContabil32.png" />
+    <Resource Include="Imagens\ContaContabil48.png" />
+    <Resource Include="Imagens\ContaContabil64.png" />
+    <Resource Include="Imagens\Darf16.png" />
+    <Resource Include="Imagens\Darf32.png" />
+    <Resource Include="Imagens\Darf48.png" />
+    <Resource Include="Imagens\PlanoContas128.png" />
+    <Resource Include="Imagens\PlanoContas16.png" />
+    <Resource Include="Imagens\PlanoContas256.png" />
+    <Resource Include="Imagens\PlanoContas32.png" />
+    <Resource Include="Imagens\PlanoContas48.png" />
+    <Resource Include="Imagens\PlanoContas64.png" />
+    <Resource Include="Imagens\PlanoContasSped16.png" />
+    <Resource Include="Imagens\PlanoContasSped32.png" />
+    <Resource Include="Imagens\PlanoContasSped48.png" />
+    <Resource Include="Imagens\PlanoContasSped64.png" />
+    <Resource Include="Imagens\porta16.png" />
+    <Resource Include="Imagens\porta32.png" />
+    <Resource Include="Imagens\porta48.png" />
+    <Resource Include="Imagens\RegistroCartorio16.png" />
+    <Resource Include="Imagens\RegistroCartorio32.png" />
+    <Resource Include="Imagens\RegistroCartorio48.png" />
+    <Resource Include="Imagens\RegistroCartorio64.png" />
+    <Resource Include="Imagens\t2ti32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\AIDF16.png" />
+    <Resource Include="Imagens\AIDF32.png" />
+    <Resource Include="Imagens\AIDF48.png" />
+    <Resource Include="Imagens\AIDF64.png" />
+    <Resource Include="Imagens\BalancoPatrimonial16.png" />
+    <Resource Include="Imagens\BalancoPatrimonial32.png" />
+    <Resource Include="Imagens\BalancoPatrimonial48.png" />
+    <Resource Include="Imagens\ContabilDFC128.png" />
+    <Resource Include="Imagens\ContabilDFC16.png" />
+    <Resource Include="Imagens\ContabilDFC32.png" />
+    <Resource Include="Imagens\ContabilDFC48.png" />
+    <Resource Include="Imagens\ContabilDRE128.png" />
+    <Resource Include="Imagens\ContabilDRE16.png" />
+    <Resource Include="Imagens\ContabilDRE256.png" />
+    <Resource Include="Imagens\ContabilDRE32.png" />
+    <Resource Include="Imagens\ContabilDRE48.png" />
+    <Resource Include="Imagens\ContabilDRE64.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio128.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio16.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio256.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio32.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio48.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio64.png" />
+    <Resource Include="Imagens\ContabilFechamento16.png" />
+    <Resource Include="Imagens\ContabilFechamento32.png" />
+    <Resource Include="Imagens\ContabilFechamento48.png" />
+    <Resource Include="Imagens\ContabilHistorico128.png" />
+    <Resource Include="Imagens\ContabilHistorico16.png" />
+    <Resource Include="Imagens\ContabilHistorico256.png" />
+    <Resource Include="Imagens\ContabilHistorico32.png" />
+    <Resource Include="Imagens\ContabilHistorico48.png" />
+    <Resource Include="Imagens\ContabilHistorico64.png" />
+    <Resource Include="Imagens\ContabilIndice128.png" />
+    <Resource Include="Imagens\ContabilIndice16.png" />
+    <Resource Include="Imagens\ContabilIndice256.png" />
+    <Resource Include="Imagens\ContabilIndice32.png" />
+    <Resource Include="Imagens\ContabilIndice48.png" />
+    <Resource Include="Imagens\ContabilIndice64.png" />
+    <Resource Include="Imagens\ContabilLivro128.png" />
+    <Resource Include="Imagens\ContabilLivro16.png" />
+    <Resource Include="Imagens\ContabilLivro256.png" />
+    <Resource Include="Imagens\ContabilLivro32.png" />
+    <Resource Include="Imagens\ContabilLivro48.png" />
+    <Resource Include="Imagens\ContabilLivro64.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao128.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao16.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao32.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao48.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao64.png" />
+    <Resource Include="Imagens\ContabilParametros128.png" />
+    <Resource Include="Imagens\ContabilParametros16.png" />
+    <Resource Include="Imagens\ContabilParametros256.png" />
+    <Resource Include="Imagens\ContabilParametros32.png" />
+    <Resource Include="Imagens\ContabilParametros48.png" />
+    <Resource Include="Imagens\ContabilParametros64.png" />
+    <Resource Include="Imagens\FAP128.png" />
+    <Resource Include="Imagens\FAP16.png" />
+    <Resource Include="Imagens\FAP256.png" />
+    <Resource Include="Imagens\FAP32.png" />
+    <Resource Include="Imagens\FAP48.png" />
+    <Resource Include="Imagens\FAP64.png" />
+    <Resource Include="Imagens\LancamentoContabil128.png" />
+    <Resource Include="Imagens\LancamentoContabil16.png" />
+    <Resource Include="Imagens\LancamentoContabil256.png" />
+    <Resource Include="Imagens\LancamentoContabil32.png" />
+    <Resource Include="Imagens\LancamentoContabil48.png" />
+    <Resource Include="Imagens\LancamentoContabil64.png" />
+    <Resource Include="Imagens\LancamentoContabilLote128.png" />
+    <Resource Include="Imagens\LancamentoContabilLote16.png" />
+    <Resource Include="Imagens\LancamentoContabilLote256.png" />
+    <Resource Include="Imagens\LancamentoContabilLote32.png" />
+    <Resource Include="Imagens\LancamentoContabilLote48.png" />
+    <Resource Include="Imagens\LancamentoContabilLote64.png" />
+    <Resource Include="Imagens\LancamentoContabilOrcado128.png" />
+    <Resource Include="Imagens\LancamentoContabilOrcado16.png" />
+    <Resource Include="Imagens\LancamentoContabilOrcado256.png" />
+    <Resource Include="Imagens\LancamentoContabilOrcado32.png" />
+    <Resource Include="Imagens\LancamentoContabilOrcado48.png" />
+    <Resource Include="Imagens\LancamentoContabilOrcado64.png" />
+    <Resource Include="Imagens\LancamentoContabilPadrao128.png" />
+    <Resource Include="Imagens\LancamentoContabilPadrao16.png" />
+    <Resource Include="Imagens\LancamentoContabilPadrao256.png" />
+    <Resource Include="Imagens\LancamentoContabilPadrao32.png" />
+    <Resource Include="Imagens\LancamentoContabilPadrao48.png" />
+    <Resource Include="Imagens\LancamentoContabilPadrao64.png" />
+    <Resource Include="Imagens\LancamentoContabilProgramado128.png" />
+    <Resource Include="Imagens\LancamentoContabilProgramado16.png" />
+    <Resource Include="Imagens\LancamentoContabilProgramado256.png" />
+    <Resource Include="Imagens\LancamentoContabilProgramado32.png" />
+    <Resource Include="Imagens\LancamentoContabilProgramado48.png" />
+    <Resource Include="Imagens\LancamentoContabilProgramado64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="reportman">
+      <Guid>{D4D26F6B-6564-44F4-A913-03C91CE37740}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\relatorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoContabilidadeReference\ServicoContabilidade1.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

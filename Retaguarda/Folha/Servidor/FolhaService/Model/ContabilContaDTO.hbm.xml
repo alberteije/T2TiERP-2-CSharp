@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="FolhaService" namespace="FolhaService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ContabilContaDTO" table="contabil_conta" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="ContabilConta" column="ID_CONTABIL_CONTA" />
+    <many-to-one name="PlanoConta" column="ID_PLANO_CONTA" />
+    <many-to-one name="PlanoContaRefSped" column="ID_PLANO_CONTA_REF_SPED" />
+    <property name="Classificacao" column="CLASSIFICACAO" />
+    <property name="Tipo" column="TIPO" />
+    <property name="Descricao" column="DESCRICAO" />
+    <property name="DataInclusao" column="DATA_INCLUSAO" />
+    <property name="Situacao" column="SITUACAO" />
+    <property name="Natureza" column="NATUREZA" />
+    <property name="PatrimonioResultado" column="PATRIMONIO_RESULTADO" />
+    <property name="LivroCaixa" column="LIVRO_CAIXA" />
+    <property name="Dfc" column="DFC" />
+    <property name="Ordem" column="ORDEM" />
+    <property name="CodigoReduzido" column="CODIGO_REDUZIDO" />
+    <property name="CodigoEfd" column="CODIGO_EFD" />
+  </class>
+</hibernate-mapping>

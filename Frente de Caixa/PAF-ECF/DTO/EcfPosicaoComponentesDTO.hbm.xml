@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EcfPosicaoComponentesDTO" table="ecf_posicao_componentes" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">ecf_posicao_componentes</param>
+      </generator>
+    </id>
+
+    <property name="IdEcfResolucao" column="ID_ECF_RESOLUCAO" />
+    <property name="Nome" column="NOME" />
+    <property name="Altura" column="ALTURA" />
+    <property name="Largura" column="LARGURA" />
+    <property name="Topo" column="TOPO" />
+    <property name="Esquerda" column="ESQUERDA" />
+    <property name="TamanhoFonte" column="TAMANHO_FONTE" />
+    <property name="Texto" column="TEXTO" />
+  </class>
+</hibernate-mapping>

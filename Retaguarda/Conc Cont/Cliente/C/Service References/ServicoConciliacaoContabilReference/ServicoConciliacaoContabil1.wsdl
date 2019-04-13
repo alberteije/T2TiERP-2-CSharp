@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoConciliacaoContabil" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2662/ServicoConciliacaoContabil.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2662/ServicoConciliacaoContabil.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2662/ServicoConciliacaoContabil.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ConciliacaoContabilService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContaCaixa_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixa" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContaCaixa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContaCaixaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContaCaixaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContaCaixaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFinExtratoContaBanco_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinExtratoContaBanco" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFinExtratoContaBanco_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinExtratoContaBancoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFinExtratoContaBancoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinExtratoContaBancoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFinExtratoContaBancoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFinExtratoContaBancoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoDetalhe_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoDetalhe" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoDetalhe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoDetalheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoDetalhePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoDetalhePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoDetalhePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoDetalhePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectCliente" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectClientePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectClientePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectClientePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectClientePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaCliente" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaClientePagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaClientePagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaClientePagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaClientePaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFornecedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFornecedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFornecedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectFornecedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectFornecedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaFornecedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaFornecedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaFornecedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaFornecedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaFornecedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaFornecedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectViewConciliaFornecedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectViewConciliaFornecedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoCabecalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalho" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoCabecalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoCabecalhoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalhoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectContabilLancamentoCabecalhoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectContabilLancamentoCabecalhoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoConciliacaoContabil_selectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:selectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoConciliacaoContabil">
+    <wsdl:operation name="selectContaCaixa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContaCaixa" message="tns:IServicoConciliacaoContabil_selectContaCaixa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContaCaixaResponse" message="tns:IServicoConciliacaoContabil_selectContaCaixa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContaCaixaPagina" message="tns:IServicoConciliacaoContabil_selectContaCaixaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContaCaixaPaginaResponse" message="tns:IServicoConciliacaoContabil_selectContaCaixaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFinExtratoContaBanco">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFinExtratoContaBanco" message="tns:IServicoConciliacaoContabil_selectFinExtratoContaBanco_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFinExtratoContaBancoResponse" message="tns:IServicoConciliacaoContabil_selectFinExtratoContaBanco_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFinExtratoContaBancoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFinExtratoContaBancoPagina" message="tns:IServicoConciliacaoContabil_selectFinExtratoContaBancoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFinExtratoContaBancoPaginaResponse" message="tns:IServicoConciliacaoContabil_selectFinExtratoContaBancoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoDetalhe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoDetalhe" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoDetalhe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoDetalheResponse" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoDetalhe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoDetalhePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoDetalhePagina" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoDetalhePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoDetalhePaginaResponse" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoDetalhePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectCliente" message="tns:IServicoConciliacaoContabil_selectCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectClienteResponse" message="tns:IServicoConciliacaoContabil_selectCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectClientePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectClientePagina" message="tns:IServicoConciliacaoContabil_selectClientePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectClientePaginaResponse" message="tns:IServicoConciliacaoContabil_selectClientePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaCliente" message="tns:IServicoConciliacaoContabil_selectViewConciliaCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaClienteResponse" message="tns:IServicoConciliacaoContabil_selectViewConciliaCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaClientePagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaClientePagina" message="tns:IServicoConciliacaoContabil_selectViewConciliaClientePagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaClientePaginaResponse" message="tns:IServicoConciliacaoContabil_selectViewConciliaClientePagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFornecedor" message="tns:IServicoConciliacaoContabil_selectFornecedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFornecedorResponse" message="tns:IServicoConciliacaoContabil_selectFornecedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFornecedorPagina" message="tns:IServicoConciliacaoContabil_selectFornecedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectFornecedorPaginaResponse" message="tns:IServicoConciliacaoContabil_selectFornecedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaFornecedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaFornecedor" message="tns:IServicoConciliacaoContabil_selectViewConciliaFornecedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaFornecedorResponse" message="tns:IServicoConciliacaoContabil_selectViewConciliaFornecedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaFornecedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaFornecedorPagina" message="tns:IServicoConciliacaoContabil_selectViewConciliaFornecedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaFornecedorPaginaResponse" message="tns:IServicoConciliacaoContabil_selectViewConciliaFornecedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalho">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoCabecalho" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoCabecalho_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoCabecalhoResponse" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoCabecalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalhoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoCabecalhoPagina" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoCabecalhoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoCabecalhoPaginaResponse" message="tns:IServicoConciliacaoContabil_selectContabilLancamentoCabecalhoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectUsuario" message="tns:IServicoConciliacaoContabil_selectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectUsuarioResponse" message="tns:IServicoConciliacaoContabil_selectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectControleAcesso" message="tns:IServicoConciliacaoContabil_selectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoConciliacaoContabil/selectControleAcessoResponse" message="tns:IServicoConciliacaoContabil_selectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoConciliacaoContabil" type="tns:IServicoConciliacaoContabil">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="selectContaCaixa">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectContaCaixa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContaCaixaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectContaCaixaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFinExtratoContaBanco">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectFinExtratoContaBanco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFinExtratoContaBancoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectFinExtratoContaBancoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoDetalhe">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoDetalhe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoDetalhePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoDetalhePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectCliente">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectClientePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectClientePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaCliente">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaClientePagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaClientePagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectFornecedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectFornecedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectFornecedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaFornecedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaFornecedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectViewConciliaFornecedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectViewConciliaFornecedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalho">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoCabecalho" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectContabilLancamentoCabecalhoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectContabilLancamentoCabecalhoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="selectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoConciliacaoContabil/selectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoConciliacaoContabil">
+    <wsdl:port name="BasicHttpBinding_IServicoConciliacaoContabil" binding="tns:BasicHttpBinding_IServicoConciliacaoContabil">
+      <soap:address location="http://localhost:2662/ServicoConciliacaoContabil.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

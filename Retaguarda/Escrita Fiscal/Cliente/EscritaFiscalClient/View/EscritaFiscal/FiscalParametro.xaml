@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="EscritaFiscalClient.View.EscritaFiscal.FiscalParametro" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalParametroSelected.Vigencia}" Height="23" Width="100" Margin="14,25,0,0"  />
+			<Label Content="Vigência:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding FiscalParametroSelected.DescricaoVigencia}" Height="23" Width="425" Margin="120,25,0,0"  />
+			<Label Content="Descrição Vigência" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,6,0,0"  />
+			<ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="130" SelectedValue="{Binding FiscalParametroSelected.CriterioLancamento}" SelectedValuePath="Tag" Margin="551,25,0,0" >
+                <ComboBoxItem Content="Livre" Tag="L" />
+                <ComboBoxItem Content="Avisar" Tag="A" />
+                <ComboBoxItem Content="Não Permitir" Tag="N" />
+            </ComboBox>
+			<Label Content="Critério Lancamento:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="551,6,0,0"  />
+            <GroupBox Header="Federal" Height="135" HorizontalAlignment="Left" Margin="16,65,0,0" Name="groupBox1" VerticalAlignment="Top" Width="665">
+                <Grid Height="110">
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="10,29,0,0" SelectedValue="{Binding FiscalParametroSelected.Apuracao}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="100">
+                        <ComboBoxItem Content="Regime Competência" Tag="1" />
+                        <ComboBoxItem Content="Regime de Caixa" Tag="2" />
+                    </ComboBox>
+                    <Label Content="Apuração:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="140,29,0,0" SelectedValue="{Binding FiscalParametroSelected.MicroempreeIndividual}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="167">
+                        <ComboBoxItem Content="Sim" Tag="S" />
+                        <ComboBoxItem Content="Não" Tag="N" />
+                    </ComboBox>
+                    <Label Content="Microempreendedor Individual:" HorizontalAlignment="Left" Margin="140,10,0,0" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="313,29,0,0" SelectedValue="{Binding FiscalParametroSelected.CalcPisCofinsEfd}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="246">
+                        <ComboBoxItem Content="Aliquota Básica" Tag="AB" />
+                        <ComboBoxItem Content="Aliquota Diferenciada" Tag="AD" />
+                        <ComboBoxItem Content="Unidade de Medida de Produto" Tag="UP" />
+                    </ComboBox>
+                    <Label Content="Forma Cálculo PIS/COFINS - ECF Contribuições:" HorizontalAlignment="Left" Margin="313,10,0,0" VerticalAlignment="Top" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="222,81,0,0" Text="{Binding FiscalParametroSelected.SimplesCodigoAcesso}" VerticalAlignment="Top" Width="425" />
+                    <Label Content="Código Acesso Simples:" HorizontalAlignment="Left" Margin="222,62,0,0" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="10,81,0,0" SelectedValue="{Binding FiscalParametroSelected.SimplesTabela}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="100">
+                        <ComboBoxItem Content="Federal" Tag="1" />
+                        <ComboBoxItem Content="Estadual" Tag="2" />
+                    </ComboBox>
+                    <Label Content="Tabela Simples:" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="116,81,0,0" SelectedValue="{Binding FiscalParametroSelected.SimplesAtividade}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="100">
+                        <ComboBoxItem Content="Comércio" Tag="CO" />
+                        <ComboBoxItem Content="Indústria" Tag="IN" />
+                        <ComboBoxItem Content="S1" Tag="Serviços Anexo III" />
+                        <ComboBoxItem Content="S2" Tag="Serviços Anexo IV" />
+                        <ComboBoxItem Content="S3" Tag="Serviços Anexo V" />
+                    </ComboBox>
+                    <Label Content="Atividade Simples:" HorizontalAlignment="Left" Margin="116,62,0,0" VerticalAlignment="Top" />
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Estadual" Height="100" HorizontalAlignment="Left" Margin="16,206,0,0" Name="groupBox2" VerticalAlignment="Top" Width="665">
+                <Grid>
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="10,29,0,0" SelectedValue="{Binding FiscalParametroSelected.PerfilSped}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="100">
+                        <ComboBoxItem Content="Perfil A" Tag="A" />
+                        <ComboBoxItem Content="Perfil B" Tag="B" />
+                        <ComboBoxItem Content="Perfil C" Tag="C" />
+                    </ComboBox>
+                    <Label Content="Perfil Sped Fiscal:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="116,29,0,0" SelectedValue="{Binding FiscalParametroSelected.ApuracaoConsolidada}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="125">
+                        <ComboBoxItem Content="Sim" Tag="S" />
+                        <ComboBoxItem Content="Não" Tag="N" />
+                    </ComboBox>
+                    <Label Content="Apuracao Consolidada:" HorizontalAlignment="Left" Margin="116,10,0,0" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="247,29,0,0" SelectedValue="{Binding FiscalParametroSelected.SubstituicaoTributaria}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="138">
+                        <ComboBoxItem Content="Sim" Tag="S" />
+                        <ComboBoxItem Content="Não" Tag="N" />
+                    </ComboBox>
+                    <Label Content="Substituição Tributária" HorizontalAlignment="Left" Margin="247,10,0,0" VerticalAlignment="Top" />
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Municipal" Height="100" HorizontalAlignment="Left" Margin="16,312,0,0" Name="groupBox3" VerticalAlignment="Top" Width="665">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0*" />
+                        <ColumnDefinition Width="188*" />
+                    </Grid.ColumnDefinitions>
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="10,29,0,0" SelectedValue="{Binding FiscalParametroSelected.FormaCalculoIss}" SelectedValuePath="Tag" VerticalAlignment="Top" Width="100" Grid.Column="1">
+                        <ComboBoxItem Content="Normal" Tag="NO" />
+                        <ComboBoxItem Content="Profissional Habilitado" Tag="PH" />
+                        <ComboBoxItem Content="Valor Fixo" Tag="VF" />
+                    </ComboBox>
+                    <Label Content="Forma Cálculo ISS:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Grid.Column="1" />
+                </Grid>
+            </GroupBox>
+        </Grid>
+	</DockPanel>
+</UserControl>

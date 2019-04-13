@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5DD3C4E8-1C62-429E-84E3-7830488D5A63}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdministrativoClient</RootNamespace>
+    <AssemblyName>AdministrativoClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExportarParaArquivo">
+      <HintPath>..\..\..\..\libs\ButtonExport\ExportarParaArquivo.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\..\..\libs\ButtonExport\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NRtfTree">
+      <HintPath>..\..\..\..\libs\ButtonExport\NRtfTree.dll</HintPath>
+    </Reference>
+    <Reference Include="RibbonControlsLibrary, Version=4.0.0.11019, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SearchWindow">
+      <HintPath>..\..\..\..\libs\SearchWindow\SearchWindow.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="Model\ServicoAdministrativo.cs" />
+    <Compile Include="Service References\ServicoAdministrativoReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Util\BooleanCharConverter.cs" />
+    <Compile Include="Util\CloseableTabItem.cs" />
+    <Compile Include="Util\MoedaFormat.cs" />
+    <Compile Include="Util\RadioStringConverter.cs" />
+    <Compile Include="ViewModel\Administrativo\AdministrativoViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\PapelViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\TributConfiguraOfGtViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\TributGrupoTributarioViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\TributIcmsCustomCabViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\TributIssViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\TributOperacaoFiscalViewModel.cs" />
+    <Compile Include="ViewModel\Administrativo\UsuarioViewModel.cs" />
+    <Compile Include="ViewModel\ERPClientViewModel.cs" />
+    <Compile Include="ViewModel\ERPViewModelBase.cs" />
+    <Compile Include="View\Administrativo\AdministrativoPrincipal.xaml.cs">
+      <DependentUpon>AdministrativoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\AtualizaBanco.xaml.cs">
+      <DependentUpon>AtualizaBanco.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\Papel.xaml.cs">
+      <DependentUpon>Papel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\PapelLista.xaml.cs">
+      <DependentUpon>PapelLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\PapelPrincipal.xaml.cs">
+      <DependentUpon>PapelPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributCofinsCodApuracao.xaml.cs">
+      <DependentUpon>TributCofinsCodApuracao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributCofinsCodApuracaoLista.xaml.cs">
+      <DependentUpon>TributCofinsCodApuracaoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributCofinsCodApuracaoPrincipal.xaml.cs">
+      <DependentUpon>TributCofinsCodApuracaoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributConfiguraOfGt.xaml.cs">
+      <DependentUpon>TributConfiguraOfGt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributConfiguraOfGtLista.xaml.cs">
+      <DependentUpon>TributConfiguraOfGtLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributConfiguraOfGtPrincipal.xaml.cs">
+      <DependentUpon>TributConfiguraOfGtPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributGrupoTributario.xaml.cs">
+      <DependentUpon>TributGrupoTributario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributGrupoTributarioLista.xaml.cs">
+      <DependentUpon>TributGrupoTributarioLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributGrupoTributarioPrincipal.xaml.cs">
+      <DependentUpon>TributGrupoTributarioPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsCustomCab.xaml.cs">
+      <DependentUpon>TributIcmsCustomCab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsCustomCabLista.xaml.cs">
+      <DependentUpon>TributIcmsCustomCabLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsCustomCabPrincipal.xaml.cs">
+      <DependentUpon>TributIcmsCustomCabPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsCustomDet.xaml.cs">
+      <DependentUpon>TributIcmsCustomDet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsCustomDetLista.xaml.cs">
+      <DependentUpon>TributIcmsCustomDetLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsCustomDetPrincipal.xaml.cs">
+      <DependentUpon>TributIcmsCustomDetPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsUf.xaml.cs">
+      <DependentUpon>TributIcmsUf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsUfLista.xaml.cs">
+      <DependentUpon>TributIcmsUfLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIcmsUfPrincipal.xaml.cs">
+      <DependentUpon>TributIcmsUfPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIpiDipi.xaml.cs">
+      <DependentUpon>TributIpiDipi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIpiDipiLista.xaml.cs">
+      <DependentUpon>TributIpiDipiLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIpiDipiPrincipal.xaml.cs">
+      <DependentUpon>TributIpiDipiPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIss.xaml.cs">
+      <DependentUpon>TributIss.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIssLista.xaml.cs">
+      <DependentUpon>TributIssLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributIssPrincipal.xaml.cs">
+      <DependentUpon>TributIssPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributOperacaoFiscal.xaml.cs">
+      <DependentUpon>TributOperacaoFiscal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributOperacaoFiscalLista.xaml.cs">
+      <DependentUpon>TributOperacaoFiscalLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributOperacaoFiscalPrincipal.xaml.cs">
+      <DependentUpon>TributOperacaoFiscalPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributPisCodApuracao.xaml.cs">
+      <DependentUpon>TributPisCodApuracao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributPisCodApuracaoLista.xaml.cs">
+      <DependentUpon>TributPisCodApuracaoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\TributPisCodApuracaoPrincipal.xaml.cs">
+      <DependentUpon>TributPisCodApuracaoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\Usuario.xaml.cs">
+      <DependentUpon>Usuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\UsuarioLista.xaml.cs">
+      <DependentUpon>UsuarioLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Administrativo\UsuarioPrincipal.xaml.cs">
+      <DependentUpon>UsuarioPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ERPClient.xaml.cs">
+      <DependentUpon>ERPClient.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Imagem\Thumbs.db" />
+    <None Include="Imagens\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.ColaboradorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.FuncaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.PapelDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.PapelFuncaoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.TipoReceitaDipiDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.TributConfiguraOfGtDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.TributGrupoTributarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.TributIcmsCustomCabDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.TributIssDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.TributOperacaoFiscalDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\AdministrativoClient.ServicoAdministrativoReference.ViewControleAcessoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoAdministrativoReference\ServicoAdministrativo1.wsdl" />
+    <None Include="Service References\ServicoAdministrativoReference\ServicoAdministrativo3.xsd" />
+    <None Include="Service References\ServicoAdministrativoReference\ServicoAdministrativo31.xsd" />
+    <None Include="Service References\ServicoAdministrativoReference\ServicoAdministrativo32.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicoAdministrativoReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoAdministrativoReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoAdministrativoReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoAdministrativoReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\AdministrativoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\AtualizaBanco.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\Papel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\PapelLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\PapelPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributCofinsCodApuracao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributCofinsCodApuracaoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributCofinsCodApuracaoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributConfiguraOfGt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributConfiguraOfGtLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributConfiguraOfGtPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributGrupoTributario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributGrupoTributarioLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributGrupoTributarioPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsCustomCab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsCustomCabLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsCustomCabPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsCustomDet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsCustomDetLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsCustomDetPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsUf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsUfLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIcmsUfPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIpiDipi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIpiDipiLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIpiDipiPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIss.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIssLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributIssPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributOperacaoFiscal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributOperacaoFiscalLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributOperacaoFiscalPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributPisCodApuracao.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributPisCodApuracaoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\TributPisCodApuracaoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\Usuario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\UsuarioLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Administrativo\UsuarioPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ERPClient.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagem\21botaoAjuda.png" />
+    <Resource Include="Imagem\21botaoCalculadora.png" />
+    <Resource Include="Imagem\21botaoCancelaCupom.png" />
+    <Resource Include="Imagem\21botaoCancelaItem.png" />
+    <Resource Include="Imagem\21botaoCliente.png" />
+    <Resource Include="Imagem\21botaoDesconto.png" />
+    <Resource Include="Imagem\21botaoEncerraVenda.png" />
+    <Resource Include="Imagem\21botaoGaveta.png" />
+    <Resource Include="Imagem\21botaoMenuFiscal.png" />
+    <Resource Include="Imagem\21botaoMenuOperacoes.png" />
+    <Resource Include="Imagem\21botaoMenuPrincipal.png" />
+    <Resource Include="Imagem\21botaoPesquisa.png" />
+    <Resource Include="Imagem\21botaoSair.png" />
+    <Resource Include="Imagem\agencia_banco16.png" />
+    <Resource Include="Imagem\agencia_banco32.png" />
+    <Resource Include="Imagem\agencia_banco48.png" />
+    <Resource Include="Imagem\almoxarifado16.png" />
+    <Resource Include="Imagem\almoxarifado32.png" />
+    <Resource Include="Imagem\almoxarifado48.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario16.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario32.png" />
+    <Resource Include="Imagem\ArmazenarExtratoBancario48.png" />
+    <Resource Include="Imagem\atividade_for_cli16.png" />
+    <Resource Include="Imagem\atividade_for_cli32.png" />
+    <Resource Include="Imagem\atividade_for_cli48.png" />
+    <Resource Include="Imagem\bairro16.png" />
+    <Resource Include="Imagem\bairro32.png" />
+    <Resource Include="Imagem\bairro48.png" />
+    <Resource Include="Imagem\banco16.png" />
+    <Resource Include="Imagem\banco32.png" />
+    <Resource Include="Imagem\banco48.png" />
+    <Resource Include="Imagem\botaoAjuda.png" />
+    <Resource Include="Imagem\botaoCalculadora.png" />
+    <Resource Include="Imagem\botaoCancelaCupom.png" />
+    <Resource Include="Imagem\botaoCancelaItem.png" />
+    <Resource Include="Imagem\botaoCancelar.png" />
+    <Resource Include="Imagem\botaoCliente.png" />
+    <Resource Include="Imagem\botaoConfirmar.png" />
+    <Resource Include="Imagem\botaoDesconto.png" />
+    <Resource Include="Imagem\botaoEncerraVenda.png" />
+    <Resource Include="Imagem\botaoGaveta.png" />
+    <Resource Include="Imagem\botaoLocalizar.png" />
+    <Resource Include="Imagem\botaoMenuFiscal.png" />
+    <Resource Include="Imagem\botaoMenuOperacoes.png" />
+    <Resource Include="Imagem\botaoMenuPrincipal.png" />
+    <Resource Include="Imagem\botaoPesquisa.png" />
+    <Resource Include="Imagem\botaoSair.png" />
+    <Resource Include="Imagem\cargo16.png" />
+    <Resource Include="Imagem\cargo32.png" />
+    <Resource Include="Imagem\cargo48.png" />
+    <Resource Include="Imagem\centroResultado16.png" />
+    <Resource Include="Imagem\centroResultado32.png" />
+    <Resource Include="Imagem\centroResultado48.png" />
+    <Resource Include="Imagem\cep16.png" />
+    <Resource Include="Imagem\cep32.png" />
+    <Resource Include="Imagem\cep48.png" />
+    <Resource Include="Imagem\cfop16.png" />
+    <Resource Include="Imagem\cfop32.png" />
+    <Resource Include="Imagem\cfop48.png" />
+    <Resource Include="Imagem\cheque16.png" />
+    <Resource Include="Imagem\cheque32.png" />
+    <Resource Include="Imagem\cheque48.png" />
+    <Resource Include="Imagem\cliente16.png" />
+    <Resource Include="Imagem\cliente32.png" />
+    <Resource Include="Imagem\cliente48.png" />
+    <Resource Include="Imagem\colaborador16.png" />
+    <Resource Include="Imagem\colaborador32.png" />
+    <Resource Include="Imagem\colaborador48.png" />
+    <Resource Include="Imagem\compraSugerida16.png" />
+    <Resource Include="Imagem\compraSugerida32.png" />
+    <Resource Include="Imagem\compraSugerida48.png" />
+    <Resource Include="Imagem\ConciliarCheque16.png" />
+    <Resource Include="Imagem\ConciliarCheque32.png" />
+    <Resource Include="Imagem\ConciliarCheque48.png" />
+    <Resource Include="Imagem\ConciliarLancamento16.png" />
+    <Resource Include="Imagem\ConciliarLancamento32.png" />
+    <Resource Include="Imagem\ConciliarLancamento48.png" />
+    <Resource Include="Imagem\condicoesPagamento128.png" />
+    <Resource Include="Imagem\condicoesPagamento16.png" />
+    <Resource Include="Imagem\condicoesPagamento32.png" />
+    <Resource Include="Imagem\condicoesPagamento48.png" />
+    <Resource Include="Imagem\contador16.png" />
+    <Resource Include="Imagem\contador32.png" />
+    <Resource Include="Imagem\contador48.png" />
+    <Resource Include="Imagem\conta_caixa16.png" />
+    <Resource Include="Imagem\conta_caixa32.png" />
+    <Resource Include="Imagem\conta_caixa48.png" />
+    <Resource Include="Imagem\convenio16.png" />
+    <Resource Include="Imagem\convenio32.png" />
+    <Resource Include="Imagem\convenio48.png" />
+    <Resource Include="Imagem\cotacaoCompra16.png" />
+    <Resource Include="Imagem\cotacaoCompra32.png" />
+    <Resource Include="Imagem\cotacaoCompra48.png" />
+    <Resource Include="Imagem\document-icon128.ico" />
+    <Resource Include="Imagem\document-icon128.png" />
+    <Resource Include="Imagem\document-icon16.png" />
+    <Resource Include="Imagem\document-icon32.png" />
+    <Resource Include="Imagem\document-icon48.png" />
+    <Resource Include="Imagem\documento16.png" />
+    <Resource Include="Imagem\documento32.png" />
+    <Resource Include="Imagem\documento48.png" />
+    <Resource Include="Imagem\documentoOrigem16.png" />
+    <Resource Include="Imagem\documentoOrigem32.png" />
+    <Resource Include="Imagem\documentoOrigem48.png" />
+    <Resource Include="Imagem\download-box-icon128.ico" />
+    <Resource Include="Imagem\download-box-icon128.png" />
+    <Resource Include="Imagem\download-box-icon16.png" />
+    <Resource Include="Imagem\download-box-icon32.png" />
+    <Resource Include="Imagem\download-box-icon48.png" />
+    <Resource Include="Imagem\enderecos16.png" />
+    <Resource Include="Imagem\enderecos32.png" />
+    <Resource Include="Imagem\enderecos48.png" />
+    <Resource Include="Imagem\estado_civil16.png" />
+    <Resource Include="Imagem\estado_civil32.png" />
+    <Resource Include="Imagem\estado_civil48.png" />
+    <Resource Include="Imagem\excel16.png" />
+    <Resource Include="Imagem\excel16d.png" />
+    <Resource Include="Imagem\first16.png" />
+    <Resource Include="Imagem\first16d.png" />
+    <Resource Include="Imagem\fluxoCaixa16.png" />
+    <Resource Include="Imagem\fluxoCaixa32.png" />
+    <Resource Include="Imagem\fluxoCaixa48.png" />
+    <Resource Include="Imagem\fornecedor16.png" />
+    <Resource Include="Imagem\fornecedor32.png" />
+    <Resource Include="Imagem\fornecedor48.png" />
+    <Resource Include="Imagem\frete128.png" />
+    <Resource Include="Imagem\frete16.png" />
+    <Resource Include="Imagem\frete32.png" />
+    <Resource Include="Imagem\frete48.png" />
+    <Resource Include="Imagem\html16.png" />
+    <Resource Include="Imagem\html16d.png" />
+    <Resource Include="Imagem\importaCotacaoCompra16.png" />
+    <Resource Include="Imagem\importaCotacaoCompra32.png" />
+    <Resource Include="Imagem\importaCotacaoCompra48.png" />
+    <Resource Include="Imagem\indice_economico16.png" />
+    <Resource Include="Imagem\indice_economico32.png" />
+    <Resource Include="Imagem\indice_economico48.png" />
+    <Resource Include="Imagem\lancamentoPagar16.png" />
+    <Resource Include="Imagem\lancamentoPagar32.png" />
+    <Resource Include="Imagem\lancamentoPagar48.png" />
+    <Resource Include="Imagem\lancamentoReceber16.png" />
+    <Resource Include="Imagem\lancamentoReceber32.png" />
+    <Resource Include="Imagem\lancamentoReceber48.png" />
+    <Resource Include="Imagem\last16.png" />
+    <Resource Include="Imagem\last16d.png" />
+    <Resource Include="Imagem\mapa16.png" />
+    <Resource Include="Imagem\mapa32.png" />
+    <Resource Include="Imagem\mapa48.png" />
+    <Resource Include="Imagem\mapaComparativo16.png" />
+    <Resource Include="Imagem\mapaComparativo32.png" />
+    <Resource Include="Imagem\mapaComparativo48.png" />
+    <Resource Include="Imagem\marca16.png" />
+    <Resource Include="Imagem\marca32.png" />
+    <Resource Include="Imagem\marca48.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco16.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco32.png" />
+    <Resource Include="Imagem\movimentoCaixaBanco48.png" />
+    <Resource Include="Imagem\municipio16.png" />
+    <Resource Include="Imagem\municipio32.png" />
+    <Resource Include="Imagem\municipio48.png" />
+    <Resource Include="Imagem\naturezaFinanceira16.png" />
+    <Resource Include="Imagem\naturezaFinanceira32.png" />
+    <Resource Include="Imagem\naturezaFinanceira48.png" />
+    <Resource Include="Imagem\ncm16.png" />
+    <Resource Include="Imagem\ncm32.png" />
+    <Resource Include="Imagem\ncm48.png" />
+    <Resource Include="Imagem\next16.png" />
+    <Resource Include="Imagem\next16d.png" />
+    <Resource Include="Imagem\nfe128.png" />
+    <Resource Include="Imagem\nfe16.png" />
+    <Resource Include="Imagem\nfe32.png" />
+    <Resource Include="Imagem\nfe48.png" />
+    <Resource Include="Imagem\nivel_formacao16.png" />
+    <Resource Include="Imagem\nivel_formacao32.png" />
+    <Resource Include="Imagem\nivel_formacao48.png" />
+    <Resource Include="Imagem\operadora_cartao16.png" />
+    <Resource Include="Imagem\operadora_cartao32.png" />
+    <Resource Include="Imagem\operadora_cartao48.png" />
+    <Resource Include="Imagem\orcamento16.png" />
+    <Resource Include="Imagem\orcamento32.png" />
+    <Resource Include="Imagem\orcamento48.png" />
+    <Resource Include="Imagem\orcamentoVenda128.png" />
+    <Resource Include="Imagem\orcamentoVenda16.png" />
+    <Resource Include="Imagem\orcamentoVenda32.png" />
+    <Resource Include="Imagem\orcamentoVenda48.png" />
+    <Resource Include="Imagem\outroPedido16.png" />
+    <Resource Include="Imagem\outroPedido32.png" />
+    <Resource Include="Imagem\outroPedido48.png" />
+    <Resource Include="Imagem\pagamentoParcela16.png" />
+    <Resource Include="Imagem\pagamentoParcela32.png" />
+    <Resource Include="Imagem\pagamentoParcela48.png" />
+    <Resource Include="Imagem\page-next16.png" />
+    <Resource Include="Imagem\page-next16d.png" />
+    <Resource Include="Imagem\page-prior16.png" />
+    <Resource Include="Imagem\page-prior16d.png" />
+    <Resource Include="Imagem\pais16.png" />
+    <Resource Include="Imagem\pais32.png" />
+    <Resource Include="Imagem\pais48.png" />
+    <Resource Include="Imagem\pedidoCompra16.png" />
+    <Resource Include="Imagem\pedidoCompra32.png" />
+    <Resource Include="Imagem\pedidoCompra48.png" />
+    <Resource Include="Imagem\pessoa16.png" />
+    <Resource Include="Imagem\pessoa32.png" />
+    <Resource Include="Imagem\pessoa48.png" />
+    <Resource Include="Imagem\porta16.png" />
+    <Resource Include="Imagem\porta32.png" />
+    <Resource Include="Imagem\porta48.png" />
+    <Resource Include="Imagem\prior16.png" />
+    <Resource Include="Imagem\prior16d.png" />
+    <Resource Include="Imagem\produto16.png" />
+    <Resource Include="Imagem\produto32.png" />
+    <Resource Include="Imagem\produto48.png" />
+    <Resource Include="Imagem\Recebimento16.png" />
+    <Resource Include="Imagem\Recebimento32.png" />
+    <Resource Include="Imagem\Recebimento48.png" />
+    <Resource Include="Imagem\requisicaoCompra16.png" />
+    <Resource Include="Imagem\requisicaoCompra32.png" />
+    <Resource Include="Imagem\requisicaoCompra48.png" />
+    <Resource Include="Imagem\ResumoTesouraria16.png" />
+    <Resource Include="Imagem\ResumoTesouraria32.png" />
+    <Resource Include="Imagem\ResumoTesouraria48.png" />
+    <Resource Include="Imagem\setor16.png" />
+    <Resource Include="Imagem\setor32.png" />
+    <Resource Include="Imagem\setor48.png" />
+    <Resource Include="Imagem\situacao16.png" />
+    <Resource Include="Imagem\situacao32.png" />
+    <Resource Include="Imagem\situacao48.png" />
+    <Resource Include="Imagem\statusParcela16.png" />
+    <Resource Include="Imagem\statusParcela32.png" />
+    <Resource Include="Imagem\statusParcela48.png" />
+    <Resource Include="Imagem\talonario16.png" />
+    <Resource Include="Imagem\talonario32.png" />
+    <Resource Include="Imagem\talonario48.png" />
+    <Resource Include="Imagem\tipoDocumento16.png" />
+    <Resource Include="Imagem\tipoDocumento32.png" />
+    <Resource Include="Imagem\tipoDocumento48.png" />
+    <Resource Include="Imagem\tipoNotaFiscal128.png" />
+    <Resource Include="Imagem\tipoNotaFiscal16.png" />
+    <Resource Include="Imagem\tipoNotaFiscal32.png" />
+    <Resource Include="Imagem\tipoNotaFiscal48.png" />
+    <Resource Include="Imagem\tipoPagamento16.png" />
+    <Resource Include="Imagem\tipoPagamento32.png" />
+    <Resource Include="Imagem\tipoPagamento48.png" />
+    <Resource Include="Imagem\tipoRequisicao16.png" />
+    <Resource Include="Imagem\tipoRequisicao32.png" />
+    <Resource Include="Imagem\tipoRequisicao48.png" />
+    <Resource Include="Imagem\tipo_colaborador16.png" />
+    <Resource Include="Imagem\tipo_colaborador32.png" />
+    <Resource Include="Imagem\tipo_colaborador48.png" />
+    <Resource Include="Imagem\transportadora16.png" />
+    <Resource Include="Imagem\transportadora32.png" />
+    <Resource Include="Imagem\transportadora48.png" />
+    <Resource Include="Imagem\txt16.png" />
+    <Resource Include="Imagem\txt16d.png" />
+    <Resource Include="Imagem\uf16.png" />
+    <Resource Include="Imagem\uf32.png" />
+    <Resource Include="Imagem\uf48.png" />
+    <Resource Include="Imagem\unidade16.png" />
+    <Resource Include="Imagem\unidade32.png" />
+    <Resource Include="Imagem\unidade48.png" />
+    <Resource Include="Imagem\venda128.png" />
+    <Resource Include="Imagem\venda16.png" />
+    <Resource Include="Imagem\venda32.png" />
+    <Resource Include="Imagem\venda48.png" />
+    <Resource Include="Imagem\word16.png" />
+    <Resource Include="Imagem\word16d.png" />
+    <Resource Include="Imagem\xml16.png" />
+    <Resource Include="Imagem\xml16d.png" />
+    <Resource Include="Imagens\BalancoPatrimonial16.png" />
+    <Resource Include="Imagens\BalancoPatrimonial32.png" />
+    <Resource Include="Imagens\BalancoPatrimonial48.png" />
+    <Resource Include="Imagens\ContabilDFC128.png" />
+    <Resource Include="Imagens\ContabilDFC16.png" />
+    <Resource Include="Imagens\ContabilDFC32.png" />
+    <Resource Include="Imagens\ContabilDFC48.png" />
+    <Resource Include="Imagens\ContabilDRE128.png" />
+    <Resource Include="Imagens\ContabilDRE16.png" />
+    <Resource Include="Imagens\ContabilDRE256.png" />
+    <Resource Include="Imagens\ContabilDRE32.png" />
+    <Resource Include="Imagens\ContabilDRE48.png" />
+    <Resource Include="Imagens\ContabilDRE64.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio128.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio16.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio256.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio32.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio48.png" />
+    <Resource Include="Imagens\ContabilEncerramentoExercicio64.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao128.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao16.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao32.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao48.png" />
+    <Resource Include="Imagens\ContabilLivroEmissao64.png" />
+    <Resource Include="Imagens\porta16.png" />
+    <Resource Include="Imagens\porta32.png" />
+    <Resource Include="Imagens\porta48.png" />
+    <Resource Include="Imagens\t2ti32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\Auditoria16.png" />
+    <Resource Include="Imagens\Auditoria32.png" />
+    <Resource Include="Imagens\Auditoria48.png" />
+    <Resource Include="Imagens\Usuario16.png" />
+    <Resource Include="Imagens\Usuario32.png" />
+    <Resource Include="Imagens\Usuario48.png" />
+    <Resource Include="Imagens\UsuarioAcesso16.png" />
+    <Resource Include="Imagens\UsuarioAcesso32.png" />
+    <Resource Include="Imagens\UsuarioAcesso48.png" />
+    <Resource Include="Imagens\UsuarioAcesso64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoAdministrativoReference\ServicoAdministrativo1.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

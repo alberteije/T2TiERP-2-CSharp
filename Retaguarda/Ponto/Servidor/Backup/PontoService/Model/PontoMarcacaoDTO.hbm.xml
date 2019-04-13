@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PontoService" namespace="PontoService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="PontoMarcacaoDTO" table="ponto_marcacao" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Colaborador" column="ID_COLABORADOR" />
+    <many-to-one name="PontoRelogio" column="ID_PONTO_RELOGIO" />
+    <property name="Nsr" column="NSR" />
+    <property name="DataMarcacao" column="DATA_MARCACAO" />
+    <property name="HoraMarcacao" column="HORA_MARCACAO" />
+    <property name="TipoMarcacao" column="TIPO_MARCACAO" />
+    <property name="TipoRegistro" column="TIPO_REGISTRO" />
+    <property name="ParEntradaSaida" column="PAR_ENTRADA_SAIDA" />
+    <property name="Justificativa" column="JUSTIFICATIVA" />
+  </class>
+</hibernate-mapping>

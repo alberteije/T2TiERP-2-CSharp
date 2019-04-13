@@ -1,0 +1,339 @@
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\ContabilidadeClient.exe.config
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\ContabilidadeClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\ContabilidadeClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\ExportarParaArquivo.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\NPOI.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\NRtfTree.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdf.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilConta.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDet.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamento.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistorico.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilidadePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValor.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhe.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcado.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadrao.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLote.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametros.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilBalancoPatrimonialPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEmissaoLivrosPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermo.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Fap.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDfcPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Login.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoConta.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSped.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorio.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\App.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdf.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilConta.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCab.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDet.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamento.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistorico.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilidadePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndice.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndicePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValor.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalho.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhe.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalheLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcado.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadrao.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivro.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLote.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLoteLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLotePrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametros.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilBalancoPatrimonialPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEmissaoLivrosPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermo.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Fap.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDfcPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Login.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoConta.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSped.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorio.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioLista.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioPrincipal.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient_MarkupCompile.lref
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\themes\generic.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCab.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndice.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndicePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalho.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalheLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivro.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLoteLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLotePrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioLista.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioPrincipal.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\View\ERPClient.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\Interop.reportman.dll
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\ContabilidadeClient\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\ContabilidadeClient.exe.config
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\ContabilidadeClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\ContabilidadeClient.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\RibbonControlsLibrary.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\RibbonControlsLibrary.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\RibbonControlsLibrary.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\Interop.reportman.dll
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.csproj.ResolveComReference.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdf.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilConta.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDet.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamento.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistorico.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilidadePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValor.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhe.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcado.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadrao.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLote.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametros.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilBalancoPatrimonialPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEmissaoLivrosPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermo.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Fap.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDfcPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Login.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoConta.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSped.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorio.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\App.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdf.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilConta.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCab.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDet.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamento.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistorico.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilidadePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndice.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndicePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValor.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalho.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhe.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalheLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcado.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadrao.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivro.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLote.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLoteLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLotePrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametros.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilBalancoPatrimonialPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEmissaoLivrosPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermo.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Fap.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDfcPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\Login.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoConta.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSped.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorio.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioLista.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioPrincipal.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\ERPClient.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\App.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient_MarkupCompile.cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient_MarkupCompile.lref
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\themes\generic.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\AidfAimdfPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilContaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilDreDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCab.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeCabPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilEncerramentoExeDetPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilFechamentoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilHistoricoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndice.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndicePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilIndiceValorPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalho.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoCabecalhoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalheLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoDetalhePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoOrcadoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLancamentoPadraoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivro.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLivroPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLoteLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilLotePrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilParametrosPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\ContabilTermoPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\FapPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\PlanoContaRefSpedPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioLista.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\Contabilidade\RegistroCartorioPrincipal.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\View\ERPClient.baml
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.g.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.Properties.Resources.resources
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.csproj.GenerateResource.Cache
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.exe
+C:\Projetos\T2Ti ERP 2.0\C#\Retaguarda\Contabilidade\Cliente\ContabilidadeClient\obj\x86\Debug\ContabilidadeClient.pdb

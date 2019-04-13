@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="BalcaoPAF.View.Botoes.BarraInterna" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewBotoes="clr-namespace:BalcaoPAF.View.Botoes"
+             mc:Ignorable="d" xmlns:sys="clr-namespace:System;assembly=mscorlib" 
+             d:DesignHeight="28" d:DesignWidth="700">
+
+
+    <DockPanel >
+        <DockPanel.Background>
+            <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Color="Gray" Offset="0"/>
+                    <GradientStop Color="Transparent" Offset="1"/>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </DockPanel.Background>
+        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+            <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Command="{Binding CancelarCommand}" ToolTip="Cancelar operação" Name="BotaoCancelar">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/cancelar.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Cancelar</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Command="{Binding SalvarCommand}" ToolTip="Salvar dados" Name="BotaoSalvar">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/internos/salvar.png" Height="16" Width="16"/>
+                    <TextBlock Margin="3,1,0,0">Salvar</TextBlock>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </DockPanel>
+
+</UserControl>

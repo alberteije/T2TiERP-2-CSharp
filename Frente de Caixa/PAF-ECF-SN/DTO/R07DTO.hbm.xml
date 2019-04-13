@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="PafEcf" namespace="PafEcf.DTO" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="R07DTO" table="r07" >
+
+    <id name="Id" column="ID">
+      <generator class="sequence">
+        <param name="sequence">r07</param>
+      </generator>
+    </id>
+
+
+    <property name="IdR06" column="ID_R06" />
+    <property name="Ccf" column="CCF" />
+    <property name="MeioPagamento" column="MEIO_PAGAMENTO" />
+    <property name="ValorPagamento" column="VALOR_PAGAMENTO" />
+    <property name="Estorno" column="ESTORNO" />
+    <property name="ValorEstorno" column="VALOR_ESTORNO" />
+    <property name="Logss" column="LOGSS" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="FinParcelaPagamentoDTO" table="fin_parcela_pagamento" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="FinParcelaPagar" column="ID_FIN_PARCELA_PAGAR" />
+    <many-to-one name="FinChequeEmitido" column="ID_FIN_CHEQUE_EMITIDO" />
+    <many-to-one name="FinTipoPagamento" column="ID_FIN_TIPO_PAGAMENTO" />
+    <many-to-one name="ContaCaixa" column="ID_CONTA_CAIXA" />
+    <property name="DataPagamento" column="DATA_PAGAMENTO" />
+    <property name="TaxaJuro" column="TAXA_JURO" />
+    <property name="TaxaMulta" column="TAXA_MULTA" />
+    <property name="TaxaDesconto" column="TAXA_DESCONTO" />
+    <property name="ValorJuro" column="VALOR_JURO" />
+    <property name="ValorMulta" column="VALOR_MULTA" />
+    <property name="ValorDesconto" column="VALOR_DESCONTO" />
+    <property name="ValorPago" column="VALOR_PAGO" />
+    <property name="Historico" column="HISTORICO" />
+  </class>
+</hibernate-mapping>

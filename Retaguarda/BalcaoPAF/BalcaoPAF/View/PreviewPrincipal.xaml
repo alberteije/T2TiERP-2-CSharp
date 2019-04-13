@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="BalcaoPAF.View.PreviewPrincipal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1000">
+
+    <DockPanel LastChildFill="True">
+        <DockPanel LastChildFill="True">
+            <StackPanel Height="28" Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
+                <Button Name="btImprimir" Height="28" Width="100" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Images/internos/imprimir.png" Width="16" Height="16"></Image>
+                        <TextBlock Text="Imprimir" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+                <Button Name="btSalvar" Height="28" Width="100" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Images/internos/salvar.png" Width="16" Height="16"></Image>
+                        <TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+                <Button Name="btSair" Height="28" Width="100" Click="btSair_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Images/porta.png" Width="16" Height="16"></Image>
+                        <TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <Grid Height="672" DockPanel.Dock="Bottom" Background="#FFEBEBEB" VerticalAlignment="Bottom">
+                <RichTextBox HorizontalAlignment="Stretch" Name="richTextBoxArquivo" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" FontFamily="Courier New" FontSize="12" FontWeight="Bold">
+                    <RichTextBox.Resources>
+                        <Style TargetType="{x:Type Paragraph}">
+                            <Setter Property="Margin" Value="0"/>
+                        </Style>
+                    </RichTextBox.Resources>
+                </RichTextBox>
+            </Grid>
+        </DockPanel>
+    </DockPanel>
+
+</UserControl>

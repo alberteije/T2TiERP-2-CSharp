@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="PatrimonioClient.View.Patrimonio.PatrimEstadoConservacao" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="700">
+	<DockPanel LastChildFill="True">
+		<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+			<Button Name="btSalvar" Width="100" Click="btSalvar_Click">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+					<Image Source="/Imagem/botaoConfirmar.png" Height="23"></Image>
+					<TextBlock Text="Salvar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+			<Button Name="btSair" Width="100" Click="btSair_Click">
+				<StackPanel Orientation="Horizontal">
+					<Image Source="/Imagem/21botaoSair.png" Height="23"></Image>
+					<TextBlock Text="Voltar" Margin="3,0,0,0" VerticalAlignment="Center" />
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<Grid>
+            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" SelectedValue="{Binding PatrimEstadoConservacaoSelected.Codigo}" SelectedValuePath="Tag" Margin="6,25,0,0" >
+				<ComboBoxItem Content="Novo" Tag="01" />
+				<ComboBoxItem Content="Bom" Tag="02" />
+                <ComboBoxItem Content="Recuperável" Tag="03" />
+                <ComboBoxItem Content="Inservível" Tag="04" />
+			</ComboBox>
+			<Label Content="Codigo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimEstadoConservacaoSelected.Nome}" Height="23" Width="252" Margin="112,25,0,0"  />
+			<Label Content="Nome" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="112,6,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Text="{Binding PatrimEstadoConservacaoSelected.Descricao}" Height="100" TextWrapping="Wrap" VerticalContentAlignment="Top" AcceptsReturn="True" Width="358" Margin="6,73,0,0"  />
+			<Label Content="Descricao" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,54,0,0"  />
+		</Grid>
+	</DockPanel>
+</UserControl>

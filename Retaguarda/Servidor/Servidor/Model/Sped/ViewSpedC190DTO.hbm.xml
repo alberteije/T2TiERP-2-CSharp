@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Servidor" namespace="Servidor.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ViewSpedC190DTO" table="view_sped_c190" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="CstIcms" column="CST_ICMS" />
+    <property name="Cfop" column="CFOP" />
+    <property name="AliquotaIcms" column="ALIQUOTA_ICMS" />
+    <property name="DataHoraEmissao" column="DATA_HORA_EMISSAO" />
+    <property name="SomaValorOperacao" column="SOMA_VALOR_OPERACAO" />
+    <property name="SomaBaseCalculoIcms" column="SOMA_BASE_CALCULO_ICMS" />
+    <property name="SomaValorIcms" column="SOMA_VALOR_ICMS" />
+    <property name="SomaBaseCalculoIcmsSt" column="SOMA_BASE_CALCULO_ICMS_ST" />
+    <property name="SomaValorIcmsSt" column="SOMA_VALOR_ICMS_ST" />
+    <property name="SomaVlRedBc" column="SOMA_VL_RED_BC" />
+    <property name="SomaValorIpi" column="SOMA_VALOR_IPI" />
+  </class>
+</hibernate-mapping>
