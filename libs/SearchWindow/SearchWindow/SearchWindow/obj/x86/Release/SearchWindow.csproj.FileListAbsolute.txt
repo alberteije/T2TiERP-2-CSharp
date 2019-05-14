@@ -1,0 +1,39 @@
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindowApp.baml
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindowApp.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.g.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\bin\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Desktop\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\bin\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindowApp.baml
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindowApp.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\App.g.cs
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow_MarkupCompile.cache
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.g.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.Properties.Resources.resources
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.exe
+C:\Documents and Settings\T2Ti\Meus documentos\Google Drive\VS2010\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\bin\Release\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\bin\Release\SearchWindow.pdb
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindowApp.baml
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindowApp.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\App.g.cs
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow_MarkupCompile.cache
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.g.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.Properties.Resources.resources
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.exe
+C:\Documents and Settings\Eije\Desktop\T2Ti ERP C#\Fontes\SearchWindow\SearchWindow\obj\x86\Release\SearchWindow.pdb

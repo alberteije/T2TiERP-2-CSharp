@@ -1,0 +1,38 @@
+﻿<Window x:Class="SearchWindow.SearchWindowApp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Janela de pesquisa" Height="400" Width="600">
+    <DockPanel LastChildFill="True" Background="LightGray">
+        <GroupBox  Header="Pesquisar" DockPanel.Dock="Bottom">
+            <StackPanel Orientation="Horizontal" FlowDirection="LeftToRight" 
+                        HorizontalAlignment="Right" DockPanel.Dock="Bottom"
+                        Margin="3"
+                        >
+                <TextBox MinWidth="150" Text="{Binding textoPesquisa}" 
+                         VerticalContentAlignment="Center" TextChanged="TextBox_TextChanged_1"></TextBox>
+                <ComboBox                          
+                        ItemsSource="{Binding listaAtributos}"
+                        SelectedItem="{Binding atributoSelected}"
+                        IsEditable="False"
+                        IsReadOnly="True"
+                        Width="80"
+                        Margin="10,0,0,0"/>
+                <Button Name="btPesquisar" Click="btPesquisar_Click"
+                        Margin="10,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Pesquisar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+                <Button Name="btConfirmar" IsEnabled="{Binding isItemSelected}"
+                        Margin="10,0,0,0" Click="btConfirmar_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Selecionar" Margin="3,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Selecione:">
+            <ContentControl Content="{Binding dataGrid}"></ContentControl>
+        </GroupBox>
+    </DockPanel>
+</Window>
