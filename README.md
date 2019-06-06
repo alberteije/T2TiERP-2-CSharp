@@ -6,6 +6,8 @@
   Aqui é possível baixar o código fonte do Projeto T2Ti ERP 2.0 em C#. 
   Este treinamento formou milhares de desenvolvedores no Brasil e ajudou centenas deles a lançar seu próprio 
   ERP no mercado. Mais informações sobre o treinamento podem ser encontradas no seguinte link: http://t2ti.com/erp2/. 
+  <br/><br/>
+  [Here it is possible to download the source code of the Project T2Ti ERP 2.0 in C #. This training was made by thousands of developers in Brazil and helped hundreds of them launch their own ERP in the market. More information about the training can be found at the following link: http://t2ti.com/erp2/.]
                     <hr />
                     <img src="http://t2ti.com/images/erp/t2ti_erp_2.jpg" />
                     <br />              
