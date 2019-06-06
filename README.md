@@ -252,7 +252,7 @@
   <i>
 [C# ERP was developed in two and three layers. The user downloads the view layer to his machine (Smart Client) and connects to the application server where the business classes are stored. The database may reside on the same machine as the application server or on another server specific to the DBMS.
 	<br /><br />
-On server side we used WCF. On client side we used WPF. Some modules were mad using Windows Forms (NFc-e, SAT e PAF).]
+On server side we used WCF. On client side we used WPF. Some modules were made using Windows Forms (NFc-e, SAT e PAF).]
   </i>
 
 </html>
