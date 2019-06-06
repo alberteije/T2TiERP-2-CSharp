@@ -234,7 +234,7 @@
                         </table>
                         <br />
                 </div>
-                        <h3>Forma de Desenvolvimento C#</h3> 
+                        <h3>Forma de Desenvolvimento C# [Way we Developed using C#]</h3> 
                         <hr />
                         <img src="http://t2ti.com/images/erp/erp_c_sharp.jpg" />
                         <hr />
@@ -245,7 +245,14 @@
                         O banco de dados poderá residir na mesma máquina do servidor de aplicações ou em outro 
                         servidor específico para o banco de dados.       
                         <br /><br />
-                        Para o servidor utilizamos WCF. Os módulos do tipo SIT (Sistemas de Informação Transacional ) 
+                        Para o servidor utilizamos WCF. Os módulos do tipo SIT (Sistemas de Informação Transacional) 
                         foram feitos no lado do cliente com WPF. 
                         Os módulos de frente de loja (NFc-e, SAT e PAF) foram feitos utilizando Windows Forms. 
+  	<br /><br />
+  <i>
+[C# ERP was developed in two and three layers. The user downloads the view layer to his machine (Smart Client) and connects to the application server where the business classes are stored. The database may reside on the same machine as the application server or on another server specific to the DBMS.
+	<br /><br />
+On server side we used WCF. On client side we used WPF. Some modules were mad using Windows Forms (NFc-e, SAT e PAF).]
+  </i>
+
 </html>
