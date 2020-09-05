@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicoSIS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SISService1/ServicoSIS.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SISService1/ServicoSIS.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/SISService1/ServicoSIS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SISService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicoSIS_DeleteVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectVendedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectVendedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectVendedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectVendedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectControleAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectControleAcesso" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectControleAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectControleAcessoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteCargo_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCargo" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteCargo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarCargo_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarCargo" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarCargo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCargo_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCargo" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCargo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCargoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCargoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCargoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCargoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteSituacaoVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteSituacaoVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteSituacaoVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteSituacaoVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarSituacaoVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarSituacaoVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarSituacaoVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarSituacaoVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectSituacaoVendedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectSituacaoVendedor" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectSituacaoVendedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectSituacaoVendedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectSituacaoVendedorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectSituacaoVendedorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectSituacaoVendedorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectSituacaoVendedorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteCategoriaProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCategoriaProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteCategoriaProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCategoriaProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarCategoriaProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarCategoriaProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarCategoriaProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarCategoriaProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCategoriaProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCategoriaProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCategoriaProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCategoriaProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCategoriaProdutoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCategoriaProdutoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectCategoriaProdutoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectCategoriaProdutoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteTipoPagamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteTipoPagamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteTipoPagamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteTipoPagamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarTipoPagamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarTipoPagamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarTipoPagamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarTipoPagamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectTipoPagamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectTipoPagamento" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectTipoPagamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectTipoPagamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectTipoPagamentoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectTipoPagamentoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectTipoPagamentoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectTipoPagamentoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteLocalVenda_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLocalVenda" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteLocalVenda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLocalVendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarLocalVenda_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarLocalVenda" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarLocalVenda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarLocalVendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectLocalVenda_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectLocalVenda" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectLocalVenda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectLocalVendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectLocalVendaPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectLocalVendaPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectLocalVendaPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectLocalVendaPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteFuncionario_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFuncionario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteFuncionario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFuncionarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarFuncionario_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarFuncionario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarFuncionario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarFuncionarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectFuncionario_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFuncionario" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectFuncionario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFuncionarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectFuncionarioPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFuncionarioPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectFuncionarioPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectFuncionarioPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_DeleteProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SalvarAtualizarProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAtualizarProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectProduto_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectProduto" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectProduto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectProdutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectProdutoPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectProdutoPagina" />
+  </wsdl:message>
+  <wsdl:message name="IServicoSIS_SelectProdutoPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectProdutoPaginaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicoSIS">
+    <wsdl:operation name="DeleteVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteVendedor" message="tns:IServicoSIS_DeleteVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteVendedorResponse" message="tns:IServicoSIS_DeleteVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarVendedor" message="tns:IServicoSIS_SalvarAtualizarVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarVendedorResponse" message="tns:IServicoSIS_SalvarAtualizarVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectVendedor" message="tns:IServicoSIS_SelectVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectVendedorResponse" message="tns:IServicoSIS_SelectVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectVendedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectVendedorPagina" message="tns:IServicoSIS_SelectVendedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectVendedorPaginaResponse" message="tns:IServicoSIS_SelectVendedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectUsuario" message="tns:IServicoSIS_SelectUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectUsuarioResponse" message="tns:IServicoSIS_SelectUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectControleAcesso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectControleAcesso" message="tns:IServicoSIS_SelectControleAcesso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectControleAcessoResponse" message="tns:IServicoSIS_SelectControleAcesso_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCargo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteCargo" message="tns:IServicoSIS_DeleteCargo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteCargoResponse" message="tns:IServicoSIS_DeleteCargo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarCargo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarCargo" message="tns:IServicoSIS_SalvarAtualizarCargo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarCargoResponse" message="tns:IServicoSIS_SalvarAtualizarCargo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectCargo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectCargo" message="tns:IServicoSIS_SelectCargo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectCargoResponse" message="tns:IServicoSIS_SelectCargo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectCargoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectCargoPagina" message="tns:IServicoSIS_SelectCargoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectCargoPaginaResponse" message="tns:IServicoSIS_SelectCargoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSituacaoVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteSituacaoVendedor" message="tns:IServicoSIS_DeleteSituacaoVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteSituacaoVendedorResponse" message="tns:IServicoSIS_DeleteSituacaoVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarSituacaoVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarSituacaoVendedor" message="tns:IServicoSIS_SalvarAtualizarSituacaoVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarSituacaoVendedorResponse" message="tns:IServicoSIS_SalvarAtualizarSituacaoVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectSituacaoVendedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectSituacaoVendedor" message="tns:IServicoSIS_SelectSituacaoVendedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectSituacaoVendedorResponse" message="tns:IServicoSIS_SelectSituacaoVendedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectSituacaoVendedorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectSituacaoVendedorPagina" message="tns:IServicoSIS_SelectSituacaoVendedorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectSituacaoVendedorPaginaResponse" message="tns:IServicoSIS_SelectSituacaoVendedorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCategoriaProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteCategoriaProduto" message="tns:IServicoSIS_DeleteCategoriaProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteCategoriaProdutoResponse" message="tns:IServicoSIS_DeleteCategoriaProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarCategoriaProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarCategoriaProduto" message="tns:IServicoSIS_SalvarAtualizarCategoriaProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarCategoriaProdutoResponse" message="tns:IServicoSIS_SalvarAtualizarCategoriaProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectCategoriaProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectCategoriaProduto" message="tns:IServicoSIS_SelectCategoriaProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectCategoriaProdutoResponse" message="tns:IServicoSIS_SelectCategoriaProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectCategoriaProdutoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectCategoriaProdutoPagina" message="tns:IServicoSIS_SelectCategoriaProdutoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectCategoriaProdutoPaginaResponse" message="tns:IServicoSIS_SelectCategoriaProdutoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTipoPagamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteTipoPagamento" message="tns:IServicoSIS_DeleteTipoPagamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteTipoPagamentoResponse" message="tns:IServicoSIS_DeleteTipoPagamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarTipoPagamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarTipoPagamento" message="tns:IServicoSIS_SalvarAtualizarTipoPagamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarTipoPagamentoResponse" message="tns:IServicoSIS_SalvarAtualizarTipoPagamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectTipoPagamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectTipoPagamento" message="tns:IServicoSIS_SelectTipoPagamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectTipoPagamentoResponse" message="tns:IServicoSIS_SelectTipoPagamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectTipoPagamentoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectTipoPagamentoPagina" message="tns:IServicoSIS_SelectTipoPagamentoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectTipoPagamentoPaginaResponse" message="tns:IServicoSIS_SelectTipoPagamentoPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLocalVenda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteLocalVenda" message="tns:IServicoSIS_DeleteLocalVenda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteLocalVendaResponse" message="tns:IServicoSIS_DeleteLocalVenda_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarLocalVenda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarLocalVenda" message="tns:IServicoSIS_SalvarAtualizarLocalVenda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarLocalVendaResponse" message="tns:IServicoSIS_SalvarAtualizarLocalVenda_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectLocalVenda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectLocalVenda" message="tns:IServicoSIS_SelectLocalVenda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectLocalVendaResponse" message="tns:IServicoSIS_SelectLocalVenda_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectLocalVendaPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectLocalVendaPagina" message="tns:IServicoSIS_SelectLocalVendaPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectLocalVendaPaginaResponse" message="tns:IServicoSIS_SelectLocalVendaPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFuncionario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteFuncionario" message="tns:IServicoSIS_DeleteFuncionario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteFuncionarioResponse" message="tns:IServicoSIS_DeleteFuncionario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarFuncionario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarFuncionario" message="tns:IServicoSIS_SalvarAtualizarFuncionario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarFuncionarioResponse" message="tns:IServicoSIS_SalvarAtualizarFuncionario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectFuncionario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectFuncionario" message="tns:IServicoSIS_SelectFuncionario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectFuncionarioResponse" message="tns:IServicoSIS_SelectFuncionario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectFuncionarioPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectFuncionarioPagina" message="tns:IServicoSIS_SelectFuncionarioPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectFuncionarioPaginaResponse" message="tns:IServicoSIS_SelectFuncionarioPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/DeleteProduto" message="tns:IServicoSIS_DeleteProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/DeleteProdutoResponse" message="tns:IServicoSIS_DeleteProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarProduto" message="tns:IServicoSIS_SalvarAtualizarProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SalvarAtualizarProdutoResponse" message="tns:IServicoSIS_SalvarAtualizarProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectProduto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectProduto" message="tns:IServicoSIS_SelectProduto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectProdutoResponse" message="tns:IServicoSIS_SelectProduto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectProdutoPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicoSIS/SelectProdutoPagina" message="tns:IServicoSIS_SelectProdutoPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicoSIS/SelectProdutoPaginaResponse" message="tns:IServicoSIS_SelectProdutoPagina_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicoSIS" type="tns:IServicoSIS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DeleteVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectVendedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectVendedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectControleAcesso">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectControleAcesso" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCargo">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarCargo">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectCargo">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectCargoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectCargoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSituacaoVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteSituacaoVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarSituacaoVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarSituacaoVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectSituacaoVendedor">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectSituacaoVendedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectSituacaoVendedorPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectSituacaoVendedorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCategoriaProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteCategoriaProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarCategoriaProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarCategoriaProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectCategoriaProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectCategoriaProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectCategoriaProdutoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectCategoriaProdutoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTipoPagamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteTipoPagamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarTipoPagamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarTipoPagamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectTipoPagamento">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectTipoPagamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectTipoPagamentoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectTipoPagamentoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLocalVenda">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteLocalVenda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarLocalVenda">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarLocalVenda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectLocalVenda">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectLocalVenda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectLocalVendaPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectLocalVendaPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFuncionario">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteFuncionario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarFuncionario">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarFuncionario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectFuncionario">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectFuncionario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectFuncionarioPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectFuncionarioPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/DeleteProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAtualizarProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SalvarAtualizarProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectProduto">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectProdutoPagina">
+      <soap:operation soapAction="http://tempuri.org/IServicoSIS/SelectProdutoPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicoSIS">
+    <wsdl:port name="BasicHttpBinding_IServicoSIS" binding="tns:BasicHttpBinding_IServicoSIS">
+      <soap:address location="http://localhost/SISService1/ServicoSIS.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

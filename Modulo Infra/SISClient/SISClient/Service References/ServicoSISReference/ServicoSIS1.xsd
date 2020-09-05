@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SISService.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SISService.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="VendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LocalVenda" nillable="true" type="tns:LocalVendaDTO" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SituacaoVendedor" nillable="true" type="tns:SituacaoVendedorDTO" />
+      <xs:element minOccurs="0" name="TipoPagamento" nillable="true" type="tns:TipoPagamentoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VendedorDTO" nillable="true" type="tns:VendedorDTO" />
+  <xs:complexType name="LocalVendaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Numero" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LocalVendaDTO" nillable="true" type="tns:LocalVendaDTO" />
+  <xs:complexType name="SituacaoVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SituacaoVendedorDTO" nillable="true" type="tns:SituacaoVendedorDTO" />
+  <xs:complexType name="TipoPagamentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TipoPagamentoDTO" nillable="true" type="tns:TipoPagamentoDTO" />
+  <xs:complexType name="ArrayOfVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VendedorDTO" nillable="true" type="tns:VendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVendedorDTO" nillable="true" type="tns:ArrayOfVendedorDTO" />
+  <xs:complexType name="UsuarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataCadastro" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFuncionario" type="xs:int" />
+      <xs:element minOccurs="0" name="IdPapel" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Senha" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioDTO" nillable="true" type="tns:UsuarioDTO" />
+  <xs:complexType name="ViewControleAcessoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Formulario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Habilitado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdFuncao" type="xs:int" />
+      <xs:element minOccurs="0" name="IdPapel" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ViewControleAcessoDTO" nillable="true" type="tns:ViewControleAcessoDTO" />
+  <xs:complexType name="ArrayOfViewControleAcessoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ViewControleAcessoDTO" nillable="true" type="tns:ViewControleAcessoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfViewControleAcessoDTO" nillable="true" type="tns:ArrayOfViewControleAcessoDTO" />
+  <xs:complexType name="CargoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CargoDTO" nillable="true" type="tns:CargoDTO" />
+  <xs:complexType name="ArrayOfCargoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CargoDTO" nillable="true" type="tns:CargoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCargoDTO" nillable="true" type="tns:ArrayOfCargoDTO" />
+  <xs:complexType name="ArrayOfSituacaoVendedorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SituacaoVendedorDTO" nillable="true" type="tns:SituacaoVendedorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSituacaoVendedorDTO" nillable="true" type="tns:ArrayOfSituacaoVendedorDTO" />
+  <xs:complexType name="CategoriaProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CategoriaProdutoDTO" nillable="true" type="tns:CategoriaProdutoDTO" />
+  <xs:complexType name="ArrayOfCategoriaProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CategoriaProdutoDTO" nillable="true" type="tns:CategoriaProdutoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategoriaProdutoDTO" nillable="true" type="tns:ArrayOfCategoriaProdutoDTO" />
+  <xs:complexType name="ArrayOfTipoPagamentoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TipoPagamentoDTO" nillable="true" type="tns:TipoPagamentoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTipoPagamentoDTO" nillable="true" type="tns:ArrayOfTipoPagamentoDTO" />
+  <xs:complexType name="ArrayOfLocalVendaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalVendaDTO" nillable="true" type="tns:LocalVendaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLocalVendaDTO" nillable="true" type="tns:ArrayOfLocalVendaDTO" />
+  <xs:complexType name="FuncionarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cargo" nillable="true" type="tns:CargoDTO" />
+      <xs:element minOccurs="0" name="Celular1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Celular2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FuncionarioDTO" nillable="true" type="tns:FuncionarioDTO" />
+  <xs:complexType name="ArrayOfFuncionarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FuncionarioDTO" nillable="true" type="tns:FuncionarioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFuncionarioDTO" nillable="true" type="tns:ArrayOfFuncionarioDTO" />
+  <xs:complexType name="ProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CategoriaProduto" nillable="true" type="tns:CategoriaProdutoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProdutoDTO" nillable="true" type="tns:ProdutoDTO" />
+  <xs:complexType name="ArrayOfProdutoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProdutoDTO" nillable="true" type="tns:ProdutoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProdutoDTO" nillable="true" type="tns:ArrayOfProdutoDTO" />
+</xs:schema>

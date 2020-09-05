@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="SISService" namespace="SISService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="UsuarioDTO" table="usuario" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="IdFuncionario" column="ID_FUNCIONARIO" />
+    <property name="IdPapel" column="ID_PAPEL" />
+    <property name="Login" column="LOGIN" />
+    <property name="Senha" column="SENHA" />
+    <property name="DataCadastro" column="DATA_CADASTRO" />
+  </class>
+</hibernate-mapping>

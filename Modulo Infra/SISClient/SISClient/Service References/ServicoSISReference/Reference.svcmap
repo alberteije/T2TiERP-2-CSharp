@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b3c04a41-b7b2-436e-9772-536ff40a2de9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SISService1/ServicoSIS.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoSIS.disco" MetadataType="Disco" ID="98e7239c-6340-4c61-b701-859e2ed27680" SourceId="1" SourceUrl="http://localhost/SISService1/ServicoSIS.svc?disco" />
+    <MetadataFile FileName="ServicoSIS.xsd" MetadataType="Schema" ID="6542ca32-1e01-48f0-8619-5ef1fe6d99f3" SourceId="1" SourceUrl="http://localhost/SISService1/ServicoSIS.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoSIS1.xsd" MetadataType="Schema" ID="0cc962f7-5431-4d6c-a071-45b0bd944995" SourceId="1" SourceUrl="http://localhost/SISService1/ServicoSIS.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoSIS2.xsd" MetadataType="Schema" ID="05a3363a-64f3-4d09-afaf-5f9c50d042ac" SourceId="1" SourceUrl="http://localhost/SISService1/ServicoSIS.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoSIS.wsdl" MetadataType="Wsdl" ID="56217796-daa6-4c28-880b-c82ad05a6a8b" SourceId="1" SourceUrl="http://localhost/SISService1/ServicoSIS.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,11 @@
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\SISService.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\SISService.pdb
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\Iesi.Collections.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\LinFu.DynamicProxy.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\MySql.Data.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\NHibernate.ByteCode.LinFu.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\bin\NHibernate.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\obj\Debug\SISService.dll
+C:\Documents and Settings\Eije\Desktop\Infra\C#\SISService\SISService\obj\Debug\SISService.pdb

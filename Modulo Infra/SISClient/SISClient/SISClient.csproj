@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{373DBD5C-C033-462C-92AE-30D651B664C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISClient</RootNamespace>
+    <AssemblyName>SISClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExportarParaArquivo">
+      <HintPath>..\..\libs\ButtonExport\ExportarParaArquivo.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\libs\ButtonExport\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NRtfTree">
+      <HintPath>..\..\libs\ButtonExport\NRtfTree.dll</HintPath>
+    </Reference>
+    <Reference Include="SearchWindow">
+      <HintPath>..\..\libs\SearchWindow\SearchWindow.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RibbonControlsLibrary" />
+    <Reference Include="Microsoft.Windows.Shell" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Model\ServicoSIS.cs" />
+    <Compile Include="Service References\ServicoSISReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\CargoViewModel.cs" />
+    <Compile Include="ViewModel\CategoriaProdutoViewModel.cs" />
+    <Compile Include="ViewModel\FuncionarioViewModel.cs" />
+    <Compile Include="ViewModel\LocalVendaViewModel.cs" />
+    <Compile Include="ViewModel\ProdutoViewModel.cs" />
+    <Compile Include="ViewModel\SituacaoVendedorViewModel.cs" />
+    <Compile Include="ViewModel\TipoPagamentoViewModel.cs" />
+    <Compile Include="ViewModel\VendedorViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="Util\BooleanCharConverter.cs" />
+    <Compile Include="Util\CloseableTabItem.cs" />
+    <Compile Include="Util\MoedaFormat.cs" />
+    <Compile Include="Util\RadioStringConverter.cs" />
+    <Compile Include="ViewModel\UsuarioViewModel.cs" />
+    <Compile Include="View\Botoes\BarraExterna.xaml.cs">
+      <DependentUpon>BarraExterna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Botoes\BarraInterna.xaml.cs">
+      <DependentUpon>BarraInterna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cargo.xaml.cs">
+      <DependentUpon>Cargo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CargoLista.xaml.cs">
+      <DependentUpon>CargoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CargoPrincipal.xaml.cs">
+      <DependentUpon>CargoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CategoriaProduto.xaml.cs">
+      <DependentUpon>CategoriaProduto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CategoriaProdutoLista.xaml.cs">
+      <DependentUpon>CategoriaProdutoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CategoriaProdutoPrincipal.xaml.cs">
+      <DependentUpon>CategoriaProdutoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Funcionario.xaml.cs">
+      <DependentUpon>Funcionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FuncionarioLista.xaml.cs">
+      <DependentUpon>FuncionarioLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FuncionarioPrincipal.xaml.cs">
+      <DependentUpon>FuncionarioPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LocalVenda.xaml.cs">
+      <DependentUpon>LocalVenda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LocalVendaLista.xaml.cs">
+      <DependentUpon>LocalVendaLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LocalVendaPrincipal.xaml.cs">
+      <DependentUpon>LocalVendaPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Produto.xaml.cs">
+      <DependentUpon>Produto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProdutoLista.xaml.cs">
+      <DependentUpon>ProdutoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProdutoPrincipal.xaml.cs">
+      <DependentUpon>ProdutoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SISPrincipal.xaml.cs">
+      <DependentUpon>SISPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SISMenu.xaml.cs">
+      <DependentUpon>SISMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="View\SituacaoVendedor.xaml.cs">
+      <DependentUpon>SituacaoVendedor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SituacaoVendedorLista.xaml.cs">
+      <DependentUpon>SituacaoVendedorLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SituacaoVendedorPrincipal.xaml.cs">
+      <DependentUpon>SituacaoVendedorPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TipoPagamento.xaml.cs">
+      <DependentUpon>TipoPagamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TipoPagamentoLista.xaml.cs">
+      <DependentUpon>TipoPagamentoLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TipoPagamentoPrincipal.xaml.cs">
+      <DependentUpon>TipoPagamentoPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Vendedor.xaml.cs">
+      <DependentUpon>Vendedor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VendedorLista.xaml.cs">
+      <DependentUpon>VendedorLista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VendedorPrincipal.xaml.cs">
+      <DependentUpon>VendedorPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Page Include="themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Botoes\BarraExterna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Botoes\BarraInterna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Cargo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\CargoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\CargoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\CategoriaProduto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\CategoriaProdutoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\CategoriaProdutoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Funcionario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\FuncionarioLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\FuncionarioPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\LocalVenda.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\LocalVendaLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\LocalVendaPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Produto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ProdutoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ProdutoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\SISPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\SISMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\SituacaoVendedor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\SituacaoVendedorLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\SituacaoVendedorPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\TipoPagamento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\TipoPagamentoLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\TipoPagamentoPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Vendedor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\VendedorLista.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\VendedorPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\ServicoSISReference\ServicoSIS.wsdl" />
+    <None Include="Service References\ServicoSISReference\ServicoSIS.xsd" />
+    <None Include="Service References\ServicoSISReference\ServicoSIS1.xsd" />
+    <None Include="Service References\ServicoSISReference\ServicoSIS2.xsd" />
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.CargoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.CategoriaProdutoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.FuncionarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.LocalVendaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.ProdutoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.SituacaoVendedorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.TipoPagamentoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.VendedorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicoSISReference\SISClient.ServicoSISReference.ViewControleAcessoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\navigator\first16.png" />
+    <Resource Include="Images\navigator\first16d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\navigator\last16.png" />
+    <Resource Include="Images\navigator\last16d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\navigator\next16.png" />
+    <Resource Include="Images\navigator\next16d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\navigator\page-next16.png" />
+    <Resource Include="Images\navigator\page-next16d.png" />
+    <Resource Include="Images\navigator\page-prior16.png" />
+    <Resource Include="Images\navigator\page-prior16d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\navigator\prior16.png" />
+    <Resource Include="Images\navigator\prior16d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\localizar.png" />
+    <Resource Include="Images\internos\inserir.png" />
+    <Resource Include="Images\internos\seguranca.png" />
+    <Resource Include="Images\internos\alterar.png" />
+    <Resource Include="Images\internos\excluir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\botaoCancelar.png" />
+    <Resource Include="Images\botaoConfirmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\salvar.png" />
+    <Resource Include="Images\internos\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\exportar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\xls.png" />
+    <Resource Include="Images\internos\txt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\rtf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\csv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\internos\imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\cargo16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\cargo48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\cargo32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\t2ti32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\porta32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\colaborador16.png" />
+    <Resource Include="Images\titulos\colaborador32.png" />
+    <Resource Include="Images\titulos\colaborador48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\usuario16.png" />
+    <Resource Include="Images\titulos\usuario32.png" />
+    <Resource Include="Images\titulos\usuario48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\usuarioAcesso32.png" />
+    <Resource Include="Images\titulos\usuarioAcesso48.png" />
+    <Resource Include="Images\titulos\usuarioAcesso64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\calendario16.png" />
+    <Resource Include="Images\titulos\calendario32.png" />
+    <Resource Include="Images\titulos\calendario48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\situacaoVendedor16.png" />
+    <Resource Include="Images\titulos\situacaoVendedor32.png" />
+    <Resource Include="Images\titulos\situacaoVendedor48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\localVenda16.png" />
+    <Resource Include="Images\titulos\localVenda32.png" />
+    <Resource Include="Images\titulos\localVenda48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\tipoPagamento16.png" />
+    <Resource Include="Images\titulos\tipoPagamento32.png" />
+    <Resource Include="Images\titulos\tipoPagamento48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\produto16.png" />
+    <Resource Include="Images\titulos\produto32.png" />
+    <Resource Include="Images\titulos\produto48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\categoriaProduto16.png" />
+    <Resource Include="Images\titulos\categoriaProduto32.png" />
+    <Resource Include="Images\titulos\categoriaProduto48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\titulos\vendedor16.png" />
+    <Resource Include="Images\titulos\vendedor32.png" />
+    <Resource Include="Images\titulos\vendedor48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicoSISReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoSISReference\ServicoSIS.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoSISReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoSISReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoSISReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
